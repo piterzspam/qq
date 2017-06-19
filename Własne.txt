@@ -104,6 +104,7 @@ opensubtitles.org##TR:has(TD > IFRAME[src*="ads2.opensubtitles.org"])
 ||static.opensubtitles.org/libs/js/urlshortener.js?$important,domain=opensubtitles.org
 ||toplist.cz$domain=opensubtitles.org
 ||ws-gateway.com
+||opensubtitles.org/*player$subdocument
 @@||CHOMIKUJ.PL^$generichide
 chomikuj.pl##DIV#plugininInstallerDiv
 chomikuj.pl##LI.fileActionsFacebookSend
