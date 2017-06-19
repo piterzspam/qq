@@ -3,11 +3,6 @@
 ||docplayer.pl/*report*.gif
 ||docplayer.pl/*getviewscount
 docplayer.pl##DIV#toast-container
-@@||5F.PL^$generichide
-5f.pl##HEADER#warn-bar
-5f.pl##DIV#cookiefloat
-5f.pl##DIV#bossbyte_slide
-||5f.pl/*ga.js
 @@||NAPIPROJEKT.PL^$generichide
 napiprojekt.pl##DIV.cc-cookies
 @@||napiprojekt.pl/*ads.js
