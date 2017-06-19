@@ -1113,15 +1113,8 @@ ask.fm##DIV.policy-message.cookie
 spidersweb.pl##P.czytajkolejny
 spidersweb.pl##A.socialrev
 ||spidersweb.pl/*/socialite.js
-||ocs-pl.oktawave.com/*1200x300
-||ocs-pl.oktawave.com/*1200x400
-||ocs-pl.oktawave.com/*1200x500
-||ocs-pl.oktawave.com/*400x400
-||ocs-pl.oktawave.com/*1180x500
-||ocs-pl.oktawave.com/*380x720
-||ocs-pl.oktawave.com/*300x300
-||ocs-pl.oktawave.com/*300x250
-||ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2016/12/mv.jpg
+||tookapic.com/js/widgets/init.js|$script,third-party
+/(bezprawnik\.pl|oktawave\.com)\/.*[0-9](50|80|00)x[0-9](50|00)/$image,domain=spidersweb.pl|bezprawnik.pl
 spidersweb.pl##DIV.four.columns.pull-right
 ||exelator.com
 ||pippio.com
