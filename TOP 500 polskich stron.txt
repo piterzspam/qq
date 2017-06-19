@@ -292,6 +292,8 @@ twitch.tv##DIV.noty_message
 ||mixpanel.com
 ||mxpnl.com
 @@||REDDIT.COM^$generichide
+reddit.com##DIV.dfp-ad-container
+reddit.com##DIV.promotedlink
 reddit.com##FORM#eu-cookie-policy
 ||events.redditmedia.com
 ||pixel.redditmedia.com
