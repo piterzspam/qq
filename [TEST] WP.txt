@@ -1,0 +1,129 @@
+!Title: [TEST] WP
+next-posts$domain=gadzetomania.pl|komorkomania.pl
+stats*view$domain=gadzetomania.pl|komorkomania.pl
+gadzetomania.pl,komorkomania.pl##FIGURE.insert.insert--size-m:has-text(Zobacz również:)
+gadzetomania.pl,komorkomania.pl##DIV[id^="post-socials"]
+gadzetomania.pl,komorkomania.pl##DIV#exit-intent-modal
+gadzetomania.pl,komorkomania.pl##FIGURE.insert.insert--size-b.align-center
+gadzetomania.pl,komorkomania.pl##FIGURE.insert.insert--size-m.align-center
+gadzetomania.pl,komorkomania.pl##DIV#like-us-adblock-modal
+gadzetomania.pl,komorkomania.pl##ARTICLE.grid-item.grid-item--100.align-center
+gadzetomania.pl,komorkomania.pl##FIGURE.insert.insert--top-offer.align-center
+wp.pl##A#comments + DIV > DIV:has-text(Podziel się na Facebooku)
+wp.pl##ARTICLE > DIV > DIV:has(DIV.fb-like)
+wp.pl##ARTICLE[data-st-area="article-article"] > DIV[class][data-reactid]:has-text(Więcej na ten temat:)
+wp.pl##DIV.facebook
+wp.pl##DIV[class][data-reactid]:matches-css(width: 60px):has-text(Podziel się)
+wp.pl##FIGURE[id] > DIV:has-text(Podziel się)
+wp.pl##P:has-text(Przeczytaj też:)
+wp.pl##SPAN > DIV:has-text(zapisuje pliki cookie)
+www.wp.pl##DIV:matches-css(height: /^[0-9]{3}px$/):matches-css(width: /^[0-9]{3}px$/):if-not(IMG[src*="wpimg.pl"])
+wp.pl##DIV#relatedVideo
+wp.pl##SECTION#section_shopping
+wp.pl##DIV:matches-css(min-height: /^[0-9]{3}px$/):matches-css(line-height: /^[0-9]{3}px$/):if(IMG[alt="wp"])
+wp.pl##SMALL.article--photoSource
+@@||dot.wp.pl/*logout.html
+||imasdk.googleapis.com/*sdkloader$domain=wp.pl,important
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,important
+||googletagservices.com
+||businessclick.com
+||googlesyndication.com
+||gemius.pl
+||criteo.net
+||ut.o2.pl
+||atemda.com
+||adform.net
+||openx.net
+||criteo.com
+||pubmatic.com
+||smartclick.pl
+||smartadserver.com
+||dnn506yrbagrg.cloudfront.net
+||dot.wp.pl
+||google-analytics.com
+||hotjar.com
+||facebook.com$third-party
+||facebook.net
+||imasdk.googleapis.com
+||adnxs.com
+||creativecdn.com
+||wpimg.pl/*gemius.js
+||wpimg.pl/*sst_100.js
+||wpimg.pl/*wpsocial.js
+||wp.tv/*/article_related.js
+||wpimg.pl/*cookie-info.js
+||newsletter.wp.pl
+||rek.www.wp.pl
+||hyperplus.pl
+||adv.wp.pl/RM/ads/adstream_lx.ads/
+||rek.www.wp.pl/cap.gif
+||adv.wp.pl
+@@||adv.wp.pl/RM/Box/$media
+||2mdn.net
+||visualwebsiteoptimizer.com
+||dynacrems.wp.pl
+||owabgxis.wp.pl$script
+||fntajkb.wp.pl$script
+||adv.wp.pl$script
+||rek.www.wp.pl$script
+/^https?:\/\/[^\/]*wp\.pl\/.{500}/$script
+||wp.pl$beacon
+||wp.pl/*PrerollImpression
+||shoplov.in$script,third-party
+!Auto-ładowanie kolejnego artykułu
+/^https?:\/\/[^\/]*wp\.pl\/.{77}$/$xmlhttprequest
+/^https?:\/\/[^\/]*wp\.pl\/.{200}/$image
+||money.pl/*quiz$script,stylesheet
+||w2cgfwrhfzw.wp.pl
+||i.wp.pl$~image$domain=~poczta.wp.pl|~profil.wp.pl
+||fntajkb.wp.pl
+money.pl##DIV[style="text-align:center;min-height:180px"]
+||money.pl/*html?adrail=$xmlhttprequest
+money.pl##DIV.like-us
+money.pl##svg#iconLoading
+@@||rek.www.wp.pl$script,domain=wp.pl
+@@||adv.wp.pl$script,domain=wp.pl
+@@||fntajkb.wp.pl$image,script,xmlhttprequest,domain=wp.pl
+@@||owabgxis.wp.pl$image,script,domain=wp.pl
+@@||adv.wp.pl/RM/ads/adstream_lx.ads/
+!
+/^https?:\/\/[^\/]*wp\.pl\/.{129}$/$xmlhttprequest
+@@/^https?:\/\/[^\/]*wp\.pl\/.{129}$/$xmlhttprequest
+/^https?:\/\/[^\/]*wp\.pl\/.{500}/$xmlhttprequest
+@@/^https?:\/\/[^\/]*wp\.pl\/.{500}/$xmlhttprequest
+@@||wp.tv/*embed.json
+@@||wp.tv/*related.json
+
+
+!(function(){window.__bc_show_ad=true;window.ADS_BC_Slot
+/^https?:\/\/[^\/]*wp\.pl\/.{409}$/$script
+@@/^https?:\/\/[^\/]*wp\.pl\/.{409}$/$script
+
+!!function(t,e){function n(t,e,n)
+/^https?:\/\/[^\/]*wp\.pl\/.{465}$/$script
+@@/^https?:\/\/[^\/]*wp\.pl\/.{465}$/$script
+
+!/*! WPJSlib 2.* (*) */
+/^https?:\/\/[^\/]*wp\.pl\/.{485}$/$script
+@@/^https?:\/\/[^\/]*wp\.pl\/.{485}$/$script
+
+!function(*){function n(*){if(r[*])return r[*].exports;
+/^https?:\/\/[^\/]*wp\.pl\/.{449}$/$script
+@@/^https?:\/\/[^\/]*wp\.pl\/.{449}$/$script
+
+!webpackJsonp(*)
+||wp.pl/*0.0.js$script
+@@||wp.pl/*0.0.js$script
+
+!/*Copyright 2015-2017 Wirtualna Polska */
+/^https?:\/\/[^\/]*wp\.pl\/.{469}$/$script
+@@/^https?:\/\/[^\/]*wp\.pl\/.{469}$/$script
+/^https?:\/\/[^\/]*wp\.pl\/.{493}$/$script
+@@/^https?:\/\/[^\/]*wp\.pl\/.{493}$/$script
+
+||wp.tv/*incview.json
+||wp.pl/*?sw=*&sh=
+||adv.wp.pl$important,domain=poczta.wp.pl|profil.wp.pl|www.wp.pl
+||fntajkb.wp.pl$important,domain=poczta.wp.pl|profil.wp.pl|www.wp.pl
+||owabgxis.wp.pl$important,domain=poczta.wp.pl|profil.wp.pl|www.wp.pl
+||profil.wp.pl/*obrazek.html

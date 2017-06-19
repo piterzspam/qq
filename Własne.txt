@@ -1,0 +1,273 @@
+!Title: Własne
+@@||DOCPLAYER.PL^$generichide
+||docplayer.pl/*report*.gif
+||docplayer.pl/*getviewscount
+docplayer.pl##DIV#toast-container
+@@||5F.PL^$generichide
+5f.pl##HEADER#warn-bar
+5f.pl##DIV#cookiefloat
+5f.pl##DIV#bossbyte_slide
+||5f.pl/*ga.js
+@@||NAPIPROJEKT.PL^$generichide
+napiprojekt.pl##DIV.cc-cookies
+@@||napiprojekt.pl/*ads.js
+@@||ZADANE.PL^$generichide
+zadane.pl##DIV.sg-overlay.js-toplayer-close.js-toplayer-remove-on-close
+zadane.pl##DIV.brn-katie
+zadane.pl##DIV[class*="ads"]
+zadane.pl##DIV.sg-layout__box:if(DIV[class*="promo"])
+@@||MATEMATYKA.PL^$generichide
+matematyka.pl##INS.adsbygoogle
+matematyka.pl##DIV#cookies-message-container
+matematyka.pl##TABLE.tablebg:if-not(B.postauthor)
+||matematyka.pl/images/animacja.gif
+@@||SADISTIC.PL^$generichide
+ngx_pagespeed_beacon
+sadistic.pl##DIV.portal > ARTICLE.images[style="text-align: center; padding: 30px; min-height: 300px"]
+@@||DOBREPROGRAMY^$generichide
+dobreprogramy.pl##DIV#cookies
+dobreprogramy.pl##SECTION.social
+||dobreprogramy.pl/*.axd?d=
+||dpcdn.pl/*pattern.png
+dobreprogramy.pl##DIV[style="width: 300px; min-height: 250px;"]
+dobreprogramy.pl##DIV#cookiesPanel
+dobreprogramy.pl##DIV.page-element.center.target
+dobreprogramy.pl##SECTION.block.no-mobile
+dobreprogramy.pl##A.no-mobile
+dobreprogramy.pl##DIV.tools-social
+dobreprogramy.pl##SECTION#komentarze > DIV.grid-margin-px15-top
+dobreprogramy.pl##DIV#phContent_CommentsControl_divAdTop
+dobreprogramy.pl##DIV.grid-margin-px30-bottom.clearfix:has-text(Asystent)
+||wp.pl$domain=dobreprogramy.pl,important
+@@||WYKOP.PL^$generichide
+wykop.pl##.cookie
+wykop.pl##.type-permanent+#nav:style(top: 0px !important;)
+wykop.pl##.type-permanent+#nav+div:style(padding-top: 49px !important;)
+wykop.pl###itemsStream .link:has(.article.preview.blacklisted)
+wykop.pl###itemsStream .link:has(.link img[src^="/paylink"])
+wykop.pl###itemsStream .link:has(a[href$="/reklama/"])
+@@||KLP.PL^$generichide
+klp.pl###reklama-w-srodku-artykulu
+klp.pl###reklama-w-artykule
+klp.pl#DIV##[style="height:280px; width:336px;"]
+@@||ALIEXPRESS.COM^$generichide
+||translate.google.com$domain=aliexpress.com
+||alicdn.com/*/beacon_async.js?
+||mmstat.com
+!Pionowy pasek "Top Selling Products From This Seller" po lewej stronie: https://www.aliexpress.com/item/0-25M-1M-2M-3M-USB-C-Type-C-3-1-Data-Sync-Fast-Charger-Cable/32669108587.html
+||aliexpress.com/product/recommend.htm?productId=*&sceneId=*&categoryId=*&companyId=
+!Zawartość poziomego paska "More products" na dole strony: https://www.aliexpress.com/item/0-25M-1M-2M-3M-USB-C-Type-C-3-1-Data-Sync-Fast-Charger-Cable/32669108587.html
+||us.cobra.aliexpress.com/b2bad.html?
+!Pozostałości po poziomym pasku "More products" na dole strony: https://www.aliexpress.com/item/0-25M-1M-2M-3M-USB-C-Type-C-3-1-Data-Sync-Fast-Charger-Cable/32669108587.html
+aliexpress.com##DIV#j-related-products
+||dmtracking2.alibaba.com
+||alicdn.com/*/aplus_ae.js
+||us.cobra.aliexpress.com/p4pforlist.html?keyword=
+!Pionowy pasek "Recently Viewed Items" po lewej stronie: https://www.aliexpress.com/category/100003569/mobile-phone-cables.html
+||hotproducts.aliexpress.com/wsproduct-openapi-server.html?
+@@||BANGGOOD.COM$generichide
+||banggood.com/index.php?com=record&t=aysnCollect
+||iad.liveperson.net
+||dc.banggood.com
+@@||SPOTIFY.COM^$generichide
+@@||play.spotify.com/xhr/json/log.php
+@@||SHAREPIRATE.COM^$generichide
+||sharepirate.com/expensefunding
+@@||OPENSUBTITLES.ORG^$generichide
+$websocket,important,domain=opensubtitles.org
+/opensubtitles\.org\/[a-z]{2}\/[^.]{52}/$script
+@@||cdnjs.cloudflare.com/ajax/libs/$third-party,script,domain=opensubtitles.org
+opensubtitles.org##A.p.a.a_1
+opensubtitles.org##A.p.a.a_2
+opensubtitles.org##DIV#WarningCodecBanner
+opensubtitles.org##DIV#scrubbuad_style
+opensubtitles.org##DIV.content[style="position:relative;"]:first-child > H1[style="padding:0px;display:inline;"]
+opensubtitles.org##DIV.msg > DIV[style="text-align:center;"]:has(A[target="_blank"][title^="Download"][href]:first-child:last-child)
+opensubtitles.org##DIV.msgarrow
+opensubtitles.org##FIELDSET.intro
+opensubtitles.org##FIELDSET:has(LEGEND:first-child > A[href="/support#vip"]:first-child:last-child)
+opensubtitles.org##FIELDSET:has(TABLE[style="width:100%;"] > TBODY > TR.change.even > TD.smaller[style="white-space:normal;width:42%;"])
+opensubtitles.org##H2:has(H2[style="display:inline;font-size:14px;"] > A[href][title^="Download movie "][rel="nofollow"][target="_blank"]:first-child:last-child)
+opensubtitles.org##H2[style="display:inline;font-size:14px;"]:has(A[target="_blank"][rel="nofollow"][title^="Download movie "][href^="/"]:first-child:last-child)
+opensubtitles.org##P:has(A.clkz)
+opensubtitles.org##TR[style="text-align:center;margin:0px;padding:0px;"]
+opensubtitles.org##TR:has(TD > IFRAME[src*="ads2.opensubtitles.org"])
+||accounts.google.com$domain=opensubtitles.org
+||ads2.opensubtitles.org
+||apis.google.com$domain=opensubtitles.org
+||assoc-amazon.com$domain=opensubtitles.org
+||carambo.la
+||facebook.com$important,domain=opensubtitles.org
+||facebook.net$important,domain=opensubtitles.org
+||hipersushiads.com
+||opensubtitles.org/cdn-cgi/pe/bag2?r[]=
+||opensubtitles.org/gfx/icons/watch_online/en.png
+||opensubtitles.org/libs/js/watch_online.js
+||pixel.watch
+||pleaseletmeadvertise.com
+||static.opensubtitles.org/libs/js/ad_slideout.js?$important,domain=opensubtitles.org
+||static.opensubtitles.org/libs/js/urlshortener.js?$important,domain=opensubtitles.org
+||toplist.cz$domain=opensubtitles.org
+||ws-gateway.com
+@@||CHOMIKUJ.PL^$generichide
+chomikuj.pl##DIV#plugininInstallerDiv
+chomikuj.pl##LI.fileActionsFacebookSend
+chomikuj.pl##DIV#searchPromoTip
+chomikuj.pl##DIV.pp_frame.pp_download_frame
+chomikuj.pl##DIV.recommend_panel
+chomikuj.pl##DIV.ui-tooltip.qtip.ui-helper-reset.ui-tooltip-default.pp_frame.pp_qtip.ui-tooltip-pos-tl
+chomikuj.pl##DIV[style^="background-image:url("]
+chomikuj.pl##DIV.pp_frame
+/(?!https?:\/\/.*\.static-chomikuj\.pl\/)(https?:\/\/.*\.[a-z]*\/)/$third-party,image,domain=chomikuj.pl
+||static-chomikuj.pl/serve/
+||apis.google.com/js/plusone.js$domain=chomikuj.pl
+||books.chomikuj.pl
+||chomikuj.pl/Empty.aspx
+||chomikuj.pl/Images2/*/promo/
+||chomikuj.pl/Thumbnail.aspx?e=
+||chomikuj.pl/action/ChomikChat/MessagesList?
+||chomikuj.pl/action/LastAccounts/RecommendedAccounts?
+||facebook.com$domain=chomikuj.pl
+||facebook.net$domain=chomikuj.pl
+||iwa.iplsc.com$domain=chomikuj.pl
+||youtube.com$domain=chomikuj.pl
+chomikuj.pl##DIV.thumbnail
+chomikuj.pl##DIV.filerow.fileItemContainer > DIV > SPAN.filedescription
+!FREEDISC.PL
+@@||DOCER.PL^$generichide
+||docer.pl/adserver/
+@@||DOCI.PL^$generichide
+doci.pl##DIV#video-ad-preroll
+doci.pl##DIV.padding-10.ad-300
+doci.pl##DIV.padding-10.ad-750
+||doci.pl/adserver/
+||doci.pl/static/css/vider/ads.css
+||exs.pl
+||facebook.net$domain=doci.pl
+||webshark.pl
+@@||FREEDISC.PL^$generichide
+@@||ovh.webshark.pl/adsrv/1/main.js$domain=freedisc.pl
+@@||reseton.net^$generichide
+@@||vider.info^$generichide
+@@||webshark.pl/adserver/1/main_script.js?advertise_check=1
+freedisc.pl##.margin-r-5.content-box > .hard-grey > .menu_small.tip
+freedisc.pl##P.info-close-ads-small
+||clickmatic.pl^$script,redirect=noopjs,important,domain=freedisc.pl
+||freedisc.pl/*watermark/movies.png
+reseton.pl###video_reklamy
+vider.info##DIV#video-ad-preroll
+vider.info##DIV.padding-10.ad-750
+||facebook.net$domain=freedisc.pl
+||freedisc.pl/adserver/
+||litosci.pl$domain=freedisc.pl
+||litosci.pl$domain=vider.info
+||reseton.net/adserver/
+||reseton.pl/adserver/
+||vendimob.pl
+||vider.info/adserver/
+@@||PAN.BAIDU.COM^$generichide
+||baidu.com/rest/*/pcs/file?method=plantcookie
+||hm.baidu.com/h.js?
+||hm.baidu.com/hm.gif?
+||nsclick.baidu.com/v.gif?
+||pan.baidu.com/disk/cmsdata?do=piece&ad=
+||pan.baidu.com/feproxy/ad/
+||pan.baidu.com/pcloud/counter/refreshcount?force
+||pan.baidu.com/share/count?uk=
+@@||AURATORRENT.PL^$generichide
+||pureadexchange.com
+@@||ELECTRO-TORRENT.PL^$generichide
+||electro-torrent.pl/popup.js
+@@||FILMWEB.PL^$generichide
+filmweb.pl##SPAN.loginWithFBContainer
+filmweb.pl##DIV#flashcontent3
+filmweb.pl##DIV.cookieInfo.webPage
+sascdn.com$domain=filmweb.pl
+||gfx.filmweb.pl/adbetween/adx.js
+@@||filmweb.hit.gemius.pl/xgemius.js
+@@||gfx.filmweb.pl/adbetween/adx.js
+@@||FILESHARK.PL$generichide
+@@||pasted.co^$generichide
+pasted.co##DIV#captcha_overlay
+||fancybar.net
+@@||PASTEBIN.COM^$generichide
+||buysellads.com
+||exponential.com
+||circulate.com
+||freestar.io
+||pastebin.com/i/facebook_svg.png
+||pastebin.com/i/twitter_svg.png
+pastebin.com##DIV.banner_728
+pastebin.com##DIV.h_800.tweet
+@@||MATMANA6.PL^$generichide
+||matmana6.pl/images/web/images/*.png?
+matmana6.pl##DIV.widget.c
+@@||MATEMATYKA.PISZ.PL^$generichide
+matematyka.pisz.pl##DIV#cookies-message-container
+matematyka.pisz.pl##DIV#calosc:style(margin-bottom: 100px !important)
+@@||MATEMAKS.PL^$generichide
+matemaks.pl##DIV.cookie_info
+matemaks.pl##DIV.fb-page
+@@||ZDAJMYRAZEM.PL^$generichide
+zdajmyrazem.pl##DIV#cookie-content
+zdajmyrazem.pl##DIV[class*="adsense"]
+zdajmyrazem.pl##DIV.fb-share-button
+zdajmyrazem.pl##DIV.adv
+@@||ALLTUBE.TV^$generichide
+||alltube.tv/*jsverify.js
+@@||TVSO.PL^$generichide
+tvso.pl##BUTTON.fb-share-button
+||onlinesupaads.com
+@@||ALLUC.EE^$generichide
+||alluc.ee/*floa.js
+@@||DIGITALMAZA.ORG^$generichide
+digitalmaza.org##DIV#conversions-box
+digitalmaza.org##DIV.eucookie_wrapper
+digitalmaza.org##DIV#gritter-notice-wrapper
+||digitalmaza.org/*cb.js
+@@||digitalmaza.org/*AdblockDetector
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digitalmaza.org
+@@||JAKZDACMATUREZMATEMATYKI.PL^$generichide
+jakzdacmaturezmatematyki.pl##DIV.reklama_bok_lewy
+jakzdacmaturezmatematyki.pl##DIV#cookies-message-container
+jakzdacmaturezmatematyki.pl##DIV#fb_Like_Box
+jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/premium"]:if(IMG[id^="reklama"])
+jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/sklep"]:if(IMG[id^="reklama"])
+||jakzdacmaturezmatematyki.pl/*reklamy_zewnetrzne
+@@||CKE.EDU.PL^$generichide
+cke.edu.pl##DIV#catapult-cookie-bar
+@@||ZDAJMYRAZEM.PL^$generichide
+zdajmyrazem.pl##DIV.adv_info
+zdajmyrazem.pl##DIV.col-xs-12 > DIV.panel.panel-default.hidden-print
+@@||TOMASZGREBSKI.PL^$generichide
+tomaszgrebski.pl##INS.adsbygoogle
+@@||DUCKDUCKGO.COM^$generichide
+||duckduckgo.com/t/$image
+@@||ALLTUBE.TV^$generichide
+alltube.tv##script:contains(/\S{100}/)
+||rtbnowads.com
+@@||FMOVIES.TO^$generichide
+||fmovies.to/*adx
+||fmovies.to/token
+fmovies.to##DIV.row.hd-buttons
+fmovies.to##DIV[id*="Composite"]
+@@||SOLARMOVIEZ.TO^$generichide
+solarmoviez.to##DIV[id*="ScriptRoot"]
+solarmoviez.to##script:contains(/\S{100}/)
+@@||TELCHINA.PL^$generichide
+||adservice.aliexpress.com
+||tradetracker.net
+telchina.pl##DIV#page-header > A[href]
+@@||MATEMATYKA.PL^$generichide
+||matematyka.pl/*whcookies.js
+@@||GOMOVIES.TO^$generichide
+||zopim.com
+gomovies.to##DIV.content-kuss
+@@||MOBILISM.ORG^$generichide
+||firstimpression.io
+@@||MIUIPOLSKA.PL^$generichide
+miuipolska.pl##INS.adsbygoogle
+@@||PAYPAL.COM^$generichide
+paypal.com##SECTION.cookie-notification
+@@||FILMY.TO^$generichide
+filmy.to##DIV#cookie-bar

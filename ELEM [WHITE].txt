@@ -1,0 +1,54 @@
+!Title: ELEM [WHITE]
+#@#.fshare
+#@#A[href*="utm_campaign"]
+@@new.rapeit.net#@#.adsbygoogle
+allegro.pl#@##featured-offers.offers
+exsite.pl#@#.centered
+facebook.com#@@##rightCol .ego_column.egoOrganicColumn
+fullyleech.com#@##ad_footer_s
+fullyleech.com#@##ads
+fullyleech.com#@##adsense
+fullyleech.com#@##bbo_ad1
+fullyleech.com#@##main-tj-ad
+fullyleech.com#@##privateads
+fullyleech.com#@##subheaderAd
+fullyleech.com#@##top_adspace
+fullyleech.com#@##yahooads
+interia.pl#@#A[href*="utm_campaign"]
+j.gs#@#.pub_300x250
+j.gs#@#.pub_300x250m
+j.gs#@#.pub_728x90
+j.gs#@#.text-ad
+j.gs#@#.text-ad-links
+j.gs#@#.text-ads
+j.gs#@#.textAd
+j.gs#@#.text_ad
+j.gs#@#.text_ads
+poczta.o2.pl#@#div.popup-wrap
+q.gs#@#.pub_300x250
+q.gs#@#.pub_300x250m
+q.gs#@#.pub_728x90
+q.gs#@#.text-ad
+q.gs#@#.text-ad-links
+q.gs#@#.text-ads
+q.gs#@#.textAd
+q.gs#@#.text_ad
+q.gs#@#.text_ads
+sharedir.com#@#.window
+sharedplaylists.com#@#.adsbygoogle
+sharedplaylists.com#@#.advert
+sharedplaylists.com#@#.pub_300x250
+sharedplaylists.com#@#.pub_300x250m
+sharedplaylists.com#@#.pub_728x90
+sharedplaylists.com#@#.text-ad
+sharedplaylists.com#@#.text-ad-links
+sharedplaylists.com#@#.text-ads
+sharedplaylists.com#@#.textAd
+sharedplaylists.com#@#.text_ad
+sharedplaylists.com#@#.text_ads
+uploaded-fastpremium.com#@##ads
+videodebrid.ga#@##ads
+vleech.net#@#.fa-facebook
+wykop.pl#@#body > div.type-permanent:not([id])
+wykop.pl#@#div[class*="cookie"]
+zippyshare.com#@##lrbox > .center:nth-of-type(3)

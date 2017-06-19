@@ -1,0 +1,368 @@
+!Title: Hostingi
+@@||4SHRED.COM^$generichide
+||4shared.com/*ads
+||4shared.com/*sharing
+||jscount.com
+||4shared.com/*statistics
+||4shared.com/*VisitsCounter
+||4shared.com/*blank
+||4shared.com/*removeadv
+||4shared.com/*virusckeck
+||test4s.com
+4shared.com##DIV[class$="AdsWrapper"]
+4shared.com##DIV.antivirusBanner
+4shared.com##DIV[id^="epom"]
+4shared.com##DIV[data-ga^="rmvads"]
+||4shared.com/*notification*count
+||4shared.com/*facebook
+||4shared.com/*speed
+||4shared.com$subdocument,domain=4shared.com
+||4shared.com/*social
+4shared.com##DIV.dcounter > DIV.db
+4shared.com##DIV.dcounter > DIV[class$="desc"]
+4shared.com##A[data-ga*="Share"]
+4shared.com##A#shareWithFriendsButton
+||epomads2.4shared.com
+||adserver-e7.com
+||adspleen.com
+||advinapps.com
+||morgdm.ru
+||adsniper.ru
+||adform.net
+||4shared.com/*cross
+||4shared.com/*escript
+@@||4shared.com/*zipList
+||crsspxl.com
+||univide.com
+||search.4shared.com$popup,domain=4shared.com
+@@||BDUPLOAD.INFO^$generichide
+@@||CLICKNUPLOAD.LINK^$generichide
+clicknupload.link##INS.adsbygoogle
+||clicknupload.link/js/share.js
+clicknupload.link##script:inject(noeval.js)
+@@||CLOUDTIME.TO^$generichide
+||cloudtime.to/*remove_ads
+@@||cloudtime.to/*popup*popunder*.js
+@@||cloudtime.to/*toker.php
+https://*.info/popunder.gif|
+https://*.info/?&subid=*&pid=*&tid=*&status=*&v=*&_=
+|blob:$domain=cloudtime.to
+$popup,domain=cloudtime.to
+||gvt1.com
+cloudtime.to##IFRAME[src*="saturalist.com"]
+cloudtime.to##script:contains(/var .* in .*/) 
+cloudtime.to##body > div:nth-of-type(3)
+||saturalist.com
+@@||CLODYFILES.COM^$generichide
+@@||SUPRAFILES.CO^$generichide
+||cloudyfiles.co/*rightClick
+||cloudyfiles.co/*share.js
+cloudyfiles.co,suprafiles.co##TR > TD:if(A.fb)
+cloudyfiles.co,suprafiles.co##INS.adsbygoogle
+cloudyfiles.co,suprafiles.co##DIV#content:style(width: auto !important)
+cloudyfiles.co,suprafiles.co##TABLE.filepanel:style(width: 50% !important)
+cloudyfiles.co,suprafiles.co##DIV#container > DIV.clear + DIV:style(float: none !important)
+cloudyfiles.co,suprafiles.co##DIV.rightcol:style(float: none !important)
+cloudyfiles.co,suprafiles.co##DIV.rightcol:style(width: auto !important)
+cloudyfiles.co,suprafiles.co##DIV#container > DIV.clear + DIV:style(background-color: #00ff00 !important)
+@@||CLOUDYFILES.COM$generichide
+cloudyfiles.com##INS.adsbygoogle
+||cloudyfiles.com/js/share.js
+@@||DAILYUPLOADS.NET^$generichide
+dailyuploads.net##TD[width="450px"][valign="top"][align="center"]
+dailyuploads.net##INS.adsbygoogle
+||dailyuploads.net/pop.js
+@@||DFILES.EU^$generichide
+dfiles.eu##DIV.banner1
+||adsoi.dfiles.eu
+@@||ESTREAM.TO^$generichide
+||class64deal.com
+||escdn.co/*1.js
+@@||escdn.co*ads.js
+@@||escdn.co^$xmlhttprequest,domain=estream.to,badfilter
+|https:$third-party,xmlhttprequest,domain=123movies-proxy.ru|123movies.cz|123movies.gs|123movies.is|123movies.live|123movies.net|123movies.net.ru|123movies.ru|123movies.vc|123movieshd.net|123movieshd.tv|estream.to|hdmusic99.in|otorrents.com|solarmovie.sc|wholecloud.net,badfilter
+|https:$third-party,xmlhttprequest,domain=123movies-proxy.ru|123movies.cz|123movies.gs|123movies.is|123movies.live|123movies.net|123movies.net.ru|123movies.ru|123movies.vc|123movieshd.net|123movieshd.tv|hdmusic99.in|otorrents.com|solarmovie.sc|wholecloud.net
+@@||FILE-UPLOAD.CC^$generichide
+file-upload.cc##INS.adsbygoogle
+||tawk.to$domain=file-upload.cc
+@@||FILEDOWN.INFO^$generichide
+filedwon.info##INS.adsbygoogle
+@@||FILEFACTORY.COM^$generichide
+filefactory.com##BODY > DIV > SECTION > DIV > DIV[class^="subscribe_box"]
+filefactory.com##BODY > DIV > SECTION[id$="tagline"]
+@@||FILESCDN.COM^$generichide
+filescdn.com##A.btn.bg-green-400.btn-labeled.btn-rounded.text-white
+@@||FILESHARK.PL^$generichide
+fileshark.pl##DIV#face-slider
+@@||FISTFAST.COM^$generichide
+fistfast.com##INS.adsbygoogle
+@@||FLASHX.TV^$generichide
+@@||flashx1.tv/js/showad_.js
+@@||flashx.tv/js/code.js
+@@||fastcontentdelivery.com/js/showad_.js
+@@||flashx.tv/flashx.php
+||jwpcdn.com/*gapro.js
+||flashx.tv/flashx.php
+||flashx.tv/js/code.js
+||static.flashx.tv/js/flashx.js
+||static.flashx.tv/img/fx.png
+||static.flashx.tv/img/player.png
+||cavixoapp.com
+flashx.tv##script:contains(b, c, a)
+flashx.tv##script:contains(b, c)
+flashx.tv##script:contains(/var .* in .*/)
+flashx.tv##script:contains(/.{4000}/)
+@@||KATFILE.COM^$generichide
+katfile.com##INS.adsbygoogle
+katfile.com##TR > TD:has(UL > LI > A.fb)
+||katfile.com/js/share.js
+||katfile.com/js/pu.js
+||katfile.com/js/pu.lc.js
+||katfile.com/button.png
+||alxsite.com$popup
+/cloudfront\.net\/[^\/.]{29}/$script
+/amazonaws\.com\/[^\/.]{58}/$script,xmlhttprequest
+||ipinfo.io$third-party
+@@||KINGFILES.NET
+kingfiles.net##UL#sharebuttons
+||kingfiles.net/images/social.jpg
+@@||KINGFILE.PL^$generichide
+@@||MEDIAFIRE.COM^$generichide
+mediafire.com##DIV.lb-ad.ad.loaded
+mediafire.com##DIV.dlInfo-Intro.dl-file-icon
+mediafire.com##DIV.dlInfo-Apps
+||catwrite.com
+mediafire.com##LI.ico30share
+mediafire.com##DIV.promo-dl-box:style(background-color: transparent !important)
+mediafire.com##DIV.dl_options_innerblock > DIV.center:style(background-color: transparent !important)
+mediafire.com##DIV#download_visible_wrapper:style(height: 400px !important)
+mediafire.com##DIV.dl_options_innerblock > DIV.center:style(height: 460px !important)
+mediafire.com##DIV.left
+mediafire.com##DIV.dlInfo-Body
+||mediafire.com/*encoder
+mediafire.com##script:contains(b,a,f,c,d,e)
+||ravenjs.com$domain=mediafire.com
+@@||NITROFLARE.COM^$generichide
+@@||NOSLOCKER.COM^$generichide
+|blob:$domain=noslocker.com
+||cloudfront.net$domain=noslocker.com
+||theadgateway.com
+||disqus.com$domain=noslocker.com
+@@||adsjudo.com^*/advertisement.js|$script
+@@||NOSVIDEO.COM^$generichide
+||d1bevsqehy4npt.cloudfront.net
+||nosvideo.com/script.packed.js
+||g3x.tech
+||g3x.press
+||g2y.press
+||g3x.online
+||nosvideo.com/themes/nos/frontend_assets/socialsider
+||disqus.com$domain=nosvideo.com
+||jwpcdn.com/*/sharing.js
+nosvideo.com##DIV.animated.fadeInUp.visible > CENTER:last-child > A[style][href][target="_self"]
+nosvideo.com##A[onclick^="mainWidget_global"]
+||nosvideo.com/images/cancels.png
+||nosvideo.com/fullwidth.js
+nosvideo.com##DIV.video_zx_fadeinx
+nosvideo.com##DIV[style="display: inline-table;float:left; height:100%;width: 20%;background-color:black; "]
+nosvideo.com##TD#aba
+||ba2b687.se
+||adrotator.se
+@@||OPENLOAD.CO^$generichide
+||t1.openload.co
+@@||easylist.club$script
+about:blank$popup,domain=openload.co
+@@||RAPIDGATOR.NET^$generichide
+||rapidgator.net/*/fingerprint.js
+@@||RAPIDU.NET^$generichide
+@@||ROCKFILE.EU^$generichide
+||rockfile.eu/cdn-cgi/pe/bag2?r[]=
+rockfile.eu##INS.adsbygoogle
+rockfile.eu##DIV[style="max-width: 750px;"]
+rockfile.eu##DIV[style="text-align: center;"][align="Center"]
+||rockfile.eu/images/myf.gif
+@@||ajax.cloudflare.com/cdn-cgi/nexp/dok3v=*/cloudflare.min.js$domain=rockfile.eu
+||rockfile.eu/cdn-cgi/beacon/ads
+@@||SALEFILES.COM^$generichide
+salefiles.com##DIV[style="padding-top:10px; padding-bottom:10px;"]
+salefiles.com##DIV[id*="ScriptRoot"]
+||salefiles.com/images_classic/txt_slow.png
+salefiles.com##script:inject(noeval.js)
+||namesakeoscilloscopemarquis.com$popup
+||ximg.link/xxx/jquery.min.js
+||adstract.com
+||salefiles.com/tabber.js
+||clickadu.com
+||window-close.gq
+||juicyads.com
+||zopim.com$domain=salefiles.com
+@@||STREAMIN.TO^$generichide
+||mdn2015x1.com
+||6c376d9ec1f.com
+streamin.to##DIV#rkm
+streamin.to##DIV[style="position: relative;width: 800px;height: 440px;"]
+about:blank$popup,domain=streamin.to
+streamin.to##script:contains(/_0x.*/)
+||streamin.to/images/btn_share.png
+streamin.to##script:contains(window.atob)
+streamin.to##DIV.video_ad
+||onclkds.com
+@@||STREAMPLAY.TO^$generichide
+||eontent.streamplay.to
+||streamplay.to/images/videoplayor.png
+||streamplay.to/js/pu
+@@||SUBYSHARE.COM^$generichide
+||subyshare.com/js/tweetie.js
+subyshare.com##UL.shareit.pull-right
+subyshare.com##DIV.space
+||subyshare.com/img/speedslider.gif
+subyshare.com##DIV.container > BR:first-child + H2
+@@||SUPRAFILES.NET^$generichide
+suprafiles.net##INS.adsbygoogle
+suprafiles.net##TR > TD:has(A.fb) 
+||suprafiles.net/*share.js
+@@||THEVIDEO.ME^$generichide
+thevideo.me##script:contains(popConfig)
+||analytics.thevideo.me
+||log.thevideo.me
+||thevideo.ch/mpaabp/
+||thevideo.me/mpaabp/
+about:blank$popup,domain=thevideo.me
+thevideo.me##A[href*="theads.me"]
+thevideo.me##DIV#pre_counter
+thevideo.me##DIV#social_login_options
+thevideo.me##DIV.col-lg-3.text-right
+thevideo.me##DIV.col-sm-3
+thevideo.me##DIV.col-sm-9.pad-no:style(width: 100% !important;)
+||spoutable.com
+||theads.me
+||thevideo.me/images/close_red_small.png
+||thevideo.me/mpaabpu/prop2
+||xjqw.thevideo.me$popup
+@@||TURBOBIT.NET^$generichide
+||turbobit.net/fd1/js/brinpopup.js
+||turbobit.net/fd1/js/live/main.min.js
+||turbobit.net/platform/js/fdlogger/
+||turbobit.net/platform/js/lib/pus/
+@@||UP07.NET$^$generichide
+||javacript.cf
+about:blank$popup,domain=up07.me
+||replase.ga
+||up07.me/open*.js
+||upimg.me$domain=up07.me
+||up-00.com$domain=up07.me
+up07.me##script:inject(noeval.js)
+||up07.net/images/ban
+up07.net##script:contains(window.atob)
+up07.net##script:contains(rwmrgfdq_Popup)
+@@||UPLOADBOY.COM^$generichide
+||uploadboy.com/js/share.js
+||uploadboy.com/analytics.js
+@@||UPLOADED.NET^$generichide
+uploaded.net##DIV[style="text-align: center; width: 920px; margin-top: 20px;"]
+||adbutler-meson.com
+||imasdk.googleapis.com$important,domain=uploaded.net
+||mediaraily.com
+||porojo.net
+||udarem.com
+||uploaded.net/img/fb.html
+||uploaded.net/video/empty
+!uploaded.net##DIV#fakeContentBoxContainer:style(height: 240px !important;)
+@@||UPLOADING.SITE^$generichide
+uploading.site##DIV.ads300
+uploading.site##DIV.ads728
+uploading.site##script:contains(/var .* in .*/)
+@@||UPLOADX.ORG^$generichide
+uploadx.org##INS.adsbygoogle
+@@||UPTOBOX.COM^$generichide
+||ads2.uptobox.com
+||uptobox.com/js/*ad6media
+||adspredictiv.com
+||twitter.com$domain=uptobox.com
+||adwidecenter.com
+||chameleon.ad
+||pwk.uptobox.com
+||mynativeplatform.com
+||130.211.212.60
+$popunder,domain=uptobox.com
+||d2b560qq58menv.cloudfront.net
+||uploaded.net/register$popup,first-party
+@@||UPTOSTREAM.COM^$generichide
+uptostream.com##DIV#fanback
+@@||USERCLOUD.COM^$generichide
+usercloud.com##script:contains(/var .* in .*/)
+about:blank$popup,domain=usercloud.com
+||d3qyjzkrkuj7me.cloudfront.net
+@@||USERSCLOUD.COM^$generichide
+userscloud.com##script:contains(/var .* in .*/)
+about:blank$popup,domain=userscloud.com
+||bouncil.info
+||bouncil.info$popup
+||dfck9uqiatqhh.cloudfront.net
+/userscloud\.[a-z]*\//$inline-script
+||userscloud.com/*300x250
+||sendit.cloud$domain=userscloud.com
+@@||UPLOADROCKET.NET^$generichide
+@@||uploadrocket.net/advertising/ads.js
+about:blank$popup,domain=uploadrocket.net
+uploadrocket.net##INS.adsbygoogle
+uploadrocket.net##script:contains(/var .* in .*/)
+||dzbx8qv1at614.cloudfront.net
+||uploadrocket.net/tabber.js
+@@||WATCHERS.TO^$generichide
+!watchers.to##A[onclick^="mainWidget_global"]
+@@||precheck-in.adsjudo.com/*advertisement.js
+!watchers.to##script:contains(/var .* in .*/)
+@@||VEEHD.COM^$generichide
+@@||VIDABC^$generichide
+@@||VIDUP.ME^$generichide
+||vidup.me/mba/
+||vidup.me/assets/g=adjs,popjs
+vidup.me##DIV.col-sm-2
+vidup.me##DIV.col-md-3.text-right > DIV.btn-group
+@@||VIDZI.TV^$generichide
+$websocket,domain=vidzi.tv
+||vidzi.tv/*300.html
+!vidzi.tv##script:inject(noeval.js)
+!vidzi.tv##script:contains(p,a,c,k,e,d)
+$popup,domain=vidzi.tv
+||ww1.vidzi.tv
+@@||VSHARE.IO^$generichide
+vshare.io##DIV#sendif
+||vshare.io/dsd.php?
+||vshare.io/static/xxx.css
+vshare.io###pplaay
+||vshare.io/watch_video.php
+@@||ZIPPYSHARE.COM^$generichide
+data:text/html$popup,domain=zippyshare.com
+zippyshare.com##DIV.center_ad
+zippyshare.com##FONT[style="font-size: 10px; letter-spacing: 3px; word-spacing: 2px; line-height: 18px;"]
+zippyshare.com##script:contains(/var .* in .*/)
+||maxonclick.com
+@@||UPLOADOCEAN.COM^$generichide
+uploadocean.com##INS.adsbygoogle
+||ywxi.net
+uploadocean.com##DIV.down1_holder > FORM > DIV > DIV:last-child
+uploadocean.com##A.twitter-follow-button
+||ad2load.net
+|uploadocean.com/*footer.js
+||uploadocean.com/*share.js
+||torabri.com
+||onclicktop.com
+||apis.google.com/js/platform.js
+||twitter.com$domain=uploadocean.com
+@@||DAILYUPLOADS.NET^$generichide
+||sufferee.com
+dailyuploads.net##script:contains(trafflict.com)
+$popup,domain=dailyuploads.net
+@@||SUPRAFILES.CO^$generichide
+suprafiles.co/*share.js
+suprafiles.co##INS.adsbygoogle
+@@||GORILLAVID.IN^$generichide
+||grumbsun.info
+$websocket,domain=gorillavid.in
+||178.175.132.130
+@@||VIDTO.ME^$generichide
+||v1n7c.com
+||vidto.me/*300e.html
+vidto.me##DIV.custom-vidto_backscreen
