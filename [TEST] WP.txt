@@ -127,3 +127,25 @@ money.pl##svg#iconLoading
 ||fntajkb.wp.pl$important,domain=poczta.wp.pl|profil.wp.pl|www.wp.pl
 ||owabgxis.wp.pl$important,domain=poczta.wp.pl|profil.wp.pl|www.wp.pl
 ||profil.wp.pl/*obrazek.html
+
+wp.pl##DIV.popupBackground
+wp.pl##DIV#cookieInfo
+wp.pl##DIV.recommendedSideBox
+||wp.pl/*tvnma.js
+||adv2.wylecz.to
+||wp.pl/*cookieInfo.js
+||adv.wp.pl/*inline$important
+||adv.wp.pl/*prebid$important
+||owabgxis.wp.pl/$~script,important
+||fntajkb.wp.pl/$~script,important
+/^https?:\/\/[^\/]*wp\.pl\/.{481}$/$script
+/^https?:\/\/[^\/]*wp\.pl\/.{41}$/$stylesheet
+@@/^https?:\/\/[^\/]*wp\.pl\/.{41}$/$stylesheet
+/^https?:\/\/[^\/]*wp\.pl\/.{345}$/$xmlhttprequest
+/^https?:\/\/[^\/]*wp\.pl\/.{477}$/$script
+wp.pl##DIV:matches-css(height: /[1-9][0-9]0px/):matches-css(width: /[1-9][0-9]0px/):has-text(REKLAMA)
+wp.pl##DIV:matches-css(height: /[1-9][0-9]0px/):matches-css(width: /[1-9][0-9]0px/):if(A[href*="wp.pl"][target="_blank"] > IMG[src*="wp.pl"])
+wp.pl##P:has-text(ZOBACZ WIDEO)
+wp.pl##P[hidden] + DIV[id^="video-container"]
+wp.pl##A[href*="owabgxis.wp.pl"][target="_blank"]
+ajax-article.html?id=*&count=$xmlhttprequest,first-party
