@@ -95,7 +95,12 @@ fas.li##script:inject(popads.net.js)
 ||cdnjs.cloudflare.com/ajax/libs/blockadblock/*/blockadblock.min.js$script,redirect=fuckadblock.js-3.2.0
 ||fas.li/d$popup
 ||fas.li/js/p
-@@||KEEPLINKS.EU^$generichide
+@@||keeplinks.eu^$generichide
+@@||adblade.com^$generichide
+@@||solvemedia.com^$generichide
+@@||adblade.com/js/ads/async/show.js
+@@||web.adblade.com/impsc.php
+web.adblade.com##HTML
 keeplinks.eu##DIV.add_box
 keeplinks.eu##DIV.top_ad
 ||adblade.com
