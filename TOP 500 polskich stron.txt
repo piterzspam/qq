@@ -41,6 +41,7 @@ facebook.com##DIV#GroupsRHCSuggestionSection
 facebook.com##DIV[data-testid="cookie-policy-banner"]
 facebook.com##DIV.ego_column.pagelet:if(A.adsCategoryTitleLink)
 facebook.com##DIV.ego_column:if(A[href*="facebook.com%2Fpages%2F%3Fcategory%3Dtop%26ref%3Dall_category_pyml"])
+facebook.com##DIV.ego_column.pagelet:if(A[href*="facebook.com%2Fgroups%2F%3Fcategory%3Dtop%26ref%3Dego"])
 facebook.com##DIV#substream_0:if(A[href^="/friends/requests/"])
 ||facebook.com/*suggestions
 ||liverail.com
@@ -379,7 +380,8 @@ komputerswiat.pl##TABLE.adsense.single.article
 ||advertising.com
 ||pixel.wp.com
 ||stats.wp.com
-@@||IMGUR.COM^$generichide
+@@||imgur.com^$generichide
+imgur.com##DIV.advertisement
 @@||imgur.com/*/hit.json
 imgur.com##DIV#div-gpt-ad-top_banner
 ||ox-d.imgur.servedbyopenx.com
