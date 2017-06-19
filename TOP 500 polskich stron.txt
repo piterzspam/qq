@@ -142,7 +142,6 @@ yahoo.com##LI.js-stream-ad.Wow\(bw\).Pos\(r\).Mx\(a\).Mt\(-1px\).Bxz\(bb\).Bgc\(
 @@||BING.COM^$generichide
 bing.com##DIV#thp_notf_div
 ||bing.com/fd/ls/l?IG=
-||bing.com/fd/ls/lsp.aspx
 ||footprintdns.com
 @@||OTOMOTO.PL^$generichide
 otomoto.pl##DIV#cookiesBar
