@@ -33,6 +33,8 @@ dobreprogramy.pl##DIV.tools-social
 dobreprogramy.pl##SECTION#komentarze > DIV.grid-margin-px15-top
 dobreprogramy.pl##DIV#phContent_CommentsControl_divAdTop
 dobreprogramy.pl##DIV.grid-margin-px30-bottom.clearfix:has-text(Asystent)
+dobreprogramy.pl##DIV[style="color: #A9A9A9; text-align:center;font-size:11px;"]
+dobreprogramy.pl##DIV[id^="c"][style="height: 100px; width: 560px;"]
 ||wp.pl$domain=dobreprogramy.pl,important
 @@||WYKOP.PL^$generichide
 wykop.pl##.cookie
@@ -239,17 +241,6 @@ zdajmyrazem.pl##DIV.col-xs-12 > DIV.panel.panel-default.hidden-print
 tomaszgrebski.pl##INS.adsbygoogle
 @@||DUCKDUCKGO.COM^$generichide
 ||duckduckgo.com/t/$image
-@@||ALLTUBE.TV^$generichide
-alltube.tv##script:contains(/\S{100}/)
-||rtbnowads.com
-@@||FMOVIES.TO^$generichide
-||fmovies.to/*adx
-||fmovies.to/token
-fmovies.to##DIV.row.hd-buttons
-fmovies.to##DIV[id*="Composite"]
-@@||SOLARMOVIEZ.TO^$generichide
-solarmoviez.to##DIV[id*="ScriptRoot"]
-solarmoviez.to##script:contains(/\S{100}/)
 @@||TELCHINA.PL^$generichide
 ||adservice.aliexpress.com
 ||tradetracker.net
@@ -267,3 +258,23 @@ miuipolska.pl##INS.adsbygoogle
 paypal.com##SECTION.cookie-notification
 @@||FILMY.TO^$generichide
 filmy.to##DIV#cookie-bar
+@@||go4up.com^$generichide
+||go4up.com/assets/img/*but*oned$image
+go4up.com##DIV.row-fluid:has-text(Share)
+@@||pepper.pl^$generichide
+@@/^https?:\/\/tc\.tradetracker\.net\/\?c=[0-9]*&m=[0-9]*&a=[0-9]*&r=[0-9a-z]*&u=[^\/]*$/
+@@/^https?:\/\/tm\.tradetracker\.net\/bct\?s=[0-9]*&t=[a-z]*$/
+@@/^https?:\/\/sc\.tradetracker\.net\/tracker\/merchant\?e=[a-z]*&cstid=[0-9]*&cid=[0-9]*&data=[0-9]*[^&]*&url=[^\/]*$/
+@@||aliprice.com^$generichide
+@@/^https?:\/\/s\.click\.aliexpress\.com\/deep_link\.htm\?/
+@@||bezprzeplacania.pl^$generichide
+@@/^https?:\/\/s\.click\.aliexpress\.com\/e\/[a-z]*$/
+@@||multiup.net^$generichide
+multiup.eu##DIV.span6 > DIV.well:if-not(H2)
+multiup.eu##DIV.alert.alert-success
+multiup.eu##A[href*="/download-usenet/"]
+@@||pcformat.pl^$generichide
+forum.pcformat.pl##DIV.post.classic:if(DIV.post_author.scaleimages > IMG[src="images/link_spons.png"])
+@@||fakt.pl^$generichide
+fakt.pl##DIV.artCenter P.hyphenate:last-of-type + DIV:if(IFRAME)
+fakt.pl##DIV[data-item-uuid]:if(DIV.mvpContainer)
