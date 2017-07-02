@@ -1,3 +1,4 @@
+!Title: Url shorteners alternatywne 2
 !OGÓLNE
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
@@ -14,7 +15,7 @@ $~image,~script,~stylesheet,~subdocument,domain=atominik.com|riffhold.com|blueni
 !LINKBUCKS.COM
 ||linkbucks.com$~image,~script,~stylesheet
 ||jzrputtbut.net$~image,~script,~stylesheet,~xmlhttprequest
-$subdocument,domain=nistujwppzczgso.net|qwijurehyh.net|ouhfmgqohkm.net
+$subdocument,domain=nistujwppzczgso.net|qwijurehyh.net|ouhfmgqohkm.net|dnlxwswcazavh.net
 /[a-z]{10,15}\.net\/[^\/]{20}\/[^\/]{20}$/$inline-script
 ||jzrputtbut.net/scripts/jquery.js$script,redirect=noopjs
 /^[^\/]*:\/\/(?!www\.linkbucks\.com)(?!www\.jzrputtbut\.net)(.*)/$~script,~subdocument,domain=jzrputtbut.net
