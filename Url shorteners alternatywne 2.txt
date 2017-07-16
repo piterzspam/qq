@@ -5,12 +5,29 @@
 ||popads.net/pop.js$script,redirect=popads.net.js,important
 
 !ADF.LY
-/^[^\/]*:\/\/(?!(cdn\.)?(atominik\.com|riffhold\.com|bluenik\.com|babblecase\.com|tinyium\.com|microify\.com|pintient\.com|adf\.ly|ay\.gy|j\.gs|q\.gs))(?!adf\.ly)(.*)/$~image,~script,~stylesheet,~subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
-/^[^\/]*:\/\/(?![^\/]*\/1market\.php\?i=)(.*)/$subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
-/^[^\/]*:\/\/(?!ajax\.googleapis\.com)(?![^\/]*.*(b64\.js|view84\.js))(.*)/$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
-$~image,~script,~stylesheet,~subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
-||s1-adfly.com/show.php?url=$subdocument,redirect=noopframe
-|blob:$domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
+$~script,first-party,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+$script,first-party,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+$third-party,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+@@/^https?:\/\/.*(jquery|b64|view86|advert)/$script,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+/(?!^https?:\/\/.*(jquery|b64|view86|advert))(^https?:\/\/.*)/$script,important,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+@@/^https?:\/\/.*(omnigy|adfly|nobrand)/$stylesheet,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+/(?!^https?:\/\/.*(omnigy|adfly|nobrand))(^https?:\/\/.*)/$stylesheet,important,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+@@/^https?:\/\/.*(logo|skip_ad|ad_top|ahl6532|d_top_bg|delete2)/$image,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+/(?!^https?:\/\/.*(logo|skip_ad|ad_top|ahl6532|d_top_bg|delete2))(^https?:\/\/.*)/$image,important,domain=adf.ly|ay.gy|j.gs|q.gs|atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com
+||adf.ly/1market.php$subdocument,redirect=noopframe,important
+||j.gs/1market.php$subdocument,redirect=noopframe,important
+||ay.gy/1market.php$subdocument,redirect=noopframe,important
+||q.gs/1market.php$subdocument,redirect=noopframe,important
+||atominik.com/1market.php$subdocument,redirect=noopframe,important
+||riffhold.com/1market.php$subdocument,redirect=noopframe,important
+||bluenik.com/1market.php$subdocument,redirect=noopframe,important
+||babblecase.com/1market.php$subdocument,redirect=noopframe,important
+||tinyical.com/1market.php$subdocument,redirect=noopframe,important
+||tinyium.com/1market.php$subdocument,redirect=noopframe,important
+||microify.com/1market.php$subdocument,redirect=noopframe,important
+||pintient.com/1market.php$subdocument,redirect=noopframe,important
+adf.ly,ay,gy,j.gs,q.gs,atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com##DIV#bottom
+adf.ly,ay,gy,j.gs,q.gs,atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com##DIV#cookie_notice
 
 !LINKBUCKS.COM
 ||linkbucks.com$~image,~script,~stylesheet
