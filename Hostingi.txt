@@ -284,7 +284,6 @@ uploadx.org##INS.adsbygoogle
 ||pwk.uptobox.com
 ||mynativeplatform.com
 ||130.211.212.60
-$popunder,domain=uptobox.com
 ||d2b560qq58menv.cloudfront.net
 ||uploaded.net/register$popup,first-party
 @@||UPTOSTREAM.COM^$generichide
