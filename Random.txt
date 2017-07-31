@@ -1,7 +1,13 @@
 !Title: Random
 !https://pastelink.net/randomy
-/https?:\/\/www\.[a-z]{12}\.com\/[a-z]{1,4}\.js$/$script,third-party
-/https?:\/\/[0-9a-z]{15,16}\.com\/[0-9]{6,7}(\/|\.)/
+/https?:\/\/cloudfront\.net\/[^\/.]{29}/$script,third-party
+/https?:\/\/amazonaws\.com\/[^\/.]{58}/$script,xmlhttprequest,third-party
+/https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party 
+/https?:\/\/www\.[a-z]{8,14}\.[a-z]+\/[a-z]{1,4}\.js/$script,third-party
+/https?:\/\/[0-9a-z]{15,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
+/https?:\/\/[a-z]{8}\.com\/req\/[0-9]{1,4}/$script,third-party
+/ws:\/\/[a-z]{8}\.[a-z]+\/[A-Za-z]{4}/$websocket,third-party
+/http:\/\/[0-9a-z]{5}\.com\/$/$subdocument,third-party
 ||brqrtgjklary.com
 ||cfsdtzggpcmr.com
 ||ditouyldfqgt.com
@@ -98,7 +104,6 @@
 ||kyzhecmvpiaw.com
 ||vsgherxdcfon.com
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-/https?:\/\/[0-9a-z]{8,11}\.[a-z]*\/[0-9]{6,7}\/$/$xmlhttprequest,third-party
 ||10nr6frq.cricket
 ||2h045kx8.review
 ||35hn7f37.faith
