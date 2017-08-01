@@ -2,12 +2,18 @@
 !https://pastelink.net/randomy
 /https?:\/\/cloudfront\.net\/[^\/.]{29}/$script,third-party
 /https?:\/\/amazonaws\.com\/[^\/.]{58}/$script,xmlhttprequest,third-party
-/https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party 
-/https?:\/\/www\.[a-z]{8,14}\.[a-z]+\/[a-z]{1,4}\.js/$script,third-party
-/https?:\/\/[0-9a-z]{15,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
 /https?:\/\/[a-z]{8}\.com\/req\/[0-9]{1,4}/$script,third-party
 /ws:\/\/[a-z]{8}\.[a-z]+\/[A-Za-z]{4}/$websocket,third-party
 /http:\/\/[0-9a-z]{5}\.com\/$/$subdocument,third-party
+
+!Poniższy filtr nie jest potrzebny po dodaniu ##script:inject(abort-on-property-write.js, _pop)
+/https?:\/\/www\.[a-z]{8,14}\.[a-z]+\/[a-z]{1,4}\.js/$script,third-party
+
+!Poniższe filtry nie są potrzebne po dodaniu ||go.onclasrv.com/apu.php$script,redirect=noopjs,important
+/https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party
+/https?:\/\/[0-9a-z]{15,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
+||go.onclasrv.com/apu.php$script,redirect=noopjs,important
+
 ||brqrtgjklary.com
 ||cfsdtzggpcmr.com
 ||ditouyldfqgt.com
