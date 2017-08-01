@@ -1,6 +1,6 @@
 !Title: Random
 !https://pastelink.net/randomy
-/https?:\/\/cloudfront\.net\/[^\/.]{29}/$script,third-party
+/cloudfront\.net\/[^\/.]{29}/$script,third-party
 /https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
 /https?:\/\/[a-z]{8}\.com\/req\/[0-9]{1,4}/$script,third-party
 /ws:\/\/[a-z]{8}\.[a-z]+\/[A-Za-z]{4}/$websocket,third-party
