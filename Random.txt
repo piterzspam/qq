@@ -6,7 +6,7 @@
 
 !ad-maven.com start
 /^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/\?[a-z]{3,5}=[0-9]{6}$/$script,third-party
-!Poniższy filtr nie jest potrzebny po dodaniu ##script:inject(abort-on-property-write.js, TID) 
+!Poniższe filtry można zastąpić filtrem ##script:inject(abort-on-property-write.js, TID) 
 /^https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
 
 !Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb po captchy, http://indishare.me/j1c0ep4sxpmg po kliknięciu Download Here) lub powyższy filtr został wyłączony)
