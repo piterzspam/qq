@@ -1,0 +1,104 @@
+!Title: Hostingi_2
+||taboola.com
+||adserver-e7.com
+||jscount.com
+||epomads2.4shared.com
+||crsspxl.com
+||wwwpromoter.com
+||addthis.com
+||shr.one
+||exdynsrv.com
+||toroadvertisingmedia.com
+||adnetworkperformance.com
+||proxad.net
+||foxarmedia.com
+||adsjudo.com
+||clicksor.net
+||stats.filesupload.org
+
+@@||1fichier.com^$generichide
+@@||4shared.com^$generichide
+||4shared.com/js/ads/relativeAdsScript
+||4shared.com/js/facebookInit
+||4shared.com/js/d1VisitsCounter
+||4shared.com/images/icon_removeadv.png
+||4shared.com/images/mcafee_virusckeck_bg.png
+||4shared.com/dataCollect.jsp
+||4shared.com/web/escript/
+||4shared.com/images/blank.gif
+||4shared.com/cross.jsp
+4shared.com##DIV.featured_top_wrapper
+4shared.com##DIV.remove-rekl
+4shared.com##DIV[id^="epom-"]
+4shared.com##DIV.antivirus
+4shared.com##DIV.dcounter > DIV.db > DIV.premium
+@@||bdupload.info^$generichide
+||bdupload.info/images_themeNew/ico_*.png$image
+||bdupload.info/js/share.js
+!dokończyć
+@@||bigfile.to^$generichide
+||verifystore.com$domain=bigfile.to
+||bigfile.to/images/Bigfile/player.png
+bigfile.to##DIV.adbox
+bigfile.to##DIV.fix_foot_box
+bigfile.to##DIV#playerAdFrame
+||bigfile.to/script/blockadblock.js$script,redirect=fuckadblock.js-3.2.0,important
+||adk2x.com$popup
+!dokończyć
+@@||clicknupload.org^$generichide
+||clicknupload.org/js/share.js
+clicknupload.org##script:inject(abort-on-property-write.js, _pop)
+@@||dailyuploads.net^$generichide
+dailyuploads.net##script:inject(abort-on-property-write.js, _pop)
+dailyuploads.net##TD[align="center"][width="205px"]:first-child
+dailyuploads.net##BUTTON#downloadBtnClick
+||dailyuploads.net/images/redbuttonx.png
+@@||dl.free.fr^$generichide
+@@||downace.com^$generichide
+||downace.com/themes/ace/assets/img/*.jpg
+downace.com##DIV[id*="ScriptRoot"]
+downace.com##script:inject(noeval.js)
+downace.com##P.uk-margin-small > A.uk-button
+downace.com##H2#share_urls
+downace.com##TABLE.uk-table > TBODY > TR > TD:has-text(Share File:)
+@@||faststore.org^$generichide
+faststore.org##script:inject(abort-on-property-write.js, _pop)
+||faststore.org/cdn-cgi/
+!dokończyć
+@@||filecloud.io^$generichide
+@@||filecloud.io/banner_ads.js
+@@||filecloud.io^$xmlhttprequest,first-party
+@@||filefactory.com^$generichide
+||filefactory.com/img/premium/promo.jpg
+filefactory.com##DIV.modal.bootstrap-dialog.type-primary.fade.size-normal.in
+filefactory.com##A.wp-body-box-action-green[href="/services/premium"]
+filefactory.com##A#wp-body-layout-center
+filefactory.com##A.wp-body-layout-side
+@@||filerio.in^$generichide
+!Zamiast poniższych filtrów można użyć ||adsjudo.com/*/advertisement.js$script,redirect=noopjs,important
+!filerio.in##script:inject(abort-on-property-write.js, pbnm)
+!filerio.in##A[onclick^="mainWidget_globalTm"]
+!##A[style="width:100%; height:100%; display:block!important; position:fixed; top:0px; left:0px;cursor: pointer;z-index: 2147483647;"][onclick^="mainWidget_globalTm"]
+||adsjudo.com/*/advertisement.js$script,redirect=noopjs,important
+filerio.in##INS.adsbygoogle
+filerio.in##DIV.upgrate_premium_c
+filerio.in##DIV[class][style] > DIV[style="padding:0 0 0 0;"]
+filerio.in##INPUT.premium_download[name="method_premium"][value="Premium Download"]
+@@||filescdn.com^$generichide
+||cloudfront.net$domain=filescdn.com
+filescdn.com##DIV.col-md-8.col-md-offset-2 > DIV.page-container[style="min-height:675px"]
+filescdn.com##A.btn.bg-green-400
+||senditcloud.com$popup,domain=filescdn.com
+@@||filesupload.org^$generichide
+filesupload.org##script:inject(abort-on-property-write.js, _pop)
+!filesupload.org##script:inject(noeval.js)
+||sellously.info
+
+
+
+
+
+
+
+!
+
