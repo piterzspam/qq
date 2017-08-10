@@ -10,7 +10,7 @@
 !Poniższy filtr nie jest potrzebny po dodaniu ##script:inject(abort-on-property-write.js, TID) 
 /^https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
 
-!Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb) lub powyższy filtr został wyłączony)
+!Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb, https://www.filesupload.org/9a297832361b9497e5f38e61104ff152/psy.mp4) lub powyższy filtr został wyłączony)
 /^https?:\/\/[a-z]{9,10}\.com\/popunder\.gif$/$xmlhttprequest,third-party
 /^https?:\/\/[a-z]{9,10}\.com\/.{400}/$subdocument,third-party
 /^https?:\/\/[a-z]{9,10}\.com\/.{135}/$image,third-party
