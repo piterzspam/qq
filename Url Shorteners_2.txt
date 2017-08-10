@@ -10,6 +10,51 @@
 ||popads.net/pop.js$script,redirect=popads.net.js,important
 ||cloudflare.com/*blockadblock.min.js$script,redirect=fuckadblock.js-3.2.0,important
 
+@@||adf.ly^$generichide
+@@||adyou.me^$generichide
+@@||ah.pe^$generichide
+@@||al.ly^$generichide
+@@||ally.sh^$generichide
+@@||atominik.com^$generichide
+@@||ay.gy^$generichide
+@@||babblecase.com^$generichide
+@@||bc.vc^$generichide
+@@||bluenik.com^$generichide
+@@||clik.pw^$generichide
+@@||coinlink.co^$generichide
+@@||coshurl.co^$generichide
+@@||cpmlink.net^$generichide
+@@||croco.site^$generichide
+@@||cut-urls.com^$generichide
+@@||dmus.in^$generichide
+@@||fas.li^$generichide
+@@||gsurl.in^$generichide
+@@||j.gs^$generichide
+@@||jzrputtbut.net^$generichide
+@@||keeplinks.eu^$generichide
+@@||l2s.io^$generichide
+@@||linclik.com^$generichide
+@@||link.tl^$generichide
+@@||linkshrink.net^$generichide
+@@||lynk.my^$generichide
+@@||microify.com^$generichide
+@@||ouo.io^$generichide
+@@||ouo.press^$generichide
+@@||pintient.com^$generichide
+@@||q.gs^$generichide
+@@||riffhold.com^$generichide
+@@||sh.st^$generichide
+@@||shink.in^$generichide
+@@||short.am^$generichide
+@@||spaste.com^$generichide
+@@||tinyical.com^$generichide
+@@||tinyium.com^$generichide
+@@||u2s.io^$generichide
+@@||urle.co^$generichide
+@@||uskip.me^$generichide
+@@||viid.me^$generichide
+@@||weefy.me^$generichide
+
 ||a-ads.com
 ||ad2upapp.com
 ||adblade.com
@@ -61,6 +106,10 @@
 ||tradeadexchange.com
 ||urldelivery.com
 ||winaffiliates.com
+||cpm20.com
+||etfory.info
+||globaladmedia.com
+||cpm10.com
 
 !ADF.LY
 ##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
@@ -108,7 +157,6 @@ cpmlink.net##DIV[id*="ScriptRoot"]
 ||cpmlink.net$media
 ||imgur.com$domain=cpmlink.net
 !CROCO.SITE
-||cloudfront.net$domain=croco.site
 about:blank$popup,domain=croco.site
 ||croco.me/displaypp.php$popup
 croco.site##INS.adsbygoogle
@@ -117,8 +165,8 @@ cut-urls.com##INS.adsbygoogle
 @@||cut-urls.com/js/ads.js
 !DMUS.IN
 !FAS.LI
-||cloudfront.net$domain=fas.li
 ||fas.li/js/p.js
+@@||fas.li/js/adframe.js
 !GSURL.IN
 gsurl.in##script:inject(noeval.js)
 gsurl.in##INS.adsbygoogle
@@ -127,6 +175,10 @@ gsurl.in##INS.adsbygoogle
 !KEEPLINKS.EU
 keeplinks.eu##DIV.top_ad
 keeplinks.eu##DIV.add_box
+!L2S.IO
+l2s.io##script:inject(abort-on-property-write.js, _pop)
+l2s.io##script:inject(noeval.js)
+@@||l2s.io/js/ads.js
 !LINCLIK.COM
 linclik.com##script:inject(abort-on-property-write.js, _pop)
 !LINK.TL
@@ -151,7 +203,6 @@ about:blank$popup,domain=jzrputtbut.net
 !LINKSHRINK.NET
 linkshrink.net##DIV.ftr1 > DIV[class^="g"]
 linkshrink.net##script:inject(noeval.js)
-||cloudfront.net$domain=linkshrink.net
 ||linkshrink.net/cdn-cgi/beacon/
 !LYNK.MY
 ||lynk.my/cdn-cgi/apps/head/
@@ -175,10 +226,9 @@ shink.in##script:inject(abort-on-property-read.js, RunAds)
 short.am##script:inject(abort-on-property-write.js, _pop)
 short.am##script:inject(abort-on-property-read.js, RunAds)
 short.am##INS.adsbygoogle
-||cloudfront.net$domain=short.am
 @@||short.am/js/show_ads.js
 !SPASTE.COM
-spaste.com##DIV#template-contactform-message > H5:first-child
+spaste.com##DIV#template-contactform-message > H5
 spaste.com##INS.adsbygoogle[style="display:inline-block;width:728px;height:90px"]
 spaste.com##INS.adsbygoogle[style="display:inline-block;width:160px;height:600px"]
 ||spaste.com/ads$important
@@ -187,6 +237,13 @@ spaste.com##INS.adsbygoogle[style="display:inline-block;width:160px;height:600px
 ||maps.googleapis.com$domain=spaste.com
 ||cloudfront.net$domain=spaste.com
 @@||spaste.com/themes/site/js/advertisement.js
+!U2S.IO
+@@||u2s.io/js/ads.js
+u2s.io##INS.adsbygoogle
+!URLE.CO
+@@||urle.co/js/ads.js
+urle.co##script:inject(abort-on-property-write.js, _pop)
+urle.co##script:inject(abort-on-property-write.js, TID)
 !USKIP.ME
 uskip.me##script:inject(abort-on-property-write.js, _pop)
 !WEEFY.ME
