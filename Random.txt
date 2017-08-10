@@ -13,6 +13,7 @@
 /https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party
 /https?:\/\/[0-9a-z]{15,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
 ||go.onclasrv.com/apu.php$script,redirect=noopjs,important
+||gebadu.com/apu.php$script,redirect=noopjs,important
 
 ||brqrtgjklary.com
 ||cfsdtzggpcmr.com
