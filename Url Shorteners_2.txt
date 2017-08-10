@@ -112,7 +112,7 @@
 ||cpm10.com
 
 !ADF.LY
-##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
+atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
 ||adf.ly/fp.rev3.php?nocache=1
 /static/js/amvn.js|$script
 /static/js/main.js|$script
