@@ -5,15 +5,22 @@
 /ws:\/\/[a-z]{8}\.[a-z]+\/[A-Za-z]{4}/$websocket,third-party
 /http:\/\/[0-9a-z]{5}\.com\/$/$subdocument,third-party
 
-!ad-maven.com
-!Dodatkowo niektóre strony wymagające poniższego filtra (filescdn.com, urle.co) po dodaniu filtra: ##script:inject(abort-on-property-write.js, TID) przestaną wysyłać żądania blokowane filtrem /https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
+!ad-maven.com start
 /^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/\?[a-z]{3,5}=[0-9]{6}$/$script,third-party
-/https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
+!Poniższy filtr nie jest potrzebny po dodaniu ##script:inject(abort-on-property-write.js, TID) 
+/^https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
+
+!Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb) lub powyższy filtr został wyłączony)
+/^https?:\/\/[a-z]{9,10}\.com\/popunder\.gif$/$xmlhttprequest,third-party
+/^https?:\/\/[a-z]{9,10}\.com\/.{400}/$subdocument,third-party
+/^https?:\/\/[a-z]{9,10}\.com\/.{135}/$image,third-party
+javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
+!ad-maven stop
 
 !Poniższy filtr nie jest potrzebny po dodaniu ##script:inject(abort-on-property-write.js, _pop)
 /https?:\/\/www\.[a-z]{8,14}\.[a-z]+\/[a-z]{1,4}\.js/$script,third-party
 
-!Poniższe filtry nie są potrzebne po dodaniu ||go.onclasrv.com/apu.php$script,redirect=noopjs,important
+!Poniższe filtry nie są potrzebne po dodaniu ||go.onclasrv.com/apu.php$script,redirect=noopjs,important lub ||gebadu.com/apu.php$script,redirect=noopjs,important
 /https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party
 /https?:\/\/[0-9a-z]{15,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
 ||go.onclasrv.com/apu.php$script,redirect=noopjs,important
