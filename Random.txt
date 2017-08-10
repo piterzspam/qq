@@ -1,6 +1,5 @@
 !Title: Random
 !https://pastelink.net/randomy
-/cloudfront\.net\/[^\/.]{29}/$script,third-party
 /https?:\/\/[a-z]{8}\.com\/req\/[0-9]{1,4}/$script,third-party
 /ws:\/\/[a-z]{8}\.[a-z]+\/[A-Za-z]{4}/$websocket,third-party
 /http:\/\/[0-9a-z]{5}\.com\/$/$subdocument,third-party
@@ -10,10 +9,13 @@
 !Poniższy filtr nie jest potrzebny po dodaniu ##script:inject(abort-on-property-write.js, TID) 
 /^https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
 
-!Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb, https://www.filesupload.org/9a297832361b9497e5f38e61104ff152/psy.mp4) lub powyższy filtr został wyłączony)
-/^https?:\/\/[a-z]{9,10}\.com\/popunder\.gif$/$xmlhttprequest,third-party
-/^https?:\/\/[a-z]{9,10}\.com\/.{400}/$subdocument,third-party
-/^https?:\/\/[a-z]{9,10}\.com\/.{135}/$image,third-party
+!Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb po captchy, http://indishare.me/j1c0ep4sxpmg po kliknięciu Download Here) lub powyższy filtr został wyłączony)
+!Poniższe filtry można zastąpić filtrem ##script:inject(abort-on-property-write.js, Fingerprint2)
+/^https?:\/\/[a-z]{8,10}\.[a-z]*\/popunder\.gif$/$image,xmlhttprequest,third-party
+/^https?:\/\/[a-z]{8,10}\.[a-z]*\/.{400}/$subdocument,third-party
+/^https?:\/\/[a-z]{8,10}\.[a-z]*\/.{135}/$image,third-party
+/^https?:\/\/[a-z]{8,10}\.[a-z]*\/\?&subid=[0-9]*&pid=[0-9]*&tid=[0-9]*&status=[0-9]*&v=.*&_=[0-9]*$/$image,third-party
+/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/[^\/.]{29}/$script,third-party
 javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 !ad-maven stop
 
