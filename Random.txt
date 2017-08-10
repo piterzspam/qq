@@ -6,6 +6,9 @@
 /ws:\/\/[a-z]{8}\.[a-z]+\/[A-Za-z]{4}/$websocket,third-party
 /http:\/\/[0-9a-z]{5}\.com\/$/$subdocument,third-party
 
+!ad-maven.com
+/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/\?[a-z]{3,5}=[0-9]{6}$/$script,third-party
+
 !Poniższy filtr nie jest potrzebny po dodaniu ##script:inject(abort-on-property-write.js, _pop)
 /https?:\/\/www\.[a-z]{8,14}\.[a-z]+\/[a-z]{1,4}\.js/$script,third-party
 
