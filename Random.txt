@@ -5,7 +5,7 @@
 /http:\/\/[0-9a-z]{5}\.com\/$/$subdocument,third-party
 
 !adsterra start
-/^https?:\/\/[0-9a-z]{7}\.[a-z]*\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js$/$script,third-party
+/^https?:\/\/[0-9a-z]{5,7}\.[a-z]*\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js$/$script,third-party
 !adsterra stop
 
 !ad-maven.com start
