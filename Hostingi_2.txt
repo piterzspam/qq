@@ -1,104 +1,263 @@
 !Title: Hostingi_2
-||taboola.com
-||adserver-e7.com
-||jscount.com
-||epomads2.4shared.com
-||crsspxl.com
-||wwwpromoter.com
-||addthis.com
-||shr.one
-||exdynsrv.com
-||toroadvertisingmedia.com
-||adnetworkperformance.com
-||proxad.net
-||foxarmedia.com
-||adsjudo.com
-||clicksor.net
-||stats.filesupload.org
 
+!GENERICHIDE
 @@||1fichier.com^$generichide
 @@||4shared.com^$generichide
-||4shared.com/js/ads/relativeAdsScript
-||4shared.com/js/facebookInit
-||4shared.com/js/d1VisitsCounter
-||4shared.com/images/icon_removeadv.png
-||4shared.com/images/mcafee_virusckeck_bg.png
-||4shared.com/dataCollect.jsp
-||4shared.com/web/escript/
-||4shared.com/images/blank.gif
-||4shared.com/cross.jsp
+@@||auroravid.to^$generichide
+@@||bdupload.info^$generichide
+@@||bigfile.to^$generichide
+@@||clicknupload.org^$generichide
+@@||dailyuploads.net^$generichide
+@@||dl.free.fr^$generichide
+@@||downace.com^$generichide
+@@||faststore.org^$generichide
+@@||filecloud.io^$generichide
+@@||filefactory.com^$generichide
+@@||filerio.in^$generichide
+@@||filescdn.com^$generichide
+@@||filesupload.org^$generichide
+@@||freedisc.pl^$generichide
+@@||hitfile.net^$generichide
+@@||indishare.me^$generichide
+@@||katfile.com^$generichide
+@@||mega.nz^$generichide
+@@||nitroflare.com^$generichide
+@@||oboom.com^$generichide
+@@||openload.co^$generichide
+@@||reseton.net^$generichide
+@@||sendspace.com^$generichide
+@@||share-online.biz^$generichide
+@@||sharevideo.pl^$generichide
+@@||sharing-box.cloud^$generichide
+@@||solidfiles.com^$generichide
+@@||streamplay.cc^$generichide
+@@||superfilm.pl^$generichide
+@@||turbobit.net^$generichide
+@@||uploadboy.com^$generichide
+@@||uploaded.net^$generichide
+@@||uppit.com^$generichide
+@@||uptobox.com^$generichide
+@@||userscloud.com^$generichide
+@@||vider.info^$generichide
+@@||vidstream.xyz^$generichide
+@@||vidto.me^$generichide
+@@||vidzi.tv^$generichide
+@@||vod-share.com^$generichide
+@@||vshare.eu^$generichide
+@@||vshare.io^$generichide
+@@||zippyshare.com^$generichide
+
+!HOSTS:
+||ad6media.fr
+||addthis.com
+||adform.net
+||adkontekst.pl
+||adnetworkperformance.com
+||adocean.pl
+||adrecover.com
+||ads2.uptobox.com
+||adserver-e7.com
+||adsjudo.com
+||adspredictiv.com
+||adstract.com
+||bbelements.com
+||bnhtml.com
+||bnserving.com
+||clickonometrics.pl
+||clicksor.net
+||counter.yadro.ru
+||crsspxl.com
+||epomads2.4shared.com
+||exdynsrv.com
+||exoclick.com
+||foxarmedia.com
+||gemius.pl
+||jscount.com
+||juicyads.com
+||longtailvideo.com
+||maxonclick.com
+||mc.yandex.ru
+||nsaudience.pl
+||oclaserver.com
+||padstm.com
+||pixfuture.net
+||propvideo.net
+||proxad.net
+||pureadexchange.com
+||putrr9.com
+||rtbnow.com
+||rtbnowads.com
+||sailfish.media
+||sensic.net
+||shr.one
+||smartadserver.com
+||static2.vidto.me
+||stats.filesupload.org
+||taboola.com
+||tmdn2015x9.com
+||toroadvertisingmedia.com
+||upx.nz
+||viralseedmedia.com
+||webshark.pl
+||wwwpromoter.com
+
+!DOMENY:
+||adk2x.com$popup
+||apis.google.com$domain=superfilm.pl|uptobox.com
+||cloudfront.net$domain=filescdn.com|userscloud.com
+||nanoadexchange.com^$popup
+||pix.sr$domain=userscloud.com
+||sendit.cloud$domain=userscloud.com
+||twitter.com$domain=solidfiles.com|uptobox.com
+||vavoo.tv$popup
+||verifystore.com$domain=bigfile.to
+
+!KOSMETYCZNE
 4shared.com##DIV.featured_top_wrapper
 4shared.com##DIV.remove-rekl
 4shared.com##DIV[id^="epom-"]
 4shared.com##DIV.antivirus
 4shared.com##DIV.dcounter > DIV.db > DIV.premium
-@@||bdupload.info^$generichide
-||bdupload.info/images_themeNew/ico_*.png$image
-||bdupload.info/js/share.js
-!dokończyć
-@@||bigfile.to^$generichide
-||verifystore.com$domain=bigfile.to
-||bigfile.to/images/Bigfile/player.png
 bigfile.to##DIV.adbox
 bigfile.to##DIV.fix_foot_box
 bigfile.to##DIV#playerAdFrame
-||bigfile.to/script/blockadblock.js$script,redirect=fuckadblock.js-3.2.0,important
-||adk2x.com$popup
-!dokończyć
-@@||clicknupload.org^$generichide
-||clicknupload.org/js/share.js
-clicknupload.org##script:inject(abort-on-property-write.js, _pop)
-@@||dailyuploads.net^$generichide
-dailyuploads.net##script:inject(abort-on-property-write.js, _pop)
 dailyuploads.net##TD[align="center"][width="205px"]:first-child
 dailyuploads.net##BUTTON#downloadBtnClick
-||dailyuploads.net/images/redbuttonx.png
-@@||dl.free.fr^$generichide
-@@||downace.com^$generichide
-||downace.com/themes/ace/assets/img/*.jpg
 downace.com##DIV[id*="ScriptRoot"]
-downace.com##script:inject(noeval.js)
 downace.com##P.uk-margin-small > A.uk-button
 downace.com##H2#share_urls
 downace.com##TABLE.uk-table > TBODY > TR > TD:has-text(Share File:)
-@@||faststore.org^$generichide
-faststore.org##script:inject(abort-on-property-write.js, _pop)
-||faststore.org/cdn-cgi/
-!dokończyć
-@@||filecloud.io^$generichide
-@@||filecloud.io/banner_ads.js
-@@||filecloud.io^$xmlhttprequest,first-party
-@@||filefactory.com^$generichide
-||filefactory.com/img/premium/promo.jpg
 filefactory.com##DIV.modal.bootstrap-dialog.type-primary.fade.size-normal.in
 filefactory.com##A.wp-body-box-action-green[href="/services/premium"]
 filefactory.com##A#wp-body-layout-center
 filefactory.com##A.wp-body-layout-side
-@@||filerio.in^$generichide
-!Zamiast poniższych filtrów można użyć ||adsjudo.com/*/advertisement.js$script,redirect=noopjs,important
-!filerio.in##script:inject(abort-on-property-write.js, pbnm)
-!filerio.in##A[onclick^="mainWidget_globalTm"]
-!##A[style="width:100%; height:100%; display:block!important; position:fixed; top:0px; left:0px;cursor: pointer;z-index: 2147483647;"][onclick^="mainWidget_globalTm"]
-||adsjudo.com/*/advertisement.js$script,redirect=noopjs,important
 filerio.in##INS.adsbygoogle
 filerio.in##DIV.upgrate_premium_c
 filerio.in##DIV[class][style] > DIV[style="padding:0 0 0 0;"]
 filerio.in##INPUT.premium_download[name="method_premium"][value="Premium Download"]
-@@||filescdn.com^$generichide
-||cloudfront.net$domain=filescdn.com
 filescdn.com##DIV.col-md-8.col-md-offset-2 > DIV.page-container[style="min-height:675px"]
 filescdn.com##A.btn.bg-green-400
-||senditcloud.com$popup,domain=filescdn.com
-@@||filesupload.org^$generichide
-filesupload.org##script:inject(abort-on-property-write.js, _pop)
-!filesupload.org##script:inject(noeval.js)
-||sellously.info
+filesupload.org##DIV[id*="ScriptRoot"]
+filesupload.org##A.link-download.btn.btn-lg.btn-success
+filesupload.org##DIV.row > DIV.col-md-5
+hitfile.net##DIV#subs-vi-screen
+hitfile.net##DIV#virgopass-footer
+nitroflare.com##DIV#superbox-overlay
+nitroflare.com##DIV#superbox-wrapper
+nitroflare.com##DIV[style="background: #1c3145;padding: 12px;border-radius: 7px;margin: 6px 0;font-size: 15px;color: #fff;"]
+nitroflare.com##DIV.noticeMessage
+nitroflare.com##A.purchaseNoWaiting
+oboom.com##DIV[style="width:600px;height:700px;margin:0 auto;position:absolute;top:30px;left:50%;margin-left:-300px;"]
+oboom.com##BUTTON#smoozed_button
+oboom.com##BUTTON.yesaccount
+oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > H2
+oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > P
+oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > STRONG
+oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > H3
+oboom.com##BUTTON.noaccount:style(background: #9acd32 !important)
+oboom.com##UL.soeasy
+sendspace.com##DIV.ads_holder
+sendspace.com##A.ads_remove
+sendspace.com##DIV.share-icons
+sendspace.com##A[title="Download with Wizard"]
+sendspace.com##A.tooltip
+sendspace.com##A.download_page_button.button2.save_to_account_button
+share-online.biz##DIV#consumer_bottom
+share-online.biz##DIV#dl_wait A[href="https://www.share-online.biz/register"]
+solidfiles.com##DIV[class^="bnr-"]
+solidfiles.com##DIV.social
+uploadboy.com##INS.adsbygoogle
+uploadboy.com##DIV.col-md-12:if(A[href="/earn.html"])
+uploadboy.com##DIV.row > DIV.col-sm-4 > DIV[align="center"] > A[href="//uploadboy.com/premium.html"]
+uppit.com##DIV#\33 36
+uptobox.com##P[style="font-size:14px; font-weight:bold;"] > A[href="https://uptobox.com/?op=buypromo"]
+uptobox.com##DIV[style="height: 50px; background-color: #FFF"]
+uptobox.com##A[href="https://uptobox.com/images/uptobox_unicorn.png"]
+userscloud.com##A.btn.btn-white:has-text(Share)
+userscloud.com##DIV.innerTB > CENTER:if(A[href="https://userscloud.com/unlimited.html"])
+vidzi.tv##DIV.player-ads
+vshare.eu##DIV#player-preview-container
 
+!SCRIPT:INJECT
+clicknupload.org,dailyuploads.net,faststore.org,filesupload.org,sharevideo.pl,sharing-box.cloud,vidstream.xyz,vod-share.com##script:inject(abort-on-property-write.js, _pop)
+filescdn.com,filesupload.org,indishare.me,solidfiles.com,uptobox.com,userscloud.com##script:inject(abort-on-property-write.js, Fingerprint2)
+sharevideo.pl,sharing-box.cloud,vidstream.xyz##script:inject(abort-on-property-write.js, sas)
+filescdn.com,katfile.com,openload.co,sendspace.com,userscloud.com##script:inject(abort-on-property-write.js, open)
+turbobit.net##script:inject(abort-on-property-read.js, BetterJsPop)
+downace.com,openload.co,share-online.biz##script:inject(noeval.js)
+openload.co##script:inject(openload.co.js)
 
+!STATYCZNE
+||4shared.com/cross.jsp
+||4shared.com/dataCollect.jsp
+||4shared.com/images/blank.gif
+||4shared.com/images/icon_removeadv.png
+||4shared.com/images/mcafee_virusckeck_bg.png
+||4shared.com/js/ads/relativeAdsScript
+||4shared.com/js/d1VisitsCounter
+||4shared.com/js/facebookInit
+||4shared.com/web/escript/
+||adsjudo.com/*/advertisement.js$script,redirect=noopjs,important
+||amazonaws.com/waframedia
+||bdupload.info/images_themeNew/ico_*.png$image
+||bdupload.info/js/share.js
+||bigfile.to/images/Bigfile/player.png
+||bigfile.to/script/blockadblock.js$script,redirect=fuckadblock.js-3.2.0,important
+||clicknupload.org/js/share.js
+||cloudflare.com/*cookieconsent
+||cloudfront.net/atrk.js
+||dailyuploads.net/images/redbuttonx.png
+||downace.com/themes/ace/assets/img/*.jpg
+||faststore.org/cdn-cgi/
+||filefactory.com/img/premium/promo.jpg
+||filesupload.org/img/share/
+||freedisc.pl/aserver/
+||jwpcdn.com/*gapro.js
+||jwpcdn.com/*jwpsrv.js
+||katfile.com/images/social.jpg
+||katfile.com/js/share.js
+||muzofos.com/adserver/
+||nitroflare.com/img/welcome2purchase.png
+||openload.co/assets/js/*.vpaid
+||openload.co/assets/js/license
+||openload.co/assets/js/script.263.js
+||reseton.net/aserver/
+||reseton.pl/aserver/
+||sendspace.com/defaults/framer.html
+||share-online.biz/inc/exfl.js
+||superfilm.pl/vast/vast.php
+||turbobit.net/fd1/js/brinpopup.js
+||turbobit.net/platform/js/fdlogger
+||turbobit.net/platform/js/live/galog.min.js
+||uploadboy.com/analytics.js
+||uploadboy.com/bannerset/Uploadboy-en-728.gif
+||uploadboy.com/js/share.js
+||uploaded.net/img/fb.html
+||uptobox.com/*ad6media
+||uptostream.com/biscuit.html
+||vider.info/aserver/
+||vider.info/static/css/vider/ads.css
+||vidzi.tv/300.html
+||vshare.eu/adv/
+||vshare.eu/javascripts/license.14.js
+||vshare.eu/javascripts/script.js
+||vshare.io/cdn-cgi
 
-
-
-
-
-!
-
+!BIAŁA LISTA
+@@||easylist.club$script
+@@||filecloud.io/banner_ads.js
+@@||filecloud.io^$xmlhttprequest,first-party
+@@||hitfile.net/platform/js/ads.js
+@@||katfile.com/js/adframe.js
+@@||openload.co/assets/js/script.234.js
+@@||polvod.pl/ads/adv.js
+@@||polvod.pl/advertisement.js
+@@||share-online.biz/template/js/ads.js
+@@||solidfilescdn.com/static/js/advertisement
+@@||static.cda.pl/ads/advertise.js
+@@||static.vidzi.tv/static/js/main.js
+@@||uploadboy.com/ads.js
+@@||vidzi.tv/static/ads.js
+@@||vod-share.com/js/ads.js
+@@||webshark.pl/adserver/*/main_script.js?advertise_check=1
+@@||zippyshare.com/ads.js
