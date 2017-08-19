@@ -3,6 +3,7 @@
 !GENERICHIDE
 @@||1fichier.com^$generichide
 @@||4shared.com^$generichide
+@@||anyfiles.pl^$generichide
 @@||auroravid.to^$generichide
 @@||bdupload.info^$generichide
 @@||bigfile.to^$generichide
@@ -60,9 +61,11 @@
 ||adsjudo.com
 ||adspredictiv.com
 ||adstract.com
+||adtools.pl
 ||bbelements.com
 ||bnhtml.com
 ||bnserving.com
+||brand.ad
 ||clickonometrics.pl
 ||clicksor.net
 ||counter.yadro.ru
@@ -72,6 +75,7 @@
 ||exoclick.com
 ||foxarmedia.com
 ||gemius.pl
+||imasdk.googleapis.com
 ||jscount.com
 ||juicyads.com
 ||longtailvideo.com
@@ -91,12 +95,14 @@
 ||sensic.net
 ||shr.one
 ||smartadserver.com
+||spolecznosci.net
 ||static2.vidto.me
 ||stats.filesupload.org
 ||taboola.com
 ||tmdn2015x9.com
 ||toroadvertisingmedia.com
 ||upx.nz
+||vendimob.pl
 ||viralseedmedia.com
 ||webshark.pl
 ||wwwpromoter.com
@@ -113,66 +119,67 @@
 ||verifystore.com$domain=bigfile.to
 
 !KOSMETYCZNE
+4shared.com##DIV.antivirus
+4shared.com##DIV.dcounter > DIV.db > DIV.premium
 4shared.com##DIV.featured_top_wrapper
 4shared.com##DIV.remove-rekl
 4shared.com##DIV[id^="epom-"]
-4shared.com##DIV.antivirus
-4shared.com##DIV.dcounter > DIV.db > DIV.premium
+anyfiles.pl##DIV#FBPluginsLoadDiv
+bigfile.to##DIV#playerAdFrame
 bigfile.to##DIV.adbox
 bigfile.to##DIV.fix_foot_box
-bigfile.to##DIV#playerAdFrame
-dailyuploads.net##TD[align="center"][width="205px"]:first-child
 dailyuploads.net##BUTTON#downloadBtnClick
+dailyuploads.net##TD[align="center"][width="205px"]:first-child
 downace.com##DIV[id*="ScriptRoot"]
-downace.com##P.uk-margin-small > A.uk-button
 downace.com##H2#share_urls
+downace.com##P.uk-margin-small > A.uk-button
 downace.com##TABLE.uk-table > TBODY > TR > TD:has-text(Share File:)
-filefactory.com##DIV.modal.bootstrap-dialog.type-primary.fade.size-normal.in
-filefactory.com##A.wp-body-box-action-green[href="/services/premium"]
 filefactory.com##A#wp-body-layout-center
+filefactory.com##A.wp-body-box-action-green[href="/services/premium"]
 filefactory.com##A.wp-body-layout-side
-filerio.in##INS.adsbygoogle
+filefactory.com##DIV.modal.bootstrap-dialog.type-primary.fade.size-normal.in
 filerio.in##DIV.upgrate_premium_c
 filerio.in##DIV[class][style] > DIV[style="padding:0 0 0 0;"]
 filerio.in##INPUT.premium_download[name="method_premium"][value="Premium Download"]
-filescdn.com##DIV.col-md-8.col-md-offset-2 > DIV.page-container[style="min-height:675px"]
+filerio.in##INS.adsbygoogle
 filescdn.com##A.btn.bg-green-400
-filesupload.org##DIV[id*="ScriptRoot"]
+filescdn.com##DIV.col-md-8.col-md-offset-2 > DIV.page-container[style="min-height:675px"]
 filesupload.org##A.link-download.btn.btn-lg.btn-success
 filesupload.org##DIV.row > DIV.col-md-5
+filesupload.org##DIV[id*="ScriptRoot"]
 hitfile.net##DIV#subs-vi-screen
 hitfile.net##DIV#virgopass-footer
+nitroflare.com##A.purchaseNoWaiting
 nitroflare.com##DIV#superbox-overlay
 nitroflare.com##DIV#superbox-wrapper
-nitroflare.com##DIV[style="background: #1c3145;padding: 12px;border-radius: 7px;margin: 6px 0;font-size: 15px;color: #fff;"]
 nitroflare.com##DIV.noticeMessage
-nitroflare.com##A.purchaseNoWaiting
-oboom.com##DIV[style="width:600px;height:700px;margin:0 auto;position:absolute;top:30px;left:50%;margin-left:-300px;"]
+nitroflare.com##DIV[style="background: #1c3145;padding: 12px;border-radius: 7px;margin: 6px 0;font-size: 15px;color: #fff;"]
 oboom.com##BUTTON#smoozed_button
+oboom.com##BUTTON.noaccount:style(background: #9acd32 !important)
 oboom.com##BUTTON.yesaccount
 oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > H2
+oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > H3
 oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > P
 oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > STRONG
-oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > H3
-oboom.com##BUTTON.noaccount:style(background: #9acd32 !important)
+oboom.com##DIV[style="width:600px;height:700px;margin:0 auto;position:absolute;top:30px;left:50%;margin-left:-300px;"]
 oboom.com##UL.soeasy
-sendspace.com##DIV.ads_holder
 sendspace.com##A.ads_remove
-sendspace.com##DIV.share-icons
-sendspace.com##A[title="Download with Wizard"]
-sendspace.com##A.tooltip
 sendspace.com##A.download_page_button.button2.save_to_account_button
+sendspace.com##A.tooltip
+sendspace.com##A[title="Download with Wizard"]
+sendspace.com##DIV.ads_holder
+sendspace.com##DIV.share-icons
 share-online.biz##DIV#consumer_bottom
 share-online.biz##DIV#dl_wait A[href="https://www.share-online.biz/register"]
-solidfiles.com##DIV[class^="bnr-"]
 solidfiles.com##DIV.social
-uploadboy.com##INS.adsbygoogle
+solidfiles.com##DIV[class^="bnr-"]
 uploadboy.com##DIV.col-md-12:if(A[href="/earn.html"])
 uploadboy.com##DIV.row > DIV.col-sm-4 > DIV[align="center"] > A[href="//uploadboy.com/premium.html"]
+uploadboy.com##INS.adsbygoogle
 uppit.com##DIV#\33 36
-uptobox.com##P[style="font-size:14px; font-weight:bold;"] > A[href="https://uptobox.com/?op=buypromo"]
-uptobox.com##DIV[style="height: 50px; background-color: #FFF"]
 uptobox.com##A[href="https://uptobox.com/images/uptobox_unicorn.png"]
+uptobox.com##DIV[style="height: 50px; background-color: #FFF"]
+uptobox.com##P[style="font-size:14px; font-weight:bold;"] > A[href="https://uptobox.com/?op=buypromo"]
 userscloud.com##A.btn.btn-white:has-text(Share)
 userscloud.com##DIV.innerTB > CENTER:if(A[href="https://userscloud.com/unlimited.html"])
 vidzi.tv##DIV.player-ads
@@ -180,6 +187,7 @@ vshare.eu##DIV#player-preview-container
 
 !SCRIPT:INJECT
 clicknupload.org,dailyuploads.net,faststore.org,filesupload.org,sharevideo.pl,sharing-box.cloud,vidstream.xyz,vod-share.com##script:inject(abort-on-property-write.js, _pop)
+anyfiles.pl##script:inject(abort-on-property-write.js,launchOpenWindow)
 filescdn.com,filesupload.org,indishare.me,solidfiles.com,uptobox.com,userscloud.com##script:inject(abort-on-property-write.js, Fingerprint2)
 sharevideo.pl,sharing-box.cloud,vidstream.xyz##script:inject(abort-on-property-write.js, sas)
 filescdn.com,katfile.com,openload.co,sendspace.com,userscloud.com##script:inject(abort-on-property-write.js, open)
@@ -199,6 +207,11 @@ openload.co##script:inject(openload.co.js)
 ||4shared.com/web/escript/
 ||adsjudo.com/*/advertisement.js$script,redirect=noopjs,important
 ||amazonaws.com/waframedia
+||anyfiles.pl/js/cookiepolicy.js
+||anyfiles.pl/pageloading/fb-plugins
+||anyfiles.pl/video-js/plugins/vjs.social
+||anyfiles.pl/video-js/videojs-ads
+||anyfiles.pl/video-js/videojs-ima
 ||bdupload.info/images_themeNew/ico_*.png$image
 ||bdupload.info/js/share.js
 ||bigfile.to/images/Bigfile/player.png
