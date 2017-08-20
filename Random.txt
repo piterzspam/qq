@@ -14,12 +14,12 @@
 /^https?:\/\/s3\.amazonaws\.com\/[^\/.]{56}/$script,xmlhttprequest,third-party
 
 !Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb po captchy, http://indishare.me/j1c0ep4sxpmg po kliknięciu Download Here) lub powyższy filtr został wyłączony)
-/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/[^\/.]{200}/$script,third-party
 !Poniższe filtry można zastąpić filtrem ##script:inject(abort-on-property-write.js, Fingerprint2)
-/^https?:\/\/[a-z]{8,10}\.[a-z]*\/popunder\.gif$/$image,xmlhttprequest,third-party
-/^https?:\/\/[a-z]{8,10}\.[a-z]*\/.{400}/$subdocument,third-party
-/^https?:\/\/[a-z]{8,10}\.[a-z]*\/.{120}/$image,third-party
-/^https?:\/\/[a-z]{8,10}\.[a-z]*\/\?&subid=.*&pid=[0-9]*&tid=[0-9]*&status=.*&_=[0-9]*$/$image,third-party
+/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/[^\/.]{88}/$script,third-party
+/^https?:\/\/[a-z]{7,10}\.[a-z]*\/popunder\.gif$/$image,xmlhttprequest,third-party
+/^https?:\/\/[a-z]{7,10}\.[a-z]*\/.{400}/$subdocument,third-party
+/^https?:\/\/[a-z]{7,10}\.[a-z]*\/.{120}/$image,other,third-party
+/^https?:\/\/[a-z]{7,10}\.[a-z]*\/\?&subid=.*&pid=[0-9]*&tid=[0-9]*&status=.*&_=[0-9]*$/$image,third-party
 javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 !ad-maven stop
 
