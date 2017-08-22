@@ -69,6 +69,7 @@ ouo.!Title: Url Shorteners_2
 ||amazonaws.com/wafmedia
 ||amung.us
 ||bcvc.mobi
+||buzzadexchange.com
 ||clicksgear.com
 ||clksite.com
 ||connect.facebook.net
@@ -145,6 +146,7 @@ clik.pw##INS.adsbygoogle
 ||tawk.to$domain=clik.pw
 @@||clik.pw/js/ads.js
 !COINLINK.CO
+coinlink.co##script:inject(abort-on-property-write.js, _pop)
 coinlink.co##DIV.panel-body.text-center > HR
 coinlink.co##INS.adsbygoogle
 !COSHURL.CO
@@ -205,11 +207,13 @@ about:blank$popup,domain=jzrputtbut.net
 !LINKSHRINK.NET
 linkshrink.net##DIV.ftr1 > DIV[class^="g"]
 linkshrink.net##script:inject(noeval.js)
+linkshrink.net##script:inject(abort-on-property-write.js, onpopstate)
 ||linkshrink.net/cdn-cgi/beacon/
 !LYNK.MY
 ||lynk.my/cdn-cgi/apps/head/
 !OUO.IO
 ||ouo.io/images/download-ad.png
+||ouo.io/js/pop.v21.js
 !OUO.PRESS
 ouo.press##INS.adsbygoogle
 !SH.ST
@@ -223,6 +227,7 @@ shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||shink.in/js/p*.js
 ||shink.in/img/downloadad.png
+||shink.in/js/creative.js
 @@||shink.in/js/show_ads.js
 !SHORT.AM
 !blokuje zapytania do:popads.net/pop.js i /^https?:\/\/www\.[a-z]{8,14}\.[a-z]*\/[a-z]{1,4}\.js$/$script,third-party
