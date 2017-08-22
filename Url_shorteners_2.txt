@@ -149,6 +149,7 @@ clik.pw##INS.adsbygoogle
 coinlink.co##script:inject(abort-on-property-write.js, _pop)
 coinlink.co##DIV.panel-body.text-center > HR
 coinlink.co##INS.adsbygoogle
+coinlink.co##FORM#go-popup
 !COSHURL.CO
 coshurl.co##script:inject(abort-on-property-write.js, _pop)
 coshurl.co##INS.adsbygoogle
