@@ -84,11 +84,8 @@
 ||mgid.com
 ||newrelic.com
 ||nexac.com
-||oclasrv.com
-||onclasrv.com
 ||onclickads.net
 ||onclickpulse.com
-||onclkds.com
 ||outbrain.com
 ||pingoli.info
 ||pixel-secure.solvemedia.com
