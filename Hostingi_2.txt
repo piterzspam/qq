@@ -7,7 +7,9 @@
 @@||auroravid.to^$generichide
 @@||bdupload.info^$generichide
 @@||bigfile.to^$generichide
+@@||bitvid.sx^$generichide
 @@||clicknupload.org^$generichide
+@@||cloudtime.to^$generichide
 @@||dailyuploads.net^$generichide
 @@||dl.free.fr^$generichide
 @@||downace.com^$generichide
@@ -17,89 +19,128 @@
 @@||filerio.in^$generichide
 @@||filescdn.com^$generichide
 @@||filesupload.org^$generichide
+@@||flashx.tv^$generichide
+@@||freedisc.pl^$generichide
 @@||freedisc.pl^$generichide
 @@||hitfile.net^$generichide
 @@||indishare.me^$generichide
 @@||katfile.com^$generichide
 @@||mega.nz^$generichide
+@@||myvi.ru^$generichide
 @@||nitroflare.com^$generichide
+@@||nowvideo.sx^$generichide
 @@||oboom.com^$generichide
 @@||openload.co^$generichide
+@@||rapidvideo.com^$generichide
 @@||reseton.net^$generichide
+@@||reseton.pl^$generichide
 @@||sendspace.com^$generichide
 @@||share-online.biz^$generichide
 @@||sharevideo.pl^$generichide
 @@||sharing-box.cloud^$generichide
 @@||solidfiles.com^$generichide
+@@||speedvid.net^$generichide
+@@||streamango.com^$generichide
+@@||streamcherry.com^$generichide
 @@||streamplay.cc^$generichide
 @@||superfilm.pl^$generichide
+@@||thevideo.me^$generichide
+@@||trt.pl^$generichide
+@@||tune.pk^$generichide
 @@||turbobit.net^$generichide
+@@||ultimatedown.com^$generichide
 @@||uploadboy.com^$generichide
 @@||uploaded.net^$generichide
 @@||uppit.com^$generichide
 @@||uptobox.com^$generichide
 @@||userscloud.com^$generichide
+@@||videowood.tv^$generichide
 @@||vider.info^$generichide
+@@||vider.info^$generichide
+@@||vidfile.net^$generichide
+@@||vidlox.tv^$generichide
+@@||vidoza.net^$generichide
 @@||vidstream.xyz^$generichide
 @@||vidto.me^$generichide
 @@||vidzi.tv^$generichide
 @@||vod-share.com^$generichide
+@@||vod-share.com^$generichide
 @@||vshare.eu^$generichide
 @@||vshare.io^$generichide
+@@||wholecloud.net^$generichide
 @@||zippyshare.com^$generichide
 
 !HOSTS:
 ||ad6media.fr
 ||addthis.com
+||addtoany.com
 ||adform.net
 ||adkontekst.pl
 ||adnetworkperformance.com
 ||adocean.pl
 ||adrecover.com
+||ads1.tune.pk
 ||ads2.uptobox.com
 ||adserver-e7.com
 ||adsjudo.com
 ||adspredictiv.com
 ||adstract.com
 ||adtools.pl
+||advarkads.com
+||analytics.thevideo.me
 ||bbelements.com
 ||bnhtml.com
 ||bnserving.com
 ||brand.ad
+||cdn77.org
 ||clickonometrics.pl
 ||clicksor.net
 ||counter.yadro.ru
+||criteo.net
 ||crsspxl.com
 ||epomads2.4shared.com
 ||exdynsrv.com
 ||exoclick.com
 ||foxarmedia.com
 ||gemius.pl
+||hilltopads.net
+||histats.com
 ||imasdk.googleapis.com
 ||jscount.com
 ||juicyads.com
+||log.thevideo.me
 ||longtailvideo.com
 ||maxonclick.com
 ||mc.yandex.ru
 ||nsaudience.pl
 ||oclaserver.com
 ||padstm.com
+||perr.h-cdn.com
 ||pixfuture.net
+||poptm.com
 ||propvideo.net
 ||proxad.net
 ||pureadexchange.com
 ||putrr9.com
+||quantserve.com
+||relap.io
+||replase.ml
 ||rtbnow.com
 ||rtbnowads.com
 ||sailfish.media
+||scorecardresearch.com
 ||sensic.net
 ||shr.one
 ||smartadserver.com
 ||spolecznosci.net
+||spoutable.com
+||st.tyt.me
 ||static2.vidto.me
 ||stats.filesupload.org
+||stats2.tune.pk
 ||taboola.com
 ||tmdn2015x9.com
+||tns-counter.ru
 ||toroadvertisingmedia.com
 ||upx.nz
 ||vendimob.pl
@@ -110,24 +151,43 @@
 !DOMENY:
 ||adk2x.com$popup
 ||apis.google.com$domain=superfilm.pl|uptobox.com
+||auroravid.to^$inline-script
+||bitvid.sx^$inline-script
 ||cloudfront.net$domain=filescdn.com|userscloud.com
+||cloudtime.to^$inline-script
 ||nanoadexchange.com^$popup
+||nowvideo.sx^$inline-script
 ||pix.sr$domain=userscloud.com
+||popads.net^$script,redirect=popads-dummy.js,domain=vidlox.tv
 ||sendit.cloud$domain=userscloud.com
+||tawk.to$domain=vidlox.tv
 ||twitter.com$domain=solidfiles.com|uptobox.com
+||userapi.com$domain=myvi.ru
 ||vavoo.tv$popup
 ||verifystore.com$domain=bigfile.to
+||vk.com$domain=myvi.ru
+||weborama.fr$domain=myvi.ru
+||wholecloud.net^$inline-script
 
 !KOSMETYCZNE
+##HTML > BODY > A[href$=".html"][rel="nofollow norefferer noopener"][style]:last-child
 4shared.com##DIV.antivirus
 4shared.com##DIV.dcounter > DIV.db > DIV.premium
 4shared.com##DIV.featured_top_wrapper
 4shared.com##DIV.remove-rekl
 4shared.com##DIV[id^="epom-"]
 anyfiles.pl##DIV#FBPluginsLoadDiv
+auroravid.to##DIV.last.sharing_block
+auroravid.to##DIV[id^="MGWrap"]
 bigfile.to##DIV#playerAdFrame
 bigfile.to##DIV.adbox
 bigfile.to##DIV.fix_foot_box
+bitvid.sx##DIV#share_box
+bitvid.sx##DIV[id*="Composite"]
+bitvid.sx##DIV[id^="MGWrap"]
+cloudtime.to##DIV.fb-comments
+cloudtime.to##DIV.video_det[style="overflow:hidden; width:550px; margin-top:0; padding:5px 10px;"]
+cloudtime.to##DIV[id*="Composite"]
 dailyuploads.net##BUTTON#downloadBtnClick
 dailyuploads.net##TD[align="center"][width="205px"]:first-child
 downace.com##DIV[id*="ScriptRoot"]
@@ -147,13 +207,22 @@ filescdn.com##DIV.col-md-8.col-md-offset-2 > DIV.page-container[style="min-heigh
 filesupload.org##A.link-download.btn.btn-lg.btn-success
 filesupload.org##DIV.row > DIV.col-md-5
 filesupload.org##DIV[id*="ScriptRoot"]
+flashx.tv##HTML > BODY > A[href$=".html"][rel="nofollow norefferer noopener"][style]:last-child
+freedisc.pl##DIV#video_reklamy
 hitfile.net##DIV#subs-vi-screen
 hitfile.net##DIV#virgopass-footer
+myvi.ru##DIV#right_banner_wrapper
+myvi.ru##DIV#vk_comments
+myvi.ru##DIV.soc-sh
 nitroflare.com##A.purchaseNoWaiting
 nitroflare.com##DIV#superbox-overlay
 nitroflare.com##DIV#superbox-wrapper
 nitroflare.com##DIV.noticeMessage
 nitroflare.com##DIV[style="background: #1c3145;padding: 12px;border-radius: 7px;margin: 6px 0;font-size: 15px;color: #fff;"]
+nowvideo.sx##DIV.video_details.radius5[style="height:34px; margin-top:0; overflow:hidden; position:relative; float:left; padding:4px 10px 0 10px;"]
+nowvideo.sx##DIV[id*="Composite"]
+nowvideo.sx##DIV[id*="ScriptRoot"]
+nowvideo.sx##DIV[id^="MGWrap"]
 oboom.com##BUTTON#smoozed_button
 oboom.com##BUTTON.noaccount:style(background: #9acd32 !important)
 oboom.com##BUTTON.yesaccount
@@ -163,6 +232,8 @@ oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:
 oboom.com##DIV[style="background:#fff;z-index:9999;position:relative;margin-top:30px;"] > STRONG
 oboom.com##DIV[style="width:600px;height:700px;margin:0 auto;position:absolute;top:30px;left:50%;margin-left:-300px;"]
 oboom.com##UL.soeasy
+reseton.pl##DIV#background-cloud-reseton
+reseton.pl##DIV#video_reklamy
 sendspace.com##A.ads_remove
 sendspace.com##A.download_page_button.button2.save_to_account_button
 sendspace.com##A.tooltip
@@ -173,6 +244,13 @@ share-online.biz##DIV#consumer_bottom
 share-online.biz##DIV#dl_wait A[href="https://www.share-online.biz/register"]
 solidfiles.com##DIV.social
 solidfiles.com##DIV[class^="bnr-"]
+speedvid.net##DIV.btn-ad
+superfilm.pl##DIV#box_info
+thevideo.me##DIV.panel:has-text(Sponsored Content)
+thevideo.me##DIV.vjs-overlay.vjs-overlay-bottom.vjs-overlay-signup.vjs-overlay-no-background
+thevideo.me##DIV.vjs-overlay.vjs-overlay-top.vjs-overlay-banner300x.hidden-xs-down.vjs-overlay-no-background
+tune.pk##DIV#tpk-revenue-sharing-program
+tune.pk##DIV.advertisement-box
 uploadboy.com##DIV.col-md-12:if(A[href="/earn.html"])
 uploadboy.com##DIV.row > DIV.col-sm-4 > DIV[align="center"] > A[href="//uploadboy.com/premium.html"]
 uploadboy.com##INS.adsbygoogle
@@ -182,18 +260,27 @@ uptobox.com##DIV[style="height: 50px; background-color: #FFF"]
 uptobox.com##P[style="font-size:14px; font-weight:bold;"] > A[href="https://uptobox.com/?op=buypromo"]
 userscloud.com##A.btn.btn-white:has-text(Share)
 userscloud.com##DIV.innerTB > CENTER:if(A[href="https://userscloud.com/unlimited.html"])
+vidfile.net##DIV.rek
+vidlox.tv##DIV[id*="Composite"]
+vidoza.net##A.btn.btn-social
 vidzi.tv##DIV.player-ads
 vshare.eu##DIV#player-preview-container
+wholecloud.net##DIV[id*="Composite"]
 
 !SCRIPT:INJECT
-clicknupload.org,dailyuploads.net,faststore.org,filesupload.org,sharevideo.pl,sharing-box.cloud,vidstream.xyz,vod-share.com##script:inject(abort-on-property-write.js, _pop)
 anyfiles.pl##script:inject(abort-on-property-write.js,launchOpenWindow)
-filescdn.com,filesupload.org,indishare.me,solidfiles.com,uptobox.com,userscloud.com##script:inject(abort-on-property-write.js, Fingerprint2)
-sharevideo.pl,sharing-box.cloud,vidstream.xyz##script:inject(abort-on-property-write.js, sas)
-filescdn.com,katfile.com,openload.co,sendspace.com,userscloud.com##script:inject(abort-on-property-write.js, open)
-turbobit.net##script:inject(abort-on-property-read.js, BetterJsPop)
-downace.com,openload.co,share-online.biz##script:inject(noeval.js)
+clicknupload.org,dailyuploads.net,faststore.org,filesupload.org,flashx.tv,rapidvideo.com,sharevideo.pl,sharing-box.cloud,speedvid.net,ultimatedown.com,videowood.tv,vidfile.net,vidstream.xyz,vod-share.com##script:inject(abort-on-property-write.js, _pop)
+downace.com,openload.co,rapidvideo.com,share-online.biz##script:inject(noeval.js)
+filescdn.com,filesupload.org,indishare.me,solidfiles.com,speedvid.net,uptobox.com,userscloud.com,vidfile.net##script:inject(abort-on-property-write.js, Fingerprint2)
+filescdn.com,flashx.tv,katfile.com,openload.co,sendspace.com,speedvid.net,userscloud.com,videowood.tv##script:inject(abort-on-property-write.js, open)
+flashx.tv,rapidvideo.com,vidfile.net##script:inject(abort-on-property-write.js, t4u)
 openload.co##script:inject(openload.co.js)
+rapidvideo.com##script:inject(abort-on-property-write.js, executed)
+sharevideo.pl,sharing-box.cloud,vidstream.xyz##script:inject(abort-on-property-write.js, sas)
+thevideo.me##script:inject(abort-on-property-read.js, app.main.adblock)
+turbobit.net##script:inject(abort-on-property-read.js, BetterJsPop)
+tvad.me##script:inject(abort-on-property-read.js, app.adblockPop)
+vidlox.tv##script:inject(nowebrtc.js)
 
 !STATYCZNE
 ||4shared.com/cross.jsp
@@ -206,6 +293,7 @@ openload.co##script:inject(openload.co.js)
 ||4shared.com/js/facebookInit
 ||4shared.com/web/escript/
 ||adsjudo.com/*/advertisement.js$script,redirect=noopjs,important
+||alluc.ee/js/plzcrawlme.js
 ||amazonaws.com/waframedia
 ||anyfiles.pl/js/cookiepolicy.js
 ||anyfiles.pl/pageloading/fb-plugins
@@ -219,14 +307,19 @@ openload.co##script:inject(openload.co.js)
 ||clicknupload.org/js/share.js
 ||cloudflare.com/*cookieconsent
 ||cloudfront.net/atrk.js
+||cloudfront.net/atrk.js$script,redirect=noopjs,domain=flashx.tv,important
+||cloudfront.net/bugsnag
 ||dailyuploads.net/images/redbuttonx.png
 ||downace.com/themes/ace/assets/img/*.jpg
 ||faststore.org/cdn-cgi/
 ||filefactory.com/img/premium/promo.jpg
 ||filesupload.org/img/share/
+||flashx.tv/dl?op=view&file_code=*&hash=
 ||freedisc.pl/aserver/
+||freedisc.pl/static/img/watermark/movies.png
 ||jwpcdn.com/*gapro.js
 ||jwpcdn.com/*jwpsrv.js
+||jwpcdn.com/*sharing.js
 ||katfile.com/images/social.jpg
 ||katfile.com/js/share.js
 ||muzofos.com/adserver/
@@ -234,11 +327,29 @@ openload.co##script:inject(openload.co.js)
 ||openload.co/assets/js/*.vpaid
 ||openload.co/assets/js/license
 ||openload.co/assets/js/script.263.js
+||player.h-cdn.com/loader.js
 ||reseton.net/aserver/
 ||reseton.pl/aserver/
 ||sendspace.com/defaults/framer.html
 ||share-online.biz/inc/exfl.js
+||speedvid.net/cdn-cgi/beacon
+||speedvid.net/cdn-cgi/beacon
+||static.cda.pl/super/img/logo-superfilm-player.png
+||static.flashx.tv/img/fx.png
+||static.flashx.tv/img/player.png
+||static.flashx.tv/js/video.js$script,redirect=noopjs,important
+||static.flashx.tv/logo/watermark.png
+||static.flashx.tv/videojs/videojs.watermark$important
+||streamango.com/*shared.css
+||streamango.com/assets/js/license.js
+||streamango.com/assets/js/script.2544.js
+||streamcherry.com/*shared.css
+||streamcherry.com/assets/js/license.js
+||streamcherry.com/assets/js/script.2544.js
 ||superfilm.pl/vast/vast.php
+||thevideo.me/assets/g=adb
+||thevideo.me/mba/300x250
+||tune.pk/plugins/cb_ads_manager/front_end/js/dist/master.js
 ||turbobit.net/fd1/js/brinpopup.js
 ||turbobit.net/platform/js/fdlogger
 ||turbobit.net/platform/js/live/galog.min.js
@@ -248,8 +359,16 @@ openload.co##script:inject(openload.co.js)
 ||uploaded.net/img/fb.html
 ||uptobox.com/*ad6media
 ||uptostream.com/biscuit.html
+||videowood.tv/ads
+||videowood.tv/amung
+||videowood.tv/assets/js/player.js
+||videowood.tv/cdn-cgi/beacon
+||videowood.tv/pop2
 ||vider.info/aserver/
 ||vider.info/static/css/vider/ads.css
+||vidlox.tv/js/hrpr.js
+||vidoza.net/js/pus/license.52.js
+||vidoza.net/js/pus/script.packed.js
 ||vidzi.tv/300.html
 ||vshare.eu/adv/
 ||vshare.eu/javascripts/license.14.js
@@ -257,20 +376,30 @@ openload.co##script:inject(openload.co.js)
 ||vshare.io/cdn-cgi
 
 !BIAŁA LISTA
+@@ads.js$domain=hitfile.net|share-online.biz|tune.pk|uploadboy.com|vidoza.net|vidzi.tv|vod-share.com|zippyshare.com
+@@googlead.js$domain=streamango.com|streamcherry.com
+@@license.adbl.js$domain=streamango.com|streamcherry.com
+@@popunder2.js$domain=streamango.com|streamcherry.com
+@@popups-300x250-2-popunder.js$domain=auroravid.to|bitvid.sx|cloudtime.to|nowvideo.sx|wholecloud.net
+@@popups-popunders.js$domain=auroravid.to|bitvid.sx|cloudtime.to|nowvideo.sx|wholecloud.net
 @@||easylist.club$script
 @@||filecloud.io/banner_ads.js
 @@||filecloud.io^$xmlhttprequest,first-party
-@@||hitfile.net/platform/js/ads.js
+@@||flashx.tv$script,first-party
+@@||flashx1.tv/js/showad_.js
 @@||katfile.com/js/adframe.js
 @@||openload.co/assets/js/script.234.js
 @@||polvod.pl/ads/adv.js
 @@||polvod.pl/advertisement.js
-@@||share-online.biz/template/js/ads.js
+@@||reseton.net/*Advertise.js
+@@||reseton.net/*Advertise_view.js
 @@||solidfilescdn.com/static/js/advertisement
 @@||static.cda.pl/ads/advertise.js
 @@||static.vidzi.tv/static/js/main.js
-@@||uploadboy.com/ads.js
-@@||vidzi.tv/static/ads.js
-@@||vod-share.com/js/ads.js
+@@||stc.fx.fastcontentdelivery.com/js/showad_.js
+@@||superfilm.pl/ads/adv.js
+@@||superfilm.pl/advertisement.js
+@@||thevideo.me/js/jspc.js
+@@||ultimatedown.com/*advertisement.js
+@@||vidoza.net/js/pop.js
 @@||webshark.pl/adserver/*/main_script.js?advertise_check=1
-@@||zippyshare.com/ads.js
