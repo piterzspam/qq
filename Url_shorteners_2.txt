@@ -1,4 +1,4 @@
-ouo.!Title: Url Shorteners_2
+!Title: Url Shorteners_2
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
 ||google-analytics.com/plugins/ga/inpage_linkid.js$script,redirect=google-analytics.com/inpage_linkid.js,important
@@ -147,9 +147,11 @@ clik.pw##INS.adsbygoogle
 @@||clik.pw/js/ads.js
 !COINLINK.CO
 coinlink.co##script:inject(abort-on-property-write.js, _pop)
+coinlink.co##FORM#go-link
+coinlink.co##FORM#go-popup
+coinlink.co##script:inject(abort-on-property-read.js, open)
 coinlink.co##DIV.panel-body.text-center > HR
 coinlink.co##INS.adsbygoogle
-coinlink.co##FORM#go-popup
 !COSHURL.CO
 coshurl.co##script:inject(abort-on-property-write.js, _pop)
 coshurl.co##INS.adsbygoogle
