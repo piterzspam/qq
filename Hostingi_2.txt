@@ -113,7 +113,6 @@
 ||maxonclick.com
 ||mc.yandex.ru
 ||nsaudience.pl
-||oclaserver.com
 ||padstm.com
 ||perr.h-cdn.com
 ||pixfuture.net
