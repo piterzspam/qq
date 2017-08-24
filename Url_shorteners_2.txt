@@ -70,12 +70,16 @@
 ||amung.us
 ||bcvc.mobi
 ||buzzadexchange.com
+||buzzonclick.com
 ||clicksgear.com
 ||clksite.com
 ||connect.facebook.net
+||cpm10.com
+||cpm20.com
 ||doubleclick.net
 ||eclkmpbn.com
 ||facebook.com/plugins/like.php
+||globaladmedia.com
 ||google-analytics.com
 ||googlesyndication.com
 ||iridiumsergeiprogenitor.info
@@ -104,12 +108,10 @@
 ||theconversionpros.co
 ||toro-tags.com
 ||tradeadexchange.com
+||ubanker.com
 ||urldelivery.com
+||waframedia9.com
 ||winaffiliates.com
-||cpm20.com
-||etfory.info
-||globaladmedia.com
-||cpm10.com
 
 !ADF.LY
 atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
@@ -123,7 +125,6 @@ atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,mi
 !ADYOU.ME
 adyou.me##DIV.advert
 adyou.me##DIV.a-el
-||amazonaws.com$domain=adyou.me
 ||adyou.me/cdn-cgi/apps/head/
 !AH.PE
 !AL.LY)
@@ -137,6 +138,7 @@ bc.vc##A.uc
 ||bc.vc/cdn-cgi/
 ||bc.vc/images/megaload.gif
 ||bc.vc/css/kfk.css
+@@||binbox.io^$generichide
 !CLIK.PW
 clik.pw##script:inject(abort-on-property-write.js, _pop)
 clik.pw##INS.adsbygoogle
@@ -200,10 +202,13 @@ jzrputtbut.net##A#advertise
 ||linkbucks.com/scripts/script-adv.js
 ||jzrputtbut.net/track/
 ||jzrputtbut.net/*/?name=$popup
-about:blank$popup,domain=jzrputtbut.net
 ||jzrputtbut.net/scripts/jquery.js?r=$script,redirect=noopjs
-/https?:\/\/[a-z]{15}\.net\/[0-9a-z]{20}\/[0-9a-z]{20}$/$inline-script,first-party
 ||linkbucks.com/tmpl/mint/img/advertise_website.gif
+||linkbucksmedia.com$inline-script
+$subdocument,domain=linkbucksmedia.com
+||linkbucks.com$subdocument=jzrputtbut.net
+@@||linkbucks.com/tmpl/mint/css/ads.css
+jzrputtbut.net##script:inject(addEventListener-defuser.js)
 !LINKSHRINK.NET
 linkshrink.net##DIV.ftr1 > DIV[class^="g"]
 linkshrink.net##script:inject(noeval.js)
@@ -230,7 +235,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||shink.in/js/creative.js
 @@||shink.in/js/show_ads.js
 !SHORT.AM
-!blokuje zapytania do:popads.net/pop.js i /^https?:\/\/www\.[a-z]{8,14}\.[a-z]*\/[a-z]{1,4}\.js$/$script,third-party
 short.am##script:inject(abort-on-property-write.js, _pop)
 short.am##script:inject(abort-on-property-read.js, RunAds)
 short.am##INS.adsbygoogle
@@ -256,4 +260,4 @@ urle.co##script:inject(abort-on-property-write.js, TID)
 uskip.me##script:inject(abort-on-property-write.js, _pop)
 !WEEFY.ME
 ||multiup.org/weefy.html
-||weefy.me/cdn-cgi/pe/bag2?r[]=*stats.weefy.me
+||weefy.me/cdn-cgi/*stats.weefy.me
