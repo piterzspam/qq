@@ -29,6 +29,7 @@ javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 !Poniższe filtry nie są potrzebne po dodaniu ||go.onclasrv.com/apu.php$script,redirect=noopjs,important lub ||gebadu.com/apu.php$script,redirect=noopjs,important
 /https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party
 /https?:\/\/[0-9a-z]{12,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
+||clickadu.com/apu.php$script,redirect=noopjs,important
 ||gebadu.com/apu.php$script,redirect=noopjs,important
 ||ioredi.com/apu.php$script,redirect=noopjs,important
 ||oclaserver.com/apu.php$script,redirect=noopjs,important
@@ -36,6 +37,7 @@ javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 ||onclasrv.com/apu.php$script,redirect=noopjs,important
 ||onclkds.com/apu.php$script,redirect=noopjs,important
 
+||clickadu.com
 ||gebadu.com
 ||ioredi.com
 ||oclaserver.com
