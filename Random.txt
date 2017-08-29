@@ -45,6 +45,14 @@ javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 ||onclasrv.com
 ||onclkds.com
 
+
+||hilltopads.net
+||htmonster.com
+!Gdy te filtry są w użyciu można użyć ##script:inject(impspcabe-defuser.js)
+/^https?:\/\/[a-z]*\.com\/(path\/ads\/ads\.js|\.adframesrc\.)$/$script,third-party
+@@/^https?:\/\/[a-z]*\.com\/(path\/ads\/ads\.js|\.adframesrc\.)$/$script,third-party
+/^https?:\/\/[a-z]*\.com\/(path\/ads\/ads\.js|\.adframesrc\.)$/$script,third-party,important,domain=kingvid.tv|rapidvideo.com
+
 ||brqrtgjklary.com
 ||cfsdtzggpcmr.com
 ||ditouyldfqgt.com
