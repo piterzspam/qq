@@ -113,6 +113,13 @@
 ||waframedia9.com
 ||winaffiliates.com
 
+!Konieczne wykluczenia
+||s1-adfly.com/show.php?url=$subdocument,redirect=noopframe,domain=adf.ly|ay.gy|microify.com|pintient.com,badfilter
+||redirect2719.ws^$subdocument,redirect=noopframe,domain=adf.ly|microify.com|pintient.com,badfilter
+@@/static/js/advert.js|$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
+@@/advert.$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
+@@/ad_top_$image,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
+
 !ADF.LY
 atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
 atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#cookie_notice
