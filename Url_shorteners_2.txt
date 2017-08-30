@@ -91,6 +91,7 @@
 ||onclickads.net
 ||onclickpulse.com
 ||outbrain.com
+||phalata.info
 ||pingoli.info
 ||pixel-secure.solvemedia.com
 ||popcash.net
@@ -113,12 +114,16 @@
 ||waframedia9.com
 ||winaffiliates.com
 
-!Konieczne wykluczenia
+!Korekty domyślnych filtrów
 ||s1-adfly.com/show.php?url=$subdocument,redirect=noopframe,domain=adf.ly|ay.gy|microify.com|pintient.com,badfilter
 ||redirect2719.ws^$subdocument,redirect=noopframe,domain=adf.ly|microify.com|pintient.com,badfilter
 @@/static/js/advert.js|$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 @@/advert.$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 @@/ad_top_$image,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyical.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
+@@||adf.ly^$first-party,badfilter
+|http://$third-party,domain=adf.ly|s1-adfly.com,badfilter
+@@||ally.sh$third-party,script,domain=al.ly
+@@||shink.in/js/creative.js$badfilter
 
 !ADF.LY
 atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
@@ -136,11 +141,13 @@ atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,mi
 /funcript*.php?pub=$script
 $subdocument,domain=s1-adfly.com|redirect2719.ws,important
 !ADYOU.ME
+@@||adyou.me/assets/js/ads.js
 adyou.me##DIV.advert
 adyou.me##DIV.a-el
 ||adyou.me/cdn-cgi/apps/head/
 !AH.PE
-!AL.LY)
+@@||ah.pe/js/ads.js
+!AL.LY
 al.ly,ally.sh##DIV.ads.ad_100.clearfix
 al.ly,ally.sh##INS.adsbygoogle
 al.ly,ally.sh##DIV.skip-container > DIV.text-center HR:last-of-type
@@ -158,6 +165,7 @@ clik.pw##INS.adsbygoogle
 ||tawk.to$domain=clik.pw
 @@||clik.pw/js/ads.js
 !COINLINK.CO
+@@||coinlink.co/js/ads.js
 coinlink.co##script:inject(abort-on-property-write.js, _pop)
 coinlink.co##FORM#go-link
 coinlink.co##FORM#go-popup
@@ -209,6 +217,7 @@ link.tl##DIV.fly_head_bottom
 ||link.tl/js/tab.js
 ||link.tl/fly/client_a.php
 ||link.tl/images/adtictac.png
+||link.tl/images/gochat.gif
 ||link.tl/images/linktlbanner.gif
 !LINKBUCKS.COM
 jzrputtbut.net##A#advertise
@@ -254,8 +263,7 @@ short.am##INS.adsbygoogle
 @@||short.am/js/show_ads.js
 !SPASTE.COM
 spaste.com##DIV#template-contactform-message > H5
-spaste.com##INS.adsbygoogle[style="display:inline-block;width:728px;height:90px"]
-spaste.com##INS.adsbygoogle[style="display:inline-block;width:160px;height:600px"]
+spaste.com##INS.adsbygoogle
 ||spaste.com/ads$important
 ||spaste.com/*fuckadblock.js$script,redirect=fuckadblock.js-3.2.0,important
 ||spaste.com/site/checkBlockedDotCom
@@ -274,3 +282,4 @@ uskip.me##script:inject(abort-on-property-write.js, _pop)
 !WEEFY.ME
 ||multiup.org/weefy.html
 ||weefy.me/cdn-cgi/*stats.weefy.me
+@@||weefy.me/js/ads.js
