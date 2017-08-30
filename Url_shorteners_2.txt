@@ -146,6 +146,7 @@ adyou.me##DIV.advert
 adyou.me##DIV.a-el
 ||adyou.me/cdn-cgi/apps/head/
 !AH.PE
+||phalata.info$popup
 @@||ah.pe/js/ads.js
 !AL.LY
 al.ly,ally.sh##DIV.ads.ad_100.clearfix
