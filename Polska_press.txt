@@ -14,6 +14,7 @@
 alegratka.pl##DIV#adoceanadobirojplew
 alegratka.pl##DIV.cookieTooltip
 gratka.pl##DIV.cookieContainer
+naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##SECTION#tresc > CENTER:if(IFRAME)
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#pasek-plus-rekomendacje
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#do-komentarzy
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#pasek-plus-rekomendacje
