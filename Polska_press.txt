@@ -1,4 +1,4 @@
-!Title: Polska Press
+!Title: Polska_press
 .*/ajax/ksiegarnia/$first-party
 @@||ECHODNIA.EU^$generichide
 @@||GAZETAWROCLAWSKA.PL^$generichide
