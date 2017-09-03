@@ -35,6 +35,7 @@
 @@||l2s.io^$generichide
 @@||linclik.com^$generichide
 @@||link.tl^$generichide
+@@||linkhits.net^$generichide
 @@||linkshrink.net^$generichide
 @@||lynk.my^$generichide
 @@||microify.com^$generichide
@@ -50,14 +51,18 @@
 @@||tinyical.com^$generichide
 @@||tinyium.com^$generichide
 @@||u2s.io^$generichide
+@@||ur.ly^$generichide
+@@||urly.mobi^$generichide
 @@||urle.co^$generichide
 @@||uskip.me^$generichide
 @@||viid.me^$generichide
 @@||weefy.me^$generichide
 
 ||a-ads.com
+||ad2up.com
 ||ad2upapp.com
 ||adblade.com
+||adhitzads.com
 ||adk2.co
 ||adk2x.com
 ||adrunnr.com
@@ -124,22 +129,27 @@
 |http://$third-party,domain=adf.ly|s1-adfly.com,badfilter
 @@||ally.sh$third-party,script,domain=al.ly
 @@||shink.in/js/creative.js$badfilter
+@@||adf.ly^$first-party,badfilter
+|https://$third-party,domain=adf.ly|s1-adfly.com,badfilter
+@@|https:$third-party,subdocument,domain=adf.ly|ay.gy|j.gs|q.gs
 
 !ADF.LY
-atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
-atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#cookie_notice
-atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##IFRAME#rf2:style(position: absolute !important; left: -100000px !important)
-atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##IFRAME#rf:style(position: absolute !important; left: -100000px !important)
-atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(abort-on-property-write.js, NREUM)
-atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(adf.ly.js)
-atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(fuckadblock.js-3.2.0)
-!atominik.com,riffhold.com,bluenik.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(abort-on-property-write.js, Fingerprint2)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#cookie_notice
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##IFRAME#rf2:style(position: absolute !important; left: -100000px !important)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##IFRAME#rf:style(position: absolute !important; left: -100000px !important)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(abort-on-property-write.js, NREUM)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(adf.ly.js)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(fuckadblock.js-3.2.0)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##script:inject(abort-on-property-write.js, Fingerprint2)
 /fp.rev3.php?nocache=1|$script
 /static/js/amvn.js|$script
 /static/js/main.js|$script
 /js/display.js|$script
 /funcript*.php?pub=$script
 $subdocument,domain=s1-adfly.com|redirect2719.ws,important
+||redirect2719.ws^$inline-script
+||s1-adfly.com^$inline-script
 !ADYOU.ME
 @@||adyou.me/assets/js/ads.js
 adyou.me##DIV.advert
@@ -232,10 +242,14 @@ $subdocument,domain=linkbucksmedia.com
 ||linkbucks.com$subdocument=jzrputtbut.net
 @@||linkbucks.com/tmpl/mint/css/ads.css
 jzrputtbut.net##script:inject(addEventListener-defuser.js)
+!LINKHITS.NET
+linkhits.net##DIV[id*="ScriptRoot"]
+||translate.googleapis.com$domain=linkhits.net
 !LINKSHRINK.NET
 linkshrink.net##DIV.ftr1 > DIV[class^="g"]
 linkshrink.net##script:inject(noeval.js)
 linkshrink.net##script:inject(abort-on-property-write.js, onpopstate)
+linkshrink.net##script:inject(abort-on-property-write.js, H7WWWW)
 ||linkshrink.net/cdn-cgi/beacon/
 !LYNK.MY
 ||lynk.my/cdn-cgi/apps/head/
@@ -244,10 +258,9 @@ linkshrink.net##script:inject(abort-on-property-write.js, onpopstate)
 ||ouo.io/js/pop.v21.js
 !OUO.PRESS
 ouo.press##INS.adsbygoogle
-!SH.ST
+!SH.ST i VIID.ME
 sh.st,viid.me##DIV.skip-advert > DIV[class^="skip-"]
-||sh.st/bundles/*tracking$image
-||viid.me/bundles/*tracking$image
+/bundles/*tracking$image,domain=sh.st|viid.me
 !SHINK.IN
 shink.in##DIV[id*="ScriptRoot"]
 shink.in##script:inject(abort-on-property-write.js, _pop)
@@ -274,6 +287,12 @@ spaste.com##INS.adsbygoogle
 !U2S.IO
 @@||u2s.io/js/ads.js
 u2s.io##INS.adsbygoogle
+!UR.LY  i URLY.MOBI
+ur.ly,urly.mobi##TD[height="40px"]
+ur.ly,urly.mobi##SPAN.bottom_left
+||ur.ly/cnt.php
+/js/script.js$domain=ur.ly|urly.mobi
+/js/license$domain=ur.ly|urly.mobi
 !URLE.CO
 @@||urle.co/js/ads.js
 urle.co##script:inject(abort-on-property-write.js, _pop)
