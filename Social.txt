@@ -35,6 +35,10 @@
 ||plus.google.com/js/client:plusone.js
 ||tumblr.com/*/share.js
 ||twitter.com$important,domain=lubimyczytac.pl|kickass.cd|serienjunkies.org|yourbittorrent.com|zajefajna.com|debridit.com|hungryleech.com|leech.ninja|premiumleech.eu|premiumtoss.com|savedeo.com|cloudtime.to|uploadocean.com|fmovies.to
+||0.s-nk.pl/script/packs/nk_widgets_all.js
+||disqus.com/api/*/discovery/listRelated.json?
+||links.services.disqus.com/api/ping?
+||referrer.disqus.com/juggler/
 ||twitter.com/*count.json
 @@||platform.twitter.com/widgets.js|
 ||yandex.st/share
