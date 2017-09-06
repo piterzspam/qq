@@ -2,13 +2,13 @@
 ||api.facebook.com/method/fql.query?
 ||api.facebook.com/method/links.getStats?
 ||api.pinterest.com/v1/urls/count.json?
-||apis.google.com/js/*.js$domain=smaker.pl|oglaszamy24.pl|znanylekarz.pl|lubimyczytac.pl|wyborcza.biz|blox.pl|linksvip.net|reevown.com|savedeo.com|syncwithtech.org
+||apis.google.com
 ||assets.pinterest.com$domain=kwestiasmaku.com|lubimyczytac.pl
 ||assets.pinterest.com/images/pidgets/pin_it_button.png
 ||assets.pinterest.com/js/pinit.js
 ||disqus.com$third-party
+||connect.facebook.net
 ||facebook.com$script,subdocument,third-party
-!||facebook.com$domain=adf.ly|ay.gy|j.gs|q.gs|adyou.me|birdload.com|clipconverter.cc|cyber4shared.com|genbird.com|generatorlinkpremium.com|hungryleech.com|juba-get.com|leech.ninja|leech-brasil.com|cbox.ws|leechbb.com|megaleech.us|premiumleech.eu|premiumleecher.com|premiumtoss.com|rapidgrab.pl|sharedir.com|uldebrid.net|extratorrent.cc|igg-games.com|pobieramy24.pl|psarips.com|rlslog.net|torrenty.to|pebx.pl
 ||facebook.com/*/plugins/like
 ||facebook.com/*/plugins/share
 ||facebook.com/*_*/AudienceNetworkPrebid.js
