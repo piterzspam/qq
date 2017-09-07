@@ -1,6 +1,7 @@
 !Title: Onet.pl
 @@||AUTO-SWIAT.PL^$generichide
 @@||FAKT24.PL^$generichide
+@@||forbes.pl^$generichide
 @@||NOIZZ.PL^$generichide
 @@||ONET.PL^$generichide
 @@||PCLAB.PL^$generichide
