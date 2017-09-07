@@ -3,7 +3,6 @@
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
 ||google-analytics.com/plugins/ga/inpage_linkid.js$script,redirect=google-analytics.com/inpage_linkid.js,important
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,important
-||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important
 ||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
