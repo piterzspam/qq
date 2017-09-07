@@ -2,6 +2,7 @@
 @@||AUTO-SWIAT.PL^$generichide
 @@||FAKT24.PL^$generichide
 @@||forbes.pl^$generichide
+@@||newsweek.pl^$generichide
 @@||NOIZZ.PL^$generichide
 @@||ONET.PL^$generichide
 @@||PCLAB.PL^$generichide
