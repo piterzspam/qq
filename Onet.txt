@@ -1,5 +1,6 @@
 !Title: Onet.pl
 @@||AUTO-SWIAT.PL^$generichide
+@@||businessinsider.com^$generichide
 @@||FAKT24.PL^$generichide
 @@||forbes.pl^$generichide
 @@||newsweek.pl^$generichide
