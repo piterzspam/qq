@@ -35,6 +35,7 @@ javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 ||oclaserver.com/apu.php$script,redirect=noopjs,important
 ||oclasrv.com/apu.php$script,redirect=noopjs,important
 ||onclasrv.com/apu.php$script,redirect=noopjs,important
+||onclickads.net/apu.php$script,redirect=noopjs,important
 ||onclkds.com/apu.php$script,redirect=noopjs,important
 
 ||clickadu.com
@@ -43,6 +44,7 @@ javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 ||oclaserver.com
 ||oclasrv.com
 ||onclasrv.com
+||onclickads.net
 ||onclkds.com
 
 
