@@ -206,6 +206,7 @@ cut-urls.com##INS.adsbygoogle
 @@||fas.li/js/adframe.js
 !GSURL.IN
 gsurl.in##script:inject(noeval.js)
+gsurl.in##script:inject(abort-on-property-read.js, zfgloadedpopup)
 gsurl.in##INS.adsbygoogle
 ||gsurl.in/js/onexit.js
 ||amazonaws.com$domain=gsurl.in
