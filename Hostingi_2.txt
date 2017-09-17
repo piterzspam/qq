@@ -363,7 +363,7 @@ clicknupload.org,dailyuploads.net,faststore.org,filesupload.org,flashx.tv,kingvi
 cloudyfiles.org,daclips.in,filescdn.com,filesupload.org,gorillavid.in,indishare.me,movpod.in,solidfiles.com,speedvid.net,streamplay.to,uptobox.com,userscloud.com,vidfile.net,watchers.to,zippyshare.com##script:inject(abort-on-property-write.js, Fingerprint2)
 filescdn.com,flashx.tv,katfile.com,openload.co,sendspace.com,speedvid.net,uploadrocket.ne,userscloud.com,videowood.tv##script:inject(abort-on-property-write.js, open)
 downace.com,movpod.in,openload.co,owndrives.com,rapidvideo.com,share-online.biz##script:inject(noeval.js)
-flashx.tv,rapidvideo.com,vidfile.net##script:inject(abort-on-property-write.js, t4u)
+flashx.tv,rapidvideo.com,vidfile.net##script:inject(abort-on-property-read.js, zfgloadedpopup)
 sharevideo.pl,sharing-box.cloud,vidstream.xyz##script:inject(abort-on-property-write.js, sas)
 cloudyfiles.org,kingvid.tv,suprafiles.org,vidfile.net##script:inject(abort-on-property-write.js, TID)
 anyfiles.pl##script:inject(abort-on-property-write.js,launchOpenWindow)
