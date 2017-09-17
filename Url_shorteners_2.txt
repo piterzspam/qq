@@ -146,7 +146,8 @@ atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,ti
 /static/js/main.js|$script
 /js/display.js|$script
 /funcript*.php?pub=$script
-$subdocument,domain=s1-adfly.com|redirect2719.ws,important
+$subdocument,domain=s1-adfly.com,important
+$subdocument,domain=redirect2719.ws,important
 ||redirect2719.ws^$inline-script
 ||s1-adfly.com^$inline-script
 !ADYOU.ME
