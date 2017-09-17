@@ -222,7 +222,6 @@
 ||wholecloud.net^$inline-script
 
 !KOSMETYCZNE
-##HTML > BODY > A[href$=".html"][rel="nofollow norefferer noopener"][style]:last-child
 4shared.com##DIV.antivirus
 4shared.com##DIV.dcounter > DIV.db > DIV.premium
 4shared.com##DIV.featured_top_wrapper
