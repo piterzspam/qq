@@ -27,6 +27,8 @@ javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 /https?:\/\/www\.[a-z]{8,14}\.[a-z]+\/[a-z]{1,4}\.js/$script,third-party
 
 !Poniższe filtry nie są potrzebne po dodaniu ||go.onclasrv.com/apu.php$script,redirect=noopjs,important lub ||gebadu.com/apu.php$script,redirect=noopjs,important
+!Poniższe filtry nie są potrzebne po dodaniu ##script:inject(abort-on-property-read.js, zfgloadedpopup)
+##HTML > BODY > A[href$=".html"][rel="nofollow norefferer noopener"][style]:last-child
 /https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party
 /https?:\/\/[0-9a-z]{12,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
 ||clickadu.com/apu.php$script,redirect=noopjs,important
