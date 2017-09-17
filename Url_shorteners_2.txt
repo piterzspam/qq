@@ -208,6 +208,7 @@ cut-urls.com##INS.adsbygoogle
 gsurl.in##script:inject(noeval.js)
 gsurl.in##script:inject(abort-on-property-read.js, zfgloadedpopup)
 gsurl.in##INS.adsbygoogle
+||getsurl.com/*/banners
 ||gsurl.in/js/onexit.js
 ||amazonaws.com$domain=gsurl.in
 !KEEPLINKS.EU
@@ -239,10 +240,11 @@ jzrputtbut.net##A#advertise
 ||linkbucks.com/tmpl/mint/img/advertise_website.gif
 ||linkbucksmedia.com$inline-script
 $subdocument,domain=linkbucksmedia.com
-||linkbucks.com$subdocument=jzrputtbut.net
+||linkbucks.com$subdocument,domain=jzrputtbut.net
 @@||linkbucks.com/tmpl/mint/css/ads.css
 jzrputtbut.net##script:inject(addEventListener-defuser.js)
 !LINKHITS.NET
+linkhits.net##script:inject(abort-on-property-write.js, _pop)
 linkhits.net##DIV[id*="ScriptRoot"]
 ||translate.googleapis.com$domain=linkhits.net
 !LINKSHRINK.NET
