@@ -41,6 +41,7 @@
 ||referrer.disqus.com/juggler/
 ||twitter.com/*count.json
 @@||platform.twitter.com/widgets.js|
+||vk.com/share.php
 ||yandex.st/share
 !~~~~RAMKI WIDEO Z TWITTERA~~~~!
 ||twitter.com/i/jot
