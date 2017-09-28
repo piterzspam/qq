@@ -1,101 +1,108 @@
 !Title: Onet.pl
-@@||AUTO-SWIAT.PL^$generichide
-@@||businessinsider.com^$generichide
-@@||FAKT24.PL^$generichide
-@@||forbes.pl^$generichide
-@@||newsweek.pl^$generichide
-@@||NOIZZ.PL^$generichide
-@@||ONET.PL^$generichide
-@@||PCLAB.PL^$generichide
-@@||SKAPIEC.PL^$generichide
-@@||ZUMI.PL^$generichide
-@@||assets.skapiec.pl/*/js/advertising.js
-@@||csr.onet.pl/*&callback=onetShowAsynchAds1&adf=1
-@@||pclab.pl/img/extra/
-@@||pclab.pl/zdjecia/promo/
-@@||sgqcvfjvr.onet.pl$script
-@@||skapiec.pl/pagespeed_static/*.gif
+.pl/_cdf/client.js|$script,first-party
+/(auto-swiat|businessinsider\.com|fakt|forbes|komputerswiat|newsweek|noizz|onet|przegladsportowy|skapiec)\.pl\/([0-9a-zA-Z]|_){43}/$image,script,xmlhttprequest,first-party
+@@||connect.facebook.net/*/sdk.js$domain=businessinsider.com.pl
+@@||connect.facebook.net/*_*/sdk.js$domain=noizz.pl|businessinsider.com.pl
+@@||facebook.com/plugins/comments.php$domain=businessinsider.com.pl
+@@||facebook.com/plugins/feedback.php$domain=businessinsider.com.pl
+@@||media.onet.pl/_ms/
+@@||ocdn.eu/*/advertising.js
+@@||ocdn.eu/*/uststd.js
+@@||ocdn.eu/*/widget.js
+@@||qi.ckm.onetapi.pl^
+@@||sgqcvfjvr.onet.pl^
+@@||staticxx.facebook.com/connect/xd_arbiter$domain=businessinsider.com.pl
 auto-swiat.pl##DIV#facebook_slider_widget
-auto-swiat.pl##DIV#widget-mfind
-auto-swiat.pl##DIV.promoFrame.right
-auto-swiat.pl##DIV[data-run-module="embeddedapp/main.addthis"]
-fakt.pl##DIV.smallAd.Block-Banner
+auto-swiat.pl##DIV.o_playListEmbedWrapper
+auto-swiat.pl##DIV.rightBox:if(BUTTON.formToolsNoActive)
+businessinsider.com.pl##DIV#detail > H3:has-text(WARTO WIEDZIEĆ:)
+businessinsider.com.pl##DIV#detail > P:if(STRONG:has-text(Zobacz też:))
+businessinsider.com.pl##DIV.KonaBody.post-content > DIV#detail > DIV.embeddedApp:if(DIV.pulsembed_embed.mvp-embed-wrapper)
+businessinsider.com.pl##DIV.related-links
+businessinsider.com.pl##UL.rrssb-buttons > LI:if-not(A[href*="newsletter.businessinsider.com.pl"])
+fakt.pl##DIV.Block-Banner
 fakt.pl##UL.shareWidget
-noizz.pl##DIV.contentShareButtons
-noizz.pl##DIV.contentShareCaption
+forbes.pl##DIV.promoFrame
+forbes.pl##P.hyphenate:has-text(/(Czytaj też|Zobacz):/)
+komputerswiat.pl##A[href$="komputerswiat.pl/kody-rabatowe"]
+komputerswiat.pl##DIV[style="width: 600px; height: 400px; margin: 20px auto;"]
+komputerswiat.pl##P.intext:has-text(/(Przeczytaj|Zobacz) także/)
+newsweek.pl##DIV#ARTICLE_CONTENT_INNER_AD
+newsweek.pl##P:has-text(Czytaj też:)
+newsweek.pl##UL[class*="social_article_id_"] > LI:if-not(A[href^="#article_forum_"])
+noizz.pl##DIV.contentShare
 noizz.pl##DIV.intext-ads-container
-noizz.pl##DIV.onet-ad
-noizz.pl##DIV.widgetbox.socialButtons
-noizz.pl##DIV.wrapperC > DIV.sliderbox
-noizz.pl##DIV.wrapperC.adtop
-noizz.pl##P.hyphenate + DIV:last-child > DIV[data-params-type="embed-video"][data-run-module="embeddedapp/main.onettvplayer"][style="margin-bottom: 20px;"]:first-child:last-child
-noizz.pl##SPAN.socialMiniBox.enableSocialMiniBox
-noizz.pl##STRONG:has-text(ZOBACZ TAKŻE:)
-onet.pl##ARTICLE.pureContentList.gamesonline
-onet.pl##ARTICLE.pureContentList.onetstudio
+noizz.pl##DIV.loading-indicator
+noizz.pl##DIV.promoFrameContainer
+noizz.pl##DIV.seeAlso
+noizz.pl##DIV.whitelistPremium > DIV.embeddedApp:if(DIV.pulsembed_embed.mvp-embed-wrapper)
+noizz.pl##P.hyphenate:has-text(ZOBACZ TAKŻE:)
+onet.pl##A.BackToMainPage
+onet.pl##A.fb_share
+onet.pl##DIV.article_seeAlso
+onet.pl##DIV.autopromoapp
 onet.pl##DIV.box2
-onet.pl##DIV.box3_faceMain
-onet.tv##script:contains(currentClip)
 onet.pl##DIV.streamNews
-pclab.pl##A[target="_blank"][href*="csr.onet.pl"]
-pclab.pl##DIV#b021
-skapiec.pl##DIV#uclaInfo
-skapiec.pl##DIV.box.offers-list.promo.js
-skapiec.pl##DIV.partial.box-slider.best.offers.js.mobile-hidden
-skapiec.pl##DIV.partial.box-slider.popular-shops.js
-skapiec.pl##DIV.partial.box-slider.similar-products.no-border.js
-skapiec.pl##DIV.similar-product-offers
-skapiec.pl##DIV.widget-facebook
-skapiec.pl##H2.before-popularshops
-zumi.pl##DIV#promoBar
-zumi.pl##DIV.box.promotion
-/http\:\/\/www\.onet\.pl\/[^/]{60}/$xmlhttprequest,script,image
-onet.pl##DIV.pulsembed_embed
-||pulsembed.eu$domain=onet.pl
-@@||ty0lm9uz.onet.pl/*%3D%3D.js
-/\.[a-z]*\/[^/%]{60}/$xmlhttprequest,script,image,domain=onet.pl|vod.pl|onet.tv|noizz.pl
-||ocdn.eu/*pulsembed.js
-||tbd.onet.pl
-||onet.pl/*xdmstorageserver.html
-onet.pl##DIV.promoFrame
-||addthis.com
-||api.zumi.pl/apiLog.html?
-||auto-swiat.pl/*=events
-||auto-swiat.pl/*=kropka-stats
-||contentinsights.com
-||csr.onet.pl
-||events.ocdn.eu
-||events.onet.pl
-||fakt.pl/*?ajax=1$xmlhttprequest
-||fakt.pl/*cookies2.min.js
-||google-analytics.com
-||imasdk.googleapis.com
-||k266d5zsl.onet.pl
-||kropka.onet.pl
-||mfind.pl$domain=auto-swiat.pl
-||ocdn.eu/*widget_mfind.js
-||ocdn.eu/*xgemius.js
-||offersprovider.widget.onet.pl
-||onet.pl/*/cookieInfo/
-||onet.pl/*eclk/
-||onet.pl/*px.gif
-||onet.tv/embed-video.html?mvp=
-||page-view-ingestion.appspot.com/*i.gif
-||pclab.pl/*ads.js
-||pclab.pl/*baner_promo_
-||pclab.pl/*blank.gif
-||pclab.pl/*cruncher/
-||pclab.pl/*dot_transparent.gif
-||pclab.pl/*extra/
-||pclab.pl/*partners/
-||pclab.pl/zdjecia/promo/
-||qi.related.onetapi.pl
-||sgqcvfjvr.onet.pl
-||skapiec.pl/*experiments.js
-||skapiec.pl/*logger
-||skapiec.pl/*pagespeed_static/*.gif
-||time.akamai.com
-||tmefekt.pl
-||ty0lm9uz.onet.pl
-||xnfqqnw.onet.pl
-||zumiflat.ads.onetapi.pl
+onet.pl##LI.sidebarItem:has-text(Obserwuj nas)
+onet.pl##P.hyphenate + DIV.pulsembed_embed.mvp-embed-wrapper
+onet.tv##DIV.mvp-beam-social-buttons
+onet.tv##script:inject(abort-on-property-write.js, onetAds)
+pl##A.fb_share[href="javascript:void(0);"][data-run-module="embeddedapp/main.sharethis_facebook"]:last-child
+pl##BODY > DIV#cookies[style="display: none;"]:first-child
+pl##DIV#content-share-top.fb_share.fadeOutTop[data-run-module="local/main.desktopSharerBox"]:first-child:last-child
+pl##DIV.onet_ustPlugin_addthis:first-child:last-child
+przegladsportowy.pl##DIV.whitelistPremium > DIV[class] > P + DIV.pulsembed_embed.mvp-embed-wrapper
+przegladsportowy.pl##DIV.whitelistPremium > DIV[class] > P + DIV.pulsembed_embed.mvp-embed-wrapper
+przegladsportowy.pl##LI.socialButton:if-not(A[href="#forum"])
+przegladsportowy.pl##P:has-text(>> Czytaj także)
+vod.pl##DIV#o_shareOnSocialMedia
+vod.pl##DIV.v_shortShare
+||appspot.com/a.gif
+||auto-swiat.pl/_cdf/api?offset=
+||businessinsider.com.pl/*/get_recomm?
+||chartbeat.com^
+||contentinsights.com^
+||converti.se^
+||cookies.fakt.pl^
+||cookies.komputerswiat.pl^
+||cookies.newsweek.pl^
+||creativecdn.com^
+||csr.onet.pl^
+||cxense.com^
+||events.ocdn.eu^
+||ewydania.newsweek.pl/*/Paywall
+||fakt.pl/*/*?ajax=1|$xmlhttprequest
+||forbes.pl/pwa-sw.js
+||instagram.com/static/bundles/*_*_EmbedPostlude.js
+||k266d5zsl.onet.pl^
+||komputerswiat.pl/*/kody-rabatowe-komputer-swiat-plus-banner.jpg
+||komputerswiat.pl/gamezilla
+||kropka.onet.pl^
+||literia.pl^$domain=przegladsportowy.pl
+||lp4.io^
+||media.onet.pl/_ms/
+||newsweek.pl/*.html?asyncArticle=true$xmlhttprequest
+||newsweek.pl/*/commonScriptArticle.js
+||ocdn.eu/*/lpsAds.js
+||ocdn.eu/*/ucla.js
+||ocdn.eu/*/uststd.js
+||ocdn.eu/*/widget.js
+||ocdn.eu/*/workbox-google-analytics
+||ocdn.eu/*/workbox-sw
+||ocdn.eu/*/xgemius.js
+||onet.pl/*/cookieInfo
+||onet.pl/*/get_recomm?lu=
+||onet.pl/_cdf/api?offset=
+||onet.pl/eclk
+||onet.pl/s.csr/float/
+||onet.tv/_a/dlist.html
+||page-view-ingestion.appspot.com^
+||persstream.onet.pl^
+||przeswietl.pl/widget/forbes
+||pulsembed.eu^$domain=www.onet.pl
+||pushwoosh.com^
+||qi.ckm.onetapi.pl^
+||rackcdn.com^
+||sociaplus.com^
+||time.akamai.com^$domain=onet.tv
+||ty0lm9uz.onet.pl/*/init.js
