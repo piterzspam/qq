@@ -30,7 +30,8 @@
 ||instagram.com/p/*/embed/captioned/?$inline-script
 ||instagramstatic-a.akamaihd.net/h1/thirdparty/
 ||linkedin.com/countserv
-||platform.instagram.com/*_*/embeds.js$third-party,domain=~eska.pl|~party.pl|~wp.pl|~pulsembed.eu||platform.twitter.com/js/button.*.js$third-party
+||platform.instagram.com/*_*/embeds.js$third-party,domain=~eska.pl|~party.pl|~wp.pl|~pulsembed.eu
+||platform.twitter.com/js/button.*.js$third-party
 ||plus.google.com/js/client:plusone.js
 ||tumblr.com/*/share.js
 ||twitter.com^$important,domain=lubimyczytac.pl|kickass.cd|komputerswiat.pl|serienjunkies.org|yourbittorrent.com|zajefajna.com|debridit.com|hungryleech.com|leech.ninja|premiumleech.eu|premiumtoss.com|savedeo.com|cloudtime.to|uploadocean.com|fmovies.to
