@@ -77,8 +77,14 @@
 ||buzzonclick.com
 ||clicksgear.com
 ||clksite.com
-||connect.facebook.net
 ||cpm10.com
+||clevernt.com
+||waframedia30.com^
+||velocecdn.com^
+||superfastcdn.com^
+||plufdsa.com^
+||porncorn.co/porncorn-ads.png
+||adplex.media^
 ||cpm20.com
 ||doubleclick.net
 ||eclkmpbn.com
@@ -88,6 +94,7 @@
 ||googlesyndication.com
 ||iridiumsergeiprogenitor.info
 ||liveadexchanger.com
+||howfun.org/welcome.php
 ||mellowads.com
 ||mgid.com
 ||newrelic.com
@@ -154,9 +161,9 @@ $subdocument,domain=redirect2719.ws,important
 @@||adyou.me/assets/js/ads.js
 adyou.me##DIV.advert
 adyou.me##DIV.a-el
-||adyou.me/cdn-cgi/apps/head/
-!AH.PE
-||phalata.info$popup
+||adyou.me/cdn-cgi/pe/bag2?r[]=
+@@||adyou.me/cdn-cgi/pe/bag2?r[]=*ajax.googleapis.com!AH.PE
+||phalata.info^$popup
 @@||ah.pe/js/ads.js
 !AL.LY
 al.ly,ally.sh##DIV.ads.ad_100.clearfix
@@ -216,17 +223,20 @@ gsurl.in##INS.adsbygoogle
 keeplinks.eu##DIV.top_ad
 keeplinks.eu##DIV.add_box
 !L2S.IO
+l2s.io##script:inject(abort-on-property-write.js, TID)
 l2s.io##script:inject(abort-on-property-write.js, _pop)
 l2s.io##script:inject(noeval.js)
 @@||l2s.io/js/ads.js
 !LINCLIK.COM
 linclik.com##script:inject(abort-on-property-write.js, _pop)
+linclik.com##script:inject(abort-on-property-read.js, zfgloadedpopup)
 !LINK.TL
 link.tl##DIV.fly_head_bottom
 ||onesignal.com$domain=link.tl
 ||yandex.ru$domain=link.tl
 ||begeniplus.com$domain=link.tl
 ||link.tl/js/flashad.js
+@@||link.tl/js/flashad.js
 ||link.tl/js/tab.js
 ||link.tl/fly/client_a.php
 ||link.tl/images/adtictac.png
@@ -284,20 +294,26 @@ spaste.com##INS.adsbygoogle
 ||spaste.com/ads$important
 ||spaste.com/*fuckadblock.js$script,redirect=fuckadblock.js-3.2.0,important
 ||spaste.com/site/checkBlockedDotCom
+spaste.com##DIV#template-contactform-message > H4:if(A[href="http://bit.ly/flipkartsdh"])
+spaste.com##DIV#template-contactform-message > A[href="javascript:showhide('terms')"]
 ||maps.googleapis.com$domain=spaste.com
 ||cloudfront.net$domain=spaste.com
 @@||spaste.com/themes/site/js/advertisement.js
 !U2S.IO
 @@||u2s.io/js/ads.js
+@@||u2s.io/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fapi-secure.solvemedia.com
+||u2s.io/cdn-cgi/pe/bag2?r[]=
 u2s.io##INS.adsbygoogle
 !UR.LY  i URLY.MOBI
 ur.ly,urly.mobi##TD[height="40px"]
 ur.ly,urly.mobi##SPAN.bottom_left
+/images/step/btn*.png$domain=ur.ly|urly.mobi
 ||ur.ly/cnt.php
 /js/script.js$domain=ur.ly|urly.mobi
 /js/license$domain=ur.ly|urly.mobi
 !URLE.CO
 @@||urle.co/js/ads.js
+urle.co##script:inject(abort-on-property-write.js, Fingerprint2)
 urle.co##script:inject(abort-on-property-write.js, _pop)
 urle.co##script:inject(abort-on-property-write.js, TID)
 !USKIP.ME
