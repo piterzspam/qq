@@ -1,3 +1,4 @@
+!Title: Bauer
 !@@||w.iplsc.com/*/inpl.copy/
 !||prodxnews1blob.blob.core.windows.net/*/gstreamconfig.js
 !||s.tvn.pl/*/tvn.tools.js
@@ -108,7 +109,6 @@ styl.pl##FOOTER.video-footer
 ||styl.pl/*/ads-report-
 ||styl.pl/*/ads-sidebar-
 ||styl.pl/*/recommend-
-!Title: Bauer
 ||tradedoubler.com^
 ||tradedoubler.com^$inline-script,first-party
 ||w.iplsc.com/*/inpl.cookiepolicy/
@@ -170,3 +170,4 @@ rmf24.pl##DIV#pl_cookies
 rmf24.pl##DIV.articleEmbedArticleFull
 rmf24.pl##DIV#relatedContentList1
 ||rmf24.pl/getRecomendations?
+!Title: Bauer
