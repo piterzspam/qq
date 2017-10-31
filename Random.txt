@@ -11,15 +11,15 @@
 !ad-maven.com start
 /^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/\?[a-z]{3,5}=[0-9]{6}$/$script,third-party
 !Poniższy filtr można zastąpić filtrem ##script:inject(abort-on-property-write.js, TID) 
-/^https?:\/\/s3\.amazonaws\.com\/[^\/.]{55}/$script,xmlhttprequest,third-party
+/^https?:\/\/s3\.amazonaws\.com\/[0-9a-z]{55,56}\/(secure\.js|[0-9a-z]{9,10})$/$script,xmlhttprequest,third-party
 
 !Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb po captchy, http://indishare.me/j1c0ep4sxpmg po kliknięciu Download Here) lub powyższy filtr został wyłączony)
 !Poniższe filtry można zastąpić filtrem ##script:inject(abort-on-property-write.js, Fingerprint2)
-/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/[^\/.]{88}/$script,third-party
+/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/[a-zA-Z0-9%-]{88}/$script,third-party
 /^https?:\/\/[a-z]{7,10}\.[a-z]*\/popunder\.gif$/$image,xmlhttprequest,third-party
-/^https?:\/\/[a-z]{7,10}\.[a-z]*\/.{400}/$subdocument,third-party
-/^https?:\/\/[a-z]{7,10}\.[a-z]*\/.{120}/$image,other,third-party
-/^https?:\/\/[a-z]{7,10}\.[a-z]*\/\?&subid=.*&pid=[0-9]*&tid=[0-9]*&status=.*&_=[0-9]*$/$image,third-party
+/^https?:\/\/[a-z]{7,10}\.[a-z]*\/[a-zA-Z0-9+\/]{400}/$subdocument,third-party
+/^https?:\/\/[a-z]{7,10}\.[a-z]*\/[a-zA-Z0-9+]{130}/$image,other,third-party
+/^https?:\/\/[a-z]{7,10}\.[a-z]*\/\?&subid=[0-9]*(&cs=[a-zA-Z0-9]*)?&pid=[0-9]*&tid=[0-9]*&status=[0-9&a-z=\._]*$/$image,third-party
 javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 !ad-maven stop
 
