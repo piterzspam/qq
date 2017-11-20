@@ -9,7 +9,7 @@
 !adsterra stop
 
 !ad-maven.com start
-/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/(\?[a-z]{3,5}=[0-9]{6}$|[a-zA-Z0-9]*\%3D\%3D$)$script,third-party
+/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/(\?[a-z]{3,5}=[0-9]{6}$|[a-zA-Z0-9]*\%3D\%3D$)/$script,third-party
 !Poniższy filtr można zastąpić filtrem ##script:inject(abort-on-property-write.js, TID) 
 /^https?:\/\/s3\.amazonaws\.com\/[0-9a-z]{53,56}\/(secure\.js|[0-9a-z]{9,10})$/$script,xmlhttprequest,third-party
 
