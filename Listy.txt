@@ -1,0 +1,11 @@
+https://raw.githubusercontent.com/piterzspam/qq/master/Agora.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Bauer.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Generatory.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Hostingi_2.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Interia.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Onet.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Polska_press.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Random.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/TVN_2.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Url_shorteners_2.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Warez.txt
