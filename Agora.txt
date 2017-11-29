@@ -1,4 +1,4 @@
-!Title: Wyborcza
+!Title: Agora
 /adp/px.js?ch=$first-party
 /dfptools/adview/fif.htm?$first-party
 @@||AUTOTRADER.PL^$generichide
