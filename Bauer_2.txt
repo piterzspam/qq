@@ -1,4 +1,4 @@
-!Title: Bauer
+!Title: Bauer_2
 !@@||w.iplsc.com/*/inpl.copy/
 !||js.iplsc.com/inpl.weather-widget/
 !||prodxnews1blob.blob.core.windows.net/*/gstreamconfig.js
