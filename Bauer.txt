@@ -1,4 +1,4 @@
-!Title: Interia.pl
+!Title: Bauer
 @@||FAKTY.INTERIA.PL^$generichide
 @@||FISHKI.PL^$generichide
 @@||INTERIA.PL^$generichide
