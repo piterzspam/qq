@@ -1,0 +1,57 @@
+!Title: Presspublica
+
+!beta.rp.pl##DIV#cookiesInfo
+!beta.rp.pl##DIV.article__btns
+!rp.pl##A.toolbar-icon[title^="udostępnij"]
+!rp.pl##A.toolbar-share
+!rp.pl##DIV#mk-paywall
+!rp.pl##DIV.popup-next
+!rp.pl##SECTION.sekcja:has-text(POLECAMY)
+!rp.pl##SECTION.video-player-container-outer:has-text(Komentarz dnia)
+!||youtube.com/*&autoplay=true$domain=rp.pl
+@@||connect.facebook.net$domain=rp.pl
+@@||facebook.com/plugins/comments.php$domain=rp.pl
+@@||facebook.com/plugins/feedback.php$domain=rp.pl
+@@||staticxx.facebook.com/connect/xd_arbiter$domain=rp.pl
+bloombergbusinessweek.pl##DIV#cookie-gm-new
+parkiet.com##DIV.cookie-box
+poznajtrendy.pl##DIV.cookie-info
+przekroj.pl##DIV.cookiess
+rp.pl##.col-sm-6.col-xs-12.article__btns
+rp.pl##BODY.bp-lg > DIV.screening-container:style(padding-top: 50px !important;)
+rp.pl##DIV#cookiesInfo
+rp.pl##DIV.section__title--with-icon:style(margin-top: 0px !important;)
+rp.pl##DIV.section__title:has-text(REDAKCJA POLECA)
+rp.pl##DIV.teaser--ivideo
+rp.pl##SPAN.article__premium-player.hidden-xs.hidden-sm
+zw.com.pl##DIV#cookie-gm-new
+zw.com.pl##DIV#sharep
+zw.com.pl##HTML > BODY[style="margin-top: 129px; background-position: center px;"]:style(margin-top: 0px !important;):style(background-position: 0px !important;)
+||2mdn.net^
+||adprize.pl^
+||bluebillywig.com^
+||clickmatic.pl^
+||core3.pl^
+||deep.bi^
+||dw.com^$domain=rp.pl
+||facebook.com/tr/?id=*&ev=*&dl=http
+||gmads.net^
+||googleadservices.com^
+||hotjar.com^
+||onthe.io^
+||prodxnews1blob.blob.core.windows.net/cdn/js/advert.js
+||prodxnews1blob.blob.core.windows.net/cdn/js/gstreamconfig.js
+||przekroj.pl/mod_pagespeed_beacon?url=
+||rp.bbvms.com^
+||rp.pl/*sc.js
+||rp.pl/kod-rabatowy/
+||rp.pl/section/?template=ajax_getpushcontent
+||rp.pl/section/?template=marketing
+||rp.pl/section/?template=top_articles&omniture=0&mime=json&profile=
+||s.tvn.pl/tools/tvn.tools.js
+||salesmanago.pl^
+||stat24.com^
+||stats-srv.rp.pl^
+||traq.li^
+||youtube.com/embed/*?cc_load_policy=0&showinfo=0&color=white&enablejsapi=1&modestbranding=1&autoplay=false&mute=1&loadMore=false&origin=http%3A%2F%2Fwww.rp.pl&widgetid=1$subdocument,domain=rp.pl
+||zw.com.pl/js/gemius.js
