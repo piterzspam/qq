@@ -13,9 +13,8 @@
 @@||ppstatic.pl/p/css/strony/sekcje_branzowe.css?
 alegratka.pl##DIV#adoceanadobirojplew
 alegratka.pl##DIV.cookieTooltip
+get.x-link.pl##A.vjs-click-through-button[target="_blank"]
 gratka.pl##DIV.cookieContainer
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##SECTION#tresc > CENTER:if(IFRAME)
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#pasek-plus-rekomendacje
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#do-komentarzy
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#pasek-plus-rekomendacje
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A.twitter-follow-button
@@ -53,13 +52,15 @@ naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,g
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.ikonkaSpol.fbShare
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.ikonkaSpol.tweetShare
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.przeslij.bezTekstu
+naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##SECTION#tresc > CENTER:if(IFRAME)
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##SECTION.content-stream.ad
 naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##UL#narzedzia
-||ctnsnet.com
+||core3.pl^
+||ctnsnet.com^
 ||farm.plista.com/async_lib.js?
 ||gratka.pl/_event/$third-party
 ||naszemiasto.pl/ajax/facebook/
-||ppdb.pl
+||ppdb.pl^
 ||ppstatic.pl/*abczdrowie.widget.js
 ||ppstatic.pl/*addthis.js
 ||ppstatic.pl/*ads.js
@@ -85,6 +86,8 @@ naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,g
 ||ppstatic.pl/*plywajace_wideo.js
 ||ppstatic.pl/*quizy
 ||ppstatic.pl/*reklama.js
+||ppstatic.pl/*reklamy
+||ppstatic.pl/*reklamy
 ||ppstatic.pl/*sekcje_branzowe.css
 ||ppstatic.pl/*spolecznosciowe.png
 ||ppstatic.pl/*track.js
@@ -92,8 +95,5 @@ naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,g
 ||ppstatic.pl/*wyslij_zdjecie_tlo.png
 ||ppstatic.pl/*zamknij.svg
 ||ppstatic.pl/ksiegarnia/k/r/
-||statystyki.gratka.pl
-||visualrevenue.com
-||core3.pl
-||ppstatic.pl/*reklamy
-get.x-link.pl##A.vjs-click-through-button[target="_blank"]
+||statystyki.gratka.pl^
+||visualrevenue.com^
