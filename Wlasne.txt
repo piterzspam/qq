@@ -172,7 +172,8 @@ chomikuj.pl##DIV.pp_frame
 ||facebook.com^$domain=chomikuj.pl
 ||facebook.net^$domain=chomikuj.pl
 ||iwa.iplsc.com^$domain=chomikuj.pl
-||ifr-lib.chomikuj.pl^^
+||ifr-lib.chomikuj.pl^
+||hg.interia.pl/lsget.html$domain=chomikuj.pl
 ||youtube.com^$domain=chomikuj.pl
 chomikuj.pl##DIV.thumbnail
 chomikuj.pl##DIV.filerow.fileItemContainer > DIV > SPAN.filedescription
