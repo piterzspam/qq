@@ -1,4 +1,22 @@
-!Title: Własne
+!Title: Wlasne
+!Pepper
+@@||track.webgains.com/click.html?wgcampaignid=*&wgprogramid=*&clickref=*&wgtarget=$first-party
+@@||partners.webmasterplan.com/click.asp?ref=*&site=*&type=*&tnb=*&subid=*&diurl=$first-party
+@@||partners.webmasterplan.com/click4.aspx?nos=*&adtref=*&csts=*&ref=*&site=*&type=*&tnb=*&subid=*&diurl=$first-party
+@@||ad.admitad.com/g/*/?subid=*ulp=http$first-party
+@@||shareasale.com/r.cfm?b=*&u=*&m=*&afftrack=*&urllink=$first-party
+@@||ad.zanox.com/ppc/?*&zpar0=*&ULP=[[*]]$first-party
+@@||clkde.tradedoubler.com/click?p(*)a(*)g(*)epi(*)url(*)$first-party
+@@||clkuk.tradedoubler.com/click?p(*)a(*)g(*)epi(*)url(*)$first-party
+@@||sc.tradetracker.net/tracker/merchant?e=*&cid=*&url=$first-party
+@@||redirects.tradedoubler.com/projectr/?utm_medium=*&utm_source=*&_td_spaceport_encode=*&_td_url=*&_td_deeplink=$first-party
+@@||redirects.tradedoubler.com/projectr/?_td_softclick=*&tduid=(*)(*)(*)(*)(*)*&_td_ifelse=*td_string**td_false*&_td_deeplink=$first-party
+!Pandacheck
+@@||www.shareasale.com/m-pr.cfm?merchantID=*&userID=*&productID=*&afftrack=$first-party
+@@||www.shareasale.com/r.cfm?u=*&b=*&m=*&afftrack=*&urllink=$first-party
+!Cebula.online
+@@||ad.admitad.com/dummy/?c=*&w=*&wc=*&r=$first-party
+
 @@||DOCPLAYER.PL^$generichide
 ||docplayer.pl/*report*.gif
 ||docplayer.pl/*getviewscount
@@ -47,6 +65,29 @@ wykop.pl###itemsStream .link:has(a[href$="/reklama/"])
 klp.pl###reklama-w-srodku-artykulu
 klp.pl###reklama-w-artykule
 klp.pl#DIV##[style="height:280px; width:336px;"]
+@@||banggood.com^$generichide
+||vkontakte.ru$domain=banggood.com
+||pinimg.com$domain=banggood.com
+||trustwave.com$domain=banggood.com
+||nanigans.com$domain=banggood.com
+||twitter.com$domain=banggood.com,important
+@@||zapals.com^$generichide
+||geotrust.com$domain=zapals.com
+||translate.google.com$domain=zapals.com
+||youtube.com$domain=zapals.com
+||zapals.com/*yt-extend.js
+||zapals.com/*yt-script.js
+@@||aliexpress.com^$generichide
+!Strona domowa: https://www.aliexpress.com/
+||alicdn.com/*ctl.js$script
+||alicdn.com/*aplus_*.js$script
+||alicdn.com/*store-proxy$subdocument
+||lighthouse.aliexpress.com/*StoreNewArrivalsProductNumAjax.htm$script
+!Koszyk: https://shoppingcart.aliexpress.com/shopcart/shopcartDetail.htm
+!Panel: "Buyers who bought this item also bought" poniżej koszyka
+||shoppingcart.aliexpress.com/shopcart/shoppingCartPpr.do
+!Strona wyszukiwania: "https://www.aliexpress.com/wholesale?catId=":
+||s.tbcdn.cn/*fp.swf$object
 @@||ALIEXPRESS.COM^$generichide
 ||translate.google.com$domain=aliexpress.com
 ||alicdn.com/*/beacon_async.js?
@@ -66,6 +107,9 @@ aliexpress.com##DIV#j-related-products
 ||banggood.com/index.php?com=record&t=aysnCollect
 ||iad.liveperson.net
 ||dc.banggood.com
+@@||static.360buyimg.com/ept/home-en/1.0.0/components/base/cookie.js
+||translate.googleapis.com^$domain=joybuy.com
+||translate.google.com^$domain=joybuy.com
 @@||SPOTIFY.COM^$generichide
 @@||play.spotify.com/xhr/json/log.php
 @@||SHAREPIRATE.COM^$generichide
@@ -89,23 +133,23 @@ opensubtitles.org##H2[style="display:inline;font-size:14px;"]:has(A[target="_bla
 opensubtitles.org##P:has(A.clkz)
 opensubtitles.org##TR[style="text-align:center;margin:0px;padding:0px;"]
 opensubtitles.org##TR:has(TD > IFRAME[src*="ads2.opensubtitles.org"])
-||accounts.google.com$domain=opensubtitles.org
-||ads2.opensubtitles.org
-||apis.google.com$domain=opensubtitles.org
-||assoc-amazon.com$domain=opensubtitles.org
-||carambo.la
-||facebook.com$important,domain=opensubtitles.org
-||facebook.net$important,domain=opensubtitles.org
-||hipersushiads.com
+||accounts.google.com^$domain=opensubtitles.org
+||ads2.opensubtitles.org^
+||apis.google.com^$domain=opensubtitles.org
+||assoc-amazon.com^$domain=opensubtitles.org
+||carambo.la^
+||facebook.com^$important,domain=opensubtitles.org
+||facebook.net^$important,domain=opensubtitles.org
+||hipersushiads.com^
 ||opensubtitles.org/cdn-cgi/pe/bag2?r[]=
 ||opensubtitles.org/gfx/icons/watch_online/en.png
 ||opensubtitles.org/libs/js/watch_online.js
-||pixel.watch
-||pleaseletmeadvertise.com
+||pixel.watch^
+||pleaseletmeadvertise.com^
 ||static.opensubtitles.org/libs/js/ad_slideout.js?$important,domain=opensubtitles.org
 ||static.opensubtitles.org/libs/js/urlshortener.js?$important,domain=opensubtitles.org
-||toplist.cz$domain=opensubtitles.org
-||ws-gateway.com
+||toplist.cz^$domain=opensubtitles.org
+||ws-gateway.com^
 ||opensubtitles.org/*player$subdocument
 @@||CHOMIKUJ.PL^$generichide
 chomikuj.pl##DIV#plugininInstallerDiv
@@ -119,16 +163,17 @@ chomikuj.pl##DIV.pp_frame
 /(?!https?:\/\/.*\.static-chomikuj\.pl\/)(https?:\/\/.*\.[a-z]*\/)/$third-party,image,domain=chomikuj.pl
 ||static-chomikuj.pl/serve/
 ||apis.google.com/js/plusone.js$domain=chomikuj.pl
-||books.chomikuj.pl
+||books.chomikuj.pl^
 ||chomikuj.pl/Empty.aspx
 ||chomikuj.pl/Images2/*/promo/
 ||chomikuj.pl/Thumbnail.aspx?e=
 ||chomikuj.pl/action/ChomikChat/MessagesList?
 ||chomikuj.pl/action/LastAccounts/RecommendedAccounts?
-||facebook.com$domain=chomikuj.pl
-||facebook.net$domain=chomikuj.pl
-||iwa.iplsc.com$domain=chomikuj.pl
-||youtube.com$domain=chomikuj.pl
+||facebook.com^$domain=chomikuj.pl
+||facebook.net^$domain=chomikuj.pl
+||iwa.iplsc.com^$domain=chomikuj.pl
+||ifr-lib.chomikuj.pl^^
+||youtube.com^$domain=chomikuj.pl
 chomikuj.pl##DIV.thumbnail
 chomikuj.pl##DIV.filerow.fileItemContainer > DIV > SPAN.filedescription
 !FREEDISC.PL
@@ -140,9 +185,9 @@ doci.pl##DIV.padding-10.ad-300
 doci.pl##DIV.padding-10.ad-750
 ||doci.pl/adserver/
 ||doci.pl/static/css/vider/ads.css
-||exs.pl
-||facebook.net$domain=doci.pl
-||webshark.pl
+||exs.pl^
+||facebook.net^$domain=doci.pl
+||webshark.pl^
 @@||FREEDISC.PL^$generichide
 @@||ovh.webshark.pl/adsrv/1/main.js$domain=freedisc.pl
 @@||reseton.net^$generichide
@@ -187,12 +232,12 @@ sascdn.com$domain=filmweb.pl
 @@||FILESHARK.PL$generichide
 @@||pasted.co^$generichide
 pasted.co##DIV#captcha_overlay
-||fancybar.net
+||fancybar.net^
 @@||PASTEBIN.COM^$generichide
-||buysellads.com
-||exponential.com
-||circulate.com
-||freestar.io
+||buysellads.com^
+||exponential.com^
+||circulate.com^
+||freestar.io^
 ||pastebin.com/i/facebook_svg.png
 ||pastebin.com/i/twitter_svg.png
 pastebin.com##DIV.banner_728
@@ -211,70 +256,47 @@ zdajmyrazem.pl##DIV#cookie-content
 zdajmyrazem.pl##DIV[class*="adsense"]
 zdajmyrazem.pl##DIV.fb-share-button
 zdajmyrazem.pl##DIV.adv
-@@||ALLTUBE.TV^$generichide
 ||alltube.tv/*jsverify.js
 @@||TVSO.PL^$generichide
 tvso.pl##BUTTON.fb-share-button
-||onlinesupaads.com
-@@||ALLUC.EE^$generichide
+||onlinesupaads.com^
 ||alluc.ee/*floa.js
-@@||DIGITALMAZA.ORG^$generichide
 digitalmaza.org##DIV#conversions-box
 digitalmaza.org##DIV.eucookie_wrapper
 digitalmaza.org##DIV#gritter-notice-wrapper
 ||digitalmaza.org/*cb.js
 @@||digitalmaza.org/*AdblockDetector
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digitalmaza.org
-@@||JAKZDACMATUREZMATEMATYKI.PL^$generichide
 jakzdacmaturezmatematyki.pl##DIV.reklama_bok_lewy
 jakzdacmaturezmatematyki.pl##DIV#cookies-message-container
 jakzdacmaturezmatematyki.pl##DIV#fb_Like_Box
 jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/premium"]:if(IMG[id^="reklama"])
 jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/sklep"]:if(IMG[id^="reklama"])
 ||jakzdacmaturezmatematyki.pl/*reklamy_zewnetrzne
-@@||CKE.EDU.PL^$generichide
 cke.edu.pl##DIV#catapult-cookie-bar
-@@||ZDAJMYRAZEM.PL^$generichide
 zdajmyrazem.pl##DIV.adv_info
 zdajmyrazem.pl##DIV.col-xs-12 > DIV.panel.panel-default.hidden-print
-@@||TOMASZGREBSKI.PL^$generichide
 tomaszgrebski.pl##INS.adsbygoogle
-@@||DUCKDUCKGO.COM^$generichide
 ||duckduckgo.com/t/$image
 @@||TELCHINA.PL^$generichide
-||adservice.aliexpress.com
-||tradetracker.net
+||adservice.aliexpress.com^
+||tradetracker.net^
 telchina.pl##DIV#page-header > A[href]
-@@||MATEMATYKA.PL^$generichide
 ||matematyka.pl/*whcookies.js
 @@||GOMOVIES.TO^$generichide
 ||zopim.com
 gomovies.to##DIV.content-kuss
 @@||MOBILISM.ORG^$generichide
 ||firstimpression.io
-@@||MIUIPOLSKA.PL^$generichide
 miuipolska.pl##INS.adsbygoogle
-@@||PAYPAL.COM^$generichide
 paypal.com##SECTION.cookie-notification
-@@||FILMY.TO^$generichide
 filmy.to##DIV#cookie-bar
-@@||go4up.com^$generichide
 ||go4up.com/assets/img/*but*oned$image
 go4up.com##DIV.row-fluid:has-text(Share)
-@@||pepper.pl^$generichide
-@@/^https?:\/\/tc\.tradetracker\.net\/\?c=[0-9]*&m=[0-9]*&a=[0-9]*&r=[0-9a-z]*&u=[^\/]*$/
-@@/^https?:\/\/tm\.tradetracker\.net\/bct\?s=[0-9]*&t=[a-z]*$/
-@@/^https?:\/\/sc\.tradetracker\.net\/tracker\/merchant\?e=[a-z]*&cstid=[0-9]*&cid=[0-9]*&data=[0-9]*[^&]*&url=[^\/]*$/
-@@||aliprice.com^$generichide
-@@/^https?:\/\/s\.click\.aliexpress\.com\/deep_link\.htm\?/
-@@||bezprzeplacania.pl^$generichide
-@@/^https?:\/\/s\.click\.aliexpress\.com\/e\/[a-z]*$/
-@@||multiup.net^$generichide
 multiup.eu##DIV.span6 > DIV.well:if-not(H2)
 multiup.eu##DIV.alert.alert-success
 multiup.eu##A[href*="/download-usenet/"]
-@@||pcformat.pl^$generichide
 forum.pcformat.pl##DIV.post.classic:if(DIV.post_author.scaleimages > IMG[src="images/link_spons.png"])
-@@||fakt.pl^$generichide
-fakt.pl##DIV.artCenter P.hyphenate:last-of-type + DIV:if(IFRAME)
-fakt.pl##DIV[data-item-uuid]:if(DIV.mvpContainer)
+gfycat.com##^DIV.detail-item-container + DIV.detail-item-container
+gfycat.com##^DIV.share-page-native-add + DIV.detail-item-container > DIV
+||assets.gfycat.com/static/1.share.
