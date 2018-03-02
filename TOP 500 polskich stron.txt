@@ -7,10 +7,8 @@ mail.google.com#@#DIV.gb_ha
 mail.google.com##DIV.aKB
 google.*##DIV.gb_ha
 google.*##DIV#tads
-google.*##DIV#taw
 google.*##DIV.c._oc.commercial-unit
 google.*##LI.ads-ad
-google.*/gen_204?
 @@||YOUTUBE.COM^$generichide
 youtube.com##DIV#masthead-ad
 youtube.com##DIV#video-masthead
