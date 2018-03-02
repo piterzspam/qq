@@ -24,6 +24,8 @@ rp.pl##DIV.section__title--with-icon:style(margin-top: 0px !important;)
 rp.pl##DIV.section__title:has-text(REDAKCJA POLECA)
 rp.pl##DIV.teaser--ivideo
 rp.pl##SPAN.article__premium-player.hidden-xs.hidden-sm
+rp.pl##DIV.site-header__wrapper:style(position: absolute !important;)
+rp.pl##DIV.tv--medium.vouchers
 zw.com.pl##DIV#cookie-gm-new
 zw.com.pl##DIV#sharep
 zw.com.pl##HTML > BODY[style="margin-top: 129px; background-position: center px;"]:style(margin-top: 0px !important;):style(background-position: 0px !important;)
