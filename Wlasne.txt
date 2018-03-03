@@ -17,6 +17,7 @@
 !Cebula.online
 @@||ad.admitad.com/dummy/?c=*&w=*&wc=*&r=$first-party
 
+@@||dot.wp.pl/dyn/logout.html?$first-party
 @@||DOCPLAYER.PL^$generichide
 ||docplayer.pl/*report*.gif
 ||docplayer.pl/*getviewscount
