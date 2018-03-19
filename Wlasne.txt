@@ -301,4 +301,4 @@ multiup.eu##A[href*="/download-usenet/"]
 forum.pcformat.pl##DIV.post.classic:if(DIV.post_author.scaleimages > IMG[src="images/link_spons.png"])
 gfycat.com##^DIV.detail-item-container + DIV.detail-item-container
 gfycat.com##^DIV.share-page-native-add + DIV.detail-item-container > DIV
-||assets.gfycat.com/static/1.share.
+!||assets.gfycat.com/static/1.share.
