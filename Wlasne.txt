@@ -302,3 +302,20 @@ forum.pcformat.pl##DIV.post.classic:if(DIV.post_author.scaleimages > IMG[src="im
 gfycat.com##^DIV.detail-item-container + DIV.detail-item-container
 gfycat.com##^DIV.share-page-native-add + DIV.detail-item-container > DIV
 !||assets.gfycat.com/static/1.share.
+drivetribe.com##DIV._3RZWW:has-text(More from Drivetribe)
+!Główny pasek "Chat Trines Drivetribe"
+drivetribe.com##NAV#header.sc-gPEVay.eztnvL:style(position: absolute !important;)
+!Drugi pasek na stronie artykułu "Ikona kanału comments reposts bumps"
+drivetribe.com##DIV.sc-bAeIUo.jOGnPy:style(position: absolute !important;)
+!Drugi pasek na stronie kanału "Ikona, nazwa, stories, chat"
+drivetribe.com##NAV.sc-kIPQKe.ePLCMc:style(position: absolute !important;)
+!||estat.com^
+!||ultimedia.com^
+||videoadex.com^
+@@||ads.videoadex.com/jw/advertisement.js
+||dig.ultimedia.com^
+||auth.estat.com^
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js|$script
+||adservice.google.com^
+||ultimedia.com/deliver/$image,xmlhttprequest
+||mesure.streaming.estat.com^
