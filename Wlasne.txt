@@ -15,8 +15,26 @@ drivetribe.com##ARTICLE:first-child > DIV[class^="j-"]:first-child:last-child > 
 !Drugi pasek na stronie kanału "Ikona, nazwa, stories, chat"
 drivetribe.com##NAV[class^="sc-"]:first-child:last-child:style(position: absolute !important;)
 
+!Cookies
+!drivetribe.com##DIV#root > DIV[style="opacity: 1; transform: translateY(0%) translateZ(0px);"]:last-child
+drivetribe.com##DIV#root > DIV:first-child > HEADER > NAV#header + DIV[style="transform: scaleY(0) translateZ(0px);"] + DIV[class]:last-child:style(position: absolute !important;)
 
+!https://drivetribe.com/p/reviewed-being-nice-FOQY7K70Tl64BNtLtuNFHw?iid=Z0jN-9bARgyD5omLkZrDhg
+drivetribe.com##ARTICLE > DIV > DIV > DIV > DIV[class^="sc"]:has-text(More from Drivetribe)
 
+!Główny pasek "Chat Trines Drivetribe"
+drivetribe.com##HEADER > NAV#header[class^="sc-"]:first-child:style(position: absolute !important;)
+
+!Drugi pasek na stronie artykułu "Ikona kanału comments reposts bumps"
+drivetribe.com##DIV[class^="_"]:first-child:last-child > DIV[class]:first-child > DIV[class^="sc-"]:first-child:last-child > DIV[class^="sc-"]:first-child:last-child:style(position: absolute !important;)
+drivetribe.com##DIV > H1 + DIV > DIV[class^="sc-"]:first-child:last-child:style(position: absolute !important;)
+!https://drivetribe.com/p/reviewed-being-nice-FOQY7K70Tl64BNtLtuNFHw?iid=Z0jN-9bARgyD5omLkZrDhg
+drivetribe.com##ARTICLE:first-child > DIV[class^="j-"]:first-child:last-child > DIV[class^="_"]:first-child > DIV[class^="_1-"]:first-child:last-child > H1[class^="_"]:first-child + DIV[class^="sc-"]:last-child > DIV[class^="sc-"]:first-child:last-child:first-child:last-child:style(position: absolute !important;)
+
+!Drugi pasek na stronie kanału "Ikona, nazwa, stories, chat"
+drivetribe.com##NAV[class^="sc-"]:first-child:last-child:style(position: absolute !important;)
+
+drivetribe.com##DIV.sc-ciodno > DIV[class^="sc-"]:has-text(Tribes you might like)
 
 
 
