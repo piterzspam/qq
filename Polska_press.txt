@@ -1,13 +1,13 @@
 !Title: Polska_press
 .*/ajax/ksiegarnia/$first-party
-@@||ECHODNIA.EU^$generichide
-@@||GAZETAWROCLAWSKA.PL^$generichide
-@@||GRATKA.PL^$generichide
-@@||NASZEMIASTO.PL^$generichide
-@@||NASZEMIASTO.PL^$generichide
-@@||POMORSKA.PL^$generichide
-@@||GLOSWIELKOPOLSKI.PL^$generichide
-@@||GAZETALUBUSKA.PL^$generichide
+@@||dziennikpolski24.pl^$generichide
+@@||echodnia.eu^$generichide
+@@||gazetalubuska.pl^$generichide
+@@||gazetawroclawska.pl^$generichide
+@@||gloswielkopolski.pl^$generichide
+@@||naszemiasto.pl^$generichide
+@@||polskatimes.pl^$generichide
+@@||pomorska.pl^$generichide
 @@||ppstatic.pl/o/_blank.png
 @@||ppstatic.pl/o/js/track_ua.js?
 @@||ppstatic.pl/p/css/strony/sekcje_branzowe.css?
@@ -15,48 +15,68 @@ alegratka.pl##DIV#adoceanadobirojplew
 alegratka.pl##DIV.cookieTooltip
 get.x-link.pl##A.vjs-click-through-button[target="_blank"]
 gratka.pl##DIV.cookieContainer
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#do-komentarzy
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A#pasek-plus-rekomendacje
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##A.twitter-follow-button
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##ASIDE#quiz-pytanie
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##B:has-text(Czytaj też:)
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##BR:last-of-type + SCRIPT + DIV#znacznik-wideo
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#LinkArea\:zobKon
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#ad-billboard
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#bestsellery
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#glowna-kolumna > DIV#wideo-artykul
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#kontener-wideo.plywajacy
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#nastepny-artykul
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#paywall-zaslona-belka
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV#wideo-artykul
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.adBoks
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.adSrodek.hide-for-medium-down
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.article-body A.not-regular-link[data-gtm="nowa_karta/glowne_zdjecie"][href*="?url_powrotu="]
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.article-body H2:has-text(Polecamy na)
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.article-body H2[hidden] + UL
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.banner-fixed
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.blok.zobaczKoniecznie.show-for-large-up
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.clearfix.wyslijZdj
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.columns.hide-for-medium-down.large-3.rekomendacje.skrocone.typBaner
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.cookieContainer
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.cookieTooltip
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.dodatekTresc.zaslonaPlus.zajawkaPlusa
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.fb-page
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.odciecieTresc
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV.wstawka.dodatekTresc.hide-for-medium-down.dodatekTresc
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##DIV:first-child:last-child > DIV:first-child:last-child > P[style="margin-left: 35px; margin-bottom: 2px; text-align: left; font-size: 7pt; font-family: Verdana, Tahoma; color: #9d9d9d;"]:first-child
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##H2:has-text(Zobaczcie też:)
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.box.fb
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.facebook.wyzsze.opis.popup
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.hide-for-medium-down + * + * + * + LI:last-child
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.ikonkaSpol.fbShare
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.ikonkaSpol.tweetShare
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##LI.przeslij.bezTekstu
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##SECTION#tresc > CENTER:if(IFRAME)
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##SECTION.content-stream.ad
-naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,gazetalubuska.pl##UL#narzedzia
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A#do-komentarzy
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A#pasek-plus-rekomendacje
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A.twitter-follow-button
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##ASIDE#quiz-pytanie
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##B:has-text(Czytaj też:)
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##BR:last-of-type + SCRIPT + DIV#znacznik-wideo
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#LinkArea\:zobKon
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#ad-billboard
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#bestsellery
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#glowna-kolumna > DIV#wideo-artykul
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#kontener-wideo.plywajacy
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#nastepny-artykul
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#pasek-regionalny-plus:style(position: absolute !important;)
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#paywall-zaslona-belka
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#wideo-artykul
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.adBoks
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.adSrodek.hide-for-medium-down
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.article-body A.not-regular-link[data-gtm="nowa_karta/glowne_zdjecie"][href*="?url_powrotu="]
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.article-body H2:has-text(Polecamy na)
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.article-body H2[hidden] + UL
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.banner-fixed
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.blok.zobaczKoniecznie.show-for-large-up
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.clearfix.wyslijZdj
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.columns.hide-for-medium-down.large-3.rekomendacje.skrocone.typBaner
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.cookieContainer
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.cookieTooltip
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.dodatekTresc.zaslonaPlus.zajawkaPlusa
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.fb-page
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.odciecieTresc
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.wstawka.dodatekTresc.hide-for-medium-down.dodatekTresc
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV:first-child:last-child > DIV:first-child:last-child > P[style="margin-left: 35px; margin-bottom: 2px; text-align: left; font-size: 7pt; font-family: Verdana, Tahoma; color: #9d9d9d;"]:first-child
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##H2:has-text(Zobaczcie też:)
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.box.fb
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.facebook.wyzsze.opis.popup
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.hide-for-medium-down + * + * + * + LI:last-child
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.ikonkaSpol.fbShare
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.ikonkaSpol.tweetShare
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.przeslij.bezTekstu
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href*="/quiz/"]
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR + BR + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B + BR + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B:has-text(MASZ CIEKAWĄ INFORMACJĘ, ZROBIŁEŚ ZDJĘCIE ALBO WIDEO?)
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + A[href]
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + * + * + * + * + * + * + A[href]
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + * + * + A[href]
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + BR + BR
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER:if(IFRAME)
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > DIV.article-inset
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > H2:has-text(CZYTAJ KONIECZNIE:)
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION.content-stream.ad
+dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##UL#narzedzia
 ||core3.pl^
 ||ctnsnet.com^
+||daib.pl^
 ||farm.plista.com/async_lib.js?
 ||gratka.pl/_event/$third-party
 ||naszemiasto.pl/ajax/facebook/
@@ -88,6 +108,7 @@ naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,g
 ||ppstatic.pl/*reklama.js
 ||ppstatic.pl/*reklamy
 ||ppstatic.pl/*reklamy
+||ppstatic.pl/*rozwin_boks.js
 ||ppstatic.pl/*sekcje_branzowe.css
 ||ppstatic.pl/*spolecznosciowe.png
 ||ppstatic.pl/*track.js
@@ -95,5 +116,6 @@ naszemiasto.pl,echodnia.eu,gazetawroclawska.pl,pomorska.pl,gloswielkopolski.pl,g
 ||ppstatic.pl/*wyslij_zdjecie_tlo.png
 ||ppstatic.pl/*zamknij.svg
 ||ppstatic.pl/ksiegarnia/k/r/
+||sso.ppapi.pl/rodo.js
 ||statystyki.gratka.pl^
 ||visualrevenue.com^
