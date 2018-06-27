@@ -2491,3 +2491,12 @@
 127.0.0.1 premiu.pl
 127.0.0.1 torr.pl
 127.0.0.1 torren.pl
+127.0.0.1 spotscenered.info #openload
+127.0.0.1 exdynsrv.com #openload
+127.0.0.1 jf71qh5v14.com #openload
+127.0.0.1 pop.bid #openload
+127.0.0.1 constintptr.com #openload
+127.0.0.1 rtmark.net #openload
+127.0.0.1 rexmox.com #openload
+127.0.0.1 onclicksuper.com #openload
+127.0.0.1 popads.net #openload
