@@ -275,7 +275,6 @@ linkshrink.net##DIV.ftr1 > DIV[class^="g"]
 linkshrink.net##script:inject(noeval.js)
 linkshrink.net##script:inject(abort-on-property-write.js, onpopstate)
 linkshrink.net##script:inject(abort-on-property-write.js, H7WWWW)
-linkshrink.net##^script:has-text(ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=)
 ||linkshrink.net/cdn-cgi/beacon/
 !LYNK.MY
 ||lynk.my/cdn-cgi/apps/head/
