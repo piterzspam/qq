@@ -1,0 +1,14 @@
+!Title: Social_2
+
+||facebook.com^$third-party
+||facebook.net^$third-party,domain=~facebook.com
+||fbcdn.net^$third-party
+||instagram.com^$third-party
+||linkedin.com^$third-party
+||nk.pl^$third-party
+||pinterest.com^$third-party
+||plus.google.com^$third-party
+||tumblr.com^$third-party
+||twitter.com^$third-party
+||vk.com^$third-party
+||yandex.st^$third-party
