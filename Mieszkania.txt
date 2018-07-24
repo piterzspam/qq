@@ -1,8 +1,17 @@
 !Title: Mieszkania
 
+@@||domiporta.pl/Resources/Scripts/CheckAdBloker?
+@@||domiporta.pl/Resources/Scripts/advertisement.js
 @@||ppstatic.pl/lib/adblockdetect/
+@@||st.trov.it/includes/js/Views/Element/General/ExternalAdsTracking.js
 @@||staticmorizon.com.pl/js/auto/advert_check
 @@||staticmorizon.com.pl/t.gif
+domiporta.pl##BODY:style(overflow: auto !important; padding-right: 0px !important;)
+domiporta.pl##SECTION.details-avg-prices
+domiporta.pl##SECTION.details-premium
+domiporta.pl##SECTION.details-seo-other--districts
+domiporta.pl##SECTION.details-seo-other--estates
+domiporta.pl##SECTION.ing--widget
 domy.pl##ARTICLE.propertyBox.highlight.first.L
 domy.pl##ARTICLE.propertyBox.highlight.first.L
 gratka.pl##SECTION.otherAnnouncements
@@ -40,12 +49,14 @@ trovit.pl##DIV.js-alert-box[style="right: 20px;"]
 trovit.pl##DIV.related_items
 ||ads.tabelaofert.pl^
 ||gratka.pl/sw_events.js
+||gravitec.net^$domain=domiporta.pl
+||kropka2.trader.pl^
 ||morizon.pl/ajaxSTSTracking?
 ||morizon.pl/ajaxSendStats?
 ||morizon.pl/images/reklama-
 ||ppstatic.pl/assets/gratka/*/sticky.js
+||rodo.agora.pl^
 ||sanalytics.szybko.pl^
-||st.trov.it/includes/js/Views/Element/General/ExternalAdsTracking.js
 ||survicate.com^$domain=morizon.pl
 ||szybko.pl/css/asset-listing-takeover-ad.css
 ||szybko.pl/js/NearestAssets.js
