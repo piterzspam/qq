@@ -7,25 +7,39 @@
 @@||staticmorizon.com.pl/js/auto/advert_check
 @@||staticmorizon.com.pl/t.gif
 domiporta.pl##BODY:style(overflow: auto !important; padding-right: 0px !important;)
+domiporta.pl##SECTION.details-actions-bottom:if(A#details-actions-bottom-contact)
 domiporta.pl##SECTION.details-avg-prices
 domiporta.pl##SECTION.details-premium
 domiporta.pl##SECTION.details-seo-other--districts
 domiporta.pl##SECTION.details-seo-other--estates
+domiporta.pl##SECTION.details-similar
 domiporta.pl##SECTION.ing--widget
 domy.pl##ARTICLE.propertyBox.highlight.first.L
 domy.pl##ARTICLE.propertyBox.highlight.first.L
+domy.pl##DIV.androidPopUp
+domy.pl##DIV.cookiesNotificationOuter
 gratka.pl##SECTION.otherAnnouncements
+gumtree.pl##DIV#cookieWarning
 gumtree.pl##DIV#gallery
+gumtree.pl##DIV.reply_controls:style(position: absolute !important;)
 gumtree.pl##DIV.section-divider:has-text(Ogłoszenia wyróżnione)
 gumtree.pl##DIV.section-divider:has-text(Ogłoszenia wyróżnione)
 gumtree.pl##DIV.view.top-listings
 gumtree.pl##DIV.view.top-listings
+m.olx.pl##DIV.c-contact-bar:style(position: absolute !important;)
+m.olx.pl##DIV.c-listing__filter-button__wrapper:style(position: absolute !important;)
+m.olx.pl##DIV.container-header.is-fixed:style(position: absolute !important;)
+m.olx.pl##DIV.cookies-overlay__container
+morizon.pl##DIV#actionButtons
 morizon.pl##DIV.additional-box-section
+morizon.pl##DIV.cookiesNotificationOuter
 morizon.pl##DIV.finances.mz-card--listing
 morizon.pl##DIV.miniContainer
 morizon.pl##HEADER#siteHeader:style(position: absolute !important;)
 morizon.pl##LI.paramIconMortgageTop
 morizon.pl##SECTION#blog-articles
+nieruchomosci-online.pl##.box-offer-up
+nieruchomosci-online.pl##DIV#cookieInfo
 nieruchomosci-online.pl##DIV[id^="column_archive_"]
 nieruchomosci-online.pl##DIV[id^="tile_"]:if(EM.icon.icon-archive.absolute)
 nieruchomosci-online.pl##H2#pie_archive
@@ -33,34 +47,47 @@ nieruchomosci-online.pl##SECTION#sidebar-agent-teaser
 olx.pl##TABLE.fixed.offers.breakword.offers--top
 otodom.pl##ARTICLE[data-featured-name="promo_top_ads"]
 otodom.pl##ASIDE.col-md-aside
+otodom.pl##DIV#cookiesBar
 otodom.pl##DIV.listing-title.listing-title-promoted
 otodom.pl##DIV.listing:last-child > DIV:first-child > DIV.offers-header:first-child
+otodom.pl##DIV.smartbanner
 otodom.pl#@#[class^="ad-"]
 szybko.pl##DIV.opposite-search-links
 szybko.pl##DIV.raty
+szybko.pl##DIV.reduce-header[style="position: relative;"]
 szybko.pl##DIV[style="margin-top:20px; margin-left:15px; margin-right:15px"]
+tabelaofert.pl##DIV#cookieinfo
 tabelaofert.pl##DIV#oferty_agenci
 tabelaofert.pl##DIV.list-item.item-advert
 tabelaofert.pl##DIV.ng-ad-mapa
+tabelaofert.pl##DIV.ng-ad-mobile
+tabelaofert.pl##DIV.ng-sz-floating.floating-footer
+tabelaofert.pl##DIV.ng-sz-frame:has-text(Twoje wyszukane oferty)
 tabelaofert.pl##DIV.oferty-podobne
 trovit.pl##DIV#similars
+trovit.pl##DIV.cookie-advice
 trovit.pl##DIV.form_alert
 trovit.pl##DIV.js-alert-box[style="right: 20px;"]
+trovit.pl##DIV.push-notification
 trovit.pl##DIV.related_items
 ||ads.tabelaofert.pl^
+||domiporta.pl/wyroznione
 ||gratka.pl/sw_events.js
 ||gravitec.net^$domain=domiporta.pl
 ||kropka2.trader.pl^
 ||morizon.pl/ajaxSTSTracking?
 ||morizon.pl/ajaxSendStats?
 ||morizon.pl/images/reklama-
+||ninja.onap.io^$domain=olx.pl
 ||ppstatic.pl/assets/gratka/*/sticky.js
 ||rodo.agora.pl^
 ||sanalytics.szybko.pl^
+||survicate.com^$domain=domy.pl
 ||survicate.com^$domain=morizon.pl
 ||szybko.pl/css/asset-listing-takeover-ad.css
 ||szybko.pl/js/NearestAssets.js
 ||szybko.pl/reklamy/
 ||tabelaofert.pl/jak-negocjowac-cene-mieszkania,popup
 ||tabelaofert.pl/oferty-ng,ajax-get-ad?
+||userengage.com^$domain=domy.pl
 ||userengage.com^$domain=morizon.pl
