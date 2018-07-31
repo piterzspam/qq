@@ -2,7 +2,7 @@
 
 ||facebook.com^$third-party
 ||facebook.net^$third-party,domain=~facebook.com
-||fbcdn.net^$third-party
+||fbcdn.net^$third-party,domain=~facebook.com
 ||instagram.com^$third-party
 ||linkedin.com^$third-party
 ||nk.pl^$third-party
