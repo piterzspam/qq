@@ -9,6 +9,8 @@
 ||pinterest.com^$third-party
 ||plus.google.com^$third-party
 ||tumblr.com^$third-party
+||translate.google.com^$third-party
+||translate.googleapis.com^$third-party,domain=~translate.google.com
 ||twitter.com^$third-party
 ||vk.com^$third-party
 ||yandex.st^$third-party
