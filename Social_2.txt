@@ -1,16 +1,17 @@
 !Title: Social_2
 
-||facebook.com^$third-party
-||facebook.net^$third-party,domain=~facebook.com
-||fbcdn.net^$third-party,domain=~facebook.com
-||instagram.com^$third-party
-||linkedin.com^$third-party
-||nk.pl^$third-party
-||pinterest.com^$third-party
-||plus.google.com^$third-party
-||tumblr.com^$third-party
-||translate.google.com^$third-party
-||translate.googleapis.com^$third-party,domain=~translate.google.com
-||twitter.com^$third-party
-||vk.com^$third-party
-||yandex.st^$third-party
+||facebook.com^$third-party,important
+||facebook.net^$third-party,domain=~facebook.com,important
+||fbcdn.net^$third-party,domain=~facebook.com,important
+||instagram.com^$third-party,important
+||linkedin.com^$third-party,important
+||nk.pl^$third-party,important
+||pinterest.com^$third-party,important
+||plus.google.com^$third-party,important
+||sharethis.com^$third-party,important
+||tumblr.com^$third-party,important
+||translate.google.com^$third-party,important
+||translate.googleapis.com^$third-party,domain=~translate.google.com,important
+||twitter.com^$third-party,important
+||vk.com^$third-party,important
+||yandex.st^$third-party,important
