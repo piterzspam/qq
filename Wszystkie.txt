@@ -1,0 +1,18 @@
+! Wszystkie
+! Expires: 1 day
+!
+!#if ext_ublock
+!#include Warez.txt
+!#include TVN_2.txt
+!#include Social_2.txt
+!#include Random.txt
+!#include Presspublica.txt
+!#include Polska_press.txt
+!#include Onet.txt
+!#include Mieszkania.txt
+!#include Hostingi_2.txt
+!#include Generatory.txt
+!#include Bauer_2.txt
+!#include Agora_2.txt
+!#include adblock_ublock.txt
+!#endif
