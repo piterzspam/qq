@@ -1,4 +1,4 @@
-! Wszystkie
+! Title: Wszystkie
 ! Expires: 1 day
 !
 !#if ext_ublock
