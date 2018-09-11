@@ -57,3 +57,5 @@ zw.com.pl##HTML > BODY[style="margin-top: 129px; background-position: center px;
 ||traq.li^
 ||youtube.com/embed/*?cc_load_policy=0&showinfo=0&color=white&enablejsapi=1&modestbranding=1&autoplay=false&mute=1&loadMore=false&origin=http%3A%2F%2Fwww.rp.pl&widgetid=1$subdocument,domain=rp.pl
 ||zw.com.pl/js/gemius.js
+rp.pl##SPAN.article__premium-player
+||cdn.rp.pl/rodo-agreement-popup/
