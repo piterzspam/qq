@@ -134,6 +134,14 @@ darmowe-torrenty.com.pl##DIV.gosc
 demonoid.click##TD.bgg
 demonoid.click###bbb
 demonoid.click##script:inject(noeval.js)
+
+
+1337x.unblocked.mx##script:inject(noeval.js)
+||1337x.unblocked.mx/js/afcaeffdcddcd.js
+
+igg-games.com#@#script:inject(nowebrtc.js)
+igg-games.com##script:inject(noeval.js)
+
 demonoid.click##A[href="/tzr.php"]
 demonoid.click##DIV[id*="Preload"]
 ||puserving.com
