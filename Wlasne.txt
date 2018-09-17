@@ -398,3 +398,13 @@ topcashback.com##DIV.gecko-banner-fullwidth
 ||dwin1.com^$domain=topcashback.com
 ||crazyegg.com^$domain=topcashback.com
 ||topcashback.com/Ajax.asmx/
+multiup.org##.well.success.text-center
+multiup.org##DIV.ui-pnotify
+multiup.org##DIV[aria-label="cookieconsent"]
+multiup.org##SECTION[class*="panel-featured"]:if([href*="valemedia.net"])
+multiup.org##SECTION[class*="panel-featured"]:if(I.fa.fa-share-alt)
+multiup.org##DIV[id*="ScriptRoot"]
+multiup.org##OL.breadcrumbs
+megaup.net##script:inject(noeval.js)
+
+
