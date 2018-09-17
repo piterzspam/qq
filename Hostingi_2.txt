@@ -505,6 +505,27 @@ zippyshare.com##script:inject(abort-on-property-write.js, H7WWWW)
 ||xvidstage.com/images/player_play.png
 ||xvidstage.com/player%20faker.jpg
 ||zippyshare.com/download*?key=
+openload.co##^script:has-text(location.protocol)
+userscloud.com##+js(abort-on-property-write.js, decodeURIComponent)
+||rtbvideobox.com^
+||uptobox.com/sw.js
+uptobox.com##script:inject(abort-on-property-read.js, acPrefetch)
+uptobox.com##script:inject(abort-on-property-read.js, top.document.referrer)
+katfile.com##A.style3[href="https://katfile.com/?op=payments"]
+||clicknupload.org/sw.js
+||indlzxgptf.com^
+clicknupload.org##DIV[id*="ScriptRoot"]
+|https://$third-party,stylesheet,domain=zippyshare.com,badfilter
+||zippyshare.com/sw.js
+||d10lumateci472.cloudfront.net^
+zippyshare.com##script:inject(abort-on-property-read.js, acPrefetch)
+||3zfile.net/js/share.js
+suprafiles.me##INS.adsbygoogle
+||suprafiles.me/js/share.js
+||cloudyfiles.me/js/share.js
+||upload.ac/js/share.js
+@@||upload.ac/hg/js/advertisement.js
+upload.ac##A.btn.btn-info.btn-dl-plus
 
 !BIAŁA LISTA
 @@ads.js$domain=2giga.link|hitfile.net|share-online.biz|tune.pk|uploadboy.com|uploadrocket.net|vidoza.net|vidzi.tv|vod-share.com|zippyshare.com
