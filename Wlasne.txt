@@ -406,5 +406,14 @@ multiup.org##SECTION[class*="panel-featured"]:if(I.fa.fa-share-alt)
 multiup.org##DIV[id*="ScriptRoot"]
 multiup.org##OL.breadcrumbs
 megaup.net##script:inject(noeval.js)
-
+sfd.pl##DIV.hentry.spec-sfd
+sfd.pl##BODY[ng-app="wyszukaj"] > DIV.wallpaper-holder
+sfd.pl##SECTION.articles-box-widget.wrapper
+sfd.pl##DIV.cookie-info
+sfd.pl##SECTION.page-top.sticky:style(position: absolute !important;)
+sfd.pl##DIV.floating-toolbox:style(position: absolute !important;)
+||sfd.pl/Content/img/krzystof_piekarz.jpg
+||sfd.pl/SFD/TopImageForum/
+||sfd.pl/Content/img/sylwia-emil.png
+||sfd.pl/getscript.ashx?q=
 
