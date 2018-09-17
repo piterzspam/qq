@@ -30,6 +30,26 @@
 ||gemius.pl
 ||smartcontext.pl
 ||tro.pl
+||ttbh08.xyz^$inline-script
+torrentz2.eu##script:inject(abort-on-property-write.js, element)
+torrentz2.eu##P#resultarea.gener
+demonoid.pw###bbb
+||shermore.info^$domain=torlock.com|torrentdownloads.me
+||variablefitness.com^$domain=torlock.com
+||torlock.com/sw_torlockcom.js
+||histats.com^
+||torlock.com/ipinfo.php
+torlock.com##TABLE[style="padding-bottom:10px;max-width:1070px;font-size: 12px;font-family:Verdana;border:0;margin-bottom:5px"]
+torlock.com##DIV.col-md-4.col-sm-4:if-not(A[href$=".torrent"]:first-child:last-child)
+||parketsy.pro^$domain=monova.to
+||platform.twitter.com/widgets.js|$domain=monova.to,important
+@@||monova.to/js/ads.js
+||monova.to/js/ga.js
+monova.to##DIV.col-md-12.z-depth-1.section-a.background-block
+||monova.to/sw_monovato.js
+monova.to##DIV#section-popular
+||extreme-dm.com^$domain=torrentdownloads.me
+||torrentdownloads.me/sw_wwwtorrentdownloadsme.js
 !ALLRLS.NET
 @@||allrls.net$generichide
 ||555fff555f.net/popunder2.js
