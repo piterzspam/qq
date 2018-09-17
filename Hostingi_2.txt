@@ -526,6 +526,30 @@ suprafiles.me##INS.adsbygoogle
 ||upload.ac/js/share.js
 @@||upload.ac/hg/js/advertisement.js
 upload.ac##A.btn.btn-info.btn-dl-plus
+||boudja.com^
+bdupload.info##script:inject(abort-on-property-write.js, Fingerprint2)
+bdupload.info##script:inject(abort-on-property-write.js, TID)
+||bdupload.info/js/countdown.js
+||pussl16.com^
+||3.bp.blogspot.com/-pAmTvt48_aU/WeXtp_hIwNI/AAAAAAAAT6s/2VPOnqG2yYw4NhfSB8xqAHR5QqB_-o39wCLcBGAs/s1600/southhindidubbed.jpg
+||2.bp.blogspot.com/-xQ5z4RbL66A/Wczkng9XhZI/AAAAAAAAToM/tdH7-zYUdEgu9HnCWIbdZ4FDxxjDi3GFACLcBGAs/s1600/downloadhere.png
+||vodlock.co/cdn-cgi/pe/bag2?r[]=
+##script:inject(abort-on-property-read.js, zfgloadedpopup)
+vodlock.co##script:inject(abort-current-inline-script.js, miner)
+vodlock.co##script:inject(abort-on-property-write.js, adcashMacros)
+$websocket,domain=vodlock.co
+||hashing.win^
+rapidvideo.com##script:inject(abort-on-property-write.js, decodeURIComponent)
+||freegeoip.net^
+||sbscribeme.com^
+||defpush.com^
+filescdn.com##script:inject(window.open-defuser.js)
+filescdn.com##script:inject(abort-on-property-write.js, Fingerprint2)
+filescdn.com##script:inject(abort-on-property-read.js, m, b)
+filescdn.com##I.icon-share2
+sendit.cloud##script:inject(abort-on-property-write.js, Fingerprint2)
+sendit.cloud##script:inject(abort-on-property-write.js, HSCW)
+filerio.net##script:inject(abort-on-property-write.js, H7WWWW)
 
 !BIAŁA LISTA
 @@ads.js$domain=2giga.link|hitfile.net|share-online.biz|tune.pk|uploadboy.com|uploadrocket.net|vidoza.net|vidzi.tv|vod-share.com|zippyshare.com
