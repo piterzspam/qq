@@ -186,7 +186,6 @@ opensubtitles.org##A.p.a.a_2
 opensubtitles.org##DIV#WarningCodecBanner
 opensubtitles.org##DIV#scrubbuad_style
 opensubtitles.org##DIV.content[style="position:relative;"]:first-child > H1[style="padding:0px;display:inline;"]
-opensubtitles.org##DIV.msg > DIV[style="text-align:center;"]:has(A[target="_blank"][title^="Download"][href]:first-child:last-child)
 opensubtitles.org##DIV.msgarrow
 opensubtitles.org##FIELDSET.intro
 opensubtitles.org##FIELDSET:has(LEGEND:first-child > A[href="/support#vip"]:first-child:last-child)
@@ -383,3 +382,19 @@ zdajmyrazem.pl##DIV[class*="adsense"]
 ||zapals.com/*yt-extend.js
 ||zapals.com/*yt-script.js
 ||zopim.com^
+topcashback.com##A.gecko-featuredurl-btn
+topcashback.com##DIV.gecko-nav
+topcashback.com##DIV#ctl00_GeckoTwoColSecondary_pnlRedHotDeal
+topcashback.com##DIV#comp-footer-tab
+topcashback.com##[action="/account/overview/"] DIV.gecko-single-container.no-overflow:first-child + DIV.gecko-single-container.no-overflow:last-child
+topcashback.com##DIV#ctl00_GeckoTwoColSecondary_WhyChooseUs_WhyChooseUsContainerr
+topcashback.com##FORM[action="/account/dashboard/"] DIV.gecko-secondary > DIV.gecko-single-container:first-child
+topcashback.com##FORM[action="/blog/b2s-treats-game/"] .gecko-primary
+topcashback.com##DIV.gecko-single-container.container-tell-a-friend
+topcashback.com##FORM[action="/home"] > DIV.gecko-main
+topcashback.com##DIV.gecko-banner-fullwidth
+||game.topcashback.com^
+||topcashback.com/images/affiliatehub/
+||dwin1.com^$domain=topcashback.com
+||crazyegg.com^$domain=topcashback.com
+||topcashback.com/Ajax.asmx/
