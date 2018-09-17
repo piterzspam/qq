@@ -354,3 +354,83 @@ dwindly.io##script:inject(abort-on-property-write.js, Fingerprint2)
 dwindly.io##script:inject(abort-on-property-read.js, encD)
 dwindly.io##script:inject(abort-on-property-write.js, encD)
 ||lh5lg.top^
+
+spaste.com##script:inject(abort-current-inline-script.js, CookieChecker)
+spaste.com##.spasteCaptcha h5
+adsrt.com##script:inject(window.open-defuser.js)
+bit-url.com##script:inject(window.open-defuser.js)
+bit-url.com##.banner-inner
+bit-url.com##DIV#cookie-pop
+||demand.supply^
+||baconaces.pro^
+||clk.press/sw.js
+clk.press##DIV#cookie-pop
+clk.press##DIV#headlineatas
+clk.press##DIV.banner-inner
+||aj1110.online^
+$subdocument,domain=dwindly.io
+dwindly.io##script:inject(window.open-defuser.js)
+dwindly.io##script:inject(abort-on-property-write.js, Fingerprint2)
+dwindly.io##script:inject(abort-on-property-read.js, encD)
+dwindly.io##script:inject(abort-on-property-write.js, encD)
+||lh5lg.top^
+
+spaste.com##script:inject(abort-current-inline-script.js, CookieChecker)
+spaste.com##.spasteCaptcha h5
+adsrt.com##script:inject(window.open-defuser.js)
+bit-url.com##script:inject(window.open-defuser.js)
+bit-url.com##.banner-inner
+bit-url.com##DIV#cookie-pop
+||demand.supply^
+||baconaces.pro^
+||clk.press/sw.js
+clk.press##DIV#cookie-pop
+clk.press##DIV#headlineatas
+clk.press##DIV.banner-inner
+||aj1110.online^
+$subdocument,domain=dwindly.io
+dwindly.io##script:inject(window.open-defuser.js)
+dwindly.io##script:inject(abort-on-property-write.js, Fingerprint2)
+dwindly.io##script:inject(abort-on-property-read.js, encD)
+dwindly.io##script:inject(abort-on-property-write.js, encD)
+||lh5lg.top^
+
+spaste.com##script:inject(abort-current-inline-script.js, CookieChecker)
+spaste.com##.spasteCaptcha h5
+adsrt.com##script:inject(window.open-defuser.js)
+bit-url.com##script:inject(window.open-defuser.js)
+bit-url.com##.banner-inner
+bit-url.com##DIV#cookie-pop
+||demand.supply^
+||baconaces.pro^
+||clk.press/sw.js
+clk.press##DIV#cookie-pop
+clk.press##DIV#headlineatas
+clk.press##DIV.banner-inner
+||aj1110.online^
+$subdocument,domain=dwindly.io
+dwindly.io##script:inject(window.open-defuser.js)
+dwindly.io##script:inject(abort-on-property-write.js, Fingerprint2)
+dwindly.io##script:inject(abort-on-property-read.js, encD)
+dwindly.io##script:inject(abort-on-property-write.js, encD)
+||lh5lg.top^
+
+spaste.com##script:inject(abort-current-inline-script.js, CookieChecker)
+spaste.com##.spasteCaptcha h5
+adsrt.com##script:inject(window.open-defuser.js)
+bit-url.com##script:inject(window.open-defuser.js)
+bit-url.com##.banner-inner
+bit-url.com##DIV#cookie-pop
+||demand.supply^
+||baconaces.pro^
+||clk.press/sw.js
+clk.press##DIV#cookie-pop
+clk.press##DIV#headlineatas
+clk.press##DIV.banner-inner
+||aj1110.online^
+$subdocument,domain=dwindly.io
+dwindly.io##script:inject(window.open-defuser.js)
+dwindly.io##script:inject(abort-on-property-write.js, Fingerprint2)
+dwindly.io##script:inject(abort-on-property-read.js, encD)
+dwindly.io##script:inject(abort-on-property-write.js, encD)
+||lh5lg.top^
