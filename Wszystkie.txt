@@ -14,5 +14,5 @@
 !#include Generatory.txt
 !#include Bauer_2.txt
 !#include Agora_2.txt
+!#include test.txt
 !#endif
-||example.com^
