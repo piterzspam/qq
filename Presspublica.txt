@@ -59,3 +59,5 @@ zw.com.pl##HTML > BODY[style="margin-top: 129px; background-position: center px;
 ||zw.com.pl/js/gemius.js
 rp.pl##SPAN.article__premium-player
 ||cdn.rp.pl/rodo-agreement-popup/
+||rp.pl##DIV.article__content > P:has-text(/Czytaj także:|Czytaj też:/)
+
