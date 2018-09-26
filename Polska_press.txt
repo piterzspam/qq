@@ -13,8 +13,6 @@
 @@||ppstatic.pl/p/css/strony/sekcje_branzowe.css?
 alegratka.pl##DIV#adoceanadobirojplew
 alegratka.pl##DIV.cookieTooltip
-get.x-link.pl##A.vjs-click-through-button[target="_blank"]
-gratka.pl##DIV.cookieContainer
 dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A#do-komentarzy
 dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A#pasek-plus-rekomendacje
 dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A.twitter-follow-button
@@ -74,13 +72,17 @@ dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkop
 dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > H2:has-text(CZYTAJ KONIECZNIE:)
 dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION.content-stream.ad
 dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##UL#narzedzia
+get.x-link.pl##A.vjs-click-through-button[target="_blank"]
+gratka.pl##DIV.cookieContainer
 ||core3.pl^
 ||ctnsnet.com^
+||d24rtvkqjwgutp.cloudfront.net^
 ||daib.pl^
 ||farm.plista.com/async_lib.js?
 ||gratka.pl/_event/$third-party
 ||naszemiasto.pl/ajax/facebook/
 ||ppdb.pl^
+||ppstatic.pl/*/promoButton.css
 ||ppstatic.pl/*abczdrowie.widget.js
 ||ppstatic.pl/*addthis.js
 ||ppstatic.pl/*ads.js
@@ -117,5 +119,6 @@ dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkop
 ||ppstatic.pl/*zamknij.svg
 ||ppstatic.pl/ksiegarnia/k/r/
 ||sso.ppapi.pl/rodo.js
+||sso.ppapi.pl^$third-party
 ||statystyki.gratka.pl^
 ||visualrevenue.com^
