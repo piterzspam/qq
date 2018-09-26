@@ -322,3 +322,15 @@ wirtualnemedia.pl##INS.adsbygoogle
 wirtualnemedia.pl##DIV.main-adv
 wirtualnemedia.pl##DIV.social-tabs
 
+sekurak.pl##DIV.single_share
+||zaufanatrzeciastrona.pl/wp-content/uploads/2018/08/lazarski.jpg
+||zaufanatrzeciastrona.pl/*/socialfit.js
+||zaufanatrzeciastrona.pl/*/google-analytics-for-wordpress/
+pap.pl##DIV#social-media
+pap.pl##DIV#rodoWrapper
+pap.pl##DIV#header-lower:style(position: absolute !important;)
+pap.pl##DIV#main-container > DIV#reg-1
+pap.pl##DIV#cookies
+||pap.pl/klauzula-rodo/rodoPopup.pl.js
+||pap.pl/Themes/Pap/scripts/custom-stats.js
+||pap.pl/Themes/Pap/scripts/stats.js
