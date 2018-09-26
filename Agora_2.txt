@@ -41,7 +41,10 @@ wyborcza.biz,wyborcza.pl##LI.email
 wyborcza.biz,wyborcza.pl##LI.fbShare
 wyborcza.biz,wyborcza.pl##LI.twitter
 wyborcza.biz,wyborcza.pl##SECTION.post-article-related
+wyborcza.pl##DIV.related-box
 wyborcza.pl##DIV.right-content-holder > SECTION.mod-generic:has-text(Materiały promocyjne partnera)
+wyborcza.pl##DIV.socialBar
+wyborcza.pl##SECTION.post-article
 youtube.com##DIV.ytp-pause-overlay.ytp-scroll-min
 ||adswithsalt.com^
 ||adview.pl^
@@ -61,6 +64,7 @@ youtube.com##DIV.ytp-pause-overlay.ytp-scroll-min
 ||bis.gazeta.pl/*IB.jpg$domain=gazeta.pl
 ||bis.gazeta.pl/*IB.jpg$domain=logo24.pl
 ||bis.gazeta.pl/*U.jpg$domain=magazyn-kuchnia.pl
+||bis.gazeta.pl/info/mapa2.js
 ||biv.gazeta.pl/info/mapa2.js
 ||contentlive.gazeta.pl^
 ||cookie.gazeta.pl^
@@ -101,8 +105,10 @@ youtube.com##DIV.ytp-pause-overlay.ytp-scroll-min
 ||sonar.wyborcza.pl^
 ||squid.gazeta.pl/*/gpfgo?
 ||squid.gazeta.pl/bdtrck
+||squid.gazeta.pl/bdtrck/getBdIf?$important
 ||static.gazeta.pl/*/uponit-*.min.jsgz
 ||synerise.com^
 ||uzekrs.com^
 ||vl.gazeta.pl^
+||wyborcza.pl/fix/modules/wyborcza/comments/activity.jsp
 ||wyborcza.pl/sonar
