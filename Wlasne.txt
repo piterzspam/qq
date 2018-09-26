@@ -58,68 +58,69 @@ drivetribe.com##DIV.sc-ciodno > DIV[class^="sc-"]:has-text(Tribes you might like
 @@||www.shareasale.com/r.cfm?u=*&b=*&m=*&afftrack=*&urllink=$first-party
 
 
+
 $websocket,important,domain=opensubtitles.org
 /(?!https?:\/\/.*\.static-chomikuj\.pl\/)(https?:\/\/.*\.[a-z]*\/)/$third-party,image,domain=chomikuj.pl
 /opensubtitles\.org\/[a-z]{2}\/[^.]{52}/$script
 17track.net##DIV.yq-panel-gad
 17track.net##SECTION[class^="gad-right"]
+@@||ads.videoadex.com/jw/advertisement.js
+@@||adv.wp.pl/RM/Box/c/b/prebid/config/poczta_nh.js
+@@||aliexpress.com^$generichide
 @@||aliexpress.com^$generichide
 @@||auratorrent.pl^$generichide
 @@||banggood.com$generichide
+@@||banggood.com^$generichide
+@@||cdnjs.cloudflare.com/ajax/libs/$third-party,script,domain=opensubtitles.org
 @@||chomikuj.pl^$generichide
+@@||deezer.com^$generichide
+@@||digitalmaza.org/*AdblockDetector
 @@||dobreprogramy^$generichide
 @@||docer.pl^$generichide
 @@||doci.pl^$generichide
 @@||docplayer.pl^$generichide
+@@||dot.wp.pl/dyn/logout.html?$first-party
 @@||electro-torrent.pl^$generichide
 @@||fileshark.pl$generichide
+@@||filmweb.hit.gemius.pl/xgemius.js
 @@||filmweb.pl^$generichide
 @@||freedisc.pl^$generichide
+@@||gfx.filmweb.pl/adbetween/adx.js
 @@||gomovies.to^$generichide
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js|$script
+@@||katcr.co/torrents-assets/vers/js/adv.search.js
 @@||klp.pl^$generichide
 @@||matemaks.pl^$generichide
 @@||matematyka.pisz.pl^$generichide
 @@||matematyka.pl^$generichide
 @@||matmana6.pl^$generichide
 @@||mobilism.org^$generichide
-@@||napiprojekt.pl^$generichide
-@@||opensubtitles.org^$generichide
-@@||pan.baidu.com^$generichide
-@@||pastebin.com^$generichide
-@@||sadistic.pl^$generichide
-@@||sharepirate.com^$generichide
-@@||spotify.com^$generichide
-@@||telchina.pl^$generichide
-@@||tvso.pl^$generichide
-@@||wykop.pl^$generichide
-@@||zadane.pl^$generichide
-@@||zdajmyrazem.pl^$generichide
-@@||ads.videoadex.com/jw/advertisement.js
-@@||adv.wp.pl/RM/Box/c/b/prebid/config/poczta_nh.js
-@@||aliexpress.com^$generichide
-@@||banggood.com^$generichide
-@@||cdnjs.cloudflare.com/ajax/libs/$third-party,script,domain=opensubtitles.org
-@@||deezer.com^$generichide
-@@||digitalmaza.org/*AdblockDetector
-@@||dot.wp.pl/dyn/logout.html?$first-party
-@@||filmweb.hit.gemius.pl/xgemius.js
-@@||gfx.filmweb.pl/adbetween/adx.js
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js|$script
-@@||katcr.co/torrents-assets/vers/js/adv.search.js
 @@||napiprojekt.pl/*ads.js
+@@||napiprojekt.pl^$generichide
 @@||nowapoczta.wp.pl^$domain=nowapoczta.wp.pl
+@@||opensubtitles.org^$generichide
 @@||ovh.webshark.pl/adsrv/1/main.js$domain=freedisc.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digitalmaza.org
+@@||pan.baidu.com^$generichide
+@@||pastebin.com^$generichide
 @@||pasted.co^$generichide
 @@||play.spotify.com/xhr/json/log.php
 @@||reseton.net^$generichide
+@@||sadistic.pl^$generichide
+@@||sharepirate.com^$generichide
+@@||spotify.com^$generichide
 @@||st-en.jd.com/newapp/ept/static/*/utils/cookie.js$script
 @@||static.360buyimg.com/ept/home-en/1.0.0/components/base/cookie.js
+@@||telchina.pl^$generichide
 @@||topcashback.com^$generichide
+@@||tvso.pl^$generichide
 @@||vider.info^$generichide
 @@||webshark.pl/adserver/1/main_script.js?advertise_check=1
+@@||wykop.pl^$generichide
 @@||xshare.eu/themes/flow/frontend_assets/js/advertisement.js
+@@||zadane.pl^$generichide
 @@||zapals.com^$generichide
+@@||zdajmyrazem.pl^$generichide
 aliexpress.com##DIV#j-related-products
 chomikuj.pl##DIV#plugininInstallerDiv
 chomikuj.pl##DIV#searchPromoTip
@@ -179,7 +180,15 @@ matematyka.pl##DIV#cookies-message-container
 matematyka.pl##INS.adsbygoogle
 matematyka.pl##TABLE.tablebg:if-not(B.postauthor)
 matmana6.pl##DIV.widget.c
+megaup.net##script:inject(noeval.js)
 miuipolska.pl##INS.adsbygoogle
+multiup.org##.well.success.text-center
+multiup.org##DIV.ui-pnotify
+multiup.org##DIV[aria-label="cookieconsent"]
+multiup.org##DIV[id*="ScriptRoot"]
+multiup.org##OL.breadcrumbs
+multiup.org##SECTION[class*="panel-featured"]:if(I.fa.fa-share-alt)
+multiup.org##SECTION[class*="panel-featured"]:if([href*="valemedia.net"])
 napiprojekt.pl##DIV.cc-cookies
 opensubtitles.org##A.p.a.a_1
 opensubtitles.org##A.p.a.a_2
@@ -204,12 +213,29 @@ premiumzen.com##script:inject(nano-setInterval-booster.js)
 reseton.pl###video_reklamy
 sadistic.pl##DIV.portal > ARTICLE.images[style="text-align: center; padding: 30px; min-height: 300px"]
 sascdn.com$domain=filmweb.pl
+sfd.pl##BODY[ng-app="wyszukaj"] > DIV.wallpaper-holder
+sfd.pl##DIV.cookie-info
+sfd.pl##DIV.floating-toolbox:style(position: absolute !important;)
+sfd.pl##DIV.hentry.spec-sfd
+sfd.pl##SECTION.articles-box-widget.wrapper
+sfd.pl##SECTION.page-top.sticky:style(position: absolute !important;)
 symbolab.com###tooltipster-358980
 symbolab.com##.tooltipster-box
 telchina.pl##DIV#page-header > A[href]
 tipy.interia.pl##.rekObokWstepu
 tipy.interia.pl##.rekObokWstepu
 tomaszgrebski.pl##INS.adsbygoogle
+topcashback.com##A.gecko-featuredurl-btn
+topcashback.com##DIV#comp-footer-tab
+topcashback.com##DIV#ctl00_GeckoTwoColSecondary_WhyChooseUs_WhyChooseUsContainerr
+topcashback.com##DIV#ctl00_GeckoTwoColSecondary_pnlRedHotDeal
+topcashback.com##DIV.gecko-banner-fullwidth
+topcashback.com##DIV.gecko-nav
+topcashback.com##DIV.gecko-single-container.container-tell-a-friend
+topcashback.com##FORM[action="/account/dashboard/"] DIV.gecko-secondary > DIV.gecko-single-container:first-child
+topcashback.com##FORM[action="/blog/b2s-treats-game/"] .gecko-primary
+topcashback.com##FORM[action="/home"] > DIV.gecko-main
+topcashback.com##[action="/account/overview/"] DIV.gecko-single-container.no-overflow:first-child + DIV.gecko-single-container.no-overflow:last-child
 tusfiles.net##script:inject(abort-on-property-write.js, Fingerprint2)
 tusfiles.net##script:inject(window.open-defuser.js)
 tvso.pl##BUTTON.fb-share-button
@@ -266,6 +292,7 @@ zdajmyrazem.pl##DIV[class*="adsense"]
 ||chomikuj.pl/action/LastAccounts/RecommendedAccounts?
 ||circulate.com^
 ||clickmatic.pl^$script,redirect=noopjs,important,domain=freedisc.pl
+||crazyegg.com^$domain=topcashback.com
 ||dc.banggood.com
 ||dig.ultimedia.com^
 ||digitalmaza.org/*cb.js
@@ -278,6 +305,7 @@ zdajmyrazem.pl##DIV[class*="adsense"]
 ||docplayer.pl/*report*.gif
 ||dpcdn.pl/*pattern.png
 ||duckduckgo.com/t/$image
+||dwin1.com^$domain=topcashback.com
 ||electro-torrent.pl/popup.js
 ||epn.bz/en/cashback/get-alerts/?_=
 ||epn.bz/en/cashback/get-notifications
@@ -289,6 +317,7 @@ zdajmyrazem.pl##DIV[class*="adsense"]
 ||freedisc.pl/*watermark/movies.png
 ||freedisc.pl/adserver/
 ||freestar.io^
+||game.topcashback.com^
 ||gemius.pl/gstream.js$domain=rp.pl|chomikuj.pl,important
 ||geotrust.com$domain=zapals.com
 ||gfx.filmweb.pl/adbetween/adx.js
@@ -349,6 +378,10 @@ zdajmyrazem.pl##DIV[class*="adsense"]
 ||rnuhavi.ru^
 ||s.tbcdn.cn/*fp.swf$object
 ||sendpulse.com^$domain=epn.bz
+||sfd.pl/Content/img/krzystof_piekarz.jpg
+||sfd.pl/Content/img/sylwia-emil.png
+||sfd.pl/SFD/TopImageForum/
+||sfd.pl/getscript.ashx?q=
 ||sharepirate.com/expensefunding
 ||shoppingcart.aliexpress.com/shopcart/shoppingCartPpr.do
 ||ssl.ceneo.pl/shops/rc.js?accountGuid=$third-party
@@ -357,6 +390,8 @@ zdajmyrazem.pl##DIV[class*="adsense"]
 ||static.opensubtitles.org/libs/js/ad_slideout.js?$important,domain=opensubtitles.org
 ||static.opensubtitles.org/libs/js/urlshortener.js?$important,domain=opensubtitles.org
 ||stg-data-collector.playbuzz.com^
+||topcashback.com/Ajax.asmx/
+||topcashback.com/images/affiliatehub/
 ||toplist.cz^$domain=opensubtitles.org
 ||trackitonline.org/ads.js
 ||trackitonline.org^$inline-script
@@ -382,38 +417,3 @@ zdajmyrazem.pl##DIV[class*="adsense"]
 ||zapals.com/*yt-extend.js
 ||zapals.com/*yt-script.js
 ||zopim.com^
-topcashback.com##A.gecko-featuredurl-btn
-topcashback.com##DIV.gecko-nav
-topcashback.com##DIV#ctl00_GeckoTwoColSecondary_pnlRedHotDeal
-topcashback.com##DIV#comp-footer-tab
-topcashback.com##[action="/account/overview/"] DIV.gecko-single-container.no-overflow:first-child + DIV.gecko-single-container.no-overflow:last-child
-topcashback.com##DIV#ctl00_GeckoTwoColSecondary_WhyChooseUs_WhyChooseUsContainerr
-topcashback.com##FORM[action="/account/dashboard/"] DIV.gecko-secondary > DIV.gecko-single-container:first-child
-topcashback.com##FORM[action="/blog/b2s-treats-game/"] .gecko-primary
-topcashback.com##DIV.gecko-single-container.container-tell-a-friend
-topcashback.com##FORM[action="/home"] > DIV.gecko-main
-topcashback.com##DIV.gecko-banner-fullwidth
-||game.topcashback.com^
-||topcashback.com/images/affiliatehub/
-||dwin1.com^$domain=topcashback.com
-||crazyegg.com^$domain=topcashback.com
-||topcashback.com/Ajax.asmx/
-multiup.org##.well.success.text-center
-multiup.org##DIV.ui-pnotify
-multiup.org##DIV[aria-label="cookieconsent"]
-multiup.org##SECTION[class*="panel-featured"]:if([href*="valemedia.net"])
-multiup.org##SECTION[class*="panel-featured"]:if(I.fa.fa-share-alt)
-multiup.org##DIV[id*="ScriptRoot"]
-multiup.org##OL.breadcrumbs
-megaup.net##script:inject(noeval.js)
-sfd.pl##DIV.hentry.spec-sfd
-sfd.pl##BODY[ng-app="wyszukaj"] > DIV.wallpaper-holder
-sfd.pl##SECTION.articles-box-widget.wrapper
-sfd.pl##DIV.cookie-info
-sfd.pl##SECTION.page-top.sticky:style(position: absolute !important;)
-sfd.pl##DIV.floating-toolbox:style(position: absolute !important;)
-||sfd.pl/Content/img/krzystof_piekarz.jpg
-||sfd.pl/SFD/TopImageForum/
-||sfd.pl/Content/img/sylwia-emil.png
-||sfd.pl/getscript.ashx?q=
-
