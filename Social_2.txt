@@ -15,3 +15,6 @@
 ||twitter.com^$third-party,important
 ||vk.com^$third-party,important
 ||yandex.st^$third-party,important
+||jwplatform.com^$third-party,important
+||prodxnews1blob.blob.core.windows.net^$third-party,important
+||get.x-link.pl^$third-party,important
