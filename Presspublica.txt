@@ -1,14 +1,5 @@
 !Title: Presspublica
 
-!beta.rp.pl##DIV#cookiesInfo
-!beta.rp.pl##DIV.article__btns
-!rp.pl##A.toolbar-icon[title^="udostępnij"]
-!rp.pl##A.toolbar-share
-!rp.pl##DIV#mk-paywall
-!rp.pl##DIV.popup-next
-!rp.pl##SECTION.sekcja:has-text(POLECAMY)
-!rp.pl##SECTION.video-player-container-outer:has-text(Komentarz dnia)
-!||youtube.com/*&autoplay=true$domain=rp.pl
 @@||connect.facebook.net$domain=rp.pl
 @@||facebook.com/plugins/comments.php$domain=rp.pl
 @@||facebook.com/plugins/feedback.php$domain=rp.pl
@@ -20,18 +11,24 @@ przekroj.pl##DIV.cookiess
 rp.pl##.col-sm-6.col-xs-12.article__btns
 rp.pl##BODY.bp-lg > DIV.screening-container:style(padding-top: 50px !important;)
 rp.pl##DIV#cookiesInfo
+rp.pl##DIV.article__social-btns
+rp.pl##DIV.page-footer__mk
+rp.pl##DIV.related-articles
 rp.pl##DIV.section__title--with-icon:style(margin-top: 0px !important;)
 rp.pl##DIV.section__title:has-text(REDAKCJA POLECA)
-rp.pl##DIV.teaser--ivideo
-rp.pl##SPAN.article__premium-player.hidden-xs.hidden-sm
 rp.pl##DIV.site-header__wrapper:style(position: absolute !important;)
+rp.pl##DIV.teaser--ivideo
 rp.pl##DIV.tv--medium.vouchers
+rp.pl##H1#article-title + DIV
+rp.pl##SPAN.article__premium-player
+rp.pl##SPAN.article__premium-player.hidden-xs.hidden-sm
 zw.com.pl##DIV#cookie-gm-new
 zw.com.pl##DIV#sharep
 zw.com.pl##HTML > BODY[style="margin-top: 129px; background-position: center px;"]:style(margin-top: 0px !important;):style(background-position: 0px !important;)
 ||2mdn.net^
 ||adprize.pl^
 ||bluebillywig.com^
+||cdn.rp.pl/rodo-agreement-popup/
 ||clickmatic.pl^
 ||core3.pl^
 ||deep.bi^
@@ -45,6 +42,7 @@ zw.com.pl##HTML > BODY[style="margin-top: 129px; background-position: center px;
 ||prodxnews1blob.blob.core.windows.net/cdn/js/gstreamconfig.js
 ||przekroj.pl/mod_pagespeed_beacon?url=
 ||rp.bbvms.com^
+||rp.pl##DIV.article__content > P:has-text(/Czytaj także:|Czytaj też:/)
 ||rp.pl/*sc.js
 ||rp.pl/kod-rabatowy/
 ||rp.pl/section/?template=ajax_getpushcontent
@@ -57,7 +55,3 @@ zw.com.pl##HTML > BODY[style="margin-top: 129px; background-position: center px;
 ||traq.li^
 ||youtube.com/embed/*?cc_load_policy=0&showinfo=0&color=white&enablejsapi=1&modestbranding=1&autoplay=false&mute=1&loadMore=false&origin=http%3A%2F%2Fwww.rp.pl&widgetid=1$subdocument,domain=rp.pl
 ||zw.com.pl/js/gemius.js
-rp.pl##SPAN.article__premium-player
-||cdn.rp.pl/rodo-agreement-popup/
-||rp.pl##DIV.article__content > P:has-text(/Czytaj także:|Czytaj też:/)
-
