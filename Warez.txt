@@ -56,10 +56,9 @@ monova.to##DIV#section-popular
 @@||555fff555f.net/popunder2.js
 ||555fff555f.net/googlead.js
 @@||555fff555f.net/googlead.js
-||stats.openload.co
-||adanalytics.openload.co
-||onclickpredictiv.com
-||onclickads.net
+||stats.openload.co^
+||adanalytics.openload.co^
+||onclickpredictiv.com^
 ||openload.co/assets/js/license.5.js
 !ALLUC.EE
 @@||alluc.ee$generichide
