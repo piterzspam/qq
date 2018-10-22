@@ -65,7 +65,7 @@ monova.to##DIV#section-popular
 alluc.ee##DIV.resblock.resblockx
 alluc.ee##DIV#searchmenu
 alluc.ee##DIV.ifabh
-||exoclick.com
+||exoclick.com^
 ||alluc.ee/source/pixel/*/log.html
 ||alluc.ee/combo/*.cookieconsent
 ||alluc.ee/js/ads.js
@@ -80,9 +80,9 @@ amaderforum.com##A[href*="ad2up.com"]
 ||amaderforum.com/images/Nx90xdl-button.png.pagespeed.ic.reFp3oFNTS.png
 ||amaderforum.com/mod_pagespeed_beacon?
 ||cdn.shorte.st/link-converter.min.js
-||chatango.com
-||flagcounter.com
-||translate.google.com$domain=amaderforum.com
+||chatango.com^
+||flagcounter.com^
+||translate.google.com^$domain=amaderforum.com
 !BITCQ.COM
 @@||BITCQ.COM^$generichide
 !BITNOVA.INFO
@@ -299,7 +299,6 @@ kickass.cd##DIV.tabs:if(A[href^="/search/"] > SPAN)
 ||dashgreen.online
 ||itempana.site
 ||onclasrv.com
-||onclickads.net
 ||pub2srv.com
 ||stirshakead.com
 ||verymuchad.com
