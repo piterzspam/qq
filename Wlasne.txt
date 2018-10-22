@@ -88,7 +88,6 @@ $websocket,important,domain=opensubtitles.org
 @@||atshops1.ru/0d2qw/src.js
 @@||auratorrent.pl^$generichide
 @@||awaqa.com^$generichide
-@@||banggood.com$generichide
 @@||banggood.com^$generichide
 @@||cdnjs.cloudflare.com/ajax/libs/$third-party,script,domain=opensubtitles.org
 @@||chomikuj.pl^$generichide
@@ -105,7 +104,6 @@ $websocket,important,domain=opensubtitles.org
 @@||fileshark.pl$generichide
 @@||filmweb.hit.gemius.pl/xgemius.js
 @@||filmweb.pl^$generichide
-@@||freedisc.pl^$generichide
 @@||gfx.filmweb.pl/adbetween/adx.js
 @@||gfx.filmweb.pl/gf/t.gif
 @@||gomovies.to^$generichide
@@ -141,7 +139,6 @@ $websocket,important,domain=opensubtitles.org
 @@||topcashback.com^$generichide
 @@||track.bcvc.mobi/earn.php^$popup
 @@||tvso.pl^$generichide
-@@||vider.info^$generichide
 @@||webshark.pl/adserver/1/main_script.js?advertise_check=1
 @@||wyborcza.pl/aliasy/adp/px.js?ch=
 @@||wykop.pl^$generichide
