@@ -27,7 +27,6 @@
 @@||filesupload.org^$generichide
 @@||flashx.tv^$generichide
 @@||freedisc.pl^$generichide
-@@||freedisc.pl^$generichide
 @@||gamovideo.com^$generichide
 @@||gorillavid.in^$generichide
 @@||hitfile.net^$generichide
@@ -73,7 +72,6 @@
 @@||uptobox.com^$generichide
 @@||userscloud.com^$generichide
 @@||videowood.tv^$generichide
-@@||vider.info^$generichide
 @@||vider.info^$generichide
 @@||vidfile.net^$generichide
 @@||vidlox.tv^$generichide
