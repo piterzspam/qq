@@ -1,4 +1,11 @@
 !Title: Wlasne
+!#if env_firefox
+!#if env_mobile
+google.*#@##main > div[data-hveid]
+!#endif
+!#endif
+...
+!#endif
 !Nie sortować
 !https://drivetribe.com/p/reviewed-being-nice-FOQY7K70Tl64BNtLtuNFHw?iid=Z0jN-9bARgyD5omLkZrDhg
 drivetribe.com##ARTICLE > DIV > DIV > DIV > DIV[class^="sc"]:has-text(More from Drivetribe)
