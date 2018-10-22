@@ -74,7 +74,6 @@ dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkop
 dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##UL#narzedzia
 get.x-link.pl##A.vjs-click-through-button[target="_blank"]
 gratka.pl##DIV.cookieContainer
-||core3.pl^
 ||ctnsnet.com^
 ||d24rtvkqjwgutp.cloudfront.net^
 ||daib.pl^
