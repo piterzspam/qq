@@ -102,7 +102,6 @@ youtube.com##DIV.ytp-pause-overlay.ytp-scroll-min
 ||revsci.net^
 ||s.g.pl^
 ||snrcdn.net^
-||sonar.wyborcza.pl^
 ||squid.gazeta.pl/*/gpfgo?
 ||squid.gazeta.pl/bdtrck
 ||squid.gazeta.pl/bdtrck/getBdIf?$important
