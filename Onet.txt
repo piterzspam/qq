@@ -1,4 +1,5 @@
-!Title: Onet.pl
+! Title: Onet.pl
+! Expires: 1 day
 .pl/_cdf/client.js|$script,first-party
 /(auto-swiat|businessinsider\.com|fakt|forbes|komputerswiat|newsweek|noizz|onet|przegladsportowy|skapiec)\.pl\/([0-9a-zA-Z]|_){43}/$image,script,xmlhttprequest,first-party
 @@||connect.facebook.net/*/sdk.js$domain=businessinsider.com.pl
