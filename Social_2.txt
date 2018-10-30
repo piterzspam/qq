@@ -1,4 +1,5 @@
-!Title: Social_2
+! Title: Social_2
+! Expires: 1 day
 
 ||facebook.com^$third-party,important
 ||facebook.net^$third-party,domain=~facebook.com,important
