@@ -1,4 +1,5 @@
-!Title: Wiadomosci
+! Title: Wiadomosci
+! Expires: 1 day
 
 @@||msn.com^$generichide
 msn.com##DIV#conditionalbanner
