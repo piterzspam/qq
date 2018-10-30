@@ -1,5 +1,5 @@
-!Title: Wszystkie
-!Expires: 1 day
+! Title: Wszystkie
+! Expires: 1 day
 !
 !#if ext_ublock
 !#include Agora_2.txt
