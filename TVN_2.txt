@@ -1,4 +1,6 @@
-!Title: TVN_2
+! Title: TVN_2
+! Expires: 1 day
+
 ||imasdk.googleapis.com/js/sdkloader/ima*.js$domain=tvn.pl|tvn24.pl|tvn24bis.pl|vod.pl|player.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima*.js$domain=tvn.pl|tvn24.pl|tvn24bis.pl|vod.pl|player.pl
 ||player.pl/ads.js
