@@ -1,4 +1,5 @@
-!Title: Mieszkania
+! Title: Mieszkania
+! Expires: 1 day
 
 @@||domiporta.pl/Resources/Scripts/CheckAdBloker?
 @@||domiporta.pl/Resources/Scripts/advertisement.js
