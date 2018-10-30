@@ -1,4 +1,5 @@
-!Title: Bauer_2
+! Title: Bauer_2
+! Expires: 1 day
 !@@||w.iplsc.com/*/inpl.copy/
 !||js.iplsc.com/inpl.weather-widget/
 !||prodxnews1blob.blob.core.windows.net/*/gstreamconfig.js
