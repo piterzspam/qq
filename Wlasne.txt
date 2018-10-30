@@ -1,4 +1,6 @@
-!Title: Wlasne
+! Title: Wlasne
+! Expires: 1 day
+
 !#if env_firefox
 !#if env_mobile
 google.*#@##main > div[data-hveid]
