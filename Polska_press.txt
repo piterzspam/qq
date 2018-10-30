@@ -1,4 +1,5 @@
-!Title: Polska_press
+! Title: Polska_press
+! Expires: 1 day
 .*/ajax/ksiegarnia/$first-party
 @@||dziennikpolski24.pl^$generichide
 @@||echodnia.eu^$generichide
