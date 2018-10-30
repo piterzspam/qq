@@ -1,4 +1,5 @@
-!Title: Hostingi_2
+! Title: Hostingi_2
+! Expires: 1 day
 
 !GENERICHIDE
 @@||1fichier.com^$generichide
