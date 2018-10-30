@@ -1,4 +1,5 @@
-!Title: Presspublica
+! Title: Presspublica
+! Expires: 1 day
 
 @@||connect.facebook.net$domain=rp.pl
 @@||facebook.com/plugins/comments.php$domain=rp.pl
