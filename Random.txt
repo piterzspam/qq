@@ -1,5 +1,6 @@
 ! Title: Random
 ! Expires: 1 day
+
 !https://pastelink.net/randomy
 /https?:\/\/[a-z]{8}\.com\/req\/[0-9]{1,4}/$script,third-party
 /ws:\/\/[a-z]{8}\.[a-z]+\/[A-Za-z]{4}/$websocket,third-party
