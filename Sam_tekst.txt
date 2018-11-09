@@ -1,6 +1,16 @@
 ! Title: Sam_tekst
 ! Expires: 1 days
 
+||instagram.com^$third-party
+||facebook.com^$third-party
+||googletagmanager.com^
+||platform.twitter.com/widgets.js
+@@||fonts.googleapis.com/css$third-party,badfilter
+@@||sascdn.com/diff/video/$script,badfilter
+@@||sascdn.com/video/$script,badfilter
+@@||platform.twitter.com/widgets/widget_iframe.$subdocument,badfilter
+||gemius.pl^
+
 ||wp.pl^$inline-script
 ||wp.pl^$script,domain=wp.pl
 ||v.wpimg.pl/MjU4MTQwJAN6e2JhZw95X3pdYyMhWT0GelViPX4EOQ16RCYyfhUqRCVaKg==
@@ -72,8 +82,27 @@ fakt.pl##DIV.footNavCont
 ||rmf.fm^$script,domain=rmf24.pl
 ||fonts.googleapis.com^$domain=rmf24.pl
 
+@@||wpolityce.pl^$generichide
 ||wpolityce.pl^$inline-script
-||wpolityce.pl^$script,domain=wpolityce.pl
+||exs.pl^$important
+||wpolityce.pl^$fonts,script,first-party
+wpolityce.pl##DIV.article-social
+wpolityce.pl##DIV#related-publications
+wpolityce.pl##HEADER.nu-page-header:style(position: absolute !important;)
+!wpolityce.pl##DIV.intext-links > P:if(STRONG:first-child:last-child:has-text(/CZYTAJ RÓWNIEŻ:|CZYTAJ WIĘCEJ:/))
+wpolityce.pl##P:has-text(/CZYTAJ RÓWNIEŻ:|CZYTAJ WIĘCEJ:/):if(A[href*="wpolityce.pl"])
+wpolityce.pl##DIV.intext-links > P:if(A[href]:first-child:last-child)
+wpolityce.pl##FOOTER.page-footer-col
+||wpolityce.pl/img/$image
+pl#@#.ad
+||wpolityce.pl/snippy/5aea4b05fd9ee2c04b1b299bf05c53a4.css$stylesheet
+wpolityce.pl##DIV.adunit
+wpolityce.pl##DIV#komentarze
+wpolityce.pl##DIV.js-related-publications-container
+
+
+
+
 
 ||wsieciprawdy.pl^$inline-script
 ||wsieciprawdy.pl^$script,domain=wpolityce.pl
@@ -114,10 +143,35 @@ tvn24.pl##ARTICLE.mb20 > FIGURE[class]:has-text(ideo: tvn24)
 tvn24.pl##A.playlistLink
 tvn24.pl##SECTION.relatedReports
 
+
+@@||tvp.info^$generichide
 ||tvp.info^$inline-script
-||s.tvp.pl^$script,domain=tvp.info
+||s.tvp.pl^$font,script,domain=tvp.info
+||h-cdn.com^$script,domain=tvp.info
 ||fonts.googleapis.com^$domain=tvp.info
 ||polityka-prywatnosci.tvp.pl^
+||google.com/recaptcha/$domain=tvp.info,important
+||tvp.info/gemius/$important
+||tvp.info/pub/sess/$image
+||s.tvp.pl/images2/*/uid_*width_1373*height_779.$image
+||s.tvp.pl/images2/*/uid_*width_190*height_107.$image
+tvp.info##DIV.am-article__image
+tvp.info##DIV.facebook-paragraph
+||s.v3.tvp.pl/repository/images/b/4/c/b4cfcf4c54a0d0dd8c0da2170e36abfc1396336942301.jpg
+tvp.info##SECTION.art-detial-two-box
+tvp.info##SECTION.social-article
+tvp.info##SECTION.art-detial-three-box
+tvp.info##FOOTER.footer
+tvp.info##NAV.nav__content:style(position: absolute !important;)
+tvp.info##DIV.nav__loup-wrapper
+tvp.info##DIV.nav__icon
+
+
+
+
+
+
+
 
 ||niezalezna.pl^$inline-script
 ||fonts.googleapis.com^$domain=niezalezna.pl
@@ -209,13 +263,6 @@ se.pl##DIV.mobile-box > DIV.menu-content
 ||telewizjarepublika.pl/js/live.js?$script,domain=telewizjarepublika.pl
 ||ajax.googleapis.com/ajax/libs/jquery/$domain=telewizjarepublika.pl
 
-||wiadomosci.gazeta.pl^$inline-script
-||im-g.pl^$script,domain=wiadomosci.gazeta.pl
-||gazeta.pl^$script,domain=wiadomosci.gazeta.pl
-||gazeta.tv^$domain=wiadomosci.gazeta.pl
-||bis.gazeta.pl/info/bluewhale/$script,domain=wiadomosci.gazeta.pl
-||bi.gazeta.pl/im/*Y.jpg|$image,domain=wiadomosci.gazeta.pl
-||bi.gazeta.pl/im/*D,*.jpg|$image,domain=wiadomosci.gazeta.pl
 
 ||s-pt.ppstatic.pl^$script,third-party
 @@||s-pt.ppstatic.pl/*/jquery.$script,third-party
@@ -297,10 +344,8 @@ pikio.pl##DIV.td-author-description
 ||wprost.pl/_thumb/$image
 
 wyborcza.pl##NAV#wyborczaHat:style(position: absolute !important;)
-wpolityce.pl##HEADER.nu-page-header:style(position: absolute !important;)
 onet.pl##HEADER#pageHeader:style(position: absolute !important;)
 gazeta.pl##NAV.hpFeed:style(position: absolute !important;)
-pl##BODY > DIV.zafixowanaGora > DIV#pasek-regionalny-plus:style(position: absolute !important;)
 interia.pl##DIV.portal-bar:style(position: absolute !important;)
 niezalezna.pl##DIV.headerMin:style(position: absolute !important;)
 tvn24.pl##DIV.headerTop:style(position: absolute !important;)
@@ -449,12 +494,65 @@ polsatnews.pl##DIV#series:last-child
 @@||gazeta.pl^$generichide
 ||gazeta.pl^$inline-script
 ||rodo.agora.pl^
+||squid.gazeta.pl^
 ||apis.google.com^$domain=gazeta.pl
 ||gazeta.tv^$third-party
-||bis.gazeta.pl/info/bluewhale/2.5.0/main-min.jsgz
-||static.im-g.pl/static/epo/style/deploy/dev/Buzz/00/050/top-
-||static.im-g.pl/static/epo/style/deploy/dev/Buzz/00/050/style-
-@@||static.im-g.pl/static/epo/style/deploy/dev/Buzz/00/050/style-
-||static.im-g.pl/static/epo/style/deploy/dev/Buzz/00/050/main-
-@@||static.im-g.pl/static/epo/style/deploy/dev/Buzz/00/050/main-
-||bi.gazeta.pl/im/*z24*II.jpg
+||bis.gazeta.pl/*/bluewhale/
+||im-g.pl^$script,domain=gazeta.pl
+||gazeta.pl^$script,domain=gazeta.pl
+||gazeta.tv^$domain=gazeta.pl
+||cdn.ampproject.org^
+gazeta.pl##AMP-CONSENT#consent-element
+gazeta.pl##HTML[amp] DIV.index
+gazeta.pl##HTML[amp] AMP-SIDEBAR#mainSidebar
+gazeta.pl##HTML[amp] DIV.latest_feed
+gazeta.pl##HTML[amp] DIV.breadcrumbs
+gazeta.pl##HTML[amp] DIV.banner
+gazeta.pl##HTML[amp] DIV.box_seo
+gazeta.pl##HTML[amp] DIV#main-menu-button
+gazeta.pl##HTML[amp] DIV.button > A[href$="html#opinions"]
+gazeta.pl##HTML[amp] DIV.gallery
+||bi.gazeta.pl^$image
+||bi.im-g.pl^$image
+||static.im-g.pl^$font
+gazeta.pl##SECTION.related_quiz
+gazeta.pl##SECTION.related_articles
+gazeta.pl##ARTICLE#opinions
+gazeta.pl##DIV.related_images
+gazeta.pl##DIV.news_box
+gazeta.pl##DIV.socialBar.horizontal
+gazeta.pl##DIV.box_seo
+gazeta.pl##DIV.gridWrap > UL.c1
+
+@@||nczas.com^$generichide
+||nczas.com^$inline-script
+||fonts.googleapis.com^$domain=nczas.com
+||nczas.com^$script
+||nczas.com/wp-content/plugins/$stylesheet
+||nczas.com/wp-content/$image
+nczas.com##DIV.td-header-sp-top-widget
+nczas.com##DIV.td-post-featured-image
+nczas.com##DIV.td-main-sidebar
+nczas.com##ARTICLE > FOOTER:last-child
+nczas.com##DIV.td_block_related_posts
+nczas.com##DIV#comments
+nczas.com##DIV.td-footer-wrapper
+nczas.com##DIV.td-main-content:style(width: 100% !important;)
+
+@@||natemat.pl^$generichide
+||natemat.pl^$inline-script
+||natemat.pl/cmp/portal.html
+||onaudience.com^
+||chartbeat.com^
+||plista.com^
+||mediawayss.com^
+||s.natemat.pl^$script
+||s.natemat.pl/gfx/grey.gif$image
+
+
+
+
+
+
+
+!
