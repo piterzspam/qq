@@ -1,446 +1,124 @@
 ! Title: Sam_tekst
 ! Expires: 1 days
 
-||instagram.com^$third-party
-||facebook.com^$third-party
-||googletagmanager.com^
-||platform.twitter.com/widgets.js
 @@||fonts.googleapis.com/css$third-party,badfilter
+@@||img.dorzeczy.pl/dorzeczy/_i/button-125x40-app-store.png$badfilter
+@@||img.dorzeczy.pl/dorzeczy/_i/button-125x40-google-play.png$badfilter
+@@||platform.twitter.com/widgets/widget_iframe.$subdocument,badfilter
 @@||sascdn.com/diff/video/$script,badfilter
 @@||sascdn.com/video/$script,badfilter
-@@||platform.twitter.com/widgets/widget_iframe.$subdocument,badfilter
+||facebook.com^$third-party
 ||gemius.pl^
+||googletagmanager.com^
+||instagram.com^$third-party
+||platform.twitter.com/widgets.js
 
-||wp.pl^$inline-script
-||wp.pl^$script,domain=wp.pl
-||v.wpimg.pl/MjU4MTQwJAN6e2JhZw95X3pdYyMhWT0GelViPX4EOQ16RCYyfhUqRCVaKg==
-||v.wpimg.pl/MjgyNTYyJANINmFhbwF5X0gQYCMpVz0GSBhhPXYKOQ1ICSUydhsqRBcXKQ==
-||v.wpimg.pl/NDk2MzU1Jy1EfWJPY0l6cURbYw0lHz4oRFNiE3pCOiNEQiYcelMpahtcKg==
-wp.pl##ARTICLE.article > DIV + DIV[data-st-area="article-header"] + DIV > H1.article--title + DIV.article--lead + DIV[class][data-reactid]
-wp.pl##DIV.content:last-child > DIV:first-child:last-child > DIV:first-child:last-child > DIV:first-child + DIV[class][data-reactid]:last-child
-wp.pl##ARTICLE.article > DIV[class][data-reactid]:has-text(Polub WP)
-wp.pl##ARTICLE.article > DIV + DIV > H1.article--title + DIV[class][data-reactid]
-wp.pl##ARTICLE.article + A#comments
-wp.pl##DIV.content > DIV:first-child:last-child > DIV:first-child + DIV[class][data-reactid]
-
-||onet.pl^$inline-script
-||onet.pl^$script,domain=onet.pl
-
-||fakt.pl^$inline-script
-||ocdn.eu/ucs/static/*/images/ajax-loader.gif$image
-||ocdn.eu/ucs/static/*/images/ajax-loader-space.gif$image
-||ocdn.eu/ucs/static/*/images/sprite3.png$image
-||ocdn.eu/ucs/static/*/images/sprite4.png$image
-||ocdn.eu/ucs/static/*/fakt_img_mobile/fakt_sprite.png$image
-||ocdn.eu/ucs/static/*/fakt_img_mobile/footLine.jpg$image
-||ocdn.eu/ucs/static/*/images/fb-messenger.png$image
-!ocdn.eu/pulscms-transforms/1/cM_ktkqTURBXy8wYTY0Nzk1ZTFmNmU2NDdlN2JiNGNhMmQ3N2M4ODUzYy5qcGVnkZMFzOzMhQ
-||ocdn.eu/pulscms-transforms/1/*5qcGeRkwXM7MyF$image
-||ocdn.eu/pulscms-transforms/1/*5qcGVnkZMFzOzMhQ$image
-||fakt.pl/_cdf/client.js
-fakt.pl##DIV.goPhotos
-fakt.pl##UL.shareWidget
-fakt.pl##DIV#twoAdsBlock
-fakt.pl##DIV.dl-gallery-items-group
-fakt.pl##DIV.fbComments
-fakt.pl##DIV.articleBody > DIV.embeddedApp + P.hyphenate
-fakt.pl##DIV.articleBody > DIV.embeddedApp + P.hyphenate + P.hyphenate:last-child
-fakt.pl##DIV.fb_content_share
-fakt.pl##DIV#contentBody > DIV.fb_content_share + DIV.socialBtnBg
-fakt.pl##DIV.onet-ad
-fakt.pl##FIGURE.dl-gallery-item
-fakt.pl##P.justify_center:first-child
-fakt.pl##DIV#widgets_extra2
-fakt.pl##DIV#widget_sg-search-form
-fakt.pl##DIV.footNavCont
-
-
-
-
-
-@@||interia.pl^$generichide
-||interia.pl^$inline-script
-||interia.pl^$script,domain=interia.pl
-||iplsc.com^$font,script,domain=interia.pl
-||prywatnosc.interia.pl^
-||interia.pl/s/report-$stylesheet,domain=interia.pl
-||interia.pl/s/print-$stylesheet,domain=interia.pl
-||js.iplsc.com/inpl.forum4/$stylesheet,domain=interia.pl
-
-@@||rmf24.pl^$generichide
-||rmf24.pl^$inline-script
-||zencdn.net^$domain=rmf24.pl
-||contentstream.pl^$domain=rmf24.pl
-||rmf24.pl^$script,domain=rmf24.pl
-||iplsc.com^$script,domain=rmf24.pl
-||rmf24.pl^$script,domain=rmf24.pl
-||rmf24.pl^$stylesheet,domain=rmf24.pl
-@@||rmf24.pl/s/classic/css$stylesheet,domain=rmf24.pl
-@@||rmf24.pl/s/layout-
-||rmf24.pl/s/classic/ajax-loader.gif|
-||rmf.fm/inc/outer/newsletter/
-||rmf.fm^$script,domain=rmf24.pl
-||fonts.googleapis.com^$domain=rmf24.pl
-
-@@||wpolityce.pl^$generichide
-||wpolityce.pl^$inline-script
-||exs.pl^$important
-||wpolityce.pl^$fonts,script,first-party
-wpolityce.pl##DIV.article-social
-wpolityce.pl##DIV#related-publications
-wpolityce.pl##HEADER.nu-page-header:style(position: absolute !important;)
-!wpolityce.pl##DIV.intext-links > P:if(STRONG:first-child:last-child:has-text(/CZYTAJ RÓWNIEŻ:|CZYTAJ WIĘCEJ:/))
-wpolityce.pl##P:has-text(/CZYTAJ RÓWNIEŻ:|CZYTAJ WIĘCEJ:/):if(A[href*="wpolityce.pl"])
-wpolityce.pl##DIV.intext-links > P:if(A[href]:first-child:last-child)
-wpolityce.pl##FOOTER.page-footer-col
-||wpolityce.pl/img/$image
-pl#@#.ad
-||wpolityce.pl/snippy/5aea4b05fd9ee2c04b1b299bf05c53a4.css$stylesheet
-wpolityce.pl##DIV.adunit
-wpolityce.pl##DIV#komentarze
-wpolityce.pl##DIV.js-related-publications-container
-
-
-
-
-
-||wsieciprawdy.pl^$inline-script
-||wsieciprawdy.pl^$script,domain=wpolityce.pl
-||wsieciprawdy.pl/jvs/cookiepolicy.js
-||wsieciprawdy.pl/jvs/rd-popup
-
-||tvn24.pl^$inline-script
-||fonts.googleapis.com^$domain=tvn24.pl
-||targeo.pl^$domain=tvn24.pl
-@@||s.tvn.pl/adometeo.js$script,badfilter
-||cdntvn.pl^$script,domain=tvn24.pl
-||tvn.pl^$script,domain=tvn24.pl
-||s1-player5.cdntvn.pl^$stylesheet,domain=tvn24.pl
-!||s3-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
-||s4-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
-||s6-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
-||s7-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
-||dcs.redcdn.pl/scale/o2/tvn/web-content/m/
-||tvn24.pl/stats.js$script
-||tvn24.pl/_pix/$image
-||cdntvn.pl/img/new-share.png$image
-||cdntvn.pl/img/copy-link.png$image
-||cdntvn.pl/img/forum_icon_google.png$image
-||cdntvn.pl/img/pinterest_logo_16.png$image
-||cdntvn.pl/img/sprite_main_v10.png$image
-||cdntvn.pl/img/RSS.gif$image
-||r-http-00.dcs.redcdn.pl/http/o2/tvn/web-content/m/orig/p1/i/1d72310edc006dadf2190caad5802983/821b9122-a4f9-11e1-b076-0025b511229e.jpg$image
-tvn24.pl##ASIDE.mainRightColumn
-!tvn24.pl##UL.shareContainerList
-tvn24.pl##SECTION#innerArticle
-tvn24.pl##DIV[class^="shareContainer"]
-tvn24.pl##DIV.bgHeaderMain
-tvn24.pl##SECTION#forum
-tvn24.pl##ASIDE.innerArticleModule
-||tvn24.pl/img/lazy/lazy_1_7.png$image
-||cdntvn.pl/img/btn_gallery_$image
-tvn24.pl##ARTICLE.mb20 > FIGURE[class]:has-text(ideo: tvn24)
-tvn24.pl##A.playlistLink
-tvn24.pl##SECTION.relatedReports
-
-
-@@||tvp.info^$generichide
-||tvp.info^$inline-script
-||s.tvp.pl^$font,script,domain=tvp.info
-||h-cdn.com^$script,domain=tvp.info
-||fonts.googleapis.com^$domain=tvp.info
-||polityka-prywatnosci.tvp.pl^
-||google.com/recaptcha/$domain=tvp.info,important
-||tvp.info/gemius/$important
-||tvp.info/pub/sess/$image
-||s.tvp.pl/images2/*/uid_*width_1373*height_779.$image
-||s.tvp.pl/images2/*/uid_*width_190*height_107.$image
-tvp.info##DIV.am-article__image
-tvp.info##DIV.facebook-paragraph
-||s.v3.tvp.pl/repository/images/b/4/c/b4cfcf4c54a0d0dd8c0da2170e36abfc1396336942301.jpg
-tvp.info##SECTION.art-detial-two-box
-tvp.info##SECTION.social-article
-tvp.info##SECTION.art-detial-three-box
-tvp.info##FOOTER.footer
-tvp.info##NAV.nav__content:style(position: absolute !important;)
-tvp.info##DIV.nav__loup-wrapper
-tvp.info##DIV.nav__icon
-
-
-
-
-
-
-
-
-||niezalezna.pl^$inline-script
-||fonts.googleapis.com^$domain=niezalezna.pl
-||niezalezna.pl^$script,domain=niezalezna.pl
-||panel.stream1.pl^
-
-||ocdn.eu/ucs/static/*/build/vertical-gal.css^$stylesheet,domain=fakt.pl
-||onet.pl^$domain=fakt.pl
-||pulsembed.eu^$domain=fakt.pl
-||ocdn.eu^$script
-@@||ocdn.eu/paas-static/template-engine/
-@@||ocdn.eu/ucs/static/*/build/main.js
-||ocdn.eu/*/jquery.js$important
-||ocdn.eu/paas-static/template-engine/*/build/pulsembed.js$important
-
-!@@||se.pl^$generichide
-||se.pl^$inline-script
-||fonts.googleapis.com^$domain=se.pl
-||ajax.googleapis.com^$domain=se.pl
-||towideo.pl^$domain=se.pl
-||sascdn.com^$script,domain=se.pl
-||common.smcloud.net^$script,domain=se.pl
-||se.pl/media/desktop/$script,domain=se.pl
-||se.pl/media/desktop/css/quizzes_$stylesheet
-||se.pl/media/desktop/zpr_videos_$stylesheet
-||se.pl/media/desktop/zpr_footer/$stylesheet
-||cdn.galleries.smcloud.net/t/galleries/gf-*-320x213.$image,domain=se.pl
-||cdn.galleries.smcloud.net/t/galleries/gf-*-320x400-nocrop.$image,domain=se.pl
-||cdn.galleries.smcloud.net/t/galleries/gf-*-86x58.$image,domain=se.pl
-||se.pl/media/desktop/zpr_footer/images/logo-grupazpr.png$image
-!se.pl##DIV.col.col-4
-se.pl##DIV.col.col-4 > DIV.aside
-se.pl##DIV.recommended-content
-se.pl##DIV.main-content > DIV.gl_plugin.listing
-se.pl##DIV.gl_plugin.footer
-se.pl##DIV.mobile-box > DIV.menu-content
-||se.pl/media/desktop/zpr_layouts_web/css/framework_desktop.css$stylesheet
-@@||se.pl/media/desktop/zpr_layouts_web/css/framework_desktop.css$stylesheet
-||se.pl/media/desktop/zpr_headers_web/css/template_header.css$stylesheet
-@@||se.pl/media/desktop/zpr_headers_web/css/template_header.css$stylesheet
-||se.pl/media/desktop/zpr_menus_web/css/template_menu.css$stylesheet
-@@||se.pl/media/desktop/zpr_menus_web/css/template_menu.css$stylesheet
-||se.pl/media/desktop/css/template_article.css$stylesheet
-@@||se.pl/media/desktop/css/template_article.css$stylesheet
-||se.pl/media/desktop/zpr_layouts_web/css/stylebook.css$stylesheet
-||se.pl/media/desktop/zpr_layouts_web/css/font-awesome.css$stylesheet
-||se.pl/media/desktop/zpr_listings_web/css/template_listing.css$stylesheet
-||se.pl/media/desktop/zpr_galleries_web/css/template_galeria_lead.css$stylesheet
-||se.pl/media/desktop/zpr_teasers_web/css/template_teaser.css$stylesheet
-||se.pl/media/desktop/zpr_seo_web/css/template_seo_text.css$stylesheet
-||se.pl/media/desktop/zpr_lives_web/css/template_live.css$stylesheet
-||se.pl/media/desktop/zpr_tags_web/css/template_tags.css$stylesheet
-||se.pl/media/desktop/zpr_ratings_web/css/template_ratings.css$stylesheet
-||se.pl/media/desktop/zpr_adults_web/css/template_layer.css$stylesheet
-||se.pl/media/se/desktop/css/styleguide_se.css$stylesheet
-||se.pl/media/se/desktop/css/styleguide_se_wiadomosci.css$stylesheet
-||se.pl/media/mobile/zpr_layouts_web/css/framework_mobile.css$stylesheet
-@@||se.pl/media/mobile/zpr_layouts_web/css/framework_mobile.css$stylesheet
-||se.pl/media/mobile/zpr_layouts_web/css/font-awesome.css$stylesheet
-||se.pl/media/mobile/zpr_headers_web/css/template_header.css$stylesheet
-||se.pl/media/mobile/zpr_menus_web/css/template_menu.css$stylesheet
-@@||se.pl/media/mobile/zpr_menus_web/css/template_menu.css$stylesheet
-||se.pl/media/mobile/css/template_article.css$stylesheet
-||se.pl/media/mobile/zpr_listings_web/css/template_listing.css$stylesheet
-||se.pl/media/mobile/zpr_footer/css/template_footer.css$stylesheet
-@@||se.pl/media/mobile/zpr_footer/css/template_footer.css$stylesheet
-||se.pl/media/mobile/zpr_teasers_web/css/template_teaser.css$stylesheet
-||se.pl/media/mobile/zpr_seo_web/css/template_seo_text.css$stylesheet
-||se.pl/media/mobile/zpr_lives_web/css/template_live.css$stylesheet
-||se.pl/media/mobile/zpr_tags_web/css/template_tags.css$stylesheet
-||se.pl/media/mobile/zpr_ratings_web/css/template_ratings.css$stylesheet
-||se.pl/media/se/mobile/css/styleguide_se.css$stylesheet
-||se.pl/media/se/mobile/css/styleguide_se_wiadomosci.css$stylesheet
-||se.pl/media/mobile/zpr_layouts_web/js/stylebook.js$script
-||se.pl/media/mobile/zpr_seo_web/js/seo.js$script
-||se.pl/media/mobile/zpr_galleries_web/js/gallery.js$script
-||se.pl/media/mobile/js/article_ads_inserter.js$script
-
-
-
-
-||telewizjarepublika.pl^$inline-script
-||adsplayer.pl^$domain=telewizjarepublika.pl
-||player.ecdn.jint.pro^$domain=telewizjarepublika.pl
-||telewizjarepublika.pl/ajax/$domain=telewizjarepublika.pl
-||telewizjarepublika.pl/images/banners/$domain=telewizjarepublika.pl
-||telewizjarepublika.pl/plugins/plyr/plyr.js$domain=telewizjarepublika.pl
-||fonts.googleapis.com^$domain=telewizjarepublika.pl
-||telewizjarepublika.pl/js/live.js?$script,domain=telewizjarepublika.pl
-||ajax.googleapis.com/ajax/libs/jquery/$domain=telewizjarepublika.pl
-
-
-||s-pt.ppstatic.pl^$script,third-party
 @@||s-pt.ppstatic.pl/*/jquery.$script,third-party
-||s-pt.ppstatic.pl/p/js/rwd/jquery.$script,third-party
-||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js$script,third-party
-||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js$script,third-party
-||s-pt.ppstatic.pl/lib/adblockdetect/$script,third-party
-||fonts.googleapis.com^$domain=polskatimes.pl
-||infogram.com^$third-party
-||s-pt.ppstatic.pl/p/css/serwisy/motofakty_lokalne.css
-||s-pt.ppstatic.pl/p/css/rwd/slick.css$stylesheet
-||s-pt.ppstatic.pl/p/css/nanoScroller.css$stylesheet
-||d-pt.ppstatic.pl/kadry/*,size,380x238,*.jpg$image,third-party
-||d-pt.ppstatic.pl/kadry/*,size,969x565,*.jpg|$image,third-party
 ||d-mf.ppstatic.pl/art/*.310.jpg|$image,third-party
 ||d-pt.ppstatic.pl/k/r/1/*_o.jpg|$image,third-party
-||d-pt.ppstatic.pl/kadry/k/r/1/*_o,size,445x270$image,third-party
+||d-pt.ppstatic.pl/kadry/*,size,380x238,*.jpg$image,third-party
+||d-pt.ppstatic.pl/kadry/*,size,969x565,*.jpg|$image,third-party
 ||d-pt.ppstatic.pl/kadry/k/r/1/*_o,size,110x95,q,71,h,*.jpg$image,third-party
+||d-pt.ppstatic.pl/kadry/k/r/1/*_o,size,445x270$image,third-party
+||fonts.googleapis.com^$domain=polskatimes.pl
+||infogram.com^$third-party
 ||polskatimes.pl/*/undefined/o/js/cgr/track.js?
 ||s-pt.ppstatic.pl/g/regionalne/ikony/
 ||s-pt.ppstatic.pl/g/regionalne/tlo_wideo_artykul.png
+||s-pt.ppstatic.pl/lib/adblockdetect/$script,third-party
+||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js$script,third-party
+||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js$script,third-party
+||s-pt.ppstatic.pl/p/css/nanoScroller.css$stylesheet
+||s-pt.ppstatic.pl/p/css/rwd/slick.css$stylesheet
+||s-pt.ppstatic.pl/p/css/serwisy/motofakty_lokalne.css
+||s-pt.ppstatic.pl/p/js/rwd/jquery.$script,third-party
+||s-pt.ppstatic.pl^$script,third-party
 
-
-||pikio.pl^$inline-script
-||fonts.googleapis.com^$domain=pikio.pl
-||onesignal.com^
-||s-onetag.com^
-||pikio.pl/wp-content/plugins/$script,stylesheet
-||pikio.pl/wp-content/themes/$script
-||pikio.pl/wp-content/themes/PikioB/webcrafters/gallery.css$stylesheet
-||pikio.pl/wp-includes/js/jquery/$script
-||pikio.pl/wp-includes/js/comment-reply.min.js$script
-||pikio.pl/wp-content/uploads/2018/02/logopikio.png$image
-||pikio.pl/wp-content/uploads/*300x194.$image
-pikio.pl##DIV.td_block_wrap
-pikio.pl##A.gallery-widget
-pikio.pl##DIV.td-post-content > P:has-text(DALSZA CZĘŚĆ TEKSTU POD GALERIĄ)
-pikio.pl##DIV.td-post-content > OL
-pikio.pl##DIV.code-block.code-block-10
-pikio.pl##DIV.td-post-content:first-child > P:has-text(ZOBACZ TAKŻE:)
-pikio.pl##DIV.author-box-wrap > A[href]:first-child
-pikio.pl##DIV#cookie-law-info-bar
-pikio.pl##DIV.td-footer-container
-pikio.pl##DIV.td-author-description
-
-||antyweb.pl^$inline-script
-||antyweb.push-ad.com^
-||praca.antyweb.pl^$xmlhttprequest
-||antyweb.pl/wp-json/counter/$xmlhttprequest
-||antyweb.pl/wp-admin/admin-ajax.php?postviews_id=$xmlhttprequest
-||antyweb.pl/wp-content/plugins/wp-postviews$xmlhttprequest
+@@||antyweb.pl^$generichide
+@@||antyweb.pl/wp-content/themes/antyweb.autentika/js/main.js
 ||antyweb.pl/*/?ajax=true|$xmlhttprequest
-||fonts.googleapis.com^$domain=antyweb.pl
-||cdnjs.cloudflare.com^$domain=antyweb.pl
+||antyweb.pl/wp-admin/admin-ajax.php?postviews_id=$xmlhttprequest
 ||antyweb.pl/wp-content/plugins/$script,stylesheet
-||antyweb.pl/wp-content/themes/antyweb.autentika/style_fix.css
+||antyweb.pl/wp-content/plugins/wp-postviews$xmlhttprequest
 ||antyweb.pl/wp-content/themes/antyweb.autentika/css/offers.css$stylesheet
 ||antyweb.pl/wp-content/themes/antyweb.autentika/css/style.css$stylesheet
-||antyweb.pl/wp-content/themes/antyweb.autentika/js/isotope.pkgd.min.js$script
-||antyweb.pl/wp-content/themes/antyweb.autentika/js/topSidebar.js$script
 ||antyweb.pl/wp-content/themes/antyweb.autentika/js/carousel.js$script
-||antyweb.pl/wp-content/themes/antyweb.autentika/js/newsletter.js$script
-@@||antyweb.pl/wp-content/themes/antyweb.autentika/js/main.js
+||antyweb.pl/wp-content/themes/antyweb.autentika/js/isotope.pkgd.min.js$script
 ||antyweb.pl/wp-content/themes/antyweb.autentika/js/main.js$badfilter
+||antyweb.pl/wp-content/themes/antyweb.autentika/js/newsletter.js$script
+||antyweb.pl/wp-content/themes/antyweb.autentika/js/topSidebar.js$script
+||antyweb.pl/wp-content/themes/antyweb.autentika/style_fix.css
 ||antyweb.pl/wp-includes/js/wp-embed.min.js
+||antyweb.pl/wp-json/counter/$xmlhttprequest
+||antyweb.pl^$inline-script
+||antyweb.push-ad.com^
+||cdnjs.cloudflare.com^$domain=antyweb.pl
+||fonts.googleapis.com^$domain=antyweb.pl
+||praca.antyweb.pl^$xmlhttprequest
 
-||dziennikwschodni.pl^$inline-script
-||fonts.googleapis.com^$domain=dziennikwschodni.pl
-||dziennikwschodni.pl/css/^$stylesheet
-||dziennikwschodni.pl/css/fonts/$stylesheet
-||dziennikwschodni.pl/js/frameworks/$script,stylesheet
-
-||wprost.pl^$inline-script
-||wprost.pl/_static/print-$stylesheet
-||wprost.pl/_static/many-files-$script
-||wprost.pl/service-worker-wprost.js|$script
-||img.wprost.pl/_i/icon-30-a-soc-$image
-||img.wprost.pl/_i/icon-30-c-share.png|$image
-||wprost.pl/_thumb/$image
-
-wyborcza.pl##NAV#wyborczaHat:style(position: absolute !important;)
-onet.pl##HEADER#pageHeader:style(position: absolute !important;)
-gazeta.pl##NAV.hpFeed:style(position: absolute !important;)
-interia.pl##DIV.portal-bar:style(position: absolute !important;)
-niezalezna.pl##DIV.headerMin:style(position: absolute !important;)
-tvn24.pl##DIV.headerTop:style(position: absolute !important;)
+@@||bankier.pl^$generichide
 bankier.pl##DIV#pageHeaderBottom:style(position: absolute !important;)
-se.pl##HEADER.show:style(position: absolute !important;)
-se.pl##DIV.mobile-box:style(position: absolute !important;)
-polsatnews.pl##HEADER#header:style(position: absolute !important;)
-
+||bankier.pl/gfx/ad2/
+||bankier.pl/static/js/cf.js
+||bankier.pl/static/js/cookiepolicy.js$script
+||bankier.pl/static/js/nb2.js
+||bankier.pl/static/js/rtb-smart.js
 ||bankier.pl^$inline-script
 ||consensu.org^
 ||onnetwork.tv^$domain=bankier.pl
-||bankier.pl/static/js/cookiepolicy.js$script
-||bankier.pl/static/js/rtb-smart.js
-||bankier.pl/gfx/ad2/
-||bankier.pl/static/js/cf.js
-||bankier.pl/static/js/nb2.js
 
-@@||acdn.adnxs.com/ast/ast.js$domain=msn.com,badfilter
-@@||cdn.taboola.com/libtrc^$domain=msn.com,badfilter
-||login.live.com/login.srf?$subdocument,domain=msn.com
-||msn.com/*/secure/silentpassport?$subdocument,domain=msn.com
-||msn.com^$other,domain=msn.com
-||sdad.guru^$xmlhttprequest,domain=msn.com
-||msn.com/*/oneriverajaxpage?$xmlhttprequest,domain=msn.com
-||msn.com/*/wiadomosci/oneriverajax?
-||msn.com/*/news/npsajax?
-||msn.com/*/news/dsajax?
-msn.com##DIV.aaiyvru:style(position: static !important;)
-msn.com##DIV.head:style(position: static !important;)
-msn.com##MAIN#main > DIV.paddle.loaded
-msn.com##DIV#smartbanner
-msn.com##SECTION.morefromcategory
-msn.com##SECTION.morefromproviderrr
-msn.com##+js(abort-current-inline-script.js, define, requestPageRevealCallback)
-
-||radiozet.pl^$inline-script
-||meetrics.net^
-||lp4.io^
-||imasdk.googleapis.com^$domain=radiozet.pl
-||gemius.pl^$domain=radiozet.pl
-||google.com/recaptcha/api.js$domain=radiozet.pl
-||cloudflare.com^$domain=radiozet.pl
-||redcdn.pl^$domain=radiozet.pl
-||fonts.googleapis.com^$domain=radiozet.pl
-||jquery.com^$domain=radiozet.pl
-||voicer.eurozet.pl^$domain=radiozet.pl
-||radiozet.pl/*/jquery-1.11.1.min.js$script
-||radiozet.pl/*/notifi.min.js$script
-||radiozet.pl/*/require.js$script
-||radiozet.pl/*/stats.js$script
-||radiozet.pl/var/radiozet-sport/cache/public/javascript/$script
-||radiozet.pl/var/radiozet-wiadomosci/cache/public/javascript/$script
-||radiozet.pl/externals/xml/pogoda/data.json$xmlhttprequest,domain=radiozet.pl
-||google.com/recaptcha/$domain=radiozet.pl,important
-||imasdk.googleapis.com^$domain=radiozet.pl,important
-radiozet.pl##DIV#player-header
-||radiozet.pl^$font
-||radiozet.pl/extension/radiozet/design/standard/images/banner-radiostacja/$image
-||radiozet.pl/extension/radiozet/design/standard/images/layout/logo-zet-red.svg$image
-||radiozet.pl/var/radiozet/cache/public/javascript/$script
-||gfx.radiozet.pl/var/radiozet/cache/public/stylesheets/df265030d9541bcf43ddbf106410f94e_all.css$stylesheet
-radiozet.pl##DIV.voicer-content
-
-
-
+@@||dorzeczy.pl^$generichide
+dorzeczy.pl##ASIDE.adv-aside
+dorzeczy.pl##ASIDE.right-column
+dorzeczy.pl##DIV#art-text-inner > P:if(SPAN.relation-ph)
+dorzeczy.pl##DIV#share-buttons
+dorzeczy.pl##DIV.art-text-relation
+dorzeczy.pl##DIV.left-column:style(width: 100% !important;)
+dorzeczy.pl##DIV.soc-buttons
+dorzeczy.pl##DIV.wrapper > SPAN[id$="-button"]
+dorzeczy.pl##DIV[class^="share-"]
+dorzeczy.pl##FIGURE.art-image
+dorzeczy.pl##FIGURE.art-image.art-image-hdopt-0
+dorzeczy.pl##FOOTER#footer
+dorzeczy.pl##SECTION.bottom-section
+dorzeczy.pl##SECTION.comments
+||criteo.net^
+||dorzeczy.pl/_i/$image
+||dorzeczy.pl/_js/jquery/$image,script
+||dorzeczy.pl/_rodo/$script,stylesheet
+||dorzeczy.pl/_static/html5-$script
+||dorzeczy.pl/_thumb/$image
+||dorzeczy.pl^$inline-script
+||dorzeczy.pl^$xmlhttprequest
+||embed.wprost.pl^$domain=dorzeczy.pl
+||fonts.gstatic.com^$domain=dorzeczy.pl,important
+||google.com/jsapi$script,domain=dorzeczy.pl,important
+||google.com/recaptcha/$script,domain=dorzeczy.pl,important
+||img.dorzeczy.pl/_i/icon-$image
+||img.dorzeczy.pl/dorzeczy/_i/icon-$image
+||jint.pro^
+||optad360.io^
+||salesmanago.pl^
 
 @@||dziennik.pl^$generichide
-forsal.pl##+js(set-constant.js, canRunAds, true)
-||zgody.infor.pl^
+@@||forsal.pl^$generichide
 dziennik.pl##DIV#miejsce9
-dziennik.pl##DIV.headCleanOverflowContainer
 dziennik.pl##DIV.articleContentStreamContainer
-dziennik.pl##FIGURE.articleReadMore
-dziennik.pl##DIV.widget-psav-share-box
-dziennik.pl##DIV.place501and502
-dziennik.pl##DIV.tpl_dgp_comment
 dziennik.pl##DIV.gggallery-slider-icons
+dziennik.pl##DIV.headCleanOverflowContainer
+dziennik.pl##DIV.place501and502
 dziennik.pl##DIV.socialIco
-||gazetaprawna.pl/dziennik/assets/images/*-icon.png$image
-||gazetaprawna.pl/dziennik/assets/images/serwis-rozrywka.png$image
-||gazetaprawna.pl/dziennik/assets/images/modul_first_logo_dziennik.png$image
-||gazetaprawna.pl/dziennik/assets/images/widget_graphic_elements.png$image
-||gazetaprawna.pl/dziennik/assets/images/social-$image
-||gazetaprawna.pl/dziennik/assets/fonts/$font
-||gazetaprawna.pl/dziennik/assets/images/bx_loader.gif$image
-||dziennik.pl/pliki/*-315-180.jpg$image
-||dziennik.pl/pliki/*-397-231.jpg$image
-||gazetaprawna.pl/*/require.js$script
+dziennik.pl##DIV.tpl_dgp_comment
+dziennik.pl##DIV.widget-psav-share-box
+dziennik.pl##FIGURE.articleReadMore
+forsal.pl##+js(set-constant.js, canRunAds, true)
 ||bootstrapcdn.com^$domain=dziennik.pl
 ||bootstrapcdn.com^$domain=forsal.pl
-||fonts.googleapis.com^$domain=forsal.pl
-||redcdn.pl^$domain=forsal.pl
-||youtube.com^$domain=forsal.pl
 ||dziennik.pl/ajax/stats?$image
+||dziennik.pl/pliki/*-315-180.jpg$image
+||dziennik.pl/pliki/*-397-231.jpg$image
 ||dziennik.pl^$inline-script
+||fonts.googleapis.com^$domain=forsal.pl
 ||forsal.pl/artykuly/main.js$script
 ||forsal.pl/js/adverts.js$script
 ||forsal.pl/main.js$script
@@ -452,105 +130,496 @@ dziennik.pl##DIV.socialIco
 ||gazetaprawna.pl/*/pixel.gif$image
 ||gazetaprawna.pl/*/print.css$stylesheet
 ||gazetaprawna.pl/*/prod_perly-samorzadu-$stylesheet
+||gazetaprawna.pl/*/require.js$script
 ||gazetaprawna.pl/*/socialimg.png$image
 ||gazetaprawna.pl/*/stats?$image
+||gazetaprawna.pl/dziennik/assets/fonts/$font
+||gazetaprawna.pl/dziennik/assets/images/*-icon.png$image
+||gazetaprawna.pl/dziennik/assets/images/bx_loader.gif$image
+||gazetaprawna.pl/dziennik/assets/images/modul_first_logo_dziennik.png$image
+||gazetaprawna.pl/dziennik/assets/images/serwis-rozrywka.png$image
+||gazetaprawna.pl/dziennik/assets/images/social-$image
+||gazetaprawna.pl/dziennik/assets/images/widget_graphic_elements.png$image
 ||gazetaprawna.pl/notoria-widgets-$script,stylesheet
 ||gazetaprawna.pl/notowania/$script,stylesheet
+||redcdn.pl^$domain=forsal.pl
+||youtube.com^$domain=forsal.pl
+||zgody.infor.pl^
 
-@@||money.pl^$generichide
-||money.pl^$inline-script
-||cloudflare.com^$domain=money.pl
-||direct.money.pl^
-||wpcdn.pl^$script,domain=money.pl
-||money.pl/service-worker.js$script
-||money.pl/static/runtime-cache.js$script
+@@||dziennikwschodni.pl^$generichide
+||dziennikwschodni.pl/css/^$stylesheet
+||dziennikwschodni.pl/css/fonts/$stylesheet
+||dziennikwschodni.pl/js/frameworks/$script,stylesheet
+||dziennikwschodni.pl^$inline-script
+||fonts.googleapis.com^$domain=dziennikwschodni.pl
 
-@@||polsatnews.pl^$generichide
-||stat24.com^
-||polsatnews.pl^$inline-script
-||gemius.pl^$domain=polsatnews.pl
-||redirector.redefine.pl^$domain=polsatnews.pl
-||fonts.googleapis.com^$domain=polsatnews.pl
-||polsatnews.pl/*/videoPlayer.css$stylesheet
-||polsatnews.pl/*/gfx/share/$image
-||polsatnews.pl/*/vendors$script
-||polsatnews.pl/*/AppTarget$script
-||pluscdn.pl^$domain=polsatnews.pl
-||polsatnews.pl/templates/pnews2018/build/css/
-@@||polsatnews.pl/templates/pnews2018/build/css/
-||polsatnews.pl/templates/pnews2018/build/js/
-||polsatnews.pl/templates/pnews2018/build/gfx/more.5bb82.svg$image
-||polsatnews.pl/templates/pnews2018/build/gfx/app/$image
-polsatnews.pl##DIV.platform
-polsatnews.pl##DIV.news__related
-polsatnews.pl##NAV.news__share
-polsatnews.pl##DIV.news__description > P:has-text(WIDEO -)
-polsatnews.pl##P:if(VIDEO.videoPlayer)
-polsatnews.pl##DIV.news__comments
-polsatnews.pl##DIV#see_also
-polsatnews.pl##DIV.app-ad
-polsatnews.pl##DIV#series:last-child
+@@||fakt.pl^$generichide
+@@||ocdn.eu/paas-static/template-engine/
+@@||ocdn.eu/ucs/static/*/build/main.js
+fakt.pl##DIV#contentBody > DIV.fb_content_share + DIV.socialBtnBg
+fakt.pl##DIV#twoAdsBlock
+fakt.pl##DIV#widget_sg-search-form
+fakt.pl##DIV#widgets_extra2
+fakt.pl##DIV.articleBody > DIV.embeddedApp + P.hyphenate
+fakt.pl##DIV.articleBody > DIV.embeddedApp + P.hyphenate + P.hyphenate:last-child
+fakt.pl##DIV.dl-gallery-items-group
+fakt.pl##DIV.fbComments
+fakt.pl##DIV.fb_content_share
+fakt.pl##DIV.footNavCont
+fakt.pl##DIV.goPhotos
+fakt.pl##DIV.onet-ad
+fakt.pl##FIGURE.dl-gallery-item
+fakt.pl##P.justify_center:first-child
+fakt.pl##UL.shareWidget
+||fakt.pl/_cdf/client.js
+||fakt.pl^$inline-script
+||ocdn.eu/*/jquery.js$important
+||ocdn.eu/paas-static/template-engine/*/build/pulsembed.js$important
+||ocdn.eu/pulscms-transforms/1/*5qcGVnkZMFzOzMhQ$image
+||ocdn.eu/pulscms-transforms/1/*5qcGeRkwXM7MyF$image
+||ocdn.eu/ucs/static/*/build/vertical-gal.css^$stylesheet,domain=fakt.pl
+||ocdn.eu/ucs/static/*/fakt_img_mobile/fakt_sprite.png$image
+||ocdn.eu/ucs/static/*/fakt_img_mobile/footLine.jpg$image
+||ocdn.eu/ucs/static/*/images/ajax-loader-space.gif$image
+||ocdn.eu/ucs/static/*/images/ajax-loader.gif$image
+||ocdn.eu/ucs/static/*/images/fb-messenger.png$image
+||ocdn.eu/ucs/static/*/images/sprite3.png$image
+||ocdn.eu/ucs/static/*/images/sprite4.png$image
+||ocdn.eu^$script
+||onet.pl^$domain=fakt.pl
+||pulsembed.eu^$domain=fakt.pl
 
 @@||gazeta.pl^$generichide
-||gazeta.pl^$inline-script
-||rodo.agora.pl^
-||squid.gazeta.pl^
-||apis.google.com^$domain=gazeta.pl
-||gazeta.tv^$third-party
-||bis.gazeta.pl/*/bluewhale/
-||im-g.pl^$script,domain=gazeta.pl
-||gazeta.pl^$script,domain=gazeta.pl
-||gazeta.tv^$domain=gazeta.pl
-||cdn.ampproject.org^
 gazeta.pl##AMP-CONSENT#consent-element
-gazeta.pl##HTML[amp] DIV.index
-gazeta.pl##HTML[amp] AMP-SIDEBAR#mainSidebar
-gazeta.pl##HTML[amp] DIV.latest_feed
-gazeta.pl##HTML[amp] DIV.breadcrumbs
-gazeta.pl##HTML[amp] DIV.banner
-gazeta.pl##HTML[amp] DIV.box_seo
-gazeta.pl##HTML[amp] DIV#main-menu-button
-gazeta.pl##HTML[amp] DIV.button > A[href$="html#opinions"]
-gazeta.pl##HTML[amp] DIV.gallery
-||bi.gazeta.pl^$image
-||bi.im-g.pl^$image
-||static.im-g.pl^$font
-gazeta.pl##SECTION.related_quiz
-gazeta.pl##SECTION.related_articles
 gazeta.pl##ARTICLE#opinions
-gazeta.pl##DIV.related_images
-gazeta.pl##DIV.news_box
-gazeta.pl##DIV.socialBar.horizontal
 gazeta.pl##DIV.box_seo
 gazeta.pl##DIV.gridWrap > UL.c1
+gazeta.pl##DIV.news_box
+gazeta.pl##DIV.related_images
+gazeta.pl##DIV.socialBar.horizontal
+gazeta.pl##HTML[amp] AMP-SIDEBAR#mainSidebar
+gazeta.pl##HTML[amp] DIV#main-menu-button
+gazeta.pl##HTML[amp] DIV.banner
+gazeta.pl##HTML[amp] DIV.box_seo
+gazeta.pl##HTML[amp] DIV.breadcrumbs
+gazeta.pl##HTML[amp] DIV.button > A[href$="html#opinions"]
+gazeta.pl##HTML[amp] DIV.gallery
+gazeta.pl##HTML[amp] DIV.index
+gazeta.pl##HTML[amp] DIV.latest_feed
+gazeta.pl##NAV.hpFeed:style(position: absolute !important;)
+gazeta.pl##SECTION.related_articles
+gazeta.pl##SECTION.related_quiz
+||apis.google.com^$domain=gazeta.pl
+||bi.gazeta.pl^$image
+||bi.im-g.pl^$image
+||bis.gazeta.pl/*/bluewhale/
+||cdn.ampproject.org^
+||gazeta.pl^$inline-script
+||gazeta.pl^$script,domain=gazeta.pl
+||gazeta.tv^$domain=gazeta.pl
+||gazeta.tv^$third-party
+||im-g.pl^$script,domain=gazeta.pl
+||rodo.agora.pl^
+||squid.gazeta.pl^
+||static.im-g.pl^$font
+
+@@||interia.pl^$generichide
+interia.pl##DIV.portal-bar:style(position: absolute !important;)
+||interia.pl/s/print-$stylesheet,domain=interia.pl
+||interia.pl/s/report-$stylesheet,domain=interia.pl
+||interia.pl^$inline-script
+||interia.pl^$script,domain=interia.pl
+||iplsc.com^$font,script,domain=interia.pl
+||js.iplsc.com/inpl.forum4/$stylesheet,domain=interia.pl
+||prywatnosc.interia.pl^
+
+@@||money.pl^$generichide
+||cloudflare.com^$domain=money.pl
+||direct.money.pl^
+||money.pl/service-worker.js$script
+||money.pl/static/runtime-cache.js$script
+||money.pl^$inline-script
+||wpcdn.pl^$script,domain=money.pl
+
+@@||acdn.adnxs.com/ast/ast.js$domain=msn.com,badfilter
+@@||cdn.taboola.com/libtrc^$domain=msn.com,badfilter
+@@||msn.com^$generichide
+msn.com##+js(abort-current-inline-script.js, define, requestPageRevealCallback)
+msn.com##DIV#smartbanner
+msn.com##DIV.aaiyvru:style(position: static !important;)
+msn.com##DIV.head:style(position: static !important;)
+msn.com##MAIN#main > DIV.paddle.loaded
+msn.com##SECTION.morefromcategory
+msn.com##SECTION.morefromproviderrr
+||login.live.com/login.srf?$subdocument,domain=msn.com
+||msn.com/*/news/dsajax?
+||msn.com/*/news/npsajax?
+||msn.com/*/oneriverajaxpage?$xmlhttprequest,domain=msn.com
+||msn.com/*/secure/silentpassport?$subdocument,domain=msn.com
+||msn.com/*/wiadomosci/oneriverajax?
+||msn.com^$inline-script
+||msn.com^$other,domain=msn.com
+||sdad.guru^$xmlhttprequest,domain=msn.com
+
+@@||mobile.natemat.pl^$inline-script
+@@||natemat.pl^$generichide
+mobile.natemat.pl##+js(abort-on-property-read.js, APP_FORCE_RWD)
+mobile.natemat.pl##DIV#footer
+mobile.natemat.pl##DIV.css-1ovum16
+mobile.natemat.pl##DIV.css-1su3dke
+mobile.natemat.pl##DIV.css-ipndsu
+mobile.natemat.pl##DIV.css-ta1wq2
+mobile.natemat.pl##MAIN > NAV:first-child > DIV.css-14lydsa:first-child:last-child:style(position: absolute !important;)
+natemat.pl##.article-comments
+natemat.pl##DIV.art__body__instagram-container
+natemat.pl##DIV.art__header__photo:last-child
+natemat.pl##DIV.art__related
+natemat.pl##DIV.art__wizard-html
+natemat.pl##DIV.header__box__social
+natemat.pl##SECTION.art__social-footer__container
+natemat.pl##SECTION.footer__block
+||cdn.natemat.pl/*,102,102,1,0.jpg$image
+||cdn.natemat.pl/*,50,50,1,0.jpg$image
+||cdn.natemat.pl/*,780,0,0,0.jpg$image,domain=mobile.natemat.pl
+||cdn.natemat.pl/4feb8a594168bb772aea058148587e6a,205,1000,0,0.jpg
+||chartbeat.com^
+||fonts.googleapis.com^$domain=natemat.pl,important
+||mediawayss.com^
+||mobile.natemat.pl/pwa-category/$xmlhttprequest
+||mobile.natemat.pl/static/media/comment$image
+||mobile.natemat.pl/static/media/facebook$image
+||mobile.natemat.pl/sw.js$script
+||mobile.natemat.pl/vendor/Hyphenator.js$script
+||natemat.pl/cmp/portal.html
+||natemat.pl^$inline-script
+||onaudience.com^
+||plista.com^
+||s.natemat.pl/css-v2/font-cooperhewitt.css$stylesheet
+||s.natemat.pl/css/fonts-quixo.css$stylesheet
+||s.natemat.pl/fonts/$font
+||s.natemat.pl/gfx/*/fb.png$image
+||s.natemat.pl/gfx/grey.gif$image
+||s.natemat.pl/gfx/natemat/logo_white.svg$image
+||s.natemat.pl/gfx/v2/close_icon_gray.png$image
+||s.natemat.pl/gfx/v2/header-footer/*social$image
+||s.natemat.pl/gfx/v2/header-footer/footer-photo$image
+||s.natemat.pl/gfx/v2/instagram.png$image
+||s.natemat.pl/set/natemat.screens.css$stylesheet
+||s.natemat.pl^$script
 
 @@||nczas.com^$generichide
-||nczas.com^$inline-script
-||fonts.googleapis.com^$domain=nczas.com
-||nczas.com^$script
-||nczas.com/wp-content/plugins/$stylesheet
-||nczas.com/wp-content/$image
-nczas.com##DIV.td-header-sp-top-widget
-nczas.com##DIV.td-post-featured-image
-nczas.com##DIV.td-main-sidebar
 nczas.com##ARTICLE > FOOTER:last-child
-nczas.com##DIV.td_block_related_posts
 nczas.com##DIV#comments
 nczas.com##DIV.td-footer-wrapper
+nczas.com##DIV.td-header-sp-top-widget
 nczas.com##DIV.td-main-content:style(width: 100% !important;)
+nczas.com##DIV.td-main-sidebar
+nczas.com##DIV.td-post-featured-image
+nczas.com##DIV.td_block_related_posts
+||fonts.googleapis.com^$domain=nczas.com
+||nczas.com/wp-content/$image
+||nczas.com/wp-content/plugins/$stylesheet
+||nczas.com^$inline-script
+||nczas.com^$script
 
-@@||natemat.pl^$generichide
-||natemat.pl^$inline-script
-||natemat.pl/cmp/portal.html
-||onaudience.com^
-||chartbeat.com^
-||plista.com^
-||mediawayss.com^
-||s.natemat.pl^$script
-||s.natemat.pl/gfx/grey.gif$image
+@@||niezalezna.pl^$generichide
+niezalezna.pl##DIV.headerMin:style(position: absolute !important;)
+||fonts.googleapis.com^$domain=niezalezna.pl
+||niezalezna.pl^$inline-script
+||niezalezna.pl^$script,domain=niezalezna.pl
+||panel.stream1.pl^
 
+@@||onet.pl^$generichide
+onet.pl##HEADER#pageHeader:style(position: absolute !important;)
+||onet.pl^$inline-script
+||onet.pl^$script,domain=onet.pl
 
+@@||pikio.pl^$generichide
+pikio.pl##A.gallery-widget
+pikio.pl##DIV#cookie-law-info-bar
+pikio.pl##DIV.author-box-wrap > A[href]:first-child
+pikio.pl##DIV.code-block.code-block-10
+pikio.pl##DIV.td-author-description
+pikio.pl##DIV.td-footer-container
+pikio.pl##DIV.td-post-content > OL
+pikio.pl##DIV.td-post-content > P:has-text(DALSZA CZĘŚĆ TEKSTU POD GALERIĄ)
+pikio.pl##DIV.td-post-content:first-child > P:has-text(ZOBACZ TAKŻE:)
+pikio.pl##DIV.td_block_wrap
+||fonts.googleapis.com^$domain=pikio.pl
+||onesignal.com^
+||pikio.pl/wp-content/plugins/$script,stylesheet
+||pikio.pl/wp-content/themes/$script
+||pikio.pl/wp-content/themes/PikioB/webcrafters/gallery.css$stylesheet
+||pikio.pl/wp-content/uploads/*300x194.$image
+||pikio.pl/wp-content/uploads/2018/02/logopikio.png$image
+||pikio.pl/wp-includes/js/comment-reply.min.js$script
+||pikio.pl/wp-includes/js/jquery/$script
+||pikio.pl^$inline-script
+||s-onetag.com^
 
+@@||polsatnews.pl/templates/pnews2018/build/css/
+@@||polsatnews.pl^$generichide
+polsatnews.pl##DIV#see_also
+polsatnews.pl##DIV#series:last-child
+polsatnews.pl##DIV.app-ad
+polsatnews.pl##DIV.news__comments
+polsatnews.pl##DIV.news__description > P:has-text(WIDEO -)
+polsatnews.pl##DIV.news__related
+polsatnews.pl##DIV.platform
+polsatnews.pl##HEADER#header:style(position: absolute !important;)
+polsatnews.pl##NAV.news__share
+polsatnews.pl##P:if(VIDEO.videoPlayer)
+||fonts.googleapis.com^$domain=polsatnews.pl
+||gemius.pl^$domain=polsatnews.pl
+||pluscdn.pl^$domain=polsatnews.pl
+||polsatnews.pl/*/AppTarget$script
+||polsatnews.pl/*/gfx/share/$image
+||polsatnews.pl/*/vendors$script
+||polsatnews.pl/*/videoPlayer.css$stylesheet
+||polsatnews.pl/templates/pnews2018/build/css/
+||polsatnews.pl/templates/pnews2018/build/gfx/app/$image
+||polsatnews.pl/templates/pnews2018/build/gfx/more.5bb82.svg$image
+||polsatnews.pl/templates/pnews2018/build/js/
+||polsatnews.pl^$inline-script
+||redirector.redefine.pl^$domain=polsatnews.pl
+||stat24.com^
+
+@@||radiozet.pl^$generichide
+radiozet.pl##DIV#player-header
+radiozet.pl##DIV.voicer-content
+||cloudflare.com^$domain=radiozet.pl
+||fonts.googleapis.com^$domain=radiozet.pl
+||gemius.pl^$domain=radiozet.pl
+||gfx.radiozet.pl/var/radiozet/cache/public/stylesheets/df265030d9541bcf43ddbf106410f94e_all.css$stylesheet
+||google.com/recaptcha/$domain=radiozet.pl,important
+||google.com/recaptcha/api.js$domain=radiozet.pl
+||imasdk.googleapis.com^$domain=radiozet.pl
+||imasdk.googleapis.com^$domain=radiozet.pl,important
+||jquery.com^$domain=radiozet.pl
+||lp4.io^
+||meetrics.net^
+||radiozet.pl/*/jquery-1.11.1.min.js$script
+||radiozet.pl/*/notifi.min.js$script
+||radiozet.pl/*/require.js$script
+||radiozet.pl/*/stats.js$script
+||radiozet.pl/extension/radiozet/design/standard/images/banner-radiostacja/$image
+||radiozet.pl/extension/radiozet/design/standard/images/layout/logo-zet-red.svg$image
+||radiozet.pl/externals/xml/pogoda/data.json$xmlhttprequest,domain=radiozet.pl
+||radiozet.pl/var/radiozet-sport/cache/public/javascript/$script
+||radiozet.pl/var/radiozet-wiadomosci/cache/public/javascript/$script
+||radiozet.pl/var/radiozet/cache/public/javascript/$script
+||radiozet.pl^$font
+||radiozet.pl^$inline-script
+||redcdn.pl^$domain=radiozet.pl
+||voicer.eurozet.pl^$domain=radiozet.pl
+
+@@||rmf24.pl/s/classic/css$stylesheet,domain=rmf24.pl
+@@||rmf24.pl/s/layout-
+@@||rmf24.pl^$generichide
+||contentstream.pl^$domain=rmf24.pl
+||fonts.googleapis.com^$domain=rmf24.pl
+||iplsc.com^$script,domain=rmf24.pl
+||rmf.fm/inc/outer/newsletter/
+||rmf.fm^$script,domain=rmf24.pl
+||rmf24.pl/s/classic/ajax-loader.gif|
+||rmf24.pl^$inline-script
+||rmf24.pl^$script,domain=rmf24.pl
+||rmf24.pl^$stylesheet,domain=rmf24.pl
+||zencdn.net^$domain=rmf24.pl
+
+@@||se.pl/media/desktop/css/template_article.css$stylesheet
+@@||se.pl/media/desktop/zpr_headers_web/css/template_header.css$stylesheet
+@@||se.pl/media/desktop/zpr_layouts_web/css/framework_desktop.css$stylesheet
+@@||se.pl/media/desktop/zpr_menus_web/css/template_menu.css$stylesheet
+@@||se.pl/media/mobile/zpr_footer/css/template_footer.css$stylesheet
+@@||se.pl/media/mobile/zpr_layouts_web/css/framework_mobile.css$stylesheet
+@@||se.pl/media/mobile/zpr_menus_web/css/template_menu.css$stylesheet
+@@||se.pl^$generichide
+se.pl##DIV.col.col-4 > DIV.aside
+se.pl##DIV.gl_plugin.footer
+se.pl##DIV.main-content > DIV.gl_plugin.listing
+se.pl##DIV.mobile-box > DIV.menu-content
+se.pl##DIV.mobile-box:style(position: absolute !important;)
+se.pl##DIV.recommended-content
+se.pl##HEADER.show:style(position: absolute !important;)
+||ajax.googleapis.com^$domain=se.pl
+||cdn.galleries.smcloud.net/t/galleries/gf-*-320x213.$image,domain=se.pl
+||cdn.galleries.smcloud.net/t/galleries/gf-*-320x400-nocrop.$image,domain=se.pl
+||cdn.galleries.smcloud.net/t/galleries/gf-*-86x58.$image,domain=se.pl
+||common.smcloud.net^$script,domain=se.pl
+||fonts.googleapis.com^$domain=se.pl
+||sascdn.com^$script,domain=se.pl
+||se.pl/media/desktop/$script,domain=se.pl
+||se.pl/media/desktop/css/quizzes_$stylesheet
+||se.pl/media/desktop/css/template_article.css$stylesheet
+||se.pl/media/desktop/zpr_adults_web/css/template_layer.css$stylesheet
+||se.pl/media/desktop/zpr_footer/$stylesheet
+||se.pl/media/desktop/zpr_footer/images/logo-grupazpr.png$image
+||se.pl/media/desktop/zpr_galleries_web/css/template_galeria_lead.css$stylesheet
+||se.pl/media/desktop/zpr_headers_web/css/template_header.css$stylesheet
+||se.pl/media/desktop/zpr_layouts_web/css/font-awesome.css$stylesheet
+||se.pl/media/desktop/zpr_layouts_web/css/framework_desktop.css$stylesheet
+||se.pl/media/desktop/zpr_layouts_web/css/stylebook.css$stylesheet
+||se.pl/media/desktop/zpr_listings_web/css/template_listing.css$stylesheet
+||se.pl/media/desktop/zpr_lives_web/css/template_live.css$stylesheet
+||se.pl/media/desktop/zpr_menus_web/css/template_menu.css$stylesheet
+||se.pl/media/desktop/zpr_ratings_web/css/template_ratings.css$stylesheet
+||se.pl/media/desktop/zpr_seo_web/css/template_seo_text.css$stylesheet
+||se.pl/media/desktop/zpr_tags_web/css/template_tags.css$stylesheet
+||se.pl/media/desktop/zpr_teasers_web/css/template_teaser.css$stylesheet
+||se.pl/media/desktop/zpr_videos_$stylesheet
+||se.pl/media/mobile/css/template_article.css$stylesheet
+||se.pl/media/mobile/js/article_ads_inserter.js$script
+||se.pl/media/mobile/zpr_footer/css/template_footer.css$stylesheet
+||se.pl/media/mobile/zpr_galleries_web/js/gallery.js$script
+||se.pl/media/mobile/zpr_headers_web/css/template_header.css$stylesheet
+||se.pl/media/mobile/zpr_layouts_web/css/font-awesome.css$stylesheet
+||se.pl/media/mobile/zpr_layouts_web/css/framework_mobile.css$stylesheet
+||se.pl/media/mobile/zpr_layouts_web/js/stylebook.js$script
+||se.pl/media/mobile/zpr_listings_web/css/template_listing.css$stylesheet
+||se.pl/media/mobile/zpr_lives_web/css/template_live.css$stylesheet
+||se.pl/media/mobile/zpr_menus_web/css/template_menu.css$stylesheet
+||se.pl/media/mobile/zpr_ratings_web/css/template_ratings.css$stylesheet
+||se.pl/media/mobile/zpr_seo_web/css/template_seo_text.css$stylesheet
+||se.pl/media/mobile/zpr_seo_web/js/seo.js$script
+||se.pl/media/mobile/zpr_tags_web/css/template_tags.css$stylesheet
+||se.pl/media/mobile/zpr_teasers_web/css/template_teaser.css$stylesheet
+||se.pl/media/se/desktop/css/styleguide_se.css$stylesheet
+||se.pl/media/se/desktop/css/styleguide_se_wiadomosci.css$stylesheet
+||se.pl/media/se/mobile/css/styleguide_se.css$stylesheet
+||se.pl/media/se/mobile/css/styleguide_se_wiadomosci.css$stylesheet
+||se.pl^$inline-script
+||towideo.pl^$domain=se.pl
+
+@@||telewizjarepublika.pl^$generichide
+||adsplayer.pl^$domain=telewizjarepublika.pl
+||ajax.googleapis.com/ajax/libs/jquery/$domain=telewizjarepublika.pl
+||fonts.googleapis.com^$domain=telewizjarepublika.pl
+||player.ecdn.jint.pro^$domain=telewizjarepublika.pl
+||telewizjarepublika.pl/ajax/$domain=telewizjarepublika.pl
+||telewizjarepublika.pl/images/banners/$domain=telewizjarepublika.pl
+||telewizjarepublika.pl/js/live.js?$script,domain=telewizjarepublika.pl
+||telewizjarepublika.pl/plugins/plyr/plyr.js$domain=telewizjarepublika.pl
+||telewizjarepublika.pl^$inline-script
+
+@@||s.tvn.pl/adometeo.js$script,badfilter
+@@||tvn24.pl^$generichide
+tvn24.pl##A.playlistLink
+tvn24.pl##ARTICLE.mb20 > FIGURE[class]:has-text(ideo: tvn24)
+tvn24.pl##ASIDE.innerArticleModule
+tvn24.pl##ASIDE.mainRightColumn
+tvn24.pl##DIV.bgHeaderMain
+tvn24.pl##DIV.headerTop:style(position: absolute !important;)
+tvn24.pl##DIV[class^="shareContainer"]
+tvn24.pl##SECTION#forum
+tvn24.pl##SECTION#innerArticle
+tvn24.pl##SECTION.relatedReports
+||cdntvn.pl/img/RSS.gif$image
+||cdntvn.pl/img/btn_gallery_$image
+||cdntvn.pl/img/copy-link.png$image
+||cdntvn.pl/img/forum_icon_google.png$image
+||cdntvn.pl/img/new-share.png$image
+||cdntvn.pl/img/pinterest_logo_16.png$image
+||cdntvn.pl/img/sprite_main_v10.png$image
+||cdntvn.pl^$script,domain=tvn24.pl
+||dcs.redcdn.pl/scale/o2/tvn/web-content/m/
+||fonts.googleapis.com^$domain=tvn24.pl
+||r-http-00.dcs.redcdn.pl/http/o2/tvn/web-content/m/orig/p1/i/1d72310edc006dadf2190caad5802983/821b9122-a4f9-11e1-b076-0025b511229e.jpg$image
+||s1-player5.cdntvn.pl^$stylesheet,domain=tvn24.pl
+||s4-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
+||s6-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
+||s7-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
+||targeo.pl^$domain=tvn24.pl
+||tvn.pl^$script,domain=tvn24.pl
+||tvn24.pl/_pix/$image
+||tvn24.pl/img/lazy/lazy_1_7.png$image
+||tvn24.pl/stats.js$script
+||tvn24.pl^$inline-script
+
+@@||tvp.info^$generichide
+tvp.info##DIV.am-article__image
+tvp.info##DIV.facebook-paragraph
+tvp.info##DIV.nav__icon
+tvp.info##DIV.nav__loup-wrapper
+tvp.info##FOOTER.footer
+tvp.info##NAV.nav__content:style(position: absolute !important;)
+tvp.info##SECTION.art-detial-three-box
+tvp.info##SECTION.art-detial-two-box
+tvp.info##SECTION.social-article
+||fonts.googleapis.com^$domain=tvp.info
+||google.com/recaptcha/$domain=tvp.info,important
+||h-cdn.com^$script,domain=tvp.info
+||polityka-prywatnosci.tvp.pl^
+||s.tvp.pl/images2/*/uid_*width_1373*height_779.$image
+||s.tvp.pl/images2/*/uid_*width_190*height_107.$image
+||s.tvp.pl^$font,script,domain=tvp.info
+||s.v3.tvp.pl/repository/images/b/4/c/b4cfcf4c54a0d0dd8c0da2170e36abfc1396336942301.jpg
+||tvp.info/gemius/$important
+||tvp.info/pub/sess/$image
+||tvp.info^$inline-script
+
+@@||wp.pl^$generichide
+wp.pl##ARTICLE.article + A#comments
+wp.pl##ARTICLE.article > DIV + DIV > H1.article--title + DIV[class][data-reactid]
+wp.pl##ARTICLE.article > DIV + DIV[data-st-area="article-header"] + DIV > H1.article--title + DIV.article--lead + DIV[class][data-reactid]
+wp.pl##ARTICLE.article > DIV[class][data-reactid]:has-text(Polub WP)
+wp.pl##DIV.content > DIV:first-child:last-child > DIV:first-child + DIV[class][data-reactid]
+wp.pl##DIV.content:last-child > DIV:first-child:last-child > DIV:first-child:last-child > DIV:first-child + DIV[class][data-reactid]:last-child
+||v.wpimg.pl/MjU4MTQwJAN6e2JhZw95X3pdYyMhWT0GelViPX4EOQ16RCYyfhUqRCVaKg==
+||v.wpimg.pl/MjgyNTYyJANINmFhbwF5X0gQYCMpVz0GSBhhPXYKOQ1ICSUydhsqRBcXKQ==
+||v.wpimg.pl/NDk2MzU1Jy1EfWJPY0l6cURbYw0lHz4oRFNiE3pCOiNEQiYcelMpahtcKg==
+||wp.pl^$inline-script
+||wp.pl^$script,domain=wp.pl
+
+@@||wpolityce.pl^$generichide
+pl#@#.ad
+wpolityce.pl##DIV#komentarze
+wpolityce.pl##DIV#related-publications
+wpolityce.pl##DIV.adunit
+wpolityce.pl##DIV.article-social
+wpolityce.pl##DIV.intext-links > P:if(A[href]:first-child:last-child)
+wpolityce.pl##DIV.js-related-publications-container
+wpolityce.pl##FOOTER.page-footer-col
+wpolityce.pl##HEADER.nu-page-header:style(position: absolute !important;)
+wpolityce.pl##P:has-text(/CZYTAJ RÓWNIEŻ:|CZYTAJ WIĘCEJ:/):if(A[href*="wpolityce.pl"])
+||exs.pl^$important
+||wpolityce.pl/img/$image
+||wpolityce.pl/snippy/5aea4b05fd9ee2c04b1b299bf05c53a4.css$stylesheet
+||wpolityce.pl^$font,script,first-party
+||wpolityce.pl^$inline-script
+||wsieciprawdy.pl/jvs/cookiepolicy.js
+||wsieciprawdy.pl/jvs/rd-popup
+||wsieciprawdy.pl^$inline-script
+||wsieciprawdy.pl^$script,domain=wpolityce.pl
+
+@@||wprost.pl^$generichide
+wprost.pl##A.footer-button.up-button
+wprost.pl##DIV#art-text-inner > P:if(SPAN.relation-ph)
+wprost.pl##DIV#share-buttons
+wprost.pl##DIV.issues
+wprost.pl##DIV.soc-buttons
+wprost.pl##DIV.wrapper > DIV > SPAN[class*="button"]
+wprost.pl##FIGURE.art-image.art-image-hdopt-0
+wprost.pl##SECTION#comments
+wprost.pl##SECTION.bottom-section
+wprost.pl##UL#middle-list
+||google.com/recaptcha/$domain=wprost.pl,important
+||googleusercontent.com^$domain=wprost.pl
+||img.wprost.pl/_i/button-120x40-$image
+||img.wprost.pl/_i/comment-cloud-corner$image
+||img.wprost.pl/_i/icon-$image
+||img.wprost.pl/_i/user.png$image
+||img.wprost.pl/_js/jquery/$image
+||onthe.io^
+||wprost.pl/_i/flags/$image
+||wprost.pl/_i/pusty.png$image
+||wprost.pl/_static/many-files-$script
+||wprost.pl/_static/print-$stylesheet
+||wprost.pl/_thumb/$image
+||wprost.pl/service-worker-wprost.js|$script
+||wprost.pl^$inline-script
+
+wyborcza.pl##NAV#wyborczaHat:style(position: absolute !important;)
 
 
 
