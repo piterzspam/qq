@@ -12,6 +12,12 @@
 ||googletagmanager.com^
 ||instagram.com^$third-party
 ||platform.twitter.com/widgets.js
+/images/social-$badfilter
+/ico-share.$badfilter
+/facebook_icon_$badfilter
+/img/*/social-$badfilter
+/twitter.svg$badfilter
+
 
 @@||s-pt.ppstatic.pl/*/jquery.$script,third-party
 ||d-mf.ppstatic.pl/art/*.310.jpg|$image,third-party
@@ -58,16 +64,38 @@
 
 @@||bankier.pl^$generichide
 bankier.pl##DIV#pageHeaderBottom:style(position: absolute !important;)
-||bankier.pl/gfx/ad2/
-||bankier.pl/static/js/cf.js
-||bankier.pl/static/js/cookiepolicy.js$script
-||bankier.pl/static/js/nb2.js
-||bankier.pl/static/js/rtb-smart.js
-||bankier.pl^$inline-script
+||bankier.pl^$font,image,inline-script,script,stylesheet
+||fonts.googleapis.com^$domain=bankier.pl
+@@||bankier.pl/static/css/style.css$stylesheet
+@@||bankier.pl/static/css/reset.css$stylesheet
+@@||bankier.pl/static/css/nstyle.min.css$stylesheet
+@@||bankier.pl/static/css/bundle.min.css$stylesheet
 ||consensu.org^
 ||onnetwork.tv^$domain=bankier.pl
+bankier.pl##FORM#searchForm
+bankier.pl##DIV#articleBankierPick
+bankier.pl##DIV.artFontSize
+bankier.pl##DIV.boxImg
+bankier.pl##DIV#pageMainContainerRight
+bankier.pl##FOOTER#articleFooter
+bankier.pl##DIV#boxReadMore
+bankier.pl##DIV#boxArticleComment
+bankier.pl##DIV#nbSLMenuBox
+bankier.pl##DIV#boxBankierShortcut2
+bankier.pl##DIV.nb-screen-overlay
+bankier.pl##FOOTER#pageFooter2
+bankier.pl##DIV#pageMainContainerLeft645:style(width: 60% !important;)
+m.bankier.pl##HEADER#header:style(position: absolute !important;)
+m.bankier.pl##DIV#profileHeaderOffProfile
+m.bankier.pl##DIV.articleImgContainer
+m.bankier.pl##DIV#articleReadMore
+m.bankier.pl##DIV#commentsFeed
+
+
+
 
 @@||dorzeczy.pl^$generichide
+@@||img.dorzeczy.pl/dorzeczy/_i/logo-dorzeczy-header$image
 dorzeczy.pl##ASIDE.adv-aside
 dorzeczy.pl##ASIDE.right-column
 dorzeczy.pl##DIV#art-text-inner > P:if(SPAN.relation-ph)
@@ -83,27 +111,20 @@ dorzeczy.pl##FOOTER#footer
 dorzeczy.pl##SECTION.bottom-section
 dorzeczy.pl##SECTION.comments
 ||criteo.net^
-||dorzeczy.pl/_i/$image
-||dorzeczy.pl/_js/jquery/$image,script
-||dorzeczy.pl/_rodo/$script,stylesheet
-||dorzeczy.pl/_static/html5-$script
-||dorzeczy.pl/_thumb/$image
-||dorzeczy.pl^$inline-script
-||dorzeczy.pl^$xmlhttprequest
+||dorzeczy.pl/_rodo/$stylesheet
+||dorzeczy.pl^$image,inline-script,script,xmlhttprequest
 ||embed.wprost.pl^$domain=dorzeczy.pl
 ||fonts.gstatic.com^$domain=dorzeczy.pl,important
 ||google.com/jsapi$script,domain=dorzeczy.pl,important
 ||google.com/recaptcha/$script,domain=dorzeczy.pl,important
-||img.dorzeczy.pl/_i/icon-$image
-||img.dorzeczy.pl/dorzeczy/_i/icon-$image
 ||jint.pro^
 ||optad360.io^
 ||salesmanago.pl^
 
 @@||dziennik.pl^$generichide
-@@||forsal.pl^$generichide
 dziennik.pl##DIV#miejsce9
 dziennik.pl##DIV.articleContentStreamContainer
+dziennik.pl##DIV.col-md-8:style(width: 70% !important;)
 dziennik.pl##DIV.gggallery-slider-icons
 dziennik.pl##DIV.headCleanOverflowContainer
 dziennik.pl##DIV.place501and502
@@ -111,40 +132,58 @@ dziennik.pl##DIV.socialIco
 dziennik.pl##DIV.tpl_dgp_comment
 dziennik.pl##DIV.widget-psav-share-box
 dziennik.pl##FIGURE.articleReadMore
-forsal.pl##+js(set-constant.js, canRunAds, true)
 ||bootstrapcdn.com^$domain=dziennik.pl
-||bootstrapcdn.com^$domain=forsal.pl
-||dziennik.pl/ajax/stats?$image
 ||dziennik.pl/pliki/*-315-180.jpg$image
 ||dziennik.pl/pliki/*-397-231.jpg$image
-||dziennik.pl^$inline-script
-||fonts.googleapis.com^$domain=forsal.pl
-||forsal.pl/artykuly/main.js$script
-||forsal.pl/js/adverts.js$script
-||forsal.pl/main.js$script
-||forsal.pl^$inline-script
-||gazetaprawna.pl/*/banner_promo/$image
-||gazetaprawna.pl/*/bootstrap.css$stylesheet
-||gazetaprawna.pl/*/config.js$script
+||dziennik.pl^$inline-script,$xmlhttprequest
 ||gazetaprawna.pl/*/noPhotoEmpty.png$image
-||gazetaprawna.pl/*/pixel.gif$image
-||gazetaprawna.pl/*/print.css$stylesheet
-||gazetaprawna.pl/*/prod_perly-samorzadu-$stylesheet
-||gazetaprawna.pl/*/require.js$script
-||gazetaprawna.pl/*/socialimg.png$image
-||gazetaprawna.pl/*/stats?$image
-||gazetaprawna.pl/dziennik/assets/fonts/$font
-||gazetaprawna.pl/dziennik/assets/images/*-icon.png$image
 ||gazetaprawna.pl/dziennik/assets/images/bx_loader.gif$image
 ||gazetaprawna.pl/dziennik/assets/images/modul_first_logo_dziennik.png$image
 ||gazetaprawna.pl/dziennik/assets/images/serwis-rozrywka.png$image
-||gazetaprawna.pl/dziennik/assets/images/social-$image
 ||gazetaprawna.pl/dziennik/assets/images/widget_graphic_elements.png$image
-||gazetaprawna.pl/notoria-widgets-$script,stylesheet
-||gazetaprawna.pl/notowania/$script,stylesheet
+||gazetaprawna.pl/dziennik/assets/images/*-icon.png$image
+||static.gazetaprawna.pl^$font,script,stylesheet,domain=dziennik.pl
+||zgody.infor.pl^
+
+@@||forsal.pl^$generichide
+forsal.pl##+js(set-constant.js, canRunAds, true)
+||batuu.pl^
+||bootstrapcdn.com^$domain=forsal.pl
+||fonts.googleapis.com^$domain=forsal.pl
 ||redcdn.pl^$domain=forsal.pl
 ||youtube.com^$domain=forsal.pl
-||zgody.infor.pl^
+||infor.notoria.pl^
+||static.forsal.pl^$script
+||static.gazetaprawna.pl^$script,domain=forsal.pl
+||static.gazetaprawna.pl^$stylesheet,domain=forsal.pl
+||www.gazetaprawna.pl^$image
+||g3.gazetaprawna.pl^$image
+||g.gazetaprawna.pl^$image
+||g8.gazetaprawna.pl^$image
+||dziennik.pl/edgp/okladka/$image
+||static.gazetaprawna.pl/img/forsal/logo.*.footer.png$image
+forsal.pl##DIV.topSpacer
+forsal.pl##DIV#positionBoxMenu
+forsal.pl##NAV#menuUnderBredcrumbs
+forsal.pl##DIV.socialIco
+forsal.pl##DIV.galerieTem
+forsal.pl##DIV.articleBody > P:last-child:if(A[href="http://forsal.pl/finanse/notowania/"])
+forsal.pl##DIV.articleBody > P:has-text(>>> Czytaj też:)
+forsal.pl##DIV.tpl_forsal_sgp_f01
+forsal.pl##DIV.tpl_sgp_smh_02
+forsal.pl##DIV.tpl_sgp_zestawienie_tresci_js
+forsal.pl##DIV.tpl_spg_popular_docs
+forsal.pl##DIV.tpl_sgp_rss_news_list
+forsal.pl##DIV.tpl_forsal_sgp_f02
+forsal.pl##DIV.tpl_sgp_forsal_finansopedia
+forsal.pl##DIV.tpl_gpn_dzisiejsze_wydanie
+forsal.pl##DIV.tpl_std_module.tpl_sgp_komentarze
+forsal.pl##DIV.tpl_sgp_stopka
+
+
+
+
+
 
 @@||dziennikwschodni.pl^$generichide
 ||dziennikwschodni.pl/css/^$stylesheet
@@ -171,9 +210,10 @@ fakt.pl##DIV.onet-ad
 fakt.pl##FIGURE.dl-gallery-item
 fakt.pl##P.justify_center:first-child
 fakt.pl##UL.shareWidget
-||fakt.pl/_cdf/client.js
-||fakt.pl^$inline-script
-||ocdn.eu/*/jquery.js$important
+fakt.pl##DIV.socialBtnBg
+!||fakt.pl/_cdf/client.js
+||fakt.pl^$inline-script,script
+!||ocdn.eu/*/jquery.js$important
 ||ocdn.eu/paas-static/template-engine/*/build/pulsembed.js$important
 ||ocdn.eu/pulscms-transforms/1/*5qcGVnkZMFzOzMhQ$image
 ||ocdn.eu/pulscms-transforms/1/*5qcGeRkwXM7MyF$image
@@ -185,7 +225,7 @@ fakt.pl##UL.shareWidget
 ||ocdn.eu/ucs/static/*/images/fb-messenger.png$image
 ||ocdn.eu/ucs/static/*/images/sprite3.png$image
 ||ocdn.eu/ucs/static/*/images/sprite4.png$image
-||ocdn.eu^$script
+||ocdn.eu^$script,script
 ||onet.pl^$domain=fakt.pl
 ||pulsembed.eu^$domain=fakt.pl
 
@@ -209,37 +249,66 @@ gazeta.pl##HTML[amp] DIV.latest_feed
 gazeta.pl##NAV.hpFeed:style(position: absolute !important;)
 gazeta.pl##SECTION.related_articles
 gazeta.pl##SECTION.related_quiz
-||apis.google.com^$domain=gazeta.pl
-||bi.gazeta.pl^$image
-||bi.im-g.pl^$image
-||bis.gazeta.pl/*/bluewhale/
+gazeta.pl##NAV.mod_hat2014:style(position: absolute !important;)
+gazeta.pl##SPAN.imageUOM
+gazeta.pl##DIV.art_embed
+||apis.google.com^$domain=gazeta.pl,important
+||bi.gazeta.pl^
 ||cdn.ampproject.org^
-||gazeta.pl^$inline-script
-||gazeta.pl^$script,domain=gazeta.pl
-||gazeta.tv^$domain=gazeta.pl
-||gazeta.tv^$third-party
-||im-g.pl^$script,domain=gazeta.pl
 ||rodo.agora.pl^
 ||squid.gazeta.pl^
-||static.im-g.pl^$font
+||bis.gazeta.pl/*/bluewhale/$script
+||gazeta.pl^$inline-script,script,first-party
+||gazeta.tv^$third-party
+||im-g.pl^$font,image,script
 
 @@||interia.pl^$generichide
 interia.pl##DIV.portal-bar:style(position: absolute !important;)
-||interia.pl/s/print-$stylesheet,domain=interia.pl
-||interia.pl/s/report-$stylesheet,domain=interia.pl
-||interia.pl^$inline-script
-||interia.pl^$script,domain=interia.pl
-||iplsc.com^$font,script,domain=interia.pl
-||js.iplsc.com/inpl.forum4/$stylesheet,domain=interia.pl
+||interia.pl^$image,inline-script,script,stylesheet
+||iplsc.com^$font,script,stylesheet
 ||prywatnosc.interia.pl^
+@@||js.iplsc.com/inpl.portal-bar-menu/$stylesheet
+@@||interia.pl/s/article-$stylesheet
+@@||interia.pl/s/main-$stylesheet
+interia.pl##DIV.portal-services-links:style(width: 100% !important;)
+interia.pl##HEADER.page-header
+interia.pl##DIV.base-simple-menu
+interia.pl##DIV.account-body
+interia.pl##.article-social
+interia.pl##DIV.main-secondary
+interia.pl##DIV.page-footer-main
 
 @@||money.pl^$generichide
-||cloudflare.com^$domain=money.pl
+||crazyegg.com^
 ||direct.money.pl^
+||money.pl^$image,inline-script
+||wpimg.pl^$domain=money.pl
+||wpcdn.pl^$font,image,script,domain=money.pl
+||cloudflare.com^$domain=money.pl
 ||money.pl/service-worker.js$script
 ||money.pl/static/runtime-cache.js$script
-||money.pl^$inline-script
-||wpcdn.pl^$script,domain=money.pl
+money.pl##DIV[data-st-area="article-article"] > HEADER > DIV[class]:first-child
+money.pl##HEADER > H1 + DIV > DIV[class][color]
+money.pl##DIV.sc-1bdujya-0.fLpWaB[height="100"]
+money.pl##DIV[id^="video-player-"]
+money.pl##DIV.react-tabs > NAV[class]:first-child
+money.pl##DIV#part3[data-testid="part-html"]
+money.pl##DIV.hhgan6-0.ijdnRg
+money.pl##DIV.sc-1cnpd13-0.gRSxxL
+money.pl##DIV.sc-1c7ka4h-0.bdtPJQ
+money.pl##H4.g0p58f-0.gcjUjC
+money.pl##DIV.s6a6m6u-0.kCxufX
+money.pl##DIV[data-st-area="article-article"] > DIV[data-testid="part-html"]:if(A[href="https://dziejesie.wp.pl/"])
+money.pl##ASIDE[data-testid="article-aside"]
+money.pl##SPAN[class]:first-child:last-child:has-text(Notowania)
+money.pl##DIV.sc-11kz1ur-1.fmJLGy > ARTICLE[data-testid="article-main"]:first-child
+money.pl##DIV.sc-1c7ka4h-0.bsqTJO
+money.pl##DIV.biNFLE
+money.pl##DIV.sc-11b5sl5-1.hWUUqD
+money.pl##ARTICLE[data-st-area="article-article"] > DIV[height="75"]
+money.pl##ARTICLE[data-st-area="article-article"] > H4[class]
+money.pl##ARTICLE[data-st-area="article-article"] > HEADER > DIV[data-st-area="article-header"] + H1 + P + DIV + FIGURE[class]:last-child
+money.pl##DIV.sc-1la00id-0.hkbRMD
 
 @@||acdn.adnxs.com/ast/ast.js$domain=msn.com,badfilter
 @@||cdn.taboola.com/libtrc^$domain=msn.com,badfilter
