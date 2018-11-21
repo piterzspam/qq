@@ -17,6 +17,13 @@
 /facebook_icon_$badfilter
 /img/*/social-$badfilter
 /twitter.svg$badfilter
+/footer/instagram.$badfilter
+/media/*facebook.png$badfilter
+/media/*twitter.png$badfilter
+/public/*facebook.png$badfilter
+/public/*twitter.png$badfilter
+/footer/facebook.$badfilter
+/footer/twitter.$badfilter
 
 
 @@||s-pt.ppstatic.pl/*/jquery.$script,third-party
@@ -180,17 +187,33 @@ forsal.pl##DIV.tpl_gpn_dzisiejsze_wydanie
 forsal.pl##DIV.tpl_std_module.tpl_sgp_komentarze
 forsal.pl##DIV.tpl_sgp_stopka
 
-
-
-
-
-
 @@||dziennikwschodni.pl^$generichide
-||dziennikwschodni.pl/css/^$stylesheet
-||dziennikwschodni.pl/css/fonts/$stylesheet
-||dziennikwschodni.pl/js/frameworks/$script,stylesheet
-||dziennikwschodni.pl^$inline-script
+||dziennikwschodni.pl^$font,image,inline-script,script,stylesheet
+||wtg-ads.com^
 ||fonts.googleapis.com^$domain=dziennikwschodni.pl
+||google.com/recaptcha/$important,domain=dziennikwschodni.pl
+dziennikwschodni.pl##DIV.rodo-modal
+dziennikwschodni.pl##DIV.l-content__right
+dziennikwschodni.pl##DIV.single-news__meta-buttons
+dziennikwschodni.pl##DIV.related-news
+dziennikwschodni.pl##HEADER.l-header:style(position: absolute !important;)
+dziennikwschodni.pl##DIV.l-content__left:style(width: 100% !important;)
+dziennikwschodni.pl##DIV.comments
+dziennikwschodni.pl##SPAN.tags__heading
+dziennikwschodni.pl##DIV.add-comment
+dziennikwschodni.pl##DIV.l-content__left > H2.header-gray
+dziennikwschodni.pl##A.news-lead
+dziennikwschodni.pl##DIV.main-menu__mobile
+dziennikwschodni.pl##DIV.l-content--gray
+dziennikwschodni.pl##UL.main-menu__inner
+dziennikwschodni.pl##DIV.breadcrumbs
+@@||cdn01.dziennikwschodni.pl/media/gallery/$image
+@@||cdn01.dziennikwschodni.pl/media/news/*_std_crd_830.jpg|$image
+@@||cdn01.dziennikwschodni.pl/media/public/dziennikwschodni.pl/logo.svg$image
+@@||cdn01.dziennikwschodni.pl/media/public/dziennikwschodni.pl/new-menu/user.png$image
+@@||dziennikwschodni.pl/css/dziennikwschodni.pl/main.css?$stylesheet
+@@||cdn01js.dziennikwschodni.pl/js/frameworks/bootstrap/$stylesheet
+
 
 @@||fakt.pl^$generichide
 @@||ocdn.eu/paas-static/template-engine/
