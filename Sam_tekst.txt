@@ -216,8 +216,8 @@ dziennikwschodni.pl##DIV.breadcrumbs
 
 
 @@||fakt.pl^$generichide
-@@||ocdn.eu/paas-static/template-engine/
-@@||ocdn.eu/ucs/static/*/build/main.js
+@@||ocdn.eu/paas-static/template-engine/$domain=fakt.pl
+@@||ocdn.eu/ucs/static/*/build/main.js$domain=fakt.pl
 fakt.pl##DIV#contentBody > DIV.fb_content_share + DIV.socialBtnBg
 fakt.pl##DIV#twoAdsBlock
 fakt.pl##DIV#widget_sg-search-form
@@ -248,7 +248,7 @@ fakt.pl##DIV.socialBtnBg
 ||ocdn.eu/ucs/static/*/images/fb-messenger.png$image
 ||ocdn.eu/ucs/static/*/images/sprite3.png$image
 ||ocdn.eu/ucs/static/*/images/sprite4.png$image
-||ocdn.eu^$script,script
+||ocdn.eu^$script,domain=fakt.pl
 ||onet.pl^$domain=fakt.pl
 ||pulsembed.eu^$domain=fakt.pl
 
@@ -294,6 +294,7 @@ interia.pl##DIV.portal-bar:style(position: absolute !important;)
 @@||interia.pl/s/article-$stylesheet
 @@||interia.pl/s/main-$stylesheet
 interia.pl##DIV.portal-services-links:style(width: 100% !important;)
+interia.pl##DIV.main-content:style(width: 100% !important;)
 interia.pl##HEADER.page-header
 interia.pl##DIV.base-simple-menu
 interia.pl##DIV.account-body
@@ -422,9 +423,27 @@ niezalezna.pl##DIV.headerMin:style(position: absolute !important;)
 ||panel.stream1.pl^
 
 @@||onet.pl^$generichide
-onet.pl##HEADER#pageHeader:style(position: absolute !important;)
-||onet.pl^$inline-script
-||onet.pl^$script,domain=onet.pl
+!#if env_mobile
+||ocdn.eu^$domain=onet.pl
+!#endif
+||onet.pl^$inline-script,script
+||ocdn.eu^$~image,domain=onet.pl
+||fonts.googleapis.com^$domain=onet.pl,important
+onet.pl##HEADER.pageHeader:style(position: absolute !important;)
+onet.pl##DIV.onet-ad
+onet.pl##DIV > P[data-scroll^="paragrap"]:if(STRONG:first-child):if(A[id][href]:last-child)
+onet.pl##DIV.contentShareLeft
+onet.pl##DIV.shareBarBox
+onet.pl##ASIDE.extraList
+onet.pl##SECTION.latestFromCategory
+onet.pl##DIV.embeddedApp
+onet.pl##SECTION.OpenDiscussionBox
+onet.pl##DIV.streamNews
+onet.pl##DIV#contentAside
+onet.pl##A.backToTop
+@@||ocdn.eu/ucs/static/*/build/css/onet_mobile.css$stylesheet
+@@||ocdn.eu/ucs/static/*/build/css/onet_desktop.css$stylesheet
+
 
 @@||pikio.pl^$generichide
 pikio.pl##A.gallery-widget
@@ -717,3 +736,4 @@ wyborcza.pl##NAV#wyborczaHat:style(position: absolute !important;)
 
 
 !
+
