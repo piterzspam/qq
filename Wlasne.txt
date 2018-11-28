@@ -683,3 +683,7 @@ thephonograph.net##NAV.navigation.post-navigation
 ||thephonograph.net/wp-content/uploads/2018/10/Header-Promo-Meizu-EP52-Lite-GIVEAWAY-Last-Days.jpg
 thephonograph.net##DIV[class^="pea_cook"]
 ||thephonograph.net/wp-content/plugins/
+
+||cdp.aliexpress.com^
+!Po dodaniu do koszyka: Buyers Who Bought This Item Also Bought gpsfront.aliexpress.com/getI2iRecommendingResults.do?:
+||gpsfront.aliexpress.com^
