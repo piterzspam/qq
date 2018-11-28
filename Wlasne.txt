@@ -53,25 +53,28 @@ drivetribe.com##DIV.sc-ciodno > DIV[class^="sc-"]:has-text(Tribes you might like
 !Reflinki Pepper, Kimovil, Pandacheck, Cebula.online
 @@||ad.admitad.com/dummy/?c=*&w=*&wc=*&r=$first-party
 @@||ad.admitad.com/g/*/?subid=*ulp=http$first-party
+@@||ad.admitad.com/g/*/|$first-party
 @@||ad.doubleclick.net/ddm/clk/*&utm_source=*&utm_medium=*&utm_campaign=
 @@||ad.zanox.com/ppc/?*&zpar0=*&ULP=[[*]]$first-party
 @@||clk.tradedoubler.com/click?p(*)a(*)g(*)epi(*)url(*)$first-party
 @@||clkde.tradedoubler.com/click?p(*)a(*)g(*)epi(*)url(*)$first-party
 @@||clkuk.tradedoubler.com/click?p(*)a(*)g(*)epi(*)url(*)$first-party
+@@||partners.webmasterplan.com/click.asp?ref=*&site=*&type=*&tnb=*&subid=*&diurl=$first-party
 @@||partners.webmasterplan.com/click2.aspx?csts=*&ref=*&site=*&type=*&tnb=*&subid=*&diurl=$first-party
 @@||partners.webmasterplan.com/click4.aspx?nos=*&adtref=*&csts=*&ref=*&site=*&type=*&tnb=*&subid=*&diurl=$first-party
-@@||partners.webmasterplan.com/click.asp?ref=*&site=*&type=*&tnb=*&subid=*&diurl=$first-party
 @@||redirects.tradedoubler.com/projectr/?_td_softclick=*&tduid=(*)(*)(*)(*)(*)*&_td_ifelse=*td_string**td_false*&_td_deeplink=$first-party
 @@||redirects.tradedoubler.com/projectr/?_td_spaceport_encode=*&utm_source=*&utm_medium=*&tduid=*&_td_deeplink=$first-party
 @@||redirects.tradedoubler.com/projectr/?utm_medium=*&utm_source=*&_td_spaceport_encode=*&_td_url=*&_td_deeplink=$first-party
 @@||sc.tradetracker.net/tracker/merchant?e=*&cid=*&url=$first-party
+@@||sc.tradetracker.net/tracker/merchant?e=*&cid=*&url=$first-party
 @@||shareasale.com/r.cfm?b=*&u=*&m=*&afftrack=*&urllink=$first-party
 @@||tc.tradetracker.net/?c=*&m=*&a=*&r=*&u=$first-party
+@@||tc.tradetracker.net/?c=*&m=*&a=*&r=*&u=$first-party
+@@||tm.tradetracker.net/bct?s=*&t=$first-party
 @@||tm.tradetracker.net/bct?s=*&t=$first-party
 @@||track.webgains.com/click.html?wgcampaignid=*&wgprogramid=*&clickref=*&wgtarget=$first-party
 @@||www.shareasale.com/m-pr.cfm?merchantID=*&userID=*&productID=*&afftrack=$first-party
 @@||www.shareasale.com/r.cfm?u=*&b=*&m=*&afftrack=*&urllink=$first-party
-
 
 
 $websocket,important,domain=opensubtitles.org
@@ -639,3 +642,44 @@ zippyshare.com##script:inject(abort-on-property-write.js, acPrefetch)
 ||zippyshare.com/wro/viewjs-$script
 ||zmctrack.net^
 ||zopim.com^
+thephonograph.net###myFootnav
+thephonograph.net###myTopnav:style(position: absolute !important;)
+thephonograph.net##^script:has-text(oncontextmenu)
+thephonograph.net##^script:has-text(onselectstart)
+thephonograph.net##^script:has-text(ondragstart)
+thephonograph.net##ARTICLE[id^="post-"] P:has-text(/Enjoyed this Article?|Follow us:|BUY IT AT:|Buy us a coffee|SEE PRICE:|Get the latest reviews on your favorite social network|Follow us:|Enjoyed this Article?/)
+thephonograph.net##ARTICLE[id^="post-"] SPAN:has-text(/RECOMMENDED/)
+thephonograph.net##DIV.container > DIV.svg-container.single-post-svg.single-svg-bottom.svg-block
+thephonograph.net##DIV.container.content-wrapper > HR
+thephonograph.net##DIV.entry-content > BLOCKQUOTE.wp-embedded-content
+thephonograph.net##ARTICLE[id^="post-"] H1:has-text(/Buy it at:|Buy it from:/)
+thephonograph.net##ARTICLE[id^="post-"] H5:has-text(/SEE ALSO:/)
+!thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style="font-family: impact, sans-serif; font-size: 14pt;"] > A[href^="http://www.thephonograph.net/"])
+thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style] > A[href^="http://www.thephonograph.net"])
+!thephonograph.net##ARTICLE[id^="post-"] P > SPAN[style] > A[href^="http://www.thephonograph.net/"]
+!thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style] > A[href="http://www.thephonograph.net"])
+thephonograph.net##DIV.svg-container.footer-svg.svg-block
+thephonograph.net##HR
+thephonograph.net##NAV.navigation.post-navigation
+||thephonograph.net/*/embed/#?secret=$subdocument
+||thephonograph.net/wp-content/plugins/coupon-popup/
+||thephonograph.net/wp-content/plugins/eu-cookie-law/
+||thephonograph.net/wp-content/uploads/201*/*buy*.gif|$image
+||thephonograph.net/wp-content/uploads/2016/11/Get-it-at_.png|
+||thephonograph.net/wp-content/uploads/2016/12/Aliexpress-300x97.png|$image
+||thephonograph.net/wp-content/uploads/2016/12/Aliexpress.png|$image
+||thephonograph.net/wp-content/uploads/2016/12/bg-quote1.png|
+||thephonograph.net/wp-content/uploads/2016/12/cart1.png|
+||thephonograph.net/wp-content/uploads/2016/12/Gearbest.png|$image
+||thephonograph.net/wp-content/uploads/2017/09/*-48circle.png
+||thephonograph.net/wp-content/uploads/2017/10/btn_donate_LG.png|$image
+||thephonograph.net/wp-content/uploads/2017/*buy*.gif|$image
+||thephonograph.net/wp-content/uploads/2018/09/Header-Promo-Meizu-EP52-Lite-GIVEAWAY.jpg
+||thephonograph.net/wp-content/uploads/2018/10/Meizu-EP52-Lite-GIVEAWAY-Add-to-all.jpg
+||thephonograph.net/wp-content/uploads/*/*COUPONS*.jpg
+||thephonograph.net/wp-includes/js/wp-emoji-release.min.js
+!test
+||thephonograph.net^$inline-script
+||thephonograph.net/wp-content/uploads/2018/10/Header-Promo-Meizu-EP52-Lite-GIVEAWAY-Last-Days.jpg
+thephonograph.net##DIV[class^="pea_cook"]
+||thephonograph.net/wp-content/plugins/
