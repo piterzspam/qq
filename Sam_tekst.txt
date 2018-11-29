@@ -234,6 +234,10 @@ fakt.pl##FIGURE.dl-gallery-item
 fakt.pl##P.justify_center:first-child
 fakt.pl##UL.shareWidget
 fakt.pl##DIV.socialBtnBg
+fakt.pl##DIV#ARTICLE_LEFT_COLUMN
+fakt.pl##DIV.survey
+fakt.pl##ASIDE.artRight
+fakt.pl##DIV#detail > P.hyphenate:if(A[id][href*="fakt.pl"])
 !||fakt.pl/_cdf/client.js
 ||fakt.pl^$inline-script,script
 !||ocdn.eu/*/jquery.js$important
@@ -286,25 +290,36 @@ gazeta.pl##DIV.art_embed
 ||im-g.pl^$font,image,script
 
 @@||interia.pl^$generichide
-interia.pl##DIV.portal-bar:style(position: absolute !important;)
-||interia.pl^$image,inline-script,script,stylesheet
-||iplsc.com^$font,script,stylesheet
+||iplsc.com^$third-party
 ||prywatnosc.interia.pl^
+||interia.pl^$image,inline-script,script,stylesheet
+@@||img.interia.pl/biznes/nimg/$domain=m.interia.pl
+@@||m.interia.pl/i/interia-logo-hd.png$image
+@@||i.iplsc.com/*/*-F4.$image
 @@||js.iplsc.com/inpl.portal-bar-menu/$stylesheet
 @@||interia.pl/s/article-$stylesheet
 @@||interia.pl/s/main-$stylesheet
+@@||m.interia.pl/i/css.*.min.css$stylesheet
 interia.pl##DIV.portal-services-links:style(width: 100% !important;)
 interia.pl##DIV.main-content:style(width: 100% !important;)
+interia.pl##DIV.portal-bar:style(position: absolute !important;)
 interia.pl##HEADER.page-header
 interia.pl##DIV.base-simple-menu
 interia.pl##DIV.account-body
 interia.pl##.article-social
 interia.pl##DIV.main-secondary
 interia.pl##DIV.page-footer-main
+interia.pl##ASIDE.embed-article-list
+m.interia.pl##A#main-menu-switch
+m.interia.pl##A.webmail
+m.interia.pl##DIV.comZone
+m.interia.pl##DIV.main-sidebar
+
 
 @@||money.pl^$generichide
 ||crazyegg.com^
 ||direct.money.pl^
+||fonts.googleapis.com^$domain=money.pl,important
 ||money.pl^$image,inline-script
 ||wpimg.pl^$domain=money.pl
 ||wpcdn.pl^$font,image,script,domain=money.pl
@@ -333,6 +348,23 @@ money.pl##ARTICLE[data-st-area="article-article"] > DIV[height="75"]
 money.pl##ARTICLE[data-st-area="article-article"] > H4[class]
 money.pl##ARTICLE[data-st-area="article-article"] > HEADER > DIV[data-st-area="article-header"] + H1 + P + DIV + FIGURE[class]:last-child
 money.pl##DIV.sc-1la00id-0.hkbRMD
+!money.pl##BODY > DIV#app > DIV:first-child:last-child > DIV:last-child > NAV[class]:first-child
+money.pl##NAV.rqvvq0-1.hnFnue
+money.pl##DIV[id^="part"] > DIV + BUTTON.FUSKH
+money.pl##DIV.sc-6a6m6u-0.eBBkEM
+money.pl##DIV[id^="part"]:if(P > STRONG:has-text(/Czytaj też:|Czytaj więcej:/))
+!money.pl##DIV[id^="part"] > P > STRONG > A[href]
+money.pl##BODY > AMP-SIDEBAR + MAIN DIV.header-image-container
+money.pl##AMP-SIDEBAR#menu
+money.pl##AMP-CONSENT#rodoConsent
+money.pl##AMP-USER-NOTIFICATION#cookie-info
+money.pl##ARTICLE > P:if(AMP-SOCIAL-SHARE)
+money.pl##BODY > AMP-SIDEBAR + MAIN > ARTICLE > SECTION.recommendations
+money.pl##AMP-IFRAME
+money.pl##A.comment-button
+!money.pl##DIV[id^="part"]:if(P > STRONG:has-text(/Czytaj też:|Czytaj więcej:/))
+money.pl##BODY > AMP-SIDEBAR + MAIN > ARTICLE > P:if(STRONG:has-text(/Czytaj też:|Czytaj więcej:/))
+money.pl##BODY > AMP-SIDEBAR + MAIN > ARTICLE > P:has-text(Masz newsa, zdjęcie lub filmik? Prześlij nam przez)
 
 @@||acdn.adnxs.com/ast/ast.js$domain=msn.com,badfilter
 @@||cdn.taboola.com/libtrc^$domain=msn.com,badfilter
@@ -736,4 +768,3 @@ wyborcza.pl##NAV#wyborczaHat:style(position: absolute !important;)
 
 
 !
-
