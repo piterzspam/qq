@@ -25,27 +25,29 @@
 /footer/facebook.$badfilter
 /footer/twitter.$badfilter
 
-
-@@||s-pt.ppstatic.pl/*/jquery.$script,third-party
-||d-mf.ppstatic.pl/art/*.310.jpg|$image,third-party
-||d-pt.ppstatic.pl/k/r/1/*_o.jpg|$image,third-party
-||d-pt.ppstatic.pl/kadry/*,size,380x238,*.jpg$image,third-party
-||d-pt.ppstatic.pl/kadry/*,size,969x565,*.jpg|$image,third-party
-||d-pt.ppstatic.pl/kadry/k/r/1/*_o,size,110x95,q,71,h,*.jpg$image,third-party
-||d-pt.ppstatic.pl/kadry/k/r/1/*_o,size,445x270$image,third-party
-||fonts.googleapis.com^$domain=polskatimes.pl
+@@||gazetakrakowska.pl^$generichide
+||gazetakrakowska.pl^$inline-script
+||ppapi.pl^
+||ppstatic.pl^$third-party
+@@||s-pt.ppstatic.pl/p/css/rwd/$stylesheet
+@@||s-pt.ppstatic.pl/p/css/serwisy/$stylesheet
+||fonts.googleapis.com^$important,domain=gazetakrakowska.pl
+||cloudfront.net^$important,domain=gazetakrakowska.pl
 ||infogram.com^$third-party
-||polskatimes.pl/*/undefined/o/js/cgr/track.js?
-||s-pt.ppstatic.pl/g/regionalne/ikony/
-||s-pt.ppstatic.pl/g/regionalne/tlo_wideo_artykul.png
-||s-pt.ppstatic.pl/lib/adblockdetect/$script,third-party
-||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js$script,third-party
-||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js$script,third-party
-||s-pt.ppstatic.pl/p/css/nanoScroller.css$stylesheet
-||s-pt.ppstatic.pl/p/css/rwd/slick.css$stylesheet
-||s-pt.ppstatic.pl/p/css/serwisy/motofakty_lokalne.css
-||s-pt.ppstatic.pl/p/js/rwd/jquery.$script,third-party
-||s-pt.ppstatic.pl^$script,third-party
+gazetakrakowska.pl##DIV.zafixowanaGora
+gazetakrakowska.pl##DIV#wideo-promocja
+gazetakrakowska.pl##DIV.zaslona
+gazetakrakowska.pl##DIV.banner-fixed
+gazetakrakowska.pl##DIV.zdjecieGlowne
+gazetakrakowska.pl##DIV.galeria-bbcode
+gazetakrakowska.pl##DIV#wideo-artykul
+gazetakrakowska.pl##SECTION#material-komentarze
+gazetakrakowska.pl##DIV#prawa-kolumna
+gazetakrakowska.pl##UL#narzedzia
+
+
+
+
 
 @@||antyweb.pl^$generichide
 @@||antyweb.pl/wp-content/themes/antyweb.autentika/js/main.js
@@ -197,7 +199,7 @@ dziennikwschodni.pl##DIV.l-content__right
 dziennikwschodni.pl##DIV.single-news__meta-buttons
 dziennikwschodni.pl##DIV.related-news
 dziennikwschodni.pl##HEADER.l-header:style(position: absolute !important;)
-dziennikwschodni.pl##DIV.l-content__left:style(width: 100% !important;)
+dziennikwschodni.pl##DIV.mobile-share
 dziennikwschodni.pl##DIV.comments
 dziennikwschodni.pl##SPAN.tags__heading
 dziennikwschodni.pl##DIV.add-comment
@@ -218,6 +220,14 @@ dziennikwschodni.pl##DIV.breadcrumbs
 @@||fakt.pl^$generichide
 @@||ocdn.eu/paas-static/template-engine/$domain=fakt.pl
 @@||ocdn.eu/ucs/static/*/build/main.js$domain=fakt.pl
+||fonts.googleapis.com^$domain=fakt.pl
+||ocdn.eu/ucs/static/*/images/mobile/gallery/photoIconWhite.svg
+fakt.pl##DIV.listArticle
+fakt.pl##AMP-CONSENT#consent-element
+fakt.pl##DIV.adBoxTop
+fakt.pl##DIV.adBox
+fakt.pl##BODY > AMP-SIDEBAR + HEADER.header
+fakt.pl##AMP-SIDEBAR#sidebar
 fakt.pl##DIV#contentBody > DIV.fb_content_share + DIV.socialBtnBg
 fakt.pl##DIV#twoAdsBlock
 fakt.pl##DIV#widget_sg-search-form
@@ -277,6 +287,7 @@ gazeta.pl##NAV.hpFeed:style(position: absolute !important;)
 gazeta.pl##SECTION.related_articles
 gazeta.pl##SECTION.related_quiz
 gazeta.pl##NAV.mod_hat2014:style(position: absolute !important;)
+!gazeta.pl##NAV.hpFeed:style(position: absolute !important;)
 gazeta.pl##SPAN.imageUOM
 gazeta.pl##DIV.art_embed
 ||apis.google.com^$domain=gazeta.pl,important
@@ -386,8 +397,6 @@ msn.com##SECTION.morefromproviderrr
 ||msn.com^$other,domain=msn.com
 ||sdad.guru^$xmlhttprequest,domain=msn.com
 
-@@||mobile.natemat.pl^$inline-script
-@@||natemat.pl^$generichide
 mobile.natemat.pl##+js(abort-on-property-read.js, APP_FORCE_RWD)
 mobile.natemat.pl##DIV#footer
 mobile.natemat.pl##DIV.css-1ovum16
@@ -403,34 +412,35 @@ natemat.pl##DIV.art__wizard-html
 natemat.pl##DIV.header__box__social
 natemat.pl##SECTION.art__social-footer__container
 natemat.pl##SECTION.footer__block
-||cdn.natemat.pl/*,102,102,1,0.jpg$image
-||cdn.natemat.pl/*,50,50,1,0.jpg$image
-||cdn.natemat.pl/*,780,0,0,0.jpg$image,domain=mobile.natemat.pl
-||cdn.natemat.pl/4feb8a594168bb772aea058148587e6a,205,1000,0,0.jpg
+natemat.pl##AMP-SIDEBAR#sidebar
+natemat.pl##SECTION.art__related
+natemat.pl##SECTION.social__bar
+natemat.pl##FOOTER
 ||chartbeat.com^
 ||fonts.googleapis.com^$domain=natemat.pl,important
 ||mediawayss.com^
-||mobile.natemat.pl/pwa-category/$xmlhttprequest
-||mobile.natemat.pl/static/media/comment$image
-||mobile.natemat.pl/static/media/facebook$image
-||mobile.natemat.pl/sw.js$script
-||mobile.natemat.pl/vendor/Hyphenator.js$script
-||natemat.pl/cmp/portal.html
-||natemat.pl^$inline-script
 ||onaudience.com^
 ||plista.com^
-||s.natemat.pl/css-v2/font-cooperhewitt.css$stylesheet
-||s.natemat.pl/css/fonts-quixo.css$stylesheet
-||s.natemat.pl/fonts/$font
-||s.natemat.pl/gfx/*/fb.png$image
-||s.natemat.pl/gfx/grey.gif$image
-||s.natemat.pl/gfx/natemat/logo_white.svg$image
-||s.natemat.pl/gfx/v2/close_icon_gray.png$image
-||s.natemat.pl/gfx/v2/header-footer/*social$image
-||s.natemat.pl/gfx/v2/header-footer/footer-photo$image
-||s.natemat.pl/gfx/v2/instagram.png$image
-||s.natemat.pl/set/natemat.screens.css$stylesheet
-||s.natemat.pl^$script
+@@||natemat.pl^$generichide
+||natemat.pl/cmp/portal.html
+||natemat.pl^$inline-script
+||natemat.pl/*/sw.js$script
+@@||mobile.natemat.pl^$inline-script
+||mobile.natemat.pl/pwa-category/$xmlhttprequest
+||mobile.natemat.pl/sw.js$script
+||mobile.natemat.pl/vendor/Hyphenator.js$script
+||mobile.natemat.pl/static/media/comment$image
+||mobile.natemat.pl/static/media/facebook$image
+||cdn.natemat.pl^$image
+@@||cdn.natemat.pl/*,60,60,1,0.jpg$image
+@@||cdn.natemat.pl/*,780,0,0,0.jpg$image
+||cdn.natemat.pl/*,780,0,0,0.jpg$image,domain=mobile.natemat.pl,important
+||s.natemat.pl^$font,image,script,stylesheet
+@@||s.natemat.pl/gfx/*/logo.svg$image
+@@||s.natemat.pl/set/natemat.main.css$stylesheet
+@@||s.natemat.pl/css-v2/bootstrapsel.css$stylesheet
+
+
 
 @@||nczas.com^$generichide
 nczas.com##ARTICLE > FOOTER:last-child
@@ -453,6 +463,27 @@ niezalezna.pl##DIV.headerMin:style(position: absolute !important;)
 ||niezalezna.pl^$inline-script
 ||niezalezna.pl^$script,domain=niezalezna.pl
 ||panel.stream1.pl^
+
+@@||o2.pl^$generichide
+||fonts.googleapis.com^$domain=o2.pl
+||o2.pl^$font,script,xmlhttprequest
+@@||o2.pl/static/mobile.js
+||i.wpimg.pl/96x64/$image,domain=o2.pl
+||i.wpimg.pl/80x80/$image,domain=o2.pl
+||wp.pl^$domain=o2.pl
+||wpcdn.pl^$domain=o2.pl
+o2.pl##AMP-SIDEBAR + MAIN DIV.header-image-container
+o2.pl##AMP-SIDEBAR#menu
+o2.pl##ARTICLE > P:if(AMP-SOCIAL-SHARE)
+o2.pl##DIV.ad
+o2.pl##ARTICLE > P:if(STRONG > A[href="https://dziejesie.wp.pl/"][target="_blank"])
+o2.pl##AMP-IFRAME
+o2.pl##ARTICLE > P:if(A.comment-button)
+o2.pl##SECTION.recommendations
+o2.pl##AMP-CONSENT#rodoConsent
+o2.pl##AMP-USER-NOTIFICATION
+
+
 
 @@||onet.pl^$generichide
 !#if env_mobile
@@ -488,16 +519,14 @@ pikio.pl##DIV.td-post-content > OL
 pikio.pl##DIV.td-post-content > P:has-text(DALSZA CZĘŚĆ TEKSTU POD GALERIĄ)
 pikio.pl##DIV.td-post-content:first-child > P:has-text(ZOBACZ TAKŻE:)
 pikio.pl##DIV.td_block_wrap
+pikio.pl##DIV.td-header-menu-wrap
 ||fonts.googleapis.com^$domain=pikio.pl
 ||onesignal.com^
-||pikio.pl/wp-content/plugins/$script,stylesheet
-||pikio.pl/wp-content/themes/$script
-||pikio.pl/wp-content/themes/PikioB/webcrafters/gallery.css$stylesheet
-||pikio.pl/wp-content/uploads/*300x194.$image
-||pikio.pl/wp-content/uploads/2018/02/logopikio.png$image
-||pikio.pl/wp-includes/js/comment-reply.min.js$script
-||pikio.pl/wp-includes/js/jquery/$script
-||pikio.pl^$inline-script
+!||pikio.pl/wp-content/uploads/*300x194.$image
+!||pikio.pl/wp-content/uploads/2018/02/logopikio.png$image
+@@||pikio.pl/wp-content/uploads/*-1021x580.jpg
+@@||pikio.pl/wp-content/themes/PikioB/style.css
+||pikio.pl^$font,image,inline-script,script,stylesheet
 ||s-onetag.com^
 
 @@||polsatnews.pl/templates/pnews2018/build/css/
@@ -512,63 +541,61 @@ polsatnews.pl##DIV.platform
 polsatnews.pl##HEADER#header:style(position: absolute !important;)
 polsatnews.pl##NAV.news__share
 polsatnews.pl##P:if(VIDEO.videoPlayer)
+polsatnews.pl##DIV.container__holder--1
 ||fonts.googleapis.com^$domain=polsatnews.pl
 ||gemius.pl^$domain=polsatnews.pl
 ||pluscdn.pl^$domain=polsatnews.pl
-||polsatnews.pl/*/AppTarget$script
-||polsatnews.pl/*/gfx/share/$image
-||polsatnews.pl/*/vendors$script
-||polsatnews.pl/*/videoPlayer.css$stylesheet
-||polsatnews.pl/templates/pnews2018/build/css/
-||polsatnews.pl/templates/pnews2018/build/gfx/app/$image
-||polsatnews.pl/templates/pnews2018/build/gfx/more.5bb82.svg$image
-||polsatnews.pl/templates/pnews2018/build/js/
-||polsatnews.pl^$inline-script
+||polsatnews.pl^$image,inline-script,script,stylesheet
 ||redirector.redefine.pl^$domain=polsatnews.pl
 ||stat24.com^
 
 @@||radiozet.pl^$generichide
 radiozet.pl##DIV#player-header
 radiozet.pl##DIV.voicer-content
-||cloudflare.com^$domain=radiozet.pl
-||fonts.googleapis.com^$domain=radiozet.pl
-||gemius.pl^$domain=radiozet.pl
-||gfx.radiozet.pl/var/radiozet/cache/public/stylesheets/df265030d9541bcf43ddbf106410f94e_all.css$stylesheet
+radiozet.pl##DIV.social
+radiozet.pl##DIV#body-article > P:if(B:first-child + A[href*="radiozet.pl"][target="_blank"])
+radiozet.pl##DIV.socials
+radiozet.pl##DIV.advert
+radiozet.pl##DIV.embed
+radiozet.pl##SECTION.main-column-right
+radiozet.pl##HEADER.navigation
 ||google.com/recaptcha/$domain=radiozet.pl,important
-||google.com/recaptcha/api.js$domain=radiozet.pl
-||imasdk.googleapis.com^$domain=radiozet.pl
 ||imasdk.googleapis.com^$domain=radiozet.pl,important
 ||jquery.com^$domain=radiozet.pl
 ||lp4.io^
 ||meetrics.net^
-||radiozet.pl/*/jquery-1.11.1.min.js$script
-||radiozet.pl/*/notifi.min.js$script
-||radiozet.pl/*/require.js$script
-||radiozet.pl/*/stats.js$script
-||radiozet.pl/extension/radiozet/design/standard/images/banner-radiostacja/$image
-||radiozet.pl/extension/radiozet/design/standard/images/layout/logo-zet-red.svg$image
-||radiozet.pl/externals/xml/pogoda/data.json$xmlhttprequest,domain=radiozet.pl
-||radiozet.pl/var/radiozet-sport/cache/public/javascript/$script
-||radiozet.pl/var/radiozet-wiadomosci/cache/public/javascript/$script
-||radiozet.pl/var/radiozet/cache/public/javascript/$script
-||radiozet.pl^$font
-||radiozet.pl^$inline-script
+||cloudflare.com^$domain=radiozet.pl
+||fonts.googleapis.com^$domain=radiozet.pl
+||gemius.pl^$domain=radiozet.pl
+||radiozet.pl^$font,inline-script,script
+||radiozet.pl/var/*_embed-article.$image
 ||redcdn.pl^$domain=radiozet.pl
 ||voicer.eurozet.pl^$domain=radiozet.pl
+||gfx.zdrowie.radiozet.pl/extension/radiozet/design/standard/images/$image
 
-@@||rmf24.pl/s/classic/css$stylesheet,domain=rmf24.pl
-@@||rmf24.pl/s/layout-
+
 @@||rmf24.pl^$generichide
+rmf24.pl##P + ASIDE.embed
+rmf24.pl##DIV.voteWrapper
+rmf24.pl##DIV#commentsZoneList
+rmf24.pl##DIV#addVideoCont
+rmf24.pl##DIV#adsbygoogle
+rmf24.pl##DIV#commentsFB
+rmf24.pl##DIV.mainSidebar
+||rmf24.pl^$image,inline-script,script,stylesheet
+||rmf.fm^$domain=rmf24.pl
 ||contentstream.pl^$domain=rmf24.pl
-||fonts.googleapis.com^$domain=rmf24.pl
-||iplsc.com^$script,domain=rmf24.pl
-||rmf.fm/inc/outer/newsletter/
-||rmf.fm^$script,domain=rmf24.pl
-||rmf24.pl/s/classic/ajax-loader.gif|
-||rmf24.pl^$inline-script
-||rmf24.pl^$script,domain=rmf24.pl
-||rmf24.pl^$stylesheet,domain=rmf24.pl
+||fonts.googleapis.com^$domain=rmf24.pl,important
+||iplsc.com^$domain=rmf24.pl
 ||zencdn.net^$domain=rmf24.pl
+@@||emisja.contentstream.pl/_/jsonapi/?prefix=adart$domain=rmf24.pl,badfilter
+@@||rmf24.pl/s/classic/css4
+@@||rmf24.pl/s/classic/css5
+@@||rmf24.pl/s/classic/css7
+@@||rmf24.pl/s/classic/logoBig.png
+
+
+
 
 @@||se.pl/media/desktop/css/template_article.css$stylesheet
 @@||se.pl/media/desktop/zpr_headers_web/css/template_header.css$stylesheet
@@ -657,27 +684,13 @@ tvn24.pl##DIV[class^="shareContainer"]
 tvn24.pl##SECTION#forum
 tvn24.pl##SECTION#innerArticle
 tvn24.pl##SECTION.relatedReports
-||cdntvn.pl/img/RSS.gif$image
-||cdntvn.pl/img/btn_gallery_$image
-||cdntvn.pl/img/copy-link.png$image
-||cdntvn.pl/img/forum_icon_google.png$image
-||cdntvn.pl/img/new-share.png$image
-||cdntvn.pl/img/pinterest_logo_16.png$image
-||cdntvn.pl/img/sprite_main_v10.png$image
-||cdntvn.pl^$script,domain=tvn24.pl
-||dcs.redcdn.pl/scale/o2/tvn/web-content/m/
-||fonts.googleapis.com^$domain=tvn24.pl
-||r-http-00.dcs.redcdn.pl/http/o2/tvn/web-content/m/orig/p1/i/1d72310edc006dadf2190caad5802983/821b9122-a4f9-11e1-b076-0025b511229e.jpg$image
-||s1-player5.cdntvn.pl^$stylesheet,domain=tvn24.pl
-||s4-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
-||s6-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
-||s7-tvn24.cdntvn.pl^$stylesheet,domain=tvn24.pl
+||cdntvn.pl^
+||redcdn.pl^
+||tvn24.pl^$image,inline-script,script
+||fonts.googleapis.com^$domain=tvn24.pl,important
+@@||s3-tvn24.cdntvn.pl^$stylesheet
 ||targeo.pl^$domain=tvn24.pl
 ||tvn.pl^$script,domain=tvn24.pl
-||tvn24.pl/_pix/$image
-||tvn24.pl/img/lazy/lazy_1_7.png$image
-||tvn24.pl/stats.js$script
-||tvn24.pl^$inline-script
 
 @@||tvp.info^$generichide
 tvp.info##DIV.am-article__image
@@ -708,6 +721,12 @@ wp.pl##ARTICLE.article > DIV + DIV[data-st-area="article-header"] + DIV > H1.art
 wp.pl##ARTICLE.article > DIV[class][data-reactid]:has-text(Polub WP)
 wp.pl##DIV.content > DIV:first-child:last-child > DIV:first-child + DIV[class][data-reactid]
 wp.pl##DIV.content:last-child > DIV:first-child:last-child > DIV:first-child:last-child > DIV:first-child + DIV[class][data-reactid]:last-child
+wp.pl##DIV._22APDV5
+wp.pl##DIV.article--text > P:if(STRONG > A[href="https://dziejesie.wp.pl/"][target="_blank"])
+wp.pl##DIV.content > DIV > DIV:if(BUTTON.teasersTab)
+wp.pl##DIV#relatedVideo
+wp.pl##DIV.Of50qDO
+wp.pl##DIV.header > DIV:if(path.svg-burger)
 ||v.wpimg.pl/MjU4MTQwJAN6e2JhZw95X3pdYyMhWT0GelViPX4EOQ16RCYyfhUqRCVaKg==
 ||v.wpimg.pl/MjgyNTYyJANINmFhbwF5X0gQYCMpVz0GSBhhPXYKOQ1ICSUydhsqRBcXKQ==
 ||v.wpimg.pl/NDk2MzU1Jy1EfWJPY0l6cURbYw0lHz4oRFNiE3pCOiNEQiYcelMpahtcKg==
@@ -764,7 +783,6 @@ wprost.pl##UL#middle-list
 
 wyborcza.pl##NAV#wyborczaHat:style(position: absolute !important;)
 
-
-
+wpolityce.pl##DIV.article-body > DIV.intext-links > P:first-child
 
 !
