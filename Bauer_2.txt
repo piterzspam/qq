@@ -105,9 +105,12 @@ styl.pl##FOOTER.video-footer
 ||interia.pl/j/*-sponsored-
 ||interia.pl/p.gif
 ||interia.pl/promocyjni.html
+||interia.pl/s/print-$stylesheet,domain=interia.pl
+||interia.pl/s/report-$stylesheet,domain=interia.pl
 ||interia.tv/getRecomendations?
 ||iplsc.com/inpl.xnews/$domain=www.interia.pl
 ||iplsc.com/js/ads.js?p=
+||iplsc.com^$font,script,domain=interia.pl
 ||iwa.hit.interia.pl^
 ||iwa.iplsc.com/gemius.js
 ||iwa.iplsc.com/gsscript.js
@@ -122,6 +125,7 @@ styl.pl##FOOTER.video-footer
 ||js.iplsc.com/inpl.anc/*/inpl.anc.js
 ||js.iplsc.com/inpl.cookiepolicy/
 ||js.iplsc.com/inpl.download-app-bottombar/
+||js.iplsc.com/inpl.forum4/$stylesheet,domain=interia.pl
 ||js.iplsc.com/inpl.mobile-topbar/
 ||js.iplsc.com/inpl.recommend/
 ||js.iplsc.com/inpl.scrollfooter/
@@ -145,6 +149,7 @@ styl.pl##FOOTER.video-footer
 ||pomponik.pl/p.gif
 ||promocyjni-api.interia.pl^
 ||promocyjni.pl/*/inpl.cookiepolicy
+||prywatnosc.interia.pl^
 ||rmf.fm/*/bt-fb.png
 ||rmf24.pl/*/fb-ico.png
 ||rmf24.pl/getRecomendations?
