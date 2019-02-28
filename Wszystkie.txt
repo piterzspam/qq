@@ -2,20 +2,20 @@
 ! Expires: 1 day
 !
 !#if ext_ublock
-#include Agora_2.txt
-#include Bauer_2.txt
-#include Generatory.txt
-#include Hostingi_2.txt
-#include Mieszkania.txt
-#include Onet.txt
-#include Polska_press.txt
-#include Presspublica.txt
-#include Random.txt
-#include Social_2.txt
-#include TVN_2.txt
-#include Url_shorteners_2.txt
-#include Warez.txt
-#include Wiadomosci.txt
-#include Wlasne.txt
-!#include test.txt
+!#include Agora_2.txt
+!#include Bauer_2.txt
+!#include Generatory.txt
+!#include Hostingi_2.txt
+!#include Mieszkania.txt
+!#include Onet.txt
+!#include Polska_press.txt
+!#include Presspublica.txt
+!#include Random.txt
+!#include Social_2.txt
+!#include TVN_2.txt
+!#include Url_shorteners_2.txt
+!#include Warez.txt
+!#include Wiadomosci.txt
+!#include Wlasne.txt
+!!#include test.txt
 !#endif
