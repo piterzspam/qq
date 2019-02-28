@@ -2,8 +2,8 @@
 ! Expires: 1 day
 
 ||facebook.com^$third-party,important
-||facebook.net^$third-party,domain=~facebook.com,important
-||fbcdn.net^$third-party,domain=~facebook.com,important
+||facebook.net^$third-party,domain=~facebook.com,messenger.com,important
+||fbcdn.net^$third-party,domain=~facebook.com,messenger.com,important
 ||instagram.com^$third-party,important
 ||linkedin.com^$third-party,important
 ||nk.pl^$third-party,important
