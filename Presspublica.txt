@@ -1,10 +1,6 @@
 ! Title: Presspublica
 ! Expires: 1 day
 
-@@||connect.facebook.net$domain=rp.pl
-@@||facebook.com/plugins/comments.php$domain=rp.pl
-@@||facebook.com/plugins/feedback.php$domain=rp.pl
-@@||staticxx.facebook.com/connect/xd_arbiter$domain=rp.pl
 bloombergbusinessweek.pl##DIV#cookie-gm-new
 parkiet.com##DIV.cookie-box
 poznajtrendy.pl##DIV.cookie-info
