@@ -1,22 +1,15 @@
 ! Title: Bauer_2
 ! Expires: 1 day
-!@@||w.iplsc.com/*/inpl.copy/
-!||js.iplsc.com/inpl.weather-widget/
-!||prodxnews1blob.blob.core.windows.net/*/gstreamconfig.js
-!||s.tvn.pl/*/tvn.tools.js
-!||w.iplsc.com/*/utils.fluidTwitterEmbed.js
-@@||ad.doubleclick.net/ddm/clk/*u=*&sv1=*&sv2=*&sv3=*&gclid=$first-party
-@@||ad.doubleclick.net/ddm/trackclk/*;dc_trk_aid=*;dc_trk_cid=*;dc_lat=*;dc_rdid=*;tag_for_child_directed_treatment=$first-party
+
 @@||adretail.pl^$domain=promocyjni.pl
-@@||clk.tradedoubler.com/click?p=*&a=*&g=*&f=$first-party
-@@||clk.tradedoubler.com/click?p=*&g=*&a=*&url=http$first-party
 @@||emisja.contentstream.pl/_/jsonapi/?prefix=adart|$domain=rmf24.pl
 @@||interia.hit.gemius.pl/*konto.interia.pl/
 @@||interia.pl/p.gif
 @@||js.iplsc.com/inpl.adb/
-@@||platform.instagram.com/*_*/embeds.js$third-party
 @@||prodxnews1blob.blob.core.windows.net/*/advert.js
-@@||redirects.tradedoubler.com/projectr/?utm_medium=*&utm_source=*&utm_content=*&_td_deeplink=*&ds_s_kwgid=*2&ds_dest_url=*?utm_source=*&utm_medium=*&tduid=$first-party
+@@||rmf24.pl/s/classic/css$stylesheet,domain=rmf24.pl
+@@||rmf24.pl/s/layout-
+@@||rmf24.pl^$generichide
 @@||styl.pl/p.gif
 @@||w.iplsc.com/*/inpl.social/
 cdaction.pl##DIV.wykopki
@@ -75,6 +68,7 @@ styl.pl##FOOTER.video-footer
 ||clickmatic.pl^
 ||clog.interia.pl^
 ||contentstream.pl^
+||contentstream.pl^$domain=rmf24.pl
 ||criteo.com^
 ||data.interia.pl^
 ||deccoria.pl/*/deccoria_boxRegister0
@@ -82,6 +76,7 @@ styl.pl##FOOTER.video-footer
 ||doubleclick.net^$inline-script,first-party
 ||fab.interia.pl^
 ||fac.interia.pl^
+||fonts.googleapis.com^$domain=rmf24.pl
 ||geo.interia.pl^
 ||hg.interia.pl^
 ||hub.com.pl^
@@ -111,6 +106,7 @@ styl.pl##FOOTER.video-footer
 ||iplsc.com/inpl.xnews/$domain=www.interia.pl
 ||iplsc.com/js/ads.js?p=
 ||iplsc.com^$font,script,domain=interia.pl
+||iplsc.com^$script,domain=rmf24.pl
 ||iwa.hit.interia.pl^
 ||iwa.iplsc.com/gemius.js
 ||iwa.iplsc.com/gsscript.js
@@ -151,8 +147,15 @@ styl.pl##FOOTER.video-footer
 ||promocyjni.pl/*/inpl.cookiepolicy
 ||prywatnosc.interia.pl^
 ||rmf.fm/*/bt-fb.png
+||rmf.fm/inc/outer/newsletter/
+||rmf.fm^$script,domain=rmf24.pl
 ||rmf24.pl/*/fb-ico.png
 ||rmf24.pl/getRecomendations?
+||rmf24.pl/s/classic/ajax-loader.gif|
+||rmf24.pl^$inline-script
+||rmf24.pl^$script,domain=rmf24.pl
+||rmf24.pl^$script,domain=rmf24.pl
+||rmf24.pl^$stylesheet,domain=rmf24.pl
 ||rmfclassic.pl/*/fb-fixed.jpg
 ||rmfon.pl/img/p.gif?
 ||smaker.pl/*/getpromobanner/
@@ -174,4 +177,5 @@ styl.pl##FOOTER.video-footer
 ||webpush.interia.pl^
 ||wr.zl.interia.pl^
 ||x.interia.pl/*/inpl.klmcounter.
+||zencdn.net^$domain=rmf24.pl
 ||zlm.interia.pl^
