@@ -1,4 +1,4 @@
-! Title: Sam_tekst
+! Title: Wiadomosci_sam_tekst
 ! Expires: 1 days
 
 @@||fonts.googleapis.com/css$third-party,badfilter
