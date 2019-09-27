@@ -1,5 +1,6 @@
 ! Title: Mieszkania2
 
+m.olx.pl##DIV.cookies-overlay__container
 ||classistatic.com/assets/jsmin/AdCarousel.min$script,domain=gumtree.pl
 ||sdk.privacy-center.org^$domain=olx.pl
 ||ninja.akamaized.net^$domain=olx.pl
