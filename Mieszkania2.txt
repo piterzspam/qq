@@ -1,152 +1,401 @@
 ! Title: Mieszkania2
 
+||classistatic.com/assets/jsmin/AdCarousel.min$script,domain=gumtree.pl
+||sdk.privacy-center.org^$domain=olx.pl
+||ninja.akamaized.net^$domain=olx.pl
+!@@||ninja.akamaized.net/ninja-cee.js
+/^https?:\/\/www\.olx\.pl\/assets\/[0-9a-z]{28}$/$script,domain=olx.pl
+@@/^https?:\/\/www\.olx\.pl\/assets\/[0-9a-z]{28}$/$script,domain=olx.pl
+trovit.pl##DIV.alertBox
+||szybko.pl/reklamy/$stylesheet
+||unpkg.com/leaflet@1.3.3/
+||twitter.com^$domain=szybko.pl
+||google.com/jsapi$domain=szybko.pl,important
+||gstatic.com/recaptcha/$domain=szybko.pl,important
+||google.com/recaptcha/api.js$domain=szybko.pl,important
+||szybko.pl/zliczaj?a=$xmlhttprequest
+@@||ad.doubleclick.net/ddm/clk/*;*;x?http$first-party
+@@||ad.doubleclick.net/ddm/clk/*;*;h?http$first-party
+gumtree.pl###gallery
+gumtree.pl##DIV.topAdsContainer
+olx.pl##TABLE.offers--top
+||morizon.pl/ajaxSTSTracking?$script
+||morizon.pl/ajaxSendStats?$xmlhttprequest
+||morizon.pl/images/reklama-kredytowa-$image
+||otodompl-statics.akamaized.net^$domain=webcache.googleusercontent.com
+||www.otodom.pl/frontera/static/js/client-re-otodompl-bundle$script,domain=webcache.googleusercontent.com
+||staticmorizon.com.pl/thumbnail/*/310/186/4/$image
+||morizon.user.com/widget.js$script
+||free.morizon.pl/*==BB?_=$script
+||staticmorizon.com.pl/thumbnail/*/60/60/4/$image
+morizon.pl##DIV.additional-box-section
+morizon.pl##DIV#handPickedLinks
+morizon.pl##DIV.vanilla-cloudlet
+morizon.pl##DIV.smallWidgetCustomersBank
+morizon.pl##DIV.row-content.finances
+morizon.pl##SECTION#blog-articles
+morizon.pl##DIV.location-types-navigation
+gumtree.pl##DIV.section-divider:has-text(Ogłoszenia wyróżnione)
+gumtree.pl##DIV#alertBottomWrapper
+gumtree.pl##DIV.suggestedSearch
+gumtree.pl##DIV.above-footer
+gumtree.pl##FORM.replyAd
+gumtree.pl##DIV.moreSearches
+gumtree.pl##A.other-country
+gumtree.pl##DIV.vip-bottomBlock
+gumtree.pl##DIV.post-it-yourself
+||google.com/recaptcha/api.js$script,domain=olx.pl,important
+olx.pl##DIV.offercontentinner.margintop7.offer__innerbox
+gratka.pl##ARTICLE[id^="offer-"].teaser.teaser--bigPicture[role="link"]
+gratka.pl##DIV#content__recommendedOffersContainer
 
-!Wejście przez garaż do sutereny, lokal na biznes
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-korfantego-66m2/150623465?clickSource=Standard"])
-!Mieszkanie na Mokotowie, nie na Bemowie
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/wynajme-3-pokojowe-mieszkanie-na-mokotowie-bernardynska-CID3-IDAGut7.html#"])
-!Ktoś szuka mieszkania
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-dlugoterminowe-CID3-IDANcTe.html#"])
-!2800 brzydka kanapa, blisko pętli
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie-blisko-petli/1005479778000910656472209"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie-blisko-petli/1005487377490910656472209"])
-!2200+650=2850
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/bezposrednio-mieszkanie-3-pok-z-miejscem-garazowym-w-cenie-bemowo-CID3-IDAJ5Ey.html#"])
-!2500+400=2900
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-wroclawska-73m2/150390549?clickSource=Standard"])
-!2500+542=3042
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-62-m2-3-oddzielne-pokoje-po-remoncie/1005461655260911063932509"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/bezposrednio-62-m2-3-oddzielne-pokoje-po-remoncie-CID3-IDALKFE.html#"])
-!2750+300=3050
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/do-wynajecia-3-pokoje-67-m2-wroclawska-blisko-wat-CID3-IDAH2g3.html#"])
-!2350+730=3080
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/mieszkanie-powstancow-slaskich-63-CID3-IDAN0Vk.html#"])
-!2300+800=3100
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-na-bemowie-CID3-IDAD2m0.html#"])
-!2500+400=2900
-olx.pl##DIV.offer-wrapper:has(A[href="https://www.otodom.pl/oferta/wynajme-mieszkanie-ul-sowinskiego-ID41nbq.html?"])
-!2500+400=2900
-morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-wroclawska-73m2-mzn2033204064"])
-!2600+300=2900
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/3pok-w-poblizu-ratusza-bemowo-CID3-IDArzOh.html#"])
-!2600+375=2975
-mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bielany, 49 m2"])
 
-!Wejście przez garaż do sutereny, lokal na biznes
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-korfantego-66m2/150623465?clickSource=Standard"])
-!Mieszkanie na Mokotowie, nie na Bemowie
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/wynajme-3-pokojowe-mieszkanie-na-mokotowie-bernardynska-CID3-IDAGut7.html#"])
-!Ktoś szuka mieszkania
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-dlugoterminowe-CID3-IDANcTe.html#"])
-!2800 brzydka kanapa, blisko pętli
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie-blisko-petli/1005479778000910656472209"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie-blisko-petli/1005487377490910656472209"])
-!2200+650=2850
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/bezposrednio-mieszkanie-3-pok-z-miejscem-garazowym-w-cenie-bemowo-CID3-IDAJ5Ey.html#"])
-!2500+400=2900
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-wroclawska-73m2/150390549?clickSource=Standard"])
-!2500+542=3042
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-62-m2-3-oddzielne-pokoje-po-remoncie/1005461655260911063932509"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/bezposrednio-62-m2-3-oddzielne-pokoje-po-remoncie-CID3-IDALKFE.html#"])
-!2750+300=3050
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/do-wynajecia-3-pokoje-67-m2-wroclawska-blisko-wat-CID3-IDAH2g3.html#"])
-!2350+730=3080
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/mieszkanie-powstancow-slaskich-63-CID3-IDAN0Vk.html#"])
-!2300+800=3100
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-na-bemowie-CID3-IDAD2m0.html#"])
-!2500+400=2900
-olx.pl##DIV.offer-wrapper:has(A[href="https://www.otodom.pl/oferta/wynajme-mieszkanie-ul-sowinskiego-ID41nbq.html?"])
-!2500+400=2900
-morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-wroclawska-73m2-mzn2033204064"])
-!2600+300=2900
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/3pok-w-poblizu-ratusza-bemowo-CID3-IDArzOh.html#"])
-!2600+375=2975
-mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bielany, 49 m2"])
-!2200+800=3000
-olx.pl##DIV.offer-wrapper:has(A[href="https://www.otodom.pl/oferta/3-pokoje-z-ogrodkiem-bemowo-ID41j3J.html?"])
-!2400+750=3150
-mieszkania.trovit.pl##.item:has(A[title="Mieszkanie Warszawa Bemowo, Jelonki, Strzelców"])
-!2600+550=3150
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/mieszkanie-70m-3-pokoje-komorka-lok-parking-bemowo-gorczewska-226-CID3-IDAHACC.html#"])
-!2800+380=3180, brak zdjęć
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/bemowo-mieszkanie-wynajem-CID3-IDAANbs.html#"])
-!2600+650=3250
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-+-warszawa-bemowo-stare-gorce-gorczewska/1005478301830911115501509"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-+-warszawa-bemowo-stare-gorce-gorczewska/1005486527300911115501509"])
-mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, Górczewska, 73 m2"])
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-73m2/150575412?clickSource=Standard"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-+-warszawa-bemowo-stare-gorce-gorczewska/1005491115890911115501509"])
-!2800+650=3450 
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/piekne-nowe-mieszkanie-na-bemowie-62m2-dwie-sypialnie-ogrodek-46m2-pierwszy-najemca/1005322627630912427865409"])
-!2800+700=3500
-olx.pl##DIV.offer-wrapper:has(A[href="https://www.otodom.pl/oferta/piekne-3pokojowe-mieszkanie-na-bemowie-os-zamkn-ID41k9E.html?"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/piekne-3pokojowe-mieszkanie-na-bemowie-os-zamkniete-z-miejscem-park-CID3-IDAxXxF.html#"])
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-powstancow-slaskich-65m2/149999131?clickSource=Standard"])
-!2600, osiedle Narwik, od zaraz
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokoje-65m2-bemowo-osiedle-narwik-od-zaraz/1005445544390910522539809"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokoje-65m2-bemowo-osiedle-narwik-od-zaraz/1005482900240910522539809"])
-mieszkania.trovit.pl##.item:has(A[title="3 pokoje 65m2, Bemowo, Osiedle Narwik, od zaraz!"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/3-pokoje-65m2-bemowo-osiedle-narwik-od-zaraz-CID3-IDANEgd.html#"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/3-pokoje-na-bemowie-osiedle-narwik-65m2-od-zaraz-CID3-IDAsCJi.html#"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/warszawabemowoosiedle-narwik65m2-3-pokojeod-zaraz-CID3-IDApJQj.html#"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokoje-65m2-bemowo-osiedle-narwik-od-zaraz/1005487894550910522539809"])
 !Stare mieszkanie na Hery
 gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-58m2-nr-7836-431-omw/1005470475740910469204609"])
 gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/przestronne-mieszkanie-3-pok-58m2-wlasciciel-+-2600zl/1005136045370910512265609"])
 mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, Hery, 58 m2"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/przestronne-mieszkanie-3-pok-58m2-wlasciciel-2600zl-CID3-IDAqi0S.html#"])
-olx.pl##DIV.offer-wrapper:has(A[href="https://www.otodom.pl/oferta/przestronne-mieszkanie-58-m2-3pok-2600zl-ID41Aj2.html?"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/przestronne-mieszkanie-3-pok-58m2-wlasciciel-2600zl-CID3-IDAqi0S.html#"])
+olx.pl##TR.wrap:has(A[href="https://www.otodom.pl/oferta/przestronne-mieszkanie-58-m2-3pok-2600zl-ID41Aj2.html?"])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-hery-58m2/150756580?clickSource=Standard"])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-hery-58m2/150741516?clickSource=Standard"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-hery-58m2-mzn2033967521"])
-!Duplikat jest już na gumtree: https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-+-ul-narwik-3-pok-65-20-m-garaz-balkon-komorka-lokatorska/1005440988490910468572409
+!Duplikaty z domiporta na trovit.pl
+mieszkania.trovit.pl##.item:has-text(Domiporta.pl)
+mieszkania.trovit.pl##.item:has-text(ihouse.pl)
+!2000, Praga Północ, tel. 691 815 261
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-47m-3-pokoje-kuchnia-praga-polnoc-radzyminska-grodzienska-CID3-IDBFTaj.html"])
+!2000, 2 pokoje + salon z aneksem, tel. 535 510 880
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/tanie-mieszkanie-3+pokojowe-niedaleko-lazurowej/1005900673830912388961109"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/tanie-mieszkanie-3-pokojowe-na-bemowie-boczna-lazurowej-CID3-IDBCPui.html"])
+!2200, 41m2, tel. 601 353 941
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-41m-ul-rozlogi-na-bemowie-2018r/1005906200260910471298109"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-41m-ul-rozlogi-na-bemowie-2018r/1005899838100910471298109"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-41m-ul-rozlogi-na-bemowie-2018/1005946155750910471298109"])
+gumtree.pl##DIV.tileV1:has-text(3 pokojowe 41m ul Rozłogi na Bemowie 2018)
+!Wejście przez garaż do sutereny, lokal na biznes, tel. 881 020 338
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-66m2-nr-55330/1005144179520910468702809"])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-korfantego-66m2/150623465?clickSource=Standard"])
+!Dla 3 dziewczyn, lub rodziny, tel. 691 061 079
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3-pokoje-batalionow-chlopskich-dobry-dojazd-CID3-IDAdgZg.html"])
+!Mieszkanie na Mokotowie, nie na Bemowie, tel. 515 646 411
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-3-pokojowe-mieszkanie-na-mokotowie-bernardynska-CID3-IDAGut7.html#"])
+!Mieszkanie na Mokotowie, nie na Bemowie, tel. 721 248 172
+olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/wynajem-mieszkania-mokotow-CID3-IDAUpzx.html"])
+!Falenty/Raszyn, tel. 500 726 162
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/falenty-raszyn-mieszkanie-56m2-CID3-IDBpJsK.html"])
+!Nieaktualne
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3pok-89m2-ul-budy-ID42o3B.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/stylowa-3pok-na-wynajem-ul-budy-ID41Xy1.html"])
+!Mieszkanie w Zielonce, nie na Bemowie, tel. 693 203 796
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3-pokojowe-z-garazem-podziemnym-w-zielonce-CID3-IDBdaos.html"])
+!Mieszkanie w Sulejówku Miłosnej, nie na Bemowie, tel. 533 535 388
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-w-domu-do-wynajecia-sulejowek-milosna-CID3-IDAB74K.html"])
+!Ktoś szuka mieszkania
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-dlugoterminowe-CID3-IDANcTe.html#"])
+!3 studentki szukają mieszkania
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-studentki-szukaja-3-pokojowego-mieszkania-CID3-IDB3fQA.html"])
+!2400, salon z aneksem, tel. 221 024 621
+gumtree.pl##DIV.tileV1:has-text(3 pokoje):has-text(Daszyńskiego):has-text(Okopowa)
+!1850+600=2450, 49m, ul. Sucharskiego, tel. 691 704 249, Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-sucharskiego-8-49m2/150697630?clickSource=Standard
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-sucharskiego-49m2-mzn2033728537"])
+!2500, za małe, tel. 575 600 849
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/2-3-pokojowe-z-duzym-tarasem-na-bemowie-miejsce-garazowe-w-cenie-polecam/1005786328790910610906209"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/2-3-pokojowe-na-bemowie-duzy-taras-miejsce-postojowe-w-garazu-pelna-infrastruktura/1005881709600910610906209"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-z-duzym-tarasem-na-bemowie-do-wynajecia-od-23-go-wrzesnia-CID3-IDBisXn.html"])
+!2500, 57m, Bemowo, Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-57m2/141805211?clickSource=Standard
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-57m2-mzn2031297452"])
+!2500, salon z aneksem, tel. 668 317 733
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-60m2/150915105"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gorczewska-60m2-mzn2034571833"])
+!2600, Bielany, za daleko, tel. 502 126 895
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/bezposrednio-3-pokojowe-na-bielanach-ID42Bhh.html"])
+!2600, salon z aneksem, tel. 601 310 041
+gumtree.pl##DIV.tileV1:has-text(Jana Kazimierza ładne 3 pokoje garaż komórka na mieszkanie lub biuro)!2200+430=2630, 49m, ul. Powstańców Śląskich/Człuchowska, Duplikat jest już na olx: https://www.olx.pl/oferta/3-pokoje-po-remoncie-dla-rodziny-dla-studentow-CID3-IDA2u0e.html#23b76e50ef
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/wynajme-przytulne-49m2-w-miejscu-zacisznym-ID41C1H.html"])
+!2100+550=2650, tylko dla kobit, tel. 691 061 079
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3-pokoje-coopera-blisko-s8-dla-dziewczyn-pracujacych-CID3-IDAdgZg.html#"])
+!2650, bez mebli, tel. 602 445 580
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-soltana-61m2/150926464"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-soltana-61m2-mzn2034561521"])
+!2650, salon z aneksem, tel. 501 100 997
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-52m2-nr-6483-3792-omw/1005897625510911324524509"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-lazurowa-52m2/150932180"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-lazurowa-52m2-mzn2034583394"])
+!2650, tylko dla rodzin z dziećmi, tel. 600 347 361
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-deyny-67m2/150928553"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-kazimierza-deyny-67m2-mzn2034665920"])
+!2650, salon z aneksem, tel. 537 377 152
+gumtree.pl##DIV.tileV1:has-text(na Woli - Idealne dla rodziny z dzieckiem)
+!2350+350=2700, 55m, Bemowo, Duplikat jest już na gumtree: https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-wynajme-od-zaraz-mieszkanie-na-warszawskim-bemowie/1005497132710912111753909
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-wynajme-od-zaraz-na-warszawskim-bemowie-CID3-IDAPCFM.html#"])
+!2700, tel. 607 499 955
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/tanio-3-pokojowe-mieszkanie-na-bemowie-ID41Mff.html"])
+!2700, tel. 509 041 302
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3-pokoje-duzy-balkon-garaz-niedlugo-metro-ID42hv2.html"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gorczewska-62m2-mzn2034543233"])
+!2700, tel. 503 155 300
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-bemowo-park-3-pokoje-64m2-CID3-IDzn8Ex.html"])
+!2700, tel. 602 224 254
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-64m2-nr-8101-431-omw/1005839143290910469204609"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-wroclawska-64m2/150905681"])
+!2700, tel. 501 248 051
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-62m2/150882676"])
+!2700, salon z aneksem, tel. 796 138 432
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3+pokojowe-bemowo/1005942875600911379840309"])
+!2700, tel. 511 220 230
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-3-pok-75-m2-z-garazem-2008r-cena-2700-zl/1005866085210910470081609"])
+!2750, tel. 500 800 606
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-65m2-nr-545-3773-omw/1005822436510912114500009"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-65m2-nr-549-3773-omw/1005847850960912114500009"])
+gumtree.pl##DIV.tileV1:has-text(Mieszkanie Warszawa Bemowo 65m2):has-text(/3773/OMW)
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-edmunda-jana-osmanczyka-65m2/150910403"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-edmunda-jana-osmanczyka-65m2-mzn2034406318"])
+!1950+800=2750, tel. 505 341 317
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-dwupoziomowe-100m2-bezposrednio-CID3-IDBtveH.html"])
+!2100+650=2750, tel. 664 092 739
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/67-m-3-pokoje-warszawa-ul-obroncow-tobruku-fort-bema-CID3-IDBphML.html"])
+!2200+550=2750 za 50m, 55 za m, panie, idz pan w kaktus, tel. 535 445 222
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-warszawa-bemowo-jelonki-3-pok-od-1-sierpnia-CID3-IDAErPb.html"])
+!2200+430=2630 za 49m, 53 za m, panie, idz pan w kaktus, tel. 606 636 191
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-po-remoncie-dla-rodziny-dla-studentow-CID3-IDA2u0e.html"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-sucharskiego-52m2/146770952"])
+!2500+250=2750, tel. 698 096 926
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-na-wynajem-63m-CID3-IDBnMe4.html"])
+!2800 brzydka kanapa, blisko pętli, tel. 601 537 273, 501 537 273
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie-blisko-petli/1005479778000910656472209"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie-blisko-petli/1005487377490910656472209"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie-blisko-petli/1005500567070910656472209"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3-pokojowe-w-dobrej-lokalizacji-z-balkonem-i-tarasem-na-bemowie/1005509374180910656472209"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-w-dobrym-standardzie-blisko-petli-na-bemowie/1005528333800910656472209"])
+gumtree.pl##DIV.tileV1:has-text(Bezpośrednio !!!  3 pokojowe  w dobrej  lokalizacji  z balkonem  i tarasem  na Bemowie)
+gumtree.pl##DIV.tileV1:has-text(3 POKOJOWE   W DOBRYM STANDARDZIE  BLISKO PĘTLI  NA BEMOWIE)
+!2800, tel. 602 230 205
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-osmanczyka-85m2/150919418"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-osmanczyka-85m2-mzn2034540332"])
+!2300+500=2800, tel. 502 202 228
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-53m2-CID3-IDBxNQM.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-bemowo-blisko-wat-CID3-IDBDuE9.html"])
+!2400+400=2800, tel. 605 998 084
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-do-wynajecia-48-m-2-bemowo+jelonki-bezposrednio-od-wlasciciela/1005695507370912110199309"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-do-wynajecia-48-m-2-bemowo-jelonki-bezposrednio-CID3-IDBd7o1.html"])
+!2800, tel. 668 861 330
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-morcinka-84m2/150868057"])
+!2800, tel. 530 999 012
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/do-wynajecia-trzy-pokoje-gorczewska-w-poblizu-ratusza/1005814092620910472763709"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/do-wynajecia-trzy-pokoje-gorczewska-w-poblizu-ratusza/1005797817850910472763709"])
+!2800, 65m, ul. Narwik, Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-ul-narwik-65m2/150698316?clickSource=Standard
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-narwik-65m2-mzn2033728735"])
+!2800, 65m, ul. Narwik, Duplikat jest już na gumtree: https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-+-ul-narwik-3-pok-65-20-m-garaz-balkon-komorka-lokatorska/1005440988490910468572409
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-ul-narwik-65m2/150724902?clickSource=Standard"])
 mieszkania.trovit.pl##.item:has(A[title="Mieszkanie na wynajem, Warszawa, Bemowo, Narwik"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-narwik-65m2-mzn2033752427"])
-!Duplikat jest już na gumtree (tam cena 2800 bez dodatkowych 150): https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/75m-3-pokojowe-parking-5-7-pietrowym-2000r-na-bemowie/1005462002500910471298109
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/wynajem-mieszkania-warszawa-bemowo-CID3-IDwG6PL.html#"])
-!Duplikat jest już na gumtree: https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/75m-3-pokojowe-parking-5-7-pietrowym-2000r-na-bemowie/1005462002500910471298109
-mieszkania.trovit.pl##.item:has(A[title="Mieszkanie na wynajem, Warszawa, Bemowo,..."])
-!Duplikaty z domiporta na trovit.pl
-mieszkania.trovit.pl##.item:has-text(Domiporta.pl)
-!Duplikat jest już na olx (link do otodom): https://www.otodom.pl/oferta/piekne-3-pokoje-w-zielonej-okolicy-na-bemowie-ID41ioL.html?
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-kluczborska-65m2/150550983?clickSource=Standard"])
-morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-kluczborska-65m2-mzn2033526702"])
-!Duplikat jest już na gumtree: https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/75m-3-pokojowe-parking-5-7-pietrowym-2000r-na-bemowie/1005462002500910471298109
-domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-powstancow-slaskich-polczynska-75m2/149268620?clickSource=Standard"])
-!Duplikat jest już na olx: https://www.olx.pl/oferta/65m2-3-pokojowe-garaz-bemowo-gorce-od-zaraz-CID3-IDAjNXP.html#337b72cc85
-morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-65m2-mzn2033851511"])
-!Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-czteropokojowe-warszawa-bemowo-bemowo-rostworowskiego-75m2/150711721?clickSource=Standard
+!2800, 75m, ul. Rostworowskiego, Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-czteropokojowe-warszawa-bemowo-bemowo-rostworowskiego-75m2/150711721?clickSource=Standard
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-rostworowskiego-75m2-mzn2033740790"])
-!Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-ul-narwik-65m2/150698316?clickSource=Standard
-morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-narwik-65m2-mzn2033728735"])
-!Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-sucharskiego-8-49m2/150697630?clickSource=Standard
-morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-sucharskiego-49m2-mzn2033728537"])
-!Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-osmanczyka-85m2/150601238?clickSource=Standard
+!2800, 85m, ul. Osmańczyka, Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-osmanczyka-85m2/150601238?clickSource=Standard
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-osmanczyka-85m2-mzn2033646909"])
-!Duplikat jest już na domiporta: https://www.domiporta.pl/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-57m2/141805211?clickSource=Standard
-morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-57m2-mzn2031297452"])
-!Duplikat jest już na gumtree: https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/75m-3-pokojowe-parking-5-7-pietrowym-2000r-na-bemowie/1005462002500910471298109
+!2200+650=2850, tel. 698 612 217
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-mieszkanie-3-pok-z-miejscem-garazowym-w-cenie-bemowo-CID3-IDAJ5Ey.html#"])
+!2200+700=2900, tel. 570 518 038
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-na-bemowie-wolne-od-29-08-3-pokoje-63-m2-garaz-gratis-CID3-IDB7FYJ.html#"])
+!2300+600=2900, tel. 508 244 848
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/do-wynajecia-bezposrednio-mieszkanie-3-pokojowe-ID41Gfv.html"])
+!2500+400=2900, tel. 629 80 80
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-wroclawska-73m2-mzn2033204064"])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-wroclawska-73m2/150390549"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-arki-bozka-74m2-mzn2034501376"])
+!2500+400=2900, tel. 605 606 555
+olx.pl##TR.wrap:has(A[href="https://www.otodom.pl/oferta/wynajme-mieszkanie-ul-sowinskiego-ID41nbq.html?"])
+!2600+300=2900, tel. 665 041 603
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3pok-w-poblizu-ratusza-bemowo-CID3-IDArzOh.html#"])
+!2400+523=2923, tel. 533 736 203
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/piekne-mieszkanie-z-balkonem-i-tarasem-ID42vR3.html"])
+!2700+250=2950, tel. 501 340 914
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-na-bielanach-CID3-IDBATN0.html"])
+!2800+150=2950, 75m, ul. Powstańców Śląskich/Połczyńska, Duplikat jest już na gumtree (tam cena 2800 bez dodatkowych 150): https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/75m-3-pokojowe-parking-5-7-pietrowym-2000r-na-bemowie/1005462002500910471298109
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajem-mieszkania-warszawa-bemowo-CID3-IDwG6PL.html#"])
+mieszkania.trovit.pl##.item:has(A[title="Mieszkanie na wynajem, Warszawa, Bemowo,..."])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-powstancow-slaskich-polczynska-75m2/149268620?clickSource=Standard"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-powstancow-slaskich-75m2-mzn2027590101"])
-!2450 Duplikat jest już na olx: https://www.olx.pl/oferta/65m2-3-pokojowe-garaz-bemowo-gorce-od-zaraz-CID3-IDAjNXP.html#23b76e50ef
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/65m2-3+pokojowe-2450%252B-opl-licznikowe-bemowo-gorce-garaz/1005241371870911360136309"])
-
-
-morizon.pl##DIV.row--property-list:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-morizon.pl##DIV.row--property-list:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-morizon.pl##DIV.row--property-list:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-morizon.pl##DIV.row--property-list:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-morizon.pl##DIV.row--property-list:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-morizon.pl##DIV.row--property-list:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/75m-3-pokojowe-parking-5-7-pietrowym-2000r-na-bemowie/1005504448420910471298109"])
+!2400+560=2960, tel. 517 529 464
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-do-wynajecia-bemowo-wynajem-ul-kluczborska-w-wa-CID3-IDB7obL.html"])
+!2600+375=2975, tel. 222 996 262
+mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bielany, 49 m2"])
+!2600+380=2980, tel. 605 668 829
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3-pokojowe-z-pieknym-widokiem-bemowo-gorczewska-ID3oB6c.html"])
+!2200+800=3000, tel. 668 814 171
+olx.pl##TR.wrap:has(A[href="https://www.otodom.pl/oferta/3-pokoje-z-ogrodkiem-bemowo-ID41j3J.html?"])
+!2300+700=3000, tel. 601 775 679
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-3-pokoje-2300-CID3-IDBxU6f.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-bemowo-mieszkanie-3-pokoje-CID3-IDBxU6f.html"])
+!2400+600=3000, tel. 605 282 032
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-3-duze-pokoje-osobna-kuchnia-68-m2-blisko-wat-CID3-IDAH2g3.html#"])
+!2400+600=3000, tel. 602 224 254
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-narwik-82m2/150367399"])
+!2400+600=3000, tel. 608 134 049
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/do-wynajecia-3-pokojowe-mieszkanie/1005565810960910805195909"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/do-wynajecia-3-pokojowe-mieszkanie-CID3-IDAXlVd.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/do-wynajecia-bezposrednio-mieszkanie-3-pokojowe-ID35CIo.html"])
+!2500+500=3000, tel. 600 032 184
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-62-m2-3-pokoje-duzy-balkon-pakrk-gorczewska-CID3-IDBuZ5q.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-do-wynajecia-od-zaraz-62m2-3-pokoje-jelonki-bemowo-CID3-IDBw8T5.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/przestronne-3-pok-62-m2-d-balkon-bemowo-CID3-IDBuZ5q.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/przestronne-3-pok-mieszkanie-bemowo-duze-zieleni/1005869624870910476357509"])
+!2500+500=3000, tel. 505 434 184
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/ul-gorczewska-222-62-m2-3-pokoje-oddzielna-kuchnia-2009-bez-prowizji/1005950266310910910975309"])
+!2500+500=3000, tel. 603 862 832
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-do-wynajecia-sokolowska-CID3-IDBJ2Lh.html"])
+!2600+400=3000, tel. 505 141 955
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-63m2-nr-6510/1005957415880912103460009"])
+!2700+300=3000, tel. +48 601 288 907
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-do-wynajecia-CID3-IDBwPov.html"])
+!2300+722=3022, tel. 691 807 873
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/trzypokojowe-mieszkanie-bemowo-osmanczyka-22-CID3-IDBfjRP.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-osmanczyka-22-ciche-3-pokojowe-ustawne-CID3-IDBfjRP.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-osmanczyka-ciche-3-p-dwa-m-postojowe-CID3-IDBfjRP.html"])
+!2500+542=3042, tel. 668 817 222
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-62-m2-3-oddzielne-pokoje-po-remoncie/1005461655260911063932509"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-62-m2-3-oddzielne-pokoje-przestronne/1005819146620911063932509"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/sloneczne-3-oodzielne-pokoje-bezposrednio/1005862097430911063932509"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-3-oddzielne-pokoje-CID3-IDALKFE.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-62-m2-3-oddzielne-pokoje-po-remoncie-CID3-IDALKFE.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-jasne-62-m2-3-oddzielne-pokoje-po-remoncie-CID3-IDBwKov.html"])
+!2450+600=3050, tel. 723 530 233
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/wynajme-3-pokojowe-fort-bema-ul-obroncow-tobruku-ID42Bja.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/do-wynajecia-3-pokojowe-fort-bema-ul-obroncow-tobruku-21b-CID3-IDBCNyQ.html"])
+!2350+730=3080, tel. 502 020 599
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-powstancow-slaskich-63-CID3-IDAN0Vk.html#"])
+!2300+800=3100, tel. 508 494 695
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-na-bemowie-CID3-IDAD2m0.html#"])
+!2400+700=3100, tel. 691 411 402
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/74-m2-ratusz-bemowo-3-pokoje-oddzielna-kuchnia-balkon/1005905847090910756492509"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-3-pokoje-74m2-ratusz-bemowo-oddzielna-kuchnia-bal-CID3-IDB5gLG.html"])
+!2500+600=3100, tel. 799 121 207
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/2-pokoje%252Bgabinet-9-m2-62-m2-%252B-miejsce-parkingowe-ul-gorczewska-200-z-pieknym-widokiem-na-centrum/1005955094280910472367609"])
+!2600+500=3100, tel. 664 206 806
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/wynajme-3-pokojowe-umeblowane-mieszkanie-bemowo-ID3KKru.html"])
+!2600+500=3100, tel. 791 217 460/791 275 530/(22)629 80 80
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-+-warszawa-bemowo-jelonki-gorczewska/1005787861730911115501509"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-+-warszawa-bemowo-jelonki-gorczewska/1005833380400911115501509"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-+-warszawa-bemowo-jelonki-gorczewska/1005855783160911115501509"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-62m2/150871433"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-62m2/150866641"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gorczewska-62m2-mzn2034535757"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gorczewska-62m2-mzn2034501060"])
+gumtree.pl##DIV.tileV1:has-text(Mieszkanie - Warszawa > Bemowo > Jelonki > Górczewska)
+!2650+450=3100, tel. 606 255 156
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-na-wynajem-warszawa-3-pokoje/1005603189700911493880209"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-na-wynajem-warszawa-3-pokoje/1005861225050911493880209"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-lazurowa-52m2/150811614"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-lazurowa-52m2-mzn2033025973"])
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/mieszkanie-na-wynajem-warszawa-3-pokoje-ID41SsB.html"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-lazurowa-52m2/150916311"])
+!2700+400=3100, tel. 602 224 254
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-62m2/150366417"])
+!2500+630=3130, tel. 506 148 332
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/mieszkanie-3-pokojowe-warszawa-bemowo-jelonki-ID42xwl.html"])
+!2400+750=3150, tel. 226 924 804
+mieszkania.trovit.pl##.item:has(A[title="Mieszkanie Warszawa Bemowo, Jelonki, Strzelców"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/strzelcow-bemowo-jelonki/1005349042230912102090009"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/strzelcow-bemowo-jelonki/1005349042230912102090009"])
+!2550+600=3150, tel. 602 207 541
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-3-pokoje-63m-CID3-IDB2XBq.html"])
+!2800+350=3150, tel. 502 129 507
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-2-lub-3-pokoje-do-wynajecia-na-bemowie-CID3-IDBJiXj.html"])
+!2600+550=3150, tel. 607 200 401
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-70m-3-pokoje-komorka-lok-parking-bemowo-gorczewska-226-CID3-IDAHACC.html#"])
+!2650+500=3150, tel. 699 535 822
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3+pokojowe-mieszkanie-przy-ulicy-gorczewskiej/1005704063000912453516609"])
+!2800+380=3180, brak zdjęć, tel. 791 624 620
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-mieszkanie-wynajem-CID3-IDAANbs.html#"])
+!2100+1100=3200, tel. 605 621 088
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/bemowo-3-pokoje-ID42uhY.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-bemowo-CID3-IDBxZnQ.html"])
+!2500+700=3200, tel. 505 055 159
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-60m2-bemowo-park-CID3-IDBx65w.html"])
+!2700+500=3200, tel. 602 224 254
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-62m2-nr-7882-431-omw/1005520616660910469204609"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-62m2/150776939"])
+!2700+500=3200, tel. 510 135 844
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-3-pokoje-CID3-IDBoY16.html"])
+!2700+500=3200, tel. 693 781 064
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3-pokojowe-na-woli-miejsce-postojowe-CID3-IDBbRyT.html"])
+!2700+500=3200, tel. 605 668 829
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-bemowo-gorczewska-z-pieknym-widokiem/1005513143780911242918109"])
+!2600+630=3230, tel. 692 441 471
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-pelczynskiego-wynajem-mieszkania-CID3-IDBfdbl.html"])
+!2500+750=3250, tel. 605 406 529
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-CID3-IDBD7Dy.html"])
+!2600+650=3250, tel. 791 217 460
+mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, Górczewska, 73 m2"])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-73m2/150575412?clickSource=Standard"])
+gumtree.pl##DIV.tileV1:has-text(Mieszkanie - Warszawa > Bemowo > Stare Górce > Górczewska)
+!2600+650=3250, tel. 601 370 392
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-na-wynajem-70m-powstancow-slaskich-ewenshiraz-wat/1005633522410911441327609"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3p-mieszkanie-70m-powstancow-slaskich-bemowo-wat-3-rooms-flat-for-rent/1005633522410911441327609"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-na-wynajem-70m-powstancow-slaskich-ewenshiraz-CID3-IDB64tc.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3p-na-wynajem-70m-powstancow-slaskich-bemowo-CID3-IDB64tc.html"])
+!3270, tel. 537 996 544
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/swietlikow-8-bemowo-3-pokoje-z-ogrodkiem-0-pr/1005568371330911466970009"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/swietlikow-8-bemowo-3-pokoje-garaz-taras-ogrodek-bez-prowizji-CID3-IDAXdSD.html"])
+!2700+600=3300, tel. 602 224 254
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-powstancow-slaskich-70m2/150367751"])
+!2550+750=3300, tel. 660 746 493
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-77m2-3-pokoje-osobna-kuchnia-bemowo+ratusz/1005896041790912466359609"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/warszawa-bemowo-77m2-3-pokoje-i-osobna-kuchnia-CID3-IDBCoMf.html"])
+!2800+560=3360, tel. 661 565 676
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-CID3-IDBhKuv.html"])
+!2200+980+220=3400
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-swietlikow-75m2-mzn2033014016"])
+!2400+600=3000, tel. 691 411 402
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-na-bemowie-CID3-IDB5gLG.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-na-bemowie-gorce-CID3-IDB5gLG.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-3pok-na-bemowie-gorce-CID3-IDB5gLG.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3-pokoje-74m2-ratusz-bemowo-oddzielna-kuchnia-balkon-CID3-IDB5gLG.html"])
+!2700+700=3400, tel. 504 000 897
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-na-bemowie-69-m2-ewen-shiraz-CID3-IDBDJP4.html"])
+!2800+650=3450 
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/piekne-nowe-mieszkanie-na-bemowie-62m2-dwie-sypialnie-ogrodek-46m2-pierwszy-najemca/1005322627630912427865409"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/piekne-nowe-mieszkanie-na-bemowie-62m2-dwie-sypialnie-ogrodek-46m2-pierwszy-najemca/1005322475730912427865409"])
+!2700+770=3470, tel. (22) 629 80 80
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-waclawa-borowego-68m2/150866294"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-waclawa-borowego-68m2-mzn2034490442"])
+!2500+1000=3500, tel. 604 579 867
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-bezposrednio-3-pokojowe-mieszkanie-na-jelonkach/1005819103530911476649009"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-bezposrednio-3-pokojowe-mieszkanie-na-jelonkach/1005819316190911476649009"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-do-wynajecia-68-m2-3-pokoje-blisko-hala-wola-od-1-10-CID3-IDBiMyf.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-bezposrednio-3-pokojowe-mieszkanie-na-jelonkach-CID3-IDBuPQI.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/wynajme-3-pokojowe-mieszkanie-na-jelonkach-ID42yUT.html"])
+!2750+750=3500, tel. 509 140 651
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/apartament-na-bemowie-73m2-wlasciciel-ID3CPm0.html"])
+!2800+700=3500
+olx.pl##TR.wrap:has(A[href="https://www.otodom.pl/oferta/piekne-3pokojowe-mieszkanie-na-bemowie-os-zamkn-ID41k9E.html?"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/piekne-3pokojowe-mieszkanie-na-bemowie-os-zamkniete-z-miejscem-park-CID3-IDAxXxF.html#"])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-powstancow-slaskich-65m2/149999131?clickSource=Standard"])
+!2800+700=3500, tel. 604 525 510
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-75+metrowe-luksusowe-ewen-shiraz-ostatnie-pietro-taras/1005901731350911042175309"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-75-metrowe-luksusowe-ewen-shiraz-pelczynskiego-CID3-IDBxg1E.html"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-pelczynskiego-75m2/150929756"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-pelczynskiego-75m2-mzn2034572014"])
+!2800+730=3530, tel. 607 220 983
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3-pok-apartament-przy-parku-fort-bema-64-m-ID42dPE.html"])
+!2800+800=3600, tel. 660 689 750
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-do-wynajecia-CID3-IDB56XA.html"])
+!2800+800=3600, tel. 502 161 858
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/przestronne-jasne-mieszkanie-85m-bemowo-CID3-IDBuGrZ.html"])
+!2800+820=3620, tel. 602 367 429
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-bemowo-3-pokoje-64-5mk-taras-16mk-CID3-IDBFHls.html"])
 
 
 
 
 !Jest w arkuszu, numer 3
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/bemowo-62m2-3-pok-10-min-do-metra-garaz-w-cenie-od-1-08-CID3-IDAi5Ux.html#"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/ul-osmanczyka-62m2-3-pok-10-min-do-metra-garaz-w-cenie/1005608198200911247465709"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bemowo-62m2-3-pok-10-min-do-metra-garaz-w-cenie-CID3-IDAi5Ux.html"])
 mieszkania.trovit.pl##.item:has(A[title="Mieszkanie do wynajęcia (woj. Mazowieckie)...."])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-edmunda-jana-osmanczyka-62m2/150646995?clickSource=Standard"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-edmunda-jana-osmanczyka-62m2-mzn2033687188"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/ul-osmanczyka-62m2-3-pok-10-min-do-metra-garaz-w-cenie/1005711105950911247465709"])
 !Jest w arkuszu, numer 4
 gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokoje-z-osobna-kuchnia-na-jelonkach/1005363745170911404720309"])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-rozlogi-65m2/150339422?clickSource=Standard"])
@@ -154,16 +403,22 @@ morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wyn
 !Jest chyba w arkuszu, numer 5, chyba nieaktualne, link z arkusza nie działa
 mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, ul. Narwik, 65 m2"])
 !Jest w arkuszu, numer 6
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/duze-3-pokojowe-z-widna-oddzielna-kuchnia-na-bemowie-w-nowszym-budynku/1005481245740910811818709"])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/duze-3-pok-rozkladowe-z-widna-kuchnia-i-balkonem-na-bemowie-CID3-IDyVROh.html#"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/duze-3-pok-rozkladowe-z-widna-kuchnia-i-balkonem-na-bemowie-CID3-IDyVROh.html#"])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-dywizjonu-303-70m2/150138537?clickSource=Standard"])
+gumtree.pl##DIV.tileV1:has-text(3 pokojowe, rozkładowe mieszkanie z widną oddzielną kuchnią do której jest wejście z niezamykanego salonu)
+!Jest w arkuszu, numer 7
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-jana-olbrachta-55m2-mzn2033748019"])
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3pok-w-poblizu-ratusza-bemowo-ID3HtM8.html"])
 !Jest w arkuszu, numer 8
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-czteropokojowe-warszawa-bemowo-68m2/139124282?clickSource=Standard"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-68m2-mzn2031297453"])
 !Jest w arkuszu, numer 9; cena 2400, tu już nieaktualne: https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/3+pokojowe-mieszkanie-bemowo/1005417366930910468780809
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-bemowo-CID3-IDAGHdf.html#"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-bemowo-CID3-IDAGHdf.html#"])
 !Jest w arkuszu, numer 10
 mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, gen. Bolesława Szareckiego,..."])
-olx.pl##DIV.offer-wrapper:has(A[href^="https://www.olx.pl/oferta/przestronne-mieszkanie-bemowo-CID3-IDAEXAA.html#"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/przestronne-mieszkanie-bemowo-CID3-IDAEXAA.html#"])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gen-boleslawa-szareckiego-63m2/150729042?clickSource=Standard"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/przestronne-mieszkanie-bemowo/1005440615740911317340009"])
 !Jest w arkuszu, numer 11
 gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-przy-forcie-bema/1005423416650911334147309"])
 mieszkania.trovit.pl##.item:has(A[title="Mieszkanie na wynajem, Warszawa, Bemowo, gen...."])
@@ -171,18 +426,21 @@ mieszkania.trovit.pl##.item:has(A[title="Mieszkanie na wynajem, Warszawa, Bemowo
 mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, ul. Gen. Bolesława..."])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-ul-gen-boleslawa-szareckiego-64m2/150738242?clickSource=Standard"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gen-boleslawa-szareckiego-63m2-mzn2033964940"])
+!Jest w arkuszu, numer 12
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-3-duze-pokoje-kuchnia-wc-lazienka-+-gratis-+-lacznie-68-m2-blisko-uczelnia-wat/1005126166560910552342009"])
 !Jest w arkuszu, numer 13
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-ul-rozlogi-3pok-55m2-dwa-balkony-garaz-nowo-oddany-apartamentowiec-na-osiedlu-stella/1005472070490910473227409"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-ul-rozlogi-3pok-55m2-dwa-balkony-garaz-nowo-oddany-apartamentowiec-na-osiedlu-stella/1005484026080910473227409"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-ul-rozlogi-3pok-55m2-dwa-balkony-garaz-nowo-oddany-apartamentowiec-na-osiedlu-stella/1005472070490910473227409"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-ul-rozlogi-3pok-55m2-dwa-balkony-garaz-nowo-oddany-apartamentowiec-na-osiedlu-stella/1005484026080910473227409"])
+gumtree.pl##DIV.tileV1:has-text(Bemowo ul Rozłogi 3pok 55m2 Dwa balkony Garaż. Nowo oddany)
 mieszkania.trovit.pl##.item:has(A[title="Mieszkanie na wynajem, Warszawa, Bemowo, Rozłogi"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-rozlogi-55m2-mzn2033982010"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-rozlogi-55m2-mzn2032945662"])
 !Jest w arkuszu, numer 14
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-w-zielonym-terenie-na-bemowie/1005478746630910656472209"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-w-zielonym-terenie-na-bemowie/1005487799960910656472209"])
+gumtree.pl##DIV.tileV1:has-text(3 POKOJOWE    W ZIELONYM   TERENIE   NA BEMOWIE)
 !Jest w arkuszu, numer 15
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/65m2-3+pokojowe-2450-zl-%252B-opl-licznikowe-bemowo-garaz/1005440988510911360136309"])
-gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/przestronne-mieszkanie-bemowo/1005440615740911317340009"])
+gumtree.pl##DIV.tileV1:has-text(3-pokojowe mieszkanie w okolicy Lazurowa/Górczewska.)
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/65m2-3-pokojowe-garaz-bemowo-gorce-od-zaraz-CID3-IDAjNXP.html#"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-65m2-mzn2033851511"])
 !Jest w arkuszu, numer 16
 gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-bezposrednio-mieszkanie-bemowo-hery-11-od-zaraz/1005395080970912227898809"])
 !Jest w arkuszu, numer 17
@@ -191,22 +449,219 @@ mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, Morcinka, 84 m2"])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-morcinka-84m2/150751409?clickSource=Standard"])
 morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-morcinka-84m2-mzn2033975592"])
 !Jest w arkuszu, numer 18
-olx.pl##DIV.offer-wrapper:has(A[href="https://www.otodom.pl/oferta/3-pokojowe-mieszkanie-na-bemowie-ID3SFrG.html?"])
+olx.pl##TR.wrap:has(A[href="https://www.otodom.pl/oferta/3-pokojowe-mieszkanie-na-bemowie-ID3SFrG.html?"])
 mieszkania.trovit.pl##.item:has(A[title="Warszawa, Bemowo, Karola Miarki, 63 m2"])
 domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-karola-miarki-63m2/150725013?clickSource=Standard"])
-
-
-!olx.pl##A.linkWithHash[href^="https://www.olx.pl/oferta/mieszkanie-w-domu-do-wynajecia-sulejowek-milosna-CID3-IDAB74K.html#"]:style(background-color: #ffee00 !important)
-!olx.pl##A.linkWithHash[href^="https://www.olx.pl/oferta/mieszkanie-wynajem-CID3-IDA2NjJ.html#"]:style(background-color: #ffee00 !important)
-!olx.pl##A.linkWithHash[href^="https://www.olx.pl/oferta/3-pokojowe-z-aneksem-warszawa-bemowo-CID3-IDzZLyt.html#"]:style(background-color: #ffee00 !important)
-!olx.pl##A.linkWithHash[href^="https://www.otodom.pl/oferta/wynajme-przytulne-49m2-w-miejscu-zacisznym-ID41C1H.html?"]:style(background-color: #ffee00 !important)
-!olx.pl##A.linkWithHash[href^="https://www.otodom.pl/oferta/3-pokoje-68m2-warszawa-bemowo-ul-zeusa-ID3Zun2.html?"]:style(background-color: #ffee00 !important)
-!olx.pl##A.linkWithHash[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-3-pokoje-kuchnia-lazienka-warszawa-arkuszowa-135-3-CID3-IDAHbxW.html#"]:style(background-color: #ffee00 !important)
-
-olx.pl##DIV.offer-wrapper:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-olx.pl##A.linkWithHash[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"]:style(background-color: #ffee00 !important)
-mieszkania.trovit.pl##.item:has(A[title="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-mieszkania.trovit.pl##.item:has(A[title="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-mieszkania.trovit.pl##.item:has(A[title="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-domiporta.pl##LI.grid-item:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
-morizon.pl##DIV.row--property-list:has(A[href="HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/tanio-trzypokojowe-mieszkanie-na-bemowie/1005455363820911379840309"])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-karola-miarki-63m2/150765089?clickSource=Standard"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-karola-miarki-63m2-mzn2033987916"])
+!Jest w arkuszu, numer 19
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/eleganckie-3-pokojowe-mieszkanie/1005471438790910468790109"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/eleganckie-3-pokojowe/1005558365160910468790109"])
+gumtree.pl##DIV.tileV1:has-text(Przytulne 3 pokojowe mieszkanie o podwyższonym standardzie (piętro 5 z 6, 55m2) i znakomitym rozkładzie w budynku apartamentowym, osiedle)
+!Jest w arkuszu, numer 20
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-65m2/150623876?clickSource=Standard"])
+mieszkania.trovit.pl##.item:has(A[title="2 600 zł 3 pokoje 65m2, Bemowo, Osiedle Narwik,..."])
+mieszkania.trovit.pl##.item:has(A[title="3 pokoje 65m2, Bemowo, Osiedle Narwik, od zaraz!"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-65m2-bemowo-osiedle-narwik-od-zaraz-CID3-IDANEgd.html#"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-na-bemowie-osiedle-narwik-65m2-od-zaraz-CID3-IDAsCJi.html#"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/warszawabemowoosiedle-narwik65m2-3-pokojeod-zaraz-CID3-IDApJQj.html#"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-65m2-nr-7543-431-omw/1005140714400910469204609"])
+gumtree.pl##DIV.tileV1:has-text(3 pokoje 65m2, Bemowo, Osiedle Narwik, od zaraz !!)
+!Jest w arkuszu, numer 21
+mieszkania.trovit.pl##.item:has(A[title="Wynajem mieszkania 4-pokoje Warszawa Bemowo"])
+!Jest w arkuszu, numer 22
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/piekne-3-pokoje-w-zielonej-okolicy-na-bemowie-ID41ioL.html"])
+domiporta.pl##LI.grid-item:has(A[href="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-kluczborska-65m2/150550983?clickSource=Standard"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-kluczborska-65m2-mzn2033526702"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3+pokojowe-balkon-parking-bemowo/1005504756160911404720309"])
+!Jest w arkuszu, numer 23
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-z-aneksem-warszawa-bemowo-CID3-IDzZLyt.html#"])
+!Jest w arkuszu, numer 24
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-3-pokojowe-bemowo-CID3-IDzedmV.html#"])
+!Jest w arkuszu, numer 25
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-3-pokoje-kuchnia-lazienka-warszawa-arkuszowa-135-3-CID3-IDAHbxW.html#"])
+!Jest w arkuszu, numer 26
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-bezposrednio-na-bemowie-CID3-IDADyeK.html#"])
+!Jest w arkuszu, numer 27
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkania-bemowo-CID3-IDAwZgt.html#"])
+!Jest w arkuszu, numer 28
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-3-pok-75-m2-z-garazem-2008r-cena-2700-zl/1005529456970910470081609"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-szczotkarska-75m2/149082014"])
+!Jest w arkuszu, numer 29
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/62m-3-pokojowe-1-3p-ul-doroszewskiego-na-bemowie/1005514397660910471298109"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/62m-3-pokojowe-1-3p-ul-doroszewskiego-na-bemowie/1005597794440910471298109"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/62m-3-pokojowe-1-3p-ul-doroszewskiego-na-bemowie/1005620901760910471298109"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/62m-3-pokojowe-1-3p-ul-doroszewskiego-na-bemowie/1005650887700910471298109"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-doroszewskiego-62m2-mzn2033008583"])
+gumtree.pl##DIV.tileV1:has-text(62m 3 pokojowe 1/3p ul Doroszewskiego na Bemowie)
+!Jest w arkuszu, numer 30, tel. 530 133 011
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-niezalezne-pokoje-bemowo/1005507695860912439783809"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-niezalezne-pokoje-nowe-bemowo/1005506210510912439832209"])
+!Jest w arkuszu, numer 31
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-wynajme-od-zaraz-mieszkanie-na-warszawskim-bemowie/1005497132710912111753909"])
+!Jest w arkuszu, numer 32
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-3-pokojowe-72-mkw-czyste-na-bemowie-warszawa/1005531736790912441627709"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/trzypokojowe-mieszkanie-bemowo/1005626613610912413305309"])
+!Jest w arkuszu, numer 33
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/trzypokojowe-mieszkanie-65-m-warszawa-bemowo-ID416WR.html"])
+!Jest w arkuszu, numer 34
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/mieszkanie-do-wynajecia-3-pokoje-52-m-ID41L9e.html?"])
+!Jest w arkuszu, numer 35
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-wynajme-mieszkanie-na-woli-CID3-IDAXVJt.html"])
+!Jest w arkuszu, numer 36
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-trzypokojowe-bemowo-CID3-IDAXt0F.html"])
+!Jest w arkuszu, numer 37
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-3+pokojowe-82m2-bemowo/1004528673650910939984309"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3-pokojowe-82m-bemowo-CID3-IDz4gyY.html"])
+!Jest w arkuszu, numer 38
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-3-pokojowe-gorczewska-CID3-IDAlrih.html"])
+!Jest w arkuszu, numer 39
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3-pokoje-68m2-warszawa-bemowo-ul-zeusa-ID3Zun2.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3+pokoje-68m2-warszawa+bemowo-ul-zeusa/1004912418430910668464009"])
+!Jest w arkuszu, numer 40
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/bemowo-obroncow-tobruku-64m2-przy-parku-ID39dBQ.html"])
+!Jest w arkuszu, numer 41
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-3-pokoje-bemowo-wat-60-m-dobra-lokalizacja-CID3-IDB06WJ.html"])
+!Jest w arkuszu, numer 42
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-mieszkanie-56-m2-3-pokoje-w-zielonej-okolicy-fortu-bema-CID3-IDAxTv9.html"])
+!Jest w arkuszu, numer 43
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/bezposrednio-3-pok-cena-z-garazem-i-komorka-ID41gXV.html"])
+!Jest w arkuszu, numer 44
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-w-apartamentowcu-56-m2-bemowo-bezposrednio-CID3-IDAwv5d.html"])
+!Jest w arkuszu, numer 45
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-osobne-pokoje-bemowo-CID3-IDAQWug.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-niezalezne-pokoje-nowe-bemowo-CID3-IDAQJ3o.html"])
+!Jest w arkuszu, numer 46
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/wynajme-mieszkanie-3-pokoje-rozstawne-ID2CTbi.html"])
+!Jest w arkuszu, numer 47
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-mieszkanie-do-wynajecia-na-jelonkach/1005597480130912446095809"])
+!Jest w arkuszu, numer 48
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3-pokojowe-mieszkanie-bemowo-ul-lazurowa-wynajme-ID41QLw.html"])
+!Jest w arkuszu, numer 49
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wat-kaliskiego-3-oddzielne-pokoje-po-generalnym-remoncie/1005608559640910472698509"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-oddzielne-pokoje-kaliskiego-wat-po-generalnym-remoncie-CID3-IDB2PyX.html"])
+!Jest w arkuszu, numer 50, tel. 699 546 227
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/borowego-8-jelonki-3-pokoje-balkon-0-prowizji-CID3-IDB3p7b.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/borowego-8-jelonki-3-pokoje-balkon-0-prowizji/1005618504280911466970009"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-waclawa-borowego-60m2-mzn2034403714"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-65m2-bemowo-cicha-okolica-od-zaraz-CID3-IDB9qh3.html"])
+gumtree.pl##DIV.tileV1:has-text(3 pokoje 65m2, Bemowo, Osiedle Narwik, cicha okolica !)
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-na-bemowie-po-remoncie-CID3-IDBevzE.html"])
+!Jest w arkuszu, numer 51, tel. 600 373 837
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-bemowo-ulica-doroszewskiego-CID3-IDB3Kcu.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-w-zielonej-okolicy-CID3-IDB3Jr6.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-3-pokoje/1005617283230912447831809"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokoje-przy-petli-gorczewska/1005617102260910971261709"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokoje-65m2-na-zielonym-bemowie/1005717336460910971261709"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-65m-bemowo-przy-petli-gorczewska-CID3-IDBewHF.html"])
+!Jest w arkuszu, numer 52, 530 999 012
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/do-wynajecia-trzy-pokoje-na-gorczewskiej-w-poblizu-ratusza/1005641035030910472763709"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gorczewska-62m2/150818993"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gorczewska-62m2-mzn2034404240"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/do-wynajecia-trzy-pokoje-na-gorczewskiej-w-poblizu-ratusza/1005699418690910472763709"])
+!Jest w arkuszu, numer 53
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokoje-tuz-przy-fortach-bema-2-garaze/1005622183180911232439909"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokoje-tuz-przy-fortach-bema-2-garaze-CID3-IDB4cSr.html"])
+!Jest w arkuszu, numer 54
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-osmanczyka-85m2/150601238"])
+!Jest w arkuszu, numer 55
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-mjr-henryka-sucharskiego-50m2/148323911"])
+!Jest w arkuszu, numer 56
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-57m2/141805211"])
+!Jest w arkuszu, numer 57
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-szeligowska-67m2-mzn2033018802"])
+!Jest w arkuszu, numer 58
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gorczewska-65m2-mzn2033516265"])
+!Jest w arkuszu, numer 59
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-3-pokojowe-mieszkanie-warszawa-bemowo-ul-lazurowa-CID3-IDB6C4Z.html"])
+!Jest w arkuszu, numer 60
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-trzypokojowe-mieszkanie-70-m-2-powstancow-slaskich-1/1005637975220910660539509"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-trzypokojowe-mieszkanie-70-m-2-powstancow-slaskich-1/1005633347760910660539509"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-trzypokojowe-mieszkanie-70-m-2-powstancow-slaskich-1/1005629128510910660539509"])
+!gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-trzypokojowe-mieszkanie-70-m-2-powstancow-slaskich-1/1005654693560910660539509"])
+gumtree.pl##DIV.tileV1:has-text(Wynajmę trzypokojowe mieszkanie , 70 m 2 , Powstańców Śląskich 1)
+!Jest już w arkuszu, numer 61
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-CID3-IDB9bKd.html"])
+!Jest już w arkuszu, numer 62
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-na-bemowie-przy-parku/1005695392710912453008609"])
+!Jest już w arkuszu, numer 63, tel. 602 624 594
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/jelonki-synow-pulku-50-m-kw-3-pokoje-5-pietro-winda-balkon-bezposrednio/1005204229680910660227809"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/jelonki-synow-pulku-50-m-kw-3-pokoje-5-pietro-bezposrednio-CID3-IDzy1DR.html"])
+!Jest już w arkuszu, numer 64, tel. 502 981 141 (właściciel)/516 793 207 (pośrednik)
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/ladne-mieszkanie-do-wynajecia-3-pokoje-balkon-warszawa-CID3-IDyD6DW.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-oddzielne-pokoje-na-bemowie/1005840664980912108160109"])
+!Jest już w arkuszu, numer 65
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/trzy-pokoje-na-bemowie-ID3K5PG.html"])
+!Jest już w arkuszu, numer 66, tel. 501 223 380
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-wynajme-warszaw-bemowo-64-m-CID3-IDAG8wf.html"])
+!Jest już w arkuszu, numer 67, tel. 501 164 702/692 706 907/601 353 941
+!https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/72m-osobne-3-pokoje-plus-aneks-jadalny-i-ogrodek-ul-szwankowskiego-na-bemowie-blisko-wat/1005717757530910471298109
+!https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/warszawa-bemowo-szwankowskiego-72m2-3-pokoje/1005718692110912101200009
+!https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/72m2-3+pokojowe-z-ogrodkiem-jelonki-od-zaraz/1005710172840911360136309
+!https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/72m2-3+pokojowe-z-ogrodkiem-jelonki-od-zaraz/1005702579990911360136309
+!https://www.olx.pl/oferta/72m2-3-pokojowe-z-ogrodkiem-jelonki-od-zaraz-CID3-IDBeP3u.html#23b76e50ef
+gumtree.pl##DIV.tileV1:has-text(72m2 / 3-pokojowe z ogródkiem / Jelonki od zaraz)
+gumtree.pl##DIV.tileV1:has-text(72m2 3-pokojowe z ogródkiem! Jelonki / od zaraz)
+gumtree.pl##DIV.tileV1:has-text(Szwankowskiego):has-text(72m)
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/72m2-3-pokojowe-z-ogrodkiem-jelonki-od-zaraz-CID3-IDBeP3u.html"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-eugeniusza-szwankowskiego-72m2-mzn2033988075"])
+!Jest już w arkuszu, numer 70, tel. 504 228 347
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-63m-mieszkanie-na-bemowo-jelonki-CID3-IDBnzCl.html"])
+!Jest już w arkuszu, numer 71, tel. 604 087 000
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/do-wynajecia-3-pokoje-obroncow-tobruku-fort-bema-CID3-IDBneE1.html"])
+!Jest już w arkuszu, numer 72, tel. 607 499 063
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3-pokojowe-mieszkanie-do-wynajecia-bemowo-ID3C8nC.html"])
+!Jest już w arkuszu, numer 73, tel. 733 366 329
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-3-pokojowe-mieszkanie-na-jelonkach-CID3-IDBkRMN.html"])
+!Jest już w arkuszu, numer 74, tel. 503 101 036
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-od-zaraz-4-pokojowe-mieszkanie-w-bloku-na-bemowie-gorce-CID3-IDBlgmw.html"])
+!Jest już w arkuszu, numer 75, tel. 883 989 860
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/mieszkanie-warszawa-bemowo-70m2-nr-39477-3376-omw/1005856541170910770622709"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-gustawa-morcinka-70m2/150913540"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-gustawa-morcinka-70m2-mzn2034560048"])
+!Jest już w arkuszu, numer 76, tel. 518 005 530
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/przestronne-trzypojowe-mieszkanie-na-bemowie/1005847980070911386524409"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/przestronne-trzypojowe-na-bemowie/1005864100300911386524409"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/ciche-dobrze-skomunikowane-mieszkanie-w-budynku-z-2008-roku-CID3-IDBoJpB.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/przestronne-trzypokojowe-z-miejscem-parkingowym/1005886225840911386524409"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-narwik-65m2/150871034"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-narwik-64m2-mzn2034533332"])
+!Jest już w arkuszu, numer 77, tel. 601 989 696
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pok-mieszkanie-na-jelonkach-w-niskim-bloku-dobrze-wyposazone-2000%252Bok-600zl/1005842515860910941122809"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pok-mieszkanie-na-jelonkach-w-niskim-bloku-wyposazone-2000-ok-650-CID3-IDBs6jC.html"])
+!Jest już w arkuszu, numer 78, tel. 515 745 644
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/poddasze-3-pokoje-miejsce-parkingowe/1005834350820911200129409"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/poddasze-3-pokojowe-miejsce-postojowe-CID3-IDBuoBd.html"])
+!Jest już w arkuszu, numer 79, tel. 662 656 930
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bemowo-wynajem-umeblowane-trzypokojowe-blisko-komunikacji-miejskiej/1005823775360910469549009"])
+!Jest już w arkuszu, numer 80, tel. 790 300 195
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/3-pokojowe-mieszkanie-na-bemowie-jelonki-CID3-IDBxiYw.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/bezposrednio-3-pokojowe-mieszkanie-na-bemowie-jelonki-CID3-IDBxiYw.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3+pokojowe-mieszkanie-na-bemowie-jelonki/1005867514790912465143309"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/bezposrednio-3+pokojowe-mieszkanie-na-bemowie-jelonki/1005867514790912465143309"])
+!Jest już w arkuszu, numer 81, tel. 794 010 089
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/3-pokojowe-mieszkanie-dla-studentow-lub-rodziny-ID42ofF.html"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-kazubow-60m2/150901946"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-kazubow-60m2-mzn2034560597"])
+!Jest już w arkuszu, numer 82, tel. 501 779 111
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/wynajme-52m-3-pok-z-aneksem-taras-10m-ogrodek-50m-2p-lazurowa14e-CID3-IDBuGm1.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/wynajme-52m-3-pok-z-aneksem-taras-10m-ogrodek-50m-2p-lazurowa14e/1005886390650911066460609"])
+!Jest już w arkuszu, numer 83, tel. 509 344 095
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/mieszkanie-wynajem-CID3-IDA2NjJ.html"])
+!Jest już w arkuszu, numer 84, tel. 668 706 355/668 893 601
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-oddzielne-pokoje-oddzielna-kuchnia-2-lazienki-super-lokalizacja-+bemowo-pirenejska-62-m2/1005898241600912456591609"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-pirenejska-62m2/150932589"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-pirenejska-62m2-mzn2034583873"])
+!Jest już w arkuszu, numer 85, tel. 600 072 238
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/mieszkanie-3-pokojowe-ul-czumy-bemowo-ID42fJa.html"])
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/mieszkanie-3-pokojowe-ul-czumy-2-bemowo-ID42fJa.html"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/atrakcyjne-3pokojowe-mieszkanie-ul-czumy-2-bemowo/1005852911570911472582109"])
+domiporta.pl##LI.grid-item:has(A[href^="/nieruchomosci/wynajme-mieszkanie-trzypokojowe-warszawa-bemowo-waleriana-czumy-75m2/150876824"])
+morizon.pl##DIV.row--property-list:has(A[href="https://www.morizon.pl/oferta/wynajem-mieszkanie-warszawa-bemowo-waleriana-czumy-75m2-mzn2034539094"])
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/3-pokojowe-ul-czumy-2-bemowo-blisko-wat/1005908891660911472582109"])
+!Jest już w arkuszu, numer 89, tel. 782 054 555
+gumtree.pl##DIV.tileV1:has(A[href="/a-mieszkania-i-domy-do-wynajecia/bemowo/widne-przestronne-3-oddzielne-pok-garaz-taras/1005867186340912401050009"])
+olx.pl##TR.wrap:has(A[href^="https://www.olx.pl/oferta/widne-przestronne-3-oddzielne-pok-garaz-taras-super-cena-CID3-IDByPLW.html"])
+!Jest już w arkuszu, numer 90, tel. 601 356 624
+olx.pl##TR.wrap:has(A[href^="https://www.otodom.pl/oferta/pelczynskiego-51m2-dobra-lokalizacja-od-zaraz-ID42yWc.html"])
