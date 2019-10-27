@@ -1,0 +1,102 @@
+! Title: Wiadomosci_mobilne
+! Expires: 1 day
+
+pap.pl##BODY:style(-webkit-touch-callout: text !important;)
+pap.pl##BODY:style(-webkit-user-select: text !important;)
+pap.pl##BODY:style(-moz-user-select: text !important;)
+pap.pl##BODY:style(-ms-user-select: text !important;)
+pap.pl##BODY:style(user-select: text !important;)
+rp.pl##DIV#preview-bar
+rp.pl##DIV#subscription-bar-top
+rp.pl##DIV.mk-component--horizontal
+!BLOKADA WIDEO
+!rp.pl, polska press
+||prodxnews1blob.blob.core.windows.net^
+||get.x-link.pl^
+!wyborcza
+||video.gazeta.pl^
+||wyborcza.pl/info/wyborcza-player/videojs-mobile.json?$xmlhttprequest
+||wyborcza.pl/css/wyborcza-player/videojs-mobile.json?$xmlhttprequest
+!wp.pl
+||video.wp.pl^
+!onet.pl
+||pulsembed.eu^
+!tvn24.pl
+||imasdk.googleapis.com^$domain=tvn24.pl,important
+||redcdn.pl^$~image
+||s2-player5.cdntvn.pl/player.css$important
+||s1-player5.cdntvn.pl/player.js$important
+||tvn.adocean.pl^$important
+||tvn.hit.gemius.pl/gstream.js$important
+!natemat.pl
+||mr1a.exs.pl^
+||video.onnetwork.tv^
+
+!ZASOBY NIEPOTRZEBNE
+!wyborcza.pl
+||cookie.gazeta.pl^
+||rodo.agora.pl^
+||apis.google.com^$third-party
+||consensu.org^
+||facebook.net^$third-party
+||facebook.com^$third-party
+||fonts.gstatic.com^$third-party
+||fonts.googleapis.com^$third-party
+||wyborcza.pl/marketing-proxy/template/
+||wyborcza.pl/opinions20/rest/comment/
+||static.im-g.pl^$font
+||squid.gazeta.pl^$important
+||bis.gazeta.pl/info/mapa2.js
+||dfp.gazeta.pl^
+||bi.gazeta.pl/i/obrazki/wyborcza2015/komentarze/sprite.png
+||static.gazeta.pl/info/bluewhale/
+wyborcza.pl##DIV.related-box
+wyborcza.pl##DIV.social
+wyborcza.pl##DIV.socialBar
+!wp.pl
+||www.wp.pl^$subdocument,domain=wp.pl
+||pushpushgo.com^
+||fonts.wpcdn.pl^
+||cdnt1.wp.pl^
+||cdnt2.wp.pl^
+||cdnt3.wp.pl^
+||cdnt4.wp.pl^
+||cdnt5.wp.pl^
+||cdnt6.wp.pl^
+||cdnt7.wp.pl^
+||cdnt8.wp.pl^
+||cdnt9.wp.pl^
+||cdnt10.wp.pl^
+||wp.pl/sw.js
+||wp.pl/manifest.json
+||cdn.jsdelivr.net^$domain=wp.pl
+||stackpath.bootstrapcdn.com^$domain=wp.pl
+||cdnjs.cloudflare.com^$domain=wp.pl
+||ajax.googleapis.com^$domain=wp.pl
+||latarnikwyborczy.pl^$domain=wp.pl
+||v.wpimg.pl^$font
+||v.wpimg.pl/ODE0OTYzYCUkUjlndgFtMGcKbT0wWGNmMBJ1dnY1YHFzSHthdhNhMzUePzh2G2AtakM7M3YKJCJqUih6KRQoZjg=
+!rp.pl
+||cdn.rp.pl/rodo-agreement-popup/
+||rp.pl/public/js/static/responsivevoice.js
+||youtube.com^$domain=rp.pl
+||traq.li^
+||login.gremimedia.pl^
+||rp.pl/section/?template=marketing_json
+||rp.pl/public/fonts/
+||rp.pl/*?template=ajaxcomments&omniture=
+!onet.pl
+||sgqcvfjvr.onet.pl^
+||ocdn.eu^$font
+||onet.pl/mobile/manifest.json
+@@||ocdn.eu/paas-static/template-engine/*/build/uststd.js
+onet.pl##DIV.alternateDataBar
+onet.pl##DIV.embedded-app
+onet.pl##DIV.backToOnetBottomBar
+onet.pl##DIV.goToParagraphBar 
+||authorisation.grupaonet.pl/loginbar.js
+||onet.pl/v2/manifest.json
+||onet.pl/push-service-worker4.js
+||onet.pl/api/sw/workbox
+||gstatic.com^$domain=onet.pl
+||pulse2embed.ocdn.eu^
