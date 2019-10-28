@@ -1,14 +1,6 @@
 ! Title: Wiadomosci_mobilne
 ! Expires: 1 day
 
-pap.pl##BODY:style(-webkit-touch-callout: text !important;)
-pap.pl##BODY:style(-webkit-user-select: text !important;)
-pap.pl##BODY:style(-moz-user-select: text !important;)
-pap.pl##BODY:style(-ms-user-select: text !important;)
-pap.pl##BODY:style(user-select: text !important;)
-rp.pl##DIV#preview-bar
-rp.pl##DIV#subscription-bar-top
-rp.pl##DIV.mk-component--horizontal
 !BLOKADA WIDEO
 !rp.pl, polska press
 ||prodxnews1blob.blob.core.windows.net^
@@ -31,6 +23,15 @@ rp.pl##DIV.mk-component--horizontal
 !natemat.pl
 ||mr1a.exs.pl^
 ||video.onnetwork.tv^
+!wideo natemat.pl
+||onnetwork.tv^
+||s.natemat.pl/set/*.footer.js?$script
+||s.natemat.pl/js/cmp/config.js?$script
+||s.natemat.pl/set/main.js?$script
+||s.natemat.pl/set/libs.js?$script
+natemat.pl##DIV.onnetwork-video
+$subdocument,domain=natemat.pl
+@@||video.onnetwork.tv^$domain=natemat.pl
 
 !ZASOBY NIEPOTRZEBNE
 !wyborcza.pl
@@ -85,6 +86,9 @@ wyborcza.pl##DIV.socialBar
 ||rp.pl/section/?template=marketing_json
 ||rp.pl/public/fonts/
 ||rp.pl/*?template=ajaxcomments&omniture=
+rp.pl##DIV#preview-bar
+rp.pl##DIV#subscription-bar-top
+rp.pl##DIV.mk-component--horizontal
 !onet.pl
 ||sgqcvfjvr.onet.pl^
 ||ocdn.eu^$font
@@ -100,3 +104,67 @@ onet.pl##DIV.goToParagraphBar
 ||onet.pl/api/sw/workbox
 ||gstatic.com^$domain=onet.pl
 ||pulse2embed.ocdn.eu^
+!pap.pl
+pap.pl##BODY:style(-webkit-touch-callout: text !important;)
+pap.pl##BODY:style(-webkit-user-select: text !important;)
+pap.pl##BODY:style(-moz-user-select: text !important;)
+pap.pl##BODY:style(-ms-user-select: text !important;)
+pap.pl##BODY:style(user-select: text !important;)
+!natemat.pl
+!$subdocument,domain=natemat.pl
+||onaudience.com^
+||eyeota.net^
+||google-analytics.com^
+||imasdk.googleapis.com^$domain=video.onnetwork.tv
+||cdn.onnetwork.tv/cnt/a_cnti.png?$xmlhttprequest,domain=video.onnetwork.tv
+||cdn.onnetwork.tv/cnt/a_cntm.png?$xmlhttprequest,domain=video.onnetwork.tv
+||mdn.net^
+||adservice.google.com^
+||smartadserver.com^
+||adocean.pl^
+||natemat.pl^$inline-script
+||adform.net^
+||googletagservices.com^
+||lp4.io^
+||statsforads.com^
+||optad360.io^
+||instagram.com^$domain=natemat.pl
+||meetrics.net^
+||batuu.pl^
+||natemat.pl/undefined$script
+natemat.pl##NAV.header__box__nav:style(position: absolute !important;)
+natemat.pl##BODY.body-v2.mod_post:style(margin-top: 0px !important;)
+natemat.pl##DIV.ad-slot
+natemat.pl##DIV#page_wrapper > DIV.body-v2 + DIV.body-v2 > DIV:first-child + DIV#main + DIV:style(margin-top: 80px !important;)
+natemat.pl##DIV.art__embed-link
+natemat.pl##SPAN[data-stat-furl] > SPAN[class]
+||cdn.natemat.pl/*,300,154,1,0.jpg$image
+||cdn.natemat.pl/*,88,88,1,0.jpg$image
+||cdn.natemat.pl/*,0,520,0,0.jpg$image
+||cdn.natemat.pl/*,555,286,1,0.jpg$image
+||cdn.natemat.pl/*,246,246,1,0.jpg$image
+||cdn.natemat.pl/*,102,102,1,0.jpg$image
+!mobile.natemat.pl
+@@||mobile.natemat.pl^$inline-script
+||mobile.natemat.pl/sw.js$script
+||s.natemat.pl/js/v2/dmp.js$script
+||s.natemat.pl/set/mobilelibs.js?$script
+||googletagmanager.com^
+||doubleclick.net^
+||plista.com^
+||mobile.natemat.pl/vendor/Hyphenator.js$script
+||facebook.net^$domain=natemat.pl
+||natemat.pl/cmp/vendorlist.json$xmlhttprequest
+||mobile.natemat.pl/vendorlist.json?$xmlhttprequest
+||mobile.natemat.pl/.well-known/pubvendors.json$xmlhttprequest
+||natemat.pl/cmp/portal.html$subdocument
+||wtg-ads.com^
+||dqst.pl^
+||wtg-ads.com^
+||mobile.natemat.pl/static/js/main.*.js
+@@||mobile.natemat.pl/static/js/main.*.js
+||s.natemat.pl/js/cmp/config.js?$script
+mobile.natemat.pl##DIV.css-1pp1qsr:style(position: absolute !important;)
+mobile.natemat.pl##+js(abort-on-property-read.js, gemius_pending)
+mobile.natemat.pl##+js(abort-on-property-read.js, APP_FORCE_RWD)
+||video.onnetwork.tv^$domain=natemat.pl,important
