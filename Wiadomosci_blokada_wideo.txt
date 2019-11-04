@@ -1,0 +1,34 @@
+! Title: Wiadomosci_blokada_wideo
+! Expires: 1 day
+
+!BLOKADA WIDEO
+!rp.pl, polska press
+||prodxnews1blob.blob.core.windows.net^
+||get.x-link.pl^
+!wyborcza
+||video.gazeta.pl^
+||wyborcza.pl/info/wyborcza-player/videojs-mobile.json?$xmlhttprequest
+||wyborcza.pl/css/wyborcza-player/videojs-mobile.json?$xmlhttprequest
+!wp.pl
+||video.wp.pl^
+!onet.pl
+||pulsembed.eu^
+!tvn24.pl
+||imasdk.googleapis.com^$domain=tvn24.pl,important
+||redcdn.pl^$~image
+||s2-player5.cdntvn.pl/player.css$important
+||s1-player5.cdntvn.pl/player.js$important
+||tvn.adocean.pl^$important
+||tvn.hit.gemius.pl/gstream.js$important
+!natemat.pl
+||mr1a.exs.pl^
+||video.onnetwork.tv^
+!wideo natemat.pl
+||onnetwork.tv^
+||s.natemat.pl/set/*.footer.js?$script
+||s.natemat.pl/js/cmp/config.js?$script
+||s.natemat.pl/set/main.js?$script
+||s.natemat.pl/set/libs.js?$script
+natemat.pl##DIV.onnetwork-video
+$subdocument,domain=natemat.pl
+@@||video.onnetwork.tv^$domain=natemat.pl
