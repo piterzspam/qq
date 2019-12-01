@@ -1,0 +1,4 @@
+! Title: Mobilne_Zdjecia
+! Expires: 1 day
+
+||ocdn.eu/paas-static/template-engine/*/build/controls.js$important
