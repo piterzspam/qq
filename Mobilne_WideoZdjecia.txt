@@ -1,0 +1,4 @@
+! Title: Mobilne_WideoZdjecia
+! Expires: 1 day
+
+||ocdn.eu/ucs/static/*/build/main.js$important
