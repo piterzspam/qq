@@ -1,0 +1,8 @@
+! Title: Mobilne_Related
+! Expires: 1 day
+
+fakt.pl##DIV#widgets_extra2
+fakt.pl##DIV[class^="articleBod"] > P.hyphenate > A[id][href^="https://www.fakt.pl/"]:first-child:last-child
+forbes.pl##DIV.pure-g.m13.detailFeed
+onet.pl##SECTION.latestFromCategory
+||persstream.onet.pl/wiadomosci/get_recomm?
