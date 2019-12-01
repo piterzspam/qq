@@ -1,0 +1,9 @@
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_Onet.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_Ramki.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_RamkiZdjecia.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_Related.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_Scroll.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_Share.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_Wideo.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_WideoZdjecia.txt
+https://raw.githubusercontent.com/piterzspam/qq/master/Mobilne_Zdjecia.txt
