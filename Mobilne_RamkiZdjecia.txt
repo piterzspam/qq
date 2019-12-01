@@ -1,0 +1,7 @@
+! Title: Mobilne_RamkiZdjecia
+! Expires: 1 day
+
+||ocdn.eu/paas-static/template-engine/*/build/main.js$important
+||ocdn.eu/paas-static/template-engine/*/build/uststd.js$important
+||ocdn.eu/paas-static/template-engine/*/build/widget.js$important
+||ocdn.eu/ucs/static/*/build/js/mobilemain.js$important
