@@ -1,0 +1,11 @@
+! Title: Mobilne_Wideo
+! Expires: 1 day
+
+||media.onet.pl^$important
+||mvp.onet.pl/mvp/pl/mvp-loader.js$important
+||ocdn.eu/resources/template-engine/onetontev2.template-engine/resource/none/*/embed.js$important
+||ocdn.eu/resources/template-engine/onetontev2.template-engine/resource/none/*/embedExternal.css$important
+||ocdn.eu/static/mvpplayer/*/css/compiled/compiled.css?_$important
+||ocdn.eu/static/mvpplayer/*/js/compiled/dash.all.min.js$important
+||onet.tv/script/embed.js$important
+||player-api.dreamlab.pl^$xhr,important
