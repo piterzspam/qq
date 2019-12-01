@@ -1,0 +1,13 @@
+! Title: Scrollowanie
+! Expires: 1 day
+
+onet.pl##DIV.goToParagraphBar
+onet.pl##DIV.alternateDataBar
+onet.pl##DIV.Phx__backToOnetBottomBar
+onet.pl##DIV.backToOnetBottomBar
+onet.pl##HEADER.pageHeader:style(position: absolute !important;)
+noizz.pl##HEADER#stickyMenu:style(position: absolute !important;)
+businessinsider.com.pl##DIV.main-header:style(position: absolute !important;)
+newsweek.pl##DIV#redHead:style(position: absolute !important;)
+newsweek.pl##A.subscribeButtonSticky
+forbes.pl##BODY.isMobile.article.fixedNav > DIV#redHead
