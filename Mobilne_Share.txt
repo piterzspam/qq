@@ -1,0 +1,16 @@
+! Title: Mobilne_Share
+! Expires: 1 day
+
+fakt.pl##DIV.socialButtons
+fakt.pl##DIV[data-run-module="local/main.social"]
+forbes.pl##DIV.articleSocials
+forbes.pl##UL.socialList
+onet.pl##DIV.social-container
+onet.pl##SECTION.OpenDiscussionBox
+onet.tv##DIV.mvp-beam-social-buttons
+||ocdn.eu/paas-static/template-engine/*/share_v1_facebook_gray_ico.png
+||ocdn.eu/paas-static/template-engine/*/share_v1_facebook_norm_ico.png
+||ocdn.eu/paas-static/template-engine/*/share_v1_pintrest_gray_ico.png
+||ocdn.eu/paas-static/template-engine/*/share_v1_pintrest_norm_ico.png
+||ocdn.eu/ucs/static/*/images/fb-messenger.png
+||ocdn.eu/ucs/static/*/images/whatsapp.png
