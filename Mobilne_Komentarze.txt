@@ -1,0 +1,4 @@
+! Title: Mobilne_Komentarze
+! Expires: 1 day
+
+||facebook.net^$domain=forbes.pl
