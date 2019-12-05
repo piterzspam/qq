@@ -5,6 +5,7 @@ fakt.pl##DIV.socialButtons
 fakt.pl##DIV[data-run-module="local/main.social"]
 forbes.pl##DIV.articleSocials
 forbes.pl##UL.socialList
+forbes.pl##DIV#fbComments
 onet.pl##DIV.social-container
 onet.pl##SECTION.OpenDiscussionBox
 onet.tv##DIV.mvp-beam-social-buttons
