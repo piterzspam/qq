@@ -4,3 +4,4 @@
 ||ocdn.eu/paas-static/template-engine/*/build/pulsembed.js$important
 ||ocdn.eu/resources/template-engine/pulse2embedte.template-engine/resource/none/*/providers.js$important
 ||ocdn.eu/static/mvpplayer/*/js/compiled/compiled.min.js?_$important
+onet.pl##DIV.embedded-app:if(A[href*="facebook.com"][target="_blank"])
