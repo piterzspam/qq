@@ -9,3 +9,4 @@
 ||ocdn.eu/static/mvpplayer/*/js/compiled/dash.all.min.js$important
 ||onet.tv/script/embed.js$important
 ||player-api.dreamlab.pl^$xhr,important
+onet.pl##DIV.embedded-app:if(DIV[data-provider-name="OnettvVideo"])
