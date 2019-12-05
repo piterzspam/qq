@@ -1,0 +1,5 @@
+! Title: Mobilne_Social
+! Expires: 1 day
+
+||facebook.net^$domain=forbes.pl
+forbes.pl##DIV#fbComments
