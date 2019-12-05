@@ -49,3 +49,5 @@ onet.tv##script:inject(abort-on-property-write.js, onetAds)
 ||sgqcvfjvr.onet.pl^$important,domain=fakt.pl
 ||ssl.onetapi.pl/?callback=jQuery$script
 ||ty0lm9uz.onet.pl^
+||forbes.pl/pianoTerms?
+@@||ocdn.eu/newsweekucs/static/js/advertising.js
