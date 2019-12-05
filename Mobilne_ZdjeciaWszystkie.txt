@@ -1,0 +1,4 @@
+! Title: Mobilne_ZdjeciaWszystkie
+! Expires: 1 day
+
+||ocdn.eu/pulscms-transforms/1/*.webp$domain=onet.pl
