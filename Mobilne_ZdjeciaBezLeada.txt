@@ -1,0 +1,10 @@
+! Title: Mobilne_ZdjeciaBezLeada
+! Expires: 1 day
+
+||ocdn.eu/paas-static/template-engine/*/build/controls.js$important
+!W środku artykułu
+onet.pl##DIV.mediaInset:if(A.zoomImg[galleryuuid])
+!Główne zdjecie
+onet.pl##DIV.mediaInset:if(A.zoomImg[articleuuid] > PICTURE)
+||ocdn.eu/ucs/static/*/images/ajax-loader-space.gif$domain=fakt.pl
+fakt.pl##FIGURE.dl-gallery-item
