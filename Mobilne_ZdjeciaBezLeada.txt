@@ -8,3 +8,5 @@ onet.pl##DIV.mediaInset:if(A.zoomImg[galleryuuid])
 onet.pl##DIV.mediaInset:if(A.zoomImg[articleuuid] > PICTURE)
 ||ocdn.eu/ucs/static/*/images/ajax-loader-space.gif$domain=fakt.pl
 fakt.pl##FIGURE.dl-gallery-item
+fakt.pl##DIV#blackGalleryBock > P.justify_center
+
