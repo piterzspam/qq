@@ -1,0 +1,7 @@
+! Title: Mobilne_Statyczne
+! Expires: 1 day
+
+||onet.pl^$inline-script
+||fakt.pl^$inline-script
+fakt.pl##DIV.footNavCont
+onet.pl##A.backToTop
