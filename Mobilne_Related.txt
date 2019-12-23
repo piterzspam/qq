@@ -6,3 +6,5 @@ fakt.pl##DIV[class^="articleBod"] > P.hyphenate > A[id][href^="https://www.fakt.
 forbes.pl##DIV.pure-g.m13.detailFeed
 onet.pl##SECTION.latestFromCategory
 ||persstream.onet.pl/wiadomosci/get_recomm?
+||gazeta.pl/aliasy/hp2018/hp_redirector.htm
+
