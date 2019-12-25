@@ -8,13 +8,13 @@ onet.pl##SECTION.latestFromCategory
 ||persstream.onet.pl/wiadomosci/get_recomm?
 ||gazeta.pl/aliasy/hp2018/hp_redirector.htm
 !Zdjęcia z quizów (POLECAMY pod artykułem)
-||bi.im-g.pl/im/*/*/z*MS,*.jpg|$image,domain=~m.gazeta.pl
+||bi.im-g.pl/im/*/*/*/z*MS,*.jpg|$image,domain=~m.gazeta.pl
 !Zdjęcia z miniatur (POLECAMY pod artykułem)
-||bi.im-g.pl/im/*/*/z*H,*.jpg|$image,domain=~m.gazeta.pl
+||bi.im-g.pl/im/*/*/*/z*H,*.jpg|$image,domain=~m.gazeta.pl
 !Zdjęcia z miniatur (DLA CIEBIE pod artykułem)
-||bi.im-g.pl/im/*/*/z*II,*.jpg|$image,domain=~m.gazeta.pl
+||bi.im-g.pl/im/*/*/*/z*II,*.jpg|$image,domain=~m.gazeta.pl
 !Zdjęcia z miniatur (POPULARNE pod komentarzami)
-||bi.im-g.pl/im/*/*/z*F,*.jpg|$image,domain=~m.gazeta.pl
+||bi.im-g.pl/im/*/*/*/z*F,*.jpg|$image,domain=~m.gazeta.pl
 !Zdjęcia z miniatur (TERAZ NA GAZETA.PL pod komentarzami)
 ||bi.im-g.pl/im/*/*/z*ID,*.jpg|$image,domain=~m.gazeta.pl
 !powiązane pod artykułem
