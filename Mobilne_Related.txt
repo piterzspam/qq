@@ -21,3 +21,6 @@ onet.pl##SECTION.latestFromCategory
 gazeta.pl##DIV.recommendations
 !powiązane pod komentarzami
 gazeta.pl##DIV.right_aside > DIV.newsBox
+!Usunięcie powiązanego wideo z: http://wiadomosci.gazeta.pl/wiadomosci/7,114881,25532657,uciekli-przed-wojna-zabija-ich-zima-uchodzcy-koczuja-w-nieludzkich.html
+gazeta.pl##P.art_paragraph:has(P.art_paragraph > I:first-child:last-child:has-text(Zobacz też:))
+gazeta.pl##P.art_paragraph:has(P.art_paragraph > I:first-child:last-child:has-text(Zobacz też:)) + DIV + SCRIPT + DIV.art_embed
