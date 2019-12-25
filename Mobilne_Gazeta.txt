@@ -17,6 +17,9 @@
 @@||gazeta.pl/aliasy/adp/px.js?
 ||gazeta.pl/dfptools/adview/
 ||static.im-g.pl/info/bluewhale/*/main-min.jsgz$domain=gazeta.pl
+gazeta.pl##DIV[id^="banC"]
+gazeta.pl##DIV.adviewDFPBanner
+gazeta.pl##DIV[class^="ban00"]
 
 
 ||static.im-g.pl/static/epo/style/deploy/master/webpack/production/Next/85/pagetype7/main.js.jsgz
