@@ -15,24 +15,26 @@
 ||cdn.onnetwork.tv/cnt/a_cntg.png?
 @@||video.onnetwork.tv/adblock_notify.js
 @@||gazeta.pl/aliasy/adp/px.js?
+||gazeta.pl/dfptools/adview/
+||static.im-g.pl/info/bluewhale/*/main-min.jsgz$domain=gazeta.pl
 
 
 ||static.im-g.pl/static/epo/style/deploy/master/webpack/production/Next/85/pagetype7/main.js.jsgz
 @@||static.im-g.pl/static/epo/style/deploy/master/webpack/production/Next/85/pagetype7/main.js.jsgz
-!
+
 !Unieruchomienie paska nawigacyjnego
-next.gazeta.pl##NAV.mod_hat2014:style(position: absolute !important;)
+gazeta.pl##NAV.mod_hat2014:style(position: absolute !important;)
 !Przesunięcie do góry strony po unieruchomieniu paska
-next.gazeta.pl##HTML > BODY#pageTypeId_7:style(padding-top: 0px !important;)
+gazeta.pl##HTML > BODY#pageTypeId_7:style(padding-top: 0px !important;)
 !Przesunięcie do góry tytuł€ i ścieżki po unieruchumieniu paska
-next.gazeta.pl##SECTION#article_wrapper.main_wrapper > DIV#sitePath:style(padding-top: 50px !important;)
+gazeta.pl##SECTION#article_wrapper.main_wrapper > DIV#sitePath:style(padding-top: 50px !important;)
 !Ukrycie przycisk pokaującego zdjęcie i artykuł pod wideo
-next.gazeta.pl##DIV.related-video__trigger
+gazeta.pl##DIV.related-video__trigger
 !Pokazanie zdjęcia pod wideo
-next.gazeta.pl##SECTION.main_wrapper--video > DIV.bottom_section:style(display: block !important;)
+gazeta.pl##SECTION.main_wrapper--video > DIV.bottom_section:style(display: block !important;)
 !Pokazanie treści artykułu pod wideo
-next.gazeta.pl##SECTION.main_wrapper--video > DIV.top_section:style(display: block !important;)
+gazeta.pl##SECTION.main_wrapper--video > DIV.top_section:style(display: block !important;)
 !Unieruchomienie wideo
-next.gazeta.pl##SECTION#article_wrapper.main_wrapper > DIV.video_wrapper:style(top: auto !important;)
+gazeta.pl##SECTION#article_wrapper.main_wrapper > DIV.video_wrapper:style(top: auto !important;)
 !Unieruchomienie wideo
-next.gazeta.pl##SECTION#article_wrapper.main_wrapper > DIV.video_wrapper.video_wrapper--fixed:style(position: static !important;)
+gazeta.pl##SECTION#article_wrapper.main_wrapper > DIV.video_wrapper.video_wrapper--fixed:style(position: static !important;)
