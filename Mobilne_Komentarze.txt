@@ -3,3 +3,5 @@
 
 ||facebook.net^$domain=forbes.pl
 forbes.pl##DIV#fbComments
+gazeta.pl##ARTICLE#opinions
+gazeta.pl##DIV.socialBar
