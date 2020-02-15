@@ -34,28 +34,6 @@ adslinkfly.online##+js(aopr, app_vars.force_disable_adblock)
 adslinkfly.online##.banner
 adslinkfly.online##+js(acis, Math, zfgloaded)
 
-||gplinks.co/advertising/
-||gplinks.co/sw.js
-||gplinks.co/js/ads.js
-||gplinks.in/img/ad/
-gplinks.co##+js(acis, Math, zfgloaded)
-gplinks.co##+js(aopr, app_vars.force_disable_adblock)
-gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > P[style="text-align: center;"]
-gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > H3[style="text-align: center;"]
-gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > STRONG
-gplinks.co##HTML > BODY:style(font-size: 0px !important;)
-gplinks.co##HTML > BODY.banner-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV[id] + CENTER > TABLE
-gplinks.co##DIV.alert:style(font-size: 12px !important;)
-gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.text-left
-
-gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > P
-gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > P
-gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > H2
-gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > H2
-gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > H3
-gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main + DIV.text-left
-||gplinks.in/img/ads/subscribe.png
-
 adshort.tech##DIV[id^="div-gpt-ad-"]
 adshort.tech##DIV.center-captcha > H2
 adshort.tech##DIV.center-captcha > P
@@ -97,3 +75,42 @@ linegee.net##DIV.widget.widget_search
 linegee.net##MAIN#main
 linegee.net##DIV#comments
 
+earnload.co,gplinks.co,gplinks.in##+js(acis, Math, zfgloaded)
+earnload.co,gplinks.co,gplinks.in##+js(aopr, app_vars.force_disable_adblock)
+earnload.co,gplinks.co,gplinks.in##DIV#cookie-pop
+earnload.co,gplinks.co,gplinks.in##DIV.alert:style(font-size: 12px !important;)
+earnload.co,gplinks.co,gplinks.in##DIV.text-left
+earnload.co,gplinks.co,gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main + DIV.text-left
+earnload.co,gplinks.co,gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > H2
+earnload.co,gplinks.co,gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > P
+earnload.co,gplinks.co,gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > H2
+earnload.co,gplinks.co,gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > H3
+earnload.co,gplinks.co,gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > P
+earnload.co,gplinks.co,gplinks.in##HTML > BODY.banner-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > CENTER > TABLE
+earnload.co,gplinks.co,gplinks.in##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > H3[style="text-align: center;"]
+earnload.co,gplinks.co,gplinks.in##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > P[style="text-align: center;"]
+earnload.co,gplinks.co,gplinks.in##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > STRONG
+earnload.co,gplinks.co,gplinks.in##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.text-left
+earnload.co,gplinks.co,gplinks.in##HTML > BODY:style(font-size: 0px !important;)
+||earnload.co/advertising/
+||earnload.co/js/ads.js
+||earnload.co/sw.js
+||gplinks.co/advertising/
+||gplinks.co/js/ads.js
+||gplinks.co/sw.js
+||gplinks.in/advertising/
+||gplinks.in/js/ads.js
+||gplinks.in/sw.js
+||gplinks.in/img/ads/subscribe.png
+||shorteh.com^
+
+||presdithas.pw^
+||spacetica.com^$font,image,script
+||spacetica.com^$inline-script
+||cloudflare.com^$domain=spacetica.com
+||googleapis.com^$domain=spacetica.com
+spacetica.com##DIV.panel:style(font-size: 0px !important;)
+spacetica.com##INS.adsbygoogle
+spacetica.com##HEADER > DIV.navbar > DIV.container A
+spacetica.com##DIV.col-md-7 > A
+||spacetica.com/themes/cleanex/style.css
