@@ -1,0 +1,99 @@
+! Title: Url Shorteners_3
+! Expires: 1 day
+
+shrinkme.io##DIV#cookie-pop
+shrinkme.io##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > H4
+shrinkme.io##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > H5
+shrinkme.io##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > OL
+shrinkme.io##HTML > BODY:style(font-size: 0px !important;)
+shrinkme.io##HTML > BODY.banner-page > DIV.container > DIV.row > DIV.col-md-10 > H4
+shrinkme.io##HTML > BODY.banner-page > DIV.container > DIV.row > DIV.col-md-10 > H5
+shrinkme.io##+js(abort-on-property-write.js, addDictionary)
+shrinkme.io##DIV.alert:style(font-size: 12px !important;)
+||dc5k8fg5ioc8s.cloudfront.net^
+||d1r90st78epsag.cloudfront.net^
+||imgur.com^$domain=shrinkme.io
+||consensu.org^
+||ockoken.site^
+||track.wg-aff.com^
+||izooto.com^
+||shrinkme.io/sw.js
+||shrinkme.io/js/ads.js
+@@||shrinkme.io/js/ads.js
+
+||informaxonline.com^$script,font,stylesheet
+||informaxonline.com/wp-content/plugins/wp-safelink-v3/assets/fuckadblock.js$script,redirect=fuckadblock.js-3.2.0,important
+@@||informaxonline.com/wp-content/themes/writee/assets/css/style-ltr.css?
+informaxonline.com##SECTION.site-main
+
+||onemboaran.com^
+$image,third-party,domain=adslinkfly.online
+adslinkfly.online##DIV#cookie-pop
+||go.adslinkfly.online/js/ads.js
+adslinkfly.online##+js(aopr, app_vars.force_disable_adblock)
+adslinkfly.online##.banner
+adslinkfly.online##+js(acis, Math, zfgloaded)
+
+||gplinks.co/advertising/
+||gplinks.co/sw.js
+||gplinks.co/js/ads.js
+||gplinks.in/img/ad/
+gplinks.co##+js(acis, Math, zfgloaded)
+gplinks.co##+js(aopr, app_vars.force_disable_adblock)
+gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > P[style="text-align: center;"]
+gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > H3[style="text-align: center;"]
+gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV.row > DIV.col-md-12 > FORM#link-view > STRONG
+gplinks.co##HTML > BODY:style(font-size: 0px !important;)
+gplinks.co##HTML > BODY.banner-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > DIV[id] + CENTER > TABLE
+gplinks.co##DIV.alert:style(font-size: 12px !important;)
+gplinks.co##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > DIV.text-left
+
+gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > P
+gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > P
+gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > H2
+gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main > H2
+gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > H3
+gplinks.in##HTML > BODY > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main + DIV.text-left
+||gplinks.in/img/ads/subscribe.png
+
+adshort.tech##DIV[id^="div-gpt-ad-"]
+adshort.tech##DIV.center-captcha > H2
+adshort.tech##DIV.center-captcha > P
+adshort.tech##DIV.center-captcha > SPAN.dot
+adshort.tech##DIV.about
+adshort.tech##DIV.col-md-10:style(height: auto !important; background-color: white; !important;)
+adshort.tech##DIV.espaciodos:style(height: auto !important;)
+adshort.tech##DIV.col-md-10 > SECTION.content
+adshort.tech##+js(ra, onclick)
+adshort.tech##+js(set, blurred, false)
+||audionews.fm^$domain=adshort.tech
+||sendmepush.com^$domain=adshort.tech
+
+||waust.at^$domain=linegee.net
+||google.com^$domain=linegee.net,important
+||fonts.gstatic.com^$domain=linegee.net
+||fonts.googleapis.com^$domain=linegee.net
+||lonelymoon.net^$domain=linegee.net
+||sringanis.com^$domain=linegee.net
+||gravatar.com^$domain=linegee.net
+@@||linegee.net/wp-content/uploads/*/button_verify.png
+@@||linegee.net/wp-content/uploads/*/button_please-wait.png
+@@||linegee.net/wp-content/uploads/*/button_generate-link.png
+@@||linegee.net/wp-content/uploads/*/button_download.png
+@@||linegee.net/wp-includes/js/jquery/jquery.js?
+||linegee.net^$font,image,script,stylesheet
+linegee.net##HEADER#masthead
+linegee.net##A.skip-link
+linegee.net##DIV.col-md-12
+linegee.net##ARTICLE[id^="post-"]
+linegee.net##DIV#footer-container
+linegee.net##DIV.widget_nav_menu
+linegee.net##DIV.widget.widget_tag_cloud
+linegee.net##DIV.widget.widget_recent_comments
+linegee.net##DIV.widget.widget_categories
+linegee.net##DIV.widget.widget_archive
+linegee.net##DIV.widget.idblog-form
+linegee.net##DIV.widget.widget_search
+linegee.net##MAIN#main
+linegee.net##DIV#comments
+
