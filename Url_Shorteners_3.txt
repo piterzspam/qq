@@ -75,6 +75,33 @@ linegee.net##DIV.widget.widget_search
 linegee.net##MAIN#main
 linegee.net##DIV#comments
 
+||intercelestial.com^$image,script,stylesheet
+@@||intercelestial.com/wp-content/uploads/2019/09/button_im-not-a-robot.png
+@@||intercelestial.com/wp-content/uploads/2019/09/button_please-wait.png
+@@||intercelestial.com/wp-content/uploads/2019/09/button_generate-link.png
+@@||intercelestial.com/wp-content/uploads/2019/09/button_download.png
+@@||intercelestial.com/wp-includes/js/jquery/jquery.js?
+
+||adop.cc^$domain=intercelestial.com,important
+||google.com/recaptcha/$domain=intercelestial.com,important
+||googleapis.com^$domain=intercelestial.com,important
+||gravatar.com^$domain=intercelestial.com,important
+intercelestial.com##HEADER#masthead
+intercelestial.com##INS.adsbyadop
+intercelestial.com##A.skip-link
+intercelestial.com##DIV.col-md-12
+intercelestial.com##ARTICLE[id^="post-"]
+intercelestial.com##DIV#footer-container
+intercelestial.com##DIV.widget_nav_menu
+intercelestial.com##DIV.widget.widget_tag_cloud
+intercelestial.com##DIV.widget.widget_recent_comments
+intercelestial.com##DIV.widget.widget_categories
+intercelestial.com##DIV.widget.widget_archive
+intercelestial.com##DIV.widget.idblog-form
+intercelestial.com##DIV.widget.widget_search
+intercelestial.com##MAIN#main
+intercelestial.com##DIV#comments
+
 earnload.co,gplinks.co,gplinks.in##+js(acis, Math, zfgloaded)
 earnload.co,gplinks.co,gplinks.in##+js(aopr, app_vars.force_disable_adblock)
 earnload.co,gplinks.co,gplinks.in##DIV#cookie-pop
