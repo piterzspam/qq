@@ -1,142 +1,268 @@
 ! Title: Polska_press
 ! Expires: 1 day
-.*/ajax/ksiegarnia/$first-party
-@@||dziennikpolski24.pl^$generichide
-@@||echodnia.eu^$generichide
-@@||gazetalubuska.pl^$generichide
-@@||gazetawroclawska.pl^$generichide
-@@||gloswielkopolski.pl^$generichide
-@@||naszemiasto.pl^$generichide
-@@||polskatimes.pl^$generichide
-@@||pomorska.pl^$generichide
-@@||ppstatic.pl/o/_blank.png
-@@||ppstatic.pl/o/js/track_ua.js?
-@@||ppstatic.pl/p/css/strony/sekcje_branzowe.css?
-alegratka.pl##DIV#adoceanadobirojplew
-alegratka.pl##DIV.cookieTooltip
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A#do-komentarzy
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A#pasek-plus-rekomendacje
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##A.twitter-follow-button
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##ASIDE#quiz-pytanie
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##B:has-text(Czytaj też:)
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##BR:last-of-type + SCRIPT + DIV#znacznik-wideo
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#LinkArea\:zobKon
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#ad-billboard
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#bestsellery
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#glowna-kolumna > DIV#wideo-artykul
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#kontener-wideo.plywajacy
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#nastepny-artykul
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#pasek-regionalny-plus:style(position: absolute !important;)
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#paywall-zaslona-belka
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV#wideo-artykul
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.adBoks
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.adSrodek.hide-for-medium-down
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.article-body A.not-regular-link[data-gtm="nowa_karta/glowne_zdjecie"][href*="?url_powrotu="]
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.article-body H2:has-text(Polecamy na)
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.article-body H2[hidden] + UL
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.banner-fixed
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.blok.zobaczKoniecznie.show-for-large-up
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.clearfix.wyslijZdj
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.columns.hide-for-medium-down.large-3.rekomendacje.skrocone.typBaner
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.cookieContainer
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.cookieTooltip
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.dodatekTresc.zaslonaPlus.zajawkaPlusa
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.fb-page
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.odciecieTresc
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV.wstawka.dodatekTresc.hide-for-medium-down.dodatekTresc
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##DIV:first-child:last-child > DIV:first-child:last-child > P[style="margin-left: 35px; margin-bottom: 2px; text-align: left; font-size: 7pt; font-family: Verdana, Tahoma; color: #9d9d9d;"]:first-child
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##H2:has-text(Zobaczcie też:)
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.box.fb
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.facebook.wyzsze.opis.popup
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.hide-for-medium-down + * + * + * + LI:last-child
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.ikonkaSpol.fbShare
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.ikonkaSpol.tweetShare
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##LI.przeslij.bezTekstu
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href*="/quiz/"]
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > A[href] + BR + BR + BR + BR + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B + BR + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > B:has-text(MASZ CIEKAWĄ INFORMACJĘ, ZROBIŁEŚ ZDJĘCIE ALBO WIDEO?)
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * + A[href]
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + * + * + * + * + * + * + A[href]
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + * + * + A[href]
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER + BR + BR
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > CENTER:if(IFRAME)
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > DIV.article-inset
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION#tresc > H2:has-text(CZYTAJ KONIECZNIE:)
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##SECTION.content-stream.ad
-dziennikpolski24.pl,echodnia.eu,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,naszemiasto.pl,polskatimes.pl,pomorska.pl##UL#narzedzia
-get.x-link.pl##A.vjs-click-through-button[target="_blank"]
-gratka.pl##DIV.cookieContainer
-||ctnsnet.com^
-||d24rtvkqjwgutp.cloudfront.net^
-||daib.pl^
-||farm.plista.com/async_lib.js?
-||gratka.pl/_event/$third-party
-||naszemiasto.pl/ajax/facebook/
-||ppdb.pl^
-||ppstatic.pl/*/promoButton.css
-||ppstatic.pl/*abczdrowie.widget.js
-||ppstatic.pl/*addthis.js
-||ppstatic.pl/*ads.js
-||ppstatic.pl/*anonimid.js
-||ppstatic.pl/*anty_ramka.js
-||ppstatic.pl/*blan.gif
-||ppstatic.pl/*blank.gif
-||ppstatic.pl/*blank.png
-||ppstatic.pl/*boks_baner.js
-||ppstatic.pl/*contentstream.js
-||ppstatic.pl/*cookie.svg
-||ppstatic.pl/*cookies.css
-||ppstatic.pl/*criteo.js
-||ppstatic.pl/*dodajdozaznaczenia.js
-||ppstatic.pl/*facebook.js
-||ppstatic.pl/*gratka.jpg
-||ppstatic.pl/*gratka_baner.png
-||ppstatic.pl/*linki.js
-||ppstatic.pl/*material_spolecznosci.js
-||ppstatic.pl/*nastepnyartykul.js
-||ppstatic.pl/*pilotaz_adblock/core.js
-||ppstatic.pl/*pixel_fb.js
-||ppstatic.pl/*plywajace_wideo.js
-||ppstatic.pl/*quizy
-||ppstatic.pl/*reklama.js
-||ppstatic.pl/*reklamy
-||ppstatic.pl/*reklamy
-||ppstatic.pl/*rozwin_boks.js
-||ppstatic.pl/*sekcje_branzowe.css
-||ppstatic.pl/*spolecznosciowe.png
-||ppstatic.pl/*track.js
-||ppstatic.pl/*track_ua.js
-||ppstatic.pl/*wyslij_zdjecie_tlo.png
-||ppstatic.pl/*zamknij.svg
-||ppstatic.pl/ksiegarnia/k/r/
-||sso.ppapi.pl/rodo.js
-||sso.ppapi.pl^$third-party
-||statystyki.gratka.pl^
-||visualrevenue.com^
-||s-pt.ppstatic.pl/p/js/rwd/jquery.$script,third-party
-||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js$script,third-party
-||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js$script,third-party
-||s-pt.ppstatic.pl/lib/adblockdetect/$script,third-party
-||fonts.googleapis.com^$domain=polskatimes.pl
-||infogram.com^$third-party
-||s-pt.ppstatic.pl/p/css/serwisy/motofakty_lokalne.css
-||s-pt.ppstatic.pl/p/css/rwd/slick.css$stylesheet
-||s-pt.ppstatic.pl/p/css/nanoScroller.css$stylesheet
-||d-pt.ppstatic.pl/kadry/*,size,380x238,*.jpg$image,third-party
-||d-pt.ppstatic.pl/kadry/*,size,969x565,*.jpg|$image,third-party
-||d-mf.ppstatic.pl/art/*.310.jpg|$image,third-party
-||d-pt.ppstatic.pl/k/r/1/*_o.jpg|$image,third-party
-||d-pt.ppstatic.pl/kadry/k/r/1/*_o,size,445x270$image,third-party
-||d-pt.ppstatic.pl/kadry/k/r/1/*_o,size,110x95,q,71,h,*.jpg$image,third-party
-||polskatimes.pl/*/undefined/o/js/cgr/track.js?
-||s-pt.ppstatic.pl/g/regionalne/ikony/
-||s-pt.ppstatic.pl/g/regionalne/tlo_wideo_artykul.png
+!Dan Pollock’s hosts file - nie działa wideo
+||prodxnews1blob.blob.core.windows.net^$badfilter
+||get.x-link.pl^$badfilter
+!Easylist -adserver/
+@@||j.dcs.redcdn.pl/http/o2/TVN-Adserver/$xhr,domain=get.x-link.pl
+@@||dcs.redcdn.pl/file/o2/TVN-Adserver/$media,domain=get.x-link.pl
+!Wygląda na to, że blokujesz reklamy - komunikat Google
+@@||polskatimes.pl^$ghide
+!Linki do powiązanych między paragrafami w treści artykułu
+polskatimes.pl##ARTICLE > DIV.md > P > A[href][title]
+!Linki do innych artykułów w tekście artykułu
+polskatimes.pl##+js(remove-attr.js, href, DIV.md > P > A:not([title]))
+polskatimes.pl##ARTICLE > DIV.md > P > A:not([title]):style(color: hsl(0, 0%, 13%) !important;)
+!Nadpisanie wyjątków
+||tools.services.tvn.pl/_ads/advert.js$important
+||tvn.hit.gemius.pl/gstream.js$important
+!Stary filtr blokujący napis "Reklama": https://github.com/MajkiIT/polish-ads-filter/issues/3167
+polskatimes.pl#@#h2 > span
+!POL: Oficjalne polskie filtry przeciwko alertom o Adblocku 
+!Fanboy’s Annoyance 
+!EasyList Cookie 
+@@||sso.ppapi.pl/rodo.js$xmlhttprequest
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+||rcontent.services.tvn.pl^$important
+||fonts.googleapis.com^$important
+||google.com^$important,domain=polskatimes.pl
+!
+||s-nsk.ppstatic.pl/lib/detectors/*/js/eyeo.js
+polskatimes.pl##script:inject(set-constant.js, acceptable_ads_disallowed, true)
+||s-nsk.ppstatic.pl/lib/adbnsk/*/js/ads/gemius/g.ad.adserver.adsrv/reklama.js
+polskatimes.pl##script:inject(set-constant.js, pp_adblock_is_off, true)
+!Cały tekst na jednej stronie w chrome
+!||s-pt.ppstatic.pl/o/js/osnowa.js?
+polskatimes.pl##+js(remove-attr.js, style, SPAN[id^="tresc_"])
+!ogłoszenia - LOKALNE OFERTY w prawej kolumnie
+polskatimes.pl##DIV.componentsPromotionsOffers
+!Galeria w środku tekstu:
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > DIV.galeria-bbcode
+!Galerie w środku tekstu:
+polskatimes.pl##DIV.componentsArticleGallery
+polskatimes.pl##DIV.componentsArticleGalleryButton
+!Czytaj także wewnątrz artykułu:
+!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
+polskatimes.pl##SECTION.componentsRecommendationsSelected
+!Puste pola po reklamach "wybrane dla ciebie" pod artykułem
+!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
+polskatimes.pl##DIV.componentsRecommendationsSimpleListing__element[data-slot-show="true"]
+!Unieruchomienie paska nawigacyjnego
+!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
+polskatimes.pl##DIV#siteHeader:style(position: absolute !important;)
+!Unieruchomienie paska nawigacyjnego
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+polskatimes.pl##HTML > BODY.regionalne.stronaMaterialu.widokDesktop.istniejePlus:style(top: -48px !important)
+polskatimes.pl##HTML > BODY.regionalne.stronaMaterialu.widokDesktop.istniejePlus > DIV.zafixowanaGora > DIV#LinkArea\:men.blok.menu:style(background-color: transparent !important;)
+polskatimes.pl##DIV#pasek-regionalny-plus:style(position: initial !important;)
+!Linki z obrazkami w środku tekstu
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+polskatimes.pl##DIV.article-inset > UL.recomendations
+!Link w tekście: "masa krytyczna"
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+polskatimes.pl##+js(remove-attr.js, href, SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz])
+polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]:style(cursor: unset !important)
+polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]:style(color: #1e2832 !important)
+!Strona główna
+||s-pt.ppstatic.pl/o/reklamy/ppa_slot.css?
+polskatimes.pl##DIV.linkiSponsorowane
+!Flesz - powiązane wideo na końcu artykułu
+!https://polskatimes.pl/wybory-prezydenckie-2020-sondaz-gwaltownie-spada-poparcie-dla-andrzeja-dudy-czy-to-przez-srodkowy-palec-joanny-lichockiej/ar/c1-14807812
+polskatimes.pl##DIV.componentsPromotionsVideo
+!Reszta
+||s-pt.ppstatic.pl/p/js/akcja.js
+||polskatimes.pl/sw.js$script
+||s-pt.ppstatic.pl/o/js/cgr/anonimid.js?$script
+||s-pt.ppstatic.pl/p/js/contentstream.js?$script
+!
+!Temp, żeby się szybciej ładowało
+||get.x-link.pl^$important
+||prodxnews1blob.blob.core.windows.net^$important
+
+!Minimaum, abu tekst z kolejnych stron był nadal ukryty, treasc_1, tresc_2... ukryte i brak tekstu
+!||ppstatic.pl^$script
+!$image,script,domain=polskatimes.pl
+!$image,script,stylesheet,domain=polskatimes.pl
+!||polskatimes.pl^$inline-script
+!@@||polskatimes.pl^$inline-script
+||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
+!@@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
+!@@||s-pt.ppstatic.pl/o/js/osnowa.js?
+!@@||s-pt.ppstatic.pl/o/js/jquery/
+
+
+
+
+
+
+!polskatimes.pl##+js(remove-attr.js, style, SPAN[id^="tresc_"])
+!polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]
+!polskatimes.pl##+js(remove-attr.js, href, A.alz[target="_blank"][data-alz])
+!||polskatimes.pl^$inline-script
+!@@||ppstatic.pl^$script
+!polskatimes.pl##HTML > BODY.regionalne:style(margin-top: 0px !important)
+!get.x-link.pl,polskatimes.pl##+js(abort-on-property-read, document.body)
+!get.x-link.pl,polskatimes.pl##+js(abort-on-property-write, document.body)
+!get.x-link.pl,polskatimes.pl##+js(abort-current-inline-script, document.body)
+!polskatimes.pl##HTML:if(BODY.istniejePlus):style(margin-top: -48px !important)
+!polskatimes.pl##HTML:style(margin-top: -48px !important):if(BODY)
+!polskatimes.pl##HTML:style(margin-top: -48px !important)
+!polskatimes.pl##HTML:style(margin-top: -48px !important)
+!polskatimes.pl##+js(remove-attr.js, margin-top, ##BODY)
+!polskatimes.pl##+js(remove-attr.js, margin-top, #BODY)
+!polskatimes.pl##+js(remove-attr.js, margin-top, BODY)
+!polskatimes.pl##BODY.istniejePlus
+!polskatimes.pl##BODY:style(margin-top: 0px !important;)
+!polskatimes.pl##DIV#pasek-regionalny-plus:style(position: absolute !important;)
+!polskatimes.pl##DIV.zafixowanaGora:style(position: absolute !important;)
+!$script,domain=polskatimes.pl
+!@@||s-pt.ppstatic.pl/o/js/jquery/1.8.3/jquery.min.js?$script
+!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.lazyload-1.9.3.js?
+!||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js?
+!||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js?
+!||s-pt.ppstatic.pl/o/js/urlmaildetect.js?
+!||ppstatic.pl/o/$script
+!@@||s-pt.ppstatic.pl/o/js/jquery/1.8.3/jquery.min.js?$script
+!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.appear-1.1.1.min.js?
+!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.lazyload-1.9.3.js?
+!||polskatimes.pl^$inline-script
+!$script,domain=polskatimes.pl
+!@@$script,domain=polskatimes.pl
+!||ppstatic.pl/p/$script
+!||ppstatic.pl/lib/$script
+!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.lazyload-1.9.3.js?
+!@@||s-pt.ppstatic.pl/o/jquerytools/
+!||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js?$important
+!||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js?$important
+!||s-nsk.ppstatic.pl/assets/nsk/v1.62.4/js/compiled/components/recommendations/simple/listing.js
+!||s-pt.ppstatic.pl^$stylesheet
+!get.x-link.pl,polskatimes.pl##+js(abort-on-property-read, jQuery("#pasek-regionalny-plus").length)
+!get.x-link.pl,polskatimes.pl##+js(abort-on-property-write, jQuery("#pasek-regionalny-plus").length)
+!get.x-link.pl,polskatimes.pl##+js(abort-current-inline-script, jQuery("#pasek-regionalny-plus").length)
+!get.x-link.pl,polskatimes.pl##+js(abort-on-property-read, jQuery)
+!get.x-link.pl,polskatimes.pl##+js(abort-on-property-write, jQuery)
+!get.x-link.pl,polskatimes.pl##+js(abort-current-inline-script, jQuery)
+!||s-nsk.ppstatic.pl/assets/nsk/v1.62.4/js/compiled/components/promotions/offers.js
+!||s-nsk.ppstatic.pl/assets/nsk/v1.62.4/js/compiled/components/recommendations/simple/listing.js
+!polskatimes.pl##DIV.componentsPromotionsOffers__fakeImg
+!polskatimes.pl##+js(remove-attr.js, data-bg, DIV.componentsPromotionsOffers__fakeImg)
+!||ppstatic.pl^$script
+!polskatimes.pl##+js(abort-on-property-read, tresc_)
+!polskatimes.pl##+js(abort-on-property-write, tresc_)
+!polskatimes.pl##+js(abort-current-inline-script, tresc_)
+!polskatimes.pl##+js(abort-on-property-read, dane_kontroler.strona)
+!polskatimes.pl##+js(abort-on-property-write, dane_kontroler.strona)
+!polskatimes.pl##+js(abort-current-inline-script, dane_kontroler.strona)
+!polskatimes.pl##+js(abort-on-property-read, tmp)
+!polskatimes.pl##+js(abort-on-property-write, tmp)
+!polskatimes.pl##+js(abort-current-inline-script, tmp)
+!polskatimes.pl##+js(abort-on-property-read, usunCssClass)
+!polskatimes.pl##+js(abort-on-property-write, usunCssClass)
+!polskatimes.pl##+js(abort-current-inline-script, usunCssClass)
+!polskatimes.pl##+js(abort-on-property-read, usunElement)
+!polskatimes.pl##+js(abort-on-property-write, usunElement)
+!polskatimes.pl##+js(abort-current-inline-script, usunElement)
+!polskatimes.pl##+js(abort-on-property-read, wyczyscElement)
+!polskatimes.pl##+js(abort-on-property-write, wyczyscElement)
+!polskatimes.pl##+js(abort-current-inline-script, wyczyscElement)
+!polskatimes.pl##+js(abort-on-property-read, ustawReguleCss)
+!polskatimes.pl##+js(abort-on-property-write, ustawReguleCss)
+!polskatimes.pl##+js(abort-current-inline-script, ustawReguleCss)
+!polskatimes.pl##+js(abort-on-property-read, aktualnaStrona)
+!polskatimes.pl##+js(abort-on-property-write, aktualnaStrona)
+!polskatimes.pl##+js(abort-current-inline-script, aktualnaStrona)
+!polskatimes.pl##+js(abort-on-property-read, ilosc)
+!polskatimes.pl##+js(abort-on-property-write, ilosc)
+!polskatimes.pl##+js(abort-current-inline-script, ilosc)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, cGR.prototype.pokazUkryj)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, cGR.prototype.pokazUkryj)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, cGR.prototype.pokazUkryj)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, cGR)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, cGR)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, cGR)
+!pstatic.pl,polskatimes.pl##+js(abort-on-property-read, a)
+!pstatic.pl,polskatimes.pl##+js(abort-on-property-write, a)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, a)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, e)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, e)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, e)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, pokazUkryj)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, pokazUkryj)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, pokazUkryj)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, usunCssClass)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, usunCssClass)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, usunCssClass)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, zmienCssClass)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, zmienCssClass)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, zmienCssClass)
+!polskatimes.pl##+js(abort-on-property-read, GR)
+!polskatimes.pl##+js(abort-on-property-write, GR)
+!polskatimes.pl##+js(abort-current-inline-script, GR)
+!||s-pt.ppstatic.pl/o/reklamy/ppa_slot.css?$stylesheet
+!polskatimes.pl##SECTION#tresc > SPAN#tresc_1
+!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN[id^="tresc_"]:style(display: inline !important;)
+!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc:style(display: inline !important;)
+!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN
+!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN:style(display: block !important;)
+!polskatimes.pl##span#tresc_1
+!polskatimes.pl###tresc_0
+!polskatimes.pl###tresc_1:style(display: block !important)
+!polskatimes.pl##+js(remove-attr.js, style, tresc_1)
+!polskatimes.pl##+js(remove-attr.js, style, .tresc_1)
+!polskatimes.pl##+js(remove-attr.js, style, #tresc_1)
+!polskatimes.pl##+js(remove-attr.js, style, ##tresc_1)
+!polskatimes.pl##+js(remove-attr.js, style, glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN)
+!polskatimes.pl##script:inject(set-constant.js, window.chrome, null)
+!polskatimes.pl##+js(abort-on-property-write, strona)
+!polskatimes.pl##+js(abort-current-inline-script, strona)
+!||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$important
+!@@||polskatimes.pl^$inline-script
+!||ajax.cloudflare.com^$script,important
+!||ppstatic.pl/p/css/
+!!!!!!!!!!!
+!@@||ppstatic.pl/p/$script
+!@@||ppstatic.pl/lib/$script
+!@@||ppstatic.pl/o/jquerytools/$script
+!@@||ppstatic.pl/o/js/$script
+!||ppstatic.pl/o/js/jquery/$important
+!@@||ppstatic.pl/o/js/jquery/
+!||s-pt.ppstatic.pl/o/js/osnowa.js?
+!
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, gr$)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, gr$)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, gr$)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, $)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, $)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, $)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, cGR)
+!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, cGR)
+!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, cGR)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!
+
