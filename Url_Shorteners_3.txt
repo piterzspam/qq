@@ -75,32 +75,32 @@ linegee.net##DIV.widget.widget_search
 linegee.net##MAIN#main
 linegee.net##DIV#comments
 
-||intercelestial.com^$image,script,stylesheet
-@@||intercelestial.com/wp-content/uploads/2019/09/button_im-not-a-robot.png
-@@||intercelestial.com/wp-content/uploads/2019/09/button_please-wait.png
-@@||intercelestial.com/wp-content/uploads/2019/09/button_generate-link.png
-@@||intercelestial.com/wp-content/uploads/2019/09/button_download.png
-@@||intercelestial.com/wp-includes/js/jquery/jquery.js?
+$image,script,stylesheet,domain=intercelestial.com|sweetlantern.com,important
+@@/wp-content/uploads/2019/09/button_im-not-a-robot.png$domain=intercelestial.com|sweetlantern.com
+@@/wp-content/uploads/2019/09/button_please-wait.png$domain=intercelestial.com|sweetlantern.com
+@@/wp-content/uploads/2019/09/button_generate-link.png$domain=intercelestial.com|sweetlantern.com
+@@/wp-content/uploads/2019/09/button_download.png$domain=intercelestial.com|sweetlantern.com
+@@/wp-includes/js/jquery/jquery.js?$domain=intercelestial.com|sweetlantern.com
 
-||adop.cc^$domain=intercelestial.com,important
-||google.com/recaptcha/$domain=intercelestial.com,important
-||googleapis.com^$domain=intercelestial.com,important
-||gravatar.com^$domain=intercelestial.com,important
-intercelestial.com##HEADER#masthead
-intercelestial.com##INS.adsbyadop
-intercelestial.com##A.skip-link
-intercelestial.com##DIV.col-md-12
-intercelestial.com##ARTICLE[id^="post-"]
-intercelestial.com##DIV#footer-container
-intercelestial.com##DIV.widget_nav_menu
-intercelestial.com##DIV.widget.widget_tag_cloud
-intercelestial.com##DIV.widget.widget_recent_comments
-intercelestial.com##DIV.widget.widget_categories
-intercelestial.com##DIV.widget.widget_archive
-intercelestial.com##DIV.widget.idblog-form
-intercelestial.com##DIV.widget.widget_search
-intercelestial.com##MAIN#main
-intercelestial.com##DIV#comments
+||adop.cc^$domain=intercelestial.com|sweetlantern.com,important
+||google.com/recaptcha/$domain=intercelestial.com|sweetlantern.com,important
+||googleapis.com^$domain=intercelestial.com|sweetlantern.com,important
+||gravatar.com^$domain=intercelestial.com|sweetlantern.com,important
+intercelestial.com,sweetlantern.com##HEADER#masthead
+intercelestial.com,sweetlantern.com##INS.adsbyadop
+intercelestial.com,sweetlantern.com##A.skip-link
+intercelestial.com,sweetlantern.com##DIV.col-md-12
+intercelestial.com,sweetlantern.com##ARTICLE[id^="post-"]
+intercelestial.com,sweetlantern.com##DIV#footer-container
+intercelestial.com,sweetlantern.com##DIV.widget_nav_menu
+intercelestial.com,sweetlantern.com##DIV.widget.widget_tag_cloud
+intercelestial.com,sweetlantern.com##DIV.widget.widget_recent_comments
+intercelestial.com,sweetlantern.com##DIV.widget.widget_categories
+intercelestial.com,sweetlantern.com##DIV.widget.widget_archive
+intercelestial.com,sweetlantern.com##DIV.widget.idblog-form
+intercelestial.com,sweetlantern.com##DIV.widget.widget_search
+intercelestial.com,sweetlantern.com##MAIN#main
+intercelestial.com,sweetlantern.com##DIV#comments
 
 earnload.co,gplinks.co,gplinks.in##+js(acis, Math, zfgloaded)
 earnload.co,gplinks.co,gplinks.in##+js(aopr, app_vars.force_disable_adblock)
