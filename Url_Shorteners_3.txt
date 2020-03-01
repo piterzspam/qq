@@ -82,7 +82,7 @@ $image,script,stylesheet,domain=intercelestial.com|sweetlantern.com,important
 @@/wp-content/uploads/2019/09/button_download.png$domain=intercelestial.com|sweetlantern.com
 @@/wp-includes/js/jquery/jquery.js?$domain=intercelestial.com|sweetlantern.com
 
-||adop.cc^$domain=intercelestial.com|sweetlantern.com,important
+||adop.cc^$domain=intercelestial.com|sweetlantern.com
 ||google.com/recaptcha/$domain=intercelestial.com|sweetlantern.com,important
 ||googleapis.com^$domain=intercelestial.com|sweetlantern.com,important
 ||gravatar.com^$domain=intercelestial.com|sweetlantern.com,important
