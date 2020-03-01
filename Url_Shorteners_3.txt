@@ -75,7 +75,7 @@ linegee.net##DIV.widget.widget_search
 linegee.net##MAIN#main
 linegee.net##DIV#comments
 
-$image,script,stylesheet,domain=intercelestial.com|sweetlantern.com,important
+$image,script,stylesheet,domain=intercelestial.com|sweetlantern.com
 @@/wp-content/uploads/2019/09/button_im-not-a-robot.png$domain=intercelestial.com|sweetlantern.com
 @@/wp-content/uploads/2019/09/button_please-wait.png$domain=intercelestial.com|sweetlantern.com
 @@/wp-content/uploads/2019/09/button_generate-link.png$domain=intercelestial.com|sweetlantern.com
