@@ -104,18 +104,15 @@ echodnia.eu##DIV.componentsPromotionsVideo
 ||sso.ppapi.pl/rodo.js?
 !Reklamy w WYBRANE DLA CIEBIE pod artykułem, i NAJNOWSZE po prawej bez zdjęć, same linki + brak komunikatu po wejściu na stronę
 !https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
-||s-nsk.ppstatic.pl/assets/nsk/v1.62.13/css/owl/group/ads-native.css
+||ppstatic.pl/assets/nsk/*/css/owl/group/ads-native.css
 !Reklamy ponad tekstem, obok tekstu, w treści tekstu
 !https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
-||s-nsk.ppstatic.pl/lib/ppa/*/js/main.js
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720/2
-||s-pt.ppstatic.pl/lib/ppa/*/js/main.js?
+||ppstatic.pl/lib/ppa/*/js/main.js
 !Żądania xhr do vhsrwd.aip24.pl/v1/streams/nWtM4NQ4cgHZ/events
 !https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
-||s-nsk.ppstatic.pl/lib/events/*/deep/*/init.js
 !Najprawdopodobniej szpiegowanie
-||s-nsk.ppstatic.pl/lib/events/*/js/main.js
-||s-pt.ppstatic.pl/lib/events/*/js/main.js
+||ppstatic.pl/lib/events/
 
 
 
@@ -134,10 +131,12 @@ echodnia.eu##DIV.componentsPromotionsVideo
 ||s-pt.ppstatic.pl/o/js/cgr/anonimid.js?$script
 ||s-pt.ppstatic.pl/p/js/contentstream.js?$script
 !
+
 !Temp, żeby się szybciej ładowało
-||get.x-link.pl^$important
-||prodxnews1blob.blob.core.windows.net^$important
+!||get.x-link.pl^$important
+!||prodxnews1blob.blob.core.windows.net^$important
 
 
 
 !
+
