@@ -1,5 +1,6 @@
 ! Title: Polska_press
 ! Expires: 1 day
+
 !Dan Pollock’s hosts file - nie działa wideo
 ||prodxnews1blob.blob.core.windows.net^$badfilter
 ||get.x-link.pl^$badfilter
@@ -8,68 +9,125 @@
 @@||dcs.redcdn.pl/file/o2/TVN-Adserver/$media,domain=get.x-link.pl
 !Wygląda na to, że blokujesz reklamy - komunikat Google
 @@||polskatimes.pl^$ghide
-!Linki do powiązanych między paragrafami w treści artykułu
-polskatimes.pl##ARTICLE > DIV.md > P > A[href][title]
-!Linki do innych artykułów w tekście artykułu
-polskatimes.pl##+js(remove-attr.js, href, DIV.md > P > A:not([title]))
-polskatimes.pl##ARTICLE > DIV.md > P > A:not([title]):style(color: hsl(0, 0%, 13%) !important;)
 !Nadpisanie wyjątków
 ||tools.services.tvn.pl/_ads/advert.js$important
 ||tvn.hit.gemius.pl/gstream.js$important
 !Stary filtr blokujący napis "Reklama": https://github.com/MajkiIT/polish-ads-filter/issues/3167
-polskatimes.pl#@#h2 > span
+echodnia.eu#@#h2 > span
 !POL: Oficjalne polskie filtry przeciwko alertom o Adblocku 
 !Fanboy’s Annoyance 
 !EasyList Cookie 
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
+!Echodnia.eu
+!POL: Oficjalne polskie filtry przeciwko alertom o Adblocku
+@@||googletagmanager.com/gtm.js$domain=echodnia.eu,badfilter
+
+!Kosmetyczne
+!Linki z CZYTAJ KONIECZNIE: w środku artykułu
+!https://echodnia.eu/radomskie/budowa-trasy-s12-w-radomskiem-wariant-b-rekomendowany-do-dalszych-prac-przez-drogowcow-jakie-opinie-samorzadowcow/ar/c1-14823888
+echodnia.eu##BODY.nsk > MAIN.layoutsContainer > ARTICLE.layoutsGrid > DIV.layoutsGrid__left > ARTICLE.componentsArticleContent > DIV.md > P:if(STRONG > A[href][title])
+!Prostokąt 9 miniaturkami POLECAMY PAŃSTWA UWADZE: na końcu artykułu
+!https://echodnia.eu/radomskie/budowa-trasy-s12-w-radomskiem-wariant-b-rekomendowany-do-dalszych-prac-przez-drogowcow-jakie-opinie-samorzadowcow/ar/c1-14823888
+echodnia.eu##ARTICLE.componentsArticleContent > DIV.md:if(P:has-text(POLECAMY PAŃSTWA UWADZE:) + DIV[style="display:flex; padding: 10px 0 0 3px; flex-wrap:wrap;border:1px solid lightgray; width:fit-content"])
+!Przycisk lubię to po lewej stronie galerii
+!https://echodnia.eu/radomskie/budowa-trasy-s12-w-radomskiem-wariant-b-rekomendowany-do-dalszych-prac-przez-drogowcow-jakie-opinie-samorzadowcow/ga/c1-14823888/zd/42299322
+!https://echodnia.eu/radomskie/budowa-trasy-s12-w-radomskiem-wariant-b-rekomendowany-do-dalszych-prac-przez-drogowcow-jakie-opinie-samorzadowcow/ga/c1-14823888
+echodnia.eu##BODY#boks-galeria > DIV.row.kontener > DIV#kontent-glowny SECTION > UL#narzedzia
+!Rozwiąż i poznaj wynik i Bądź na bieżąco i obserwuj na kończu artykułu
+!https://echodnia.eu/radomskie/artykuly-spozywcze-wycofane-ze-sprzedazy-w-sklepach-pilne-ostrzezenia-gis-oznaczaja-zakaz-sprzedazy-i-spozywania-produktow/ar/c14-14714308
+echodnia.eu##BODY.nsk > MAIN.layoutsContainer > ARTICLE.layoutsGrid > DIV.layoutsGrid__left > ARTICLE.componentsArticleContent > DIV.componentsPromotionsPromoted.component
+!https://echodnia.eu/radomskie/artykuly-spozywcze-wycofane-ze-sprzedazy-w-sklepach-pilne-ostrzezenia-gis-oznaczaja-zakaz-sprzedazy-i-spozywania-produktow/ar/c14-14714308
+!Sam przycisk do galerii wewnątrz artykułu
+echodnia.eu##ARTICLE.componentsArticleContent > DIV.componentsArticleGalleryButton
+!Zachęta do kliknięcia w galerią w paragrafie poprzedzającym sam przycisk - tekst w tym wypadku SPRAWDŹ SZCZEGÓŁY W GALERII
+echodnia.eu##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:last-child:has(P > STRONG)
+!Artkuły powiązane do sponsorowanego również są sponsorowane
+!https://echodnia.eu/radomskie/onkologia-w-mazowieckim-szpitalu-specjalistycznym-w-radomiu-ma-juz-20-lat/ar/c15-14699237
+echodnia.eu##MAIN.layoutsContainer > ARTICLE.layoutsGrid > SECTION.layoutsGrid__top:if(A[title="Artykuły sponsorowane"]) + DIV + ASIDE.layoutsGrid__right
+!Sponsorowane z najnowszych wiadomości pod galerią
+!https://echodnia.eu/radomskie/miss-studniowki-2020-oto-najpiekniejsze-dziewczyny-na-studniowkach-w-powiecie-radomskim-one-powalcza-o-tytuly-w-regionie/ga/c15-14826782/zd/42343448
+echodnia.eu##DIV.componentsRecommendationsSimpleListing__element[data-event-position]:if(SPAN.atomsArticleTile__sponsored)
+!!!!!!!!
+||s-nsk.ppstatic.pl/lib/detectors/*/js/eyeo.js
+echodnia.eu##script:inject(set-constant.js, acceptable_ads_disallowed, true)
+||s-nsk.ppstatic.pl/lib/adbnsk/*/js/ads/gemius/g.ad.adserver.adsrv/reklama.js
+echodnia.eu##script:inject(set-constant.js, pp_adblock_is_off, true)
+!Cały tekst na jednej stronie w chrome
+!||s-pt.ppstatic.pl/o/js/osnowa.js?
+echodnia.eu##+js(remove-attr.js, style, SPAN[id^="tresc_"])
+!ogłoszenia - LOKALNE OFERTY w prawej kolumnie
+echodnia.eu##DIV.componentsPromotionsOffers
+!Galeria w środku tekstu:
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+echodnia.eu##SECTION#tresc > SPAN[id^="tresc_"] > DIV.galeria-bbcode
+!Galerie w środku tekstu, a nie na początku:
+echodnia.eu,polskatimes.pl##DIV.md + DIV.componentsArticleGallery
+!Czytaj także wewnątrz artykułu:
+!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
+echodnia.eu##SECTION.componentsRecommendationsSelected
+!Puste pola po reklamach "wybrane dla ciebie" pod artykułem
+!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
+echodnia.eu##DIV.componentsRecommendationsSimpleListing__element[data-slot-show="true"]
+!Unieruchomienie paska nawigacyjnego
+!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
+echodnia.eu##DIV#siteHeader:style(position: absolute !important;)
+!Unieruchomienie paska nawigacyjnego
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+!echodnia.eu##HTML > BODY.regionalne.stronaMaterialu.widokDesktop.istniejePlus:style(top: -48px !important)
+!echodnia.eu##HTML > BODY.regionalne.stronaMaterialu.widokDesktop.istniejePlus > DIV.zafixowanaGora > DIV#LinkArea\:men.blok.menu:style(background-color: transparent !important;)
+!echodnia.eu##DIV#pasek-regionalny-plus:style(position: initial !important;)
+!Linki z obrazkami w środku tekstu
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+echodnia.eu##DIV.article-inset > UL.recomendations
+!Link w tekście: "masa krytyczna"
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+echodnia.eu##+js(remove-attr.js, href, SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz])
+echodnia.eu##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]:style(cursor: unset !important)
+echodnia.eu##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]:style(color: #1e2832 !important)
+!Linki do powiązanych między paragrafami w treści artykułu
+echodnia.eu##ARTICLE > DIV.md > P > A[href][title]
+!Linki do innych artykułów w tekście artykułu
+echodnia.eu##+js(remove-attr.js, href, DIV.md > P > A:not([title]))
+echodnia.eu##ARTICLE > DIV.md > P > A:not([title]):style(color: hsl(0, 0%, 13%) !important;)
+!Strona główna
+echodnia.eu##DIV.linkiSponsorowane
+!Flesz - powiązane wideo na końcu artykułu
+!https://polskatimes.pl/wybory-prezydenckie-2020-sondaz-gwaltownie-spada-poparcie-dla-andrzeja-dudy-czy-to-przez-srodkowy-palec-joanny-lichockiej/ar/c1-14807812
+echodnia.eu##DIV.componentsPromotionsVideo
+
+!Sieciowe
+!Komunikat na dole po prawej: Monitorujemy anonimowo aktywność na stronie, korzystamy z cookies i local storage.
+!https://echodnia.eu/radomskie/wiadomosci/powiat-radomski/
+||s-pt.ppstatic.pl/o/css/cookies.css?
+!Komunikat na całą stronę po wejściu na stronę: Szanowna Użytkowniczko, Szanowny Użytkowniku!
+!https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
+||sso.ppapi.pl/rodo.js?
+!Reklamy w WYBRANE DLA CIEBIE pod artykułem, i NAJNOWSZE po prawej bez zdjęć, same linki + brak komunikatu po wejściu na stronę
+!https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
+||s-nsk.ppstatic.pl/assets/nsk/v1.62.13/css/owl/group/ads-native.css
+!Reklamy ponad tekstem, obok tekstu, w treści tekstu
+!https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
+||s-nsk.ppstatic.pl/lib/ppa/*/js/main.js
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720/2
+||s-pt.ppstatic.pl/lib/ppa/*/js/main.js?
+!Żądania xhr do vhsrwd.aip24.pl/v1/streams/nWtM4NQ4cgHZ/events
+!https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
+||s-nsk.ppstatic.pl/lib/events/*/deep/*/init.js
+!Najprawdopodobniej szpiegowanie
+||s-nsk.ppstatic.pl/lib/events/*/js/main.js
+||s-pt.ppstatic.pl/lib/events/*/js/main.js
+
+
+
+
+!||s-pt.ppstatic.pl/o/reklamy/ppa_slot.css?
+!||echodnia.eu/sw.js
+!
+||sso.ppapi.pl/rodo.js?
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ||rcontent.services.tvn.pl^$important
 ||fonts.googleapis.com^$important
 ||google.com^$important,domain=polskatimes.pl
-!
-||s-nsk.ppstatic.pl/lib/detectors/*/js/eyeo.js
-polskatimes.pl##script:inject(set-constant.js, acceptable_ads_disallowed, true)
-||s-nsk.ppstatic.pl/lib/adbnsk/*/js/ads/gemius/g.ad.adserver.adsrv/reklama.js
-polskatimes.pl##script:inject(set-constant.js, pp_adblock_is_off, true)
-!Cały tekst na jednej stronie w chrome
-!||s-pt.ppstatic.pl/o/js/osnowa.js?
-polskatimes.pl##+js(remove-attr.js, style, SPAN[id^="tresc_"])
-!ogłoszenia - LOKALNE OFERTY w prawej kolumnie
-polskatimes.pl##DIV.componentsPromotionsOffers
-!Galeria w środku tekstu:
-!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > DIV.galeria-bbcode
-!Galerie w środku tekstu:
-polskatimes.pl##DIV.componentsArticleGallery
-polskatimes.pl##DIV.componentsArticleGalleryButton
-!Czytaj także wewnątrz artykułu:
-!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
-polskatimes.pl##SECTION.componentsRecommendationsSelected
-!Puste pola po reklamach "wybrane dla ciebie" pod artykułem
-!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
-polskatimes.pl##DIV.componentsRecommendationsSimpleListing__element[data-slot-show="true"]
-!Unieruchomienie paska nawigacyjnego
-!https://polskatimes.pl/urszula-brzezinskaholownia-karina-walinowicz-paulina-kosiniakkamysz-jan-kidawablonski-kim-sa-partnerzy-kandydatow-na-prezydenta/ar/c1-14805684
-polskatimes.pl##DIV#siteHeader:style(position: absolute !important;)
-!Unieruchomienie paska nawigacyjnego
-!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-polskatimes.pl##HTML > BODY.regionalne.stronaMaterialu.widokDesktop.istniejePlus:style(top: -48px !important)
-polskatimes.pl##HTML > BODY.regionalne.stronaMaterialu.widokDesktop.istniejePlus > DIV.zafixowanaGora > DIV#LinkArea\:men.blok.menu:style(background-color: transparent !important;)
-polskatimes.pl##DIV#pasek-regionalny-plus:style(position: initial !important;)
-!Linki z obrazkami w środku tekstu
-!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-polskatimes.pl##DIV.article-inset > UL.recomendations
-!Link w tekście: "masa krytyczna"
-!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-polskatimes.pl##+js(remove-attr.js, href, SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz])
-polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]:style(cursor: unset !important)
-polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]:style(color: #1e2832 !important)
-!Strona główna
-||s-pt.ppstatic.pl/o/reklamy/ppa_slot.css?
-polskatimes.pl##DIV.linkiSponsorowane
-!Flesz - powiązane wideo na końcu artykułu
-!https://polskatimes.pl/wybory-prezydenckie-2020-sondaz-gwaltownie-spada-poparcie-dla-andrzeja-dudy-czy-to-przez-srodkowy-palec-joanny-lichockiej/ar/c1-14807812
-polskatimes.pl##DIV.componentsPromotionsVideo
 !Reszta
 ||s-pt.ppstatic.pl/p/js/akcja.js
 ||polskatimes.pl/sw.js$script
@@ -80,189 +138,6 @@ polskatimes.pl##DIV.componentsPromotionsVideo
 ||get.x-link.pl^$important
 ||prodxnews1blob.blob.core.windows.net^$important
 
-!Minimaum, abu tekst z kolejnych stron był nadal ukryty, treasc_1, tresc_2... ukryte i brak tekstu
-!||ppstatic.pl^$script
-!$image,script,domain=polskatimes.pl
-!$image,script,stylesheet,domain=polskatimes.pl
-!||polskatimes.pl^$inline-script
-!@@||polskatimes.pl^$inline-script
-||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
-!@@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
-!@@||s-pt.ppstatic.pl/o/js/osnowa.js?
-!@@||s-pt.ppstatic.pl/o/js/jquery/
-
-
-
-
-
-
-!polskatimes.pl##+js(remove-attr.js, style, SPAN[id^="tresc_"])
-!polskatimes.pl##SECTION#tresc > SPAN[id^="tresc_"] > A.alz[target="_blank"][data-alz]
-!polskatimes.pl##+js(remove-attr.js, href, A.alz[target="_blank"][data-alz])
-!||polskatimes.pl^$inline-script
-!@@||ppstatic.pl^$script
-!polskatimes.pl##HTML > BODY.regionalne:style(margin-top: 0px !important)
-!get.x-link.pl,polskatimes.pl##+js(abort-on-property-read, document.body)
-!get.x-link.pl,polskatimes.pl##+js(abort-on-property-write, document.body)
-!get.x-link.pl,polskatimes.pl##+js(abort-current-inline-script, document.body)
-!polskatimes.pl##HTML:if(BODY.istniejePlus):style(margin-top: -48px !important)
-!polskatimes.pl##HTML:style(margin-top: -48px !important):if(BODY)
-!polskatimes.pl##HTML:style(margin-top: -48px !important)
-!polskatimes.pl##HTML:style(margin-top: -48px !important)
-!polskatimes.pl##+js(remove-attr.js, margin-top, ##BODY)
-!polskatimes.pl##+js(remove-attr.js, margin-top, #BODY)
-!polskatimes.pl##+js(remove-attr.js, margin-top, BODY)
-!polskatimes.pl##BODY.istniejePlus
-!polskatimes.pl##BODY:style(margin-top: 0px !important;)
-!polskatimes.pl##DIV#pasek-regionalny-plus:style(position: absolute !important;)
-!polskatimes.pl##DIV.zafixowanaGora:style(position: absolute !important;)
-!$script,domain=polskatimes.pl
-!@@||s-pt.ppstatic.pl/o/js/jquery/1.8.3/jquery.min.js?$script
-!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.lazyload-1.9.3.js?
-!||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js?
-!||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js?
-!||s-pt.ppstatic.pl/o/js/urlmaildetect.js?
-!||ppstatic.pl/o/$script
-!@@||s-pt.ppstatic.pl/o/js/jquery/1.8.3/jquery.min.js?$script
-!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.appear-1.1.1.min.js?
-!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.lazyload-1.9.3.js?
-!||polskatimes.pl^$inline-script
-!$script,domain=polskatimes.pl
-!@@$script,domain=polskatimes.pl
-!||ppstatic.pl/p/$script
-!||ppstatic.pl/lib/$script
-!@@||s-pt.ppstatic.pl/o/jquerytools/jquery.lazyload-1.9.3.js?
-!@@||s-pt.ppstatic.pl/o/jquerytools/
-!||s-pt.ppstatic.pl/o/jquerytools/jquery.nanoscroller.js?$important
-!||s-pt.ppstatic.pl/o/jquerytools/jquery.cookie.js?$important
-!||s-nsk.ppstatic.pl/assets/nsk/v1.62.4/js/compiled/components/recommendations/simple/listing.js
-!||s-pt.ppstatic.pl^$stylesheet
-!get.x-link.pl,polskatimes.pl##+js(abort-on-property-read, jQuery("#pasek-regionalny-plus").length)
-!get.x-link.pl,polskatimes.pl##+js(abort-on-property-write, jQuery("#pasek-regionalny-plus").length)
-!get.x-link.pl,polskatimes.pl##+js(abort-current-inline-script, jQuery("#pasek-regionalny-plus").length)
-!get.x-link.pl,polskatimes.pl##+js(abort-on-property-read, jQuery)
-!get.x-link.pl,polskatimes.pl##+js(abort-on-property-write, jQuery)
-!get.x-link.pl,polskatimes.pl##+js(abort-current-inline-script, jQuery)
-!||s-nsk.ppstatic.pl/assets/nsk/v1.62.4/js/compiled/components/promotions/offers.js
-!||s-nsk.ppstatic.pl/assets/nsk/v1.62.4/js/compiled/components/recommendations/simple/listing.js
-!polskatimes.pl##DIV.componentsPromotionsOffers__fakeImg
-!polskatimes.pl##+js(remove-attr.js, data-bg, DIV.componentsPromotionsOffers__fakeImg)
-!||ppstatic.pl^$script
-!polskatimes.pl##+js(abort-on-property-read, tresc_)
-!polskatimes.pl##+js(abort-on-property-write, tresc_)
-!polskatimes.pl##+js(abort-current-inline-script, tresc_)
-!polskatimes.pl##+js(abort-on-property-read, dane_kontroler.strona)
-!polskatimes.pl##+js(abort-on-property-write, dane_kontroler.strona)
-!polskatimes.pl##+js(abort-current-inline-script, dane_kontroler.strona)
-!polskatimes.pl##+js(abort-on-property-read, tmp)
-!polskatimes.pl##+js(abort-on-property-write, tmp)
-!polskatimes.pl##+js(abort-current-inline-script, tmp)
-!polskatimes.pl##+js(abort-on-property-read, usunCssClass)
-!polskatimes.pl##+js(abort-on-property-write, usunCssClass)
-!polskatimes.pl##+js(abort-current-inline-script, usunCssClass)
-!polskatimes.pl##+js(abort-on-property-read, usunElement)
-!polskatimes.pl##+js(abort-on-property-write, usunElement)
-!polskatimes.pl##+js(abort-current-inline-script, usunElement)
-!polskatimes.pl##+js(abort-on-property-read, wyczyscElement)
-!polskatimes.pl##+js(abort-on-property-write, wyczyscElement)
-!polskatimes.pl##+js(abort-current-inline-script, wyczyscElement)
-!polskatimes.pl##+js(abort-on-property-read, ustawReguleCss)
-!polskatimes.pl##+js(abort-on-property-write, ustawReguleCss)
-!polskatimes.pl##+js(abort-current-inline-script, ustawReguleCss)
-!polskatimes.pl##+js(abort-on-property-read, aktualnaStrona)
-!polskatimes.pl##+js(abort-on-property-write, aktualnaStrona)
-!polskatimes.pl##+js(abort-current-inline-script, aktualnaStrona)
-!polskatimes.pl##+js(abort-on-property-read, ilosc)
-!polskatimes.pl##+js(abort-on-property-write, ilosc)
-!polskatimes.pl##+js(abort-current-inline-script, ilosc)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, cGR.prototype.pokazUkryj)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, cGR.prototype.pokazUkryj)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, cGR.prototype.pokazUkryj)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, cGR)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, cGR)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, cGR)
-!pstatic.pl,polskatimes.pl##+js(abort-on-property-read, a)
-!pstatic.pl,polskatimes.pl##+js(abort-on-property-write, a)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, a)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, e)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, e)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, e)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, pokazUkryj)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, pokazUkryj)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, pokazUkryj)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, usunCssClass)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, usunCssClass)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, usunCssClass)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, zmienCssClass)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, zmienCssClass)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, zmienCssClass)
-!polskatimes.pl##+js(abort-on-property-read, GR)
-!polskatimes.pl##+js(abort-on-property-write, GR)
-!polskatimes.pl##+js(abort-current-inline-script, GR)
-!||s-pt.ppstatic.pl/o/reklamy/ppa_slot.css?$stylesheet
-!polskatimes.pl##SECTION#tresc > SPAN#tresc_1
-!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN[id^="tresc_"]:style(display: inline !important;)
-!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc:style(display: inline !important;)
-!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN
-!polskatimes.pl##DIV#glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN:style(display: block !important;)
-!polskatimes.pl##span#tresc_1
-!polskatimes.pl###tresc_0
-!polskatimes.pl###tresc_1:style(display: block !important)
-!polskatimes.pl##+js(remove-attr.js, style, tresc_1)
-!polskatimes.pl##+js(remove-attr.js, style, .tresc_1)
-!polskatimes.pl##+js(remove-attr.js, style, #tresc_1)
-!polskatimes.pl##+js(remove-attr.js, style, ##tresc_1)
-!polskatimes.pl##+js(remove-attr.js, style, glowna-kolumna > DIV.row > ARTICLE#material > SECTION#tresc > SPAN)
-!polskatimes.pl##script:inject(set-constant.js, window.chrome, null)
-!polskatimes.pl##+js(abort-on-property-write, strona)
-!polskatimes.pl##+js(abort-current-inline-script, strona)
-!||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$important
-!@@||polskatimes.pl^$inline-script
-!||ajax.cloudflare.com^$script,important
-!||ppstatic.pl/p/css/
-!!!!!!!!!!!
-!@@||ppstatic.pl/p/$script
-!@@||ppstatic.pl/lib/$script
-!@@||ppstatic.pl/o/jquerytools/$script
-!@@||ppstatic.pl/o/js/$script
-!||ppstatic.pl/o/js/jquery/$important
-!@@||ppstatic.pl/o/js/jquery/
-!||s-pt.ppstatic.pl/o/js/osnowa.js?
-!
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, gr$)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, gr$)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, gr$)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, $)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, $)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, $)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-read, cGR)
-!ppstatic.pl,polskatimes.pl##+js(abort-on-property-write, cGR)
-!ppstatic.pl,polskatimes.pl##+js(abort-current-inline-script, cGR)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 !
-
