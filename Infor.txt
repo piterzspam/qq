@@ -1,0 +1,157 @@
+! Title: Infor
+! Expires: 1 day
+
+!https://www.dziennik.pl/autor/39190,robert-mazurek
+||ocdn.eu/workshopinforocdn/infor/pwa/workbox-sw$domain=dziennik.pl
+||ocdn.eu/workshopinforocdn/infor/pwa/workbox-google-analytics$domain=dziennik.pl
+||ocdn.eu/workshopinforocdn/infor/fonts/$font,important,domain=dziennik.pl
+||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=dziennik.pl
+||dziennik.pl/sw-dziennik.js
+!https://wiadomosci.dziennik.pl/opinie/artykul-prasowy/6447624,dr-jacek-sokolowski-pis-po-opozycja-konflikt-sadownictwo.html
+||videotarget.pl^$domain=dziennik.pl
+||gstatic.com^$domain=videotarget.pl,important
+||fonts.googleapis.com^$domain=videotarget.pl,important
+||dmp.videotarget.pl^
+
+!Strona stacjonarna i mobilna, linki w treści artykułu napisane tekstem zwykłym i pogrubionym
+dziennik.pl##+js(remove-attr.js, href, DIV.detail > P A[id][href*="dziennik.pl/tagi/"])
+dziennik.pl##DIV.detail > P A[id]:style(text-decoration: unset !important;color: unset !important;)
+!Te wideo są z domeny videotarget.pl, wideo sensowne są z ramki pulsembed.eu, tam jest ramka z videotarget
+!https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
+dziennik.pl##DIV.widget.video.videoScrollClass:if(DIV[data-vt-type="stream"])
+
+!Wyłączenie pokazywania playlisty po spauzowaniu lub przesunięciu kursora poza stronę
+!https://videotarget.pl/player/v1/stream/eyJzaXRlIjoxMDMyLCJwbGFjZW1lbnQiOjEwNDYsInRlbXBsYXRlIjo1LCJjb250ZXh0Ijo3NiwidHlwZSI6InN0cmVhbSJ9?type=stream&index=2&m=0&play=1&m=0&v=1
+videotarget.pl##+js(abort-on-property-read.js, playlist)
+!Wyłączenie automatycznego ładowania następnego filmu po zakończeniu aktualnego
+!https://videotarget.pl/player/v1/stream/eyJzaXRlIjoxMDMyLCJwbGFjZW1lbnQiOjEwNDYsInRlbXBsYXRlIjo1LCJjb250ZXh0Ijo3NiwidHlwZSI6InN0cmVhbSJ9?type=stream&index=2&m=0&play=1&m=0&v=1
+videotarget.pl##+js(nostif, video, timeOut * 1000 + 100)
+!Ukrycie zasłaniacza z odlicznaiem do następnego filmu
+!https://videotarget.pl/player/v1/stream/eyJzaXRlIjoxMDMyLCJwbGFjZW1lbnQiOjEwNDYsInRlbXBsYXRlIjo1LCJjb250ZXh0Ijo3NiwidHlwZSI6InN0cmVhbSJ9?type=stream&index=2&m=0&play=1&m=0&v=1
+videotarget.pl##DIV#animate:if(DIV.progress-bar-wrap)
+
+!Odblokowanie zmiany jakości wideo w filmach z videotarget
+@@||r.sascdn.com/video/controller.js$script,domain=videotarget.pl
+@@||ced-ns.sascdn.com/diff/video/current/libs/js/controller.js$script,domain=videotarget.pl
+
+!Prosotkąty z miniaturką, tytułem i przyciskiem zobacz również w tekście artykułu
+!https://wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html
+dziennik.pl##DIV.promoFrame
+
+!Unieruchomienie paska nawigacyjnego
+!https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
+dziennik.pl##+js(aeld, scroll, firstStateNav)
+!Po załadowaniu strony na Chrome pasek nawigacyjny jest na górze okna, zamiast na początku strony, ten filtr to poprawia
+!https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
+dziennik.pl##NAV.siteNavigation.pageWrapper:style(position: relative !important;)
+!Unieruchomienie paska nawigacyjnego w wersji mobilnej
+!https://wiadomosci.dziennik.pl/media/artykuly/6447895,zwolnienia-grupowe-tvp-pieniadze-kurski-polityka.html
+dziennik.pl##HEADER.pageHeader:style(position: absolute !important;)
+
+||prebidnew.s3.eu-central-1.amazonaws.com^$domain=forsal.pl
+!Film powiązany:
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
+!Film będący tematem ma /content/ zamiast /stream/: https://forsal.pl/biznes/energetyka/artykuly/1456834,elektrownia-ostroleka-wysoki-rachunek-za-obrone-polskiego-wegla.html
+||videotarget.pl/player/v1/stream/$domain=forsal.pl
+
+!Ostatni paragraf z >>> Czytaj też:
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
+forsal.pl##DIV#inArticleAfter2P.articleBody > P:has-text(>>> Czytaj też:):if(A[href*="forsal.pl"])
+!Przycisk lubię to po artykule przed tagami
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
+forsal.pl##DIV.widget-fbLike-box
+!Linki w treści artykułu tekstem zwykłym i pogrubionym
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
+forsal.pl##+js(remove-attr.js, href, DIV#inArticleAfter2P.articleBody > P A[href*="forsal.pl/tagi/"][title])
+forsal.pl##DIV#inArticleAfter2P.articleBody > P A[title]:style(text-decoration: unset !important;color: unset !important;)
+!Pole po powiązanym wideo pod artykułem
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
+forsal.pl##FIGURE:if(DIV#vt-container[data-vt-type="stream"])
+!DIV na dole, po prawej scrollujący ze stroną z linkiem do innego artykułu
+!https://forsal.pl/artykuly/1456834,elektrownia-ostroleka-wysoki-rachunek-za-obrone-polskiego-wegla.html
+forsal.pl##div#nextArticleWidget.boxFixNext
+!Unieruchomienie paska nawigacyjnego w stronie mobilnej
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
+forsal.pl##+js(aeld, scroll, oe.event)
+
+!Wideo z pulsembed.eu
+!https://www.gazetaprawna.pl/artykuly/1457185,koronawirus-w-polsce-szumowski-potwierdza-pierwszy-przypadek.html
+!3x wideo z videotarget.pl/player/v1/content/
+!https://www.gazetaprawna.pl/artykuly/1457675,odpowiedzialny-i-przyjazny-pracodawca-pfr-ppk.html
+!1x wideo z videotarget.pl/player/v1/content/
+!https://www.gazetaprawna.pl/wideo/1457084,inflacja-pozera-nasze-pieniadze-jak-nad-nia-zapanowac.html
+!1x wideo z r.dcs.redcdn.pl/webcache/pap-embed/iframe/ i n-16-9.dcs.redcdn.pl/webcache/pap-embed/iframe/
+!https://serwisy.gazetaprawna.pl/zdrowie/artykuly/1456286,jak-chronic-sie-przed-koronawirusem.html
+!1x wideo z videotarget.pl/player/v1/content/
+!https://praca.gazetaprawna.pl/artykuly/1455737,prawo-pracy-nie-ulatwia-zapobiegania-koronawirusowi.html
+!1x wideo z videotarget.pl/player/v1/stream/
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+!Przy zablokowaniu zgody.infor.pl/build/assets/js/main.js przez filtr ||zgody.infor.pl^ z Fanboy’s Annoyance i EasyList Cookie nastepuje przekierowanie na https://zgody.infor.pl/?h=1&backTo=
+!https://www.gazetaprawna.pl/artykuly/1457185,koronawirus-w-polsce-szumowski-potwierdza-pierwszy-przypadek.html
+
+!www.gazetaprawna.pl##+js(cookie-set, inforCookieWallCacheVal, 15, 5000000)
+
+gazetaprawna.pl##+js(noeval-if, /^((?!baseUrl).)*$/)
+
+!Przyciski udostępnij na Facebooku/Twitterze przed i po artykule
+||static.gazetaprawna.pl/gp/required/build/js/static-social-buttons.js$script
+!Okienko "następny artykuł" na dole po prawej po przescrollowaniu pod tekst obecnego
+||static.gazetaprawna.pl/gp/required/build/js/nextArticle.js$script
+!Po blokadzie brak ramek z: googlesyndication.com, brak reklam google
+!||gazetaprawnahb.s3.eu-central-1.amazonaws.com/Config_Gazetaprawna.pl_Desk.js
+||gazetaprawnahb.s3.eu-central-1.amazonaws.com^$domain=gazetaprawna.pl
+!Prebud, służy do osadzana? reklam
+||prebidnew.s3.eu-central-1.amazonaws.com^$domain=gazetaprawna.pl
+!Ustawia jakiś parametr gemiusa
+||static.gazetaprawna.pl/gp/required/build/js/clickPageView.js$script
+!tpl_reklama w treści, więc pewnie reklama
+||static.gazetaprawna.pl/gp/required/build/js/adSecondParagraph.js$script
+!adocean.pl i gemius.pl w treści, więc pewnie reklama
+||static.gazetaprawna.pl/gp/required/build/js/skrypt_adblock_gazetaprawna_pl.js$script
+!Przesuwanie reklamy z dołu prawej kolumny wraz ze skrollowaniem (fixed)
+||static.gazetaprawna.pl/gp/required/build/js/rectangle3Fixed.js$script
+!Przyklejenie paska do okna w wersji mobilnej
+||static.gazetaprawna.pl/gp/required/build/js/fixedMenu.js$script
+!Powiązane wideo pod artykułem
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+||videotarget.pl/player/v1/stream/$domain=gazetaprawna.pl
+
+!Reszta
+||static.gazetaprawna.pl/compiled/single_gaCookies.min.js$script
+!Nie wiem, co to
+||static.gazetaprawna.pl/notoria-widgets-build$script
+||static.gazetaprawna.pl/notowania/dist/charts.js$script
+||konto.gazetaprawna.pl^
+||fonts.googleapis.com^$domain=gazetaprawna.pl
+||maxcdn.bootstrapcdn.com^$domain=gazetaprawna.pl,important
+||fonts.gstatic.com^$domain=gazetaprawna.pl
+||static.gazetaprawna.pl/compiled/webpush/manifest.json$other
+||gazetaprawna.pl/ajax/stats?doc_id=$image
+
+!Miniaturka z tytułem w tekście artykułu
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > DIV.psavImg
+!Szare pole z tytułem w tekście artykułu
+gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > DIV.zobacz-takze
+!Przycisk "Czytaj więcej o prawie, podatkach" po pogrubionym tekście pod miniaturą
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+gazetaprawna.pl##DIV.article > DIV.auto:if(DIV[style="padding: 5px; margin-bottom: 5px; background: #F0F0F0;"])
+!Paragraf w treści artykułu z tekstem "ZOBACZ TEŻ:" i linkiem do sklep.infor.pl
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > P.tresc:if(B:first-child:last-child > SPAN:first-child:last-child:has-text(ZOBACZ TEŻ:) > A[title*="sklep.infor.pl/"][href*="sklep.infor.pl/"]:first-child:last-child)
+!Pole po powiązanym wideo pod artykułem
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > FIGURE:if(DIV.video-target-auto-stream)
+!Przycisk "Polub Gazetaprawna.pl" pod tagami pod artykułem
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.widget-fbLike-box
+!Usunięcie słów bedących linkami w treści artykułu
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+!https://praca.gazetaprawna.pl/artykuly/1455737,prawo-pracy-nie-ulatwia-zapobiegania-koronawirusowi.html
+gazetaprawna.pl##+js(remove-attr.js, href, DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > P A[href*="gazetaprawna.pl/"][title])
+gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > P A[title]:style(text-decoration: unset !important;color: unset !important;)
+!Nagłówek po kafelkach pod "WIĘCEJ NA TEN TEMAT", wypełniane przez skrypt z: nextclick.pl/widget/core.js?key=
+!https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
+gazetaprawna.pl##DIV.article + HEADER.headerBox:has-text(Proponowane dla Ciebie)
+
+
