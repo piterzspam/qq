@@ -46,7 +46,7 @@ dziennik.pl##+js(aeld, scroll, firstStateNav)
 dziennik.pl##NAV.siteNavigation.pageWrapper:style(position: relative !important;)
 !Unieruchomienie paska nawigacyjnego w wersji mobilnej
 !https://wiadomosci.dziennik.pl/media/artykuly/6447895,zwolnienia-grupowe-tvp-pieniadze-kurski-polityka.html
-dziennik.pl##HEADER.pageHeader:style(position: absolute !important;)
+dziennik.pl##HTML > BODY[class] > HEADER.pageHeader:style(position: absolute !important;)
 
 ||prebidnew.s3.eu-central-1.amazonaws.com^$domain=forsal.pl
 !Film powiązany:
@@ -153,5 +153,3 @@ gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > P A[ti
 !Nagłówek po kafelkach pod "WIĘCEJ NA TEN TEMAT", wypełniane przez skrypt z: nextclick.pl/widget/core.js?key=
 !https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
 gazetaprawna.pl##DIV.article + HEADER.headerBox:has-text(Proponowane dla Ciebie)
-
-
