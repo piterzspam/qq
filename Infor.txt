@@ -4,7 +4,6 @@
 !https://www.dziennik.pl/autor/39190,robert-mazurek
 ||ocdn.eu/workshopinforocdn/infor/pwa/workbox-sw$domain=dziennik.pl
 ||ocdn.eu/workshopinforocdn/infor/pwa/workbox-google-analytics$domain=dziennik.pl
-||ocdn.eu/workshopinforocdn/infor/fonts/$font,important,domain=dziennik.pl
 ||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=dziennik.pl
 ||dziennik.pl/sw-dziennik.js
 !https://wiadomosci.dziennik.pl/opinie/artykul-prasowy/6447624,dr-jacek-sokolowski-pis-po-opozycja-konflikt-sadownictwo.html
@@ -38,15 +37,35 @@ videotarget.pl##DIV#animate:if(DIV.progress-bar-wrap)
 !https://wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html
 dziennik.pl##DIV.promoFrame
 
+!Przyciski udostępnij na facebooku i twitterze nad zdjęciem i pod artykułem
+!https://wiadomosci.dziennik.pl/opinie/artykul-prasowy/6461826,gdula-mazurek-aborcja-kwestia-zdrowia-publicznego.html
+dziennik.pl##DIV.social-container
+
+!Ikonki socialowe po lewej stronie zdjęcia głównego
+!https://wiadomosci.dziennik.pl/opinie/artykul-prasowy/6461826,gdula-mazurek-aborcja-kwestia-zdrowia-publicznego.html
+dziennik.pl##DIV.contentShareLeft
+
 !Unieruchomienie paska nawigacyjnego
 !https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
-dziennik.pl##+js(aeld, scroll, firstStateNav)
+!dziennik.pl##+js(aeld, scroll, firstStateNav)
 !Po załadowaniu strony na Chrome pasek nawigacyjny jest na górze okna, zamiast na początku strony, ten filtr to poprawia
 !https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
-dziennik.pl##NAV.siteNavigation.pageWrapper:style(position: relative !important;)
+!dziennik.pl##NAV.siteNavigation.pageWrapper:style(position: relative !important;)
 !Unieruchomienie paska nawigacyjnego w wersji mobilnej
 !https://wiadomosci.dziennik.pl/media/artykuly/6447895,zwolnienia-grupowe-tvp-pieniadze-kurski-polityka.html
-dziennik.pl##HTML > BODY[class] > HEADER.pageHeader:style(position: absolute !important;)
+!dziennik.pl##HTML > BODY[class] > HEADER.pageHeader:style(position: absolute !important;)
+
+!Żeby się niebieski pasek nie chował przy scrollowaniu
+!https://wiadomosci.dziennik.pl/opinie/artykul-prasowy/6461826,gdula-mazurek-aborcja-kwestia-zdrowia-publicznego.html#
+dziennik.pl##DIV#tabMenu > DIV.secondLevel:style(height: 50px !important; overflow: unset !important)
+
+!Waterfox - Żeby niebieski pasek nie znikał przy scrollowaniu do góry
+!https://wiadomosci.dziennik.pl/opinie/artykul-prasowy/6461826,gdula-mazurek-aborcja-kwestia-zdrowia-publicznego.html#
+dziennik.pl##NAV.siteNavigation.pageWrapper:not(hideNav):style(position: fixed !important; left: 50% !important; transform: translateX(-50%) !important)
+
+!Bez tego, po zmianie szerokości okna zmieni się szerokość paska nawigacyjnego
+!https://wiadomosci.dziennik.pl/opinie/artykul-prasowy/6461826,gdula-mazurek-aborcja-kwestia-zdrowia-publicznego.html#
+dziennik.pl##+js(aeld, resize)
 
 ||prebidnew.s3.eu-central-1.amazonaws.com^$domain=forsal.pl
 !Film powiązany:
