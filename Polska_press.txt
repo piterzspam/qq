@@ -353,7 +353,8 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !https://echodnia.eu/radomskie/
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY.regionalne.stronaGlowna > DIV#LinkArea\:region > DIV.row > DIV.columns.large-8:style(width: 100% !important;)
 
-!DIV na dole artykułu z 9 tytułami i miniaturkami
+!DIV na dole artykułu z 9 tytułami i miniaturkami - POLECAMY PAŃSTWA UWADZE:
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
 !https://dziennikzachodni.pl/nagrody-grand-press-2018-przyznane-dziennikarzem-roku-bertold-kittel-nominowana-w-kategorii-grand-press-digital-byla-polska/ar/13734848
 !https://dziennikzachodni.pl/rybnik-w-uwadze-tvn-rybniczanie-wiezniami-swoich-mieszkan-zobacz-program/ar/13866564
 !https://echodnia.eu/radomskie/budowa-trasy-s12-w-radomskiem-wariant-b-rekomendowany-do-dalszych-prac-przez-drogowcow-jakie-opinie-samorzadowcow/ar/c1-14823888
