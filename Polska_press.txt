@@ -34,22 +34,20 @@ pl#@#h2 > span
 !POL: Oficjalne polskie filtry przeciwko alertom o Adblocku -  @@||s-pt.ppstatic.pl/*/reklama.js$script,domain=dzienniklodzki.pl|gloswielkopolski.pl|dziennikpolski24.pl|echodnia.eu|polskatimes.pl|expressbydgoski.pl|expressilustrowany.pl|nowiny24.pl|gazetakrakowska.pl|pomorska.pl|nto.pl|gazetawroclawska.pl|wspolczesna.pl|gp24.pl|dziennikzachodni.pl|gazetalubuska.pl|dziennikbaltycki.pl|stronazdrowia.pl
 !AdGuard Base -  @@||ppstatic.pl/lib/*/js/ads/*/reklama.js
 
-
-
 !Własne odblokowanie skryptu - na wszelki wypadek
 @@||ppstatic.pl/*/reklama.js$script
 
 !Ustawienie wartości jak w żądanym skrypcie, gdyby jednak skrypt zablokowanu
-echodnia.eu,pl##+js(set-constant, pp_adblock_is_off, true)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant, pp_adblock_is_off, true)
 
 !uBlock filters  - polskatimes.pl##+js(aeld, , show)
 !Własne blokowanie komunikatu o adblocku - na wszelki wypadek
-echodnia.eu,pl##+js(addEventListener-defuser, DOMContentLoaded, PPAdblock.show())
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(addEventListener-defuser, DOMContentLoaded, PPAdblock.show())
 !koniec https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
 
 !Na wszelki wypadek
 @@||s-pt.ppstatic.pl/*/eyeo.js$script
-echodnia.eu,pl##+js(set-constant, acceptable_ads_disallowed, true)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant, acceptable_ads_disallowed, true)
 
 !Po wyłączeniu skryptów menu bylo rozwinięte
 !echodnia.eu,pl##DIV.componentsNavigationNavbar__list.medium-wide.large-full
@@ -57,43 +55,43 @@ echodnia.eu,pl##+js(set-constant, acceptable_ads_disallowed, true)
 !Odnośniki do quizów i fanpagy pod artykułem oraz linki w tekście (tytuł + miniatura)
 !https://gs24.pl/koronawirus-w-polsce-ministerstwo-zdrowia-potwierdza-17-przypadkow-chorzy-sa-min-w-szpitalu-w-raciborzu/ar/c14-14845804
 !https://echodnia.eu/radomskie/artykuly-spozywcze-wycofane-ze-sklepow-ostrzezenia-publiczne-gis-oznaczaja-zakaz-sprzedazy-i-spozywania-produktow/ar/c1-14714308
-echodnia.eu,pl##DIV.componentsPromotionsPromoted
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsPromotionsPromoted
 
 !Przycisk do galerii w tekście:
 !https://gazetakrakowska.pl/lukasz-b-ps-balus-zaluje-ze-nalezalem-do-psycho-fans-przeprosil-rodzine-za-zabicie-dariusza-p-kibola-gornika-zabrze/ar/c2-14838054pl
-echodnia.eu,pl##DIV.componentsArticleGalleryButton
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsArticleGalleryButton
 
 !Napis nad przyciskiem do galerii
 !https://gazetakrakowska.pl/lukasz-b-ps-balus-zaluje-ze-nalezalem-do-psycho-fans-przeprosil-rodzine-za-zabicie-dariusza-p-kibola-gornika-zabrze/ar/c2-14838054
 !https://dziennikzachodni.pl/wypadek-w-rybniku-czolowo-zderzyly-sie-dwa-samochody-sa-ranni-droga-juz-odblokowana/ar/c16-14846508
 !https://echodnia.eu/radomskie/artykuly-spozywcze-wycofane-ze-sklepow-ostrzezenia-publiczne-gis-oznaczaja-zakaz-sprzedazy-i-spozywania-produktow/ar/c1-14714308
-echodnia.eu,pl##DIV.md > DIV[style="text-align:center"]:has-text(/(Kliknij poniżej i zobacz zdjęcia|SPRAWDŹ SZCZEGÓŁY W GALERII)/i)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > DIV[style="text-align:center"]:has-text(/(Kliknij poniżej i zobacz zdjęcia|SPRAWDŹ SZCZEGÓŁY W GALERII)/i)
 
 !Galeria bez przycisku w tekście nie w temacie:
 !https://gs24.pl/koronawirus-w-polsce-ministerstwo-zdrowia-potwierdza-17-przypadkow-chorzy-sa-min-w-szpitalu-w-raciborzu/ar/c14-14845804
-echodnia.eu,pl##DIV.componentsArticleGallery--compactHorizontal
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsArticleGallery--compactHorizontal
 
 !Linki z miniaturkami (1, 4) w artykule pod napisami Nie przegap, Zobacz koniecznie, Czytaj także
 !https://gazetakrakowska.pl/lukasz-b-ps-balus-zaluje-ze-nalezalem-do-psycho-fans-przeprosil-rodzine-za-zabicie-dariusza-p-kibola-gornika-zabrze/ar/c2-14838054
-echodnia.eu,pl##SECTION.componentsRecommendationsSelected
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##SECTION.componentsRecommendationsSelected
 
 !Linki w słowach napisane czcionką zwykłą i pogrubioną z parametrami #utm_medium=alz&utm_source= nie posiadający [title], który prowadzi do czegoś senswonego w nowinach24.pl
 !https://nowiny24.pl/stalowa-wola-24latek-spowodowal-kolizje-i-uciekl-wiadomo-juz-dlaczego-nowe-fakty/ar/c16-14845680
 !https://gazetawroclawska.pl/koronawirus-w-polsce-rzad-odwolal-wszystkie-imprezy-masowe-mecze-bez-kibicow-w-srode-kolejne-decyzje-czym-jest-impreza-masowa/ar/c1-14847825
-echodnia.eu,pl##+js(remove-attr.js, href, DIV.md > P A[href*="#utm_medium=alz&utm_source="]:not([title]))
-echodnia.eu,pl##DIV.md > P A:not([title]):style(cursor: unset !important;color: unset !important)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(remove-attr.js, href, DIV.md > P A[href*="#utm_medium=alz&utm_source="]:not([title]))
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > P A:not([title]):style(cursor: unset !important;color: unset !important)
 
 !Quiz w treści artykułu: Czy gdzieś w swoim bliskim otoczeniu spotkałeś się z metodą oszustwa "na wnuczka"?
 !https://gazetalubuska.pl/zapakowal-40-tysiecy-w-reklamowke-i-oddal-oszustowi-uwazajcie-na-podejrzane-telefony/ar/c1-14848367
-echodnia.eu,pl##DIV.atomsArticlePollVoting
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.atomsArticlePollVoting
 
 !https://pomorska.pl/ustawa-ws-koronawirusa-regulowane-ceny-produktow-zasilki-dla-rodzicow-i-strefy-epidemii-jakie-zmiany-wprowadzil-sejm/ar/c1-14830938
-echodnia.eu,pl##DIV.md A[href^="https://medica365.pl/"]
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md A[href^="https://medica365.pl/"]
 
 !https://gs24.pl/koronawirus-w-jakim-stanie-sa-zarazeni-pacjenci-sa-nowe-wyniki-7032020/ar/c14-14843090
 !https://gs24.pl/teatr-polski-przeprowadza-sie-na-czas-przebudowy-swojej-siedziby/ar/c1-14840528
 !https://dziennikbaltycki.pl/koronawirus-na-pomorzu-ile-osob-objetych-kwarantanna-i-hospitalizowanych-dane-sanepidu-najwazniejsze-informacje-raport-11032020/ar/c14-14828180
-echodnia.eu,pl##DIV.md > H2:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > H2:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
 
 !https://poranny.pl/bialystok-ryk-silnika-i-pisk-opon-na-torze-wschodzacy-bialystok-tak-kobiety-swietowaly-8-marca-zdjecia-wideo/ar/c4-14844174
 !https://gs24.pl/teatr-polski-przeprowadza-sie-na-czas-przebudowy-swojej-siedziby/ar/c1-14840528
@@ -106,16 +104,16 @@ echodnia.eu,pl##DIV.md > H2:if(A[href][title]:not([rel="nofollow"]):has-text(/\w
 !https://dzienniklodzki.pl/instahistorie-adama-kubery-jakim-spelnionym-marzeniem-pochwalil-sie-na-instagramie/ar/c13-14831530
 !https://dziennikbaltycki.pl/koronawirus-na-pomorzu-ile-osob-objetych-kwarantanna-i-hospitalizowanych-dane-sanepidu-najwazniejsze-informacje-raport-11032020/ar/c14-14828180
 !https://poranny.pl/zle-wiesci-z-chinskiego-rynku-9032020-r-jesli-nic-sie-nie-zmieni-sytuacja-wielu-polskich-firm-moze-stac-sie-zla/ar/c3-14823728
-echodnia.eu,pl##DIV.md > P:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > P:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
 
 !https://dziennikbaltycki.pl/koronawirus-na-pomorzu-ile-osob-objetych-kwarantanna-i-hospitalizowanych-dane-sanepidu-najwazniejsze-informacje-raport-11032020/ar/c14-14828180
-echodnia.eu,pl##DIV.md > DIV:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > DIV:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
 
 !https://gazetakrakowska.pl/lukasz-b-ps-balus-zaluje-ze-nalezalem-do-psycho-fans-przeprosil-rodzine-za-zabicie-dariusza-p-kibola-gornika-zabrze/ar/c2-14838054
-echodnia.eu,pl##DIV.md > B:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > B:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
 
 !https://gloswielkopolski.pl/lech-poznan-wokol-bulgarskiej-z-tym-lechem-mozna-sie-utozsamiac-goscie-piotr-reiss-i-norbert-tyrajski/ar/c2-14846304
-echodnia.eu,pl##DIV.md > UL:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > UL:if(A[href][title]:not([rel="nofollow"]):has-text(/\w+(\W+\w+){1}/))
 
 !Wideo w treści artykułu z ramką z: get.x-link.pl
 !https://gs24.pl/koronawirus-w-jakim-stanie-sa-zarazeni-pacjenci-sa-nowe-wyniki-7032020/ar/c14-14843090
@@ -124,20 +122,20 @@ echodnia.eu,pl##DIV.md > UL:if(A[href][title]:not([rel="nofollow"]):has-text(/\w
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.video:if(SCRIPT.XlinkEmbedScript)
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV.video:if(SCRIPT.XlinkEmbedScript)
 !!!!!!!!!!!!echodnia.eu,pl##ARTICLE.componentsArticleContent DIV.video:if(SCRIPT.XlinkEmbedScript)
-echodnia.eu,pl##ARTICLE.componentsArticleContent DIV.video:if(SCRIPT.XlinkEmbedScript)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent DIV.video:if(SCRIPT.XlinkEmbedScript)
 
 !Wideo FLESZ - w treści artykułu z ramką z: get.x-link.pl
 !https://gazetakrakowska.pl/koronawirus-w-krakowie-i-malopolsce-raport-ze-szpitali-epidemia-w-liczbach/ar/c14-14852191
 !https://gazetakrakowska.pl/koronawirus-w-krakowie-w-szkolach-pustki-dla-uczniow-to-jednak-nie-wakacje-co-z-maturami-i-egzaminem-osmoklasisty/ar/c14-14852657
 !https://gazetakrakowska.pl/koronawirus-w-polsce-szkoly-i-przedszkola-zamkna-sie-na-dwa-tygodnie-odwolywane-sa-imprezy/ar/c14-14851765
-echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.componentsVideoVideo:if(SCRIPT.XlinkEmbedScript):remove()
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent > DIV.componentsVideoVideo:if(SCRIPT.XlinkEmbedScript):remove()
 
 
 !Wideo w tekście nie w temacie - w ramce z tytułem: 
 !https://gazetawroclawska.pl/samochod-osobowy-i-trzech-pijanych-mezczyzn-ktory-z-nich-to-kierowca/ar/c1-14844060
 !Wideo FLESZ - pod artykułem - ramka z: dailymotion.com/embed/video/
 !https://polskatimes.pl/koronawirus-15032020-r-splacasz-kredyt-i-boisz-sie-ze-przez-pandemie-i-kwarantanne-nie-bedziesz-mial-na-splate-bank-pomoze-jak/ar/c3-14854749
-echodnia.eu,pl##DIV.componentsPromotionsVideo:remove()
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsPromotionsVideo:remove()
 
 !https://gp24.pl/marzec-na-obcasach-spotkania-w-slupsku-ustce-bytowie-miastku-i-leborku/ar/c3-14830914
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:first-child:last-child > STRONG:first-child:last-child:has-text(Zobacz także: Pokazy fryzjerstwa w Słupsku)
@@ -221,11 +219,11 @@ echodnia.eu,pl##DIV.componentsPromotionsVideo:remove()
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz także|Zobacz też:|Źródło:)|(Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(\[OPINIE .*\]|Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
-echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Polecamy państwa uwadze:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(\[OPINIE .*\]|Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Polecamy państwa uwadze:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(\[OPINIE .*\]|Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
 
 
 !https://gp24.pl/musisz-udac-sie-w-podroz-zapoznaj-sie-z-tymi-zasadami-bezpieczenstwa-jak-podrozowac-w-czasach-koronawirusa/ar/c7-14852463
-echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > B:last-child > H2:first-child:last-child:has-text(Przejdź do galerii, aby dowiedzieć się więcej:)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent > DIV.md > B:last-child > H2:first-child:last-child:has-text(Przejdź do galerii, aby dowiedzieć się więcej:)
 
 !https://expressbydgoski.pl/lex-deweloper-przegrywa-w-sadzie-na-razie-budowy-w-bydgoskim-fordonie-nie-bedzie/ar/c1-14846756
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"] > P:first-child:last-child > STRONG:first-child:last-child:has-text(Wideo: Smaki Kujaw i Pomorza SEZON 2, ODC. 2)
@@ -235,7 +233,7 @@ echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > B:last-child > H2:fi
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md:first-child > DIV[style="text-align:center"]:last-child > P:first-child:last-child > STRONG:first-child:last-child:has-text(Zobacz MEMY)
 !https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c14-14859531
 !echodnia.eu##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:first-child:has-text(Aplikacja jest bezpłatna i nie wymaga logowania.)
-echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:has-text(/(Aplikacja jest bezpłatna i nie wymaga logowania.|TVN24\/x-news|Wideo:|Zobacz MEMY)/i)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:has-text(/(Aplikacja jest bezpłatna i nie wymaga logowania.|TVN24\/x-news|Wideo:|Zobacz MEMY)/i)
 
 !https://poranny.pl/zle-wiesci-z-chinskiego-rynku-9032020-r-jesli-nic-sie-nie-zmieni-sytuacja-wielu-polskich-firm-moze-stac-sie-zla/ar/c3-14823728
 !https://strefabiznesu.pl/zle-wiesci-z-chinskiego-rynku-9032020-r-jesli-nic-sie-nie-zmieni-sytuacja-wielu-polskich-firm-moze-stac-sie-zla/ar/c3-14823728
@@ -246,7 +244,7 @@ echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-alig
 !https://gk24.pl/koronawirus-i-puste-sklepowe-polki-memy-polacy-robia-zapasy-bo-boja-sie-koronawirusa-12-3-2020-r/ar/c1-14852697
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md:first-child > H2:first-child > STRONG:first-child:last-child:has-text(Koronawirus i puste sklepowe półki MEMY)
 !https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c14-14859531
-echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > H2:has-text(/(^CZYTAJ TAKŻE:|^LIGA MISTRZÓW w GOL24|^Obejrzyj wideo:|Memy$)/i)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent > DIV.md > H2:has-text(/(^CZYTAJ TAKŻE:|^LIGA MISTRZÓW w GOL24|^Obejrzyj wideo:|Memy$)/i)
 
 !https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c14-14859531
 echodnia.eu##ARTICLE.componentsArticleContent > DIV.md:has-text(Pobierz bezpłatną aplikację Echa Dnia i bądź na bieżąco!)
@@ -262,21 +260,21 @@ echodnia.eu##DIV.md > P:first-child + A[href*="explosion"]:if(H2 + IMG)
 !Wysuwający się element po lewej  na dole z tytułem i miniaturą
 !https://nowiny24.pl/wiadomosci/stalowa-wola/
 !https://nowosci.com.pl/
-echodnia.eu,pl##DIV#poza-szkieletem > DIV.banner-fixed
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV#poza-szkieletem > DIV.banner-fixed
 
 !Element, którego dzieckiem jest komunikat na dole po lewej: Monitorujemy anonimowo aktywność na stronie, korzystamy z cookies i local storage.
 !https://nowiny24.pl/wiadomosci/stalowa-wola/
-echodnia.eu,pl##DIV.cookieContainer
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.cookieContainer
 
 !Sekcja Polecamy po prawej stronie galerii:
 !https://nowosci.com.pl/szpital-zakazny-w-toruniu-ogrodzony-co-sie-stalo/ga/c14-14852757/zd/42551925
-echodnia.eu,pl##BODY#boks-galeria DIV#prawa-kolumna:remove()
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY#boks-galeria DIV#prawa-kolumna:remove()
 !Style do tej sekcji po prawek:
 ||s-nsk.ppstatic.pl/assets/nsk/*/css/potoo/components/recommendations/mixed/listing.css$stylesheet
 
 !Sekcja Najnowsze wiadomości pod galerią:
 !https://nowosci.com.pl/szpital-zakazny-w-toruniu-ogrodzony-co-sie-stalo/ga/c14-14852757/zd/42551925
-echodnia.eu,pl##BODY#boks-galeria DIV.medium-narrow.large-wide > SECTION:remove()
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY#boks-galeria DIV.medium-narrow.large-wide > SECTION:remove()
 !Style do tej sekcji pod galeria
 ||s-nsk.ppstatic.pl/assets/nsk/*/css/potoo/components/recommendations/simple/listing.css$stylesheet
 
@@ -290,33 +288,33 @@ echodnia.eu,pl##BODY#boks-galeria DIV.medium-narrow.large-wide > SECTION:remove(
 
 !Sekcja ogłoszenia pod quizem w prawej kolumnie
 !https://poranny.pl/koronawirus-bialostoczanka-pokazuje-jak-wyglada-sytuacja-we-florencji/ar/c14-14841718
-echodnia.eu,pl##DIV.componentsPromotionsOffers
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsPromotionsOffers
 
 !Miniaturka z quizem w kolumnie po prawej stronie
 !https://poranny.pl/koronawirus-bialostoczanka-pokazuje-jak-wyglada-sytuacja-we-florencji/ar/c14-14841718
-echodnia.eu,pl##DIV.componentsPromotionsSubjectCategoryPromoted
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsPromotionsSubjectCategoryPromoted
 
 !Sponsorowane z najnowszych wiadomości pod galerią
 !https://echodnia.eu/radomskie/miss-studniowki-2020-oto-najpiekniejsze-dziewczyny-na-studniowkach-w-powiecie-radomskim-one-powalcza-o-tytuly-w-regionie/ga/c15-14826782/zd/42343448
-echodnia.eu,pl##DIV.componentsRecommendationsSimpleListing__element[data-event-position]:if(SPAN.atomsArticleTile__sponsored)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsRecommendationsSimpleListing__element[data-event-position]:if(SPAN.atomsArticleTile__sponsored)
 
 !Puste miejsca po reklamach w sekcji: "Wybrane dla Ciebie" pod artykułem:
 !https://gazetalubuska.pl/koronawirus-w-polsce-minister-zdrowia-apeluje-pracujmy-zdalnie-w-miare-mozliwosci-nie-wychodzmy-z-domow/ar/c1-14852549
-echodnia.eu,pl##ASIDE.layoutsGrid__bottom > SECTION DIV.componentsRecommendationsSimpleListing__element:if(DIV.componentsRecommendationsSimpleAdsNativeElement)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ASIDE.layoutsGrid__bottom > SECTION DIV.componentsRecommendationsSimpleListing__element:if(DIV.componentsRecommendationsSimpleAdsNativeElement)
 
 !Sponsorowane materiały z poziomego paska na stronie głównej
 !https://dziennikbaltycki.pl/
 !https://polskatimes.pl/
 !https://gazetalubuska.pl/
-echodnia.eu,pl##UL.medium-block-grid-4 > LI[id^="kafel_zdjecie_"]:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##UL.medium-block-grid-4 > LI[id^="kafel_zdjecie_"]:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
 
 !Reklamy pod dwoma kolumnami Polityka i Kraj
 !https://polskatimes.pl/
-echodnia.eu,pl##BODY.regionalne.stronaGlowna A.linkSponsorowany
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY.regionalne.stronaGlowna A.linkSponsorowany
 
 !Poziomy pasek z linkiem, miniaturą i tekstem "Materiał informacyjny" pod sekcją "Nasze sprawy"
 !https://dziennikzachodni.pl/
-echodnia.eu,pl##BODY.regionalne.stronaGlowna DIV.linkiSponsorowane
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY.regionalne.stronaGlowna DIV.linkiSponsorowane
 
 !Materiały informacyjne (sponsorowane) z sekcji "GazetaLubuska.pl poleca:" po prawej stronie
 !https://gazetalubuska.pl/
@@ -324,44 +322,44 @@ echodnia.eu,pl##BODY.regionalne.stronaGlowna DIV.linkiSponsorowane
 !https://echodnia.eu/radomskie/
 !echodnia.eu##DIV.columns.small-12.medium-3.srodek.mniejszeFlagi > A.autopromoLink
 !echodnia.eu,pl##DIV.columns.large-4 A.autopromoLink:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
-echodnia.eu,pl##BODY.regionalne.stronaGlowna A.autopromoLink:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY.regionalne.stronaGlowna A.autopromoLink:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
 
 !Pozostałość - tło pod zdjęciem w kolumnie pionowej w sekcji region na stronie głównej na Waterfoxie z Useragentem Android Firefox
 !https://echodnia.eu/radomskie/
-echodnia.eu,pl##BODY.regionalne.stronaGlowna A.nativeAdContainer
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY.regionalne.stronaGlowna A.nativeAdContainer
 
 !Pewnie miejsca na reklamy
 !https://echodnia.eu/radomskie/
-echodnia.eu,pl##DIV.ppa-slot
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.ppa-slot
 
 !Rozszerzenie sekcji region, żeby kolumna Informacje - najnowsze wiadomości była w tym samym poziomie co sekcja region
 !https://echodnia.eu/radomskie/
-echodnia.eu,pl##BODY.regionalne.stronaGlowna > DIV#LinkArea\:region > DIV.row > DIV.columns.large-8:style(width: 100% !important;)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY.regionalne.stronaGlowna > DIV#LinkArea\:region > DIV.row > DIV.columns.large-8:style(width: 100% !important;)
 
 !DIV na dole artykułu z 9 tytułami i miniaturkami
 !https://dziennikzachodni.pl/nagrody-grand-press-2018-przyznane-dziennikarzem-roku-bertold-kittel-nominowana-w-kategorii-grand-press-digital-byla-polska/ar/13734848
 !https://dziennikzachodni.pl/rybnik-w-uwadze-tvn-rybniczanie-wiezniami-swoich-mieszkan-zobacz-program/ar/13866564
 !https://echodnia.eu/radomskie/budowa-trasy-s12-w-radomskiem-wariant-b-rekomendowany-do-dalszych-prac-przez-drogowcow-jakie-opinie-samorzadowcow/ar/c1-14823888
-echodnia.eu,pl##BODY.nsk DIV[style="display:flex; padding: 10px 0 0 3px; flex-wrap:wrap;border:1px solid lightgray; width:fit-content"]
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY.nsk DIV[style="display:flex; padding: 10px 0 0 3px; flex-wrap:wrap;border:1px solid lightgray; width:fit-content"]
 
 !DIV na stronie pod galerią 9 tytułami i miniaturkami
 !https://polskatimes.pl/uwaga-oszusci-tym-razem-podszywaja-sie-pod-biedronke-i-lidla/ga/13151480/zd/28811796
-echodnia.eu,pl##BODY#boks-galeria DIV[style="display:flex; padding: 10px 0 0 3px; flex-wrap:wrap;border:1px solid lightgray; width:fit-content"]
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY#boks-galeria DIV[style="display:flex; padding: 10px 0 0 3px; flex-wrap:wrap;border:1px solid lightgray; width:fit-content"]
 
 !Przycisk lubię to po lewej stronie galerii
 !https://echodnia.eu/radomskie/budowa-trasy-s12-w-radomskiem-wariant-b-rekomendowany-do-dalszych-prac-przez-drogowcow-jakie-opinie-samorzadowcow/ga/c1-14823888/zd/42299322
-echodnia.eu,pl##BODY#boks-galeria UL#narzedzia
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##BODY#boks-galeria UL#narzedzia
 
 !Przyciski facebooka, udostępnienia i komentarzy po lewej stronie od zdjęcia
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-echodnia.eu,pl##UL#narzedzia > LI.facebook.wyzsze.opis.popup
-echodnia.eu,pl##UL#narzedzia > LI.przeslij.bezTekstu
-echodnia.eu,pl##UL#narzedzia > LI.komentarze.wyzsze.opis
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##UL#narzedzia > LI.facebook.wyzsze.opis.popup
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##UL#narzedzia > LI.przeslij.bezTekstu
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##UL#narzedzia > LI.komentarze.wyzsze.opis
 
 !Czerwony przycisk Kiosk: tutaj kup gazetę online
 !https://echodnia.eu/radomskie/koronawirus-w-radomiu-potwierdzony-przypadek-zachorowania-w-szpitalu-na-radomskim-jozefowie/ar/c14-14865963
 !https://polskatimes.pl/koronawirus-18032020-r-zus-wprowadza-ulatwienia-dla-firm-potrzeba-jeszcze-dzialan-rzadu/ar/c3-14863643
-echodnia.eu,pl##DIV.componentsArticleBanner:if(DIV.atomsArticleBannerHotredirect)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsArticleBanner:if(DIV.atomsArticleBannerHotredirect)
 
 !Linki z obrazkami w środku tekstu
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
@@ -385,16 +383,16 @@ polskatimes.pl##ARTICLE#material > SECTION#tresc DIV.materialVideo.xlink.textC +
 
 !Link w tekście: "masa krytyczna"
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-echodnia.eu,pl##+js(remove-attr.js, href, ARTICLE#material > SECTION#tresc A.alz)
-echodnia.eu,pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color: unset !important)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(remove-attr.js, href, ARTICLE#material > SECTION#tresc A.alz)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color: unset !important)
 
 !addEventListener tworzący odwołanie do mreg.hit.gemius.pl/xgemius.js
 !https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
-echodnia.eu,pl##+js(addEventListener-defuser, DOMContentLoaded, gemius)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(addEventListener-defuser, DOMContentLoaded, gemius)
 
 !Blokowanie odwołań do mreg.hit.gemius.pl/xgemius.js
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-polskatimes.pl##+js(abort-on-property-read, gemius_pending)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(abort-on-property-read, gemius_pending)
 
 !Blokuje chr do /_event/jserror/ na https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720 wywoływane z s-pt.ppstatic.pl/o/js/osnowa.js i nie psuje wyglądu strony głównej, m. in. jest załadowana sekcja multimedia i pasek nawigacyjny ma dostosawaną szarokość, tzn. widać przycisk biznes i ogłoszenia
 polskatimes.pl##+js(abort-on-property-read, oG_OSA.jserrors)
@@ -409,10 +407,8 @@ polskatimes.pl##+js(abort-on-property-read, oG_OSA.jserrors)
 !echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, c.open("POST", "/_event/jserror/", !0))
 !echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, window.location.href)
 !echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, window.location.hostname)
-
-
-
-
+!Wszędzie oprócz polskatimes.pl
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(abort-on-property-write, window.onerror)
 
 
 !Odwołanie xhr do gratka.pl/_event/performance/
@@ -428,7 +424,7 @@ polskatimes.pl##+js(abort-on-property-read, oG_OSA.jserrors)
 !criteo.com
 !doubleclick.net
 !https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
-echodnia.eu,pl##+js(abort-current-inline-script, PPAds)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(abort-current-inline-script, PPAds)
 
 !Blokuje tworzenie mnóstwa eventlistenerów
 !addEventListener("DOMContentLoaded", function o(){i||(i=!0,r&&e.clearTimeout(r),n(e,t))})
@@ -478,10 +474,9 @@ echodnia.eu,pl##+js(abort-current-inline-script, PPAds)
 ||rcontent.services.tvn.pl/gstream.js$domain=get.x-link.pl
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-||rcontent.services.tvn.pl^$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gp24.pl|gs24.pl|kurierlubelski.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|wspolczesna.pl
-/sw.js$script,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gp24.pl|gs24.pl|kurierlubelski.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|wspolczesna.pl
-||google.com^$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gp24.pl|gs24.pl|kurierlubelski.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|wspolczesna.pl
-/sw.js$script,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gp24.pl|gs24.pl|kurierlubelski.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|wspolczesna.pl
+||rcontent.services.tvn.pl^$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+||google.com^$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+/sw.js$script,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 !Reszta
 !
 
