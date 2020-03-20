@@ -37,6 +37,8 @@ pl#@#h2 > span
 !Własne odblokowanie skryptu - na wszelki wypadek
 @@||ppstatic.pl/*/reklama.js$script
 
+
+
 !Ustawienie wartości jak w żądanym skrypcie, gdyby jednak skrypt zablokowanu
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant, pp_adblock_is_off, true)
 
@@ -44,6 +46,10 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !Własne blokowanie komunikatu o adblocku - na wszelki wypadek
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(addEventListener-defuser, DOMContentLoaded, PPAdblock.show())
 !koniec https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+
+!Własne odblokowanie skryptu s-pt.ppstatic.pl/o/js/pp-ads/ads.js - na wszelki wypadek
+@@||ppstatic.pl/*/ads.js$script
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant, adBlockTest, true)
 
 !Na wszelki wypadek
 @@||s-pt.ppstatic.pl/*/eyeo.js$script
@@ -219,7 +225,10 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz także|Zobacz też:|Źródło:)|(Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(\[OPINIE .*\]|Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Polecamy państwa uwadze:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(\[OPINIE .*\]|Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
+!https://echodnia.eu/radomskie/koronawirus-w-powiecie-grojeckim-wojewoda-informuje-marszalek-stanislaw-karczewski-dolaczy-do-zalogi-szpitala-w-nowym-miescie/ar/c14-14869049
+!echodnia.eu##ARTICLE.componentsArticleContent > DIV.md > P:first-child:if(STRONG:first-child:last-child:has-text(/^CZYTAJ KONIECZNIE/))
+!echodnia.eu##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Film|Flesz -|Polecamy:|Polecamy państwa uwadze:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(\[OPINIE .*\]|Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE.componentsArticleContent > DIV.md > P:has-text(/(^(Czytaj koniecznie|Film|Flesz -|Polecamy:|Polecamy państwa uwadze:|Raport:|Sonda:|Tu oglądasz:|Tu zobacz też:|Wideo:|Wszystko, co musisz wiedzieć o|Zobacz:|Zobacz koniecznie:|Zobacz najnowszy odcinek|Zobacz także|Zobacz też:|Źródło:)|(\[OPINIE .*\]|Przeczytaj|Wideo|- zobacz wideo:)\s*$|(\/x-news))/i)
 
 
 !https://gp24.pl/musisz-udac-sie-w-podroz-zapoznaj-sie-z-tymi-zasadami-bezpieczenstwa-jak-podrozowac-w-czasach-koronawirusa/ar/c7-14852463
@@ -395,24 +404,25 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(abort-on-property-read, gemius_pending)
 
 !Blokuje chr do /_event/jserror/ na https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720 wywoływane z s-pt.ppstatic.pl/o/js/osnowa.js i nie psuje wyglądu strony głównej, m. in. jest załadowana sekcja multimedia i pasek nawigacyjny ma dostosawaną szarokość, tzn. widać przycisk biznes i ogłoszenia
-polskatimes.pl##+js(abort-on-property-read, oG_OSA.jserrors)
-
-!https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
-!echodnia.eu,pl##+js(abort-on-property-write, window.onerror)
-!echodnia.eu,pl#@#+js(abort-on-property-write, window.onerror)
-!echodnia.eu,pl#@#+js(abort-on-property-write, window.onerror)
-
-!echodnia.eu,pl##+js(abort-current-inline-script, /_event/jserror/)
-!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, jserror)
-!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, c.open("POST", "/_event/jserror/", !0))
-!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, window.location.href)
-!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, window.location.hostname)
-!Wszędzie oprócz polskatimes.pl
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(abort-on-property-write, window.onerror)
-
+!Na stronie głównej działąją sekcje z xhr: /laduj_asynchronicznie/REGIONALNE__AGREGATOR__MULTIMEDIA, /laduj_asynchronicznie/REGIONALNE__MEDIA_PLUS, /laduj_asynchronicznie/REGIONALNE__MATERIAL__SPORT
+!W pliku s-pt.ppstatic.pl/o/js/osnowa.js powoduje, że skrypt nie przechodzi do jQuery.post("/_event/jserror/", obj), działało również:
+!echodnia.eu##+js(abort-on-property-read, jQuery.post)
+!https://echodnia.eu/radomskie/
+!echodnia.eu,pl##+js(set-constant.js, oG_OSA.debug, true)
+!https://polskatimes.pl/
+!Działa na stronę główną, na https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031 nadal xhr ze skryptu inline
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant.js, oG_OSA.debug, true)
+!Nie działa na skrypt inline na stronie https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031, więc:
+/_event/jserror/$xhr,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 
 !Odwołanie xhr do gratka.pl/_event/performance/
-||s-pt.ppstatic.pl/o/js/performance.js?
+!https://echodnia.eu/radomskie/
+||ppstatic.pl/o/js/performance.js?
+
+!Odwołanie xhr do statystyki.gratka.pl/evercookie/etag/?name=aid
+!ze ksryptu https://s-pt.ppstatic.pl/p/js/pilotaz_adblock/core.js na
+!https://pomorska.pl/
+||ppstatic.pl/p/js/pilotaz_adblock/core.js
 
 !Brak odwołań m. in. do
 !adform.net
@@ -484,3 +494,19 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !||get.x-link.pl^$important
 !||prodxnews1blob.blob.core.windows.net^$important
 
+!||s-pt.ppstatic.pl/o/js/osnowa.js
+!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, jserror)
+!DZIAŁA echodnia.eu##+js(abort-on-property-read, jQuery.post)
+!echodnia.eu##+js(abort-on-property-write, oG_OSA.jserrors)
+!echodnia.eu##+js(abort-on-property-read, jQuery.post("/_event/jserror/", obj))
+
+!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror)
+!echodnia.eu,pl##+js(abort-current-inline-script, jQuery.post, jserror)
+!echodnia.eu,pl##+js(set-constant.js, window.onerror, true)
+!echodnia.eu,pl##+js(set-constant.js, window.onerror, trueFunc)
+!echodnia.eu,pl##+js(set-constant.js, window.onerror, falseFunc)
+!echodnia.eu##+js(abort-on-property-read, obj.url)
+!DZIAŁA - echodnia.eu,pl##+js(set-constant.js, oG_OSA.debug, true)
+!echodnia.eu,pl##+js(set-constant.js, oG_OSA.debug, true)
+!echodnia.eu,pl##+js(addEventListener-logger)
+!echodnia.eu,pl##+js(addEventListener-defuser)
