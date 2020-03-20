@@ -10,8 +10,13 @@
 !Wygląda na to, że blokujesz reklamy - komunikat Google
 @@||polskatimes.pl^$ghide
 !Nadpisanie wyjątków
-||tools.services.tvn.pl/_ads/advert.js$important
 ||tvn.hit.gemius.pl/gstream.js$important
+!||tools.services.tvn.pl/_ads/advert.js$important - nie wiem po co to nadpisywałem
+!Ustawienie wartości z pliku tools.services.tvn.pl/_ads/advert.js
+!ADBLOCK_DETECTED=false;window.adBlockPresent=false;var ADBL_TRAFFIC=0;
+get.x-link.pl##+js(set-constant.js, ADBLOCK_DETECTED, false)
+get.x-link.pl##+js(set-constant.js, window.adBlockPresent, false)
+get.x-link.pl##+js(set-constant.js, ADBL_TRAFFIC, 0)
 !Stary filtr blokujący napis "Reklama": https://github.com/MajkiIT/polish-ads-filter/issues/3167
 pl#@#h2 > span
 !POL: Oficjalne polskie filtry przeciwko alertom o Adblocku 
@@ -523,6 +528,19 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !https://echodnia.eu/radomskie/
 get.x-link.pl##+js(addEventListener-defuser, contextmenu)
 
+!Na wszelki wypadek, gdyby kiedyś wykrywali adblocka w ten sposób
+!Filtr ###advert1 z EasyList
+@@||get.x-link.pl^$ghide
+
+!(c) by Gemius SA - gemius main script
+||rcontent.services.tvn.pl/sweqevub.js$domain=get.x-link.pl
+
+!Test, aby zaoszczędzić całe 134kB internetu
+||s1-player5.cdntvn.pl/video/test.mp4$media,redirect=noopmp4-1s,domain=get.x-link.pl
+
+!Na 99% reklamy w treści
+||tools.services.tvn.pl/embeded.tvn.tools.js$domain=get.x-link.pl
+
 !Blokowanie autostartu wideo po załadaowaniu strony
 !https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(addEventListener-defuser, load, iframe)
@@ -533,3 +551,10 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !https://pomorska.pl/
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(addEventListener-defuser, scroll, iframe)
 
+!Ramka z facebooka
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
+!Ramka z twittera
+!https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
+
+
+!
