@@ -22,6 +22,35 @@ pl#@#h2 > span
 !POL: Oficjalne polskie filtry przeciwko alertom o Adblocku
 @@||googletagmanager.com/gtm.js$domain=echodnia.eu,badfilter
 
+!początek - https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+!Tu ten sam mechanizm
+!Jeżeli reklamy zablokowane i brak ciastka adblockCookie - pokaż komunikat i ustaw ciastko
+!POL: Oficjalne polskie filtry przeciwko alertom o Adblocku - ||s-pt.ppstatic.pl/*/reklama.js$script,redirect=noopjs,important
+||s-pt.ppstatic.pl/*/reklama.js$script,redirect=noopjs,important,badfilter
+
+!uBlock filters - ||ppstatic.pl/*/reklama.js$script,important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+||ppstatic.pl/*/reklama.js$script,important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl,badfilter
+
+!POL: Oficjalne polskie filtry przeciwko alertom o Adblocku -  @@||s-pt.ppstatic.pl/*/reklama.js$script,domain=dzienniklodzki.pl|gloswielkopolski.pl|dziennikpolski24.pl|echodnia.eu|polskatimes.pl|expressbydgoski.pl|expressilustrowany.pl|nowiny24.pl|gazetakrakowska.pl|pomorska.pl|nto.pl|gazetawroclawska.pl|wspolczesna.pl|gp24.pl|dziennikzachodni.pl|gazetalubuska.pl|dziennikbaltycki.pl|stronazdrowia.pl
+!AdGuard Base -  @@||ppstatic.pl/lib/*/js/ads/*/reklama.js
+
+
+
+!Własne odblokowanie skryptu - na wszelki wypadek
+@@||ppstatic.pl/*/reklama.js$script
+
+!Ustawienie wartości jak w żądanym skrypcie, gdyby jednak skrypt zablokowanu
+echodnia.eu,pl##+js(set-constant, pp_adblock_is_off, true)
+
+!uBlock filters  - polskatimes.pl##+js(aeld, , show)
+!Własne blokowanie komunikatu o adblocku - na wszelki wypadek
+echodnia.eu,pl##+js(addEventListener-defuser, DOMContentLoaded, PPAdblock.show())
+!koniec https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+
+!Na wszelki wypadek
+@@||s-pt.ppstatic.pl/*/eyeo.js$script
+echodnia.eu,pl##+js(set-constant, acceptable_ads_disallowed, true)
+
 !Po wyłączeniu skryptów menu bylo rozwinięte
 !echodnia.eu,pl##DIV.componentsNavigationNavbar__list.medium-wide.large-full
 
@@ -204,7 +233,9 @@ echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > B:last-child > H2:fi
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:first-child > P:first-child:last-child:has-text(TVN24/x-news)
 !https://gk24.pl/koronawirus-i-puste-sklepowe-polki-memy-polacy-robia-zapasy-bo-boja-sie-koronawirusa-12-3-2020-r/ar/c1-14852697
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md:first-child > DIV[style="text-align:center"]:last-child > P:first-child:last-child > STRONG:first-child:last-child:has-text(Zobacz MEMY)
-echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:has-text(/(TVN24\/x-news|Wideo:|Zobacz MEMY)/i)
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c14-14859531
+!echodnia.eu##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:first-child:has-text(Aplikacja jest bezpłatna i nie wymaga logowania.)
+echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-align:center"]:has-text(/(Aplikacja jest bezpłatna i nie wymaga logowania.|TVN24\/x-news|Wideo:|Zobacz MEMY)/i)
 
 !https://poranny.pl/zle-wiesci-z-chinskiego-rynku-9032020-r-jesli-nic-sie-nie-zmieni-sytuacja-wielu-polskich-firm-moze-stac-sie-zla/ar/c3-14823728
 !https://strefabiznesu.pl/zle-wiesci-z-chinskiego-rynku-9032020-r-jesli-nic-sie-nie-zmieni-sytuacja-wielu-polskich-firm-moze-stac-sie-zla/ar/c3-14823728
@@ -214,7 +245,19 @@ echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > DIV[style="text-alig
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md:first-child > H2:has-text(LIGA MISTRZÓW w GOL24)
 !https://gk24.pl/koronawirus-i-puste-sklepowe-polki-memy-polacy-robia-zapasy-bo-boja-sie-koronawirusa-12-3-2020-r/ar/c1-14852697
 !echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md:first-child > H2:first-child > STRONG:first-child:last-child:has-text(Koronawirus i puste sklepowe półki MEMY)
-echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > H2:has-text(/(Memy$|^LIGA MISTRZÓW w GOL24|^Obejrzyj wideo:)/i)
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c14-14859531
+echodnia.eu,pl##ARTICLE.componentsArticleContent > DIV.md > H2:has-text(/(^CZYTAJ TAKŻE:|^LIGA MISTRZÓW w GOL24|^Obejrzyj wideo:|Memy$)/i)
+
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c14-14859531
+echodnia.eu##ARTICLE.componentsArticleContent > DIV.md:has-text(Pobierz bezpłatną aplikację Echa Dnia i bądź na bieżąco!)
+
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c14-14859531
+!echodnia.eu##ARTICLE.componentsArticleContent > DIV.md:last-child
+echodnia.eu##DIV.md:last-child:if(H2:first-child + UL + A[href*="explosion"])
+
+!News w radomskim klubie Explosion. Zobacz zdjęcia na końcu artykułu
+!https://echodnia.eu/radomskie/zakonczone-konsultacje-ale-nie-jest-przesadzony-przebieg-linii-kolejowych-do-centralnego-portu-komunikacyjnego-w-regionie/ar/c1-14863573
+echodnia.eu##DIV.md > P:first-child + A[href*="explosion"]:if(H2 + IMG)
 
 !Wysuwający się element po lewej  na dole z tytułem i miniaturą
 !https://nowiny24.pl/wiadomosci/stalowa-wola/
@@ -261,10 +304,6 @@ echodnia.eu,pl##DIV.componentsRecommendationsSimpleListing__element[data-event-p
 !https://gazetalubuska.pl/koronawirus-w-polsce-minister-zdrowia-apeluje-pracujmy-zdalnie-w-miare-mozliwosci-nie-wychodzmy-z-domow/ar/c1-14852549
 echodnia.eu,pl##ASIDE.layoutsGrid__bottom > SECTION DIV.componentsRecommendationsSimpleListing__element:if(DIV.componentsRecommendationsSimpleAdsNativeElement)
 
-!Materiały informacyjne (sponsorowane) z sekcji "GazetaLubuska.pl poleca:" po prawej stronie
-!https://gazetalubuska.pl/
-echodnia.eu,pl##DIV.columns.large-4 A.autopromoLink:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
-
 !Sponsorowane materiały z poziomego paska na stronie głównej
 !https://dziennikbaltycki.pl/
 !https://polskatimes.pl/
@@ -278,6 +317,26 @@ echodnia.eu,pl##BODY.regionalne.stronaGlowna A.linkSponsorowany
 !Poziomy pasek z linkiem, miniaturą i tekstem "Materiał informacyjny" pod sekcją "Nasze sprawy"
 !https://dziennikzachodni.pl/
 echodnia.eu,pl##BODY.regionalne.stronaGlowna DIV.linkiSponsorowane
+
+!Materiały informacyjne (sponsorowane) z sekcji "GazetaLubuska.pl poleca:" po prawej stronie
+!https://gazetalubuska.pl/
+!Reklama w sekcji region na stronie głównej na Waterfoxie z Useragentem Android Firefox
+!https://echodnia.eu/radomskie/
+!echodnia.eu##DIV.columns.small-12.medium-3.srodek.mniejszeFlagi > A.autopromoLink
+!echodnia.eu,pl##DIV.columns.large-4 A.autopromoLink:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
+echodnia.eu,pl##BODY.regionalne.stronaGlowna A.autopromoLink:has-text(/(Artykuł sponsorowany|Materiał informacyjny)/i)
+
+!Pozostałość - tło pod zdjęciem w kolumnie pionowej w sekcji region na stronie głównej na Waterfoxie z Useragentem Android Firefox
+!https://echodnia.eu/radomskie/
+echodnia.eu,pl##BODY.regionalne.stronaGlowna A.nativeAdContainer
+
+!Pewnie miejsca na reklamy
+!https://echodnia.eu/radomskie/
+echodnia.eu,pl##DIV.ppa-slot
+
+!Rozszerzenie sekcji region, żeby kolumna Informacje - najnowsze wiadomości była w tym samym poziomie co sekcja region
+!https://echodnia.eu/radomskie/
+echodnia.eu,pl##BODY.regionalne.stronaGlowna > DIV#LinkArea\:region > DIV.row > DIV.columns.large-8:style(width: 100% !important;)
 
 !DIV na dole artykułu z 9 tytułami i miniaturkami
 !https://dziennikzachodni.pl/nagrody-grand-press-2018-przyznane-dziennikarzem-roku-bertold-kittel-nominowana-w-kategorii-grand-press-digital-byla-polska/ar/13734848
@@ -298,6 +357,11 @@ echodnia.eu,pl##BODY#boks-galeria UL#narzedzia
 echodnia.eu,pl##UL#narzedzia > LI.facebook.wyzsze.opis.popup
 echodnia.eu,pl##UL#narzedzia > LI.przeslij.bezTekstu
 echodnia.eu,pl##UL#narzedzia > LI.komentarze.wyzsze.opis
+
+!Czerwony przycisk Kiosk: tutaj kup gazetę online
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-potwierdzony-przypadek-zachorowania-w-szpitalu-na-radomskim-jozefowie/ar/c14-14865963
+!https://polskatimes.pl/koronawirus-18032020-r-zus-wprowadza-ulatwienia-dla-firm-potrzeba-jeszcze-dzialan-rzadu/ar/c3-14863643
+echodnia.eu,pl##DIV.componentsArticleBanner:if(DIV.atomsArticleBannerHotredirect)
 
 !Linki z obrazkami w środku tekstu
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
@@ -321,11 +385,55 @@ polskatimes.pl##ARTICLE#material > SECTION#tresc DIV.materialVideo.xlink.textC +
 
 !Link w tekście: "masa krytyczna"
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-pl##+js(remove-attr.js, href, ARTICLE#material > SECTION#tresc A.alz)
-pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color: unset !important)
+echodnia.eu,pl##+js(remove-attr.js, href, ARTICLE#material > SECTION#tresc A.alz)
+echodnia.eu,pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color: unset !important)
+
+!addEventListener tworzący odwołanie do mreg.hit.gemius.pl/xgemius.js
+!https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
+echodnia.eu,pl##+js(addEventListener-defuser, DOMContentLoaded, gemius)
+
+!Blokowanie odwołań do mreg.hit.gemius.pl/xgemius.js
+!https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
+polskatimes.pl##+js(abort-on-property-read, gemius_pending)
+
+!Blokuje chr do /_event/jserror/ na https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720 wywoływane z s-pt.ppstatic.pl/o/js/osnowa.js i nie psuje wyglądu strony głównej, m. in. jest załadowana sekcja multimedia i pasek nawigacyjny ma dostosawaną szarokość, tzn. widać przycisk biznes i ogłoszenia
+polskatimes.pl##+js(abort-on-property-read, oG_OSA.jserrors)
+
+!https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
+!echodnia.eu,pl##+js(abort-on-property-write, window.onerror)
+!echodnia.eu,pl#@#+js(abort-on-property-write, window.onerror)
+!echodnia.eu,pl#@#+js(abort-on-property-write, window.onerror)
+
+!echodnia.eu,pl##+js(abort-current-inline-script, /_event/jserror/)
+!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, jserror)
+!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, c.open("POST", "/_event/jserror/", !0))
+!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, window.location.href)
+!echodnia.eu,pl##+js(abort-current-inline-script, window.onerror, window.location.hostname)
 
 
 
+
+
+
+!Odwołanie xhr do gratka.pl/_event/performance/
+||s-pt.ppstatic.pl/o/js/performance.js?
+
+!Brak odwołań m. in. do
+!adform.net
+!adnxs.com
+!businessclick.com
+!casalemedia.com
+!contentstream.pl
+!creativecdn.com
+!criteo.com
+!doubleclick.net
+!https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
+echodnia.eu,pl##+js(abort-current-inline-script, PPAds)
+
+!Blokuje tworzenie mnóstwa eventlistenerów
+!addEventListener("DOMContentLoaded", function o(){i||(i=!0,r&&e.clearTimeout(r),n(e,t))})
+!addEventListener("load", function o(){i||(i=!0,r&&e.clearTimeout(r),n(e,t))})
+||ppstatic.pl/lib/events/
 
 !Sieciowe
 !Komunikat na dole po prawej: Monitorujemy anonimowo aktywność na stronie, korzystamy z cookies i local storage.
@@ -343,8 +451,6 @@ pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color
 ||ppstatic.pl/lib/ppa/*/js/main.js
 !Żądania xhr do vhsrwd.aip24.pl/v1/streams/nWtM4NQ4cgHZ/events
 !https://echodnia.eu/radomskie/na-mazowszu-az-13-papierosow-na-100-jest-nielegalnych/ar/c3-14819664
-!Najprawdopodobniej szpiegowanie
-||ppstatic.pl/lib/events/
 !Najprawdopodobniej strona przejściowa z reklamą i przyciskiem: Przejdź do strony
 ||ppstatic.pl/assets/nsk/*/components/slots/welcome-screen.css
 ||ppstatic.pl/assets/nsk/*/components/slots/welcome-screen.js
@@ -366,9 +472,10 @@ pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color
 !Reklamy w tekście artykułu:
 !https://dziennikzachodni.pl/jaki-odkurzacz-wybrac-do-domu-z-dziecmi-i-zwierzetami-porady/ar/c11-14714622
 ||adcarousel.pl^
-!
 
 
+!https://echodnia.eu/radomskie/koronawirus-w-powiecie-grojeckim-potwierdzony-przypadek-w-nowym-miescie-nad-pilica-i-w-grojcu-zarazona-pielegniarka-i-lekarz/ar/c1-14864549
+||rcontent.services.tvn.pl/gstream.js$domain=get.x-link.pl
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ||rcontent.services.tvn.pl^$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gp24.pl|gs24.pl|kurierlubelski.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|wspolczesna.pl
@@ -381,3 +488,4 @@ pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color
 !Temp, żeby się szybciej ładowało
 !||get.x-link.pl^$important
 !||prodxnews1blob.blob.core.windows.net^$important
+
