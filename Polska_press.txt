@@ -5,8 +5,11 @@
 ||prodxnews1blob.blob.core.windows.net^$badfilter
 ||get.x-link.pl^$badfilter
 !Easylist -adserver/
-@@||j.dcs.redcdn.pl/http/o2/TVN-Adserver/$xhr,domain=get.x-link.pl
-@@||dcs.redcdn.pl/file/o2/TVN-Adserver/$media,domain=get.x-link.pl
+!@@||j.dcs.redcdn.pl/http/o2/TVN-Adserver/$xhr,domain=get.x-link.pl
+!@@||dcs.redcdn.pl/file/o2/TVN-Adserver/$media,domain=get.x-link.pl
+!Te wykluczenia chyba są bez sensu (bez nich działa), więc
+||j.dcs.redcdn.pl/http/o2/TVN-Adserver/$xhr,domain=get.x-link.pl
+||dcs.redcdn.pl/file/o2/TVN-Adserver/$media,domain=get.x-link.pl
 !Wygląda na to, że blokujesz reklamy - komunikat Google
 @@||polskatimes.pl^$ghide
 !Nadpisanie wyjątków
@@ -492,7 +495,7 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ||rcontent.services.tvn.pl^$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
-||google.com^$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+||google.com/recaptcha/$important,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 /sw.js$script,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 !Reszta
 !
@@ -555,6 +558,10 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
 !Ramka z twittera
 !https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
+
+!Na wypadek blokowania ramek z facebooka:
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
+@@||connect.facebook.net/*/sdk.js$script,third-party,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 
 
 !
