@@ -478,7 +478,9 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !Reklamy w tekście artykułu:
 !https://dziennikzachodni.pl/jaki-odkurzacz-wybrac-do-domu-z-dziecmi-i-zwierzetami-porady/ar/c11-14714622
 ||adcarousel.pl^
-
+!W treści reklama - s-nsk.ppstatic.pl/assets/nsk/v1.65.18/js/compiled/components/ads/triple-flat.js
+!https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
+||ppstatic.pl/*/triple-flat.js
 
 !https://echodnia.eu/radomskie/koronawirus-w-powiecie-grojeckim-potwierdzony-przypadek-w-nowym-miescie-nad-pilica-i-w-grojcu-zarazona-pielegniarka-i-lekarz/ar/c1-14864549
 ||rcontent.services.tvn.pl/gstream.js$domain=get.x-link.pl
@@ -510,3 +512,24 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !echodnia.eu,pl##+js(set-constant.js, oG_OSA.debug, true)
 !echodnia.eu,pl##+js(addEventListener-logger)
 !echodnia.eu,pl##+js(addEventListener-defuser)
+
+!Puste miejsca po reklamie w kolumnie najnowsze po prawej stronie
+!powinno wystarczyć pomorska.pl##DIV.componentsRecommendationsMixedListing__element, ale na wszelki wypadek
+!https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsRecommendationsMixedListing__element:if(DIV.componentsRecommendationsMixedAdsNativeElement)
+
+!Normalne menu po prawokliku zamiast TVN S. A.
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
+!https://echodnia.eu/radomskie/
+get.x-link.pl##+js(addEventListener-defuser, contextmenu)
+
+!Blokowanie autostartu wideo po załadaowaniu strony
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(addEventListener-defuser, load, iframe)
+
+!Blokwoanie autostartu po przescrollowaniu do wideo
+!https://echodnia.eu/radomskie/
+!https://echodnia.eu/radomskie/koronawirus-w-radomiu-jest-potwierdzony-przypadek-wiadomosc-podal-prezydent-miasta-radoslaw-witkowski/ar/c1-14859531
+!https://pomorska.pl/
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(addEventListener-defuser, scroll, iframe)
+
