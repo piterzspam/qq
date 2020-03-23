@@ -1,0 +1,154 @@
+! Title: Polsat
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||polsatnews.pl^$ghide
+@@||polsatsport.pl^$ghide
+@@||imasdk.googleapis.com^$ghide
+
+!Na wszelki wypadek
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda - pl##.ad
+pl#@#.ad
+!AdGuard Social Media - polsatnews.pl##.news__share > ul.nav__items > .nav__item:not(.nav__item--comments)
+polsatnews.pl#@#.news__share > ul.nav__items > .nav__item:not(.nav__item--comments)
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda - pl##[class$="-ads"] 
+pl#@#[class$="-ads"]
+!Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for uBlock Origin - polsatnews.pl##.ads .videoPlayer__vast, .ads .videoPlayer__mask[data-time]
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda - polsatnews.pl##.ads .videoPlayer__vast, .ads .videoPlayer__mask[data-time]
+polsatnews.pl#@#.ads .videoPlayer__vast, .ads .videoPlayer__mask[data-time]
+
+
+!uBlock filters 
+!POL: Oficjalne polskie filtry przeciwko alertom o Adblocku
+@@||gemius.pl^$script,domain=polsatnews.pl,badfilter
+!AdGuard Tracking Protection 
+!EasyPrivacy 
+@@||gemius.pl/gstream.js$badfilter
+!EasyPrivacy
+@@||gemius.pl/gplayer.js$script,3p,badfilter
+!uBlock filters 
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=polsatnews.pl,badfilter
+!AdGuard Base 
+!@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=redefine.pl|redcdn.pl|polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl,badfilter
+!POL: Oficjalne polskie filtry przeciwko alertom o Adblocku 
+!@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.cdn.famobi.com|grydladzieci.pl|fm.tuba.pl|wp.pl|player.pl|animezone.pl|ipla.tv|www.polsatnews.pl|playpuls.pl|polsatsport.pl|twojapogoda.pl|wtk.pl|tvp.pl|polsatnews.pl|tvokazje.pl|parenting.pl|abczdrowie.pl|money.pl|meloradio.pl|antyradio.pl|chillizet.pl|radioplus.pl|radiozet.pl|www.geekweek.pl,badfilter
+!POL: Oficjalne polskie filtry przeciwko alertom o Adblocku 
+!@@||ipla.hit.stat24.com/*ad.xml$xmlhttprequest,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl,badfilter
+!AdGuard Base 
+!@@||hit.stat24.com/*ad.xml$xmlhttprequest,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl,badfilter
+!uBlock filters 
+!@@||hit.stat24.com/$xmlhttprequest,domain=polsatnews.pl,badfilter
+!AdGuard Base 
+!@@||imasdk.googleapis.com/js/core/bridge*.html$domain=~spotify.com,badfilter
+!EasyList 
+!@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com,badfilter
+!Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
+||2mdn.net/instream/$important,domain=polsatnews.pl|polsatsport.pl
+
+!Nadpisanie filtru @@/adservice.*.js?domain=$script z Fanboy’s Enhanced Tracking List 
+||adservice.google.com^$domain=polsatnews.pl|polsatsport.pl,important
+
+!Przekierowanie z tych list jest potrzebne
+!Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for uBlock Origin 
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+||redirector.redefine.pl/r/*$media,redirect=noop-1s.mp4,domain=polsatnews.pl|polsatsport.pl
+
+!Dzwonek do powiadomień po lewej stronie na dole
+!https://www.polsatnews.pl/wideo/morawiecki-wprowadzamy-dzisiaj-stan-epidemii_6767556/
+||polsatnews.pl/templates/pnews2018/build/js/vendors~Pushwoosh$script
+||polsatnews.pl/templates/pnews2018/build/js/Pushwoosh$script
+
+!Początek - https://www.polsatnews.pl/wideo/morawiecki-wprowadzamy-dzisiaj-stan-epidemii_6767556/
+!Komentarze są z facebooka, więc są do schowania
+polsatnews.pl,polsatsport.pl##DIV.news__comments
+!Przyciski do sociali i komentarzy po lewej stronie tekstu
+||polsatnews.pl/templates/pnews2018/build/gfx/share/$image
+polsatnews.pl,polsatsport.pl##NAV.news__share
+!Przyciski do aplikacji pod tekstem: "Chcesz być na bieżąco z najnowszymi newsami?"
+||polsatnews.pl/templates/pnews2018/build/gfx/app/btn-$image
+polsatnews.pl,polsatsport.pl##DIV.app-ad
+!Logo wydarzeń z górnej belki 
+||s.redefine.pl/file/o2/redefine/cp/pv/pvsfjursceabstyzz9hxnco1uxfsdryi.png
+!Początek - szary górny pasek
+!Pogoda
+||twojapogoda.pl^$domain=polsatnews.pl
+!Ikonka Facebooka
+||polsatnews.pl/templates/pnews2018/build/gfx/facebook$image
+!Ikonka Twittera
+||polsatnews.pl/templates/pnews2018/build/gfx/twitter$image
+!Ikonka Youtube
+||polsatnews.pl/templates/pnews2018/build/gfx/youtube$image
+!Ikonka Instagrama
+||polsatnews.pl/templates/pnews2018/build/gfx/instagram$image
+!Ikonka RSS
+||polsatnews.pl/templates/pnews2018/build/gfx/rss$image
+!Ukrycie paska
+polsatnews.pl,polsatsport.pl##DIV.header__sub
+!Koniec - szary górny pasek
+!Przycisk, Ikona przy Twój news - przyślij zdjęcie lub film na białym pasku nawigacyjnym
+||polsatnews.pl/templates/pnews2018/build/gfx/more$image
+polsatnews.pl,polsatsport.pl##DIV.platform
+!Koniec - https://www.polsatnews.pl/wideo/morawiecki-wprowadzamy-dzisiaj-stan-epidemii_6767556/
+
+!polsatnews.pl,polsatsport.pl##+js(addEventListener-logger)
+!polsatnews.pl##+js(addEventListener-defuser, /^/)
+!polsatnews.pl##+js(addEventListener-defuser, scroll)
+
+!Unieruchomienie paska nawigacyjnego
+polsatnews.pl,polsatsport.pl##+js(addEventListener-defuser, scroll)
+!Strona desktopowa - https://www.polsatnews.pl/wideo/morawiecki-wprowadzamy-dzisiaj-stan-epidemii_6767556/
+!polsatnews.pl##HTML[class][lang="pl"] > BODY.js-focus-visible[data-page="target"] > HEADER#header.header > DIV.header__main:first-child:style(margin-top: 0px !important)
+!Strona desktopowa - https://www.polsatnews.pl/wyszukiwarka/?text=%22PIOTR+ZAREMBA%22&src=tag
+!polsatnews.pl##HTML[class][lang="pl"] > BODY.js-focus-visible > HEADER#header.header > DIV.header__main:first-child
+polsatnews.pl,polsatsport.pl##HTML[class][lang="pl"] > BODY.js-focus-visible > HEADER#header.header > DIV.header__main:first-child:style(margin-top: 0px !important)
+polsatnews.pl,polsatsport.pl##HTML[class][lang="pl"] > BODY.js-focus-visible > HEADER#header.header:style(height: 100px; !important)
+polsatnews.pl,polsatsport.pl##HTML[class] > BODY.js-focus-visible:last-child > DIV#container.container.is--active:style(padding-top: 100px !important;)
+
+!Miniatura z tytułem w treści tekstu
+!https://www.polsatnews.pl/wiadomosc/2020-03-21/wybory-w-czasie-wojny-kryzysu-i-zarazy/?ref=wyszukiwarka
+polsatnews.pl,polsatsport.pl##DIV.news__related.related-list
+
+!Pomararńczowe linki w środku tekstu
+!https://www.polsatnews.pl/wiadomosc/2020-03-21/wybory-w-czasie-wojny-kryzysu-i-zarazy/?ref=wyszukiwarka
+!polsatnews.pl##DIV.news__description > P:if(STRONG:first-child:last-child > A[href]:first-child:last-child:has-text(ZOBACZ:))
+!https://www.polsatnews.pl/wiadomosc/2020-03-22/z-powodu-koronawirusa-zmarla-37-latka-kolejne-potwierdzone-przypadki/?ref=aside_popularne
+!polsatnews.pl##DIV.news__description > P:if(A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child:has-text(ZOBACZ:))
+!polsatnews.pl##DIV.news__description > P:if(A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child:has-text(/^ZOBACZ:/))
+!polsatnews.pl##DIV.news__description > ARTICLE > P > A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child:has-text(/^ZOBACZ:/))
+!polsatnews.pl##DIV.news__description > ARTICLE > P:if(A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child:has-text(ZOBACZ:))
+!polsatnews.pl##DIV.news__description > ARTICLE > P:if(A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child:has-text(/^ZOBACZ:/))
+!polsatnews.pl##DIV.news__description > ARTICLE > P > A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child
+!polsatnews.pl##DIV.news__description > ARTICLE > ARTICLE:last-child > P > A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child
+!polsatnews.pl##DIV.news__description > ARTICLE > ARTICLE:last-child > P > A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child:has-text(/^ZOBACZ:/)
+polsatnews.pl,polsatsport.pl##DIV.news__description P:if(A[href]):if(STRONG:first-child:last-child):has-text(/^ZOBACZ:/)
+!Wideo na końcu artykułu
+!https://www.polsatnews.pl/wiadomosc/2020-03-22/z-powodu-koronawirusa-zmarla-37-latka-kolejne-potwierdzone-przypadki/?ref=aside_popularne
+polsatnews.pl,polsatsport.pl##DIV.news__description > DIV.news__rndvod
+!Zwykłe wideo: https://www.polsatnews.pl/wideo/morawiecki-wprowadzamy-dzisiaj-stan-epidemii_6767556/
+
+!Czasem sekcja po prawej jest container__aside sticky is--sticky-bottom-start zamiast container__aside sticky 
+!wtedy skrolluje się razem ze stroną i po przeskrollowaniu nachodzi na stopkę
+!https://www.polsatnews.pl/wiadomosc/2020-03-22/z-powodu-koronawirusa-zmarla-37-latka-kolejne-potwierdzone-przypadki/?ref=aside_popularne
+polsatnews.pl,polsatsport.pl##DIV#aside.container__aside.sticky.is--sticky-bottom-start:style(position: relative !important;)
+
+
+!
+||fonts.googleapis.com^$domain=polsatnews.pl|polsatsport.pl,important
+||fonts.gstatic.com^$domain=polsatnews.pl|polsatsport.pl,important
+
+!Nadpisanie przesunięca paska pilne
+!https://www.polsatnews.pl/wiadomosci/polska/
+polsatnews.pl,polsatsport.pl##HEADER#header > DIV#urgent:style(transform: translate3d(0,100px,0) !important;)
+
+!Ramka z twittera i facebooka
+!https://www.polsatnews.pl/wiadomosc/2020-03-22/z-powodu-koronawirusa-zmarla-37-latka-kolejne-potwierdzone-przypadki/?ref=aside_popularne
+!Ramka z instagrama
+!https://www.polsatnews.pl/wiadomosc/2019-10-15/przyjaciele-wrocili-na-instagramie-jennifer-aniston/
+!Wideo na końcu, które jest w temacie
+!https://www.polsatnews.pl/wiadomosc/2020-03-22/sterty-smieci-i-potworny-smrod-rozpacz-sasiadow-klopotliwej-lokatorki/?ref=kafle
+!Link na temat w treści artykułu - "Więcej o tym tutaj."
+!https://www.polsatnews.pl/wiadomosc/2020-03-21/czy-przez-pandemie-rzadowi-zabraknie-pieniedzy-prezes-pis-wyjasnia/?ref=wyszukiwarka
+
+
+
+!
