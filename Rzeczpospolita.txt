@@ -1,0 +1,98 @@
+! Title: Rzeczpospolita
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||rp.pl^$ghide
+
+!AdGuard Annoyances 
+!Fanboy’s Annoyance 
+!EasyList Cookie - @@||cdn.rp.pl/cmp/cmp.min.js
+@@||cdn.rp.pl/cmp/cmp.min.js$badfilter
+
+!Wideo na onnetwork.tv to tylko 30 sekundpwe fragmenty
+!https://www.rp.pl/Kraj/303309898-Nowe-rozdanie-wyborcze-w-Platformie-i-powrot-Tuska.html
+||onnetwork.tv^$domain=rp.pl
+
+
+!Po kliknięciu hamburgera rozwiniętego menu przesunięcie go do paska nawigacyjnego przy oknie na cały ekran
+!https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
+!rp.pl##BODY.theme-plusminus.bp-md.menu-expand-open > DIV.menu-expand.-active:style(top: 6rem !important;)
+!Po kliknięciu hamburgera rozwiniętego menu przesunięcie go do paska nawigacyjnego przy oknie wąskim
+!https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
+!rp.pl##BODY.theme-plusminus.bp-xs.menu-expand-open > DIV.menu-expand.-active:style(top: 6rem !important;)
+!Po kliknięciu hamburgera rozwiniętego menu przesunięcie go do paska nawigacyjnego przy oknie na cały ekran na stronie głównej
+!https://www.rp.pl/?utm_source=rp&utm_medium=belka_top
+!rp.pl##BODY.theme-default.bp-md.menu-expand-open > DIV.menu-expand.-active:style(top: 6rem !important;)
+rp.pl##BODY.menu-expand-open > DIV.menu-expand.-active:style(top: 6rem !important;)
+
+
+!Puste miejsca po reklamach w kaflach pod artykułem 
+!https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
+rp.pl##DIV.related-articles > DIV.row > DIV.teaser--commercial
+
+!Puste miejsce po reklamie w kaflach pod napisem NASZE SERWISY na stronie głównej
+!https://www.rp.pl/?utm_source=rp&utm_medium=belka_top#menu
+rp.pl##DIV.teaser-ads
+
+!Wideo z autoodtwarzaniem
+!https://www.rp.pl/autor/10000/katarzyna-sadlo
+!https://www.rp.pl/?utm_source=rp&utm_medium=belka_top
+!Wideo bez autoodtwarzania
+!https://www.rp.pl/?utm_source=rp&utm_medium=belka_top
+||youtube.com*&autoplay=true$subdocument,domain=rp.pl
+
+!Puste pola pod opisem wideo
+!https://www.rp.pl/RZECZoPOLITYCE/200339961-Agnieszka-Dziemianowicz-Bak-PiS-chce-zrobic-z-obywateli-zywa-tarcze-by-nie-stracic-wladzy.html
+rp.pl##DIV.teaser--commercial
+
+!Pod głównym artykułem link do kanału na Youtube
+!https://www.rp.pl/?utm_source=rp&utm_medium=belka_top
+rp.pl##DIV.mid-res-commercial-container
+
+!Film i przycisk subskrybuj po prawej stronie na stronie głównej
+!https://www.rp.pl/?utm_source=rp&utm_medium=belka_top
+rp.pl##DIV#sidebar-tv
+
+!Puste miejsce po reklamie po prawej stronie wideo
+!https://www.rp.pl/RZECZoPOLITYCE/200329395-Rafal-Trzaskowski-Dajcie-mi-racjonalnie-zarzadzac-komunikacja-miejska.html
+rp.pl##DIV.article__right-col--rectangle-1
+
+!Puste miejsce nad wideo w treści artykułu
+!https://www.rp.pl/Plus-Minus/304039986-Lysemu-kaczyscie-na-pohybel.html
+rp.pl##DIV.article__content > DIV > P:if(BR.Apple-interchange-newline + BR.Apple-interchange-newline + BR)
+
+!Wideo w treści artykułu
+!https://www.rp.pl/Plus-Minus/304039986-Lysemu-kaczyscie-na-pohybel.html
+rp.pl##SPAN.article__premium-player
+
+!Puste kafle na stronie głównej
+!https://www.rp.pl/
+rp.pl##+jd(abort-on-property-write.js, _gremi_adverts)
+rp.pl##DIV.teaser-ads
+
+
+
+!Galera
+!https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
+!https://www.rp.pl/Rzecz-o-historii/309199936-Polska-wojna-prewencyjna.html
+
+!onet.pl##+js(addEventListener-logger)
+!onet.pl##+js(addEventListener-defuser, /^/)
+!onet.pl##+js(addEventListener-defuser, scroll)
+!onet.pl##+js(addEventListener-defuser, ziemniak1)
+!onet.pl##+js(addEventListener-defuser, ziemniak1, ziemniak2)
+
+
+!
+!rp.pl##+js(noeval.js)
+
+
+
+
+
+
+
+
+
+
+!
