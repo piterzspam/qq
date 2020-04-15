@@ -17,6 +17,8 @@ pl#@#[class$="-ads"]
 !POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda - polsatnews.pl##.ads .videoPlayer__vast, .ads .videoPlayer__mask[data-time]
 polsatnews.pl#@#.ads .videoPlayer__vast, .ads .videoPlayer__mask[data-time]
 
+!Konieczny wyjątek z POL: Oficjalne polskie filtry przeciwko alertom o Adblocku
+@@||ipla.hit.stat24.com/*ad.xml$xmlhttprequest,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl
 
 !uBlock filters 
 !POL: Oficjalne polskie filtry przeciwko alertom o Adblocku
@@ -152,17 +154,17 @@ polsatnews.pl,polsatsport.pl##HEADER#header > DIV#urgent:style(transform: transl
 
 !Przycisk przesunięcia do komentarzy po lewej stronie
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
-tygodnik.polsatnews.pl##LI.menu__element.menu__element--comments
+polsatnews.pl##LI.menu__element.menu__element--comments
 
 !Link do powiązanego artykułu z miniaturą pod pogrubionym skrótem
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
-tygodnik.polsatnews.pl##DIV.article__related.related-list
+polsatnews.pl##DIV.article__related.related-list
 
 !Link do powiązanego artykułu z tekstem w treści
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
-tygodnik.polsatnews.pl##P > STRONG:first-child:last-child > A[href^="https://tygodnik.polsatnews.pl/"]:has-text(ZOBACZ: )
+polsatnews.pl##P > STRONG:first-child:last-child > A[href^="https://tygodnik.polsatnews.pl/"]:has-text(ZOBACZ: )
 
 !Komentarze do artykułu
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
-tygodnik.polsatnews.pl##DIV.article__comments
-!
+polsatnews.pl##DIV.article__comments
+
