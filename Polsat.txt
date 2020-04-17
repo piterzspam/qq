@@ -168,3 +168,10 @@ polsatnews.pl##P > STRONG:first-child:last-child > A[href^="https://tygodnik.pol
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
 polsatnews.pl##DIV.article__comments
 
+!Link powiązany w treści artykułu ZOBACZ: Dziennikarze "Państwa w Państwie" nagrodzeni za materiał "Kolekcjonerski przekręt"
+!https://www.polsatnews.pl/wiadomosc/2020-04-17/nie-zyje-dziennikarka-polsatu-ewa-zarska/
+polsatnews.pl,polsatsport.pl##DIV.news__description A[href]:if(STRONG:first-child:last-child):has-text(/^ZOBACZ:/)
+
+!Przyciski do pobrania aplikacji mobilnych pod artykułem "Chcesz być na bieżąco z najnowszymi newsami?"
+polsatnews.pl##DIV.app-ad
+||polsatnews.pl/templates/pnews2018/build/gfx/app/btn-
