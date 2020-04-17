@@ -9,6 +9,11 @@
 !EasyList Cookie - @@||cdn.rp.pl/cmp/cmp.min.js
 @@||cdn.rp.pl/cmp/cmp.min.js$badfilter
 
+!Odblokowanie komunikatu o tym, że artykuł jest płatny
+!https://www.rp.pl/Plus-Minus/304109986-Robert-Mazurek-Brezniew-mojej-mlodosci.html
+!Polskie Filtry Elementów Irytujących 
+www.rp.pl#@##mk-paywall
+
 !Wideo na onnetwork.tv to tylko 30 sekundpwe fragmenty
 !https://www.rp.pl/Kraj/303309898-Nowe-rozdanie-wyborcze-w-Platformie-i-powrot-Tuska.html
 ||onnetwork.tv^$domain=rp.pl
@@ -70,7 +75,35 @@ rp.pl##SPAN.article__premium-player
 rp.pl##+jd(abort-on-property-write.js, _gremi_adverts)
 rp.pl##DIV.teaser-ads
 
+!Blokwoanie biepotrzebnego logowania i baneru z prenumeratą nad paskiem nawigacyjnym
+!https://www.rp.pl/
+||login.gremimedia.pl^
+||rp.pl/section/?template=marketing_json$xhr
+||rp.pl/section/?template=ajax_getpushcontent$xhr
 
+!Belki z napisem reklama
+!https://www.rp.pl/
+rp.pl##DIV[id^="sas_"].ad
+
+!Puste kafle w których były reklamy
+!https://www.rp.pl/
+rp.pl##DIV.teaser-parent:if(DIV[id^="sas_"].ad)
+
+!Przyciski do udostępniania pod zdjęciem autora
+!https://www.rp.pl/autor/634/robert-mazurek
+rp.pl##DIV.social-btns
+
+!Przyciski do udostępniania nad i pod artykułem
+!https://www.rp.pl/Komentarze/304169868-Michal-Szuldrzynski-Zabierz-Donaldowi--dostep-do-Twittera.html#article
+rp.pl##A.social-link
+
+!Przycisk do czytania artykułu na głos
+!https://www.rp.pl/Komentarze/304169868-Michal-Szuldrzynski-Zabierz-Donaldowi--dostep-do-Twittera.html#article
+rp.pl##A.js-voice-run
+
+!Czytanie artykułu na głos
+!https://www.rp.pl/Komentarze/304169868-Michal-Szuldrzynski-Zabierz-Donaldowi--dostep-do-Twittera.html#article
+||rp.pl/public/js/static/responsivevoice.js
 
 !Galera
 !https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
