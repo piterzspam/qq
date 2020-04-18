@@ -175,3 +175,8 @@ polsatnews.pl,polsatsport.pl##DIV.news__description A[href]:if(STRONG:first-chil
 !Przyciski do pobrania aplikacji mobilnych pod artykułem "Chcesz być na bieżąco z najnowszymi newsami?"
 polsatnews.pl##DIV.app-ad
 ||polsatnews.pl/templates/pnews2018/build/gfx/app/btn-
+
+!Przyciski społecznościowe
+!https://tygodnik.polsatnews.pl/news/2020-04-17/pis-czyli-pandemiczny-brak-empatii/
+||tygodnik.polsatnews.pl/templates/tygodnik/build/gfx/share/
+tygodnik.polsatnews.pl##DIV.article__share
