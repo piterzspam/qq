@@ -163,7 +163,10 @@ gazetaprawna.pl##DIV.article + HEADER.headerBox:has-text(Proponowane dla Ciebie)
 !https://www.gazetaprawna.pl/artykuly/1469226,koronawirus-wybory-prezydenckie-w-maju-wybory-korespondencyjne.html
 gazetaprawna.pl##DIV.shareArticleButtons
 
-
 !Miniaturka do artykułu powiązanego w treści
 !https://prawo.gazetaprawna.pl/artykuly/1469973,inwigilacja-koronawirus-przekazywanie-danych.html
 gazetaprawna.pl##DIV.artTeaser > DIV.psavImg
+
+!Szare pole z linkiem do innego tekstu w treści artykułu "zobacz także:"
+!https://serwisy.gazetaprawna.pl/media/artykuly/1457554,wolne-lektury-czytelnictwo-w-polsce.html
+gazetaprawna.pl##DIV.zobacz-takze
