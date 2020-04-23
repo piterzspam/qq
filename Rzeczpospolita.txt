@@ -105,6 +105,17 @@ rp.pl##A.js-voice-run
 !https://www.rp.pl/Komentarze/304169868-Michal-Szuldrzynski-Zabierz-Donaldowi--dostep-do-Twittera.html#article
 ||rp.pl/public/js/static/responsivevoice.js
 
+!Pogrubienia w tekście z llinkami do innych atykułów
+!Sensowne
+!https://www.rp.pl/Sadownictwo/304289967-Panstwo-chronilo-sutenerow-na-Podkarpaciu.html
+!Niesensowne
+!https://www.rp.pl/Zdrowie/200429893-Prywatne-szpitale-dezerteruja-z-frontu-walki-z-epidemia.html
+rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Czytaj też:)
+rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Czytaj też:) + P:if(EM > STRONG > A[href])
+rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Czytaj też:) + P + P:if(EM > STRONG > A[href])
+!https://www.rp.pl/Analizy/200329156-Jacek-Nizinkiewicz-Kanibalizm-opozycji-na-zyczenie-PiS.html
+rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Zobacz wyniki sondażu: ):if(STRONG > A[href] > EM)
+
 !Galera
 !https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
 !https://www.rp.pl/Rzecz-o-historii/309199936-Polska-wojna-prewencyjna.html
