@@ -170,3 +170,35 @@ gazetaprawna.pl##DIV.artTeaser > DIV.psavImg
 !Szare pole z linkiem do innego tekstu w treści artykułu "zobacz także:"
 !https://serwisy.gazetaprawna.pl/media/artykuly/1457554,wolne-lektury-czytelnictwo-w-polsce.html
 gazetaprawna.pl##DIV.zobacz-takze
+
+!Przyciski do facebooka i twittera
+!https://forsal.pl/artykuly/1471392,karty-sie-drukuja-bez-zadnego-trybu.html
+forsal.pl##DIV.shareArticleButtons
+!https://forsal.pl/artykuly/1471392,karty-sie-drukuja-bez-zadnego-trybu.html
+!Elementy z napisem: REKLAMA
+forsal.pl##DIV.tpl_dgp_rkl_test
+!Zdjęcie w treści artykułu, które już jest w galerii (po kliknięciu na zdjęcie główne)
+!https://forsal.pl/artykuly/1471392,karty-sie-drukuja-bez-zadnego-trybu.html
+forsal.pl##DIV.artBoxImg.psavPictureDiv
+!Puste miejsce po reklamie na dole strony, pod autorami nad "Dodaj komentarz"
+!https://forsal.pl/artykuly/1471392,karty-sie-drukuja-bez-zadnego-trybu.html
+forsal.pl##DIV.tpl_ads_adsense
+
+!Puste miejsce po reklamie na dole strony, pod autorami nad "Dodaj komentarz"
+!https://serwisy.gazetaprawna.pl/samorzad/artykuly/1471073,wirusowa-wyrwa-w-lokalnych-podatkach.html
+gazetaprawna.pl##DIV.tpl_ads_adsense
+
+!Polskie Filtry Elementów Irytujących - filtr forsal.pl##+js(set-constant, parseFloat, noopFunc)
+!False Positive - znikają linki na belce oprócz rozwijanego "Więcej"
+!https://forsal.pl/artykuly/1471392,karty-sie-drukuja-bez-zadnego-trybu.html
+forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
+!Tu są komentarze
+!https://forsal.pl/gospodarka/prawo/artykuly/1470675,uchwala-polaczonych-izb-sadu-najwyzszego-jest-niezgodna-z-konstytucja.html
+!Tu są komentarze
+!https://wiadomosci.dziennik.pl/polityka/artykuly/7390299,karty-wyborcze-brak-daty-pieczeci-pkw.html#icwcv=15
+!Tu są komentarze
+!https://forsal.pl/gospodarka/prawo/artykuly/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html
+!Tu jest sensowne zdjecie w tekście:
+!https://forsal.pl/gospodarka/prawo/artykuly/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html
+!Tu jest wideo
+!https://wiadomosci.dziennik.pl/polityka/artykuly/6483083,wybory-prezydenckie-koronawirus-glosowanie-korespondencyjne-pkw-glosowanie-organizacja-termin-wyborow-pis-karty-do-glosowania.html#icwcv=15
