@@ -1,20 +1,6 @@
 ! Title: Gazeta
 ! Expires: 1 day
 
-
-!Odblokowanie komentarzy
-tygodnik.polsatnews.pl#@#DIV.article__comments
-||facebook.net^$domain=tygodnik.polsatnews.pl
-||facebook.com^$domain=tygodnik.polsatnews.pl
-@@||connect.facebook.net/*/sdk.js#xfbml$script,domain=tygodnik.polsatnews.pl
-@@||connect.facebook.net/pl_PL/sdk.js?hash=$script,domain=tygodnik.polsatnews.pl
-@@||facebook.com/*/plugins/comments.php?$frame,domain=tygodnik.polsatnews.pl
-@@||facebook.com/plugins/comments.php?$frame,domain=tygodnik.polsatnews.pl
-@@||facebook.com/plugins/feedback.php?$frame,domain=tygodnik.polsatnews.pl
-
-||apis.google.com^
-||connect.facebook.net^
-
 !Na stronie głównej link do polubienie facebooka
 !https://weekend.gazeta.pl/weekend/0,0.html
 weekend.gazeta.pl##ARTICLE.mod_fb_like_embed
