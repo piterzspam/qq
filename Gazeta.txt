@@ -1,0 +1,239 @@
+! Title: Gazeta
+! Expires: 1 day
+
+
+!Odblokowanie komentarzy
+tygodnik.polsatnews.pl#@#DIV.article__comments
+||facebook.net^$domain=tygodnik.polsatnews.pl
+||facebook.com^$domain=tygodnik.polsatnews.pl
+@@||connect.facebook.net/*/sdk.js#xfbml$script,domain=tygodnik.polsatnews.pl
+@@||connect.facebook.net/pl_PL/sdk.js?hash=$script,domain=tygodnik.polsatnews.pl
+@@||facebook.com/*/plugins/comments.php?$frame,domain=tygodnik.polsatnews.pl
+@@||facebook.com/plugins/comments.php?$frame,domain=tygodnik.polsatnews.pl
+@@||facebook.com/plugins/feedback.php?$frame,domain=tygodnik.polsatnews.pl
+
+||apis.google.com^
+||connect.facebook.net^
+
+!Na stronie głównej link do polubienie facebooka
+!https://weekend.gazeta.pl/weekend/0,0.html
+weekend.gazeta.pl##ARTICLE.mod_fb_like_embed
+
+!Nadpisanie filtru @@||wikia.nocookie.net^*/images/$image z EasyList - obrazek na przycisku udostępnienia na Twittrerze
+!https://weekend.gazeta.pl/weekend/1,152121,25835944,ikonowicz-raz-czy-dwa-uslyszalem-komunista-ale-nie-od-ludzi.html
+||wikia.nocookie.net/*/Twitter_icon.svg$important,domain=gazeta.pl
+ 
+!Przycisk do facebooka i Twittera pod nazwiskiem autora
+!https://weekend.gazeta.pl/weekend/1,152121,25835944,ikonowicz-raz-czy-dwa-uslyszalem-komunista-ale-nie-od-ludzi.html
+weekend.gazeta.pl##DIV.shortSocialBar
+||tbcdn.talentbrew.com/company/364/v1_0/img/facebook.png$important,domain=gazeta.pl
+
+!Sekcja z polubieniem pod artykułem
+!https://weekend.gazeta.pl/weekend/1,152121,25835944,ikonowicz-raz-czy-dwa-uslyszalem-komunista-ale-nie-od-ludzi.html
+weekend.gazeta.pl##DIV.cmsArtykulElem > DIV.noApp:if(IFRAME[src*="facebook.com"])
+
+!Blokada dodawania \n Więcej:+ link przy kopiowaniu
+!https://weekend.gazeta.pl/weekend/1,152121,25835944,ikonowicz-raz-czy-dwa-uslyszalem-komunista-ale-nie-od-ludzi.html
+gazeta.pl##+js(addEventListener-defuser.js, copy)
+gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, addUrlToClipboard)
+!gazeta.pl##+js(addEventListener-logger.js)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Jeżeli nie jest zablokowany skrypt rodo.agora.pl/agreement/check?gid=1&params= i zablokowane są addEventListener to dodawany jest styl style="overflow-y: hidden;" blokujący scrollowanie
+!https://weekend.gazeta.pl/weekend/1,152121,25843293,pan-jozef-ma-93-lata-i-prowadzi-zaklad-krawiecki-panie-boze.html
+gazeta.pl##HTML:style(overflow-y: unset !important)
+||doubleclick.net^
+||facebook.com^
+||googletagmanager.com^
+||google-analytics.com^
+||static.im-g.pl/static/rodo-consent-box/master/production/cmp.bundle.jsgz?
+
+!Na wersji mobilnej tytuł, autor i lead nie był wyśrodkowany
+!https://weekend.gazeta.pl/weekend/1,152121,25706592,najgorszy-byl-placz-dziecka-ten-wyraz-twarzy-przerazenie.html
+weekend.gazeta.pl##BODY#pagetype_art.rwd.responsive DIV#gazeta_article > DIV#gazeta_article_lead:style(margin-left: auto !important; margin-right: auto !important)
+weekend.gazeta.pl##BODY#pagetype_art.rwd.responsive DIV.gazeta_article_header:style(margin-left: auto !important; margin-right: auto !important)
+
+!Na mobilnej stronie głównej sekcja z quizem i desktopowej
+!https://m.gazeta.pl/0,0.html
+gazeta.pl##DIV.additional--opening--area:if(A.additional--opening--area__title:has-text(QUIZ))
+
+!Żądanie frame i xhr do squid.gazeta.pl/bdtrck/
+!https://weekend.gazeta.pl/weekend/1,152121,25843293,pan-jozef-ma-93-lata-i-prowadzi-zaklad-krawiecki-panie-boze.html
+||static.gazeta.pl/info/bluewhale/
+
+!Komunikat o ciastkach po wejściu na stronę
+!https://weekend.gazeta.pl/weekend/1,152121,25843293,pan-jozef-ma-93-lata-i-prowadzi-zaklad-krawiecki-panie-boze.html
+||rodo.agora.pl^
+
+!Żądania do https://gazeta.hit.gemius.pl/fpdata.js?href=weekend.gazeta.pl i https://gazeta.hit.gemius.pl/xgemius.js
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+||gemius.pl^$domain=gazeta.pl
+!Żądania do gazeta.hit.gemius.pl/xgemius.js
+gazeta.pl##+js(abort-on-property-read, gemius_pending)
+!Żadania do gazeta.hit.gemius.pl/_1587664273127/redot.gif? itp.
+!||static.im-g.pl/static/epo/style/deploy/master/webpack/production/Next/105/pagetype7/main.js.jsgz
+!Z tymi filtrami nie łądują się artykuły na górze strony mobilnej: https://next.gazeta.pl/next/0,0.html
+!gazeta.pl##+js(abort-on-property-write, window.ghmxy_send)
+!gazeta.pl##+js(abort-on-property-write, window.ghmxy_sendview)
+!gazeta.pl##+js(abort-on-property-write, window.ghmxy_scroll_send)
+
+!Komunikat RDDO ciasteczka po wejściu na stronę
+!https://next.gazeta.pl/next/0,0.html
+gazeta.pl##DIV#rodoNotificationWrapper
+
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+!Reklamy między paragrafami w tekście banerami: banC
+next.gazeta.pl##+js(abort-on-property-write, dfpParams)
+
+||gazeta.hit.gemius.pl^
+||p.gazeta.pl^
+
+!Ładowanie kolejnych artykułów przy scrollowaniu w dół
+!https://weekend.gazeta.pl/weekend/1,152121,25843293,pan-jozef-ma-93-lata-i-prowadzi-zaklad-krawiecki-panie-boze.html
+||api.gazeta.pl/related/$xhr
+||contentlive.gazeta.pl/articles/$script
+||contentlive.gazeta.pl/article/$script
+
+!Wideo powiązane pod artykułem
+!https://weekend.gazeta.pl/weekend/1,152121,25856421,zegiestow-zdroj-kiedys-najelegantsze-uzdrowisko-w-polsce-dzis.html
+||video.onnetwork.tv^$domain=weekend.gazeta.pl
+
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+||adv.adview.pl^
+||speedcurve.com^
+
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html
+||static.im-g.pl/info/bluewhale/$domain=gazeta.pl
+!W tym skrypcie są żądania do squid.gazeta.pl/bdtrck/getBdIf? i liquid.agora.pl/bdtrck/getScIf?, poniżej blokowane na wszelki wypadek
+||squid.gazeta.pl^$domain=gazeta.pl
+||liquid.agora.pl^$domain=gazeta.pl
+
+!Nie jestem pewien
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html
+||static.im-g.pl/static/adview/front/master/external-resources/prebid/prebid-cmp.js?
+!Bez tego są żądania do prebid.digitru.st, poniżej blokowane na wszelki wypadek
+||prebid.digitru.st^$domain=gazeta.pl
+
+!Belka na dole z innym artykułem po rozwinięciu artykułu na stronie mobilnej
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, hpNotifications)
+gazeta.pl##A.hp-notification-mobile
+||hp-api.gazeta.pl/hp/v2/notifications/get/?
+
+!Wideo powiązane w treści artykułu na stronie 
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+gazeta.pl##DIV.art_embed:if(SCRIPT[src*="video.onnetwork.tv/"])
+
+!Na stronie mobilnej, aby dało się przewinąć pod wideo
+gazeta.pl##BODY[class*="mobile"] DIV.video_wrapper:style(position: unset !important)
+
+!https://video.onnetwork.tv/frame83.php?mid=Mjc2OTc5LDE2eDksMywwLDAsMzcyOSwxLDAsMSwzNiwwLDAsMiwwLDEsMSwwLDAsMSw0LDAsMCwxLDAsMCwwLDAsLTE7LTE7MjA7MjAsMCw5OSww&preview=0&iid=0&e=1&id=ffEXS8a15fda1b89d73701887c02b8c7c85e81&t_page=wiadomosci_7_173952_25882130_bartosz_arlukowicz_gosciem_porannej_rozmowy_gazeta_pl_html&wtop=https%3A%2F%2Fwiadomosci.gazeta.pl%2Fwiadomosci%2F7%2C173952%2C25882130%2Cbartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html&AGra=-1&vasturl=%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fsz%3D400x300%7C640x480%26iu%3D%2F75224259%2FAGORA-IN%2FWiadomosci%2F090-PREROLL%26cust_params%3Dpos%253D090-PREROLL%2526dx%253D173952%2526jsp%253D23%2526dir%253Dwiadomosci%2526kw%253D%5Bbrandsafe%5D%2526dystrybutor%253D%5Bdistributor_id%5D%2526passback_id%253D%5Bpassback_id%5D%2526domena%253D%5Badview_hostname%5D%2526cb%253D%5Bcb%5D%2526article_id%253D25882130%26url%3D%5Blocationhref%5D%26description_url%3D%5Blocationhref%5D%26impl%3Ds%26gdfp_req%3D1%26env%3Dvp%26output%3Dvast%26unviewed_position_start%3D1%26correlator%3D%5Btimestamp%5D
+!https://video.onnetwork.tv/frame83.php?mid=Mjc2OTc5LDE2eDksMywwLDAsMzcyOSwxLDAsMSwzNiwwLDAsMiwwLDEsMSwwLDAsMSw0LDAsMCwxLDAsMCwwLDAsLTE7LTE7MjA7MjAsMCw5OSww
+||mdn.net^$domain=onnetwork.tv
+||2mdn.net^$domain=onnetwork.tv
+||onnetwork.tv/js/intersection-observer.min.js
+
+!Prawy przycisk myszy nie działa na wideo (element), przez eventlistener w atrybutach
+!<div id="allContainer" class="allContainer noSelect mobile smartphone smta">
+onnetwork.tv##+js(remove-attr.js, oncontextmenu)
+!Prawy przycisk myszy nie działa na odtwarzanym wideo
+onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
+@@||video.onnetwork.tv/adblock_notify.js
+
+||video.onnetwork.tv/vast/vdata.php?
+||cdn.onnetwork.tv/cnt/a_cntm.png?ts=
+||cdn.onnetwork.tv/cnt/a_cnti.png?ts=
+||cdn.onnetwork.tv/cnt/a_cntg.png?ts=
+
+!Link w słowie (PKB) artykułu: Czyli mechaniczne straty przy zamrożeniu gospodarczym to około 1,5 proc. rocznego
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+gazeta.pl##+js(remove-attr.js, href, A.art_link[href*="?tag="])
+
+!Link do powiązanego artykułu w treści: Czyli mechaniczne straty przy zamrożeniu gospodarczym to około 1,5 proc. rocznego
+!Czytaj więcej: Koronawirus. Rząd i NBP wpompują kolejne 100 mld zł do firm. "Nowa tarcza bez precedensu"
+gazeta.pl##P.art_paragraph:if(A.art_link:has-text(/^Czytaj więcej:/))
+
+!Quiz pod artykułem
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+gazeta.pl##SECTION.related_quiz
+
+!Slajdy na górze strony mobilnej, te z autorem MATERIAŁ PROMOCYJNY) usuwane, więc nie ma ich w kropkach pod slajdami
+https://next.gazeta.pl/next/0,0.html
+next.gazeta.pl##DIV.swiper-slide.maintopic__item:if(P.maintopic__authorName:has-text(MATERIAŁ PROMOCYJNY))
+next.gazeta.pl##DIV.swiper-slide.maintopic__item:if(P.maintopic__authorName:has-text(MATERIAŁ PROMOCYJNY)):remove()
+
+!Na stronie głównej wersji mobilnej część tytułów była ucięta
+!https://weekend.gazeta.pl/weekend/0,0.html
+weekend.gazeta.pl##DIV.body > UL > LI[class*="entry article imagesize_"] > DIV.wrap > DIV.title:style(max-height: fit-content !important)
+
+!Powiązane - Czytaj więcej w treści artykułu bez linku
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
+gazeta.pl##SECTION.art_content > P.art_paragraph > B:has-text(Czytaj więcej: )
+
+!Pusty kafelek na stronie głównej 
+!https://www.gazeta.pl/0,0.html
+gazeta.pl##DIV#alternativeNewsSource:if(DIV.adviewDFPBanner)
+
+!Pusty kafelek w sekcji Wiadomości na stronie głównej
+!https://www.gazeta.pl/0,0.html
+gazeta.pl##DIV.o-section__adform
+
+!Przyciski do facebooka i komentarzy
+!https://next.gazeta.pl/next/7,173953,25856858,nowy-jork-ma-swojego-bohatera-walki-z-koronawirusem-a-jak-wypada.html
+gazeta.pl##DIV.socialBar
+
+!The leading solution for adblock revenue recovery
+!https://www.gazeta.pl/0,0.html
+||upapi.net^$domain=gazeta.pl
+
+!Prznoszenie do strony głównej do przewinięciu strony na dół
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
+||wiadomosci.gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
+gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
+
+!Puste miejsce po reklamie
+https://wiadomosci.gazeta.pl/wiadomosci/0,114884.html#TRNavSST
+wiadomosci.gazeta.pl##UL.list_tiles > LI.banEntry
+
+!Strona główna pod galerią ze zdjęciami
+!https://www.gazeta.pl/0,0.html?utm_campaign=amtp_pnHP_gallery&mtpromo=enc02qhrmp2hwrnvt3udraocblesmjkfctyua5icroec2jemrmkt4mgxjmudrqmcblst4mgxboqt2ig2ri
+gazeta.pl##SECTION.mtpromo-gallery ~ SECTION
+gazeta.pl##SECTION.mtpromo-gallery ~ DIV
+gazeta.pl##SECTION.c-main-content:if(SECTION.mtpromo-gallery) ~ SECTION
+gazeta.pl##SECTION.c-main-content:if(SECTION.mtpromo-gallery) ~ DIV
+
+!Strona główna pod zapowiedzią artykułu
+!z linku "teraz na gazeta.pl" po prawej stronie artykułu: https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25891372,kosiniak-kamysz-duda-ma-duzo-latwiej-od-switu-do-nocy-w-telewizji.html#BoxWOpImg1
+!https://www.gazeta.pl/0,0.html?mtpromo=enc02qhrmp2hwrnvt3udraocblescrjdksifjficroec2jemrmkt4mgxjmudrqmcblst4igujoqt2ig2ri&utm_campaign=amtp_pnHP_latest&a=199&c=121
+gazeta.pl##DIV.mtpromo:if(DIV.mtpromo_read_more) ~ SECTION
+gazeta.pl##DIV.mtpromo:if(DIV.mtpromo_read_more) ~ DIV
+gazeta.pl##SECTION.c-main-content:if(DIV.mtpromo:if(DIV.mtpromo_read_more)) ~ SECTION
+gazeta.pl##SECTION.c-main-content:if(DIV.mtpromo:if(DIV.mtpromo_read_more)) ~ DIV
+!
+
+
+!onnetwork.tv##+js(addEventListener-logger.js)
+!||app.link^
+!gazeta.pl##+js(remove-attr.js, href, A.art_link)
+!gazeta.pl##A.art_link[href*="?tag="]
+!gazeta.pl##A.art_link:has-text( )
+
+
+
+!||onnetwork.tv^
+!gazeta.pl##+js(addEventListener-logger.js)
+!gazeta.pl##+js(addEventListener-defuser.js, /^/)
+!gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, QuizRelated.init())
+
+!||static.im-g.pl/static/epo/style/deploy/master/webpack/production/Next/105/pagetype7/main.js.jsgz
+
+
+!gazeta.pl##+js(set-constant, ONTVminiatureBlocked, trueFunc)
+!gazeta.pl#@#+js(set-constant, ONTVminiatureBlocked, trueFunc)
+!gazeta.pl#@#+js(remove-attr, href, .external_link)
+
+
+
+
+
+
+!
