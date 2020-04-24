@@ -27,10 +27,6 @@ gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, addUrlToClipboard)
 !Jeżeli nie jest zablokowany skrypt rodo.agora.pl/agreement/check?gid=1&params= i zablokowane są addEventListener to dodawany jest styl style="overflow-y: hidden;" blokujący scrollowanie
 !https://weekend.gazeta.pl/weekend/1,152121,25843293,pan-jozef-ma-93-lata-i-prowadzi-zaklad-krawiecki-panie-boze.html
 gazeta.pl##HTML:style(overflow-y: unset !important)
-||doubleclick.net^
-||facebook.com^
-||googletagmanager.com^
-||google-analytics.com^
 ||static.im-g.pl/static/rodo-consent-box/master/production/cmp.bundle.jsgz?
 
 !Na wersji mobilnej tytuł, autor i lead nie był wyśrodkowany
