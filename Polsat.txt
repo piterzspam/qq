@@ -180,3 +180,13 @@ polsatnews.pl##DIV.app-ad
 !https://tygodnik.polsatnews.pl/news/2020-04-17/pis-czyli-pandemiczny-brak-empatii/
 ||tygodnik.polsatnews.pl/templates/tygodnik/build/gfx/share/
 tygodnik.polsatnews.pl##DIV.article__share
+
+!Pasy z pomarańczową czcionką i linkiem do artykułu w treści
+!https://tygodnik.polsatnews.pl/news/2020-04-24/praworzadnosc-na-oltarzu/
+tygodnik.polsatnews.pl##SPAN.article__more
+
+
+
+
+
+!
