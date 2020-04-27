@@ -1,109 +1,190 @@
 ! Title: Onet.pl
 ! Expires: 1 day
-.pl/_cdf/client.js|$script,first-party
-/(auto-swiat|businessinsider\.com|fakt|forbes|komputerswiat|newsweek|noizz|onet|przegladsportowy|skapiec)\.pl\/([0-9a-zA-Z]|_){43}/$image,script,xmlhttprequest,first-party
-@@||connect.facebook.net/*/sdk.js$domain=businessinsider.com.pl
-@@||connect.facebook.net/*_*/sdk.js$domain=noizz.pl|businessinsider.com.pl
-@@||facebook.com/plugins/comments.php$domain=businessinsider.com.pl
-@@||facebook.com/plugins/feedback.php$domain=businessinsider.com.pl
-@@||media.onet.pl/_ms/
-@@||ocdn.eu/*/advertising.js
-@@||ocdn.eu/*/uststd.js
-@@||ocdn.eu/*/widget.js
-@@||qi.ckm.onetapi.pl^
-@@||sgqcvfjvr.onet.pl^
-@@||staticxx.facebook.com/connect/xd_arbiter$domain=businessinsider.com.pl
-auto-swiat.pl##DIV#facebook_slider_widget
-auto-swiat.pl##DIV.o_playListEmbedWrapper
-auto-swiat.pl##DIV.rightBox:if(BUTTON.formToolsNoActive)
-businessinsider.com.pl##DIV#detail > H3:has-text(WARTO WIEDZIEĆ:)
-businessinsider.com.pl##DIV#detail > P:if(STRONG:has-text(Zobacz też:))
-businessinsider.com.pl##DIV.KonaBody.post-content > DIV#detail > DIV.embeddedApp:if(DIV.pulsembed_embed.mvp-embed-wrapper)
-businessinsider.com.pl##DIV.related-links
-businessinsider.com.pl##UL.rrssb-buttons > LI:if-not(A[href*="newsletter.businessinsider.com.pl"])
-fakt.pl##DIV.Block-Banner
-fakt.pl##UL.shareWidget
-forbes.pl##DIV.promoFrame
-forbes.pl##P.hyphenate:has-text(/(Czytaj też|Zobacz):/)
-komputerswiat.pl##A[href$="komputerswiat.pl/kody-rabatowe"]
-komputerswiat.pl##DIV[style="width: 600px; height: 400px; margin: 20px auto;"]
-komputerswiat.pl##P.intext:has-text(/(Przeczytaj|Zobacz) także/)
-newsweek.pl##DIV#ARTICLE_CONTENT_INNER_AD
-newsweek.pl##P:has-text(Czytaj też:)
-newsweek.pl##UL[class*="social_article_id_"] > LI:if-not(A[href^="#article_forum_"])
-noizz.pl##DIV.contentShare
-noizz.pl##DIV.intext-ads-container
-noizz.pl##DIV.loading-indicator
-noizz.pl##DIV.promoFrameContainer
-noizz.pl##DIV.seeAlso
-noizz.pl##DIV.whitelistPremium > DIV.embeddedApp:if(DIV.pulsembed_embed.mvp-embed-wrapper)
-noizz.pl##P.hyphenate:has-text(ZOBACZ TAKŻE:)
-onet.pl##A.BackToMainPage
-onet.pl##A.fb_share
-onet.pl##DIV.article_seeAlso
-onet.pl##DIV.autopromoapp
-onet.pl##DIV.box2
-onet.pl##DIV.streamNews
-onet.pl##LI.sidebarItem:has-text(Obserwuj nas)
-onet.pl##P.hyphenate + DIV.pulsembed_embed.mvp-embed-wrapper
-onet.tv##DIV.mvp-beam-social-buttons
-onet.tv##script:inject(abort-on-property-write.js, onetAds)
-pl##A.fb_share[href="javascript:void(0);"][data-run-module="embeddedapp/main.sharethis_facebook"]:last-child
-pl##BODY > DIV#cookies[style="display: none;"]:first-child
-pl##DIV#content-share-top.fb_share.fadeOutTop[data-run-module="local/main.desktopSharerBox"]:first-child:last-child
-pl##DIV.onet_ustPlugin_addthis:first-child:last-child
-przegladsportowy.pl##DIV.whitelistPremium > DIV[class] > P + DIV.pulsembed_embed.mvp-embed-wrapper
-przegladsportowy.pl##DIV.whitelistPremium > DIV[class] > P + DIV.pulsembed_embed.mvp-embed-wrapper
-przegladsportowy.pl##LI.socialButton:if-not(A[href="#forum"])
-przegladsportowy.pl##P:has-text(>> Czytaj także)
-vod.pl##DIV#o_shareOnSocialMedia
-vod.pl##DIV.v_shortShare
-||appspot.com/a.gif
-||auto-swiat.pl/_cdf/api?offset=
-||businessinsider.com.pl/*/get_recomm?
-||chartbeat.com^
-||contentinsights.com^
-||converti.se^
-||cookies.fakt.pl^
-||cookies.komputerswiat.pl^
-||cookies.newsweek.pl^
-||creativecdn.com^
+
+!Na wszelki wypadek
+@@||onet.pl^$ghide
+
+!!Na wszelki wypadek
+!https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+@@||pulsembed.eu^$ghide
+
+||googletagservices.com^$domain=onet.pl
+||sgqcvfjvr.onet.pl^$domain=onet.pl
+||events.ocdn.eu^$domain=onet.pl
+||k266d5zsl.onet.pl^$domain=onet.pl
+
+!Pewnie jakiś komunikat o aplikacji na mobilnej wersji strony
+!https://play.google.com/store/apps/details?id=pl.onet.onethd
+||onet.pl/mobile/manifest.json
+
+!Strona główna pod zapowiedzią artykułu - User Agent Firefox Windows
+!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=31971d2a-54c9-4ccd-b0da-ee5b9d4ad0e6&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+onet.pl##BODY#pageMainContainer:style(min-height: unset !important)
+onet.pl##BODY#pageMainContainer:if(DIV.showMore) DIV#mainPageBody0Wrapper + SCRIPT + DIV.phxWidget ~ DIV
+
+!Strona główna pod zapowiedzią artykułu - User Agent Firefox Android
+https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=31971d2a-54c9-4ccd-b0da-ee5b9d4ad0e6&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+onet.pl##SECTION.mainSection > DIV.nitroBlock:if(DIV.showMoreButton) ~ DIV
 ||csr.onet.pl^
-||cxense.com^
+
+Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowiedzią artykułu - User Agent Firefox Android telefon
+https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=31971d2a-54c9-4ccd-b0da-ee5b9d4ad0e6&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+onet.pl##DIV.nitroShare
+
+!https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
 ||events.ocdn.eu^
-||ewydania.newsweek.pl/*/Paywall
-||fakt.pl/*/*?ajax=1|$xmlhttprequest
-||forbes.pl/pwa-sw.js
-||instagram.com/static/bundles/*_*_EmbedPostlude.js
-||k266d5zsl.onet.pl^
-||komputerswiat.pl/*/kody-rabatowe-komputer-swiat-plus-banner.jpg
-||komputerswiat.pl/gamezilla
-||kropka.onet.pl^
-||literia.pl^$domain=przegladsportowy.pl
-||lp4.io^
-||media.onet.pl/_ms/
-||newsweek.pl/*.html?asyncArticle=true$xmlhttprequest
-||newsweek.pl/*/commonScriptArticle.js
-||ocdn.eu/*/lpsAds.js
-||ocdn.eu/*/ucla.js
-||ocdn.eu/*/uststd.js
-||ocdn.eu/*/widget.js
-||ocdn.eu/*/workbox-google-analytics
-||ocdn.eu/*/workbox-sw
-||ocdn.eu/*/xgemius.js
-||onet.pl/*/cookieInfo
-||onet.pl/*/get_recomm?lu=
-||onet.pl/_cdf/api?offset=
-||onet.pl/eclk
-||onet.pl/s.csr/float/
-||onet.tv/_a/dlist.html
-||page-view-ingestion.appspot.com^
-||persstream.onet.pl^
-||przeswietl.pl/widget/forbes
-||pulsembed.eu^$domain=www.onet.pl
-||pushwoosh.com^
-||qi.ckm.onetapi.pl^
-||rackcdn.com^
-||sociaplus.com^
-||time.akamai.com^$domain=onet.tv
-||ty0lm9uz.onet.pl/*/init.js
+||k266d5zsl.onet.pl^$domain=pulsembed.eu
+||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
+@@||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
+!Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
+||2mdn.net^$domain=pulsembed.eu,important
+!Powiązane wideo, które automatycznie się odtwarzają po końcu pierwszego
+||player-api.dreamlab.pl/?body%5Bmethod%5D=channel_related_search&$xhr,domain=pulsembed.eu
+||authorisation.grupaonet.pl^
+!GDPR w treści
+||ocdn.eu/aops/plansza/css/onetras.css
+||events.onet.pl^
+@@||ocdn.eu/video-apps/flowplayer/*/dist/flowplayer.min.js$domain=pulsembed.eu
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/ads.min.js$domain=pulsembed.eu
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/analytics.min.js$domain=pulsembed.eu
+||ocdn.eu/video-scripts/flow-player-plugin-stats/*/bundle-$domain=pulsembed.eu
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/message.min.js$domain=pulsembed.eu
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+||pmi.flowplayer.com^$domain=pulsembed.eu
+||onet.pl^$script,first-party
+||onet.pl^$image,first-party
+||onet.pl^$xhr,first-party
+!@@||onet.pl/?ajax=*&page=*$xhr,first-party
+!@@||onet.pl/politico?ajax=1&page=1
+@@||onet.pl/*?ajax=*&page=*$xhr,first-party
+||pulsembed.eu^$xhr,first-party
+||pulsembed.eu^$script,first-party
+||pulsembed.eu^$image,first-party
+!Puste miejsce pod artykułem
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.streamNews
+!Sekcja Masz ciekawy temat? Napisz do nas list! pod artykułem
+onet.pl##SECTION.OpenDiscussionBox
+!Przyciski społecznościowe po lewej stronie od wideo 
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.contentShareLeft
+!Przyciski społecznościowe pod tytułem
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.social-container
+!Puste miejsce po reklamie po prawej stronie
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##ASIDE.extraListTop.extraList
+!Szare pole "Zobacz także" z linkami w treści artykułu
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.articleBody > DIV.frameWrap
+!Żółte kropki z linkami artykułu w treści
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.articleBody > UL[data-scroll="bullet"]
+!Ostatnie wideo pod artykułem nie związane z tematem
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+!onet.pl##DIV.articleBody > P.hyphenate:last-of-type + DIV.embeddedApp:last-child
+onet.pl##DIV.articleBody > DIV.embeddedApp:last-child
+!Ostatnie wideo pod artykułem nie związane z tematem - User Agent Firefox Android telefon
+!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+!onet.pl##DIV.detail > P[data-scroll="paragraph"]:last-of-type + DIV.embedded-app:last-child
+onet.pl##DIV.detail > DIV.embedded-app:last-child
+!Szare pole "Zobacz także" z linkami w treści artykułu - User Agent Firefox Android telefon
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.detail > DIV.promoFrame
+!Żółte kropki z linkami artykułu w treści - User Agent Firefox Android telefon
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.detail > UL:if(LI > A[href*="onet.pl/"])
+!Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
+!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=1be18c53-28b4-44ea-b13c-49569e791132&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+onet.pl##NAV.bottomBarNavigations
+!Na mobilnej stronie głównej przyciski do udostępnienia na miniaturach
+!https://www.onet.pl/#
+onet.pl##SPAN.shareButton
+
+
+
+!Puste małe miejsce po reklamie przed zdaniem Wydaje się, że po obu stronach mamy pewne symboliczne, ale jednak istotne pierwiosnki gotowości do poszukiwania kompromisu
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.onet-ad
+!onet.pl#@#DIV.onet-ad
+!onet.pl##DIV.onet-ad:style(display: none !important)
+
+
+
+!||cmp.dreamlab.pl/1746213/vendors.json?v=3
+
+
+!onet.pl##+js(addEventListener-defuser.js, click)
+!ocdn.eu##+js(addEventListener-defuser.js, click)
+
+!onet.pl##+js(abort-current-inline-script.js, window.pageYOffset, menuSwitch)
+!onet.pl##+js(abort-current-inline-script.js, createFilterMaxTimeEvent)
+!onet.pl##+js(abort-on-property-read.js, window.pageYOffset)
+!onet.pl##+js(abort-on-property-write.js, window.pageYOffset)
+ 
+!onet.pl##+js(abort-current-inline-script.js, ziemniak)
+!onet.pl##+js(abort-on-property-read.js, ziemniak)
+!onet.pl##+js(abort-on-property-write.js, ziemniak)
+!onet.pl##+js(abort-current-inline-script.js, !window.MutationObserver)
+!onet.pl##+js(abort-on-property-read.js, !window.MutationObserver)
+!onet.pl##+js(abort-on-property-write.js, !window.MutationObserver)
+!onet.pl##+js(addEventListener-defuser.js, /^/)
+!onet.pl##+js(abort-current-inline-script.js, window.MutationObserver, switch)
+!onet.pl##+js(abort-on-property-read.js, window.MutationObserver, switch)
+!onet.pl##+js(abort-on-property-write.js, window.MutationObserver, switch)
+!onet.pl##+js(abort-current-inline-script.js, menuSwitch)
+!onet.pl##+js(abort-on-property-read.js, menuSwitch)
+!onet.pl##+js(abort-on-property-write.js, menuSwitch)
+
+!||onet.pl/newslivestream$xhr
+
+!Puste miejsce po reklamie pod zobacz rózwnież pod artykułem - User Agent Firefox Windows
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV#googleAdsCont
+onet.pl#@#DIV#googleAdsCont
+
+
+!Puste miejsce po reklamie w prawej kolumnie na dole - User Agent Firefox Windows
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV#extraAdsBlock
+
+
+!||ocdn.eu^$font
+!||onet.pl^$inline-script
+
+
+
+!onet.pl##+js(addEventListener-defuser.js, /^/)
+!onet.pl,ocdn.eu##+js(addEventListener-defuser.js, scroll)
+!onet.pl##+js(addEventListener-defuser.js, scroll, window.event)
+!onet.pl##+js(addEventListener-defuser.js, scroll, o)
+onet.pl##+js(addEventListener-logger.js)
+
+
+!||ocdn.eu/phx/_next/static/*/pages/loader.js
+!||ocdn.eu/phx/_next/static/*/pages/_app.js
+!||ocdn.eu/phx/_next/static/runtime/webpack-*.js
+!||ocdn.eu/phx/_next/static/chunks/commons.*.js
+!||ocdn.eu/phx/_next/static/runtime/main-*.js
+!||ocdn.eu/ucs/static/*/*/build/js/mobilemain.js
+!||ocdn.eu/paas-static/template-engine/*/build/main.js
+!||ocdn.eu/paas-static/template-engine/*/build/uststd.js
+!||ocdn.eu/paas-static/template-engine/*/build/controls.js
+!||ocdn.eu/phx/_next/static/css/commons.*.chunk.css
+!||ocdn.eu/ucs/static/*/*/build/css/onet_mobile.css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!
