@@ -149,6 +149,10 @@ onet.pl#@#DIV#googleAdsCont
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
 onet.pl##DIV#extraAdsBlock
 
+!Paragrafy, gdzie po długości oceniam, że są tylko linki do innych tekstów, bez treści
+!https://wiadomosci.onet.pl/kraj/kamil-zaradkiewicz-sylwetka-tymczasowego-przewodniczacego-sadu-najwyzszego/5c0w15x?utm_source=wiadomosci.onet.pl_viasg_wiadomosci_viasg&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##DIV.detail > P[data-puuid][data-scroll="paragraph"]:has-text(/^[\s\S]{0,105}$/):if(A)
+
 
 !||ocdn.eu^$font
 !||onet.pl^$inline-script
