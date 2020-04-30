@@ -114,17 +114,44 @@ rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Czytaj też:)
 rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Czytaj też:) + P:if(EM > STRONG > A[href])
 rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Czytaj też:) + P + P:if(EM > STRONG > A[href])
 !https://www.rp.pl/Analizy/200329156-Jacek-Nizinkiewicz-Kanibalizm-opozycji-na-zyczenie-PiS.html
-rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(Zobacz wyniki sondażu: ):if(STRONG > A[href] > EM)
+rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:has-text(/Zobacz wyniki sondażu: |Dowiedz się więcej: /):if(STRONG > A[href] > EM)
+
+||onthe.io^$domain=rp.pl
+||cdn.rp.pl/rodo-agreement-app
+
+!Wysłane żądanie z danym skąd przyszedł internauta
+!https://www.rp.pl/Opinie/304309946-Wojciech-Tumidalski-Nadchodzi-komisarz-Zaradkiewicz.html
+!rp.pl/apps/sc.dll/RP/NoChannelID/NoReferrerID/story/20200430/PCD/304309946?sn=google&sp=nadchodzi+komisarz+zaradkiewicz&hr=0$image
+!W Waterfoxie bez JS
+!rp.pl/apps/Sc.dll/RP/NoJS/NoJS/story/20200430/PCD/304309946?nojs=1$image
+||rp.pl/apps/sc.dll/
+!GDPR w treści
+!https://www.rp.pl/Opinie/304309946-Wojciech-Tumidalski-Nadchodzi-komisarz-Zaradkiewicz.html
+||cdn.rp.pl/cmp/cmp.min.js
+
+!paragraph3 zawiera też tekst Ich stan był na tyle poważny, że trafili na oddział intensywnej terapii – mówi dyrektor WIM gen. Grzegorz Gielerak. oprócz linków po Czytaj też:
+!https://www.rp.pl/Zdrowie/200429893-Prywatne-szpitale-dezerteruja-z-frontu-walki-z-epidemia.html
+
+!Link do powiązanego artykułu w treści
+!https://www.rp.pl/Opinie/304309946-Wojciech-Tumidalski-Nadchodzi-komisarz-Zaradkiewicz.html
+rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:if(A[href] > EM > STRONG)
+!Zobacz też pogrubionym tekstem
+!https://www.rp.pl/Opinie/304309946-Wojciech-Tumidalski-Nadchodzi-komisarz-Zaradkiewicz.html
+rp.pl##DIV.article__content > DIV[id^="paragraph"] > P:if(EM > STRONG:has-text(Czytaj także:))
+!Skrypty z eval i obrazki 1x1
+!https://www.rp.pl/Opinie/304309946-Wojciech-Tumidalski-Nadchodzi-komisarz-Zaradkiewicz.html
+!https://www.rp.pl/_Incapsula_Resource?SWKMTFSR=1&e=0.327490032992207$image
+!https://www.rp.pl/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1072798576$script
+rp.pl##+js(noeval)
+||rp.pl/_Incapsula_Resource?
+!Najprawdopodobiej skrypt zbierjający dane o referrerze, np. Google, Bing itd.
+||rp.pl/apps/js/sc.js
+
 
 !Galera
 !https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
 !https://www.rp.pl/Rzecz-o-historii/309199936-Polska-wojna-prewencyjna.html
 
-!onet.pl##+js(addEventListener-logger)
-!onet.pl##+js(addEventListener-defuser, /^/)
-!onet.pl##+js(addEventListener-defuser, scroll)
-!onet.pl##+js(addEventListener-defuser, ziemniak1)
-!onet.pl##+js(addEventListener-defuser, ziemniak1, ziemniak2)
 
 
 !
