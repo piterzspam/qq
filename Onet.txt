@@ -153,6 +153,16 @@ onet.pl##DIV#extraAdsBlock
 !https://wiadomosci.onet.pl/kraj/kamil-zaradkiewicz-sylwetka-tymczasowego-przewodniczacego-sadu-najwyzszego/5c0w15x?utm_source=wiadomosci.onet.pl_viasg_wiadomosci_viasg&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
 onet.pl##DIV.detail > P[data-puuid][data-scroll="paragraph"]:has-text(/^[\s\S]{0,105}$/):if(A)
 
+!Ostanie wideow treści artykułu niezwiązane z tematem
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-analiza-konwencji-dudy-andrzeja-stankiewicza/9cmhy5c
+onet.pl##DIV.articleBody > DIV.embeddedApp:last-of-type
+
+!Wideo na temat onet -> pulsembed.eu
+!https://wiadomosci.onet.pl/tylko-w-onecie/susza-w-polsce-prof-karaczun-ostrzega-moze-nas-czekac-wojna-o-wode/rwwbwzm
+!Wideo na temat onet -> pulsembed.eu -> onet.tv
+!https://kobieta.onet.pl/salatka-cytrusowa-oraz-koktajl-gruszkowy-z-maca-wg-przepisu-ani-starmach/ntj1z64
+!Wideo nie na temat onet -> pulsembed.eu
+!https://wiadomos
 
 !||ocdn.eu^$font
 !||onet.pl^$inline-script
@@ -163,7 +173,7 @@ onet.pl##DIV.detail > P[data-puuid][data-scroll="paragraph"]:has-text(/^[\s\S]{0
 !onet.pl,ocdn.eu##+js(addEventListener-defuser.js, scroll)
 !onet.pl##+js(addEventListener-defuser.js, scroll, window.event)
 !onet.pl##+js(addEventListener-defuser.js, scroll, o)
-onet.pl##+js(addEventListener-logger.js)
+!onet.pl##+js(addEventListener-logger.js)
 
 
 !||ocdn.eu/phx/_next/static/*/pages/loader.js
