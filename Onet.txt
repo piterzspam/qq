@@ -162,7 +162,9 @@ onet.pl##DIV.articleBody > DIV.embeddedApp:last-of-type
 !Wideo na temat onet -> pulsembed.eu -> onet.tv
 !https://kobieta.onet.pl/salatka-cytrusowa-oraz-koktajl-gruszkowy-z-maca-wg-przepisu-ani-starmach/ntj1z64
 !Wideo nie na temat onet -> pulsembed.eu
-!!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-analiza-konwencji-dudy-andrzeja-stankiewicza/9cmhy5c
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-analiza-konwencji-dudy-andrzeja-stankiewicza/9cmhy5c
+!Krótki paragraf - mało znaków z linkiem - Czytaj więcej w "Rzeczpospolitej", PAP
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-2020-partia-porozumienie-opusci-rzad/1yv4mr7
 
 
 !||ocdn.eu^$font
