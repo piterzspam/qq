@@ -202,3 +202,5 @@ forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
 !https://forsal.pl/gospodarka/prawo/artykuly/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html
 !Tu jest wideo
 !https://wiadomosci.dziennik.pl/polityka/artykuly/6483083,wybory-prezydenckie-koronawirus-glosowanie-korespondencyjne-pkw-glosowanie-organizacja-termin-wyborow-pis-karty-do-glosowania.html#icwcv=15
+!Tu jest ramka z wideo z media.polsatnews.pl
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1472749,wybory-prezydenckie-pakiety-wyborcze-poczta-termin-majowy-stan-przedzawalowy.html
