@@ -147,6 +147,9 @@ rp.pl##+js(noeval)
 !Najprawdopodobiej skrypt zbierjający dane o referrerze, np. Google, Bing itd.
 ||rp.pl/apps/js/sc.js
 
+!Filtr: rp.pl##.col-xs-12 > .section__title z POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda blokuje pasek na górze strony ze ścieżką do artykułu
+!https://www.rp.pl/Kataryna#!page/2020-03-12
+rp.pl#@#.col-xs-12 > .section__title
 
 !Galera
 !https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
