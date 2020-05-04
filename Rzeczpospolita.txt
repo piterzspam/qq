@@ -151,6 +151,14 @@ rp.pl##+js(noeval)
 !https://www.rp.pl/Kataryna#!page/2020-03-12
 rp.pl#@#.col-xs-12 > .section__title
 
+!Przycisk na górze po prawej w ramce z wykresem
+!https://www.rp.pl/Porozumienie/200509994-Sondaz-Niemal-co-trzeci-Polak-uwaza-ze-Porozumienie-opusci-rzad.html
+!https://e.infogram.com/64b95394-9053-45a1-95d7-dcae7a737860?src=embed
+e.infogram.com##BUTTON[aria-label="Share infographic"]
+!Stopka na dole ramki z przyciskiem udostępniania
+!https://www.rp.pl/Porozumienie/200509994-Sondaz-Niemal-co-trzeci-Polak-uwaza-ze-Porozumienie-opusci-rzad.html
+e.infogram.com##DIV#footer
+
 !Galera
 !https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
 !https://www.rp.pl/Rzecz-o-historii/309199936-Polska-wojna-prewencyjna.html
