@@ -1,11 +1,11 @@
 ! Title: Super Express
 ! Expires: 1 day
 
-!Pole z npaisem "Polecany artykuł:" w teści artykułu
+!Pole z napisem "Polecany artykuł:" w teści artykułu
 !https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
 se.pl##ARTICLE > DIV.gl_plugin.recommendedArticle
 
-!Pole z npaisem "Polecany artykuł:" w teści artykułu
+!Pole z napisem "Polecany artykuł:" w teści artykułu
 !https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
 se.pl##ARTICLE > DIV.gl_plugin.socials:has-text(Czytaj Super Express bez wychodzenia z domu)
 
@@ -126,12 +126,15 @@ se.pl##ARTICLE > P > STRONG > A[href*="se.pl/"][target="_blank"]
 
 !Skrypty z reklamami, strona desktopowa zamiast gwiazdki ma desktop, mobilna mobile
 !https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
-||se.pl/media/*/zpr_layouts_web/js/ads.js?
 ||se.pl/media/*/zpr_ads_web/js/lazy_load.js?
 ||se.pl/media/*/js/article_ads_inserter_with_shopping.js?
 ||se.pl/media/*/js/subsequent_article_ads_inserter.js?
 ||se.pl/media/*/zpr_recommendations_web/js/recommended_products_in_article.js?
 ||se.pl/media/*/zpr_layouts_web/js/stylebook.js?
+!Tu jest tylko jedna zmienna, więc może anty-adblock
+||se.pl/media/*/zpr_layouts_web/js/ads.js?
+@@||se.pl/media/*/zpr_layouts_web/js/ads.js?
+
 
 !Pewnie komunikat o ciastkach
 ||cdn.galleries.smcloud.net/t/media/cookie_info.js
