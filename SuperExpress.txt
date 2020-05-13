@@ -1,0 +1,149 @@
+! Title: Super Express
+! Expires: 1 day
+
+!Pole z npaisem "Polecany artykuł:" w teści artykułu
+!https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
+se.pl##ARTICLE > DIV.gl_plugin.recommendedArticle
+
+!Pole z npaisem "Polecany artykuł:" w teści artykułu
+!https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
+se.pl##ARTICLE > DIV.gl_plugin.socials:has-text(Czytaj Super Express bez wychodzenia z domu)
+
+!Paragraf pod artykułem "Czytaj Super Express bez wychodzenia z domu. Kup bezpiecznie Super Express KLIKNIJ tutaj"
+!https://www.se.pl/radom/jastrzebia-profesjonalna-plantacja-marihuany-zlikwidowana-policjanci-zabezpieczyli-140-krzakow-aa-EPXV-gwW9-Vrt3.html
+!se.pl##ARTICLE > P:last-of-type ~ DIV.gl_plugin.socials
+!Ramka z mapą pod artykułem, więc usuwanie, żeby nie zjadało internetu, nie wiem, czy to coś daje
+!https://www.se.pl/radom/koronawirus-w-radomiu-pracownik-magistratu-zakazony-aa-LC71-217K-WvR2.html
+||google.com/maps/d/embed?mid=1FVe-sZM-mRrWd2IjN-xbVDDKgs00oqgR
+!se.pl##ARTICLE > P:last-of-type ~ DIV.gl_plugin.socials:remove()
+
+!Galeria pod tekstem artykułu nie związana z nim
+!https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
+!se.pl##ARTICLE > P:last-of-type ~ DIV.gl_plugin.galleries
+
+!Wideo pod tekstem artykułu nie związane z nim
+!https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
+!Bez usunięcia po schowaniu odtwarzacz pobiera ciągle dane
+!se.pl##ARTICLE > P:last-of-type ~ DIV.gl_plugin.player
+!se.pl##ARTICLE > P:last-of-type ~ DIV.gl_plugin.player:remove()
+!False positive:
+!https://www.se.pl/wiadomosci/polityka/prof-chmaj-andrzejowi-dudzie-nie-wolno-wydluzyc-kadencji-aa-5NFi-Sr15-6CcX.html
+
+!Paragrafy z linkami do innych artykułów i tekstem zachęcającym 
+!https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
+!se.pl##ARTICLE > P:if(STRONG:has-text(/Czytaj też:|PRZECZYTAJ:||ZOBACZ:/) + A[href])
+!Paragraf z linkiem i tekstem zachęcającym pod artykułem
+!https://www.se.pl/radom/koronawirus-w-radomiu-pracownik-magistratu-zakazony-aa-LC71-217K-WvR2.html
+!https://superbiz.se.pl/technologie/najlepszy-zestaw-mikrofonow-do-streamingu-fitness-marka-samson-ma-propozycje-aa-7KeZ-qTLm-PEFz.html
+!https://superbiz.se.pl/wiadomosci/nowe-500-plus-zmiana-wysokosci-wyplat-jakie-terminy-jak-zlozyc-wniosek-aa-rTZr-Hhnj-Y4Pr.html
+!se.pl##ARTICLE > P:if(STRONG:has-text(/Czytaj też:|CZYTAJ TEŻ:|PRZECZYTAJ KONIECZNIE:|SPRAWDŹ TAKŻE:|ZOBACZ TEŻ:|ZOBACZ TAKŻE:/) > A[href])
+!Dwa powyższe filtry zmienione w jeden, link do regexa: https://regex101.com/r/nxLyhS/1
+!https://superbiz.se.pl/wiadomosci/juz-niedlugo-nie-kupisz-tych-papierosow-mentole-znikaja-ze-sklepow-aa-4FjR-dGmi-7y5y.html
+!https://www.se.pl/wiadomosci/polityka/kampania-pelna-klata-kandydat-na-prezydenta-krzysztof-bosak-zabral-zone-na-duzo-zdjec-aa-k1ZD-L1mc-3kc9.html
+!https://www.se.pl/auto/nowosci/po-kilku-latach-detoksu-znowu-wsiadl-za-kolko-pijany-rozbite-bmw-porzucil-w-rowie-i-uciekl-aa-UctA-zLfK-QKSy.html
+!https://www.se.pl/slask/fala-zakazen-na-slasku-czy-zamkna-granice-wojewodztwa-koronawirus-w-polsce-relacja-na-zywo-aa-citx-RfFK-73wX.html
+se.pl##ARTICLE > P:if(A[href]):if(STRONG:has-text(/(Czytaj|Przeczytaj|Sprawdź|Zobacz)( (dalej|koniecznie|również|także|też))?:/i))
+
+!https://www.se.pl/wiadomosci/polityka/agata-duda-musi-zmienic-fryzure-wszystko-dlatego-ze-aa-xe6S-YRrT-TyDj.html
+se.pl##ARTICLE > P:has-text(/Zobacz:/i):if(A[href])
+
+!Paragraf zwykłą czcionką z linkiem do sklepu
+!https://www.se.pl/wiadomosci/polityka/igor-zalewski-bez-bohaterow-aa-ArBE-S9LB-BsyU.html
+!https://www.se.pl/wiadomosci/polityka/agata-duda-musi-zmienic-fryzure-wszystko-dlatego-ze-aa-xe6S-YRrT-TyDj.html
+!https://www.se.pl/wiadomosci/polityka/mordercy-z-sadu-najwyzszego-tadeusz-pluzanski-dla-czytelnikow-super-expressu-aa-7KRm-M1Uk-aZQD.html
+se.pl##ARTICLE > P:has-text(Czytaj Super Express bez wychodzenia z domu):if(A[href])
+
+!https://superseriale.se.pl/klan/darek-z-klanu-przejrzal-dude-odslonil-prawde-o-prezydencie-ak-xZX7-k3Cm-XwXG.html
+se.pl##ARTICLE > P:has-text(Czytaj "Super Express" bez wychodzenia z domu):if(A[href])
+
+!Paragraf Czytaj Super Express bez wychodzenia z domu. na końcu artykułu
+!https://www.se.pl/wroclaw/strzelanina-w-legnicy-na-miejscu-antyterrorysci-sprawca-postrzelil-kobiete-aa-YSVF-usq9-KyFT.html
+se.pl##ARTICLE > H2:has-text(Czytaj Super Express bez wychodzenia z domu):if(A[href])
+
+!Usuwanie zdjęcia w galerii po ostatnim, tamto zdjęcie prowadzi do galeii powiązanej i można z rozpędu kliknąć strzałkę w prawo aby do niej przejść
+!https://www.se.pl/wiadomosci/galeria/krzysztof-bosak-z-rodzina-nad-swidrem/gg-ks1i-ySV2-kKUS/gp-MvGj-7Mwq-jt8K
+se.pl##DIV.gallery_photos > UL > LI.display-flex[data-recommendedgallery="true"]:remove()
+
+!Proponowany link pod artykułem na pomarańczowym polu, po lewo od tagów 
+!https://www.se.pl/gorzow/gorzow-po-ogorki-i-jajka-nocna-pora-dlaczego-nie-aa-2f9n-FZiE-d9jT.html
+se.pl##DIV.recommended-content
+
+!Ankieta pod artykułem:
+!https://www.se.pl/radom/koronawirus-w-radomiu-pracownik-magistratu-zakazony-aa-LC71-217K-WvR2.html
+||se.pl/media/desktop/css/quizzes_
+||se.pl/quizzes/
+!Oba te filtry zablokują wywołanie funkcji load_quiz(repeat) wysyłającej żądania zawartej w kodzie strony
+se.pl##+js(abort-on-property-read.js, load_quiz)
+se.pl##+js(abort-on-property-write.js, load_quiz)
+
+!Puste szare miejsca po reklamach na dole strony
+!https://www.se.pl/radom/koronawirus-w-radomiu-pracownik-magistratu-zakazony-aa-LC71-217K-WvR2.html
+se.pl##DIV.placement__lazy
+
+!Blokowanie ładowania kolejnych artykułów przy przewijaniu w dół
+!https://www.se.pl/wiadomosci/polityka/kaczynski-bez-maseczki-w-tvp-wspomina-walese-blokowal-lustracje-i-dekomunizacje-aa-jdSb-spt9-7bux.html
+se.pl##+js(addEventListener-defuser.js, scroll, triggerArticleLoad)
+
+!Linki w treści artykułu
+!https://www.se.pl/warszawa/trwaja-wiosenne-porzadki-na-drogach-drogowcy-poprawiaja-malowanie-ulic-aa-sCYH-m6Xm-1rkn.html
+se.pl##ARTICLE > P > STRONG > A[href*="se.pl/"][target="_blank"]
+
+
+!Artykuł z wideo:
+!https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
+!Artykuł z galerią zdjęć:
+!https://www.se.pl/wiadomosci/polityka/kampania-pelna-klata-kandydat-na-prezydenta-krzysztof-bosak-zabral-zone-na-duzo-zdjec-aa-k1ZD-L1mc-3kc9.html
+!Link w artykule na temat (Zapraszamy do śledzenia relacji na żywo, gdzie znajdziecie najnowsze informacje o koronawirusie w Polsce i na świecie.):
+!https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
+!Galera w tekście na temat:
+!https://www.se.pl/wiadomosci/polityka/tylko-u-nas-tak-wygladalo-wesele-bosaka-goscie-bawili-sie-do-bialego-rana-aa-JQiM-8UkW-5EzG.html
+!Ankieta pod artykułem (ukryta):
+!https://www.se.pl/radom/koronawirus-w-radomiu-pracownik-magistratu-zakazony-aa-LC71-217K-WvR2.html
+!False positive - galeria pod tekstem była na temat:
+!https://www.se.pl/wiadomosci/polityka/kampania-pelna-klata-kandydat-na-prezydenta-krzysztof-bosak-zabral-zone-na-duzo-zdjec-aa-k1ZD-L1mc-3kc9.html
+!False positive - galeria z jednym zdjęciem pod tekstem była na temat:
+!https://superbiz.se.pl/wiadomosci/nowa-waloryzacja-emerytur-emerycie-glodowa-podwyzka-tyle-dostaniesz-tabela-aa-766Q-t8Qx-mLPs.html
+!Ramka z mapą pod artykułem
+!https://www.se.pl/radom/koronawirus-w-radomiu-pracownik-magistratu-zakazony-aa-LC71-217K-WvR2.html
+!Sensowne linki w treści artykułu
+!https://superbiz.se.pl/wiadomosci/nowe-500-plus-zmiana-wysokosci-wyplat-jakie-terminy-jak-zlozyc-wniosek-aa-rTZr-Hhnj-Y4Pr.html
+!Sensowny link do strony zewnętrznej
+!https://www.se.pl/wroclaw/strzelanina-w-legnicy-na-miejscu-antyterrorysci-sprawca-postrzelil-kobiete-aa-YSVF-usq9-KyFT.html
+!Sensowna ramka se.pl##DIV.gl_plugin.socials w treści artykułu - ramka z Twittera:
+!https://www.se.pl/wiadomosci/polityka/kaczynski-bez-maseczki-w-tvp-wspomina-walese-blokowal-lustracje-i-dekomunizacje-aa-jdSb-spt9-7bux.html
+!Ramka z facebooka:
+!https://superseriale.se.pl/klan/darek-z-klanu-przejrzal-dude-odslonil-prawde-o-prezydencie-ak-xZX7-k3Cm-XwXG.html
+!Wideo z facebooka:
+!https://www.se.pl/wiadomosci/polityka/agata-duda-musi-zmienic-fryzure-wszystko-dlatego-ze-aa-xe6S-YRrT-TyDj.html
+!Ramka z facebooka
+!https://www.se.pl/warszawa/trwaja-wiosenne-porzadki-na-drogach-drogowcy-poprawiaja-malowanie-ulic-aa-sCYH-m6Xm-1rkn.html
+!Materiał audio - podcast:
+!https://www.se.pl/radom/koronawirus-w-radomiu-nie-zyje-83-letnia-mezczyzna-aa-quho-Wuw7-31wk.html
+
+!Badanie zachowania użytkownika
+!https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
+||upscore.com^$domain=se.pl
+
+!Skrypty z reklamami, strona desktopowa zamiast gwiazdki ma desktop, mobilna mobile
+!https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
+||se.pl/media/*/zpr_layouts_web/js/ads.js?
+||se.pl/media/*/zpr_ads_web/js/lazy_load.js?
+||se.pl/media/*/js/article_ads_inserter_with_shopping.js?
+||se.pl/media/*/js/subsequent_article_ads_inserter.js?
+||se.pl/media/*/zpr_recommendations_web/js/recommended_products_in_article.js?
+||se.pl/media/*/zpr_layouts_web/js/stylebook.js?
+
+!Pewnie komunikat o ciastkach
+||cdn.galleries.smcloud.net/t/media/cookie_info.js
+
+!Jakiś skrypt, bez niego działa
+||static.common.smcloud.net/s/smiToWideoEmbeder.js
+
+!se.pl##+js(addEventListener-logger.js)
+!se.pl##+js(set-constant.js, autoplay, 0)
+
+!||se.pl/static/js/front/front.min.js?
+!||unpkg.com^
+
+!se.pl##+js(abort-on-property-read.js, getNewArticle)
+!se.pl##+js(abort-on-property-write.js, getNewArticle)
