@@ -122,7 +122,7 @@ polsatnews.pl,polsatsport.pl##DIV.news__related.related-list
 !polsatnews.pl##DIV.news__description > ARTICLE > P > A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child
 !polsatnews.pl##DIV.news__description > ARTICLE > ARTICLE:last-child > P > A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child
 !polsatnews.pl##DIV.news__description > ARTICLE > ARTICLE:last-child > P > A[href][target="_blank"][rel="noopener noreferrer"]:first-child:last-child > STRONG:first-child:last-child:has-text(/^ZOBACZ:/)
-polsatnews.pl,polsatsport.pl##DIV.news__description P:if(A[href]):if(STRONG:first-child:last-child):has-text(/^ZOBACZ:/)
+polsatnews.pl,polsatsport.pl##DIV.news__description P:if(A[href]):if(STRONG):has-text(/^ZOBACZ:/)
 !Wideo na końcu artykułu
 !https://www.polsatnews.pl/wiadomosc/2020-03-22/z-powodu-koronawirusa-zmarla-37-latka-kolejne-potwierdzone-przypadki/?ref=aside_popularne
 polsatnews.pl,polsatsport.pl##DIV.news__description > DIV.news__rndvod
@@ -162,7 +162,7 @@ polsatnews.pl##DIV.article__related.related-list
 
 !Link do powiązanego artykułu z tekstem w treści
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
-polsatnews.pl##P > STRONG:first-child:last-child > A[href^="https://tygodnik.polsatnews.pl/"]:has-text(ZOBACZ: )
+polsatnews.pl##P > STRONG > A[href^="https://tygodnik.polsatnews.pl/"]:has-text(/^ZOBACZ:/)
 
 !Komentarze do artykułu
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
@@ -170,7 +170,7 @@ polsatnews.pl##DIV.article__comments
 
 !Link powiązany w treści artykułu ZOBACZ: Dziennikarze "Państwa w Państwie" nagrodzeni za materiał "Kolekcjonerski przekręt"
 !https://www.polsatnews.pl/wiadomosc/2020-04-17/nie-zyje-dziennikarka-polsatu-ewa-zarska/
-polsatnews.pl,polsatsport.pl##DIV.news__description A[href]:if(STRONG:first-child:last-child):has-text(/^ZOBACZ:/)
+polsatnews.pl,polsatsport.pl##DIV.news__description A[href]:if(STRONG):has-text(/^ZOBACZ:/)
 
 !Przyciski do pobrania aplikacji mobilnych pod artykułem "Chcesz być na bieżąco z najnowszymi newsami?"
 polsatnews.pl##DIV.app-ad
