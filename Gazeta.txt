@@ -133,7 +133,8 @@ onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
 !Link do powiązanego artykułu w treści: Czyli mechaniczne straty przy zamrożeniu gospodarczym to około 1,5 proc. rocznego
 !Czytaj więcej: Koronawirus. Rząd i NBP wpompują kolejne 100 mld zł do firm. "Nowa tarcza bez precedensu"
 !https://next.gazeta.pl/next/7,151003,25940823,borys-z-pfr-dla-gp-znajdujemy-sie-w-najwiekszym-kryzysie.html
-gazeta.pl##P.art_paragraph:if(A.art_link:has-text(/^(Czytaj też:|Czytaj więcej:)/))
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+gazeta.pl##P.art_paragraph:has-text(/(Czytaj też:|Czytaj więcej:)/):if(A.art_link)
 
 !Quiz pod artykułem
 !https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
