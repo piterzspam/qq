@@ -5,6 +5,9 @@
 !https://weekend.gazeta.pl/weekend/0,0.html
 weekend.gazeta.pl##ARTICLE.mod_fb_like_embed
 
+!Polskie Filtry Elementów Irytujących nadpisanie filtru
+gazeta.pl#@#.external_link[href]:style(pointer-events: none !important; position: unset !important;)
+
 !Nadpisanie filtru @@||wikia.nocookie.net^*/images/$image z EasyList - obrazek na przycisku udostępnienia na Twittrerze
 !https://weekend.gazeta.pl/weekend/1,152121,25835944,ikonowicz-raz-czy-dwa-uslyszalem-komunista-ale-nie-od-ludzi.html
 ||wikia.nocookie.net/*/Twitter_icon.svg$important,domain=gazeta.pl
@@ -171,7 +174,10 @@ gazeta.pl##DIV.socialBar
 
 !Prznoszenie do strony głównej do przewinięciu strony na dół
 !https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
-||wiadomosci.gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
+!https://next.gazeta.pl/next/7,151003,25940823,borys-z-pfr-dla-gp-znajdujemy-sie-w-najwiekszym-kryzysie.html
+!||wiadomosci.gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
+!||next.gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
+||gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
 gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
 
 !Puste miejsce po reklamie
