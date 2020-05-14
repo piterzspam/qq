@@ -1,6 +1,8 @@
 ! Title: Super Express
 ! Expires: 1 day
 
+@@||se.pl^$generichide
+
 !Pole z napisem "Polecany artykuł:" w teści artykułu
 !https://www.se.pl/krakow/wielki-powrot-krakowskiej-legendy-gracjan-roztocki-zaspiewal-o-koronawirusie-aa-hvir-d4og-mGpY.html
 se.pl##ARTICLE > DIV.gl_plugin.recommendedArticle
