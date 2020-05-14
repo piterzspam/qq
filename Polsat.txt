@@ -161,8 +161,9 @@ polsatnews.pl##LI.menu__element.menu__element--comments
 polsatnews.pl##DIV.article__related.related-list
 
 !Link do powiązanego artykułu z tekstem w treści
+!https://tygodnik.polsatnews.pl/news/2020-05-08/jan-komasa-bohater-jest-zly-bo-z-biednej-rodziny-wywiad/
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
-polsatnews.pl##P > STRONG > A[href^="https://tygodnik.polsatnews.pl/"]:has-text(/^ZOBACZ:/)
+tygodnik.polsatnews.pl##DIV.article__description > P:if(STRONG > A[href]:has-text(/^ZOBACZ:/))
 
 !Komentarze do artykułu
 !https://tygodnik.polsatnews.pl/news/2020-04-03/wybory-nie-odbeda-sie-w-maju-gowin-wygrywa-z-kaczynskim/#komentarze-1580017
