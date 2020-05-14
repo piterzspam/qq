@@ -200,7 +200,18 @@ gazeta.pl##DIV.mtpromo:if(DIV.mtpromo_read_more) ~ SECTION
 gazeta.pl##DIV.mtpromo:if(DIV.mtpromo_read_more) ~ DIV
 gazeta.pl##SECTION.c-main-content:if(DIV.mtpromo:if(DIV.mtpromo_read_more)) ~ SECTION
 gazeta.pl##SECTION.c-main-content:if(DIV.mtpromo:if(DIV.mtpromo_read_more)) ~ DIV
-!
+
+!Strona przejściowa po kliknięciu w link z sekcji "Dla ciebie" pod artykułem 
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947207,trzaskowski-za-kidawe-blonska-kiedys-bylo-tusku-musisz.html#s=BoxOpImg1
+!https://gazeta.pl/0,0.html?foryou=enc02qhrmp2hwrnvt3udraocblescrjdksifjficroec2jemrmkt4mgxjmudrqmcblct3ahubnst2ig2ri&a=26&c=5#pageTypeId_0
+gazeta.pl##SECTION.recommended_article > :not(:if(>DIV.c-article:has-text(DLA CIEBIE NA GAZETA.PL)))
+gazeta.pl##MAIN.l-main > SECTION.c-main-content:if(>SECTION.recommended_article) ~ DIV
+gazeta.pl##MAIN.l-main > SECTION.c-main-content:if(>SECTION.recommended_article) ~ SECTION
+gazeta.pl##MAIN.l-main > SECTION.c-main-content > SECTION.recommended_article:style(height: unset !important)
+||gazeta.pl/0,0.html?foryou=$inline-script
+!https://m.gazeta.pl/0,0.html?foryou=enc02qhrmp2hwrnvt3udraocblescrjdksifjficroec2jemrmkt4mgxjmudrqmcblct3ahubnst2ig2ri&a=26&c=5#pageTypeId_0
+m.gazeta.pl##MAIN.l-main > DIV.c-section.recomended_article ~ DIV
+m.gazeta.pl##MAIN.l-main > DIV.c-section.recomended_article ~ SECTION
 
 
 !onnetwork.tv##+js(addEventListener-logger.js)
