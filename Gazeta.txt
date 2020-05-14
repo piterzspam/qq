@@ -1,6 +1,8 @@
 ! Title: Gazeta
 ! Expires: 1 day
 
+@@||gazeta.pl^$generichide
+
 !Na stronie głównej link do polubienie facebooka
 !https://weekend.gazeta.pl/weekend/0,0.html
 weekend.gazeta.pl##ARTICLE.mod_fb_like_embed
