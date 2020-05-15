@@ -156,7 +156,11 @@ weekend.gazeta.pl##DIV.body > UL > LI[class*="entry article imagesize_"] > DIV.w
 
 !Powiązane - Czytaj więcej w treści artykułu bez linku
 !https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
-gazeta.pl##SECTION.art_content > P.art_paragraph > B:has-text(Czytaj więcej: )
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25921729,jak-zaglosuja-konkretni-poslowie-gowina-caly-czas-ma-mozliwosc.html
+!gazeta.pl##SECTION.art_content > P.art_paragraph > B:has-text(Czytaj więcej: )
+gazeta.pl##SECTION.art_content > P.art_paragraph:if(B:has-text(/^(Czytaj więcej: |Zobacz nagranie. )/))
+
+
 
 !Pusty kafelek na stronie głównej 
 !https://www.gazeta.pl/0,0.html
