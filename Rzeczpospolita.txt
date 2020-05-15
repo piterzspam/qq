@@ -163,7 +163,8 @@ e.infogram.com##DIV#footer
 !https://www.rp.pl/Kataryna/303209998-Uciec-przed-zakonnica.html
 !https://www.rp.pl/Rzecz-o-historii/309199936-Polska-wojna-prewencyjna.html
 
-
+!Ramka z sondażem
+!https://www.rp.pl/Wybory-prezydenckie-2020/200509472-Wkrotce-stanowisko-Solidarnej-Polski-ws-wyborow.html
 
 !
 !rp.pl##+js(noeval.js)
