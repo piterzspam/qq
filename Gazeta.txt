@@ -135,12 +135,6 @@ onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
 !https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
 !gazeta.pl##+js(remove-attr.js, href, A.art_link[href*="?tag="])
 
-!Link do powiązanego artykułu w treści: Czyli mechaniczne straty przy zamrożeniu gospodarczym to około 1,5 proc. rocznego
-!Czytaj więcej: Koronawirus. Rząd i NBP wpompują kolejne 100 mld zł do firm. "Nowa tarcza bez precedensu"
-!https://next.gazeta.pl/next/7,151003,25940823,borys-z-pfr-dla-gp-znajdujemy-sie-w-najwiekszym-kryzysie.html
-!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
-gazeta.pl##P.art_paragraph:has-text(/(Czytaj też:|Czytaj więcej:)/):if(A.art_link)
-
 !Quiz pod artykułem
 !https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
 gazeta.pl##SECTION.related_quiz
@@ -153,14 +147,6 @@ next.gazeta.pl##DIV.swiper-slide.maintopic__item:if(P.maintopic__authorName:has-
 !Na stronie głównej wersji mobilnej część tytułów była ucięta
 !https://weekend.gazeta.pl/weekend/0,0.html
 weekend.gazeta.pl##DIV.body > UL > LI[class*="entry article imagesize_"] > DIV.wrap > DIV.title:style(max-height: fit-content !important)
-
-!Powiązane - Czytaj więcej w treści artykułu bez linku
-!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
-!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25921729,jak-zaglosuja-konkretni-poslowie-gowina-caly-czas-ma-mozliwosc.html
-!gazeta.pl##SECTION.art_content > P.art_paragraph > B:has-text(Czytaj więcej: )
-gazeta.pl##SECTION.art_content > P.art_paragraph:if(B:has-text(/^(Czytaj więcej: |Zobacz nagranie. )/))
-
-
 
 !Pusty kafelek na stronie głównej 
 !https://www.gazeta.pl/0,0.html
@@ -181,14 +167,12 @@ gazeta.pl##DIV.socialBar
 !Prznoszenie do strony głównej do przewinięciu strony na dół
 !https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
 !https://next.gazeta.pl/next/7,151003,25940823,borys-z-pfr-dla-gp-znajdujemy-sie-w-najwiekszym-kryzysie.html
-!||wiadomosci.gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
-!||next.gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
 ||gazeta.pl/aliasy/hp2018/hp_redirector.htm$xhr
 gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
 
 !Puste miejsce po reklamie
 https://wiadomosci.gazeta.pl/wiadomosci/0,114884.html#TRNavSST
-wiadomosci.gazeta.pl##UL.list_tiles > LI.banEntry
+gazeta.pl##UL.list_tiles > LI.banEntry
 
 !Strona główna pod galerią ze zdjęciami
 !https://www.gazeta.pl/0,0.html?utm_campaign=amtp_pnHP_gallery&mtpromo=enc02qhrmp2hwrnvt3udraocblesmjkfctyua5icroec2jemrmkt4mgxjmudrqmcblst4mgxboqt2ig2ri
@@ -217,30 +201,32 @@ gazeta.pl##MAIN.l-main > SECTION.c-main-content > SECTION.recommended_article:st
 m.gazeta.pl##MAIN.l-main > DIV.c-section.recomended_article ~ DIV
 m.gazeta.pl##MAIN.l-main > DIV.c-section.recomended_article ~ SECTION
 
+!https://next.gazeta.pl/next/7,151003,25940823,borys-z-pfr-dla-gp-znajdujemy-sie-w-najwiekszym-kryzysie.html
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
+!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+!https://kultura.gazeta.pl/kultura/7,114526,25955416,radiowa-trojka-stracila-marka-niedzwieckiego-i-wojciecha-manna.html
+!https://next.gazeta.pl/next/7,151003,25821993,kinowy-dystrybutor-udostepnia-nowe-zasoby-filmy-i-seriale-za.html
+!https://next.gazeta.pl/next/7,151003,25956385,lot-wznawia-loty-pasazerskie-od-czerwca-bardzo-atrakcyjne.html
+!https://kultura.gazeta.pl/kultura/7,114438,25947707,zabawa-w-chowanego-gdzie-ogladac-nowy-film-braci-sekielskich.html
+!https://next.gazeta.pl/next/7,151003,25559797,rz-kamienica-kupiona-przez-spoldzielnie-za-1056-zl-dzis.html
+!https://next.gazeta.pl/next/7,151003,25774510,1-3-mld-na-zwalczanie-koronawirusa-z-rezerwy-kryzysowej-wladza.html
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25817094,polski-rzad-wprowadza-nowe-obostrzenia-wiecej-zmarlych-we-wloszech.html
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25882056,kidawa-blonska-jeszcze-w-tym-tygodniu-wznowi-kampanie-tak-zdecydowalo.html
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.html
+kultura-gazeta-pl.cdn.ampproject.org,next-gazeta-pl.cdn.ampproject.org,wiadomosci-gazeta-pl.cdn.ampproject.org,gazeta.pl,sport.pl##P:has-text(/(^>>>|^Czytaj także:|^Czytaj też:|^Czytaj więcej:|\s>>$)/):if(A.art_link)
 
-!onnetwork.tv##+js(addEventListener-logger.js)
-!||app.link^
-!gazeta.pl##+js(remove-attr.js, href, A.art_link)
-!gazeta.pl##A.art_link[href*="?tag="]
-!gazeta.pl##A.art_link:has-text( )
+!Wideo w ramce w treści artykułu
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947207,trzaskowski-za-kidawe-blonska-kiedys-bylo-tusku-musisz.html#s=BoxOpImg1
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html
+kultura-gazeta-pl.cdn.ampproject.org,next-gazeta-pl.cdn.ampproject.org,wiadomosci-gazeta-pl.cdn.ampproject.org,gazeta.pl,sport.pl##DIV.art_embed:if(> DIV > SPAN.video-head)
 
+!Lista linków
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947955,mazurek-kpi-z-po-brak-wiarygodnosci-zapomniala-ze-szydlo.html
+!https://next.gazeta.pl/next/7,151003,25956385,lot-wznawia-loty-pasazerskie-od-czerwca-bardzo-atrakcyjne.html
+kultura-gazeta-pl.cdn.ampproject.org,next-gazeta-pl.cdn.ampproject.org,wiadomosci-gazeta-pl.cdn.ampproject.org,gazeta.pl,sport.pl##H2.art_sub_title
+kultura-gazeta-pl.cdn.ampproject.org,next-gazeta-pl.cdn.ampproject.org,wiadomosci-gazeta-pl.cdn.ampproject.org,gazeta.pl,sport.pl##UL.art_uList
 
-
-!||onnetwork.tv^
-!gazeta.pl##+js(addEventListener-logger.js)
-!gazeta.pl##+js(addEventListener-defuser.js, /^/)
-!gazeta.pl##+js(addEventListener-defuser.js, DOMContentLoaded, QuizRelated.init())
-
-!||static.im-g.pl/static/epo/style/deploy/master/webpack/production/Next/105/pagetype7/main.js.jsgz
-
-
-!gazeta.pl##+js(set-constant, ONTVminiatureBlocked, trueFunc)
-!gazeta.pl#@#+js(set-constant, ONTVminiatureBlocked, trueFunc)
-!gazeta.pl#@#+js(remove-attr, href, .external_link)
-
-
-
-
-
-
-!
+!Paragrafy nad listą linków (UL.art_uList) nie będące H2.art_sub_title
+!https://next.gazeta.pl/next/7,173953,25803242,koronawirus-w-niemczech-lufthansa-uziemi-wiekszosc-swojej-floty.html
+!https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.html
+kultura-gazeta-pl.cdn.ampproject.org,next-gazeta-pl.cdn.ampproject.org,wiadomosci-gazeta-pl.cdn.ampproject.org,gazeta.pl,sport.pl##B:has-text(/^Przeczytaj także:\s?$/)
