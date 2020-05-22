@@ -213,7 +213,7 @@ m.gazeta.pl##MAIN.l-main > DIV.c-section.recomended_article ~ SECTION
 !https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25817094,polski-rzad-wprowadza-nowe-obostrzenia-wiecej-zmarlych-we-wloszech.html
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25882056,kidawa-blonska-jeszcze-w-tym-tygodniu-wznowi-kampanie-tak-zdecydowalo.html
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.html
-kultura-gazeta-pl.cdn.ampproject.org,next-gazeta-pl.cdn.ampproject.org,wiadomosci-gazeta-pl.cdn.ampproject.org,gazeta.pl,sport.pl##P:has-text(/(^>>>|^Czytaj także:|^Czytaj też:|^Czytaj więcej:|\s>>$)/):if(A.art_link)
+kultura-gazeta-pl.cdn.ampproject.org,next-gazeta-pl.cdn.ampproject.org,wiadomosci-gazeta-pl.cdn.ampproject.org,gazeta.pl,sport.pl##P:has-text(/(^>>>|^Czytaj także:|^Czytaj też:|^Czytaj więcej:|\s>>\s*$)/):if(A.art_link)
 
 !Wideo w ramce w treści artykułu
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947207,trzaskowski-za-kidawe-blonska-kiedys-bylo-tusku-musisz.html#s=BoxOpImg1
