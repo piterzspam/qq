@@ -278,12 +278,12 @@ cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)  P:has-text(/((^\s
 !<Początek>
 !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
 !Szare pole po reklamach
-gazeta.pl##DIV.banner
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.banner
 
 !Czerwony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
-gazeta.pl##A#footerBack
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##A#footerBack
 
 !Zmniejszanie białego pola ramki naokoło przycisku w ramce
-gazeta.pl##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
 !<Koniec>
 !Koniec - Wersja AMP strony w domenie gazeta.pl
