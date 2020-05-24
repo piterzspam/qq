@@ -220,7 +220,10 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25817094,polski-rzad-wprowadza-nowe-obostrzenia-wiecej-zmarlych-we-wloszech.html
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25882056,kidawa-blonska-jeszcze-w-tym-tygodniu-wznowi-kampanie-tak-zdecydowalo.html
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/(^>>>|^Czytaj także:|^Czytaj też:|^Czytaj więcej:|\s>>\s*$)/):if(A.art_link)
+!Strony AMP na komputerze mają białe znaki na początku/końcu paragrafu z powiązanymi
+!https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.amp
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
 
 !Wideo w ramce w treści artykułu
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947207,trzaskowski-za-kidawe-blonska-kiedys-bylo-tusku-musisz.html#s=BoxOpImg1
@@ -237,3 +240,50 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !https://next.gazeta.pl/next/7,173953,25803242,koronawirus-w-niemczech-lufthansa-uziemi-wiekszosc-swojej-floty.html
 !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.html
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##B:has-text(/^Przeczytaj także:\s?$/)
+
+
+!Początek - Wersja AMP STRONY z domeny cdn.ampproject.org
+!cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)
+!<Początek>
+!https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
+||cdn.ampproject.org/*/amp-ad-network-doubleclick-impl-
+||cdn.ampproject.org/*/amp-ad-
+||cdn.ampproject.org/*/amp-analytics-
+||cdn.ampproject.org/*/amp-consent-
+||us-central1-amp-error-reporting.cloudfunctions.net^
+
+!Szare pole po reklamach
+cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim) DIV.banner
+
+!Czewony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
+cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim) > A#footerBack
+
+!Wideo w ramce w treści artykułu
+cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim) DIV.art_embed:if(> DIV > SPAN.video-head)
+!<Koniec>
+
+!Ramka z Instagrama: https://haps-pl.cdn.ampproject.org/v/s/haps.pl/Haps/7,167709,25966605,swiat-oszalal-na-punkcie-dalgona-coffee-probowaliscie-wersji.amp?amp_js_v=0.1
+
+!Zwykły przycisk "OTWÓRZ GALERIĘ ZDJĘĆ": https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
+!Przycisk w ramce "OTWÓRZ GALERIĘ ZDJĘĆ": https://www-plotek-pl.cdn.ampproject.org/v/s/www.plotek.pl/plotek/7,154063,25969928,slub-od-pierwszego-wejrzenia.amp?amp_js_v=0.1
+!Zmniejszanie białego pola ramki naokoło przycisku w ramce
+hp-api-v.gazeta.pl##DIV.mtpromo-gallery__readmore-btn-wrapper:style(padding: unset !important)
+cdn.ampproject.org##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
+
+!Wideo dla strony AMP jest odtwarzane z domeny google: https://www.google.com/amp/s/wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.amp
+cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)  P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
+!Koniec - Wersja AMP STRONY z domeny cdn.ampproject.org
+
+!Początek - Wersja AMP strony w domenie gazeta.pl
+!<Początek>
+!https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
+!Szare pole po reklamach
+gazeta.pl##DIV.banner
+
+!Czerwony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
+gazeta.pl##A#footerBack
+
+!Zmniejszanie białego pola ramki naokoło przycisku w ramce
+gazeta.pl##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
+!<Koniec>
+!Koniec - Wersja AMP strony w domenie gazeta.pl
