@@ -208,3 +208,102 @@ forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
 !https://wiadomosci.dziennik.pl/polityka/artykuly/7681991,wybory-prezydenckie-koronawirus-covid-19-epidemia.html
 !Ramka z wideo z polsatu w środku tekstu:
 !https://forsal.pl/gospodarka/aktualnosci/artykuly/1472749,wybory-prezydenckie-pakiety-wyborcze-poczta-termin-majowy-stan-przedzawalowy.html
+
+
+
+
+@@||ampproject.org^$generichide
+@@||dziennik.pl^$generichide
+@@||forsal.pl^$generichide
+@@||gazetaprawna.pl^$generichide
+!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/polityka/artykuly/6445850,mosbacher-praworzadnosc-polska-ue.html.amp?amp_js_v=0.1
+||cdn.ampproject.org/*/amp-social-share-
+!Domyślam się, że chodzi o śledzenie położenia
+||cdn.ampproject.org/*/amp-geo-
+
+!Ramka player wideo polsatu pulsembed.eu/p2em/ -> media.polsatsport.pl/:
+!https://sport.dziennik.pl/pilka-nozna/artykuly/7716761,puchar-polski-legia-miedz-cracovia-lech-lechia.html
+||redevents-bigdata.redefine.pl^
+||b2c.redefine.pl/rpc/navigation/
+!Ramka player wideo z get.x-link.pl
+!https://rozrywka.dziennik.pl/jegostrona/news/artykuly/610087,najpiekniejsza-oktagon-girl-zjawiskowa-kahili-blundell.html
+||scontent.services.tvn.pl/sweqevub.js$domain=get.x-link.pl
+||scontent.services.tvn.pl/gstream.js$domain=get.x-link.pl
+||scontent.services.tvn.pl/fpdata.js$domain=get.x-link.pl
+||scontent.services.tvn.pl/gemiuslib.js$domain=get.x-link.pl
+
+
+dziennik.pl,forsal.pl,gazetaprawna.pl,ampproject.org##AMP-AD
+!https://wiadomosci.dziennik.pl/opinie/artykuly/7723215,joanna-lichocka-krzysztof-czabanski-sylwetki-trojka-piotr-zaremba-mainstream.html
+||connect.facebook.net^$domain=dziennik.pl
+
+!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html.amp?amp_js_v=0.1
+cdn.ampproject.org##BODY:if(>HEADER > DIV > A[href="https://www.dziennik.pl/"]) DIV:if(>P.hyphenate:has-text(Zobacz również))
+
+!Powiązane wideo pod artykułem
+!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html.amp?amp_js_v=0.1
+||videotarget.pl/player/v1/stream/$domain=cdn.ampproject.org
+cdn.ampproject.org##BODY:if(>HEADER > DIV > A[href="https://www.dziennik.pl/"]) DIV.widget.video:if(>AMP-IFRAME[src*="videotarget.pl/player/v1/stream/"])
+
+!https://auto.dziennik.pl/aktualnosci/artykuly/7719967,prawo-jazdy-policja-tablica-rejestracyjna-czasowe-wyrejestrowanie-pakiet-deregulacyjny.html.amp
+||videotarget.pl/player/v1/stream/$domain=dziennik.pl
+dziennik.pl##ARTICLE > DIV:if(>P.hyphenate:has-text(Zobacz również))
+dziennik.pl##ARTICLE > DIV.widget.video:if(>AMP-IFRAME[src*="videotarget.pl/player/v1/stream/"])
+
+!https://forsal.pl/gospodarka/inwestycje/artykuly/1480268,mierzeja-wislana-przekop-mierzei-port-w-elblagu-kanal-zeglugowy.html
+forsal.pl##DIV#inArticleAfter2P.articleBody > P:has-text(>>> Polecamy:):if(A[href*="forsal.pl"])
+
+!https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1479037,wachowicz-to-nowe-wyzwanie-i-nowa-rzeczywistosc-ale-caly-czas-jeszcze-nie-kryzys-wywiad.html?amp_js_v=0.1
+!https://www.gazetaprawna.pl/amp/1449444,cit-w-2020r-przeglad-zmian-sprawdz-co-sie-zmieni.html
+forsal.pl,gazetaprawna.pl,ampproject.org##DIV.widget-psav-share-box
+
+!>>> Czytaj także: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html?amp_js_v=0.1
+!>>> Czytaj też: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1476184,prekariat-na-rynku-pracy-jak-polska-wypada-na-tle-ue-dane-eurostatu.html?amp_js_v=0.1
+!>>> Polecamy: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1480268,przekop-mierzei-wislanej-flagowa-inwestycja-rzadu-ma-dac-polsce-suwerennosc.html?amp_js_v=0.1
+forsal.pl,forsal-pl.cdn.ampproject.org##ARTICLE P:has-text(/^(>>> Czytaj także:|>>> Czytaj też:|>>> Polecamy:)/):if(>A[href*="forsal.pl"])
+
+!https://www.gazetaprawna.pl/amp/1449444,cit-w-2020r-przeglad-zmian-sprawdz-co-sie-zmieni.html
+gazetaprawna.pl##ARTICLE > P.tresc:if(>B > SPAN > A[href])
+gazetaprawna.pl##DIV.psavSpecialLinks
+
+!gazetaprawna.pl##+js(cookie-set.js, inforCookieWall, 15, 10000)
+!gazetaprawna.pl##+js(cookie-set, inforCookieWallCacheVal, 15, 5000000)
+!gazetaprawna.pl##+js(cs, name, value, age)
+
+!https://prawo.gazetaprawna.pl/artykuly/1479610,manowska-nowa-i-prezes-sadu-najwyzszego.html
+!https://adsvideo.gazetaprawna.pl/YB-Reklama/gazetaprawna_onload_js_artykuly.js
+||adsvideo.gazetaprawna.pl^
+||connect.facebook.net^$domain=gazetaprawna.pl
+||apis.google.com^$domain=gazetaprawna.pl
+||plista.com^
+!static.gazetaprawna.pl/gp/required/build/js/adsenseLoader.js?
+||static.gazetaprawna.pl/gp/required/build/js/adsenseLoader.js
+@@||gazetaprawna.pl/gp/js/ads_blocker_test.js
+
+
+
+!Ramka facebooka:
+!https://wiadomosci.dziennik.pl/media/artykuly/7719231,lukasz-orbitowski-tvp-kultura-rezygnacja-odejscie.html
+!Ramka z playerem wideo z pulsembed.eu/p2em/ -> videotarget.pl/player/v1/content/ (na temat):
+!https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
+!Ramka z playerem wideo z videotarget.pl/player/v1/stream/ (powiązane):
+!https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
+!Zdjęcia w treści artykułu:
+!https://kobieta.dziennik.pl/moda-na-topie/artykuly/7719223,agata-kornhauser-duda-styl-agaty-kornhauser-dudy.html
+!Ramka z playerem wideo z: videotarget.pl/player/v1/content/
+!https://praca.gazetaprawna.pl/artykuly/1455737,prawo-pracy-nie-ulatwia-zapobiegania-koronawirusowi.html
+!Ramka z playerem wideo z : r.dcs.redcdn.pl/webcache/pap-embed/
+!https://serwisy.gazetaprawna.pl/zdrowie/artykuly/1456286,jak-chronic-sie-przed-koronawirusem.html
+!Ramka z playerem wideo z: get.x-link.pl/ (po odblokowaniu zgody.infor.pl/build/assets/js/main.js i zaakcpetowaniu ciasteczek) 
+!https://prawo.gazetaprawna.pl/artykuly/1479610,manowska-nowa-i-prezes-sadu-najwyzszego.html
+!https://www.gazetaprawna.pl/artykuly/1457185,koronawirus-w-polsce-szumowski-potwierdza-pierwszy-przypadek.html
+!Ramka wykresem: datastudio.google.com/embed/
+!https://forsal.pl/praca/aktualnosci/artykuly/1476184,prekariat-na-rynku-pracy-niepewne-zatrudnienie-statystyki-polska-ue-eurostat.html
+!Ramka z playerem wideo z media.polsatnews.pl/embed/:
+!https://forsal.pl/gospodarka/aktualnosci/artykuly/1472749,wybory-prezydenckie-pakiety-wyborcze-poczta-termin-majowy-stan-przedzawalowy.html
+!Ramka z playerem wideo z videotarget.pl/player/v1/content/:
+!https://forsal.pl/artykuly/1456834,elektrownia-ostroleka-wysoki-rachunek-za-obrone-polskiego-wegla.html
+!Zdjęcie w treści artykułu:
+!https://forsal.pl/gospodarka/prawo/artykuly/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html
+
+
