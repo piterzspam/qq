@@ -1,0 +1,76 @@
+! Title: Wprost.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||wprost.pl^$ghide
+
+!Pasek 100 najbogatszych Polaków między paskiem nawigacyjnym a artykułem
+!https://www.wprost.pl/swiat/10338845/pies-nie-odstepuje-dziecka-na-krok-ich-zdjecia-sa-wrecz-rozczulajace.html
+||wprost.pl/_js/widgets/100-najbogatszych
+||wprost.pl/_css/widgets/100-najbogatszych
+!Przyciski do sociali w stopce strony
+!https://www.wprost.pl/swiat/10338845/pies-nie-odstepuje-dziecka-na-krok-ich-zdjecia-sa-wrecz-rozczulajace.html
+||img.wprost.pl/_i/icon-30-a-soc-$image
+wprost.pl##.soc-buttons
+!Też przyciski, ale ich nie widzę
+||img.wprost.pl/_i/icon-20-a-soc-$image
+!Wyskakujące powiadomienie z linkiem do instalowania apliakcji "Zainstalować aplikację"
+!https://www.wprost.pl/tematy/10127397/instagram.html
+wprost.pl##+js(addEventListener-defuser.js, beforeinstallprompt)
+!Nowe linki do artykułów pojawiające się nad nagłówkiem po przewinięciu w dół i w górę
+!https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
+wprost.pl##+js(no-setTimeout-if.js, page-header-latests, 50)
+!Nowy artykuł pojawiający się po przewinięcu strony w dół i zmieniający adres strony
+!https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
+wprost.pl##+js(no-setTimeout-if.js, articles-autoload, 1200)
+!Po wyłączeniu skryptów nie dzialało scrollowanie
+!https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
+wprost.pl##BODY:style(overflow-y: unset !important)
+!Nie wiem, ale pewnie jakiś tracker
+!https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
+wprost.pl##+js(no-setInterval-if.js, deepTracker, undefined)
+!Nie wiem co, ale initGenesisAds jest w treści
+!https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
+wprost.pl##+js(no-setInterval-if.js, genesisAds, 100)
+!Nie wiem co, ale genesisAdsAdbd345 jest w treści
+!https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
+wprost.pl##+js(no-setTimeout-if.js, genesisAdsAdbd345, 1000)
+!Nie wiem co, ale gtag jest w treści
+!https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
+wprost.pl##+js(no-setTimeout-if.js, gtag)
+!Nie wiem co, pewnie rodo, albo reklamy
+!https://www.wprost.pl/kraj
+||wprost.pl/_rodo/optad360/
+
+||fonts.gstatic.com/s/robotocondensed/$domain=wprost.pl,important
+||connect.facebook.net^$domain=wprost.pl,important
+||deep.bi^$domain=wprost.pl,important
+||netsprint.pl^$domain=wprost.pl,important
+||contentstream.pl^$domain=wprost.pl,important
+||idmnet.pl^$domain=wprost.pl,important
+||googletagmanager.com^$domain=wprost.pl,important
+||google.com/recaptcha/$domain=wprost.pl,important
+||platform.twitter.com/widgets.js$domain=wprost.pl,important
+||apis.google.com/js/plusone.js$domain=wprost.pl,important
+!https://www.wprost.pl/wybory-prezydenckie-2020/10329833/sondaz-prezydencki-se-w-drugiej-turze-trzaskowski-i-duda-ida-leb-w-leb.html
+||pollster.pl^$domain=wprost.pl,important
+
+!https://www.wprost.pl/_static/html5-jquery-3.2.1-lightbox-2.6.min-jquery.scrollbar-main-wprost-ads-deep.bi-84a8dc2ec56ee8d53fb1365dea5cdab1-content.js
+@@||wprost.pl/_static/html5-jquery
+
+!https://www.wprost.pl/kraj/10338787/rowerzysta-pobil-nastolatkow-policja-publikuje-nagranie-i-prosi-o-pomoc.html?utm_source=wprost.pl&utm_medium=homepage-section&utm_campaign=glowna
+wprost.pl##.bottom-section.line
+wprost.pl##.ad-aside
+
+!https://www.wprost.pl/kraj/10338801/episkopat-apeluje-do-ksiezy-i-wiernych-caly-czas-jestesmy-narazeni.html
+wprost.pl##.art-text-relation
+
+!https://www.wprost.pl/tylko-u-nas
+wprost.pl##li.box-list-item-adv-billboard
+
+! 28.06.2020 https://www.wprost.pl
+wprost.pl##.soc-buttons
+
+! 2.07.2020 https://www.wprost.pl
+||www.wprost.pl/_i/headers/20191108-header-wybory-prezydenckie-2020.jpg$image
+wprost.pl###wb2020
