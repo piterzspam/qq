@@ -166,6 +166,9 @@ onet.pl##DIV.articleBody > DIV.embeddedApp:last-of-type
 !Krótki paragraf - mało znaków z linkiem - Czytaj więcej w "Rzeczpospolitej", PAP
 !https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-2020-partia-porozumienie-opusci-rzad/1yv4mr7
 
+!Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-kto-poprze-rafala-trzaskowskiego/wb98dlp
+onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
 
 !||ocdn.eu^$font
 !||onet.pl^$inline-script
