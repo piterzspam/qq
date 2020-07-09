@@ -94,7 +94,11 @@ onet.pl##DIV.detail > DIV.embedded-app:last-child
 onet.pl##DIV.detail > DIV.promoFrame
 !Żółte kropki z linkami artykułu w treści - User Agent Firefox Android telefon
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
-onet.pl##DIV.detail > UL:if(LI > A[href*="onet.pl/"])
+!onet.pl##DIV.detail > UL:if(LI > A[href*="onet.pl/"])
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj
+!https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb
+onet.pl##DIV#detail > UL[data-scroll="bullet"]:not(.firstList):has(LI:has(A))
 !Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
 !https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=1be18c53-28b4-44ea-b13c-49569e791132&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
 onet.pl##NAV.bottomBarNavigations
