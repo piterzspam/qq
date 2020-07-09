@@ -170,6 +170,10 @@ onet.pl##DIV.articleBody > DIV.embeddedApp:last-of-type
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-kto-poprze-rafala-trzaskowskiego/wb98dlp
 onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
 
+!https://wiadomosci.onet.pl
+wiadomosci.onet.pl##.asideAds
+
+
 !||ocdn.eu^$font
 !||onet.pl^$inline-script
 
