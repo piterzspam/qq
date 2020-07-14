@@ -1,0 +1,93 @@
+! Title: Dla taty
+! Expires: 1 days
+
+!demotywatory.pl##+js(addEventListener-logger.js)
+!demotywatory.pl##+js(no-setTimeout-if.js)
+!demotywatory.pl##+js(no-setInterval-if.js)
+!demotywatory.pl##+js(no-requestAnimationFrame-if.js)
+
+!Strona główna
+||connect.facebook.net^$domain=demotywatory.pl
+
+!Strona główna
+!Obrazek 1x1
+||demotywatory.pl/*/demotivator_video$xhr
+
+!Strona główna
+!Obrazki:
+!demotywatory.pl/res/files/ladujacysiekubek.gif
+!demotywatory.pl/res/files/sakwa.jpg
+!demotywatory.pl/res/files/budda.jpg
+!demotywatory.pl/res/files/wodektreningowy.jpg
+||demotywatory.pl/res/files/$image
+
+!Strona główna
+!Z 5000 wykonań w pliku https://demotywatory.pl/res/assets/libs-revision01f39d9d26d7c60f62aa8272e63dccf5.js: uBO: setTimeout("function reset(){setTimeout(reset,mutate.speed);}", 1)
+demotywatory.pl##+js(abort-on-property-read.js, mutate.speed)
+
+!Działa z tym włączonym, ale nie działają komentarze
+!Wideo typ 1: https://demotywatory.pl/5010738/Zwykly-dzien-Cisza-spokoj-i-nagle
+!Wideo typ 2: https://demotywatory.pl/5008367/Lotniskowy-piesek-z-Grudziadza-podbija-internet
+!||demotywatory.pl^$inline-script
+!||demotywatory.pl^$inline-script
+
+!https://demotywatory.pl/5010638/Trwaja-poszukiwania-weterana-wojny-w-Afganistanie-z
+!Obrazek 1x1
+||demotywatory.pl/*/demotivator_video$image
+
+!Powiązane nad demotem
+!https://demotywatory.pl/5010638/Trwaja-poszukiwania-weterana-wojny-w-Afganistanie-z
+||demotywatory.pl/uploads/*_nl.jpg$image
+demotywatory.pl##DIV#top_demots
+!Powiązane pod demotem
+!https://demotywatory.pl/5010638/Trwaja-poszukiwania-weterana-wojny-w-Afganistanie-z
+||demotywatory.pl/uploads/*_nl.jpg$image
+demotywatory.pl##DIV#suggestedBoxContent
+!Pewnie do komentarzy, bo na stronie głównej nie ma
+!https://demotywatory.pl/5010638/Trwaja-poszukiwania-weterana-wojny-w-Afganistanie-z
+||google.com/recaptcha/$domain=demotywatory.pl,important
+||gstatic.com/recaptcha/$domain=demotywatory.pl,important
+
+!Obrazek 1x1
+!https://demotywatory.pl/5010638/Trwaja-poszukiwania-weterana-wojny-w-Afganistanie-z
+||demotywatory.pl/*/demotivator$image
+||demotywatory.pl/*/demotivator$xhr
+
+!Linki do innych stron na dole strony
+!https://demotywatory.pl/5010638/Trwaja-poszukiwania-weterana-wojny-w-Afganistanie-z
+||demotywatory.pl/res/img/services_logo$image
+demotywatory.pl##DIV#services_box
+
+!Z tym psuje się wygląd strony: demotywatory.pl/res/assets/user-revision - https://demotywatory.pl/5008367/Lotniskowy-piesek-z-Grudziadza-podbija-internet
+!Z tym psuje się wideo: ||demotywatory.pl/res/assets/libs-revision - https://demotywatory.pl/5008367/Lotniskowy-piesek-z-Grudziadza-podbija-internet
+
+!Sekcja najlepsze komentarze na stronie głównej
+demotywatory.pl##SECTION.demots > ARTICLE:has(H2#top-comments)
+_120.$image,domain=demotywatory.pl
+
+!Pusty demot pod innym demotem na stronie głównej
+!To blokowało też komantarze pod demotami: demotywatory.pl##ARTICLE:if-not(DIV.demotivator > DIV.demot_pic)
+demotywatory.pl##SECTION.demots > ARTICLE:if-not(DIV.demotivator > DIV.true_demotivator)
+
+!Przycisk stylowi pod demotem koło przycisku FB
+||demotywatory.pl/res/img/layout/share-stylowi.gif
+
+!Ostani slajd w galerii
+!https://demotywatory.pl/5010923/Druga-tura-wyborow-w-podsumowaniu-internautow-Jak-zawsze-tak?galleryPage=8
+demotywatory.pl##DIV#galleryLastSlide
+
+!Wyłączenie wznawiania odtwarzania eventem scroll po ręcznym zatrzymaniu odtwarzania
+!https://demotywatory.pl/5010738/Zwykly-dzien-Cisza-spokoj-i-nagle
+demotywatory.pl##+js(addEventListener-defuser.js, scroll)
+!To blokowało odtwarzanie drugiego typu wideo: demotywatory.pl##+js(addEventListener-defuser.js, , u.elem)
+
+!https://demotywatory.pl/page/5
+!https://advmanager.techfun.pl/cp/-49-53-52-55-/qrzbgljngbel
+||advmanager.techfun.pl^$domain=demotywatory.pl
+
+!Skrypty: strona główna: demotywatory.pl/
+!||demotywatory.pl/|$inline-script
+!Skrypty: kolejne strony: demotywatory.pl/page/
+!||demotywatory.pl/page$inline-script
+!demotywatory.pl##+js(no-setTimeout-if.js, /^/)
+!gorhill.github.io##+js(no-setTimeout-if.js, /^/)
