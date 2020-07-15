@@ -6,6 +6,13 @@
 !demotywatory.pl##+js(no-setInterval-if.js)
 !demotywatory.pl##+js(no-requestAnimationFrame-if.js)
 
+!Chyba zostawiłem powyższe włączone w "Moje filtry"
+demotywatory.pl#@#+js(addEventListener-logger.js)
+demotywatory.pl#@#+js(no-setTimeout-if.js)
+demotywatory.pl#@#+js(no-setInterval-if.js)
+demotywatory.pl#@#+js(no-requestAnimationFrame-if.js)
+
+
 !Strona główna
 ||connect.facebook.net^$domain=demotywatory.pl
 
