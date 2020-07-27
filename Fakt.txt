@@ -225,10 +225,10 @@ onet.tv##A.shield
 !Żądania po powiązane z ramki pulsembed.eu do player-api.dreamlab.pl ze strony mobilnej
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
 !||player-api.dreamlab.pl/?body%*get_asset_detail$domain=onet.tv
-fakt.pl,onet.tv,pulsembed.eu##+js(addEventListener-logger.js)
-fakt.pl,onet.tv,pulsembed.eu##+js(no-requestAnimationFrame-if.js)
-fakt.pl,onet.tv,pulsembed.eu##+js(no-setInterval-if.js)
-fakt.pl,onet.tv,pulsembed.eu##+js(no-setTimeout-if.js)
+!fakt.pl,onet.tv,pulsembed.eu##+js(addEventListener-logger.js)
+!fakt.pl,onet.tv,pulsembed.eu##+js(no-requestAnimationFrame-if.js)
+!fakt.pl,onet.tv,pulsembed.eu##+js(no-setInterval-if.js)
+!fakt.pl,onet.tv,pulsembed.eu##+js(no-setTimeout-if.js)
 
 !||ocdn.eu/paas-static/template-engine/
 !||ocdn.eu/ucs/static/
