@@ -568,4 +568,16 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 @@||connect.facebook.net/*/sdk.js$script,third-party,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 
 
+!2020-07-28
+!Puste miejsce nad ostatnim paragrafem
+!https://dziennikzachodni.pl/ruda-slaska-kopalnia-zostanie-zamknieta-to-ratunek-dla-pgg-krzysztof-mejer-wiceprezydent-miasta-czujemy-sie-oszukani/ar/c3-15100694
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.componentsAdsContent
 !
+
+!https://radom.naszemiasto.pl/top-10-pizzerii-w-radomiu-wedlug-portalu-tripadvisor-oraz/ga/c17-7825570/zd/55032702
+||s-nsk.ppstatic.pl/assets/nsk/*/compiled/components/recommendations/mixed/listing.js
+
+!https://radom.naszemiasto.pl/top-10-pizzerii-w-radomiu-wedlug-portalu-tripadvisor-oraz/ga/c17-7825570/zd/55032702
+!s-nm.ppstatic.pl/p/js/track_ua.js?
+!s-nm.ppstatic.pl/o/js/track_ua.js?
+||ppstatic.pl/*/track_ua.js?
