@@ -8,6 +8,10 @@
 !https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
 @@||pulsembed.eu^$ghide
 
+!Filtr ||sgqcvfjvr.onet.pl^ z EasyPrivacy
+@@||sgqcvfjvr.onet.pl^$domain=onet.pl
+!Bez tego nie ładują się miniaturki w sekcji "Zobacz Więcej" na stronie https://wiadomosci.onet.pl/
+
 ||googletagservices.com^$domain=onet.pl
 ||sgqcvfjvr.onet.pl^$domain=onet.pl
 ||events.ocdn.eu^$domain=onet.pl
@@ -52,12 +56,13 @@ onet.pl##DIV.nitroShare
 ||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
 ||pmi.flowplayer.com^$domain=pulsembed.eu
-!||onet.pl^$script,first-party
-!||onet.pl^$image,first-party
-!||onet.pl^$xhr,first-party
+||onet.pl^$script,first-party
+||onet.pl^$image,first-party
+||onet.pl^$xhr,first-party
 !@@||onet.pl/?ajax=*&page=*$xhr,first-party
 !@@||onet.pl/politico?ajax=1&page=1
 @@||onet.pl/*?ajax=*&page=*$xhr,first-party
+@@||onet.pl/favicon.ico
 ||pulsembed.eu^$xhr,first-party
 ||pulsembed.eu^$script,first-party
 ||pulsembed.eu^$image,first-party
@@ -187,14 +192,18 @@ onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na 
 !https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?srcc=ucs
 ||ocdn.eu/*/floating-player$domain=onet.pl
 
-!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
-!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl
-@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
-
 !Fanboy’s Enhanced Tracking List
 !https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?srcc=ucs
 !@@/adservice.*.js?domain=$script
 ||adservice.google.com^$domain=pulsembed.eu,important
+
+!https://kobieta.onet.pl/
+!https://ocdn.eu/kobieta/pwa/workbox-google-analytics.prod.v1.0.0.js
+||ocdn.eu/*google-analytics
+!https://kobieta.onet.pl/kobieta-sw.js
+||onet.pl/*sw.js
+!https://ocdn.eu/skom/utils/stats/tracked-section.js
+||ocdn.eu/*tracked-section.js
 
 !||ocdn.eu^$font
 !||onet.pl^$inline-script
