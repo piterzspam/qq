@@ -175,8 +175,11 @@ onet.pl##DIV.articleBody > DIV.embeddedApp:last-of-type
 onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
 
 !https://wiadomosci.onet.pl
-wiadomosci.onet.pl##.asideAds
+onet.pl##.asideAds
 
+!https://wiadomosci.onet.pl/kraj/rekonstrukcja-rzadu-premier-zostaje-wielu-ministrow-zagrozonych/5ghj3tt
+onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści.)
+onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści.) + DIV.embeddedApp
 
 !||ocdn.eu^$font
 !||onet.pl^$inline-script
