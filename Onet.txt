@@ -52,9 +52,9 @@ onet.pl##DIV.nitroShare
 ||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
 ||pmi.flowplayer.com^$domain=pulsembed.eu
-||onet.pl^$script,first-party
-||onet.pl^$image,first-party
-||onet.pl^$xhr,first-party
+!||onet.pl^$script,first-party
+!||onet.pl^$image,first-party
+!||onet.pl^$xhr,first-party
 !@@||onet.pl/?ajax=*&page=*$xhr,first-party
 !@@||onet.pl/politico?ajax=1&page=1
 @@||onet.pl/*?ajax=*&page=*$xhr,first-party
@@ -180,6 +180,21 @@ onet.pl##.asideAds
 !https://wiadomosci.onet.pl/kraj/rekonstrukcja-rzadu-premier-zostaje-wielu-ministrow-zagrozonych/5ghj3tt
 onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści.)
 onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści.) + DIV.embeddedApp
+
+!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?srcc=ucs
+||ocdn.eu/*/floating-player$domain=onet.pl
+
+!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?srcc=ucs
+||ocdn.eu/*/floating-player$domain=onet.pl
+
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
+!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl
+@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
+
+!Fanboy’s Enhanced Tracking List
+!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?srcc=ucs
+!@@/adservice.*.js?domain=$script
+||adservice.google.com^$domain=pulsembed.eu,important
 
 !||ocdn.eu^$font
 !||onet.pl^$inline-script
