@@ -38,6 +38,24 @@ Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowi
 !https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=31971d2a-54c9-4ccd-b0da-ee5b9d4ad0e6&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
 onet.pl##DIV.nitroShare
 
+!Żółta kropka w treści z linkiem do onet.pl: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+!Żółta kropka w treści z linkiem do vod.pl: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w treści z linkiem do klubjagielloński.pl: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
+!Żółta kropka w treści bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
+!Zółta kropka w treści bez linku: https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
+!Zółta kropka w leadzie z linkiem: https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
+!onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="onet.pl"])
+!onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+!https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
+!onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="onet.pl"])
+!onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+onet.pl##UL:not(.firstList):has(> LI > A[href*="onet.pl"])
+onet.pl##UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+
 !https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
 ||events.ocdn.eu^
 ||k266d5zsl.onet.pl^$domain=pulsembed.eu
@@ -85,34 +103,16 @@ onet.pl##DIV.social-container
 !https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
 onet.pl##ASIDE.extraListTop.extraList
 
-!Szare pole "Zobacz także" z linkami w treści artykułu
-!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
-onet.pl##DIV.articleBody > DIV.frameWrap
-
-!Żółte kropki z linkami artykułu w treści
-!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
-onet.pl##DIV.articleBody > UL[data-scroll="bullet"]
-
 !Ostatnie wideo pod artykułem nie związane z tematem
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
 onet.pl##DIV.articleBody > DIV.embeddedApp:last-child
-
-!Ostatnie wideo pod artykułem nie związane z tematem - User Agent Firefox Android telefon
+!Ostatnie wideo pod artykułem nie związane z tematem
 !https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
-!onet.pl##DIV.detail > P[data-scroll="paragraph"]:last-of-type + DIV.embedded-app:last-child
 onet.pl##DIV.detail > DIV.embedded-app:last-child
 
 !Szare pole "Zobacz także" z linkami w treści artykułu - User Agent Firefox Android telefon
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##DIV.detail > DIV.promoFrame
-
-!Żółte kropki z linkami artykułu w treści - User Agent Firefox Android telefon
-!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-!onet.pl##DIV.detail > UL:if(LI > A[href*="onet.pl/"])
-!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
-!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
-!https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
-onet.pl##DIV#detail > UL[data-scroll="bullet"]:not(.firstList):has(LI:has(A))
+onet.pl##DIV.frameWrap
 
 !Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
 !https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=1be18c53-28b4-44ea-b13c-49569e791132&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
@@ -133,14 +133,6 @@ onet.pl#@#DIV#googleAdsCont
 !Puste miejsce po reklamie w prawej kolumnie na dole - User Agent Firefox Windows
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
 onet.pl##DIV#extraAdsBlock
-
-!Paragrafy, gdzie po długości oceniam, że są tylko linki do innych tekstów, bez treści
-!https://wiadomosci.onet.pl/kraj/kamil-zaradkiewicz-sylwetka-tymczasowego-przewodniczacego-sadu-najwyzszego/5c0w15x?utm_source=_viasg_fakt
-onet.pl##DIV.detail > P[data-puuid][data-scroll="paragraph"]:has-text(/^[\s\S]{0,105}$/):if(A)
-
-!Ostanie wideow treści artykułu niezwiązane z tematem
-!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-analiza-konwencji-dudy-andrzeja-stankiewicza/9cmhy5c?utm_source=_viasg_fakt
-onet.pl##DIV.articleBody > DIV.embeddedApp:last-of-type
 
 !Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-kto-poprze-rafala-trzaskowskiego/wb98dlp?utm_source=_viasg_fakt
