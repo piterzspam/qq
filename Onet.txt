@@ -48,13 +48,15 @@ onet.pl##DIV.nitroShare
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
 !Zółta kropka w leadzie z linkiem: https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
-!onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="onet.pl"])
-!onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="onet.pl"])
+onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 !https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
-!onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="onet.pl"])
-!onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
-onet.pl##UL:not(.firstList):has(> LI > A[href*="onet.pl"])
-onet.pl##UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="onet.pl"])
+onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+!Poniższe filtry blokowały belkę na: https://wiadomosci.onet.pl/
+!onet.pl##UL:not(.firstList):has(> LI > A[href*="onet.pl"])
+!onet.pl##UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+
 
 !https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
 ||events.ocdn.eu^
