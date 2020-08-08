@@ -51,8 +51,6 @@ fakt.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
 !https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
 fakt.pl##+js(addEventListener-defuser.js, scroll, setTimeout)
 fakt.pl##+js(addEventListener-defuser.js, click, iframe)
-!pulsembed.eu##+js(addEventListener-defuser.js, scroll)
-!imasdk.googleapis.com##+js(addEventListener-defuser.js, scroll)
 
 !Paragraf z "Zobacz też:" nad wideo powiązanym z napisem :
 !https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
@@ -204,13 +202,9 @@ fakt.pl##DIV#onet-ad-top
 
 !Żądania po powiązane z ramki pulsembed.eu do ssl.onetapi.pl ze strony mobilnej
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
-||ssl.onetapi.pl/?callback=$domain=pulsembed.eu
-
 !Żądania po powiązane z ramki onet.tv do ssl.onetapi.pl ze strony mobilnej
 !https://www.fakt.pl/wydarzenia/polityka/monika-kurska-zabrala-glos-ws-syna-nieuczciwa-kampania/n32b7l4?utm_source=_viasg_fakt
-||ssl.onetapi.pl/?callback=$domain=onet.tv
 ||ssl.onetapi.pl/?callback=
-
 
 !Wyłączenie automatycznego włączania następnego wideo po zakończeniu pierwsszego na stronie mobilnej
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
@@ -221,46 +215,11 @@ onet.tv##+js(addEventListener-defuser.js, ended)
 !jest warstwa, po kliknięciu której przenosi na stronę główną:
 onet.tv##A.shield
 
-
 !Żądania po powiązane z ramki pulsembed.eu do player-api.dreamlab.pl ze strony mobilnej
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
 !||player-api.dreamlab.pl/?body%*get_asset_detail$domain=onet.tv
-!fakt.pl,onet.tv,pulsembed.eu##+js(addEventListener-logger.js)
-!fakt.pl,onet.tv,pulsembed.eu##+js(no-requestAnimationFrame-if.js)
-!fakt.pl,onet.tv,pulsembed.eu##+js(no-setInterval-if.js)
-!fakt.pl,onet.tv,pulsembed.eu##+js(no-setTimeout-if.js)
 
-!||ocdn.eu/paas-static/template-engine/
-!||ocdn.eu/ucs/static/
-!fakt.pl##+js(addEventListener-defuser.js, resize)
-!fakt.pl##+js(addEventListener-defuser.js, scroll)
-!onet.tv##+js(addEventListener-logger.js)
-!onet.tv##+js(no-requestAnimationFrame-if.js)
-!onet.tv##+js(no-setInterval-if.js)
-!onet.tv##+js(no-setTimeout-if.js)
-
-!imasdk.googleapis.com##+js(addEventListener-logger.js)
-!imasdk.googleapis.com##+js(no-requestAnimationFrame-if.js)
-!imasdk.googleapis.com##+js(no-setInterval-if.js)
-!imasdk.googleapis.com##+js(no-setTimeout-if.js)
-!onet.tv##+js(no-setTimeout-if.js, nextClipManager, 100)
-!onet.tv##+js(no-setTimeout-if.js, new, 5000)
-!onet.tv##+js(no-setInterval-if.js, new, 1000)
-!onet.tv##+js(no-setInterval-if.js, new, 15000)
-!onet.tv##+js(no-setTimeout-if.js, isSeekInProgress, 1000)
-!onet.tv##+js(no-setTimeout-if.js, _play(), 2000)
-!onet.tv##+js(no-setTimeout-if.js, play(), 1)
-!onet.tv##+js(no-setTimeout-if.js, /^/)
-!onet.tv##+js(no-setInterval-if.js, , 1000)
-!onet.tv##+js(no-setInterval-if.js, , 60000)
-
-
-!fakt.pl##+js(addEventListener-logger.js)
-!onet.tv##+js(addEventListener-logger.js)
-!pulsembed.eu##+js(addEventListener-logger.js)
-!fakt.pl##+js(addEventListener-defuser.js, ended)
-!pulsembed.eu##+js(addEventListener-defuser.js, ended)
-
+@@||sgqcvfjvr.onet.pl^$domain=onet.pl
 
 
 !Żądanie do powiązanych z ramki onet.tv ze strony mobilnej
@@ -312,4 +271,16 @@ fakt.pl,www-fakt-pl.cdn.ampproject.org##AMP-IFRAME.i-amphtml-layout-responsive[s
 !Wideo powiązane niezablokowane
 !https://www.fakt.pl/wydarzenia/polityka/monika-kurska-zabrala-glos-ws-syna-nieuczciwa-kampania/n32b7l4?utm_source=_viasg_fakt
 !https://www.fakt.pl/wydarzenia/polityka/burzynska-co-czeka-nas-po-wyborach-prezydenckich/1ql9n4x?utm_source=_viasg_fakt
-!
+
+
+!Filtr cdn.tinypass.com* z Browse websites without logging in
+@@||cdn.tinypass.com/api/tinypass-gtp.min.js$domain=fakt.pl
+@@||experience.tinypass.com/xbuilder/experience/load?aid=$domain=fakt.pl
+@@||cdn.tinypass.com/api/tinypass.min.js$domain=fakt.pl
+@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=fakt.pl
+||tinypass.com/*?tracking_id
+fakt.pl##DIV.contentPremium:style(display: block !important)
+
+!https://www.fakt.pl/pieniadze/biznes/metan-wykryty-na-antarktydzie-to-moze-byc-koniec-cywilizacji/6bqw847?utm_source=www.fakt.pl_viasg_fakt
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+fakt.pl##BODY.faktDefault:style(padding-top: 113px !important)
