@@ -166,14 +166,151 @@ onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na 
 !https://ocdn.eu/skom/utils/stats/tracked-section.js
 ||ocdn.eu/*tracked-section.js
 
+!Pasek z socialami nad leadem
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-andrzej-sosnierz-krytykuje-rzad-za-walke-z-epidemia/kvgxs9n,79cfc278
+onet.pl##DIV._3r88rCARRhkQKjaEl0gPLZ
+
+!Kropka z linkiem wewnątrz artykułu
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-andrzej-sosnierz-krytykuje-rzad-za-walke-z-epidemia/kvgxs9n,79cfc278
+onet.pl##SECTION.contentBottomContainer > DIV > UL:has(STRONG:has-text(Zobacz również:))
+
+!Przyciski do facebooka i Tiwttera po lewej stronie artykułu
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-andrzej-sosnierz-krytykuje-rzad-za-walke-z-epidemia/kvgxs9n,79cfc278
+onet.pl##DIV[data-gtm-social]
+
+!Ostatnie wideo na stronie nie powiązane z tematem
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-andrzej-sosnierz-krytykuje-rzad-za-walke-z-epidemia/kvgxs9n,79cfc278
+!Ramka z wideo: https://www.onet.pl/informacje/onetpoznan/cenzura-w-radiu-poznan-zniknela-piosenka-o-jacku-kurskim/pccepg1,79cfc278
+!Ramka z facebooka: https://www.onet.pl/informacje/onettrojmiasto/plaze-w-czasach-pandemii-rozmawiamy-z-fotografem-slynnego-ujecia-z-wladyslawowa/1x8tzhz,79cfc278
+!Ramka z wideo: https://www.onet.pl/informacje/onetwiadomosci/czesto-widze-zupelny-brak-empatii-do-ofiar-dr-gorowski-komentuje-tekst-podwojny-gwalt/p67vxnq,79cfc278
+!Ramka z twittera: https://www.onet.pl/informacje/onetwiadomosci/liban-wybuch-w-bejrucie-kancelaria-premiera-uszkodzona-zdjecia/6xxvkm9,79cfc278
+!Ramka z wideo jako wideo główne: https://www.onet.pl/informacje/onetwiadomosci/most-pilchowicki-zostanie-wysadzony-to-barbarzynski-ruch/e48s1sv,79cfc278
+!Ramka z twittera: https://www.onet.pl/informacje/onetwarszawa/warszawa-policja-sa-pierwsi-zatrzymani-za-zniewazenie-pomnikow/96wc2zj,79cfc278
+onet.pl##SECTION.contentBottomContainer DIV.pulsembed_embed[data-provider-name="pulsevideo"]:last-of-type
+
+!Paragraf zachecający do newlettera na końcu artykułu
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+onet.pl##P:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
+
+!Prostokąt z newletterem pod artykułem
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+!onet.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
+!https://www.onet.pl/informacje/onetwiadomosci/liban-wybuch-w-bejrucie-andrzej-duda-armagedon/5c1klbb,79cfc278
+onet.pl##DIV.pulsembed_embed[data-provider-name="htmlbox"]
+
+!Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s.js
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/init.js
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/linkstorage.js
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/locallink.js
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s_async.js
+||ocdn.eu/*/ad_s.js$script,redirect=noopjs
+||ocdn.eu/*/ad_s/init.js
+||ocdn.eu/*/ad_s/linkstorage.js
+||ocdn.eu/*/ad_s/locallink.js
+||ocdn.eu/*/ad_s_async.js
+
+
+!Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej, domyślam się, że powiadomienia
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/common/pushapplication.js
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/push.js
+||ocdn.eu/*/pushapplication.js
+||ocdn.eu/*/push.js$script,redirect=noopjs
+
+!Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/common/components/ad_SlotUtil.js
+||ocdn.eu/*/ad_SlotUtil.js$script,redirect=noopjs
+
+!Autorefresh po jakimś czasie
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/autorefresh.js
+||ocdn.eu/*/autorefresh.js$script,redirect=noopjs
+
+!Część odpowiedzialna za przeniesienie na główną po przescrollowaniu na dół
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+onet.pl##DIV.backToMainPage
+
+!Szare pole z napisam zobacz także po lewej od artykułu
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+onet.pl##DIV.C5XFtgeC-8Px7XoX8_Vo3
+
+!doubleclick.net w treści
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+!||ocdn.eu/*/boxBody.js$script,redirect=noopjs
+
+!User-agent firefox android
+!https://www.onet.pl/
+!onet.pl/push-service-worker4.js?V=450
+||onet.pl/push-service-worker
+@@||onet.pl/newslivestream
+
+!Przyciski osicalowe nad leadem na stronie mobilnej
+!https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
+onet.pl##DIV.commons
+!Emotki nad leadem na stronie mobilnej
+!https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
+onet.pl##SPAN.emotions
+
+!Szara ramka z Zobacz także
+!https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
+onet.pl##DIV.promoFrame
+
+!Przeniesienie ze strony z błędem 404 na stronę główną
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
+onet.pl##+js(no-setTimeout-if.js, 404, 2000)
+
+!Zółta kropka w rteści z linkiem: https://www.onet.pl/informacje/onetrzeszow/kary-wiezienia-dla-pieciu-mezczyzn-za-seksualne-wykorzystywanie-maloletniej-i-gwalty/n5wz4ht,79cfc278
+!Zółta kropka w leadzie z linkiem: https://www.onet.pl/informacje/onetwiadomosci/czesto-widze-zupelny-brak-empatii-do-ofiar-dr-gorowski-komentuje-tekst-podwojny-gwalt/p67vxnq,79cfc278
+!onet.pl##SECTION.contentBottomContainer > DIV > P:first-child ~ UL:has(> LI > SPAN > A[href*="onet.pl"])
+!onet.pl##SECTION.contentBottomContainer > DIV > P:first-child ~ UL:has(> LI > SPAN > A[href*="vod.pl"])
+!Zółta kropka w rteści z linkiem: https://www.onet.pl/informacje/onettrojmiasto/plaze-w-czasach-pandemii-rozmawiamy-z-fotografem-slynnego-ujecia-z-wladyslawowa/1x8tzhz,79cfc278
+!onet.pl##SECTION.contentBottomContainer > DIV > UL:first-child ~ UL:has(> LI > SPAN > A[href*="onet.pl"])
+!onet.pl##SECTION.contentBottomContainer > DIV > UL:first-child ~ UL:has(> LI > SPAN > A[href*="vod.pl"])
+!Połączenie w jdeno
+onet.pl##SECTION.contentBottomContainer UL:has(> LI:only-child > SPAN > A[href*="onet.pl"])
+onet.pl##SECTION.contentBottomContainer UL:has(> LI:only-child > SPAN > A[href*="vod.pl"])
+
+!Formularz pod artykułem Masz ciekawy temat? Napisz do nas list!
+!https://www.onet.pl/informacje/onetwiadomosci/nieobecni-na-zaprzysiezeniu-andrzeja-dudy-lista-jest-coraz-dluzsza/jy1fznc,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/donald-trump-o-wybuchu-w-bejrucie-wedlug-generalow-to-byl-atak/3tt8fqc,79cfc278
+onet.pl##SECTION.contentBottomContainer > DIV > DIV:has(A[href="https://wiadomosci.onet.pl/listy-do-redakcji"])
+
+
+!Żółta kropka w treści z linkiem do onet.pl: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+!Żółta kropka w treści z linkiem do vod.pl: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w treści z linkiem do klubjagielloński.pl: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
+!Żółta kropka w treści bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
+!Zółta kropka w treści bez linku: https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
+!Zółta kropka w leadzie z linkiem: https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
+onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI:only-child > A[href*="onet.pl"])
+onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI:only-child > A[href*="vod.pl"])
+!https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
+onet.pl##DIV.detail > UL:not(.firstList):has(> LI:only-child > A[href*="onet.pl"])
+onet.pl##DIV.detail > UL:not(.firstList):has(> LI:only-child > A[href*="vod.pl"])
+!Poniższe filtry blokowały belkę na: https://wiadomosci.onet.pl/
+!onet.pl##UL:not(.firstList):has(> LI > A[href*="onet.pl"])
+!onet.pl##UL:not(.firstList):has(> LI > A[href*="vod.pl"])
+
+
+!Nieblokowane wideo powiązane
+!https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
+
+!Wideo główne flowplayer
+!https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
+
+!Wideo w treści artykułu Ciąg dalszy artykułu pod wideo.
+!https://www.onet.pl/kultura/onetkultura/jacek-kurski-jednak-nie-zostanie-prezesem-tvp-krzysztof-czabanski-zabral-glos/4bf8tkk,681c1dfa
+
+!Dwa wideo w treści artykułu:
+!https://kultura.onet.pl/wywiady-i-artykuly/jacek-kurski-wraca-do-zarzadu-tvp-jak-wygladaly-cztery-lata-jego-rzadow-jako-prezesa/2mv29tn
+!Dwa wideo w treści artykułu w tym flowplayer:
+!https://www.onet.pl/kultura/onetkultura/jacek-kurski-jednak-nie-zostanie-prezesem-tvp-krzysztof-czabanski-zabral-glos/4bf8tkk,681c1dfa
+
 !Puste miejsca po reklamach na https://www.onet.pl/
 onet.pl##DIV.insertedSlot
-
-
-
-
-
-
 
 !Wideo na temat onet -> pulsembed.eu
 !https://wiadomosci.onet.pl/tylko-w-onecie/susza-w-polsce-prof-karaczun-ostrzega-moze-nas-czekac-wojna-o-wode/rwwbwzm?utm_source=_viasg_fakt
