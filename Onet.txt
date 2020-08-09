@@ -78,9 +78,9 @@ onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 ||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
 ||pmi.flowplayer.com^$domain=pulsembed.eu
-||onet.pl^$script,first-party
-||onet.pl^$image,first-party
-||onet.pl^$xhr,first-party
+/onet\.pl\/[^\/]+^/$script,first-party
+/onet\.pl\/[^\/]+^/$image,first-party
+/onet\.pl\/[^\/]+^/$xhr,first-party
 !@@||onet.pl/?ajax=*&page=*$xhr,first-party
 !@@||onet.pl/politico?ajax=1&page=1
 @@||onet.pl/*?ajax=*&page=*$xhr,first-party
@@ -294,6 +294,31 @@ onet.pl##DIV.detail > UL:not(.firstList):has(> LI:only-child > A[href*="vod.pl"]
 !onet.pl##UL:not(.firstList):has(> LI > A[href*="onet.pl"])
 !onet.pl##UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/kobieta-sw.js
+||onet.pl/*-sw.js
+
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+||batuu.pl^$domain=onet.pl
+
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+||ocdn.eu/*smartlink
+
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+||ocdn.eu/*lpsAdsLifestyle.js
+
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+||ocdn.eu/*flowplayer*bundle.min.js
+
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+||ocdn.eu/*flowplayer*bundle-
+
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+||ocdn.eu/*flowplayer*flowplayer.min.js
+
+!Prosotkąt Obserwuj nas po prawej stronie
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+onet.pl##.widgetFollowUs.widget
 
 !Nieblokowane wideo powiązane
 !https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
