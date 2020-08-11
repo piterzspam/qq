@@ -15,10 +15,10 @@
 !Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
 ||2mdn.net^$domain=pulsembed.eu,important
 
-||googletagservices.com^$domain=onet.pl
-||sgqcvfjvr.onet.pl^$domain=onet.pl
-||events.ocdn.eu^$domain=onet.pl
-||k266d5zsl.onet.pl^$domain=onet.pl
+||googletagservices.com^
+||sgqcvfjvr.onet.pl^
+||events.ocdn.eu^
+||k266d5zsl.onet.pl^
 
 !Pewnie jakiś komunikat o aplikacji na mobilnej wersji strony
 !https://play.google.com/store/apps/details?id=pl.onet.onethd
@@ -60,7 +60,7 @@ onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 
 !https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
 ||events.ocdn.eu^
-||k266d5zsl.onet.pl^$domain=pulsembed.eu
+||k266d5zsl.onet.pl^
 ||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
 @@||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
 
@@ -148,10 +148,7 @@ onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na 
 onet.pl##P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści.) + DIV.embeddedApp
 
 !https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
-||ocdn.eu/*/floating-player$domain=onet.pl
-
-!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
-||ocdn.eu/*/floating-player$domain=onet.pl
+||ocdn.eu/*/floating-player
 
 !Fanboy’s Enhanced Tracking List
 !https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
