@@ -122,11 +122,10 @@ wprost.pl##A#subsription-button
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
 ||wprost.pl/*/widgets/promocja-tygodnika-
 
-!"Czytaj także:" pod artykułem
+!"Czytaj także:" pod artykułem, nie, bo to blokuje też ramki na https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
-||wprost.pl/relations
-!Na wersji mobilnej - Waterfox
-wprost.pl##SPAN.art-text-relation
+!||wprost.pl/relations
+||wprost.pl/relations/
 !Na wersji mobilnej - Firefox
 wprost.pl##SPAN.relation-ph
 
@@ -147,6 +146,10 @@ wprost.pl##SECTION#comments
 !Pasek pod górnym paskiem pojawiający się przy scrollowaniu
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
 wprost.pl##DIV#element-header.pinned
+
+!Miniaturka powiązana pod artykułem
+!https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
+wprost.pl##SPAN.art-text-relation-text
 
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
 wprost.pl##+js(no-setTimeout-if.js, alkEnabled)
