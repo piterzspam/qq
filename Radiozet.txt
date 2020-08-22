@@ -1,0 +1,113 @@
+! Title: Radiozet.pl
+! Expires: 1 day
+
+@@||radiozet.pl^$generichide
+
+||connect.facebook.net/*/sdk.js$domain=radiozet.pl,important
+
+!Nie wiem co, Voicer było przy przyciskach socialowych
+||voicer.eurozet.pl^
+
+!https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Czarzasty-do-Dudy-Bracie-niczego-nie-bedziesz-sklejal.-To-ty-to-rozwaliles
+||radiozet.pl/*/Adverts/
+
+||gemius.pl/gstream.js$script,redirect=noopjs,important
+!https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Czarzasty-do-Dudy-Bracie-niczego-nie-bedziesz-sklejal.-To-ty-to-rozwaliles
+!Fanboy’s Enhanced Tracking List @@/adservice.*.js?domain=$script
+||adservice.google.com/adsid/integrator.js?$domain=radiozet.pl|onnetwork.tv,important
+
+!AdGuard Base @@||2mdn.net/instream/
+||2mdn.net^$domain=radiozet.pl|onnetwork.tv,important
+
+!https://wiadomosci.radiozet.pl/externals/xml/stats/stats.json?t=1597766627793
+||radiozet.pl/*/stats.json
+
+!https://gfx.wiadomosci.radiozet.pl/extension/stats/design/standard/javascript/Stats.js
+||radiozet.pl/*/Stats.js
+
+!https://gfx.wiadomosci.radiozet.pl/extension/radiozet/design/standard/javascript/notifi.min.js
+||radiozet.pl/*/notifi.min.js
+
+!Powiązane artykuły w treści
+radiozet.pl##DIV.embed__article
+
+!Przycisk Przejdź na Stronę Główną pod artykułem
+!https://wiadomosci.radiozet.pl/Koronawirus/Zakaz-lotow-z-Polski-do-63-krajow.-Jakie-kraje-Nowa-lista
+radiozet.pl##A[title="Przejdź na Stronę Główną"]
+!Nagłówek Przeczytaj więcej pod artykułem
+!https://wiadomosci.radiozet.pl/Koronawirus/Zakaz-lotow-z-Polski-do-63-krajow.-Jakie-kraje-Nowa-lista
+radiozet.pl##DIV.adsbygoogle--container
+
+!Przyciski socialowe
+!https://wiadomosci.radiozet.pl/extension/radiozet-header/design/standard/images/buttons/app-store.svg
+!https://wiadomosci.radiozet.pl/extension/radiozet-header/design/standard/images/buttons/google-play.svg
+||radiozet.pl/*/buttons/$image
+
+!Reklama nad artykułem
+radiozet.pl##DIV.advert
+
+!Baner Google News pod artykułem
+radiozet.pl##A.banner-google-news
+||radiozet.pl/*google-news$image
+
+!Przyciski socialowe po lewej stronie
+radiozet.pl##DIV.column__content--left:if(> DIV > DIV.social-share)
+
+!Socialowe przyciski pod artykułem
+radiozet.pl##DIV.actions-link__voicer-active
+
+!Belka na komentarzami pod artykułem
+radiozet.pl##SPAN.block__title:has-text(Komentarze)
+
+!Link "Chcesz wiedzieć wszystko pierwszy? Dołącz do grupy Newsy Radia ZET na Facebooku" w treści tekstu
+!https://wiadomosci.radiozet.pl/Swiat/Polityka/Aleksiej-Nawalny-zostal-otruty-Mamy-zdjecia-i-nagrania-z-lotniska-i-samolotu
+radiozet.pl##P > A[href="https://www.facebook.com/groups/1353156981456163/"]
+
+!Przyciski do Messengera i Facebooka na dole strony mobilnej
+radiozet.pl##DIV.share__footer
+
+!Przycisk do powiadomień na dole strony mobilnej
+radiozet.pl##DIV.btn-notif
+
+!Przyciski socialowe pod zdjęciem w galerii
+!https://wiadomosci.radiozet.pl/Swiat/Pozary-w-Kalifornii.-Dziesiatki-tysiecy-osob-zmuszonych-do-ucieczki-FOTO/mid-epa08613370
+radiozet.pl##DIV.full__image__share
+
+!Linki do artykułów w środku tekstu
+!https://www.radiozet.pl/Co-gdzie-kiedy-jak/Paulina-Sykut-Jezyna-wiek-wzrost-maz-Instagram-Kim-jest-dziennikarka-i-prezenterka
+radiozet.pl##P:if(>A[href*="radiozet.pl"][target="_blank"][rel="dofollow noopener"]:only-child)
+
+!Dodawanie "Więcej: + url" przy kopiowaniu
+radiozet.pl##+js(addEventListener-defuser.js, copy)
+
+!Automatyczne odtwarzanie wideo kiedy jest widoczne
+radiozet.pl##+js(addEventListener-defuser.js, scroll, unvisiblePlayer)
+
+!Na stronie 
+!https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Czarzasty-do-Dudy-Bracie-niczego-nie-bedziesz-sklejal.-To-ty-to-rozwaliles
+!te wideo, to jest wideo powiązane na dole strony
+||video.onnetwork.tv/frame83.php$domain=radiozet.pl,important
+||video.onnetwork.tv/embed.php?$domain=radiozet.pl,important
+
+!Ramki z twittera
+!https://wiadomosci.radiozet.pl/Swiat/Pozar-w-hotelu-w-Marbelli-w-Hiszpanii.-Jedna-osoba-nie-zyje-WIDEO
+||syndication.twitter.com/i/jot?$image,domain=platform.twitter.com,important
+
+!Ramka z Instagrama
+!https://www.radiozet.pl/Co-gdzie-kiedy-jak/Paulina-Sykut-Jezyna-wiek-wzrost-maz-Instagram-Kim-jest-dziennikarka-i-prezenterka
+
+!Quantcast Choice z kodu źródwłowego strony
+!https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Czarzasty-do-Dudy-Bracie-niczego-nie-bedziesz-sklejal.-To-ty-to-rozwaliles
+radiozet.pl##+js(no-setTimeout-if.js, __uspapi)
+radiozet.pl##+js(no-setTimeout-if.js, otherCMP, 5)
+radiozet.pl##+js(addEventListener-defuser.js, message, msgIsString)
+radiozet.pl##+js(no-setInterval-if.js, __uspapi)
+radiozet.pl##^script:has-text(makeStub)
+
+
+radiozet.pl##+js(no-setTimeout-if.js, unref)
+radiozet.pl##+js(no-setInterval-if.js, /^/)
+radiozet.pl##+js(addEventListener-defuser.js, mousemove)
+radiozet.pl##+js(addEventListener-defuser.js, mouseleave)
+radiozet.pl##+js(addEventListener-defuser.js, , getBoundingClientRect)
+radiozet.pl##+js(no-requestAnimationFrame-if.js, dispatchEvent)
