@@ -71,3 +71,83 @@ wprost.pl##.soc-buttons
 ! 2.07.2020 https://www.wprost.pl
 ||www.wprost.pl/_i/headers/20191108-header-wybory-prezydenckie-2020.jpg$image
 wprost.pl###wb2020
+
+
+!https://www.wprost.pl/kraj/10338688/w-sobote-319-nowych-przypadkow-covid-19-w-polsce-o-754-wzrosla-liczba-wyzdrowialych.html
+||wprost.pl/_rodo/optad360/optad360.css
+
+!https://www.wprost.pl/nauka/10338663/wykryto-izotopy-promieniotworcze-w-rejonie-baltyku-sa-najprawdopodobniej-pochodzenia-cywilnego.html
+!Po przescrollowaniu strony w dół do powiązanych, a potem w górę, to nad artykułem pojawiają się powiązane
+||wprost.pl/nauka$xhr
+@@||wprost.pl/_js/ad/idmnet/ads.js?
+
+!Paywall, rozmazanie działa i informacja jest też bez tego
+!https://premium.wprost.pl/10353921/pytania-o-finansowanie-stop-bzdurom-aktywisci-zbieraja-w-sieci-min-na-jedzenie-i-rachunki-na-co-wydaja-w-rzeczywistosci.html
+!premium.wprost.pl/_js/community.js
+||wprost.pl/*/community.js
+
+!Pewnie reklamy
+!https://premium.wprost.pl/10353921/pytania-o-finansowanie-stop-bzdurom-aktywisci-zbieraja-w-sieci-min-na-jedzenie-i-rachunki-na-co-wydaja-w-rzeczywistosci.html
+!embed.wprost.pl/embed/_js/adpopup.js
+||wprost.pl/*/adpopup.js
+
+!W narzędziach devowych widać, ze to reklamy
+!https://premium.wprost.pl/10353921/pytania-o-finansowanie-stop-bzdurom-aktywisci-zbieraja-w-sieci-min-na-jedzenie-i-rachunki-na-co-wydaja-w-rzeczywistosci.html
+!https://premium.wprost.pl/hits.php
+||wprost.pl/*hits.php
+!https://embed.wprost.pl/ad/displays
+||wprost.pl/*ad/displays
+
+!https://premium.wprost.pl/10353921/pytania-o-finansowanie-stop-bzdurom-aktywisci-zbieraja-w-sieci-min-na-jedzenie-i-rachunki-na-co-wydaja-w-rzeczywistosci.html
+!https://premium.wprost.pl/service-worker-wprost.js
+||wprost.pl/*service-worker-wprost.js
+
+!Sekcja komentarzy pod artykułem
+!https://premium.wprost.pl/10355212/jaka-przyszlosc-czeka-bialorus-przedstawiamy-piec-mozliwych-scenariuszy.html
+wprost.pl##DIV.art-bar-comments
+
+!Sekcja socialowa pod artykułem
+!https://premium.wprost.pl/10355212/jaka-przyszlosc-czeka-bialorus-przedstawiamy-piec-mozliwych-scenariuszy.html
+wprost.pl##DIV#share-buttons
+
+!Obrazki przycisków socialowych i obrazki do appek mobilnych i ikona powiaomieć
+!https://premium.wprost.pl/10353921/pytania-o-finansowanie-stop-bzdurom-aktywisci-zbieraja-w-sieci-min-na-jedzenie-i-rachunki-na-co-wydaja-w-rzeczywistosci.html
+||wprost.pl/_i/icon-20-a-soc
+
+!Przycisk subskrybcji na górnym pasku
+!https://premium.wprost.pl/10355212/jaka-przyszlosc-czeka-bialorus-przedstawiamy-piec-mozliwych-scenariuszy.html
+wprost.pl##A#subsription-button
+||wprost.pl/_i/icon-20-p-bell.png
+
+!https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
+||wprost.pl/*/widgets/promocja-tygodnika-
+
+!"Czytaj także:" pod artykułem
+!https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
+||wprost.pl/relations
+!Na wersji mobilnej - Waterfox
+wprost.pl##SPAN.art-text-relation
+!Na wersji mobilnej - Firefox
+wprost.pl##SPAN.relation-ph
+
+!https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
+!https://www.wprost.pl/sw.js
+||wprost.pl/*sw.js
+
+!Pole na komentarze pod artykułem
+!https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
+!https://www.wprost.pl/comments
+||wprost.pl/*comments
+wprost.pl##SECTION#comments
+
+!Artykuł z odpowiedzi sprawdzony w narzędziach deweloperskich nie jest widoczny na stronie
+!https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
+||wprost.pl/kraj
+
+!Pasek pod górnym paskiem pojawiający się przy scrollowaniu
+!https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
+wprost.pl##DIV#element-header.pinned
+
+!https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
+wprost.pl##+js(no-setTimeout-if.js, alkEnabled)
+wprost.pl##+js(no-setTimeout-if.js, gtag)
