@@ -62,9 +62,6 @@ wprost.pl##+js(no-setTimeout-if.js, gtag)
 wprost.pl##.bottom-section.line
 wprost.pl##.ad-aside
 
-!https://www.wprost.pl/kraj/10338801/episkopat-apeluje-do-ksiezy-i-wiernych-caly-czas-jestesmy-narazeni.html
-wprost.pl##.art-text-relation
-
 !https://www.wprost.pl/tylko-u-nas
 wprost.pl##li.box-list-item-adv-billboard
 
