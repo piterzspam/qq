@@ -32,7 +32,7 @@
 !Początek: https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
 !Strona główna pod zapowiedzią artykułu - User Agent Firefox Windows
 onet.pl##BODY#pageMainContainer:style(min-height: unset !important)
-onet.pl##BODY#pageMainContainer:if(DIV.showMore) DIV#mainPageBody0Wrapper + SCRIPT + DIV.phxWidget ~ DIV
+onet.pl##DIV#mainPageBody0Wrapper:has(:scope > DIV#mainPageBody0 > SECTION.nitroModule) ~ DIV
 !Strona główna pod zapowiedzią artykułu - User Agent Firefox Android
 onet.pl##SECTION.mainSection > DIV.nitroBlock:if(DIV.showMoreButton) ~ DIV
 !Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowiedzią artykułu - User Agent Firefox Android
@@ -58,6 +58,8 @@ onet.pl##SECTION.contentBottomContainer UL:has(:scope > LI:only-child > SPAN > A
 
 !Początek: https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
 !Początek: https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
+!Masz ciekawy temat? Napisz do nas list!
+onet.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
 ||events.ocdn.eu^
 ||k266d5zsl.onet.pl^
 ||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
@@ -108,13 +110,17 @@ onet.pl#@#DIV#googleAdsCont
 onet.pl##DIV.social-container
 !Puste miejsce po reklamie po prawej stronie
 onet.pl##ASIDE.extraListTop.extraList
-!Ostatnie wideo pod artykułem nie związane z tematem
-onet.pl##DIV.articleBody > DIV.embeddedApp:last-child
 !Szare pole "Zobacz także" z linkami w treści artykułu
 onet.pl##DIV.frameWrap
 !Puste małe miejsce po reklamie przed zdaniem "Co gorsza, wygłaszane z hiobowym obliczem"
 !Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
 onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
+!Ostatnie wideo pod artykułem nie związane z tematem
+onet.pl##DIV.articleBody > DIV.embeddedApp:last-child
+!Wideo powiązane odtwarzające się po doscrollowaniu do niego
+!onet.pl##+js(addEventListener-defuser.js, scroll, 300)
+!Wideo powiązane odtwarzające przy zmianie rozmiaru okna
+!onet.pl##+js(addEventListener-defuser.js, resize, 300)
 !Koniec: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
 
 
