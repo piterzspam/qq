@@ -219,13 +219,9 @@ onet.tv##A.shield
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
 !||player-api.dreamlab.pl/?body%*get_asset_detail$domain=onet.tv
 
-@@||sgqcvfjvr.onet.pl^$domain=onet.pl
-
-
 !Żądanie do powiązanych z ramki onet.tv ze strony mobilnej
 !https://www.fakt.pl/wydarzenia/polityka/monika-kurska-zabrala-glos-ws-syna-nieuczciwa-kampania/n32b7l4?utm_source=_viasg_fakt
 ||onet.tv/_a/get-nextclips.json?
-
 
 !Żądania wywołane z fakt.pl:
 !https://www.fakt.pl/wydarzenia/polityka/kinga-duda-corka-andrzeja-dudy-tanczy-i-spiewa-film/9r2rkmv?utm_source=_viasg_fakt
