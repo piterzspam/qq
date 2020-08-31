@@ -5,7 +5,7 @@
 @@||onet.pl^$ghide
 
 !!Na wszelki wypadek
-!https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
+!https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=_viasg_fakt
 @@||pulsembed.eu^$ghide
 
 !Filtr ||sgqcvfjvr.onet.pl^ z EasyPrivacy
@@ -25,29 +25,29 @@
 ||onet.pl/mobile/manifest.json
 
 !Strona główna pod zapowiedzią artykułu - User Agent Firefox Windows
-!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=31971d2a-54c9-4ccd-b0da-ee5b9d4ad0e6&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+!https://www.onet.pl/?utm_source=_viasg_fakt
 onet.pl##BODY#pageMainContainer:style(min-height: unset !important)
 onet.pl##BODY#pageMainContainer:if(DIV.showMore) DIV#mainPageBody0Wrapper + SCRIPT + DIV.phxWidget ~ DIV
 
 !Strona główna pod zapowiedzią artykułu - User Agent Firefox Android
-https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=31971d2a-54c9-4ccd-b0da-ee5b9d4ad0e6&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+https://www.onet.pl/?utm_source=_viasg_fakt
 onet.pl##SECTION.mainSection > DIV.nitroBlock:if(DIV.showMoreButton) ~ DIV
 ||csr.onet.pl^
 
 Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowiedzią artykułu - User Agent Firefox Android telefon
-!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=31971d2a-54c9-4ccd-b0da-ee5b9d4ad0e6&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+!https://www.onet.pl/?utm_source=_viasg_fakt
 onet.pl##DIV.nitroShare
 
 !Żółta kropka w treści z linkiem do onet.pl: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-!Żółta kropka w treści z linkiem do vod.pl: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w treści z linkiem do vod.pl: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
 !Żółta kropka w treści z linkiem do klubjagielloński.pl: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
 !Żółta kropka w treści bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
-!Zółta kropka w treści bez linku: https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
+!Żółta kropka w treści bez linku: https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
-!Zółta kropka w leadzie z linkiem: https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
+!Żółta kropka w leadzie z linkiem: https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
 onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="onet.pl"])
 onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 !https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
@@ -58,7 +58,7 @@ onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 !onet.pl##UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 
 
-!https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
+!https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=_viasg_fakt
 ||events.ocdn.eu^
 ||k266d5zsl.onet.pl^
 ||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
@@ -76,7 +76,7 @@ onet.pl##DIV.detail > UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 ||ocdn.eu/video-scripts/flow-player-plugin-stats/*/bundle-$domain=pulsembed.eu
 ||ocdn.eu/video-apps/flowplayer/*/dist/plugins/message.min.js$domain=pulsembed.eu
 ||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
-!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
 ||pmi.flowplayer.com^$domain=pulsembed.eu
 /onet\.pl\/[^\/]+^/$script,first-party
 /onet\.pl\/[^\/]+^/$image,first-party
@@ -117,17 +117,17 @@ onet.pl##DIV.detail > DIV.embedded-app:last-child
 onet.pl##DIV.frameWrap
 
 !Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
-!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=1be18c53-28b4-44ea-b13c-49569e791132&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+!https://www.onet.pl/?utm_source=_viasg_fakt
 onet.pl##NAV.bottomBarNavigations
 !Na mobilnej stronie głównej przyciski do udostępnienia na miniaturach
 !https://www.onet.pl/#
 onet.pl##SPAN.shareButton
 
 !Puste małe miejsce po reklamie przed zdaniem Wydaje się, że po obu stronach mamy pewne symboliczne, ale jednak istotne pierwiosnki gotowości do poszukiwania kompromisu
-!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
 onet.pl##DIV.onet-ad
 
-!Puste miejsce po reklamie pod zobacz rózwnież pod artykułem - User Agent Firefox Windows
+!Puste miejsce po reklamie pod zobacz również pod artykułem - User Agent Firefox Windows
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
 onet.pl##DIV#googleAdsCont
 onet.pl#@#DIV#googleAdsCont
@@ -240,7 +240,7 @@ onet.pl##DIV.C5XFtgeC-8Px7XoX8_Vo3
 ||onet.pl/push-service-worker
 @@||onet.pl/newslivestream
 
-!Przyciski osicalowe nad leadem na stronie mobilnej
+!Przyciski socialowe nad leadem na stronie mobilnej
 !https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
 onet.pl##DIV.commons
 !Emotki nad leadem na stronie mobilnej
@@ -255,11 +255,11 @@ onet.pl##DIV.promoFrame
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
 onet.pl##+js(no-setTimeout-if.js, 404, 2000)
 
-!Zółta kropka w rteści z linkiem: https://www.onet.pl/informacje/onetrzeszow/kary-wiezienia-dla-pieciu-mezczyzn-za-seksualne-wykorzystywanie-maloletniej-i-gwalty/n5wz4ht,79cfc278
-!Zółta kropka w leadzie z linkiem: https://www.onet.pl/informacje/onetwiadomosci/czesto-widze-zupelny-brak-empatii-do-ofiar-dr-gorowski-komentuje-tekst-podwojny-gwalt/p67vxnq,79cfc278
+!Żółta kropka w treści z linkiem: https://www.onet.pl/informacje/onetrzeszow/kary-wiezienia-dla-pieciu-mezczyzn-za-seksualne-wykorzystywanie-maloletniej-i-gwalty/n5wz4ht,79cfc278
+!Żółta kropka w leadzie z linkiem: https://www.onet.pl/informacje/onetwiadomosci/czesto-widze-zupelny-brak-empatii-do-ofiar-dr-gorowski-komentuje-tekst-podwojny-gwalt/p67vxnq,79cfc278
 !onet.pl##SECTION.contentBottomContainer > DIV > P:first-child ~ UL:has(> LI > SPAN > A[href*="onet.pl"])
 !onet.pl##SECTION.contentBottomContainer > DIV > P:first-child ~ UL:has(> LI > SPAN > A[href*="vod.pl"])
-!Zółta kropka w rteści z linkiem: https://www.onet.pl/informacje/onettrojmiasto/plaze-w-czasach-pandemii-rozmawiamy-z-fotografem-slynnego-ujecia-z-wladyslawowa/1x8tzhz,79cfc278
+!Żółta kropka w treści z linkiem: https://www.onet.pl/informacje/onettrojmiasto/plaze-w-czasach-pandemii-rozmawiamy-z-fotografem-slynnego-ujecia-z-wladyslawowa/1x8tzhz,79cfc278
 !onet.pl##SECTION.contentBottomContainer > DIV > UL:first-child ~ UL:has(> LI > SPAN > A[href*="onet.pl"])
 !onet.pl##SECTION.contentBottomContainer > DIV > UL:first-child ~ UL:has(> LI > SPAN > A[href*="vod.pl"])
 !Połączenie w jdeno
@@ -273,15 +273,15 @@ onet.pl##SECTION.contentBottomContainer > DIV > DIV:has(A[href="https://wiadomos
 
 
 !Żółta kropka w treści z linkiem do onet.pl: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-!Żółta kropka w treści z linkiem do vod.pl: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w treści z linkiem do vod.pl: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
 !Żółta kropka w treści z linkiem do klubjagielloński.pl: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
 !Żółta kropka w treści bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
-!Zółta kropka w treści bez linku: https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
+!Żółta kropka w treści bez linku: https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fak
+!Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-2020-tvp-morawiecki-odsuniety-od-kampanii-dudy/28b6jqj?utm_source=_viasg_fakt
 !Żółta kropka w leadzie bez linku: https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
-!Zółta kropka w leadzie z linkiem: https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
+!Żółta kropka w leadzie z linkiem: https://wiadomosci.onet.pl/swiat/koronawirus-na-swiecie-rekordy-zakazen-i-zgonow-z-powodu-covid-19/n70j51x?utm_source=_viasg_fakt
 onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI:only-child > A[href*="onet.pl"])
 onet.pl##DIV.articleBody > UL:not(.firstList):has(> LI:only-child > A[href*="vod.pl"])
 !https://wiadomosci.onet.pl/kraj/koronawirus-piec-mitow-o-domowej-ochronie/737wjnd?utm_source=_viasg_fakt
@@ -291,30 +291,30 @@ onet.pl##DIV.detail > UL:not(.firstList):has(> LI:only-child > A[href*="vod.pl"]
 !onet.pl##UL:not(.firstList):has(> LI > A[href*="onet.pl"])
 !onet.pl##UL:not(.firstList):has(> LI > A[href*="vod.pl"])
 
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 !https://kobieta.onet.pl/kobieta-sw.js
 ||onet.pl/*-sw.js
 
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 ||batuu.pl^$domain=onet.pl
 
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 ||ocdn.eu/*smartlink
 
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 ||ocdn.eu/*lpsAdsLifestyle.js
 
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 ||ocdn.eu/*flowplayer*bundle.min.js
 
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 ||ocdn.eu/*flowplayer*bundle-
 
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 ||ocdn.eu/*flowplayer*flowplayer.min.js
 
 !Prosotkąt Obserwuj nas po prawej stronie
-!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 onet.pl##.widgetFollowUs.widget
 
 !Nieblokowane wideo powiązane
