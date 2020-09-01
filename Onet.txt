@@ -4,9 +4,11 @@
 !Na wszelki wypadek
 @@||onet.pl^$ghide
 
-!!Na wszelki wypadek
-!https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=_viasg_fakt
+!Na wszelki wypadek
 @@||pulsembed.eu^$ghide
+
+!Na wszelki wypadek
+@@||pulsevideo.eu^$ghide
 
 !Filtr ||sgqcvfjvr.onet.pl^ z EasyPrivacy
 !@@||sgqcvfjvr.onet.pl^$domain=onet.pl
@@ -15,9 +17,8 @@
 !Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
 ||2mdn.net^$domain=pulsembed.eu,important
 
-!Fanboy’s Enhanced Tracking List
+!Nadpisanie filtru @@/adservice.*.js?domain=$script z Fanboy’s Enhanced Tracking List
 !https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
-!@@/adservice.*.js?domain=$script
 ||adservice.google.com^$domain=pulsembed.eu,important
 
 ||googletagservices.com^
@@ -98,7 +99,7 @@ onet.pl##SECTION.OpenDiscussionBox
 !Przyciski społecznościowe po lewej stronie od wideo 
 onet.pl##DIV.contentShareLeft
 !Bez tego nie odtwarza się wideo
-@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
+@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu,kobieta.onet.pl
 !Puste miejsce po reklamie pod zobacz również pod artykułem
 onet.pl##DIV#googleAdsCont
 onet.pl#@#DIV#googleAdsCont
@@ -206,7 +207,6 @@ onet.pl##DIV.commons
 !https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
 onet.pl##SPAN.emotions
 
-
 !Przeniesienie ze strony z błędem 404 na stronę główną
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
 onet.pl##+js(no-setTimeout-if.js, 404, 2000)
@@ -236,6 +236,14 @@ onet.pl##.widgetFollowUs.widget
 ||ocdn.eu/*/pwa/
 !Koniec: https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
 
-
+!Początek: https://grupa-onet.pulsevideo.eu/2173781.1231839560
+||2mdn.net^$domain=pulsevideo.eu,important
+!Bez tego przy ponownym włączeniu filmu, który się skończył treść pobierała się od nowa:
+!xhr - video-node-2-a-pl-krk-1.dreamlab.pl/usp/
+!xhr - player-api.dreamlab.pl/?body%
+pulsevideo.eu##+js(addEventListener-defuser.js, ended)
+!Bez https w linku, po zakończeniu odtwarzania wysyłane jest żądanie do qi.related.onetapi.pl
+||qi.related.onetapi.pl^
+!Koniec: https://grupa-onet.pulsevideo.eu/2173781.1231839560
 
 
