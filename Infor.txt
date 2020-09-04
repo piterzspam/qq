@@ -280,6 +280,8 @@ gazetaprawna.pl##DIV.psavSpecialLinks
 ||static.gazetaprawna.pl/gp/required/build/js/adsenseLoader.js
 @@||gazetaprawna.pl/gp/js/ads_blocker_test.js
 
+!https://forsal.pl/artykuly/1477767,pandemia-a-popyt-na-paliwo-w-marcu-dostawy-produktow-naftowych-byly-rekordowo-niskie.html
+forsal.pl##+js(addEventListener-defuser, scroll, firstStateNav)
 
 
 !Ramka facebooka:
