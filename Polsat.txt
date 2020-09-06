@@ -186,7 +186,15 @@ tygodnik.polsatnews.pl##DIV.article__share
 !https://tygodnik.polsatnews.pl/news/2020-04-24/praworzadnosc-na-oltarzu/
 tygodnik.polsatnews.pl##SPAN.article__more
 
-
+!Odblokowanie komentarzy
+!tygodnik.polsatnews.pl#@#DIV.article__comments
+!||facebook.net^$domain=tygodnik.polsatnews.pl
+!||facebook.com^$domain=tygodnik.polsatnews.pl
+!@@||connect.facebook.net/*/sdk.js#xfbml$script,domain=tygodnik.polsatnews.pl
+!@@||connect.facebook.net/*/sdk.js?hash=$script,domain=tygodnik.polsatnews.pl
+!@@||facebook.com/*/plugins/comments.php?$frame,domain=tygodnik.polsatnews.pl
+!@@||facebook.com/plugins/comments.php?$frame,domain=tygodnik.polsatnews.pl
+!@@||facebook.com/plugins/feedback.php?$frame,domain=tygodnik.polsatnews.pl
 
 
 
