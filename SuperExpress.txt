@@ -44,7 +44,10 @@ se.pl##ARTICLE > DIV.gl_plugin.socials:has-text(Czytaj Super Express bez wychodz
 !https://www.se.pl/wiadomosci/polityka/kampania-pelna-klata-kandydat-na-prezydenta-krzysztof-bosak-zabral-zone-na-duzo-zdjec-aa-k1ZD-L1mc-3kc9.html
 !https://www.se.pl/auto/nowosci/po-kilku-latach-detoksu-znowu-wsiadl-za-kolko-pijany-rozbite-bmw-porzucil-w-rowie-i-uciekl-aa-UctA-zLfK-QKSy.html
 !https://www.se.pl/slask/fala-zakazen-na-slasku-czy-zamkna-granice-wojewodztwa-koronawirus-w-polsce-relacja-na-zywo-aa-citx-RfFK-73wX.html
-se.pl##ARTICLE > P:if(A[href]):if(STRONG:has-text(/(Czytaj|Przeczytaj|Sprawdź|Zobacz)( (dalej|koniecznie|również|także|też))?:/i))
+!se.pl##ARTICLE > P:if(A[href]):if(STRONG:has-text(/(Czytaj|Przeczytaj|Sprawdź|Zobacz)( (dalej|koniecznie|również|także|też))?:/i))
+!Powyższy filtr dawał false-positive na https://superbiz.se.pl/technologie/uzytkownicy-androida-nabijaja-sie-z-tajemniczej-aplikacji-o-co-w-tym-chodzi-aa-Tnck-1ozv-GSqz.html
+se.pl##ARTICLE > P:has(A[href]):has(STRONG:first-child:has-text(/(Czytaj|Przeczytaj|Sprawdź|Zobacz)( (dalej|koniecznie|również|także|też))?:/i))
+se.pl##ARTICLE > P > STRONG:has(A[href]):has-text(/(Czytaj|Przeczytaj|Sprawdź|Zobacz)( (dalej|koniecznie|również|także|też))?:/i)
 
 !https://www.se.pl/wiadomosci/polityka/agata-duda-musi-zmienic-fryzure-wszystko-dlatego-ze-aa-xe6S-YRrT-TyDj.html
 se.pl##ARTICLE > P:has-text(/Zobacz:/i):if(A[href])
@@ -143,6 +146,20 @@ se.pl##ARTICLE > P > STRONG > A[href*="se.pl/"][target="_blank"]
 
 !Jakiś skrypt, bez niego działa
 ||static.common.smcloud.net/s/smiToWideoEmbeder.js
+
+!Początek: https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
+!https://cdn.files.smcloud.net/t/zpr_nw.js
+!pollster.pl w treści
+||smcloud.net/*zpr_nw.js
+!https://www.se.pl/media/desktop/zpr_videos_web/css/sticky_video.css?__0.1616.0
+||se.pl/*sticky_video.css
+!Nadpisanie filtru @@||googletagmanager.com/gtm.js$domain=se.pl z AdGuard Base
+@@||googletagmanager.com/gtm.js$domain=se.pl,badfilter
+||googletagmanager.com^$domain=se.pl,important
+!https://grow-apps.growpoland.pl/modal-api//modals?instance=www.se.pl
+||growpoland.pl^
+!Koniec: https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
+
 
 !se.pl##+js(addEventListener-logger.js)
 !se.pl##+js(set-constant.js, autoplay, 0)
