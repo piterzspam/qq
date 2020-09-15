@@ -169,3 +169,17 @@ se.pl##ARTICLE > P > STRONG > A[href*="se.pl/"][target="_blank"]
 
 !se.pl##+js(abort-on-property-read.js, getNewArticle)
 !se.pl##+js(abort-on-property-write.js, getNewArticle)
+
+!Początek: https://www.se.pl/auto/nowosci/arkadiusz-milik-i-kamil-glik-odmienili-swoje-auta-bmw-x6-i-audi-q5-po-tuningu-u-braci-collins-aa-KpPH-LEjU-Gp4G.html
+!Przycisk do Google News pod artykułem
+se.pl##DIV.hero-box
+||smcloud.net/*google-news$image
+!!Puste pola po reklamach
+se.pl##DIV.article__placement
+!Niebieski przycisk przenoszący do kolejnej galerii
+se.pl##BUTTON.gallery__next.gallery__btn[onclick="recommendation_redirect(recommended_gallery.href)"]
+!Koniec: https://www.se.pl/auto/nowosci/arkadiusz-milik-i-kamil-glik-odmienili-swoje-auta-bmw-x6-i-audi-q5-po-tuningu-u-braci-collins-aa-KpPH-LEjU-Gp4G.html
+
+!Link powiązany w treści: CZYTAJ: Wałęsa NIEPOKOJĄCO: "Ledwo nogi ciągam". Co się dzieje?!
+!https://www.se.pl/wiadomosci/polityka/ziemkiewicz-skonczyl-56-lat-ale-mial-wypasione-urodziny-zobacz-aa-uVnv-ozF1-TgNv.html
+se.pl##P:has(:scope > A[href*="se.pl/"][target="_blank"][rel="follow"]:only-child)
