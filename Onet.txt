@@ -126,6 +126,8 @@ onet.pl##DIV.articleBody > DIV.embeddedApp:last-child
 onet.pl###googleAdsCont
 !Puste pole pod artykułem, po tematach artykułu
 onet.pl##SECTION.streamWithRight
+!Puste miejsce między paragrafami w treści artykułu
+onet.pl##DIV.onet-ad
 !Koniec: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
 
 
