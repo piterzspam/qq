@@ -122,6 +122,10 @@ onet.pl##DIV.articleBody > DIV.embeddedApp:last-child
 !onet.pl##+js(addEventListener-defuser.js, scroll, 300)
 !Wideo powiązane odtwarzające przy zmianie rozmiaru okna
 !onet.pl##+js(addEventListener-defuser.js, resize, 300)
+!Puste pole po reklamie pod artykułem, przed "Zobacz również"
+onet.pl###googleAdsCont
+!Puste pole pod artykułem, po tematach artykułu
+onet.pl##SECTION.streamWithRight
 !Koniec: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
 
 
