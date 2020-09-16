@@ -3,7 +3,7 @@
 
 kultura.onet.pl,podroze.onet.pl,sport.onet.pl,wiadomosci.onet.pl,www.onet.pl##DIV.embeddedApp:style(min-height: 50px !important; background: gainsboro !important;)
 kultura.onet.pl,podroze.onet.pl,sport.onet.pl,wiadomosci.onet.pl,www.onet.pl##DIV.pulsembed_embed > A:style(border: dashed !important;)
-kultura.onet.pl,podroze.onet.pl,sport.onet.pl,wiadomosci.onet.pl,www.onet.pl##DIV.pulsembed_embed:style(padding: unset !important; overflow: unset !important;)
+kultura.onet.pl,podroze.onet.pl,sport.onet.pl,wiadomosci.onet.pl,www.onet.pl##DIV.pulsembed_embed:style(padding: unset !important; overflow: unset !important; height: unset !important;)
 
 !https://wiadomosci.onet.pl/kraj/pogoda-dla-polski-2504/gncc8rn?utm_source=_viasg_fakt
 ||ocdn.eu/*pulsembed.js$domain=kultura.onet.pl|podroze.onet.pl|sport.onet.pl|wiadomosci.onet.pl|www.onet.pl
