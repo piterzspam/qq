@@ -156,7 +156,7 @@ onet.pl##DIV._3r88rCARRhkQKjaEl0gPLZ
 onet.pl##DIV[data-gtm-social]
 !Prostokąt z newletterem pod artykułem
 !onet.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
-onet.pl##DIV.pulsembed_embed[data-provider-name="htmlbox"]
+!onet.pl##DIV.pulsembed_embed[data-provider-name="htmlbox"]
 !https://ocdn.eu/ucs/static/onetmainpage/021c8f6bc08678aa7d91ce71438920a6/build/js/desktop/components/boxBackToMainPage.js
 ||ocdn.eu/*boxBackToMainPage
 !Część odpowiedzialna za przeniesienie na główną po przescrollowaniu na dół
@@ -252,4 +252,10 @@ pulsevideo.eu##+js(addEventListener-defuser.js, ended)
 ||qi.related.onetapi.pl^
 !Koniec: https://grupa-onet.pulsevideo.eu/2173781.1231839560
 
+!Początek: https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+!Początek: https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
+onet.pl##P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści))
+onet.pl##P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)) + DIV
+!Koniec: https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+!Koniec: https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
 
