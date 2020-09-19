@@ -10,9 +10,6 @@
 @@||sport.pl^$generichide
 @@||wpodrozy24.pl^$generichide
 
-!Na stronie głównej link do polubienie facebooka
-!https://weekend.gazeta.pl/weekend/0,0.html
-weekend.gazeta.pl##ARTICLE.mod_fb_like_embed
 
 !Polskie Filtry Elementów Irytujących nadpisanie filtru
 gazeta.pl#@#.external_link[href]:style(pointer-events: none !important; position: unset !important;)
@@ -31,7 +28,6 @@ weekend.gazeta.pl##DIV.cmsArtykulElem > DIV.noApp:last-child
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, copy)
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, addUrlToClipboard)
 !Koniec: https://weekend.gazeta.pl/weekend/1,152121,25835944,ikonowicz-raz-czy-dwa-uslyszalem-komunista-ale-nie-od-ludzi.html
-
 
 
 !Początek: https://weekend.gazeta.pl/weekend/1,152121,25843293,pan-jozef-ma-93-lata-i-prowadzi-zaklad-krawiecki-panie-boze.html
@@ -53,6 +49,9 @@ weekend.gazeta.pl##BODY#pagetype_art.rwd.responsive DIV.gazeta_article_header:st
 
 
 !Początek: https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
+!Przyciski do facebooka i komentarzy
+!https://next.gazeta.pl/next/7,173953,25856858,nowy-jork-ma-swojego-bohatera-walki-z-koronawirusem-a-jak-wypada.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.socialBar
 !Żądania do https://gazeta.hit.gemius.pl/fpdata.js?href=weekend.gazeta.pl i https://gazeta.hit.gemius.pl/xgemius.js
 ||gemius.pl^$domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
 !Żądania do gazeta.hit.gemius.pl/xgemius.js
@@ -80,6 +79,8 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Koniec: https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
 
 !Początek: https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html
+||gazeta.hit.gemius.pl^
+||p.gazeta.pl^
 ||static.im-g.pl/info/bluewhale/$domain=gazeta.pl
 !W tym skrypcie są żądania do squid.gazeta.pl/bdtrck/getBdIf? i liquid.agora.pl/bdtrck/getScIf?, poniżej blokowane na wszelki wypadek
 ||squid.gazeta.pl^$domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
@@ -91,12 +92,37 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Wyłączenie automatycznego odtwarzania wideo
 onnetwork.tv##+js(set, autoplayAllowed, false)
 onnetwork.tv##+js(set, autoplayRequiresMuted, false)
+!Na stronie mobilnej, aby dało się przewinąć pod wideo
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY[class*="mobile"] DIV.video_wrapper:style(position: unset !important)
+!https://video.onnetwork.tv/frame83.php?mid=Mjc2OTc5LDE2eDksMywwLDAsMzcyOSwxLDAsMSwzNiwwLDAsMiwwLDEsMSwwLDAsMSw0LDAsMCwxLDAsMCwwLDAsLTE7LTE7MjA7MjAsMCw5OSww&preview=0&iid=0&e=1&id=ffEXS8a15fda1b89d73701887c02b8c7c85e81&t_page=wiadomosci_7_173952_25882130_bartosz_arlukowicz_gosciem_porannej_rozmowy_gazeta_pl_html&wtop=https%3A%2F%2Fwiadomosci.gazeta.pl%2Fwiadomosci%2F7%2C173952%2C25882130%2Cbartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html&AGra=-1&vasturl=%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fsz%3D400x300%7C640x480%26iu%3D%2F75224259%2FAGORA-IN%2FWiadomosci%2F090-PREROLL%26cust_params%3Dpos%253D090-PREROLL%2526dx%253D173952%2526jsp%253D23%2526dir%253Dwiadomosci%2526kw%253D%5Bbrandsafe%5D%2526dystrybutor%253D%5Bdistributor_id%5D%2526passback_id%253D%5Bpassback_id%5D%2526domena%253D%5Badview_hostname%5D%2526cb%253D%5Bcb%5D%2526article_id%253D25882130%26url%3D%5Blocationhref%5D%26description_url%3D%5Blocationhref%5D%26impl%3Ds%26gdfp_req%3D1%26env%3Dvp%26output%3Dvast%26unviewed_position_start%3D1%26correlator%3D%5Btimestamp%5D
+!https://video.onnetwork.tv/frame83.php?mid=Mjc2OTc5LDE2eDksMywwLDAsMzcyOSwxLDAsMSwzNiwwLDAsMiwwLDEsMSwwLDAsMSw0LDAsMCwxLDAsMCwwLDAsLTE7LTE7MjA7MjAsMCw5OSww
+||mdn.net^$domain=onnetwork.tv
+||2mdn.net^$domain=onnetwork.tv
+||onnetwork.tv/js/intersection-observer.min.js
+!Prawy przycisk myszy nie działa na wideo (element), przez eventlistener w atrybutach
+!<div id="allContainer" class="allContainer noSelect mobile smartphone smta">
+onnetwork.tv##+js(remove-attr.js, oncontextmenu)
+!Prawy przycisk myszy nie działa na odtwarzanym wideo
+onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
+@@||video.onnetwork.tv/adblock_notify.js
+||video.onnetwork.tv/vast/vdata
+!||cdn.onnetwork.tv/cnt/a_cntm.png?ts=
+!||cdn.onnetwork.tv/cnt/a_cnti.png?ts=
+!||cdn.onnetwork.tv/cnt/a_cntg.png?ts=
+||cdn.onnetwork.tv/cnt/
+!Prznoszenie do strony głównej do przewinięciu strony na dół
+/aliasy/hp2018/hp_redirector.htm$xhr,domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
+!Z treści wnioskuję, że to coś do RODO
+!https://static.im-g.pl/static/uom/tcf-20/master/dist/vendor-list.json
+!https://static.im-g.pl/static/uom/tcf-20/master/dist/purppl.json
+||static.im-g.pl/*purppl.json
+||static.im-g.pl/*vendor-list.json
 !Koniec: https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html
 
 
-!Początek: Wersja AMP STRONY z domeny cdn.ampproject.org
+!Początek: https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1 - wersja AMP STRONY z domeny cdn.ampproject.org
 !cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)
-!https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
 ||cdn.ampproject.org/*/amp-ad-network-doubleclick-impl-
 ||cdn.ampproject.org/*/amp-ad-
 ||cdn.ampproject.org/*/amp-analytics-
@@ -117,89 +143,20 @@ hp-api-v.gazeta.pl##DIV.mtpromo-gallery__readmore-btn-wrapper:style(padding: uns
 cdn.ampproject.org##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
 !Wideo dla strony AMP jest odtwarzane z domeny google: https://www.google.com/amp/s/wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.amp
 cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)  P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
-!Koniec: Wersja AMP STRONY z domeny cdn.ampproject.org
+!Koniec: https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
 
-!Początek: Wersja AMP strony w domenie gazeta.pl
-!https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
+!Początek: !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp - wersja AMP strony w domenie gazeta.pl
 !Szare pole po reklamach
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.banner
 !Czerwony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##A#footerBack
 !Zmniejszanie białego pola ramki naokoło przycisku w ramce
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
-!Koniec: Wersja AMP strony w domenie gazeta.pl
-
-
-!Na mobilnej stronie głównej sekcja z quizem i desktopowej
-!https://m.gazeta.pl/0,0.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.additional--opening--area:if(A.additional--opening--area__title:has-text(QUIZ))
-
-!Komunikat RDDO ciasteczka po wejściu na stronę
-!https://next.gazeta.pl/next/0,0.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV#rodoNotificationWrapper
-
-
-||gazeta.hit.gemius.pl^
-||p.gazeta.pl^
-
+!Koniec: !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp - wersja AMP strony w domenie gazeta.pl
 
 !Wideo powiązane pod artykułem
 !https://weekend.gazeta.pl/weekend/1,152121,25856421,zegiestow-zdroj-kiedys-najelegantsze-uzdrowisko-w-polsce-dzis.html
 ||video.onnetwork.tv^$domain=weekend.gazeta.pl
-
-
-!Na stronie mobilnej, aby dało się przewinąć pod wideo
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY[class*="mobile"] DIV.video_wrapper:style(position: unset !important)
-
-!https://video.onnetwork.tv/frame83.php?mid=Mjc2OTc5LDE2eDksMywwLDAsMzcyOSwxLDAsMSwzNiwwLDAsMiwwLDEsMSwwLDAsMSw0LDAsMCwxLDAsMCwwLDAsLTE7LTE7MjA7MjAsMCw5OSww&preview=0&iid=0&e=1&id=ffEXS8a15fda1b89d73701887c02b8c7c85e81&t_page=wiadomosci_7_173952_25882130_bartosz_arlukowicz_gosciem_porannej_rozmowy_gazeta_pl_html&wtop=https%3A%2F%2Fwiadomosci.gazeta.pl%2Fwiadomosci%2F7%2C173952%2C25882130%2Cbartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html&AGra=-1&vasturl=%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fsz%3D400x300%7C640x480%26iu%3D%2F75224259%2FAGORA-IN%2FWiadomosci%2F090-PREROLL%26cust_params%3Dpos%253D090-PREROLL%2526dx%253D173952%2526jsp%253D23%2526dir%253Dwiadomosci%2526kw%253D%5Bbrandsafe%5D%2526dystrybutor%253D%5Bdistributor_id%5D%2526passback_id%253D%5Bpassback_id%5D%2526domena%253D%5Badview_hostname%5D%2526cb%253D%5Bcb%5D%2526article_id%253D25882130%26url%3D%5Blocationhref%5D%26description_url%3D%5Blocationhref%5D%26impl%3Ds%26gdfp_req%3D1%26env%3Dvp%26output%3Dvast%26unviewed_position_start%3D1%26correlator%3D%5Btimestamp%5D
-!https://video.onnetwork.tv/frame83.php?mid=Mjc2OTc5LDE2eDksMywwLDAsMzcyOSwxLDAsMSwzNiwwLDAsMiwwLDEsMSwwLDAsMSw0LDAsMCwxLDAsMCwwLDAsLTE7LTE7MjA7MjAsMCw5OSww
-||mdn.net^$domain=onnetwork.tv
-||2mdn.net^$domain=onnetwork.tv
-||onnetwork.tv/js/intersection-observer.min.js
-
-!Prawy przycisk myszy nie działa na wideo (element), przez eventlistener w atrybutach
-!<div id="allContainer" class="allContainer noSelect mobile smartphone smta">
-onnetwork.tv##+js(remove-attr.js, oncontextmenu)
-!Prawy przycisk myszy nie działa na odtwarzanym wideo
-onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
-@@||video.onnetwork.tv/adblock_notify.js
-
-||video.onnetwork.tv/vast/vdata.php?
-||cdn.onnetwork.tv/cnt/a_cntm.png?ts=
-||cdn.onnetwork.tv/cnt/a_cnti.png?ts=
-||cdn.onnetwork.tv/cnt/a_cntg.png?ts=
-
-
-!Slajdy na górze strony mobilnej, te z autorem MATERIAŁ PROMOCYJNY) usuwane, więc nie ma ich w kropkach pod slajdami
-https://next.gazeta.pl/next/0,0.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.swiper-slide.maintopic__item:if(P.maintopic__authorName:has-text(MATERIAŁ PROMOCYJNY))
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.swiper-slide.maintopic__item:if(P.maintopic__authorName:has-text(MATERIAŁ PROMOCYJNY)):remove()
-
-!Na stronie głównej wersji mobilnej część tytułów była ucięta
-!https://weekend.gazeta.pl/weekend/0,0.html
-weekend.gazeta.pl##DIV.body > UL > LI[class*="entry article imagesize_"] > DIV.wrap > DIV.title:style(max-height: fit-content !important)
-
-!Pusty kafelek na stronie głównej 
-!https://www.gazeta.pl/0,0.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV#alternativeNewsSource:if(DIV.adviewDFPBanner)
-
-!Pusty kafelek w sekcji Wiadomości na stronie głównej
-!https://www.gazeta.pl/0,0.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.o-section__adform
-
-!Przyciski do facebooka i komentarzy
-!https://next.gazeta.pl/next/7,173953,25856858,nowy-jork-ma-swojego-bohatera-walki-z-koronawirusem-a-jak-wypada.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.socialBar
-
-!The leading solution for adblock revenue recovery
-!https://www.gazeta.pl/0,0.html
-||upapi.net^$domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
-
-!Prznoszenie do strony głównej do przewinięciu strony na dół
-!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
-!https://next.gazeta.pl/next/7,151003,25940823,borys-z-pfr-dla-gp-znajdujemy-sie-w-najwiekszym-kryzysie.html
-/aliasy/hp2018/hp_redirector.htm$xhr,domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
 
 !Puste miejsce po reklamie
 https://wiadomosci.gazeta.pl/wiadomosci/0,114884.html#TRNavSST
@@ -223,27 +180,19 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Strona przejściowa po kliknięciu w link z sekcji "Dla ciebie" pod artykułem 
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947207,trzaskowski-za-kidawe-blonska-kiedys-bylo-tusku-musisz.html#s=BoxOpImg1
 !https://gazeta.pl/0,0.html?foryou=enc02qhrmp2hwrnvt3udraocblescrjdksifjficroec2jemrmkt4mgxjmudrqmcblct3ahubnst2ig2ri&a=26&c=5#pageTypeId_0
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##SECTION.recommended_article > :not(:if(>DIV.c-article:has-text(DLA CIEBIE NA GAZETA.PL)))
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:if(>SECTION.recommended_article) ~ DIV
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:if(>SECTION.recommended_article) ~ SECTION
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##SECTION.recommended_article >  *:not(:has(:scope >DIV.c-article:has-text(DLA CIEBIE NA GAZETA.PL)))
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:has(:scope >SECTION.recommended_article) ~ DIV
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:has(:scope >SECTION.recommended_article) ~ SECTION
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content > SECTION.recommended_article:style(height: unset !important)
 ||gazeta.pl/0,0.html?foryou=$inline-script
 !https://m.gazeta.pl/0,0.html?foryou=enc02qhrmp2hwrnvt3udraocblescrjdksifjficroec2jemrmkt4mgxjmudrqmcblct3ahubnst2ig2ri&a=26&c=5#pageTypeId_0
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile > MAIN.l-main > DIV.c-section.recomended_article ~ DIV
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile > MAIN.l-main > DIV.c-section.recomended_article ~ SECTION
 
-!https://next.gazeta.pl/next/7,151003,25940823,borys-z-pfr-dla-gp-znajdujemy-sie-w-najwiekszym-kryzysie.html
-!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
-!https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
-!https://kultura.gazeta.pl/kultura/7,114526,25955416,radiowa-trojka-stracila-marka-niedzwieckiego-i-wojciecha-manna.html
-!https://next.gazeta.pl/next/7,151003,25821993,kinowy-dystrybutor-udostepnia-nowe-zasoby-filmy-i-seriale-za.html
-!https://next.gazeta.pl/next/7,151003,25956385,lot-wznawia-loty-pasazerskie-od-czerwca-bardzo-atrakcyjne.html
-!https://kultura.gazeta.pl/kultura/7,114438,25947707,zabawa-w-chowanego-gdzie-ogladac-nowy-film-braci-sekielskich.html
-!https://next.gazeta.pl/next/7,151003,25559797,rz-kamienica-kupiona-przez-spoldzielnie-za-1056-zl-dzis.html
-!https://next.gazeta.pl/next/7,151003,25774510,1-3-mld-na-zwalczanie-koronawirusa-z-rezerwy-kryzysowej-wladza.html
-!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25817094,polski-rzad-wprowadza-nowe-obostrzenia-wiecej-zmarlych-we-wloszech.html
-!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25882056,kidawa-blonska-jeszcze-w-tym-tygodniu-wznowi-kampanie-tak-zdecydowalo.html
-!https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.html
+!Początek: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile:has(:scope >SECTION.mtpromo-gallery) > MAIN.l-main
+!Koniec: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
+
 !Strony AMP na komputerze mają białe znaki na początku/końcu paragrafu z powiązanymi
 !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.amp
@@ -256,25 +205,18 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.art_embed:if(> DIV > SPAN.video-head)
 
-!Lista linków
+!Początek: Lista linków
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947955,mazurek-kpi-z-po-brak-wiarygodnosci-zapomniala-ze-szydlo.html
-!https://next.gazeta.pl/next/7,151003,25956385,lot-wznawia-loty-pasazerskie-od-czerwca-bardzo-atrakcyjne.html
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##H2.art_sub_title
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##UL.art_uList
-
+!Tutaj lista jest zrobiona paragrafem: https://next.gazeta.pl/next/7,151003,25956385,lot-wznawia-loty-pasazerskie-od-czerwca-bardzo-atrakcyjne.html
 !Paragrafy nad listą linków (UL.art_uList) nie będące H2.art_sub_title
 !https://next.gazeta.pl/next/7,173953,25803242,koronawirus-w-niemczech-lufthansa-uziemi-wiekszosc-swojej-floty.html
 !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.html
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##B:has-text(/^Przeczytaj także:\s?$/)
+!Koniec: Lista linków
 
-!Początek: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile:has(:scope >SECTION.mtpromo-gallery) > MAIN.l-main
-!Koniec: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
-
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P.art_paragraph:if(B:has-text(/^(Czytaj więcej: |Zobacz nagranie. )/))
-
+!Początek: https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25925995,to-nie-koniec-a-dopiero-poczatek-klopotow-zjednoczonej-prawicy.html
 !Żądania do: hp-api.gazeta.pl/hp/v2/notifications/get/
-!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25925995,to-nie-koniec-a-dopiero-poczatek-klopotow-zjednoczonej-prawicy.html
 !https://static.im-g.pl/static/epo/style/deploy/master/webpack/production/Wiadomosci/311/pagetype7/main.js.jsgz
 gazeta.pl##+js(abort-on-property-write.js, gazeta_pl.hpNotificationsCookies)
 gazeta.pl##+js(abort-on-property-write.js, gazeta_pl.hpNotificationsCookiesModule)
@@ -282,10 +224,41 @@ gazeta.pl##+js(abort-on-property-write.js, gazeta_pl.hpNotificationsCookiesModul
 !gazeta.pl##SECTION.art_content > P.art_paragraph:last-of-type
 gazeta.pl#@#SECTION.art_content > P.art_paragraph:last-of-type
 !Paragraf z opisem nad filmem w treści artykułu: Zobacz, jak napiętą sytuację w obozie Zjednoczonej Prawicy analizował w "Porannej Rozmowie Gazeta.pl" politolog prof. Antoni Dudek:
-!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25925995,to-nie-koniec-a-dopiero-poczatek-klopotow-zjednoczonej-prawicy.html
 gazeta.pl##SECTION.art_content > P.art_paragraph:if(B > I:has-text(Zobacz,))
+!Koniec: https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25925995,to-nie-koniec-a-dopiero-poczatek-klopotow-zjednoczonej-prawicy.html
 
 
-!Polskie Filtry Elementów Irytujących 
-gazeta.pl#@#.external_link[href]:style(pointer-events: none !important; position: unset !important;)
-||gazeta.pl/aliasy/hp2018/hp_redirector.htm
+!https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25894450,mosbacher-w-tvn-o-stacji-bywacie-stronniczy-wobec-trumpa-ale.html
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114884,26310517,zbigniew-ziobro-chcial-by-to-michal-wos-zostal-wicepremierem.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P.art_paragraph:if(B:has-text(/^(Czytaj więcej:|Zobacz nagranie.)/))
+
+!Slajdy na górze strony mobilnej, te z autorem MATERIAŁ PROMOCYJNY) usuwane, więc nie ma ich w kropkach pod slajdami
+https://next.gazeta.pl/next/0,0.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.swiper-slide.maintopic__item:if(P.maintopic__authorName:has-text(MATERIAŁ PROMOCYJNY))
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.swiper-slide.maintopic__item:if(P.maintopic__authorName:has-text(MATERIAŁ PROMOCYJNY)):remove()
+
+!Początek: https://weekend.gazeta.pl/weekend/0,0.html
+!Na stronie głównej wersji mobilnej część tytułów była ucięta
+weekend.gazeta.pl##DIV.body > UL > LI[class*="entry article imagesize_"] > DIV.wrap > DIV.title:style(max-height: fit-content !important)
+!Na stronie głównej link do polubienie facebooka
+weekend.gazeta.pl##ARTICLE.mod_fb_like_embed
+!Koniec: https://weekend.gazeta.pl/weekend/0,0.html
+
+!Początek: https://www.gazeta.pl/0,0.html
+!Pusty kafelek na stronie głównej
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV#alternativeNewsSource:if(DIV.adviewDFPBanner)
+!Pusty kafelek w sekcji Wiadomości na stronie głównej
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.o-section__adform
+!The leading solution for adblock revenue recovery
+||upapi.net^$domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
+!Koniec: https://www.gazeta.pl/0,0.html
+
+!Na mobilnej stronie głównej sekcja z quizem i desktopowej
+!https://m.gazeta.pl/0,0.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.additional--opening--area:if(A.additional--opening--area__title:has-text(QUIZ))
+
+!Komunikat RDDO ciasteczka po wejściu na stronę
+!https://next.gazeta.pl/next/0,0.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV#rodoNotificationWrapper
+
+
