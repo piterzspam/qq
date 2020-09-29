@@ -1,0 +1,49 @@
+! Title: Niezalezna.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||niezalezna.pl^$ghide
+
+!Początek: https://niezalezna.pl/354625-rekonstrukcja-rzadu-krok-po-kroku-kiedy-poznamy-nowy-sklad-rady-ministrow
+||consensu.org^
+||googletagmanager.com^
+||contentstream.pl^
+!Captcha jest potrzebna chyba tylko do dodwania komentarzy
+||google.com/recaptcha/$domain=niezalezna.pl,important
+!Chyba śledzenie
+!https://niezalezna.icdn.pl/?mobile
+||niezalezna.icdn.pl^
+!https://input.niezalezna.pl/stat/354637/s.gif?955249
+||input.niezalezna.pl^
+!Powiązane "Czytaj również w treści artykułu"
+niezalezna.pl##DIV.articleBody > DIV.uitemPlate
+!Tekst: "Promuj niezależne media! Podaj dalej ten artykuł na Facebooku i Twitterze" pod artykułem
+niezalezna.pl##DIV.articleToolsBottom > P[style="color:#e74c3c; font-size: 14px;"]
+!Przyciski socialowe pod zdjęciem głównym
+||niezalezna.pl/images/png/twitter.png
+||niezalezna.pl/images/png/facebook.png
+!Wstęp do powiązanego artykuł pod aktualnym
+niezalezna.pl##DIV#article2
+!Tytuły łądowanych artykułów pod paaskiem nawifgacyjnym
+niezalezna.pl##DIV#loader
+!Koniec: https://niezalezna.pl/354625-rekonstrukcja-rzadu-krok-po-kroku-kiedy-poznamy-nowy-sklad-rady-ministrow
+
+!Początek: https://m.niezalezna.pl/354625-rekonstrukcja-rzadu-krok-po-kroku-kiedy-poznamy-nowy-sklad-rady-ministrow
+!Przyciski nawifacyjne na dole strony na wersji mobilnej
+m.niezalezna.pl##DIV#bmenu
+!Powiązane "Czytaj również w treści artykułu"
+!m.niezalezna.pl##DIV.uitemReadmore
+!Przyciski socialowe pod artykułem
+||niezalezna.pl/niezalezna/images/png/fbm.png
+||niezalezna.pl/niezalezna/images/png/ttm.png
+!Koniec: https://m.niezalezna.pl/354625-rekonstrukcja-rzadu-krok-po-kroku-kiedy-poznamy-nowy-sklad-rady-ministrow
+
+!Początek: https://m.niezalezna.pl/
+!Banery subskrypcji
+!https://niezalezna.pl/images/gp/gpc_750.jpg?16013357
+!https://niezalezna.pl/images/gp/gp_640.jpg?16013357
+!https://niezalezna.pl/images/gp/gp_800.jpg?16013357
+!https://niezalezna.pl/images/gp/sub_640.jpg?16013357
+!https://niezalezna.pl/images/gp/gpc_750.jpg?16013357
+||niezalezna.pl/images/gp/
+!Koniec: https://m.niezalezna.pl/
