@@ -22,7 +22,6 @@ domy.pl##DIV.cookiesNotificationOuter
 gratka.pl##SECTION.otherAnnouncements
 gumtree.pl##DIV#cookieWarning
 gumtree.pl##DIV#gallery
-gumtree.pl##DIV.reply_controls:style(position: absolute !important;)
 gumtree.pl##DIV.section-divider:has-text(Ogłoszenia wyróżnione)
 gumtree.pl##DIV.section-divider:has-text(Ogłoszenia wyróżnione)
 gumtree.pl##DIV.view.top-listings
