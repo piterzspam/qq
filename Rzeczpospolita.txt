@@ -169,7 +169,12 @@ e.infogram.com##DIV#footer
 !
 !rp.pl##+js(noeval.js)
 
-
+!Komunikat o RODO po wejściu na stronę
+!https://cdn.rp.pl//tcfapi/tcfapi.min.js
+!https://cdn.rp.pl/tcf-app/app.min.css
+!https://cdn.rp.pl/tcf-app/app.min.js
+!https://www.rp.pl/Rzecz-o-polityce/310069894-Borys-Budka-Jestesmy-krasniczanami.html
+||cdn.rp.pl/*tcf
 
 
 
