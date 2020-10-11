@@ -224,7 +224,8 @@ forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
 !Ramka player wideo polsatu pulsembed.eu/p2em/ -> media.polsatsport.pl/:
 !https://sport.dziennik.pl/pilka-nozna/artykuly/7716761,puchar-polski-legia-miedz-cracovia-lech-lechia.html
 ||redevents-bigdata.redefine.pl^
-||b2c.redefine.pl/rpc/navigation/
+!Przez b2c.redefine.pl/rpc/navigation/ nie działał strim polsatu: https://www.ipla.tv/kanaly-tv/Polsat/23985
+!||b2c.redefine.pl/rpc/navigation/
 !Ramka player wideo z get.x-link.pl
 !https://rozrywka.dziennik.pl/jegostrona/news/artykuly/610087,najpiekniejsza-oktagon-girl-zjawiskowa-kahili-blundell.html
 ||scontent.services.tvn.pl/sweqevub.js$domain=get.x-link.pl
