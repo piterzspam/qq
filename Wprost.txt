@@ -160,3 +160,15 @@ wprost.pl##+js(no-setTimeout-if.js, gtag)
 wprost.pl##DIV#top-recommends:remove()
 wprost.pl##DIV#top-recommends-2:remove()
 wprost.pl##DIV.page-header-latests:remove()
+
+
+
+!Przyciski socialowe po lewej stronie
+!https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
+wprost.pl##DIV.share-buttons-wrapper
+
+!Ramka z YT i Twittera
+!https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
+wprost.pl#@#SPAN.art-text-relation
+||wprost.pl/relations$badfilter
+||wprost.pl/relations/
