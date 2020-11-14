@@ -1,0 +1,167 @@
+! Title: Media inne
+! Expires: 1 day
+
+!Odblokowanie kopiowania obrazów
+cozadzien.pl##+js(remove-attr.js, oncontextmenu, IMG[oncontextmenu])
+
+!Odblokowanie zaznaczania i kopiowania
+pap.pl##BODY:style(-webkit-touch-callout: unset !important)
+pap.pl##BODY:style(-webkit-user-select: unset !important)
+pap.pl##BODY:style(-moz-touch-callout: unset !important)
+pap.pl##BODY:style(-ms-touch-callout: unset !important)
+pap.pl##BODY:style(user-select: unset !important)
+
+!Duze miniaturki w treści artykułu
+dorzeczy.pl##SPAN.art-text-relation:remove()
+
+wiadomosci.wp.pl#@#+js(set-constant, Object.prototype.isBlocked, false)
+wiadomosci.wp.pl#@#+js(set-constant, Object.prototype.aggressiveAB, false)
+!Wp.pl - reklamy na stronie głównej 
+wp.pl##DIV:has(:scope > DIV[class^="sc-"]:first-child > IMG[class^="sc-"][src*="v.wpimg.pl/"][role="presentation"][alt]:first-child)
+wp.pl##DIV:has(:scope > DIV[class^="sc-"]:first-child > IMG[class^="sc-"][src*="v.wpimg.pl/"][role="presentation"][alt]:first-child):remove()
+!Wp.pl - linki do skryptu z reklamami
+wp.pl##HEAD > SCRIPT[charset="utf-8"][crossorigin="anonymous"][src^="https://www.wp.pl/"]:remove()
+!Www.wp.pl - ltreść javascriptu z reklamami
+www.wp.pl##HEAD > SCRIPT[type="text/javascript"]:remove()
+!Wp.pl Styl z linkiem do reklamy na stronie głównej
+wp.pl##STYLE[data-id="wpcss"]:remove()
+!Miejsce na reklamy na opinie.wp.pl
+wp.pl##DIV[class][data-reactid]:has(:scope > DIV[class][data-reactid]:only-child > DIV[class][data-reactid]:first-child:empty + IMG[class][src*="v.wpimg.pl/"][alt][data-reactid]:empty)
+wp.pl##DIV[class][data-reactid]:has(:scope > DIV[class][data-reactid]:only-child > DIV[class][data-reactid]:first-child:empty + IMG[class][src*="v.wpimg.pl/"][alt][data-reactid]:empty):remove()
+!Ramki www.wp.pl ładujące się na innych stronach z domeny
+||www.wp.pl^$subdocument
+!https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
+magazyn.wp.pl##SPAN.socials
+||magazyn-wp.wpcdn.pl/js/desktop/wpstat.js
+||magazyn-wp.wpcdn.pl/js/ext.js
+||magazyn-wp.wpcdn.pl/css/ext.css
+!Ładowanie nowego artykułu przy przescrollowaniu artykułu w dół
+||magazyn.wp.pl/ajax/
+!magazyn.wp.pl##DIV.article-loader-holder
+magazyn.wp.pl##DIV.article-loader-holder:remove()
+
+!https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
+!Puste miejsce pod artykułem 1:
+businessinsider.com.pl##DIV.streamNews
+!Puste miejsce pod artykułem 2:
+businessinsider.com.pl##DIV.sH_bottom_first
+!Puste miejsce w prawaej kolumnie
+businessinsider.com.pl##DIV.adSlotWidget
+!Elementy z prawej kolumny
+businessinsider.com.pl##DIV.AdSlot-lps-promo
+businessinsider.com.pl##DIV.recommendedAutomat
+businessinsider.com.pl##DIV.sponsored
+businessinsider.com.pl##DIV.adMarkiMowia
+businessinsider.com.pl##DIV.adsContainer
+
+!Blokada autostartu wideo na TVN
+||nuvi2.cdntvn.pl/*/test.mp4
+!Blokowanie automatycznego odtwarzania kolejnego wideo po zakończeniu aktualnego
+!https://tvn24.pl/wybory-prezydenckie-2020-w-usa/wybory-w-usa-2020-wyniki-wstepne-sondaze-amerykanie-wybieraja-prezydenta-relacja-na-zywo-4741468
+tvn24.pl##+js(addEventListener-defuser.js, ended)
+||flo.uri.sh$3p,frame,redirect=click2load.html
+||tools.services.tvn.pl^
+!tvn24.pl##+js(addEventListener-defuser.js, canplay)
+!tvn24.pl##+js(addEventListener-logger.js)
+!tvn24.pl##+js(no-setTimeout-if.js, /^/)
+!tvn24.pl##+js(no-setInterval-if.js, /^/)
+!tvn24.pl##+js(no-requestAnimationFrame-if.js, /^/)
+||public.flourish.studio^
+||tvn24.pl/service-worker.js
+||tvn24.pl/static/libs/react.js?
+@@||tvn24.pl/static/libs/react.js?
+||tvn24.pl/_next/static/*/_ssgManifest.js
+||nuvi2.cdntvn.pl/tvn24-stable/bundle/nuvi.min.js?
+@@||nuvi2.cdntvn.pl/tvn24-stable/bundle/nuvi.min.js?
+||tvn24.pl/_next/static/*/_buildManifest.js
+@@||tvn24.pl/_next/static/*/_buildManifest.js
+||tvn24.pl/_next/static/runtime/main-
+@@||tvn24.pl/_next/static/runtime/main-
+||tvn24.pl/_next/static/chunks/styles.*.js
+@@||tvn24.pl/_next/static/chunks/styles.*.js
+||tvn24.pl/_next/static/runtime/webpack-*.js
+@@||tvn24.pl/_next/static/runtime/webpack-*.js
+||tvn24.pl/_next/static/*/pages/detail.js
+@@||tvn24.pl/_next/static/*/pages/detail.js
+||tvn24.pl/_next/static/*/pages/_app.js
+@@||tvn24.pl/_next/static/*/pages/_app.js
+
+!Odblokowanie niepoprawnie ukrywanych punktów z leada
+klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
+klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet"]
+
+!Początek: https://telewizjarepublika.pl/mosinski-moje-dzieci-nie-zycza-sobie-aby-jakies-lewackie-organizacje-urzadzaly-manifestacje-w-ich-imieniu,101356.html
+!https://s1.adsplayer.pl/republika/player_pd.php?p=//telewizjarepublika.pl/imgcache/600x340/c/uploads/news/2020_09_1_yt.jpg&f=//telewizjarepublika.pl/telewizjarepublika/magazyny/2020_09_1_YT
+||adsplayer.pl/republika/
+!https://niezalezna.pl/popup/js/popup.js?s=120872222
+||niezalezna.pl/popup/
+!Koniec: https://telewizjarepublika.pl/mosinski-moje-dzieci-nie-zycza-sobie-aby-jakies-lewackie-organizacje-urzadzaly-manifestacje-w-ich-imieniu,101356.html
+
+!https://www.wirtualnemedia.pl/artykul/grzechy-dziennikarzy-gniew-marek-tejchman
+||wirtualnemedia.pl/*/facebook_shares.min.js
+||wirtualnemedia.pl/*/cookie.min.js
+||google.com/recaptcha/$domain=wirtualnemedia.pl,important
+||wirtualnemedia.pl/*/social/$image
+
+! 2.07.2020 https://oko.press
+oko.press##.PopularPosts.medium-collapse.row
+! 13.06.2020 https://oko.press
+oko.press##div.powiazany-artykul-shortcode
+! 8.06.2020 https://oko.press
+oko.press###banner-after-excerpt
+||oko.press/images/2020/05/20200521_banner1_prostok-1.png$image
+oko.press##.js-random.article-cf-banner
+
+!https://krytykapolityczna.pl/felietony/galopujacy-major/wyrzucmy-wreszcie-w-pustyni-i-w-puszczy-z-kanonu-lektur/
+@@||krytykapolityczna.pl^$generichide
+krytykapolityczna.pl##DIV.newsletter-form-popup
+krytykapolityczna.pl##DIV.read-also
+krytykapolityczna.pl##DIV.article-donate-bottom
+||krytykapolityczna.pl/*/ga-tracking.js
+!||krytykapolityczna.pl/*/advanced-ads-pro.js
+!||krytykapolityczna.pl/*/advanced.js
+!||krytykapolityczna.pl/*/advanced-visitor-conditions/
+||krytykapolityczna.pl/*/advanced$script
+||krytykapolityczna.pl/*/essb$css
+||krytykapolityczna.pl/plugins/easy-social-share-buttons3/
+
+
+@@||newsweek.pl^$generichide
+newsweek.pl##DIV.contentPremium:style(display: block !important;)
+||ocdn.eu/paywall-cdn/paywall.min.js?
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+newsweek.pl#@#[class*="cg-template"]
+!Scrollowanie
+newsweek.pl#@#DIV#redHead:style(position: absolute !important;)
+newsweek.pl#@#.ads
+newsweek.pl#@#.adsense
+newsweek.pl#@#.header-adblock
+newsweek.pl#@#.linkSponsorowany
+newsweek.pl#@#.onnetwork-video
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.sliderads
+newsweek.pl#@#.widget-ads-content
+newsweek.pl#@#.adform-slot
+newsweek.pl#@##widget-shop
+newsweek.pl#@##pixad-box
+newsweek.pl#@##advertisments
+newsweek.pl#@##adnp
+
+rmf24.pl^$generichide
+iplsc.com^$generichide
+||rmf24.pl^$script,domain=rmf24.pl,badfilter
+||rmf24.pl^$inline-script,badfilter
+||iplsc.com^$script,domain=rmf24.pl,badfilter
+||iwa.iplsc.com/plugins/$script,badfilter
+@@||zencdn.net^$domain=rmf24.pl
+||rmf24.pl^$stylesheet,domain=rmf24.pl,badfilter
+
+! 13.06.2020 https://www.tygodnikpowszechny.pl
+tygodnikpowszechny.pl##.pane-block-32.pane-block.panel-pane
+tygodnikpowszechny.pl##DIV.bhr-popup-container
+tygodnikpowszechny.pl##DIV#bhr-overlay
+
+
+
+!
