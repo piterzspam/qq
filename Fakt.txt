@@ -280,3 +280,8 @@ fakt.pl##DIV.contentPremium:style(display: block !important)
 !https://www.fakt.pl/pieniadze/biznes/metan-wykryty-na-antarktydzie-to-moze-byc-koniec-cywilizacji/6bqw847?utm_source=www.fakt.pl_viasg_fakt
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
 fakt.pl##BODY.faktDefault:style(padding-top: 113px !important)
+
+!Za dużo enterów w tekście
+!https://www.fakt.pl/wydarzenia/polityka/bonikowska-weto-w-sprawie-unijnego-budzetu-to-bomba-atomowa/3jttrxe?utm_source=_viasg_fakt
+fakt.pl##BR + BR + BR
+
