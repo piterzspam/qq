@@ -45,6 +45,9 @@ magazyn.wp.pl##DIV.article-loader-holder:remove()
 !||std.wpcdn.pl/wpjslib/wpjslib-sgap.js$domain=~www.wp.pl
 ||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
 magazyn.wp.pl##FIGURE.a--instream:remove()
+!Cofnięcie usuwania linku do strony głównej z przycisku powrotu
+!Polskie Filtry Elementów Irytujących - wp.pl##+js(remove-attr, href, a[data-st-area="Header-back"])
+wp.pl#@#+js(remove-attr, href, a[data-st-area="Header-back"])
 
 !https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
 !Puste miejsce pod artykułem 1:
