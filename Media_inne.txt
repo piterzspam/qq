@@ -41,9 +41,9 @@ magazyn.wp.pl##SPAN.socials
 magazyn.wp.pl##DIV.article-loader-holder:remove()
 !Reklamy w treści artykułu
 !https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
-!Filtr blokował ładowanie obrazów na stronie głównej
-!||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
-||std.wpcdn.pl/wpjslib/wpjslib-sgap.js$domain=~www.wp.pl
+!Filtr blokował ładowanie obrazów na stronie głównej (jednak nie)
+!||std.wpcdn.pl/wpjslib/wpjslib-sgap.js$domain=~www.wp.pl
+||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
 magazyn.wp.pl##FIGURE.a--instream:remove()
 
 !https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
