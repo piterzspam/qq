@@ -154,3 +154,9 @@ wprost.pl##SPAN.art-text-relation-text
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
 wprost.pl##+js(no-setTimeout-if.js, alkEnabled)
 wprost.pl##+js(no-setTimeout-if.js, gtag)
+
+!Ładowanie nowych proponowanych artykułów przy scrollowaniu
+!https://zdrowie.wprost.pl/koronawirus/fakty-o-koronawirusie/10388432/jak-dzialaja-testy-antygenowe-na-covid-19-i-jak-bardzo-sa-skuteczne.html
+wprost.pl##DIV#top-recommends:remove()
+wprost.pl##DIV#top-recommends-2:remove()
+wprost.pl##DIV.page-header-latests:remove()
