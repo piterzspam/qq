@@ -259,3 +259,6 @@ onet.pl##P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapis
 !Koniec: https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
 !Koniec: https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
 
+!https://wiadomosci.onet.pl/kraj/hofman-rozmawial-z-czarneckim-giertych-udostepnia-nagranie/7wlxhmc.amp
+onet.pl##AMP-AD
+onet.pl##DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
