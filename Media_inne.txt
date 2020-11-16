@@ -14,41 +14,6 @@ pap.pl##BODY:style(user-select: unset !important)
 !Duze miniaturki w treści artykułu
 dorzeczy.pl##SPAN.art-text-relation:remove()
 
-wiadomosci.wp.pl#@#+js(set-constant, Object.prototype.isBlocked, false)
-wiadomosci.wp.pl#@#+js(set-constant, Object.prototype.aggressiveAB, false)
-!Wp.pl - reklamy na stronie głównej 
-wp.pl##DIV:has(:scope > DIV[class^="sc-"]:first-child > IMG[class^="sc-"][src*="v.wpimg.pl/"][role="presentation"][alt]:first-child)
-wp.pl##DIV:has(:scope > DIV[class^="sc-"]:first-child > IMG[class^="sc-"][src*="v.wpimg.pl/"][role="presentation"][alt]:first-child):remove()
-!Wp.pl - linki do skryptu z reklamami
-wp.pl##HEAD > SCRIPT[charset="utf-8"][crossorigin="anonymous"][src^="https://www.wp.pl/"]:remove()
-!Www.wp.pl - ltreść javascriptu z reklamami
-www.wp.pl##HEAD > SCRIPT[type="text/javascript"]:remove()
-!Wp.pl Styl z linkiem do reklamy na stronie głównej
-wp.pl##STYLE[data-id="wpcss"]:remove()
-!Miejsce na reklamy na opinie.wp.pl
-wp.pl##DIV[class][data-reactid]:has(:scope > DIV[class][data-reactid]:only-child > DIV[class][data-reactid]:first-child:empty + IMG[class][src*="v.wpimg.pl/"][alt][data-reactid]:empty)
-wp.pl##DIV[class][data-reactid]:has(:scope > DIV[class][data-reactid]:only-child > DIV[class][data-reactid]:first-child:empty + IMG[class][src*="v.wpimg.pl/"][alt][data-reactid]:empty):remove()
-!Ramki www.wp.pl ładujące się na innych stronach z domeny
-||www.wp.pl^$subdocument
-!https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
-magazyn.wp.pl##SPAN.socials
-||magazyn-wp.wpcdn.pl/js/desktop/wpstat.js
-||magazyn-wp.wpcdn.pl/js/ext.js
-||magazyn-wp.wpcdn.pl/css/ext.css
-!Ładowanie nowego artykułu przy przescrollowaniu artykułu w dół
-||magazyn.wp.pl/ajax/
-!magazyn.wp.pl##DIV.article-loader-holder
-magazyn.wp.pl##DIV.article-loader-holder:remove()
-!Reklamy w treści artykułu
-!https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
-!Filtr blokował ładowanie obrazów na stronie głównej (jednak nie)
-!||std.wpcdn.pl/wpjslib/wpjslib-sgap.js$domain=~www.wp.pl
-||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
-magazyn.wp.pl##FIGURE.a--instream:remove()
-!Cofnięcie usuwania linku do strony głównej z przycisku powrotu
-!Polskie Filtry Elementów Irytujących - wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
-wp.pl,~www.wp.pl#@#+js(ra, href, a[data-st-area="Header-back"])
-
 !https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
 !Puste miejsce pod artykułem 1:
 businessinsider.com.pl##DIV.streamNews
