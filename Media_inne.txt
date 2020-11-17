@@ -1,8 +1,39 @@
 ! Title: Media inne
 ! Expires: 1 day
 
-!Odblokowanie kopiowania obrazów
+!Początek: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
+!Nie dało się skopiować zdjęcia
 cozadzien.pl##+js(remove-attr.js, oncontextmenu, IMG[oncontextmenu])
+!https://r.cozadzien.pl/server/www/delivery/asyncjs.php
+||r.cozadzien.pl^
+!https://dami24.pl/videoima/videojs-contrib-ads/dist/videojs-contrib-ads.min.js
+||dami24.pl/*/videojs-contrib-ads.min.js
+||dami24.pl/*/videojs-contrib-ads.css
+!Puste miejsce po reklamie w prawej kolumnie
+cozadzien.pl##DIV.mnrx
+!Puste miejsce po reklamie nad głównym zdjęciem w artykule
+!cozadzien.pl##DIV.w-100.relative.tc[style="min-height: 100px;"]
+!Puste miejsce po reklamach na stronie
+cozadzien.pl##DIV:has(:scope > DIV > DIV.hype)
+!Puste miejsce po reklamach nad tytułem
+cozadzien.pl##SECTION.top-ad
+!Reklamy
+||bitrix24.pl^
+!Funkcja dekodująca hype-encoded do r.cozadzien.pl/server/www/delivery/asyncjs.php
+cozadzien.pl##+js(acis, hype_init)
+!Zachowanie po kliknięciu przycisków społecznościowych po prawej stronie tytułu
+||cozadzien.pl/*/sharer.js
+!Pewnie reklamy
+||cozadzien.pl/ajax/ads_words
+!Wideo pod artykułem
+||dami24.pl/api_cozadzien/$domain=cozadzien.pl
+!Pierwszy link do kanału YT na początku treści artykułu
+cozadzien.pl##DIV.article-content > DIV.article-link:if(:scope > A[href*="youtube.com/user/cozadzienpl"])
+cozadzien.pl##DIV.article-content > DIV.article-link:if(:scope > A[href*="facebook.com/CoZaDzien/"])
+!Chyba reklamy
+||dami24.pl/videoima/videojs-ima/dist/videojs.ima.min.js
+!Koniec: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
+
 
 !Odblokowanie zaznaczania i kopiowania
 pap.pl##BODY:style(-webkit-touch-callout: unset !important)
@@ -59,6 +90,10 @@ tvn24.pl##+js(addEventListener-defuser.js, ended)
 @@||tvn24.pl/_next/static/*/pages/detail.js
 ||tvn24.pl/_next/static/*/pages/_app.js
 @@||tvn24.pl/_next/static/*/pages/_app.js
+||tools.services.tvn.pl^
+||gemius.pl^
+
+||pix2.services.tvn.pl^
 
 !Odblokowanie niepoprawnie ukrywanych punktów z leada
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
