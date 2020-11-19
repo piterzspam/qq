@@ -1,6 +1,56 @@
 ! Title: Media inne
 ! Expires: 1 day
 
+!POCZĄTEK WIRTUALNA POLSKA WP.PL
+||onelogin.wpcdn.pl^
+!Poaczątek - mobilna www.wp.pl
+www.wp.pl##A[href*="wp.pl/"]:has(DIV:only-child > DIV:only-child > IMG[src*="v.wpimg.pl"])
+!Koniec - mobilna www.wp.pl
+
+
+!Początek - https://wiadomosci.wp.pl/spor-wokol-budzetu-wszystko-jasne-przed-posiedzeniem-rady-ue-6576549253904992a
+!Przy jakimkolwiek usuwaniu nie działają interaktywne elementy strony (łasowanie komentarzy, rozwiajnie tagów)
+!Wideo powiązane w treści artykułu
+!wiadomosci.wp.pl^##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"])
+opinie.wp.pl,wiadomosci.wp.pl##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"])
+!wiadomosci.wp.pl##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"]):remove()
+!Już samo usunięcie nagłówka nad wideo powoduje, że się ono nie ładuje
+!wiadomosci.wp.pl##^H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"]):xpath(preceding-sibling::DIV[H2][1])
+opinie.wp.pl,wiadomosci.wp.pl##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"]):xpath(preceding-sibling::DIV[H2][1])
+!wiadomosci.wp.pl##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"]):xpath(preceding-sibling::DIV[H2][1]):remove()
+!Koniec - https://wiadomosci.wp.pl/spor-wokol-budzetu-wszystko-jasne-przed-posiedzeniem-rady-ue-6576549253904992a
+
+!Początek - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+!REklamy w sekcji "POLECANE" na dole strony
+opinie.wp.pl,wiadomosci.wp.pl##LI[data-adv]:remove()
+opinie.wp.pl,wiadomosci.wp.pl##LI[data-adv]
+!Reklama na przycisku startu po spauzowaniu wideo
+!wiadomosci.wp.pl##ARTICLE.article.desktop.videoView DIV.adpause > DIV.plchldr > SPAN:first-child:last-child > DIV.cntr
+opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr
+opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr:remove()
+!Koniec - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+
+!Początek - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+!Przycisk koszyka na górnym pasku:
+opinie.wp.pl,wiadomosci.wp.pl##DIV[data-st-area="Header"] > DIV:has(:scope > DIV > svg[viewBox="0 0 27 24"] > path)
+!Reklama nad wideo
+opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 250px)
+opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 250px):remove()
+!REklamy w sekcji "POLECANE" na dole strony
+!wiadomosci.wp.pl##DIV.teasersListing > DIV > DIV.teaserColor DIV > DIV:has(:scope > DIV[data-slot])
+opinie.wp.pl,wiadomosci.wp.pl##DIV.teasersListing DIV:has(:scope > DIV[data-slot])
+opinie.wp.pl,wiadomosci.wp.pl##DIV.teasersListing DIV:has(:scope > DIV[data-slot]):remove()
+!Próba zablokowania reklam nad filmwm i pod opisem filmu jednym filtrem dla reklam będących ramkamki, nie obrazkiem
+!wiadomosci.wp.pl##DIV > DIV > DIV > DIV > IFRAME[class*=" "][scrolling][data-bunch][data-slot][frameborder="0"]:first-child:last-child
+opinie.wp.pl,wiadomosci.wp.pl##DIV:has(:scope > IFRAME[class*=" "][scrolling][data-bunch][data-slot][frameborder="0"]:only-child)
+opinie.wp.pl,wiadomosci.wp.pl##DIV:has(:scope > IFRAME[class*=" "][scrolling][data-bunch][data-slot][frameborder="0"]:only-child):remove()
+!Reklama w komentarzach - strona mobilna
+!https://wiadomosci.wp.pl/strajk-pielegniarek-musi-byc-uciazliwy-by-przyniosl-efekt-6576969181580032a/komentarze
+opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px)
+opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px):remove()
+!Koniec - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+!KONIEC WIRTUALNA POLSKA WP.PL
+
 !Początek: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
 !Nie dało się skopiować zdjęcia
 cozadzien.pl##+js(remove-attr.js, oncontextmenu, IMG[oncontextmenu])
