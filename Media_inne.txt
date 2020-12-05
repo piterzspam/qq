@@ -2,6 +2,67 @@
 ! Expires: 1 day
 
 !POCZĄTEK WIRTUALNA POLSKA WP.PL
+!Anty-adblock
+!https://github.com/uBlockOrigin/uAssets/issues/8225
+wp.pl##+js(nostif, visibility, 0)
+!Anty-adblock
+!https://wiadomosci.wp.pl/zloci-chlopcy-od-fatimy-6576732794653472a
+!Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for uBlock Origin
+!abczdrowie.pl,autokult.pl,echirurgia.pl,film.wp.pl,fotoblogia.pl,gadzetomania.pl,gry.wp.pl,horoskop.wp.pl,kobieta.wp.pl,komorkomania.pl,medycyna24.pl,money.pl,parenting.pl,pogoda.wp.pl,tech.wp.pl,tv.wp.pl,twojeip.wp.pl,wiadomosci.wp.pl,wideo.wp.pl,www.wp.pl,sportowefakty.wp.pl##+js(aost, WP.prebid, onLoad)
+abczdrowie.pl,autokult.pl,echirurgia.pl,film.wp.pl,fotoblogia.pl,gadzetomania.pl,gry.wp.pl,horoskop.wp.pl,kobieta.wp.pl,komorkomania.pl,medycyna24.pl,money.pl,parenting.pl,pogoda.wp.pl,tech.wp.pl,tv.wp.pl,twojeip.wp.pl,wiadomosci.wp.pl,wideo.wp.pl,www.wp.pl,sportowefakty.wp.pl#@#+js(aost, WP.prebid, onLoad)
+wiadomosci.wp.pl#@#+js(abort-on-stack-trace, WP.prebid, onLoad)
+
+!Cofnięcie usuwania linku do strony głównej z przycisku powrotu
+!Polskie Filtry Elementów Irytujących - wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
+wp.pl,~www.wp.pl#@#+js(ra, href, a[data-st-area="Header-back"])
+!Wp.pl - reklamy na stronie głównej 
+www.wp.pl##DIV:has(:scope > DIV[class^="sc-"]:first-child > IMG[class^="sc-"][src*="v.wpimg.pl/"][role="presentation"][alt]:first-child)
+www.wp.pl##^DIV:has(:scope > DIV[class^="sc-"]:first-child > IMG[class^="sc-"][src*="v.wpimg.pl/"][role="presentation"][alt]:first-child)
+www.wp.pl##DIV:has(:scope > DIV[class^="sc-"]:first-child > IMG[class^="sc-"][src*="v.wpimg.pl/"][role="presentation"][alt]:first-child):remove()
+!Wp.pl - linki do skryptu z reklamami
+www.wp.pl##^HEAD > SCRIPT[charset="utf-8"][crossorigin="anonymous"][src^="https://www.wp.pl/"]
+www.wp.pl##HEAD > SCRIPT[charset="utf-8"][crossorigin="anonymous"][src^="https://www.wp.pl/"]:remove()
+!Www.wp.pl - ltreść javascriptu z reklamami
+www.wp.pl##^HEAD > SCRIPT[type="text/javascript"]
+www.wp.pl##HEAD > SCRIPT[type="text/javascript"]:remove()
+!Wp.pl Styl z linkiem do reklamy na stronie głównej
+www.wp.pl##^STYLE[data-id="wpcss"]
+www.wp.pl##STYLE[data-id="wpcss"]:remove()
+!Ramki www.wp.pl ładujące się na innych stronach z domeny
+||www.wp.pl^$subdocument
+!https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
+magazyn.wp.pl##SPAN.socials
+||magazyn-wp.wpcdn.pl/js/desktop/wpstat.js
+||magazyn-wp.wpcdn.pl/js/ext.js
+||magazyn-wp.wpcdn.pl/css/ext.css
+!Ładowanie nowego artykułu przy przescrollowaniu artykułu w dół
+||magazyn.wp.pl/ajax/
+!magazyn.wp.pl##DIV.article-loader-holder
+magazyn.wp.pl##^DIV.article-loader-holder
+magazyn.wp.pl##DIV.article-loader-holder:remove()
+!Reklamy w treści artykułu
+!https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
+!Filtr blokował ładowanie obrazów na stronie głównej (jednak nie)
+!||std.wpcdn.pl/wpjslib/wpjslib-sgap.js$domain=~www.wp.pl
+||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
+magazyn.wp.pl##^FIGURE.a--instream
+magazyn.wp.pl##FIGURE.a--instream:remove()
+
+
+!Wideo powiązane na końcu artykułu
+!https://wiadomosci.wp.pl/afera-getback-igor-janke-uslyszal-zarzuty-6571333792770848a
+wiadomosci.wp.pl##DIV.article--text:has(A[href="https://dziejesie.wp.pl/"]):xpath(preceding-sibling::DIV[1]):has(:scope > DIV[id^="video-player-"]):remove()
+
+!Reklamy w artykule premium
+!https://opinie.wp.pl/kataryna-zyjemy-w-okrutnym-swiecie-ale-aborcja-embriopatologiczna-musi-pozostac-opinia-6567085945505921a
+!https://wiadomosci.wp.pl/zloci-chlopcy-od-fatimy-6576732794653472a
+wp.pl##ARTICLE.article.premium > DIV[data-st-area="article-header"] + DIV > DIV:not([class*="premium--wide"]):not([class*="article--text"]):not([class*="article--lead"]) > *:remove()
+wp.pl##^ARTICLE.article.premium > DIV[data-st-area="article-header"] + DIV > DIV:not([class*="premium--wide"]):not([class*="article--text"]):not([class*="article--lead"]) > *
+
+!Szare pola z reklamami
+!https://wiadomosci.wp.pl/wegry-kolejny-skandal-w-fideszu-zdumiewajace-slowa-wspolzalozyciela-partii-6582731252394560a
+wp.pl##DIV:matches-css(background-color: rgba(0, 0, 0, 0.05)):matches-css(min-height: /[0-9]*px/):remove()
+
 ||onelogin.wpcdn.pl^
 !Poaczątek - mobilna www.wp.pl
 www.wp.pl##A[href*="wp.pl/"]:has(DIV:only-child > DIV:only-child > IMG[src*="v.wpimg.pl"])
@@ -30,6 +91,8 @@ opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr
 opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr:remove()
 !Koniec - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 
+!Szare pola na reklamy
+wiadomosci.wp.pl##DIV:matches-css(min-height: 250px):remove()
 !Początek - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 !Przycisk koszyka na górnym pasku:
 opinie.wp.pl,wiadomosci.wp.pl##DIV[data-st-area="Header"] > DIV:has(:scope > DIV > svg[viewBox="0 0 27 24"] > path)
