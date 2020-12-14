@@ -233,6 +233,13 @@ forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
 ||scontent.services.tvn.pl/fpdata.js$domain=get.x-link.pl
 ||scontent.services.tvn.pl/gemiuslib.js$domain=get.x-link.pl
 
+!Wideo powiązane pod artykułem na stronie mobilnej i desktopowej
+!https://wiadomosci.dziennik.pl/polityka/artykuly/8042166,solidarna-polska-odejscie-koalicja-wniosek-formalny-rzad-pis.html
+dziennik.pl##^DIV.widget.video + DIV.licenceInfo:xpath(self::node()/preceding-sibling::DIV[1])
+dziennik.pl##DIV.widget.video + DIV.licenceInfo:xpath(self::node()/preceding-sibling::DIV[1]):remove()
+!Przycisk obserwuj pod artykułem
+!https://wiadomosci.dziennik.pl/polityka/artykuly/8042166,solidarna-polska-odejscie-koalicja-wniosek-formalny-rzad-pis.html
+dziennik.pl##A.fbButtonObserve
 
 dziennik.pl,forsal.pl,gazetaprawna.pl,ampproject.org##AMP-AD
 !https://wiadomosci.dziennik.pl/opinie/artykuly/7723215,joanna-lichocka-krzysztof-czabanski-sylwetki-trojka-piotr-zaremba-mainstream.html

@@ -162,7 +162,6 @@ wprost.pl##DIV#top-recommends-2:remove()
 wprost.pl##DIV.page-header-latests:remove()
 
 
-
 !Przyciski socialowe po lewej stronie
 !https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
 wprost.pl##DIV.share-buttons-wrapper
@@ -172,3 +171,11 @@ wprost.pl##DIV.share-buttons-wrapper
 wprost.pl#@#SPAN.art-text-relation
 ||wprost.pl/relations$badfilter
 ||wprost.pl/relations/
+
+!Ładowanie kolejnych artykułów przy scrollowaniu
+!https://premium.wprost.pl/10398654/niedyskrecje-parlamentarne-tusk-znowu-zirytowal-politykow-po-psl-pozbyl-sie-kukiza-bo-nie-chcial-dzielic-sie-pieniedzmi.html
+wprost.pl##DIV#articles-autoload:remove()
+
+!Ładowanie sekcji najnowze na górze strony po przescrollowaniu w dół
+!https://www.wprost.pl/polityka/10398535/leszek-miller-wyjasnia-kiedy-zbigniew-ziobro-ma-racje-i-przyznaje-od-miekiszona-sie-juz-nie-odklei.html
+wprost.pl##DIV#top-recommends:remove()

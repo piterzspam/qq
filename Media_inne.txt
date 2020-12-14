@@ -155,8 +155,6 @@ pap.pl##BODY:style(-moz-touch-callout: unset !important)
 pap.pl##BODY:style(-ms-touch-callout: unset !important)
 pap.pl##BODY:style(user-select: unset !important)
 
-!Duze miniaturki w treści artykułu
-dorzeczy.pl##SPAN.art-text-relation:remove()
 
 !https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
 !Puste miejsce pod artykułem 1:
@@ -171,6 +169,11 @@ businessinsider.com.pl##DIV.recommendedAutomat
 businessinsider.com.pl##DIV.sponsored
 businessinsider.com.pl##DIV.adMarkiMowia
 businessinsider.com.pl##DIV.adsContainer
+
+!Na stronie mobilnej puste pole po reklamie w treści artykułu
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+businessinsider.com.pl##DIV#onet-ad-right
+
 
 !Blokada autostartu wideo na TVN
 ||nuvi2.cdntvn.pl/*/test.mp4
@@ -234,6 +237,10 @@ oko.press###banner-after-excerpt
 ||oko.press/images/2020/05/20200521_banner1_prostok-1.png$image
 oko.press##.js-random.article-cf-banner
 
+!Pasek socialowy na dole strony mobilnej
+!https://oko.press/w-teatrze-pawel-kukiz-gral-che-guevare-teraz-bedzie-przystawka-pis/
+oko.press##DIV.social-scrolling
+
 !https://krytykapolityczna.pl/felietony/galopujacy-major/wyrzucmy-wreszcie-w-pustyni-i-w-puszczy-z-kanonu-lektur/
 @@||krytykapolityczna.pl^$generichide
 krytykapolityczna.pl##DIV.newsletter-form-popup
@@ -279,10 +286,50 @@ iplsc.com^$generichide
 @@||zencdn.net^$domain=rmf24.pl
 ||rmf24.pl^$stylesheet,domain=rmf24.pl,badfilter
 
+!https://www.rmf24.pl/fakty/polska/news-ziobro-solidarna-polska-nie-odchodzi-ze-zjednoczonej-prawicy,nId,4922878
+||js.iplsc.com/inpl.abd/latest/proxy.html?
+
+!https://www.rmf24.pl/fakty/polska/news-cbsp-rozbilo-grupe-pseudokibicow-handlujacych-narkotykami,nId,4925941
+||googleads.github.io^$domain=rmf24.pl
+
+
+!Film z ramki z reklamą pod artykułem
+!https://www.rmf24.pl/fakty/polska/news-cbsp-rozbilo-grupe-pseudokibicow-handlujacych-narkotykami,nId,4925941
+||gruul.rmf.pl/mp4/short.mp4
+rmf24.pl##^DIV#addVideoCont
+rmf24.pl##DIV#addVideoCont:remove()
+
+!Komentarze pod artykułem są z FB
+!https://www.rmf24.pl/fakty/polska/news-cbsp-rozbilo-grupe-pseudokibicow-handlujacych-narkotykami,nId,4925941
+||connect.facebook.net^$3p,domain=rmf24.pl
+rmf24.pl##DIV#commentsZoneList
+rmf24.pl##DIV#commentsFB
+
+!https://www.rmf24.pl/fakty/polska/news-cbsp-rozbilo-grupe-pseudokibicow-handlujacych-narkotykami,nId,4925941
+!rmf24.pl/j/videojs/ad-setup.js?cb=2
+||rmf24.pl/j/videojs/ad-setup.js
+!https://w.iplsc.com/internal/inpl.intad/1.0.25/inpl.intad.js
+||w.iplsc.com/internal/inpl.intad/
+
 ! 13.06.2020 https://www.tygodnikpowszechny.pl
 tygodnikpowszechny.pl##.pane-block-32.pane-block.panel-pane
 tygodnikpowszechny.pl##DIV.bhr-popup-container
 tygodnikpowszechny.pl##DIV#bhr-overlay
+
+
+
+
+!Pasek z linkiem do aplikacji na górze strony mobilnej
+!https://www.tokfm.pl/Tokfm/7,103087,26597282,solidarna-polska.html
+tokfm.pl##DIV.app-top-popup
+!Przycisk lubię to
+tokfm.pl##LI.sc_item.fbShare
+!Pewnie popsuje parę stron, ale w zakładce z artykułami wideo są tylko 3 tytuły
+!https://www.tokfm.pl/Tokfm/7,117303,26033573,walka-na-plakaty-za-plecami-andrzeja-dudy-jestesmy-ludzmi.html
+||video.onnetwork.tv^$domain=tokfm.pl
+!Wideo powiązane pod głównym zdjęciem
+!https://www.tokfm.pl/Tokfm/7,117303,26033573,walka-na-plakaty-za-plecami-andrzeja-dudy-jestesmy-ludzmi.html
+tokfm.pl##SECTION.art_content > DIV.art_embed
 
 
 

@@ -1,4 +1,3 @@
-
 ! Title: Dorzeczy.pl
 ! Expires: 1 day
 
@@ -13,25 +12,36 @@ dorzeczy.pl##BODY:style(overflow-y: unset !important)
 ||deep.bi^
 ||google.com/recaptcha/$important,domain=dorzeczy.pl
 ||connect.facebook.net^$important,domain=dorzeczy.pl
+
+!Duze miniaturki w treści artykułu
+dorzeczy.pl##SPAN.art-text-relation:remove()
+
 !Zdjęcie i tytuł powiązanego artykułu w treści
 ||dorzeczy.pl/relations
 @@||dorzeczy.pl/relations
+
 !Puste miejsca po reklamach
 dorzeczy.pl##DIV.page-billboard
-!Mpże śledzenie
+
+!Może śledzenie
 ||dorzeczy.pl/hits
 !Baner autopromocjo pod paskiem nawigacyjnym
 ||dorzeczy.pl/*promocja-tygodnika$script,css
+
 !Przyciski socialowe po lewej stronie artykułu
 !||dorzeczy.pl/dorzeczy/_i/icon-20-soc
 !||dorzeczy.pl/dorzeczy/_i/icon-40-soc
 ||dorzeczy.pl/dorzeczy/_i/icon-*-soc
+
 !Przyciski socialowe po lewej stronie artykułu
 dorzeczy.pl##DIV.share-buttons-wrapper
+
 !Przyciski socialowe pod artykułem
 dorzeczy.pl##DIV#share-buttons
+
 !Przyciski socialowe na stopce
 dorzeczy.pl##DIV.soc-buttons
+
 !Powiązany artykuł pobrany z dorzeczy.pl/relations z miniaturą w środku tesktu
 dorzeczy.pl##SPAN.art-text-relation-text
 !Koniec: https://dorzeczy.pl/swiat/154992/dziwne-zachowanie-bylego-senatora-media-polityk-dostal-udaru-w-tracie-wywiadu.html
@@ -39,8 +49,10 @@ dorzeczy.pl##SPAN.art-text-relation-text
 !Początek: https://dorzeczy.pl/galerie/99253/3/marsz-zycia-i-rodziny.html
 !Przyciskisocialowe pod tytułem galerii po prawej stronie
 dorzeczy.pl##DIV.element-gallery-info-sharebar
+
 !Przyciski socialowe pod zdjęciem w galerii
 dorzeczy.pl##DIV.art-bar-buttons
+
 !Strzałka w prawo na ostatnim slajdzie przenosi do nowego artykułu
 dorzeczy.pl##UL#gallery-items:has(LI.screen-last-in-list.slick-slide.slick-current.slick-active) > SPAN.next.slick-arrow
 !Koniec: https://dorzeczy.pl/galerie/99253/3/marsz-zycia-i-rodziny.html
