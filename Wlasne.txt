@@ -693,6 +693,9 @@ thephonograph.net##DIV[class^="pea_cook"]
 
 
 !https://psarips.uk/tv-show/the-mandalorian/
+!https://stfly.me/owFqD9ci?
+nbyts.online##DIV#content > P
+nbyts.online##DIV#content > H2.text-center
 !https://stfly.me/rPLQkym?
 freemarkeeter.com##DIV#content > P
 freemarkeeter.com##DIV#content > H2.text-center
