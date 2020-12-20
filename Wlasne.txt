@@ -690,3 +690,105 @@ thephonograph.net##DIV[class^="pea_cook"]
 ||cdp.aliexpress.com^
 !Po dodaniu do koszyka: Buyers Who Bought This Item Also Bought gpsfront.aliexpress.com/getI2iRecommendingResults.do?:
 ||gpsfront.aliexpress.com^
+
+
+!https://psarips.uk/tv-show/the-mandalorian/
+!https://stfly.me/rPLQkym?
+freemarkeeter.com##DIV#content > P
+freemarkeeter.com##DIV#content > H2.text-center
+!https://tii.ai/0cJ9gjyt?
+tii.ai##DIV.col-md-10 > DIV.text-left
+tii.ai##DIV.col-md-10 > P
+tii.ai##DIV.col-md-10 > H3
+!https://iir.ai/Cgd5yx?
+iir.ai##DIV.col-md-10 > DIV.text-left
+iir.ai##DIV.col-md-10 > P
+iir.ai##DIV.col-md-10 > H3
+!https://expertvn.com/?type=2&token=5bkpMHIW&salt=e40f20b3c4b2b122b0962314d490b47e
+expertvn.com##H2
+expertvn.com##DIV.entry-content
+expertvn.com##ARTICLE.post-content
+||expertvn.com^$image
+!https://adshrink.it/7IjL9M
+!||wurfl.io^$3p
+!Fanboy’s Enhanced Tracking List 
+@@||wurfl.io/wurfl.js$domain=adshrink.it
+||shrink-service.it/ads.php?
+adshrink.it##DIV#portrait + DIV > DIV#heroheader_custom
+!https://windowsreport.com/windows-10-automatically-connect-vpn/
+||windowsreport.com/rpbAQWv6PQMG.js?
+||sdk.privacy-center.org^$domain=windowsreport.com
+!!!!!!!!
+!https://www.guru99.com/c-sharp-file-operations.html
+!https://www.guru99.com/Customization/sticky/sticky_ads.js
+||guru99.com/*sticky_ads.js
+!https://www.guru99.com/Customization/sticky/carbon_sticky_ads.js
+||guru99.com/*carbon_sticky_ads.js
+!https://www.guru99.com/Customization/footer_ads.js
+||guru99.com/*footer_ads.js
+!https://www.guru99.com/media/plg_jchoptimize/cache/js/c1a395b79d58b01c4f8334d455e8075f.js
+!||guru99.com/media/plg_jchoptimize/cache/js/c1a395b79d58b01c4f8334d455e8075f.js
+guru99.com##DIV.top-ads-boxes
+!!!!!!!!!!!!!!!!!
+!https://www.c-sharpcorner.com/UploadFile/mahesh/how-to-read-a-text-file-in-C-Sharp/
+c-sharpcorner.com###NewsArticleAdBox
+c-sharpcorner.com###bannerLargeAd
+!https://www.c-sharpcorner.com/JavaScripts/NewScripts/NewPopupPlugin.js
+||c-sharpcorner.com/*NewPopupPlugin.js
+!https://csharpcorner-mindcrackerinc.netdna-ssl.com/js/article_details_new?v=RczjRCB501FNdEx_d3l1xjt1z9YE93BkVMcy_f_Sw8A1
+||csharpcorner-mindcrackerinc.netdna-ssl.com^
+
+
+!RUS: RU AdList
+!@@||google.com/cse/cse.js$script,3p
+!https://www.guru99.com/c-sharp-file-operations.html
+!https://www.codegrepper.com/code-examples/csharp/how+clear+all+line+in+text+file+and+write+new+string+in+c%23
+!https://www.c-sharpcorner.com/UploadFile/mahesh/how-to-read-a-text-file-in-C-Sharp/
+!To chyba wyszukiwarka ||google.com/cse/$important
+!https://forums.codeguru.com/showthread.php?477537-C-Help!-Anyone-know-how-to-clear-a-text-file
+||evidon.com^
+
+!https://www.codegrepper.com/code-examples/csharp/how+clear+all+line+in+text+file+and+write+new+string+in+c%23
+||apis.google.com/js/client:platform.js?onload=autoLogin$domain=codegrepper.com
+codegrepper.com##^DIV[id^="video_background_image_"]
+codegrepper.com##DIV[id^="video_background_image_"]
+codegrepper.com##DIV[id^="video_background_image_"]:remove()
+codegrepper.com##UL.one-third
+codegrepper.com##A.chrome_button
+
+!https://www.geeksforgeeks.org/string-split-method-in-c-sharp-with-examples/
+!https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201210132002/GFG-RT-CRC.png
+||media.geeksforgeeks.org/wp-content/cdn-uploads/20201210132002/GFG-RT-CRC.png
+geeksforgeeks.org##DIV[id^="AP_G4GR_"]
+geeksforgeeks.org##^DIV[id^="AP_G4GR_"]
+!
+!https://m.facebook.com/story.php?story_fbid=206008447803235&id=100051822424099&refid=18&_ft_=qid.6907960856829760483%3Amf_story_key.430231218154213%3Agroup_id.384990992678236%3Atop_level_post_id.430231218154213%3Atl_objid.430231218154213%3Acontent_owner_id_new.100001897464510%3Aoriginal_content_id.206008447803235%3Aoriginal_content_owner_id.100051822424099%3Apage_id.384990992678236%3Asrc.22%3Aphoto_id.206008357803244%3Astory_location.6%3Aattached_story_attachment_style.photo%3Afilter.GroupStoriesByActivityEntQuery%3Atds_flgs.3%3Aott.AX-B_sY_5MjZwZWW%3Apage_insights.%7B%22384990992678236%22%3A%7B%22page_id%22%3A384990992678236%2C%22page_id_type%22%3A%22group%22%2C%22actor_id%22%3A100001897464510%2C%22dm%22%3A%7B%22isShare%22%3A1%2C%22originalPostOwnerID%22%3A206008447803235%7D%2C%22psn%22%3A%22EntGroupMallPostCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A657%2C%22publish_time%22%3A1608291035%2C%22story_name%22%3A%22EntGroupMallPostCreationStory%22%2C%22story_fbid%22%3A%5B430231218154213%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A6%7D%7D&__tn__=%2As%2AsH-R
+!utm_$document,xmlhttprequest,queryprune=|utm_,domain=auto.ru|kp.ru|mail.ru|rambler.ru
+||facebook.com/*refid$document,queryprune=|refid,domain=facebook.com
+||facebook.com/*_ft_$document,queryprune=|_ft_,domain=facebook.com
+||facebook.com/*__tn__$document,queryprune=|__tn__,domain=facebook.com
+
+!https://m.facebook.com/photo.php?fbid=206008357803244&id=100051822424099&set=a.196435505427196&source=57
+||facebook.com/*set$document,queryprune=|set,domain=facebook.com
+||facebook.com/*source$document,queryprune=|source,domain=facebook.com
+
+!https://m.facebook.com/story.php?story_fbid=10157778576258085&id=664498084
+!Komunikat o logowaniu na górze strony Yulia Valerio is on Facebook. To connect with Yulia, join Facebook today.
+m.facebook.com##DIV#mobile_login_bar
+!Komunikat o logowaniu na dole strony
+m.facebook.com##DIV[data-sigil="loggedout_mobile_cta_footer"]
+!Komunikat o akceptacji ciastek na stronie mobilnej
+m.facebook.com##DIV[data-sigil=" m-overlay-layer"]
+m.facebook.com##DIV[data-sigil=" m-overlay-modal"]
+!Może przeniesienie do aplikacji: {"platform":"play","id":"com.facebook.mlite"}],"prefer_related_applications":false}
+||m.facebook.com/data/manifest/
+
+!https://mbasic.facebook.com/TygodnikNIE/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2FTygodnikNIE%2Fposts%2F%3Fref%3Dpage_internal&ref=page_internal&_rdr
+||facebook.com/*refsrc$document,queryprune=|refsrc,domain=facebook.com
+||facebook.com/*_rdr$document,queryprune=|_rdr,domain=facebook.com
+||facebook.com/*ref$document,queryprune=|ref,domain=facebook.com
+
+!Komunikat na górze strony: "Ryszard Płatek is on Facebook. To connect with Ryszard, join Facebook today."
+mbasic.facebook.com##DIV#mobile_login_bar
+!Komunikat o ciastkach na górze strony
+mbasic.facebook.com##DIV#viewport > DIV#u_0_1
