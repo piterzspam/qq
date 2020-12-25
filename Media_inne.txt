@@ -176,12 +176,51 @@ businessinsider.com.pl##DIV#onet-ad-right
 
 !Wideo w treści artykułu
 !https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
-businessinsider.com.pl##^DIV#detail > DIV.embeddedApp
-businessinsider.com.pl##DIV#detail > DIV.embeddedApp:remove()
-businessinsider.com.pl##DIV#detail > DIV.embeddedApp
+
 !Wideo na początku artykułu
 !https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
+!Media inne
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
+!Media inne
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
+businessinsider.com.pl##DIV.embeddedApp:style(min-height: unset !important)
 
+!.post-container Blokowało datę dodania artykułu
+!Z filtra: businessinsider.com.pl###adSS-Detal, .post-container, .bottom-share-module, .clearfix
+!z listy: POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
+businessinsider.com.pl#@##adSS-Detal, .post-container, .bottom-share-module, .clearfix
+
+!Bo zablokowaniu na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+!businessinsider.com.pl##DIV.streamNews
+businessinsider.com.pl#@#DIV.streamNews
+
+!Przy samym zablokowaniu sgqcvfjvr.onet.pl na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
+!może to przez to !"//sgqcvfjvr.onet.pl/YnVpbGQvezlza2x0ZTUyfWRsQXBpL2RsLmxpYntOTWFzX0EyMn0ubWluLmpz",'" onload="(window.onetAds||window.dlApi).onload()" onerror="(window.onetAds||window.dlApi).onerror()"
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+!||sgqcvfjvr.onet.pl^$script,domain=dziennik.pl,redirect=noopjs,important
+
+!Reklamy na stronie mobilnej
+!businessinsider.com.pl##DIV[id^="onet-ad-"]
+!businessinsider.com.pl##ASIDE[id^="onet-ad-"]
+businessinsider.com.pl##[id^="onet-ad-"]
+businessinsider.com.pl##[id^="onet-ad-"]:remove()
+businessinsider.com.pl##^[id^="onet-ad-"]
+
+!Reklamy na stronie mobilnej
+businessinsider.com.pl##BODY.dreamlab-mobile .placeholder
+businessinsider.com.pl##BODY.dreamlab-mobile .placeholder:remove()
+businessinsider.com.pl##^BODY.dreamlab-mobile .placeholder
+
+!Przyciski socialowe pod tytułem artykułu
+businessinsider.com.pl##DIV.share.mobile
+
+!Na zapas, data dodania artykułu i ilość wyświetleń
+businessinsider.com.pl#@#DIV#share
+
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl
+@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
 
 !Blokada autostartu wideo na TVN
 ||nuvi2.cdntvn.pl/*/test.mp4

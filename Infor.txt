@@ -241,6 +241,17 @@ dziennik.pl##DIV.widget.video + DIV.licenceInfo:xpath(self::node()/preceding-sib
 !https://wiadomosci.dziennik.pl/polityka/artykuly/8042166,solidarna-polska-odejscie-koalicja-wniosek-formalny-rzad-pis.html
 dziennik.pl##A.fbButtonObserve
 
+!Powiązane wideo pod artykułem - na stronie desktopowej
+!https://wiadomosci.dziennik.pl/wydarzenia/artykuly/424004,dlugie-sledztwo-ws-organizacji-lotu-do-smolenska-pokrzywdzonych-moga-byc-setki.html
+dziennik.pl##DIV.detailContent > DIV.widget.video
+dziennik.pl##DIV.detailContent > DIV.widget.video:remove()
+dziennik.pl##^DIV.detailContent > DIV.widget.video
+!Powiązane wideo pod artykułem - na stronie mobilnej
+!https://wiadomosci.dziennik.pl/wydarzenia/artykuly/424004,dlugie-sledztwo-ws-organizacji-lotu-do-smolenska-pokrzywdzonych-moga-byc-setki.html
+dziennik.pl##DIV.contentWrap > DIV.widget.video
+dziennik.pl##DIV.contentWrap > DIV.widget.video:remove()
+dziennik.pl##^DIV.contentWrap > DIV.widget.video
+
 dziennik.pl,forsal.pl,gazetaprawna.pl,ampproject.org##AMP-AD
 !https://wiadomosci.dziennik.pl/opinie/artykuly/7723215,joanna-lichocka-krzysztof-czabanski-sylwetki-trojka-piotr-zaremba-mainstream.html
 ||connect.facebook.net^$domain=dziennik.pl
