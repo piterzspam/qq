@@ -302,6 +302,19 @@ gazetaprawna.pl##DIV.psavSpecialLinks
 !https://forsal.pl/artykuly/1477767,pandemia-a-popyt-na-paliwo-w-marcu-dostawy-produktow-naftowych-byly-rekordowo-niskie.html
 forsal.pl##+js(addEventListener-defuser, scroll, firstStateNav)
 
+!Wideo powiązane pod artykułem AMP
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+dziennik.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
+dziennik.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
+
+!Napisy "Reklama" nad pustymi polami, AMP
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+dziennik.pl##DIV.adBox
+dziennik.pl##DIV.adBoxTop
+
+!Puste miejsca po przyciskach nad głównym zdjęciem AMP
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+dziennik.pl##amp-social-share
 
 !Ramka facebooka:
 !https://wiadomosci.dziennik.pl/media/artykuly/7719231,lukasz-orbitowski-tvp-kultura-rezygnacja-odejscie.html
