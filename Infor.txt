@@ -17,7 +17,7 @@ dziennik.pl##+js(remove-attr.js, href, DIV.detail > P A[id][href*="dziennik.pl/t
 dziennik.pl##DIV.detail > P A[id]:style(text-decoration: unset !important;color: unset !important;)
 !Te wideo są z domeny videotarget.pl, wideo sensowne są z ramki pulsembed.eu, tam jest ramka z videotarget
 !https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
-dziennik.pl##DIV.widget.video.videoScrollClass:if(DIV[data-vt-type="stream"])
+!dziennik.pl##DIV.widget.video.videoScrollClass:if(DIV[data-vt-type="stream"])
 
 !Wyłączenie pokazywania playlisty po spauzowaniu lub przesunięciu kursora poza stronę
 !https://videotarget.pl/player/v1/stream/eyJzaXRlIjoxMDMyLCJwbGFjZW1lbnQiOjEwNDYsInRlbXBsYXRlIjo1LCJjb250ZXh0Ijo3NiwidHlwZSI6InN0cmVhbSJ9?type=stream&index=2&m=0&play=1&m=0&v=1
@@ -233,24 +233,9 @@ forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
 ||scontent.services.tvn.pl/fpdata.js$domain=get.x-link.pl
 ||scontent.services.tvn.pl/gemiuslib.js$domain=get.x-link.pl
 
-!Wideo powiązane pod artykułem na stronie mobilnej i desktopowej
-!https://wiadomosci.dziennik.pl/polityka/artykuly/8042166,solidarna-polska-odejscie-koalicja-wniosek-formalny-rzad-pis.html
-dziennik.pl##^DIV.widget.video + DIV.licenceInfo:xpath(self::node()/preceding-sibling::DIV[1])
-dziennik.pl##DIV.widget.video + DIV.licenceInfo:xpath(self::node()/preceding-sibling::DIV[1]):remove()
 !Przycisk obserwuj pod artykułem
 !https://wiadomosci.dziennik.pl/polityka/artykuly/8042166,solidarna-polska-odejscie-koalicja-wniosek-formalny-rzad-pis.html
 dziennik.pl##A.fbButtonObserve
-
-!Powiązane wideo pod artykułem - na stronie desktopowej
-!https://wiadomosci.dziennik.pl/wydarzenia/artykuly/424004,dlugie-sledztwo-ws-organizacji-lotu-do-smolenska-pokrzywdzonych-moga-byc-setki.html
-dziennik.pl##DIV.detailContent > DIV.widget.video
-dziennik.pl##DIV.detailContent > DIV.widget.video:remove()
-dziennik.pl##^DIV.detailContent > DIV.widget.video
-!Powiązane wideo pod artykułem - na stronie mobilnej
-!https://wiadomosci.dziennik.pl/wydarzenia/artykuly/424004,dlugie-sledztwo-ws-organizacji-lotu-do-smolenska-pokrzywdzonych-moga-byc-setki.html
-dziennik.pl##DIV.contentWrap > DIV.widget.video
-dziennik.pl##DIV.contentWrap > DIV.widget.video:remove()
-dziennik.pl##^DIV.contentWrap > DIV.widget.video
 
 dziennik.pl,forsal.pl,gazetaprawna.pl,ampproject.org##AMP-AD
 !https://wiadomosci.dziennik.pl/opinie/artykuly/7723215,joanna-lichocka-krzysztof-czabanski-sylwetki-trojka-piotr-zaremba-mainstream.html
@@ -302,19 +287,66 @@ gazetaprawna.pl##DIV.psavSpecialLinks
 !https://forsal.pl/artykuly/1477767,pandemia-a-popyt-na-paliwo-w-marcu-dostawy-produktow-naftowych-byly-rekordowo-niskie.html
 forsal.pl##+js(addEventListener-defuser, scroll, firstStateNav)
 
-!Wideo powiązane pod artykułem AMP
-!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
-dziennik.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
-dziennik.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
-
 !Napisy "Reklama" nad pustymi polami, AMP
 !https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
-dziennik.pl##DIV.adBox
-dziennik.pl##DIV.adBoxTop
+https://www.gazetaprawna.pl/firma-i-prawo/artykuly/8055586,konsumenci-drobny-biznes-traktowany-po-konsumencku.html.amp
+https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
+ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.adBox
+ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.adBoxTop
 
 !Puste miejsca po przyciskach nad głównym zdjęciem AMP
 !https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
 dziennik.pl##amp-social-share
+
+
+
+!Przyciski socialowe pod artykułem
+!https://forsal.pl/lifestyle/psychologia/artykuly/8053719,jak-przekonac-laika-do-opinii-ekspertow-oto-sposob-na-gorniak-najman.html
+!https://www.gazetaprawna.pl/firma-i-prawo/artykuly/8055586,konsumenci-drobny-biznes-traktowany-po-konsumencku.html
+gazetaprawna.pl##DIV.social-container
+gazetaprawna.pl##A.fbButtonObserve
+forsal.pl##DIV.detailBottomButtons
+
+!Powiązane wideo pod artykułem - na stronie mobilnej
+!https://wiadomosci.dziennik.pl/wydarzenia/artykuly/424004,dlugie-sledztwo-ws-organizacji-lotu-do-smolenska-pokrzywdzonych-moga-byc-setki.html
+dziennik.pl##DIV.contentWrap > DIV.widget.video
+dziennik.pl##DIV.contentWrap > DIV.widget.video:remove()
+dziennik.pl##^DIV.contentWrap > DIV.widget.video
+
+!Powiązane wideo pod artykułem - na stronie desktopowej
+!https://wiadomosci.dziennik.pl/wydarzenia/artykuly/424004,dlugie-sledztwo-ws-organizacji-lotu-do-smolenska-pokrzywdzonych-moga-byc-setki.html
+dziennik.pl##DIV.detailContent > DIV.widget.video
+dziennik.pl##DIV.detailContent > DIV.widget.video:remove()
+dziennik.pl##^DIV.detailContent > DIV.widget.video
+
+!https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html
+!https://forsal.pl/lifestyle/psychologia/artykuly/8053719,jak-przekonac-laika-do-opinii-ekspertow-oto-sposob-na-gorniak-najman.html
+forsal.pl##^DIV.detailContent > DIV.widget.video
+forsal.pl##DIV.detailContent > DIV.widget.video:remove()
+forsal.pl##DIV.detailContent > DIV.widget.video
+
+!https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8053729,dlaczego-ludzie-ufaja-gorniak-i-najmanowi-a-nie-chca-sluchac-ekspertow.html
+gazetaprawna.pl##^DIV.detailContent > DIV.widget.video
+gazetaprawna.pl##DIV.detailContent > DIV.widget.video:remove()
+gazetaprawna.pl##DIV.detailContent > DIV.widget.video
+
+!Wideo powiązane pod artykułem AMP
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+!https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8053729,dlaczego-ludzie-ufaja-gorniak-i-najmanowi-a-nie-chca-sluchac-ekspertow.html.amp
+!dziennik.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
+ampproject.org,dziennik.pl,gazetaprawna.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
+!dziennik.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type:remove()
+
+!https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
+!forsal.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child
+ampproject.org,forsal.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child
+!forsal.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child:remove()
+
+!Przyciski socialowe nad głównym zdjęciem AMP
+!https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8053729,dlaczego-ludzie-ufaja-gorniak-i-najmanowi-a-nie-chca-sluchac-ekspertow.html.amp
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+!https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
+ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.social-box
 
 !Ramka facebooka:
 !https://wiadomosci.dziennik.pl/media/artykuly/7719231,lukasz-orbitowski-tvp-kultura-rezygnacja-odejscie.html
