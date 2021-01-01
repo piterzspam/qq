@@ -30,12 +30,21 @@
 !https://play.google.com/store/apps/details?id=pl.onet.onethd
 ||onet.pl/mobile/manifest.json
 
+!Zapowiedź artykułu
+!https://www.onet.pl/?utm_source=businessinsider.com.pl_viasg_businessinsider&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=535ab188-817b-4efd-a47a-e213e0566337&sid=ca05277f-7c3f-495c-9acc-986177acd173&utm_v=2
+||www.onet.pl/?utm_source=$inline-script
+!Wersja mobilna - elementy poniżej zapowiedzi
+www.onet.pl##DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mobileView ~ *
+www.onet.pl##^DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mobileView ~ *
+!Wersja mobilna - znak ładowania poniżej zapowiedzi
+www.onet.pl##DIV.phx--fixer > #observeContainer
+!Wersja desktopowa - elementy poniżej zapowiedzi
+www.onet.pl##DIV.Phx__fixer > DIV#mainPageBody0Wrapper ~ *
+www.onet.pl##^DIV.Phx__fixer > DIV#mainPageBody0Wrapper ~ *
+!Wersja desktopowa - usunięcie pustej przestrzeni po usunięciu elementów pod zapowiedzią
+www.onet.pl##BODY#pageMainContainer:style(min-height: unset !important;)
+
 !Początek: https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
-!Strona główna pod zapowiedzią artykułu - User Agent Firefox Windows
-onet.pl##BODY#pageMainContainer:style(min-height: unset !important)
-onet.pl##DIV#mainPageBody0Wrapper:has(:scope > DIV#mainPageBody0 > SECTION.nitroModule) ~ DIV
-!Strona główna pod zapowiedzią artykułu - User Agent Firefox Android
-onet.pl##SECTION.mainSection > DIV.nitroBlock:if(DIV.showMoreButton) ~ DIV
 !Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowiedzią artykułu - User Agent Firefox Android
 onet.pl##DIV.nitroShare
 !Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
