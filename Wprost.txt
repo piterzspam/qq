@@ -147,35 +147,60 @@ wprost.pl##SECTION#comments
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
 wprost.pl##DIV#element-header.pinned
 
-!Miniaturka powiązana pod artykułem
-!https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
-wprost.pl##SPAN.art-text-relation-text
-
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
 wprost.pl##+js(no-setTimeout-if.js, alkEnabled)
 wprost.pl##+js(no-setTimeout-if.js, gtag)
 
 !Ładowanie nowych proponowanych artykułów przy scrollowaniu
 !https://zdrowie.wprost.pl/koronawirus/fakty-o-koronawirusie/10388432/jak-dzialaja-testy-antygenowe-na-covid-19-i-jak-bardzo-sa-skuteczne.html
+wprost.pl##^DIV#top-recommends
 wprost.pl##DIV#top-recommends:remove()
+wprost.pl##DIV#top-recommends
+wprost.pl##^DIV#top-recommends-2
 wprost.pl##DIV#top-recommends-2:remove()
+wprost.pl##DIV#top-recommends-2
+wprost.pl##^DIV.page-header-latests
 wprost.pl##DIV.page-header-latests:remove()
-
+wprost.pl##DIV.page-header-latests
 
 !Przyciski socialowe po lewej stronie
 !https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
 wprost.pl##DIV.share-buttons-wrapper
 
+
+!Miniaturka powiązana pod artykułem
+!https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
+!wprost.pl##SPAN.art-text-relation-text
 !Ramka z YT i Twittera
 !https://www.wprost.pl/prime-time/10354817/bedzie-2-sezon-serialu-warrior-nun-na-netfliksie-zobaczcie-jak-na-te-wiadomosc-zareagowala-obsada.html
-wprost.pl#@#SPAN.art-text-relation
-||wprost.pl/relations$badfilter
-||wprost.pl/relations/
+!wprost.pl#@#SPAN.art-text-relation
+!||wprost.pl/relations$badfilter
+!||wprost.pl/relations/
 
 !Ładowanie kolejnych artykułów przy scrollowaniu
 !https://premium.wprost.pl/10398654/niedyskrecje-parlamentarne-tusk-znowu-zirytowal-politykow-po-psl-pozbyl-sie-kukiza-bo-nie-chcial-dzielic-sie-pieniedzmi.html
+wprost.pl##^DIV#articles-autoload
 wprost.pl##DIV#articles-autoload:remove()
+wprost.pl##DIV#articles-autoload
+||wprost.pl/_f/static_texts/wprost/*.next?
 
 !Ładowanie sekcji najnowze na górze strony po przescrollowaniu w dół
 !https://www.wprost.pl/polityka/10398535/leszek-miller-wyjasnia-kiedy-zbigniew-ziobro-ma-racje-i-przyznaje-od-miekiszona-sie-juz-nie-odklei.html
+wprost.pl##^DIV#top-recommends
 wprost.pl##DIV#top-recommends:remove()
+wprost.pl##DIV#top-recommends
+
+!https://www.wprost.pl/kraj/10402949/zandberg-zaszczepi-sie-z-morawieckim-i-holownia-warto-to-zrobic.html?utm_source=wprost.pl&utm_medium=homepage-section&utm_campaign=glowna
+||wprost.pl/*.html*utm_source$document,queryprune=|utm_source,domain=wprost.pl
+||wprost.pl/*.html*utm_medium$document,queryprune=|utm_medium,domain=wprost.pl
+||wprost.pl/*.html*utm_campaign$document,queryprune=|utm_campaign,domain=wprost.pl
+
+wprost.pl##DIV[id^="ad-"]
+wprost.pl##+js(set, noads, true)
+wprost.pl##+js(nostif, initCommunity, 100)
+wprost.pl##+js(nostif, deepUtils, 100)
+
+!Skrypt pewnie ładujący reklamy ze strony głównej
+!https://embed.wprost.pl/embed/_js/adsvrrun.js?12
+||wprost.pl/embed/_js/adsvrrun.js
+

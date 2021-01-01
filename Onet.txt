@@ -271,3 +271,15 @@ onet.pl##P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapis
 !https://wiadomosci.onet.pl/kraj/hofman-rozmawial-z-czarneckim-giertych-udostepnia-nagranie/7wlxhmc.amp
 onet.pl##AMP-AD
 onet.pl##DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
+
+!Wideo powiązane w treści artkułu
+!https://wiadomosci.onet.pl/tylko-w-onecie/zbigniew-ziobro-konczy-50-lat-sylwetka/fzrkp9z?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&utm_v=2
+onet.pl##^P.hyphenate:has-text(Pozostała część tekstu pod materiałem wideo) + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::P[1])
+onet.pl##P.hyphenate:has-text(Pozostała część tekstu pod materiałem wideo) + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=fcb49db3-af14-4ba8-b54a-f301a186d5dd&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+||onet.pl/*?utm_source=*utm_v$document,queryprune=|utm_v,domain=onet.pl
+||onet.pl/*?utm_source=*srcc$document,queryprune=|srcc,domain=onet.pl
+||onet.pl/*?utm_source=*utm_medium$document,queryprune=|utm_medium,domain=onet.pl
+!!https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
+||onet.pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,domain=onet.pl

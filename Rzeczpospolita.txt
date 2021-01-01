@@ -176,7 +176,8 @@ e.infogram.com##DIV#footer
 !https://www.rp.pl/Rzecz-o-polityce/310069894-Borys-Budka-Jestesmy-krasniczanami.html
 ||cdn.rp.pl/*tcf
 
-
+!Przycisk "Dodaj do Goole News"
+rp.pl##A.google-news__link
 
 
 
