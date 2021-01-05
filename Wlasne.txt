@@ -799,3 +799,9 @@ m.facebook.com##DIV[data-sigil=" m-overlay-modal"]
 mbasic.facebook.com##DIV#mobile_login_bar
 !Komunikat o ciastkach na górze strony
 mbasic.facebook.com##DIV#viewport > DIV#u_0_1
+
+!Kopiowanie na stronie mobilnej
+!https://m.facebook.com/story.php?story_fbid=10158336463553802&id=638903801
+m.facebook.com##DIV.async_like:style(user-select: unset !important)
+m.facebook.com##DIV.async_like:style(-webkit-tap-highlight-color: unset !important)
+m.facebook.com##DIV.async_like:style(cursor: unset !important)

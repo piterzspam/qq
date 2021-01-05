@@ -278,8 +278,9 @@ onet.pl##^P.hyphenate:has-text(Pozostała część tekstu pod materiałem wideo)
 onet.pl##P.hyphenate:has-text(Pozostała część tekstu pod materiałem wideo) + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=fcb49db3-af14-4ba8-b54a-f301a186d5dd&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
-||onet.pl/*?utm_source=*utm_v$document,queryprune=|utm_v,domain=onet.pl
-||onet.pl/*?utm_source=*srcc$document,queryprune=|srcc,domain=onet.pl
-||onet.pl/*?utm_source=*utm_medium$document,queryprune=|utm_medium,domain=onet.pl
+!https://businessinsider.com.pl/firmy/zarzadzanie/budowa-lotniska-w-radomiu-prace-na-budowie-ppl/vl6nvm4?utm_source=businessinsider.com.pl_viasg_businessinsider&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
+.pl/*?utm_source=*utm_v$document,queryprune=|utm_v,first-party,domain=onet.pl|businessinsider.com.pl
+.pl/*?utm_source=*srcc$document,queryprune=|srcc,first-party,domain=onet.pl|businessinsider.com.pl
+.pl/*?utm_source=*utm_medium$document,queryprune=|utm_medium,first-party,domain=onet.pl|businessinsider.com.pl
 !!https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
-||onet.pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,domain=onet.pl
+.pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,first-party,domain=onet.pl|businessinsider.com.pl

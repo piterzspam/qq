@@ -170,6 +170,10 @@ businessinsider.com.pl##DIV.sponsored
 businessinsider.com.pl##DIV.adMarkiMowia
 businessinsider.com.pl##DIV.adsContainer
 
+!Przyciski socialowe nad artykułem
+!https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5
+businessinsider.com.pl##DIV.share
+
 !Na stronie mobilnej puste pole po reklamie w treści artykułu
 !https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
 businessinsider.com.pl##DIV#onet-ad-right
