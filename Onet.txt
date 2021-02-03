@@ -39,8 +39,8 @@ www.onet.pl##^DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mo
 !Wersja mobilna - znak ładowania poniżej zapowiedzi
 www.onet.pl##DIV.phx--fixer > #observeContainer
 !Wersja desktopowa - elementy poniżej zapowiedzi
-www.onet.pl##DIV.Phx__fixer > DIV#mainPageBody0Wrapper ~ *
-www.onet.pl##^DIV.Phx__fixer > DIV#mainPageBody0Wrapper ~ *
+www.onet.pl##^DIV.Phx__fixer > DIV#mainPageBody0Wrapper:has(DIV.showMore) ~ *
+www.onet.pl##DIV.Phx__fixer > DIV#mainPageBody0Wrapper:has(DIV.showMore) ~ *
 !Wersja desktopowa - usunięcie pustej przestrzeni po usunięciu elementów pod zapowiedzią
 www.onet.pl##BODY#pageMainContainer:style(min-height: unset !important;)
 
@@ -284,3 +284,9 @@ onet.pl##P.hyphenate:has-text(Pozostała część tekstu pod materiałem wideo) 
 .pl/*?utm_source=*utm_medium$document,queryprune=|utm_medium,first-party,domain=onet.pl|businessinsider.com.pl
 !!https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
 .pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,first-party,domain=onet.pl|businessinsider.com.pl
+
+
+ampproject.org##DIV[style="margin:auto;width:300px;"]
+ampproject.org##^DIV[style="margin:auto;width:300px;"]
+@@||onet.pl/favicon.ico
+ampproject.org##+js(ampproject_v0.js)

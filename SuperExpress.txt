@@ -183,3 +183,21 @@ se.pl##BUTTON.gallery__next.gallery__btn[onclick="recommendation_redirect(recomm
 !Link powiązany w treści: CZYTAJ: Wałęsa NIEPOKOJĄCO: "Ledwo nogi ciągam". Co się dzieje?!
 !https://www.se.pl/wiadomosci/polityka/ziemkiewicz-skonczyl-56-lat-ale-mial-wypasione-urodziny-zobacz-aa-uVnv-ozF1-TgNv.html
 se.pl##P:has(:scope > A[href*="se.pl/"][target="_blank"][rel="follow"]:only-child)
+
+
+!Tymczasowo wykomentowane
+@@||se.pl/media/desktop/zpr_layouts_web/js/ads.js?
+@@||se.pl/media/desktop/zpr_ads_web/js/lazy_load.js?
+@@||se.pl/media/mobile/zpr_galleries_web/js/adsHelper.js?
+
+!https://www.se.pl/wiadomosci/galeria/sondaz-czy-polacy-sie-zaszczepia/gg-DfwF-jVGb-56tJ/gp-4mjz-WbNB-48mA
+!https://www.se.pl/media/mobile/zpr_galleries_web/js/adsHelper.js?__1.256.0
+||se.pl/*adsHelper.js
+
+!Przycisk udostępnij nad artykułem
+se.pl##DIV.fb__shareBox
+
+!Wyłączenie autoodtwarzania wideo
+se.pl##+js(sa, data-order, 0, DIV[id^="video-player-"])
+
+!Wyłączenie ładowania kolejn

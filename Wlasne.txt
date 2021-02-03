@@ -789,6 +789,8 @@ m.facebook.com##DIV[data-sigil=" m-overlay-layer"]
 m.facebook.com##DIV[data-sigil=" m-overlay-modal"]
 !Może przeniesienie do aplikacji: {"platform":"play","id":"com.facebook.mlite"}],"prefer_related_applications":false}
 ||m.facebook.com/data/manifest/
+!https://m.facebook.com/story.php?story_fbid=3571105253007586&id=100003244397889
+m.facebook.com##BODY.async_like:style(-moz-user-select: unset !important)
 
 !https://mbasic.facebook.com/TygodnikNIE/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2FTygodnikNIE%2Fposts%2F%3Fref%3Dpage_internal&ref=page_internal&_rdr
 ||facebook.com/*refsrc$document,queryprune=|refsrc,domain=facebook.com

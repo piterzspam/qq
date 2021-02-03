@@ -306,6 +306,12 @@ krytykapolityczna.pl##DIV.article-donate-bottom
 ||krytykapolityczna.pl/*/essb$css
 ||krytykapolityczna.pl/plugins/easy-social-share-buttons3/
 
+!Bnaery na stronie
+!https://krytykapolityczna.pl/kraj/lewicowa-empatia-pis-galopujacy-major/
+||krytykapolityczna.pl/wp-content/uploads/2020/11/baner-strona1-1.png
+||krytykapolityczna.pl/wp-content/uploads/2021/01/X.png
+||krytykapolityczna.pl/wp-content/uploads/2021/01/D.png
+
 
 @@||newsweek.pl^$generichide
 newsweek.pl##DIV.contentPremium:style(display: block !important;)
@@ -383,6 +389,29 @@ tokfm.pl##LI.sc_item.fbShare
 !https://www.tokfm.pl/Tokfm/7,117303,26033573,walka-na-plakaty-za-plecami-andrzeja-dudy-jestesmy-ludzmi.html
 tokfm.pl##SECTION.art_content > DIV.art_embed
 
+
+!Pasek nad paskiem nawigacyjnym
+!https://wpolityce.pl/media/535113-zastal-telewizje-analogowa-a-uczynil-ja-naprawde-cyfrowa
+wpolityce.pl##SECTION.header-boost--promo
+||static.wpolityce.pl/img/top-belt-
+!Przyciski socialowe
+!https://wpolityce.pl/media/535113-zastal-telewizje-analogowa-a-uczynil-ja-naprawde-cyfrowa
+!wpolityce.pl##ASIDE.article__social-media
+wpolityce.pl##BUTTON.article-sm__item--fb
+wpolityce.pl##BUTTON.article-sm__item--twitter
+wpolityce.pl##A.article-sm__item--wykop
+
+!Miejsce na reklamy
+!https://wpolityce.pl/media/535113-zastal-telewizje-analogowa-a-uczynil-ja-naprawde-cyfrowa
+wpolityce.pl##[class*="publication__ad-"]
+!Sekcja TV pod artykułem, to filmy z zapowiedziami wydania
+wpolityce.pl##SECTION.publication__studio-tv
+
+!Chyba tworzy banery z autoreklamą
+||static.siec.wpolityce.pl/js/products.js?
+
+!Artykuły z reklamami pod artykułem
+wpolityce.pl##ASIDE#article-related-from-division
 
 
 !

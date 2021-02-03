@@ -285,3 +285,18 @@ fakt.pl##BODY.faktDefault:style(padding-top: 113px !important)
 !https://www.fakt.pl/wydarzenia/polityka/bonikowska-weto-w-sprawie-unijnego-budzetu-to-bomba-atomowa/3jttrxe?utm_source=_viasg_fakt
 fakt.pl##BR + BR + BR
 
+
+!https://www.fakt.pl/facet/technologie/najpopularniejsze-haslo-komputerowe-2020/7bqlytj?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/biznes/gielda-zpue-sa-tlumaczy-po-co-jej-luksusowy-jacht/bnjl78f?utm_source=_viasg_fakt
+!https://www.fakt.pl/wydarzenia/polityka/salonik-bieleckiej-spotkanie-na-szczycie-na-prywatce-u-przyjaciolki-kaczynskiego/nsj481s?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/finanse/doplaty-do-czynszow-kiedy-pomoc-dla-lokatorow/4fhcnb5?utm_source=_viasg_fakt
+fakt.pl##P.article-p + SCRIPT + DIV.embeddedapp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+fakt.pl##^P.article-p + SCRIPT + DIV.embeddedapp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
+fakt.pl##P.article-p:has-text(Zobacz też:) + SCRIPT + DIV.embeddedapp:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1] | self::node()/preceding-sibling::P[1])
+fakt.pl##^P.article-p:has-text(Zobacz też:) + SCRIPT + DIV.embeddedapp:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1] | self::node()/preceding-sibling::P[1])
+
+
+fakt.pl##DIV.article-share
+fakt.pl##DIV.article-contact

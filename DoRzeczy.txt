@@ -94,3 +94,8 @@ dorzeczy.pl##SPAN[data-id^="questioning"]:remove()
 dorzeczy.pl##SPAN[data-id^="questioning"]
 
 dorzeczy.pl##ASIDE.ad-aside
+
+!https://dorzeczy.pl/swiat/166655/brussels-times-ue-mogla-kupic-wiecej-szczepionek-ale-francja-byla-przeciwko.html
+!https://dorzeczy.pl/_js/ad/idmnet/ads.js?__0.1057.0
+@@||dorzeczy.pl/_js/ad/idmnet/ads.js
+||idmnet.pl^
