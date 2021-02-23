@@ -290,3 +290,7 @@ ampproject.org##DIV[style="margin:auto;width:300px;"]
 ampproject.org##^DIV[style="margin:auto;width:300px;"]
 @@||onet.pl/favicon.ico
 ampproject.org##+js(ampproject_v0.js)
+
+
+newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])

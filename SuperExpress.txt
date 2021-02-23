@@ -91,7 +91,7 @@ se.pl##+js(addEventListener-defuser.js, scroll, triggerArticleLoad)
 
 !Linki w treści artykułu
 !https://www.se.pl/warszawa/trwaja-wiosenne-porzadki-na-drogach-drogowcy-poprawiaja-malowanie-ulic-aa-sCYH-m6Xm-1rkn.html
-se.pl##ARTICLE > P > STRONG > A[href*="se.pl/"][target="_blank"]
+!se.pl##ARTICLE > P > STRONG > A[href*="se.pl/"][target="_blank"]
 
 
 !Artykuł z wideo:
@@ -200,4 +200,15 @@ se.pl##DIV.fb__shareBox
 !Wyłączenie autoodtwarzania wideo
 se.pl##+js(sa, data-order, 0, DIV[id^="video-player-"])
 
-!Wyłączenie ładowania kolejn
+!Wyłączenie ładowania kolejnego wideo po zakończeniu
+se.pl##+js(aeld, ended)
+
+
+!https://www-se-pl.cdn.ampproject.org/c/s/www.se.pl/wiadomosci/polityka/tego-jeszcze-nie-bylo-szydlo-i-biedron-lacza-sily-aa-tLsw-1Wa2-rLAt.html?format=amp
+!https://www.se.pl/wiadomosci/polityka/tego-jeszcze-nie-bylo-szydlo-i-biedron-lacza-sily-aa-tLsw-1Wa2-rLAt.html?format=amp
+!https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js
+||cdn.ampproject.org/*/amp-sticky-ad
+ampproject.org,se.pl##DIV.ampAd
+ampproject.org,se.pl##^DIV.ampAd
+se.pl##AMP-AD
+se.pl##^AMP-AD

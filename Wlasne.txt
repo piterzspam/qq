@@ -807,3 +807,26 @@ mbasic.facebook.com##DIV#viewport > DIV#u_0_1
 m.facebook.com##DIV.async_like:style(user-select: unset !important)
 m.facebook.com##DIV.async_like:style(-webkit-tap-highlight-color: unset !important)
 m.facebook.com##DIV.async_like:style(cursor: unset !important)
+
+!https://wizaz.pl/kosmetyki/produkt,247136,wilkinson-quattro-titanium-sensitive-maszynka-systemowa-dla-mezczyzn.html
+!https://tools.wizaz.pl/files/js/ado.js
+||tools.wizaz.pl/files/js/ado.js
+!https://c2c.edipresse.pl/location_data?url=https%3A%2F%2Fwizaz.pl%2Fkosmetyki%2Fprodukt%2C247136%2Cwilkinson-quattro-titanium-sensitive-maszynka-systemowa-dla-mezczyzn.html
+||edipresse.pl^$domain=wizaz.pl
+||rcontent.services.tvn.pl/gstream.js$domain=wizaz.pl
+||zaczytaj.pl^$domain=wizaz.pl
+!https://static.wizaz.pl/system/kwc/bundles/fosjsrouting/js/router.js?_=499c5e34f136b1799d71949aa9a0ce88
+!||wizaz.pl/kosmetyki/js/routing?callback=fos.Router.setData
+||wizaz.pl/kosmetyki/js/routing?
+||wizaz.pl/system/kwc/bundles/fosjsrouting/js/router.js
+@@||wizaz.pl/system/kwc/bundles/fosjsrouting/js/router.js
+wizaz.pl##DIV#sprawdz-ceny
+wizaz.pl##DIV.folding-content:style(min-height: unset !important)
+
+
+
+allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty promowane"]/following-sibling::ARTICLE | //DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty"]/preceding-sibling::ARTICLE):style(border: dashed !important;)
+!allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
+allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(:scope > H2)) > ARTICLE:style(border: dashed !important;)
+
+ampproject.org##+js(ampproject_v0.js)

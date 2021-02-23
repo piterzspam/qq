@@ -1,6 +1,9 @@
 ! Title: Media inne
 ! Expires: 1 day
 
+wp.pl##^:xpath(//div[count(*)=1][div[count(*)=3][img[@class][@src]][*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=0]]])
+wp.pl##^DIV.article--text:has-text(Zobacz też:) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1])
+
 !POCZĄTEK WIRTUALNA POLSKA WP.PL
 !Anty-adblock
 !https://github.com/uBlockOrigin/uAssets/issues/8225
@@ -263,6 +266,14 @@ tvn24.pl##+js(addEventListener-defuser.js, ended)
 
 ||pix2.services.tvn.pl^
 
+!Przycsik X na stronie mobilnej przenoszący na stronę główną
+!https://tvn24.pl/swiat/koronawirus-w-wielkiej-brytanii-restrykcje-etapy-luzowania-boris-johnson-o-koncu-obostrzen-5026661
+tvn24.pl##BUTTON.modal-back-button
+!Nadpisanie filtru @@||cdn.cookielaw.org^$script,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|gmx.com|mail.com|reuters.com|rockpapershotgun.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net z listy EasyList Cookie
+||cookielaw.org^$important,domain=tvn24.pl
+!||nuvi2.cdntvn.pl/*/static/test.mp4
+!article-top-bar__back-button-wrapper
+
 !Odblokowanie niepoprawnie ukrywanych punktów z leada
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet"]
@@ -414,4 +425,5 @@ wpolityce.pl##SECTION.publication__studio-tv
 wpolityce.pl##ASIDE#article-related-from-division
 
 
+ampproject.org##+js(ampproject_v0.js)
 !

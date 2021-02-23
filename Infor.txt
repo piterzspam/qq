@@ -372,4 +372,7 @@ ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.social-box
 !Zdjęcie w treści artykułu:
 !https://forsal.pl/gospodarka/prawo/artykuly/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html
 
+!Element pojawiający się przy przewijaniu strony w górę na telefonie
+gazetaprawna.pl##DIV#transitionBoxLight
+gazetaprawna.pl##^DIV#transitionBoxLight
 

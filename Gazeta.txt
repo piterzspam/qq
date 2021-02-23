@@ -265,3 +265,16 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV[id^="banC"]
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.ban001_wrapper
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.adviewDFPBanner
+
+!https://next.gazeta.pl/next/0,0.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV[id^="adsMidboardDivId_"]
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##^DIV[id^="adsMidboardDivId_"]
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.adviewDFPBanner
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##^DIV.adviewDFPBanner
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##SECTION.art_content > DIV.art_embed:if(SPAN.video-head:has-text(Zobacz wideo))
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##^SECTION.art_content > DIV.art_embed:if(SPAN.video-head:has-text(Zobacz wideo))
+
+!Rodo consent w treści
+||gazeta.pl/static/front/ot-iab-consent/master/ot.js
+!https://static.im-g.pl/static/adview/front/master/external-resources/prebid/3.27.3/prebid3.27.3.js
+||im-g.pl/*/prebid
