@@ -376,3 +376,8 @@ ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.social-box
 gazetaprawna.pl##DIV#transitionBoxLight
 gazetaprawna.pl##^DIV#transitionBoxLight
 
+
+gazetaprawna.pl##DIV.contentShareLeft
+gazetaprawna.pl##^DIV.contentShareLeft
+gazetaprawna.pl##DIV.infor-ad
+gazetaprawna.pl##^DIV.infor-ad

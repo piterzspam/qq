@@ -325,7 +325,7 @@ krytykapolityczna.pl##DIV.article-donate-bottom
 
 
 @@||newsweek.pl^$generichide
-newsweek.pl##DIV.contentPremium:style(display: block !important;)
+newsweek.pl##.contentPremium:style(display: block !important;)
 ||ocdn.eu/paywall-cdn/paywall.min.js?
 !POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
 newsweek.pl#@#[class*="cg-template"]
@@ -424,6 +424,8 @@ wpolityce.pl##SECTION.publication__studio-tv
 !Artykuły z reklamami pod artykułem
 wpolityce.pl##ASIDE#article-related-from-division
 
-
 ampproject.org##+js(ampproject_v0.js)
-!
+
+!Zmiana nazwy karty na "Wróć i sprawdzaj fakty" po przełączeniu na inną
+!https://demagog.org.pl/wp-content/themes/demagog/js/custom.js?ver=1.0.86
+demagog.org.pl##+js(aeld, blur)

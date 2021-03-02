@@ -830,3 +830,102 @@ allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Ofert
 allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(:scope > H2)) > ARTICLE:style(border: dashed !important;)
 
 ampproject.org##+js(ampproject_v0.js)
+
+
+
+
+
+!https://link.adslinkfly.online/TbE61P1
+!https://informaxonline.com/12-best-healthy-foods-to-eat-without-getting-fat/#wpsafegenerate
+@@||informaxonline.com/wp-content/plugins/idblog-core/css/idblog-core.css
+informaxonline.com##DIV#primary
+informaxonline.com##^DIV#primary
+informaxonline.com##ASIDE#secondary
+informaxonline.com##^ASIDE#secondary
+informaxonline.com##DIV#footer-container
+informaxonline.com##^DIV#footer-container
+informaxonline.com##HEADER#masthead
+informaxonline.com##^HEADER#masthead
+informaxonline.com##A.skip-link.screen-reader-text
+informaxonline.com##^A.skip-link.screen-reader-text
+informaxonline.com##DIV#content DIV.col-md-12
+informaxonline.com##^DIV#content DIV.col-md-12
+
+
+!Link z https://mkvking.net/extraction-2020/
+!Filtr /js/prebid- z EasyList
+!https://tribuntekno.com/wp-content/plugins/dh-anti-adblocker/assets/js/jquery-confirm.min.js?ver=26.1612214229
+!https://tribuntekno.com/wp-content/plugins/dh-anti-adblocker/assets/js/prebid-ads.js?ver=26.1612214229
+@@||tribuntekno.com/wp-content/plugins/dh-anti-adblocker/
+
+@@||tribuntekno.com^$generichide
+!Przycisk Mega Season 3 https://mkvking.net/arrow-season-1-4/
+!https://tribuntekno.com/?id=WVFPUmwxbFo2T1VRTmltU3RpTkEzbFgzL3ZOMkpmWFR5SGcvSmdmdlRnc2dqYy9Ib3ZiK1N4bFdXMlNmdmRQb2NQZWN0NEVuZzgxaHpzaW9zUDd1a00vMi90NHdyWEc3bXhQTHlpNk9WSlBqYTR3aUJRYkVTenc2dFU2cm5RZDA=
+tribuntekno.com##DIV#main-content-row > DIV.main-content.tie-col-md-8.tie-col-xs-12
+!tribuntekno.com##^DIV#main-content-row > DIV.main-content.tie-col-md-8.tie-col-xs-12
+tribuntekno.com##DIV#main-content-row > ASIDE.sidebar.tie-col-md-4.tie-col-xs-12.normal-side
+!tribuntekno.com##^DIV#main-content-row > ASIDE.sidebar.tie-col-md-4.tie-col-xs-12.normal-side
+!FONT
+$font,important,domain=tribuntekno.com
+!CSS
+!||tribuntekno.com/wp-content/$css
+$css,domain=tribuntekno.com
+!@@||tribuntekno.com/wp-content/themes/jannah/assets/css/base.min.css
+!@@||tribuntekno.com/wp-content/themes/jannah/assets/css/style.min.css
+@@/wp-content/themes/jannah/assets/css/base.min.css$css,domain=tribuntekno.com
+@@/wp-content/themes/jannah/assets/css/style.min.css$css,domain=tribuntekno.com
+!SKRYPT
+$script,domain=tribuntekno.com
+!||tribuntekno.com/wp-content/$script
+!||tribuntekno.com/wp-includes/$script
+@@/wp-includes/js/jquery/jquery.min.js$script,first-party,domain=tribuntekno.com
+!RUS: RU AdList  - @@||ajax.googleapis.com/ajax/libs/$script,3p
+||ajax.googleapis.com/ajax/libs/$script,3p,important,domain=tribuntekno.com
+!IMAGE
+$image,domain=tribuntekno.com
+@@/wp-content/uploads/*favicon$image,domain=tribuntekno.com
+@@/wp-content/uploads/button_$image,domain=tribuntekno.com
+!XHR
+!https://tribuntekno.com/wp-admin/admin-ajax.php?postviews_id=225&action=tie_postviews&_=1614650062961
+$xhr,domain=tribuntekno.com
+
+
+
+qualys.com##BODY:style(overflow-x: unset; !important)
+wykop.pl##^li.link:has(a[href*='wykop.pl/reklama'])
+wykop.pl##^li.link:has(a[href*='wykop.pl/paylink'])
+wykop.pl##^li.link:has(a[href*='wykop.pl/market'])
+@@||wykop.pl/adframe.js
+@@||wykop.pl/adx.js
+@@||wykop.pl/ads.js
+
+@@||punosy.xyz/cdn/modules/click-request/module.min.js$domain=ouo.today
+
+!https://shrinke.me/seD1EAII
+shrinke.me##DIV.col-md-10 > DIV.box-main + DIV.blog-item
+shrinke.me##DIV.col-md-10 > FORM#go-link + DIV.blog-item
+
+!https://shortzzy.link/pauCbv
+!https://janusnotes.com/?token=https://l.shortzzy.in/pauCbv
+!https://janusnotes.com/
+!https://s3.eu-central-1.amazonaws.com/lib.wtg-ads.com/publisher/janusnotes.com/4c728948f1899d784004.js
+||amazonaws.com/lib.wtg-ads.com/
+||janusnotes.com/wp-content/uploads/$image
+janusnotes.com##MAIN#main > ARTICLE[id^="post-"]
+janusnotes.com##DIV#right-sidebar
+
+!https://l.shortzzy.in/pauCbv
+!shortzzy.in##TABLE > TBODY > TR:has(:scope > TD:has-text(Action:))
+shortzzy.in##TABLE > TBODY > TR:has(:scope > TD A.btnlink[target="_blank"])
+
+!https://clicknupload.co/secc3k2h8r7j
+clicknupload.co##DIV.wrapper:style(min-height: unset !important)
+
+!Dziwne skrypty
+!https://l.shortzzy.in/pauCbv
+!https://iir.ai/f8iSf
+
+!https://www.tutorialspoint.com/How-to-find-the-index-of-an-item-in-a-Chash-list-in-a-single-step
+tutorialspoint.com##DIV#vi_top_ads
+tutorialspoint.com##DIV#google-right-ads
+tutorialspoint.com##DIV#sticky-ad
