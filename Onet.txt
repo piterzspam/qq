@@ -308,3 +308,6 @@ newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(sel
 !https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
 @@||ocdn.eu/paywall-cdn/paywall.min.js?$domain=komputerswiat.pl
 komputerswiat.pl##.contentPremium:style(display: block !important;)
+
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
+@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
