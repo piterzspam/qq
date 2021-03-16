@@ -51,6 +51,13 @@ magazyn.wp.pl##DIV.article-loader-holder:remove()
 magazyn.wp.pl##^FIGURE.a--instream
 magazyn.wp.pl##FIGURE.a--instream:remove()
 
+!Wideo powiązane w treści artykułu
+!https://opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
+!https://opinie-wp-pl.cdn.ampproject.org/v/s/opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
+ampproject.org,wp.pl##H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
 
 !Wideo powiązane na końcu artykułu
 !https://wiadomosci.wp.pl/afera-getback-igor-janke-uslyszal-zarzuty-6571333792770848a
