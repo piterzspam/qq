@@ -635,7 +635,6 @@ zippyshare.com##script:inject(abort-on-property-write.js, acPrefetch)
 ||ws-gateway.com^
 ||yastatic.net/share2/share.js$domain=epn.bz
 ||yastatic.net^$domain=fast-tracker.co
-||yastatic.net^$third-party,domain=~yandex.ru
 ||youtube.com$domain=zapals.com
 ||youtube.com/subscribe_embed?$domain=uplod.org
 ||youtube.com^$domain=chomikuj.pl
@@ -929,3 +928,10 @@ clicknupload.co##DIV.wrapper:style(min-height: unset !important)
 tutorialspoint.com##DIV#vi_top_ads
 tutorialspoint.com##DIV#google-right-ads
 tutorialspoint.com##DIV#sticky-ad
+
+!https://wizaz.pl/kosmetyki/mezczyzna/golenie?search_full%5Bsort%5D=hits&search_full%5Bfilter_reviews_min%5D=&search_full%5Bfilter_hits_min%5D=&search_full%5Bfilter_auto_75%5D%5B2662%5D=2662
+wizaz.pl##DIV.sBox
+wizaz.pl##^DIV.sBox
+wizaz.pl##DIV#fi-promo
+wizaz.pl##^DIV#fi-promo
+@@||ads.edipresse.pl/detector.min.js

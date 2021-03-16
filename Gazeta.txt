@@ -278,3 +278,10 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 ||gazeta.pl/static/front/ot-iab-consent/master/ot.js
 !https://static.im-g.pl/static/adview/front/master/external-resources/prebid/3.27.3/prebid3.27.3.js
 ||im-g.pl/*/prebid
+
+
+
+!https://audycje.tokfm.pl/audycja/329,Sabat-symetrystow
+||bi.im-g.pl/static/front/ot-iab-consent/master/ot.js
+||adtonos.com^
+||static.fm.tuba.pl/campaigns/
