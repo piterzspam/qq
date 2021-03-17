@@ -99,6 +99,23 @@ opinie.wp.pl,wiadomosci.wp.pl##LI[data-adv]
 !wiadomosci.wp.pl##ARTICLE.article.desktop.videoView DIV.adpause > DIV.plchldr > SPAN:first-child:last-child > DIV.cntr
 opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr
 opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr:remove()
+
+sportowefakty.wp.pl##^DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
+sportowefakty.wp.pl##DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
+
+sportowefakty.wp.pl##^P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+sportowefakty.wp.pl##P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!https://www.wp.pl/?s=https%3A%2F%2Fsportowefakty.wp.pl%2Fkolarstwo%2F926408%2F43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o&nil&src01=f1e45
+www.wp.pl##SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
+www.wp.pl##^SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
+
+!Reklamy w sekcji polecane pod artykułem
+!https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+!uBO: setTimeout("function(){var a=n?".article + .teasers .teaser":".articleteaser",r=".streamshort",c=null,d=v.place;if(n&&f>1){var u=document.body.querySelectorAll(v.selector).length,h=i[o].filter(function(e){return e.rand===!0}).length,p=parseInt(u/h-1);d=v.place+p}c=document.body.querySelectorAll(v.selector)[d];var g=c.querySelectorAll("img")[0],m=c.querySelectorAll("a")[0],w=c.querySelectorAll("span")[0];g.src=e.src,r===v.selector&&(m=c.querySelectorAll(".streamshort__title a")[0],m.textContent=e.text),a===v.selector&&(w.childElementCount?w.childNodes[0].textContent=e.text:w.textContent=e.text),m.href=e.url,m.target="_blank",c.className+=" "+s,t({el:c}),l()}", 200)
+wp.pl##+js(nostif, articleteaser, 200)
+
+
 !Koniec - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 
 !Szare pola na reklamy
