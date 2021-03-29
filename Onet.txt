@@ -10,9 +10,30 @@
 !Na wszelki wypadek
 @@||pulsevideo.eu^$ghide
 
+
+
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT[src*="sgqcvfjvr.onet.pl/"]
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+||ty0lm9uz.onet.pl^
+!Po wykryciu usunięcia "sgqcvfjvr.onet.pl/" ładuje się skrypt, można zapobiec lub usunąć z https://ty0lm9uz.onet.pl/e1BrazhrNjd9/build/ODU1ODYwNTkvaW5pdA%3D%3D.js
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(set, onetAds.injected, true)
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT:has-text(ty0lm9uz.onet.pl)
+
+||sgqcvfjvr.onet.pl^
 !Filtr ||sgqcvfjvr.onet.pl^ z EasyPrivacy
 !@@||sgqcvfjvr.onet.pl^$domain=onet.pl
+https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
+!Bez tego nie odtwarza się wideo
+@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu,kobieta.onet.pl
 !Bez tego nie ładują się miniaturki w sekcji "Zobacz Więcej" na stronie https://wiadomosci.onet.pl/
+
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
+@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
+pulsembed.eu##DIV.cmp-app_gdpr
 
 !Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
 ||2mdn.net^$domain=pulsembed.eu,important
@@ -22,7 +43,6 @@
 ||adservice.google.com^$domain=pulsembed.eu,important
 
 ||googletagservices.com^
-||sgqcvfjvr.onet.pl^
 ||events.ocdn.eu^
 ||k266d5zsl.onet.pl^
 
@@ -55,19 +75,26 @@ ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputersw
 !Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
 !https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
 !https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.detail > UL:not(.firstList):has(:scope > LI:only-child > A[href*="onet.pl"])
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.detail > UL:not(.firstList):has(:scope > LI:only-child > A[href*="vod.pl"])
+!Wideo na górze: https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
+!https://wiadomosci.onet.pl/.../3vbh4xb?utm_source=_viasg_fakt
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
+
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SECTION.contentBottomContainer UL:has(:scope > LI:only-child > SPAN > A[href*="vod.pl"])
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SECTION.contentBottomContainer UL:has(:scope > LI:only-child > SPAN > A[href*="onet.pl"])
+!https://www.onet.pl/informacje/onetwiadomosci/...
+!Mobile i desktop
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
+
 !https://wiadomosci-onet-pl.cdn.ampproject.org/c/s/wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
+!https://wiadomosci-onet-pl.cdn.ampproject.org/c/s/*.amp
 !https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE UL:not(.firstList):has(:scope > LI A[href*="onet.pl"])
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE UL:not(.firstList):has(:scope > LI A[href*="vod.pl"])
-!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#contentWrapId UL:not(.firstList):has(:scope > LI A[href*="onet.pl"])
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#contentWrapId UL:not(.firstList):has(:scope > LI A[href*="vod.pl"])
+!https://wiadomosci.onet.pl/*.amp?amp_js_v=0.1
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > UL:has(LI:only-child > STRONG + A[href*="onet.pl"] > STRONG)
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > UL:has(LI:only-child > STRONG + A[href*="vod.pl"] > STRONG)
+!3 linki z artykułami po sobie
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > DIV:has(:scope > P.hyphenate:first-child:has(:scope > A[id][href*="onet.pl"]:only-child) + P.hyphenate:has(:scope > A[id][href*="onet.pl"]:only-child) + P.hyphenate:last-child:has(:scope > A[id][href*="onet.pl"]:only-child))
 
 
 !Początek: https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
@@ -112,8 +139,6 @@ ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputersw
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SECTION.OpenDiscussionBox
 !Przyciski społecznościowe po lewej stronie od wideo 
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.contentShareLeft
-!Bez tego nie odtwarza się wideo
-@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu,kobieta.onet.pl
 !Puste miejsce po reklamie pod zobacz również pod artykułem
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#googleAdsCont
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl#@#DIV#googleAdsCont
@@ -289,7 +314,7 @@ ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputersw
 .pl/*?utm_source=*utm_v$document,queryprune=|utm_v,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
 .pl/*?utm_source=*srcc$document,queryprune=|srcc,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
 .pl/*?utm_source=*utm_medium$document,queryprune=|utm_medium,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
-!!https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
+!https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
 .pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
 
 
@@ -298,17 +323,21 @@ ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputersw
 @@||onet.pl/favicon.ico
 ampproject.org##+js(ampproject_v0.js)
 
+!Komunikat na wersji AMP strony
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##AMP-CONSENT#consent-element
 
+!Pola na reklamy w środku tekstu
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+businessinsider.com.pl##ASIDE[data-run-module="local/main.intextAd"]
+
+!Powiązane wideo na koniec treści artykułu
 newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
 newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
-
-
 
 !Ładowanie zdjęć
 !https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
 @@||ocdn.eu/paywall-cdn/paywall.min.js?$domain=komputerswiat.pl
-komputerswiat.pl##.contentPremium:style(display: block !important;)
 
-!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
-@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
-pulsembed.eu##DIV.cmp-app_gdpr
+!Pokazanie contentu premium
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.contentPremium:style(display: block !important;)
