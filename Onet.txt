@@ -342,3 +342,12 @@ newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(sel
 
 !Pokazanie contentu premium
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.contentPremium:style(display: block !important;)
+
+
+!Jaks się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!www.onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+!Jaks się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!||ocdn.eu/phx/_next/static/chunks/framework.
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(aopw, window.onetAds)
