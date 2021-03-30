@@ -82,10 +82,11 @@ ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputersw
 
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
 !https://www.onet.pl/informacje/onetwiadomosci/...
 !Mobile i desktop
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
 
 !https://wiadomosci-onet-pl.cdn.ampproject.org/c/s/wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
 !https://wiadomosci-onet-pl.cdn.ampproject.org/c/s/*.amp
