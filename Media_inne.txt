@@ -165,6 +165,9 @@ opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height:
 !https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
 !div#AdvContainer.text_ads.css-adv.ads.contentAds.top-banners
 @@||money.pl^$generichide
+!RUS: RU AdList
+!/^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,domain=~coco.fr|~greenmangaming.com|~ign.com|~justjared.com|~live-tennis.eu|~myorderbox.com|~namemc.com|~novinky.cz|~realtor.ca|~regway.com|~roblox.com|~sap.com|~spongemc.org|~spongepowered.org|~studio-svet.ru|~stumbleupon.com|~trueachievements.com|~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua|~wetteronline.de
+@@/^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,domain=wp.pl
 
 !https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
 !money.pl##^DIV.i2doh5-0:has(:scope > IMG[src^="https://v.wpimg.pl/"])

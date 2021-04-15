@@ -35,8 +35,17 @@ onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
 www.onet.pl##^SCRIPT#adsinit
 www.onet.pl##+js(set-constant, onetAds.injected, true)
 www.onet.pl##+js(abort-on-property-write, window.onetAds)
-https://wiadomosci.onet.pl/kujawsko-pomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g#
-https://www.onet.pl/informacje/onetkujawskopomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g,79cfc278
+!https://wiadomosci.onet.pl/kujawsko-pomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g#
+!https://www.onet.pl/informacje/onetkujawskopomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g,79cfc278
+
+
+!Jak się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!www.onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+!Jak się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!||ocdn.eu/phx/_next/static/chunks/framework.
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(aopw, window.onetAds)
 
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
@@ -362,11 +371,3 @@ newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(sel
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.contentPremium:style(display: block !important;)
 
 medonet.pl##UL#medServices
-
-!Jak się usunie, to nie usuwane są elementy strony
-!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
-!www.onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
-!Jak się usunie, to nie usuwane są elementy strony
-!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
-!||ocdn.eu/phx/_next/static/chunks/framework.
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(aopw, window.onetAds)
