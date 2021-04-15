@@ -161,6 +161,20 @@ opinie.wp.pl,wiadomosci.wp.pl##DIV:has(:scope > IFRAME[class*=" "][scrolling][da
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px)
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px):remove()
 !KONIEC - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+
+!https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
+!div#AdvContainer.text_ads.css-adv.ads.contentAds.top-banners
+@@||money.pl^$generichide
+
+!https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
+!money.pl##^DIV.i2doh5-0:has(:scope > IMG[src^="https://v.wpimg.pl/"])
+!money.pl##ARTICLE > DIV[class]:has(:scope > SCRIPT:has-text(registerPlaceholder))
+money.pl##^DIV:has(:scope > DIV.i2doh5-0:only-child)
+money.pl##^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"])
+money.pl##^ARTICLE[class^="sc-"] DIV:has(:scope > DIV:only-child:has(DIV:has(:scope > DIV[font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV[id^="video-player-"]))
+money.pl##^script:has-text(__PRELOADED_MATERIAL__)
+money.pl##+js(acis, JSON.parse)
+
 !KONIEC WIRTUALNA POLSKA WP.PL
 
 
