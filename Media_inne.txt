@@ -1,8 +1,32 @@
 ! Title: Media inne
 ! Expires: 1 day
 
-wp.pl##^:xpath(//div[count(*)=1][div[count(*)=3][img[@class][@src]][*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=0]]])
 wp.pl##^DIV.article--text:has-text(Zobacz też:) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1])
+
+!https://wiadomosci.wp.pl/sondaz-dla-wp-polacy-o-kosciele-katolickim-zle-wiesci-dla-hierarchow-6606062325406368a
+!False positive
+!RUS: RU AdList
+!/^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,domain=~coco.fr|~greenmangaming.com|~ign.com|~justjared.com|~live-tennis.eu|~myorderbox.com|~namemc.com|~novinky.cz|~realtor.ca|~regway.com|~roblox.com|~sap.com|~spongemc.org|~spongepowered.org|~studio-svet.ru|~stumbleupon.com|~trueachievements.com|~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua|~wetteronline.de
+@@/^https?:\/\/[^/]+\/[a-z0-9]{15,}$/$script,domain=wp.pl
+
+!Strona główna
+!div#Adbanner.Adv.css-adv.text_ads.ads.contentAds
+@@||wp.pl^$generichide
+!Chyba odświeżanie po długiej nieaktywności
+!https://www.wp.pl/?src01=20804
+!uBO: addEventListener("visibilitychange", function(){document[r.hidden]||!r.checkPlayersHasVolume()&&Date.now()-r.time>r.props.backRefreshTime&&r.refresh(),r.time=Date.now()})
+wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
+!uBO: addEventListener("visibilitychange", e=>{A(document.hidden?d:c,e)})
+wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+
+!Wideo
+!https://opinie.wp.pl/dzialka-rower-praca-zdalna-i-frustracja-czego-nauczyl-nas-rok-pandemii-6614162219625152a?amp=1&amp_js_v=0.1
+@@||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
+wp.pl##AMP-VIDEO-IFRAME[src^="https://wideo.wp.pl/ampNativeplayer.html?autoplay="][height="259"]:style(height: 270px; !important;)
+
+!Bez sprawdzenia, czy to wideo usuwała się treść
+!https://wiadomosci.wp.pl/rocznica-katastrofy-smolenskiej-barbara-nowacka-klamstwa-macierewicza-6627102660232833v?wga_sa=header&index=0&abtest=application%7C__notest%7C
+wiadomosci.wp.pl##^BODY:not(:has(article.article.desktop.videoView)):xpath(//div[count(*)=1][div[count(*)=3][img[@class][@src]][*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=0]]])
 
 !POCZĄTEK WIRTUALNA POLSKA WP.PL
 !Anty-adblock
@@ -66,20 +90,20 @@ wiadomosci.wp.pl##DIV.article--text:has(A[href="https://dziejesie.wp.pl/"]):xpat
 !Reklamy w artykule premium
 !https://opinie.wp.pl/kataryna-zyjemy-w-okrutnym-swiecie-ale-aborcja-embriopatologiczna-musi-pozostac-opinia-6567085945505921a
 !https://wiadomosci.wp.pl/zloci-chlopcy-od-fatimy-6576732794653472a
-wp.pl##ARTICLE.article.premium > DIV[data-st-area="article-header"] + DIV > DIV:not([class*="premium--wide"]):not([class*="article--text"]):not([class*="article--lead"]) > *:remove()
-wp.pl##^ARTICLE.article.premium > DIV[data-st-area="article-header"] + DIV > DIV:not([class*="premium--wide"]):not([class*="article--text"]):not([class*="article--lead"]) > *
+opinie.wp.pl,wiadomosci.wp.pl##ARTICLE.article.premium > DIV[data-st-area="article-header"] + DIV > DIV:not([class*="premium--wide"]):not([class*="article--text"]):not([class*="article--lead"]) > *:remove()
+opinie.wp.pl,wiadomosci.wp.pl##^ARTICLE.article.premium > DIV[data-st-area="article-header"] + DIV > DIV:not([class*="premium--wide"]):not([class*="article--text"]):not([class*="article--lead"]) > *
 
 !Szare pola z reklamami
 !https://wiadomosci.wp.pl/wegry-kolejny-skandal-w-fideszu-zdumiewajace-slowa-wspolzalozyciela-partii-6582731252394560a
-wp.pl##DIV:matches-css(background-color: rgba(0, 0, 0, 0.05)):matches-css(min-height: /[0-9]*px/):remove()
+wiadomosci.wp.pl##DIV:matches-css(background-color: rgba(0, 0, 0, 0.05)):matches-css(min-height: /[0-9]*px/):remove()
 
 ||onelogin.wpcdn.pl^
 !Poaczątek - mobilna www.wp.pl
 www.wp.pl##A[href*="wp.pl/"]:has(DIV:only-child > DIV:only-child > IMG[src*="v.wpimg.pl"])
-!Koniec - mobilna www.wp.pl
+!KONIEC - mobilna www.wp.pl
 
 
-!Początek - https://wiadomosci.wp.pl/spor-wokol-budzetu-wszystko-jasne-przed-posiedzeniem-rady-ue-6576549253904992a
+!POCZĄTEK - https://wiadomosci.wp.pl/spor-wokol-budzetu-wszystko-jasne-przed-posiedzeniem-rady-ue-6576549253904992a
 !Przy jakimkolwiek usuwaniu nie działają interaktywne elementy strony (łasowanie komentarzy, rozwiajnie tagów)
 !Wideo powiązane w treści artykułu
 !wiadomosci.wp.pl^##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"])
@@ -89,44 +113,41 @@ opinie.wp.pl,wiadomosci.wp.pl##H1.article--title ~ DIV:has(:scope > DIV[id^="vid
 !wiadomosci.wp.pl##^H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"]):xpath(preceding-sibling::DIV[H2][1])
 opinie.wp.pl,wiadomosci.wp.pl##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"]):xpath(preceding-sibling::DIV[H2][1])
 !wiadomosci.wp.pl##H1.article--title ~ DIV:has(:scope > DIV[id^="video-player-"]):xpath(preceding-sibling::DIV[H2][1]):remove()
-!Koniec - https://wiadomosci.wp.pl/spor-wokol-budzetu-wszystko-jasne-przed-posiedzeniem-rady-ue-6576549253904992a
+!KONIEC - https://wiadomosci.wp.pl/spor-wokol-budzetu-wszystko-jasne-przed-posiedzeniem-rady-ue-6576549253904992a
 
-!Początek - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
-!REklamy w sekcji "POLECANE" na dole strony
+!POCZĄTEK - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+!Reklamy w sekcji "POLECANE" na dole strony
 opinie.wp.pl,wiadomosci.wp.pl##LI[data-adv]:remove()
 opinie.wp.pl,wiadomosci.wp.pl##LI[data-adv]
 !Reklama na przycisku startu po spauzowaniu wideo
 !wiadomosci.wp.pl##ARTICLE.article.desktop.videoView DIV.adpause > DIV.plchldr > SPAN:first-child:last-child > DIV.cntr
 opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr
 opinie.wp.pl,wiadomosci.wp.pl##DIV.plchldr:remove()
-
-sportowefakty.wp.pl##^DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
-sportowefakty.wp.pl##DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
-
-sportowefakty.wp.pl##^P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
-sportowefakty.wp.pl##P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!KONIEC - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 
 !https://www.wp.pl/?s=https%3A%2F%2Fsportowefakty.wp.pl%2Fkolarstwo%2F926408%2F43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o&nil&src01=f1e45
 www.wp.pl##SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
 www.wp.pl##^SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
 
+!POCZĄTEK - https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
 !Reklamy w sekcji polecane pod artykułem
-!https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+sportowefakty.wp.pl##^DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
+sportowefakty.wp.pl##DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
+sportowefakty.wp.pl##^P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+sportowefakty.wp.pl##P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
 !uBO: setTimeout("function(){var a=n?".article + .teasers .teaser":".articleteaser",r=".streamshort",c=null,d=v.place;if(n&&f>1){var u=document.body.querySelectorAll(v.selector).length,h=i[o].filter(function(e){return e.rand===!0}).length,p=parseInt(u/h-1);d=v.place+p}c=document.body.querySelectorAll(v.selector)[d];var g=c.querySelectorAll("img")[0],m=c.querySelectorAll("a")[0],w=c.querySelectorAll("span")[0];g.src=e.src,r===v.selector&&(m=c.querySelectorAll(".streamshort__title a")[0],m.textContent=e.text),a===v.selector&&(w.childElementCount?w.childNodes[0].textContent=e.text:w.textContent=e.text),m.href=e.url,m.target="_blank",c.className+=" "+s,t({el:c}),l()}", 200)
-wp.pl##+js(nostif, articleteaser, 200)
+sportowefakty.wp.pl##+js(nostif, articleteaser, 200)
+!KONIEC - https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
 
-
-!Koniec - desktop https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
-
+!POCZĄTEK - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 !Szare pola na reklamy
 wiadomosci.wp.pl##DIV:matches-css(min-height: 250px):remove()
-!Początek - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 !Przycisk koszyka na górnym pasku:
 opinie.wp.pl,wiadomosci.wp.pl##DIV[data-st-area="Header"] > DIV:has(:scope > DIV > svg[viewBox="0 0 27 24"] > path)
 !Reklama nad wideo
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 250px)
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 250px):remove()
-!REklamy w sekcji "POLECANE" na dole strony
+!Reklamy w sekcji "POLECANE" na dole strony
 !wiadomosci.wp.pl##DIV.teasersListing > DIV > DIV.teaserColor DIV > DIV:has(:scope > DIV[data-slot])
 opinie.wp.pl,wiadomosci.wp.pl##DIV.teasersListing DIV:has(:scope > DIV[data-slot])
 opinie.wp.pl,wiadomosci.wp.pl##DIV.teasersListing DIV:has(:scope > DIV[data-slot]):remove()
@@ -138,10 +159,12 @@ opinie.wp.pl,wiadomosci.wp.pl##DIV:has(:scope > IFRAME[class*=" "][scrolling][da
 !https://wiadomosci.wp.pl/strajk-pielegniarek-musi-byc-uciazliwy-by-przyniosl-efekt-6576969181580032a/komentarze
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px)
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px):remove()
-!Koniec - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+!KONIEC - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 !KONIEC WIRTUALNA POLSKA WP.PL
 
-!Początek: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
+
+
+!POCZĄTEK: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
 !Nie dało się skopiować zdjęcia
 cozadzien.pl##+js(remove-attr.js, oncontextmenu, IMG[oncontextmenu])
 !https://r.cozadzien.pl/server/www/delivery/asyncjs.php
@@ -172,7 +195,7 @@ cozadzien.pl##DIV.article-content > DIV.article-link:if(:scope > A[href*="youtub
 cozadzien.pl##DIV.article-content > DIV.article-link:if(:scope > A[href*="facebook.com/CoZaDzien/"])
 !Chyba reklamy
 ||dami24.pl/videoima/videojs-ima/dist/videojs.ima.min.js
-!Koniec: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
+!KONIEC: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
 
 
 !Odblokowanie zaznaczania i kopiowania
@@ -302,12 +325,12 @@ tvn24.pl##BUTTON.modal-back-button
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet"]
 
-!Początek: https://telewizjarepublika.pl/mosinski-moje-dzieci-nie-zycza-sobie-aby-jakies-lewackie-organizacje-urzadzaly-manifestacje-w-ich-imieniu,101356.html
+!POCZĄTEK: https://telewizjarepublika.pl/mosinski-moje-dzieci-nie-zycza-sobie-aby-jakies-lewackie-organizacje-urzadzaly-manifestacje-w-ich-imieniu,101356.html
 !https://s1.adsplayer.pl/republika/player_pd.php?p=//telewizjarepublika.pl/imgcache/600x340/c/uploads/news/2020_09_1_yt.jpg&f=//telewizjarepublika.pl/telewizjarepublika/magazyny/2020_09_1_YT
 ||adsplayer.pl/republika/
 !https://niezalezna.pl/popup/js/popup.js?s=120872222
 ||niezalezna.pl/popup/
-!Koniec: https://telewizjarepublika.pl/mosinski-moje-dzieci-nie-zycza-sobie-aby-jakies-lewackie-organizacje-urzadzaly-manifestacje-w-ich-imieniu,101356.html
+!KONIEC: https://telewizjarepublika.pl/mosinski-moje-dzieci-nie-zycza-sobie-aby-jakies-lewackie-organizacje-urzadzaly-manifestacje-w-ich-imieniu,101356.html
 
 !https://www.wirtualnemedia.pl/artykul/grzechy-dziennikarzy-gniew-marek-tejchman
 ||wirtualnemedia.pl/*/facebook_shares.min.js
@@ -447,6 +470,10 @@ wpolityce.pl##SECTION.publication__studio-tv
 
 !Artykuły z reklamami pod artykułem
 wpolityce.pl##ASIDE#article-related-from-division
+
+!https://wydarzenia.interia.pl/polska/news-roman-giertych-odpowiada-na-zarzuty-ws-soku-z-buraka-skonczy,nId,5133319
+interia.pl##DIV.article-body > ASIDE.embed.embed-video + SCRIPT:last-child:xpath(self::node()/preceding-sibling::ASIDE[1])
+interia.pl##^DIV.article-body > ASIDE.embed.embed-video + SCRIPT:last-child:xpath(self::node()/preceding-sibling::ASIDE[1])
 
 ampproject.org##+js(ampproject_v0.js)
 

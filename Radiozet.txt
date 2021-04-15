@@ -5,6 +5,10 @@
 
 ||connect.facebook.net/*/sdk.js$domain=radiozet.pl,important
 
+
+!https://wiadomosci.radiozet.pl/
+radiozet.pl##DIV.advert-container
+
 !Nie wiem co, Voicer było przy przyciskach socialowych
 ||voicer.eurozet.pl^
 
