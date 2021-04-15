@@ -36,8 +36,9 @@ wp.pl##+js(nostif, visibility, 0)
 !https://wiadomosci.wp.pl/zloci-chlopcy-od-fatimy-6576732794653472a
 !Official Polish filters for AdBlock, uBlock Origin & AdGuard - supplement for uBlock Origin
 !abczdrowie.pl,autokult.pl,echirurgia.pl,film.wp.pl,fotoblogia.pl,gadzetomania.pl,gry.wp.pl,horoskop.wp.pl,kobieta.wp.pl,komorkomania.pl,medycyna24.pl,money.pl,parenting.pl,pogoda.wp.pl,tech.wp.pl,tv.wp.pl,twojeip.wp.pl,wiadomosci.wp.pl,wideo.wp.pl,www.wp.pl,sportowefakty.wp.pl##+js(aost, WP.prebid, onLoad)
-abczdrowie.pl,autokult.pl,echirurgia.pl,film.wp.pl,fotoblogia.pl,gadzetomania.pl,gry.wp.pl,horoskop.wp.pl,kobieta.wp.pl,komorkomania.pl,medycyna24.pl,money.pl,parenting.pl,pogoda.wp.pl,tech.wp.pl,tv.wp.pl,twojeip.wp.pl,wiadomosci.wp.pl,wideo.wp.pl,www.wp.pl,sportowefakty.wp.pl#@#+js(aost, WP.prebid, onLoad)
-wiadomosci.wp.pl#@#+js(abort-on-stack-trace, WP.prebid, onLoad)
+!abczdrowie.pl,autokult.pl,echirurgia.pl,film.wp.pl,fotoblogia.pl,gadzetomania.pl,gry.wp.pl,horoskop.wp.pl,kobieta.wp.pl,komorkomania.pl,medycyna24.pl,money.pl,parenting.pl,pogoda.wp.pl,tech.wp.pl,tv.wp.pl,twojeip.wp.pl,wiadomosci.wp.pl,wideo.wp.pl,www.wp.pl,sportowefakty.wp.pl#@#+js(aost, WP.prebid, onLoad)
+!wiadomosci.wp.pl#@#+js(abort-on-stack-trace, WP.prebid, onLoad)
+!Wyłączam to wykluczenie testowo, żeby przetestować jak będzie działało
 
 !Cofnięcie usuwania linku do strony głównej z przycisku powrotu
 !Polskie Filtry Elementów Irytujących - wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
