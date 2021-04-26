@@ -120,40 +120,6 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 ||static.im-g.pl/*vendor-list.json
 !Koniec: https://wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.html
 
-
-!Początek: https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1 - wersja AMP STRONY z domeny cdn.ampproject.org
-!cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)
-||cdn.ampproject.org/*/amp-ad-network-doubleclick-impl-
-||cdn.ampproject.org/*/amp-ad-
-||cdn.ampproject.org/*/amp-analytics-
-||cdn.ampproject.org/*/amp-consent-
-||us-central1-amp-error-reporting.cloudfunctions.net^
-!Szare pole po reklamach
-ampproject.org##DIV.banner
-!Czewony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
-ampproject.org##A#footerBack
-!Wideo w ramce w treści artykułu
-ampproject.org##DIV.art_embed > [src*="onnetwork.tv"]
-ampproject.org##DIV.part > DIV.art_embed:has(:scope >AMP-IFRAME[src*="onnetwork.tv"])
-!Ramka z Instagrama: https://haps-pl.cdn.ampproject.org/v/s/haps.pl/Haps/7,167709,25966605,swiat-oszalal-na-punkcie-dalgona-coffee-probowaliscie-wersji.amp?amp_js_v=0.1
-!Zwykły przycisk "OTWÓRZ GALERIĘ ZDJĘĆ": https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
-!Przycisk w ramce "OTWÓRZ GALERIĘ ZDJĘĆ": https://www-plotek-pl.cdn.ampproject.org/v/s/www.plotek.pl/plotek/7,154063,25969928,slub-od-pierwszego-wejrzenia.amp?amp_js_v=0.1
-!Zmniejszanie białego pola ramki naokoło przycisku w ramce
-hp-api-v.gazeta.pl##DIV.mtpromo-gallery__readmore-btn-wrapper:style(padding: unset !important)
-cdn.ampproject.org##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
-!Wideo dla strony AMP jest odtwarzane z domeny google: https://www.google.com/amp/s/wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.amp
-cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)  P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
-!Koniec: https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
-
-!Początek: !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp - wersja AMP strony w domenie gazeta.pl
-!Szare pole po reklamach
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.banner
-!Czerwony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##A#footerBack
-!Zmniejszanie białego pola ramki naokoło przycisku w ramce
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
-!Koniec: !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp - wersja AMP strony w domenie gazeta.pl
-
 !Wideo powiązane pod artykułem
 !https://weekend.gazeta.pl/weekend/1,152121,25856421,zegiestow-zdroj-kiedys-najelegantsze-uzdrowisko-w-polsce-dzis.html
 ||video.onnetwork.tv^$domain=weekend.gazeta.pl
@@ -192,13 +158,6 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Początek: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile:has(:scope >SECTION.mtpromo-gallery) > MAIN.l-main
 !Koniec: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
-
-!Strony AMP na komputerze mają białe znaki na początku/końcu paragrafu z powiązanymi
-!https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
-!https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.amp
-!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):has(:scope >I > A.art_link)
-
 
 !Wideo w ramce w treści artykułu
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947207,trzaskowski-za-kidawe-blonska-kiedys-bylo-tusku-musisz.html#s=BoxOpImg1

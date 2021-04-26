@@ -3,7 +3,6 @@
 
 
 @@||fakt.pl^$generichide
-@@||www-fakt-pl.cdn.ampproject.org^$generichide
 
 !Układ z galerią (brak kolumny z powiązanymi po lewej stronie)
 !https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
@@ -54,20 +53,16 @@ fakt.pl##+js(addEventListener-defuser.js, click, iframe)
 
 !Paragraf z "Zobacz też:" nad wideo powiązanym z napisem :
 !https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
-!fakt.pl##DIV.articleBody > P.hyphenate:has-text(Zobacz też:) + SCRIPT + DIV.embeddedApp.video
-!www-fakt-pl.cdn.ampproject.org##P.hyphenate:has-text(Zobacz też:) + AMP-IFRAME[src*="pulsembed.eu"]
-fakt.pl,www-fakt-pl.cdn.ampproject.org##P.hyphenate:has-text(Zobacz też:)
+fakt.pl##P.hyphenate:has-text(Zobacz też:)
 
 !Linki do powiązanych artykułów pod wideo powiązanym pod paragrafem "Zobacz też:":
 !https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
 !fakt.pl##DIV.articleBody > P.hyphenate:has-text(Zobacz też:) + SCRIPT + DIV.embeddedApp.video ~ P.hyphenate > A[href*="fakt.pl/"]
-!www-fakt-pl.cdn.ampproject.org##P.hyphenate + AMP-IFRAME[src*="pulsembed.eu"] ~ P.hyphenate > A[href*="fakt.pl/"]
 
 !Wideo pod linkami powiązanymi
 !https://www.fakt.pl/pieniadze/finanse/gielda-zpue-sa-tlumaczy-po-co-jej-luksusowy-jacht/8jx636n?utm_source=_viasg_fakt
 !https://www.fakt.pl/pieniadze/finanse/doplaty-do-czynszow-kiedy-pomoc-dla-lokatorow/4fhcnb5?utm_source=_viasg_fakt
 !fakt.pl##P.hyphenate:has(A[href*="fakt.pl/"]) + SCRIPT + DIV.embeddedApp.video
-!www-fakt-pl.cdn.ampproject.org##P.hyphenate:has(A[href*="fakt.pl/"]) + AMP-IFRAME[src*="pulsembed.eu"]
 
 !Z werjsi mobilnej
 !https://www.fakt.pl/facet/technologie/najpopularniejsze-haslo-komputerowe-2020/7bqlytj?utm_source=_viasg_fakt
@@ -138,17 +133,6 @@ fakt.pl##DIV.adRight2StickyWrapper
 !https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
 fakt.pl##DIV[data-position="mobile"][data-run-module="local/main.social"]
 
-!Napis "reklama" w werjsi amp
-!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33.amp
-fakt.pl,www-fakt-pl.cdn.ampproject.org##P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
-
-!Puste miejsce po reklamie w wersji .amp
-!https://www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm.amp
-fakt.pl##AMP-AD
-
-!Sekcja "Zobacz także" w treści artykułu
-https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/wydarzenia/polityka/andrzej-duda-odebral-uchwale-pkw-o-wyborze-na-prezydenta/fj4jxl0.amp#slidehash-0
-fakt.pl,www-fakt-pl.cdn.ampproject.org##DIV.streamIntext
 
 !Wideo powiązane na końcu po linkach do artykułów powiązanych:
 !fakt.pl##DIV:has(>P:has(> A[href*="fakt.pl"]) + SCRIPT + DIV.embeddedApp.video) > DIV.embeddedApp.video:last-of-type
@@ -160,8 +144,6 @@ fakt.pl,www-fakt-pl.cdn.ampproject.org##DIV.streamIntext
 fakt.pl##P:has(> A[href*="fakt.pl"]) + P:has(> A[href*="fakt.pl"]) + SCRIPT + DIV.embeddedApp.video
 !Wersja na stronę mobilną
 fakt.pl##P:has(> A[href*="fakt.pl"]) + P:has(> A[href*="fakt.pl"]) + DIV#onet-ad-flat-branding + SCRIPT + SCRIPT + DIV.embeddedApp.video
-!Wersja ampproject i .amp
-fakt.pl,www-fakt-pl.cdn.ampproject.org##P:has(> A[href*="fakt.pl"]) + P:has(> A[href*="fakt.pl"]) + AMP-IFRAME
 
 !Wideo powiązane na końcu przed linkami do artykułów powiązanych:
 !https://www.fakt.pl/wydarzenia/polityka/monika-kurska-zabrala-glos-ws-syna-nieuczciwa-kampania/n32b7l4?utm_source=_viasg_fakt
@@ -234,14 +216,6 @@ pulsembed.eu##+js(addEventListener-defuser.js, , _tracking.events)
 !Żądania wywołane z ramki onet.tv:
 onet.tv##+js(no-setInterval-if.js, _tracking.events)
 onet.tv##+js(addEventListener-defuser.js, , _tracking.events)
-
-!Puste miejsce po wideo, które się nie odtwarza
-!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/facet/technologie/najpopularniejsze-haslo-komputerowe-2020/7bqlytj.amp
-!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm.amp
-!www-fakt-pl.cdn.ampproject.org##AMP-IFRAME.i-amphtml-layout-responsive.i-amphtml-layout-size-defined.i-amphtml-element.i-amphtml-layout
-fakt.pl,www-fakt-pl.cdn.ampproject.org##AMP-IFRAME.i-amphtml-layout-responsive[src*="pulsembed.eu/"]:not(.amp-embed)
-![src*="pulsembed.eu/"], bo false positive na: https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/wydarzenia/polityka/kinga-duda-corka-andrzeja-dudy-tanczy-i-spiewa-film/9r2rkmv.amp
-!www-fakt-pl.cdn.ampproject.org##AMP-IFRAME.i-amphtml-layout-fixed.i-amphtml-layout-size-defined.i-amphtml-element.i-amphtml-layout
 
 !Szare pole po reklamie na desktopowej stronie głównej
 

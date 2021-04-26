@@ -828,7 +828,6 @@ allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Ofert
 !allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
 allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(:scope > H2)) > ARTICLE:style(border: dashed !important;)
 
-ampproject.org##+js(ampproject_v0.js)
 
 
 

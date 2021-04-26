@@ -19,11 +19,6 @@ wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
 !uBO: addEventListener("visibilitychange", e=>{A(document.hidden?d:c,e)})
 wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
 
-!Wideo
-!https://opinie.wp.pl/dzialka-rower-praca-zdalna-i-frustracja-czego-nauczyl-nas-rok-pandemii-6614162219625152a?amp=1&amp_js_v=0.1
-@@||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
-wp.pl##AMP-VIDEO-IFRAME[src^="https://wideo.wp.pl/ampNativeplayer.html?autoplay="][height="259"]:style(height: 270px; !important;)
-
 !Bez sprawdzenia, czy to wideo usuwała się treść
 !https://wiadomosci.wp.pl/rocznica-katastrofy-smolenskiej-barbara-nowacka-klamstwa-macierewicza-6627102660232833v?wga_sa=header&index=0&abtest=application%7C__notest%7C
 wiadomosci.wp.pl##^BODY:not(:has(article.article.desktop.videoView)):xpath(//div[count(*)=1][div[count(*)=3][img[@class][@src]][*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=1]/*[count(*)=0]]])
@@ -75,14 +70,6 @@ magazyn.wp.pl##DIV.article-loader-holder:remove()
 ||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
 magazyn.wp.pl##^FIGURE.a--instream
 magazyn.wp.pl##FIGURE.a--instream:remove()
-
-!Wideo powiązane w treści artykułu
-!https://opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
-!https://opinie-wp-pl.cdn.ampproject.org/v/s/opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
-ampproject.org,wp.pl##H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
-ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
-ampproject.org,wp.pl##H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
-ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
 
 !Wideo powiązane na końcu artykułu
 !https://wiadomosci.wp.pl/afera-getback-igor-janke-uslyszal-zarzuty-6571333792770848a
@@ -492,8 +479,6 @@ wpolityce.pl##ASIDE#article-related-from-division
 !https://wydarzenia.interia.pl/polska/news-roman-giertych-odpowiada-na-zarzuty-ws-soku-z-buraka-skonczy,nId,5133319
 interia.pl##DIV.article-body > ASIDE.embed.embed-video + SCRIPT:last-child:xpath(self::node()/preceding-sibling::ASIDE[1])
 interia.pl##^DIV.article-body > ASIDE.embed.embed-video + SCRIPT:last-child:xpath(self::node()/preceding-sibling::ASIDE[1])
-
-ampproject.org##+js(ampproject_v0.js)
 
 !Zmiana nazwy karty na "Wróć i sprawdzaj fakty" po przełączeniu na inną
 !https://demagog.org.pl/wp-content/themes/demagog/js/custom.js?ver=1.0.86

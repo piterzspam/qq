@@ -19,6 +19,9 @@ dziennik.pl##DIV.detail > P A[id]:style(text-decoration: unset !important;color:
 !https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
 !dziennik.pl##DIV.widget.video.videoScrollClass:if(DIV[data-vt-type="stream"])
 
+!https://wiadomosci.dziennik.pl/opinie/artykuly/7723215,joanna-lichocka-krzysztof-czabanski-sylwetki-trojka-piotr-zaremba-mainstream.html
+||connect.facebook.net^$domain=dziennik.pl
+
 !Wyłączenie pokazywania playlisty po spauzowaniu lub przesunięciu kursora poza stronę
 !https://videotarget.pl/player/v1/stream/eyJzaXRlIjoxMDMyLCJwbGFjZW1lbnQiOjEwNDYsInRlbXBsYXRlIjo1LCJjb250ZXh0Ijo3NiwidHlwZSI6InN0cmVhbSJ9?type=stream&index=2&m=0&play=1&m=0&v=1
 videotarget.pl##+js(abort-on-property-read.js, playlist)
@@ -210,16 +213,9 @@ forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
 !https://forsal.pl/gospodarka/aktualnosci/artykuly/1472749,wybory-prezydenckie-pakiety-wyborcze-poczta-termin-majowy-stan-przedzawalowy.html
 
 
-
-
-@@||ampproject.org^$generichide
 @@||dziennik.pl^$generichide
 @@||forsal.pl^$generichide
 @@||gazetaprawna.pl^$generichide
-!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/polityka/artykuly/6445850,mosbacher-praworzadnosc-polska-ue.html.amp?amp_js_v=0.1
-||cdn.ampproject.org/*/amp-social-share-
-!Domyślam się, że chodzi o śledzenie położenia
-||cdn.ampproject.org/*/amp-geo-
 
 !Ramka player wideo polsatu pulsembed.eu/p2em/ -> media.polsatsport.pl/:
 !https://sport.dziennik.pl/pilka-nozna/artykuly/7716761,puchar-polski-legia-miedz-cracovia-lech-lechia.html
@@ -237,42 +233,8 @@ forsal.pl#@#+js(set-constant, parseFloat, noopFunc)
 !https://wiadomosci.dziennik.pl/polityka/artykuly/8042166,solidarna-polska-odejscie-koalicja-wniosek-formalny-rzad-pis.html
 dziennik.pl##A.fbButtonObserve
 
-dziennik.pl,forsal.pl,gazetaprawna.pl,ampproject.org##AMP-AD
-!https://wiadomosci.dziennik.pl/opinie/artykuly/7723215,joanna-lichocka-krzysztof-czabanski-sylwetki-trojka-piotr-zaremba-mainstream.html
-||connect.facebook.net^$domain=dziennik.pl
-
-!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html.amp?amp_js_v=0.1
-cdn.ampproject.org##BODY:if(>HEADER > DIV > A[href="https://www.dziennik.pl/"]) DIV:if(>P.hyphenate:has-text(Zobacz również))
-
-!Powiązane wideo pod artykułem
-!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html.amp?amp_js_v=0.1
-||videotarget.pl/player/v1/stream/$domain=cdn.ampproject.org
-cdn.ampproject.org##BODY:if(>HEADER > DIV > A[href="https://www.dziennik.pl/"]) DIV.widget.video:if(>AMP-IFRAME[src*="videotarget.pl/player/v1/stream/"])
-
-!https://auto.dziennik.pl/aktualnosci/artykuly/7719967,prawo-jazdy-policja-tablica-rejestracyjna-czasowe-wyrejestrowanie-pakiet-deregulacyjny.html.amp
-||videotarget.pl/player/v1/stream/$domain=dziennik.pl
-dziennik.pl##ARTICLE > DIV:if(>P.hyphenate:has-text(Zobacz również))
-dziennik.pl##ARTICLE > DIV.widget.video:if(>AMP-IFRAME[src*="videotarget.pl/player/v1/stream/"])
-
 !https://forsal.pl/gospodarka/inwestycje/artykuly/1480268,mierzeja-wislana-przekop-mierzei-port-w-elblagu-kanal-zeglugowy.html
 forsal.pl##DIV#inArticleAfter2P.articleBody > P:has-text(>>> Polecamy:):if(A[href*="forsal.pl"])
-
-!https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1479037,wachowicz-to-nowe-wyzwanie-i-nowa-rzeczywistosc-ale-caly-czas-jeszcze-nie-kryzys-wywiad.html?amp_js_v=0.1
-!https://www.gazetaprawna.pl/amp/1449444,cit-w-2020r-przeglad-zmian-sprawdz-co-sie-zmieni.html
-forsal.pl,gazetaprawna.pl,ampproject.org##DIV.widget-psav-share-box
-
-!>>> Czytaj także: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html?amp_js_v=0.1
-!>>> Czytaj też: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1476184,prekariat-na-rynku-pracy-jak-polska-wypada-na-tle-ue-dane-eurostatu.html?amp_js_v=0.1
-!>>> Polecamy: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1480268,przekop-mierzei-wislanej-flagowa-inwestycja-rzadu-ma-dac-polsce-suwerennosc.html?amp_js_v=0.1
-forsal.pl,forsal-pl.cdn.ampproject.org##ARTICLE P:has-text(/^(>>> Czytaj także:|>>> Czytaj też:|>>> Polecamy:)/):if(>A[href*="forsal.pl"])
-
-!https://www.gazetaprawna.pl/amp/1449444,cit-w-2020r-przeglad-zmian-sprawdz-co-sie-zmieni.html
-gazetaprawna.pl##ARTICLE > P.tresc:if(>B > SPAN > A[href])
-gazetaprawna.pl##DIV.psavSpecialLinks
-
-!gazetaprawna.pl##+js(cookie-set.js, inforCookieWall, 15, 10000)
-!gazetaprawna.pl##+js(cookie-set, inforCookieWallCacheVal, 15, 5000000)
-!gazetaprawna.pl##+js(cs, name, value, age)
 
 !https://prawo.gazetaprawna.pl/artykuly/1479610,manowska-nowa-i-prezes-sadu-najwyzszego.html
 !https://adsvideo.gazetaprawna.pl/YB-Reklama/gazetaprawna_onload_js_artykuly.js
@@ -286,18 +248,6 @@ gazetaprawna.pl##DIV.psavSpecialLinks
 
 !https://forsal.pl/artykuly/1477767,pandemia-a-popyt-na-paliwo-w-marcu-dostawy-produktow-naftowych-byly-rekordowo-niskie.html
 forsal.pl##+js(addEventListener-defuser, scroll, firstStateNav)
-
-!Napisy "Reklama" nad pustymi polami, AMP
-!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
-https://www.gazetaprawna.pl/firma-i-prawo/artykuly/8055586,konsumenci-drobny-biznes-traktowany-po-konsumencku.html.amp
-https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
-ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.adBox
-ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.adBoxTop
-
-!Puste miejsca po przyciskach nad głównym zdjęciem AMP
-!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
-dziennik.pl##amp-social-share
-
 
 
 !Przyciski socialowe pod artykułem
@@ -330,23 +280,6 @@ gazetaprawna.pl##^DIV.detailContent > DIV.widget.video
 gazetaprawna.pl##DIV.detailContent > DIV.widget.video:remove()
 gazetaprawna.pl##DIV.detailContent > DIV.widget.video
 
-!Wideo powiązane pod artykułem AMP
-!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
-!https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8053729,dlaczego-ludzie-ufaja-gorniak-i-najmanowi-a-nie-chca-sluchac-ekspertow.html.amp
-!dziennik.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
-ampproject.org,dziennik.pl,gazetaprawna.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
-!dziennik.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type:remove()
-
-!https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
-!forsal.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child
-ampproject.org,forsal.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child
-!forsal.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child:remove()
-
-!Przyciski socialowe nad głównym zdjęciem AMP
-!https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8053729,dlaczego-ludzie-ufaja-gorniak-i-najmanowi-a-nie-chca-sluchac-ekspertow.html.amp
-!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
-!https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
-ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.social-box
 
 !Ramka facebooka:
 !https://wiadomosci.dziennik.pl/media/artykuly/7719231,lukasz-orbitowski-tvp-kultura-rezygnacja-odejscie.html

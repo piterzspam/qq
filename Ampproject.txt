@@ -1,0 +1,255 @@
+! Title: Ampproject
+! Expires: 1 day
+
+!Uniwersalne
+##HTML[amp] > BODY:matches-css(animation: ):style(animation: unset !important;)
+##HTML[amp] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+##HTML[amp] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+##HTML[amp] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+##HTML[\⚡] > BODY AMP-CONSENT
+##HTML[\⚡] > BODY AMP-SOCIAL-SHARE
+##HTML[amp] > BODY AMP-CONSENT
+##HTML[amp] > BODY AMP-SOCIAL-SHARE
+
+
+@@||ampproject.org^$generichide
+!https://buzz-gazeta-pl.cdn.ampproject.org/c/s/buzz.gazeta.pl/buzz/7,156947,26582074,adam-niedzielski-powrot-najmlodszych-uczniow-do-szkol-na-90.amp
+!https://next-gazeta-pl.cdn.ampproject.org/c/s/next.gazeta.pl/next/7,151003,26859382,szlo-wam-dobrze-wyszlo-zle-zachod-sie-dziwi-pandemii-w-polsce.amp
+ampproject.org##HTML[amp] > BODY:matches-css(animation: ):style(animation: unset !important;)
+ampproject.org##HTML[amp] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+ampproject.org##HTML[amp] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+ampproject.org##HTML[amp] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+ampproject.org##+js(ampproject_v0.js)
+!Komunikat na wersji AMP strony
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
+ampproject.org##AMP-CONSENT
+!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/polityka/artykuly/6445850,mosbacher-praworzadnosc-polska-ue.html.amp?amp_js_v=0.1
+||cdn.ampproject.org/*/amp-social-share-
+!Domyślam się, że chodzi o śledzenie położenia
+||cdn.ampproject.org/*/amp-geo-
+!Początek: https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1 - wersja AMP STRONY z domeny cdn.ampproject.org
+!cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)
+||cdn.ampproject.org/*/amp-ad-network-doubleclick-impl-
+||cdn.ampproject.org/*/amp-ad-
+||cdn.ampproject.org/*/amp-analytics-
+||cdn.ampproject.org/*/amp-consent-
+||us-central1-amp-error-reporting.cloudfunctions.net^
+ampproject.org##AMP-SOCIAL-SHARE
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!https://buzz-gazeta-pl.cdn.ampproject.org/c/s/buzz.gazeta.pl/buzz/7,156947,26582074,adam-niedzielski-powrot-najmlodszych-uczniow-do-szkol-na-90.amp
+!https://next-gazeta-pl.cdn.ampproject.org/c/s/next.gazeta.pl/next/7,151003,26859382,szlo-wam-dobrze-wyszlo-zle-zachod-sie-dziwi-pandemii-w-polsce.amp
+gazeta.pl##HTML[amp] > BODY:matches-css(animation: ):style(animation: unset !important;)
+gazeta.pl##HTML[amp] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+gazeta.pl##HTML[amp] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+gazeta.pl##HTML[amp] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+!Strony AMP na komputerze mają białe znaki na początku/końcu paragrafu z powiązanymi
+!https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
+!https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.amp
+!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):has(:scope >I > A.art_link)
+
+!Początek: !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp - wersja AMP strony w domenie gazeta.pl
+!Szare pole po reklamach
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.banner
+!Czerwony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##A#footerBack
+!Zmniejszanie białego pola ramki naokoło przycisku w ramce
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
+!Koniec: !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp - wersja AMP strony w domenie gazeta.pl
+
+!Początek: https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1 - wersja AMP STRONY z domeny cdn.ampproject.org
+!Szare pole po reklamach
+ampproject.org##DIV.banner
+!Czewony przycisk na dole strony po przescrollowaniu prznoszący do strony głównej
+ampproject.org##A#footerBack
+!Wideo w ramce w treści artykułu
+ampproject.org##DIV.art_embed > [src*="onnetwork.tv"]
+ampproject.org##DIV.part > DIV.art_embed:has(:scope >AMP-IFRAME[src*="onnetwork.tv"])
+!Ramka z Instagrama: https://haps-pl.cdn.ampproject.org/v/s/haps.pl/Haps/7,167709,25966605,swiat-oszalal-na-punkcie-dalgona-coffee-probowaliscie-wersji.amp?amp_js_v=0.1
+!Zwykły przycisk "OTWÓRZ GALERIĘ ZDJĘĆ": https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
+!Przycisk w ramce "OTWÓRZ GALERIĘ ZDJĘĆ": https://www-plotek-pl.cdn.ampproject.org/v/s/www.plotek.pl/plotek/7,154063,25969928,slub-od-pierwszego-wejrzenia.amp?amp_js_v=0.1
+!Zmniejszanie białego pola ramki naokoło przycisku w ramce
+hp-api-v.gazeta.pl##DIV.mtpromo-gallery__readmore-btn-wrapper:style(padding: unset !important)
+cdn.ampproject.org##DIV.gallery > DIV.button > AMP-IFRAME[src*="hp-api-v.gazeta.pl"] > I-AMPHTML-SIZER:style(padding-top: 4% !important)
+!Wideo dla strony AMP jest odtwarzane z domeny google: https://www.google.com/amp/s/wiadomosci.gazeta.pl/wiadomosci/7,173952,25882130,bartosz-arlukowicz-gosciem-porannej-rozmowy-gazeta-pl.amp
+cdn.ampproject.org##BODY:if(>AMP-ANIMATION#gazetaplBelkaAnim)  P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
+!Koniec: https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!https://bezprawnik.pl/wszystkie-bledy-rektora-wum/amp/
+bezprawnik.pl##HTML[amp] > BODY:matches-css(animation: ):style(animation: unset !important;)
+bezprawnik.pl##HTML[amp] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+bezprawnik.pl##HTML[amp] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+bezprawnik.pl##HTML[amp] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!https://opinie.wp.pl/kozinski-wszystkie-konflikty-obozu-wladzy-czy-pis-jest-w-stanie-utrzymac-je-w-ryzach-opinia-6609977033022304a?amp=1
+wp.pl##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+wp.pl##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+wp.pl##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+wp.pl##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+!Wideo
+!https://opinie.wp.pl/dzialka-rower-praca-zdalna-i-frustracja-czego-nauczyl-nas-rok-pandemii-6614162219625152a?amp=1&amp_js_v=0.1
+@@||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
+ampproject.org,wp.pl##AMP-VIDEO-IFRAME[src^="https://wideo.wp.pl/ampNativeplayer.html?autoplay="][height="259"]:style(height: 270px; !important;)
+
+!Wideo powiązane w treści artykułu
+!https://opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
+!https://opinie-wp-pl.cdn.ampproject.org/v/s/opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
+ampproject.org,wp.pl##H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
+
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!https://www.se.pl/wiadomosci/polityka/tego-jeszcze-nie-bylo-szydlo-i-biedron-lacza-sily-aa-tLsw-1Wa2-rLAt.html?format=amp
+se.pl##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+se.pl##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+se.pl##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+se.pl##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+!https://www-se-pl.cdn.ampproject.org/c/s/www.se.pl/wiadomosci/polityka/tego-jeszcze-nie-bylo-szydlo-i-biedron-lacza-sily-aa-tLsw-1Wa2-rLAt.html?format=amp
+!https://www.se.pl/wiadomosci/polityka/tego-jeszcze-nie-bylo-szydlo-i-biedron-lacza-sily-aa-tLsw-1Wa2-rLAt.html?format=amp
+!https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js
+||cdn.ampproject.org/*/amp-sticky-ad
+ampproject.org,se.pl##DIV.ampAd
+ampproject.org,se.pl##^DIV.ampAd
+se.pl##AMP-AD
+se.pl##^AMP-AD
+
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!Komunikat na wersji AMP strony
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##AMP-CONSENT#consent-element
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV[style="margin:auto;width:300px;"]
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##^DIV[style="margin:auto;width:300px;"]
+@@||onet.pl/favicon.ico
+!https://wiadomosci.onet.pl/kraj/hofman-rozmawial-z-czarneckim-giertych-udostepnia-nagranie/7wlxhmc.amp
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##AMP-AD
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
+
+!https://wiadomosci-onet-pl.cdn.ampproject.org/c/s/wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
+!https://wiadomosci-onet-pl.cdn.ampproject.org/c/s/*.amp
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
+!https://wiadomosci.onet.pl/*.amp?amp_js_v=0.1
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > UL:has(LI:only-child > STRONG + A[href*="onet.pl"] > STRONG)
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > UL:has(LI:only-child > STRONG + A[href*="vod.pl"] > STRONG)
+!3 linki z artykułami po sobie
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > DIV:has(:scope > P.hyphenate:first-child:has(:scope > A[id][href*="onet.pl"]:only-child) + P.hyphenate:has(:scope > A[id][href*="onet.pl"]:only-child) + P.hyphenate:last-child:has(:scope > A[id][href*="onet.pl"]:only-child))
+
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
+@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
+pulsembed.eu##DIV.cmp-app_gdpr
+
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!Puste miejsce po wideo, które się nie odtwarza
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/facet/technologie/najpopularniejsze-haslo-komputerowe-2020/7bqlytj.amp
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm.amp
+!www-fakt-pl.cdn.ampproject.org##AMP-IFRAME.i-amphtml-layout-responsive.i-amphtml-layout-size-defined.i-amphtml-element.i-amphtml-layout
+![src*="pulsembed.eu/"], bo false positive na: https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/wydarzenia/polityka/kinga-duda-corka-andrzeja-dudy-tanczy-i-spiewa-film/9r2rkmv.amp
+!www-fakt-pl.cdn.ampproject.org##AMP-IFRAME.i-amphtml-layout-fixed.i-amphtml-layout-size-defined.i-amphtml-element.i-amphtml-layout
+fakt.pl,www-fakt-pl.cdn.ampproject.org##AMP-IFRAME.i-amphtml-layout-responsive[src*="pulsembed.eu/"]:not(.amp-embed)
+
+!Wideo powiązane na końcu po linkach do artykułów powiązanych:
+!https://www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/finanse/zasilek-opiekunczy-uwaga-mija-termin-zgloszenia/1qhm4b0?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/finanse/pijany-ojciec-bil-dzieci-i-grozil-katastrofa-samolotu/4l6z0bx?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/finanse/skladki-zus-w-gore-rzad-glebiej-siega-do-kieszeni-polakow/c3thrfb?utm_source=_viasg_fakt
+!https://www.fakt.pl/facet/technologie/najpopularniejsze-haslo-komputerowe-2020/7bqlytj?utm_source=_viasg_fakt
+!Wersja ampproject i .amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##P:has(> A[href*="fakt.pl"]) + P:has(> A[href*="fakt.pl"]) + AMP-IFRAME
+
+!Napis "reklama" w werjsi amp
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
+
+!Puste miejsce po reklamie w wersji .amp
+!https://www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm.amp
+fakt.pl##AMP-AD
+
+!Sekcja "Zobacz także" w treści artykułu
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/wydarzenia/polityka/andrzej-duda-odebral-uchwale-pkw-o-wyborze-na-prezydenta/fj4jxl0.amp#slidehash-0
+fakt.pl,www-fakt-pl.cdn.ampproject.org##DIV.streamIntext
+
+!Wideo pod linkami powiązanymi
+!https://www.fakt.pl/pieniadze/finanse/gielda-zpue-sa-tlumaczy-po-co-jej-luksusowy-jacht/8jx636n?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/finanse/doplaty-do-czynszow-kiedy-pomoc-dla-lokatorow/4fhcnb5?utm_source=_viasg_fakt
+!www-fakt-pl.cdn.ampproject.org##P.hyphenate:has(A[href*="fakt.pl/"]) + AMP-IFRAME[src*="pulsembed.eu"]
+
+!Linki do powiązanych artykułów pod wideo powiązanym pod paragrafem "Zobacz też:":
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
+!www-fakt-pl.cdn.ampproject.org##P.hyphenate + AMP-IFRAME[src*="pulsembed.eu"] ~ P.hyphenate > A[href*="fakt.pl/"]
+
+!Paragraf z "Zobacz też:" nad wideo powiązanym z napisem :
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
+!fakt.pl##DIV.articleBody > P.hyphenate:has-text(Zobacz też:) + SCRIPT + DIV.embeddedApp.video
+fakt.pl,www-fakt-pl.cdn.ampproject.org##P.hyphenate:has-text(Zobacz też:)
+
+!Paragraf z "Zobacz też:" nad wideo powiązanym z napisem :
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33?utm_source=_viasg_fakt
+!fakt.pl##DIV.articleBody > P.hyphenate:has-text(Zobacz też:) + SCRIPT + DIV.embeddedApp.video
+!www-fakt-pl.cdn.ampproject.org##P.hyphenate:has-text(Zobacz też:) + AMP-IFRAME[src*="pulsembed.eu"]
+fakt.pl,www-fakt-pl.cdn.ampproject.org##P.hyphenate:has-text(Zobacz też:)
+
+@@||www-fakt-pl.cdn.ampproject.org^$generichide
+
+
+!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!Przyciski socialowe nad głównym zdjęciem AMP
+!https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8053729,dlaczego-ludzie-ufaja-gorniak-i-najmanowi-a-nie-chca-sluchac-ekspertow.html.amp
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+!https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
+ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.social-box
+
+!Wideo powiązane pod artykułem AMP
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+!https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8053729,dlaczego-ludzie-ufaja-gorniak-i-najmanowi-a-nie-chca-sluchac-ekspertow.html.amp
+!dziennik.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
+ampproject.org,dziennik.pl,gazetaprawna.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type
+!dziennik.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > P.hyphenate:last-of-type + DIV.widget.video:last-of-type:remove()
+
+!https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
+!forsal.pl##^HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child
+ampproject.org,forsal.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child
+!forsal.pl##HTML.i-amphtml-singledoc > BODY ARTICLE > DIV.frameArea.tresc + DIV.widget.video:last-of-type:last-child:remove()
+
+!Napisy "Reklama" nad pustymi polami, AMP
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+https://www.gazetaprawna.pl/firma-i-prawo/artykuly/8055586,konsumenci-drobny-biznes-traktowany-po-konsumencku.html.amp
+https://forsal.pl/gospodarka/polityka/artykuly/8056695,polska-kontra-ue-czyli-o-krajowej-polityce-na-miedzynarodowych-salonach.html.amp
+ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.adBox
+ampproject.org,dziennik.pl,forsal.pl,gazetaprawna.pl##DIV.adBoxTop
+
+!Puste miejsca po przyciskach nad głównym zdjęciem AMP
+!https://gospodarka.dziennik.pl/news/artykuly/8055163,apartamenty-nieruchomosci-mieszkanie-patologia-pieniadze-najem-krotkoterminowy-koronawirus-covid-19.html.amp
+dziennik.pl##amp-social-share
+
+!https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1479037,wachowicz-to-nowe-wyzwanie-i-nowa-rzeczywistosc-ale-caly-czas-jeszcze-nie-kryzys-wywiad.html?amp_js_v=0.1
+!https://www.gazetaprawna.pl/amp/1449444,cit-w-2020r-przeglad-zmian-sprawdz-co-sie-zmieni.html
+forsal.pl,gazetaprawna.pl,ampproject.org##DIV.widget-psav-share-box
+
+!>>> Czytaj także: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1469636,czy-premier-mogl-wydac-operatorom-polecenie-przekazywania-danych-telekomunikacyjnych.html?amp_js_v=0.1
+!>>> Czytaj też: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1476184,prekariat-na-rynku-pracy-jak-polska-wypada-na-tle-ue-dane-eurostatu.html?amp_js_v=0.1
+!>>> Polecamy: https://forsal-pl.cdn.ampproject.org/v/s/forsal.pl/amp/1480268,przekop-mierzei-wislanej-flagowa-inwestycja-rzadu-ma-dac-polsce-suwerennosc.html?amp_js_v=0.1
+forsal.pl,forsal-pl.cdn.ampproject.org##ARTICLE P:has-text(/^(>>> Czytaj także:|>>> Czytaj też:|>>> Polecamy:)/):if(>A[href*="forsal.pl"])
+
+!https://www.gazetaprawna.pl/amp/1449444,cit-w-2020r-przeglad-zmian-sprawdz-co-sie-zmieni.html
+gazetaprawna.pl##ARTICLE > P.tresc:if(>B > SPAN > A[href])
+gazetaprawna.pl##DIV.psavSpecialLinks
+dziennik.pl,forsal.pl,gazetaprawna.pl,ampproject.org##AMP-AD
+
+!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html.amp?amp_js_v=0.1
+cdn.ampproject.org##BODY:if(>HEADER > DIV > A[href="https://www.dziennik.pl/"]) DIV:if(>P.hyphenate:has-text(Zobacz również))
+
+!Powiązane wideo pod artykułem
+!https://wiadomosci-dziennik-pl.cdn.ampproject.org/v/s/wiadomosci.dziennik.pl/media/artykuly/6448895,duda-kurski-dymisja-2-mld-zl-tvp.html.amp?amp_js_v=0.1
+||videotarget.pl/player/v1/stream/$domain=cdn.ampproject.org
+cdn.ampproject.org##BODY:if(>HEADER > DIV > A[href="https://www.dziennik.pl/"]) DIV.widget.video:if(>AMP-IFRAME[src*="videotarget.pl/player/v1/stream/"])
+
+!https://auto.dziennik.pl/aktualnosci/artykuly/7719967,prawo-jazdy-policja-tablica-rejestracyjna-czasowe-wyrejestrowanie-pakiet-deregulacyjny.html.amp
+||videotarget.pl/player/v1/stream/$domain=dziennik.pl
+dziennik.pl##ARTICLE > DIV:if(>P.hyphenate:has-text(Zobacz również))
+dziennik.pl##ARTICLE > DIV.widget.video:if(>AMP-IFRAME[src*="videotarget.pl/player/v1/stream/"])
