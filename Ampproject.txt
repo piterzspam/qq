@@ -11,19 +11,19 @@
 ##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
 ##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
 
-##HTML[\⚡] > BODY AMP-CONSENT
-##HTML[\⚡] > BODY AMP-SOCIAL-SHARE
-##HTML[amp] > BODY AMP-CONSENT
-##HTML[amp] > BODY AMP-SOCIAL-SHARE
+##HTML[\⚡] > BODY AMP-AD, BODY AMP-CONSENT, BODY AMP-SOCIAL-SHARE
+##HTML[amp] > BODY AMP-AD, BODY AMP-CONSENT, BODY AMP-SOCIAL-SHARE
+ampproject.org##AMP-AD, AMP-CONSENT, AMP-SOCIAL-SHARE
+ampproject.org##^AMP-AD, AMP-CONSENT, AMP-SOCIAL-SHARE, AMP-ANALYTICS
 
 
 @@||ampproject.org^$generichide
 !https://buzz-gazeta-pl.cdn.ampproject.org/c/s/buzz.gazeta.pl/buzz/7,156947,26582074,adam-niedzielski-powrot-najmlodszych-uczniow-do-szkol-na-90.amp
 !https://next-gazeta-pl.cdn.ampproject.org/c/s/next.gazeta.pl/next/7,151003,26859382,szlo-wam-dobrze-wyszlo-zle-zachod-sie-dziwi-pandemii-w-polsce.amp
-ampproject.org##HTML[amp] > BODY:matches-css(animation: ):style(animation: unset !important;)
-ampproject.org##HTML[amp] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
-ampproject.org##HTML[amp] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
-ampproject.org##HTML[amp] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+ampproject.org##BODY:matches-css(animation: ):style(animation: unset !important;)
+ampproject.org##BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+ampproject.org##BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+ampproject.org##BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
 ampproject.org##+js(ampproject_v0.js)
 !Komunikat na wersji AMP strony
 !https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
@@ -39,7 +39,6 @@ ampproject.org##AMP-CONSENT
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.ampproject.org/*/amp-consent-
 ||us-central1-amp-error-reporting.cloudfunctions.net^
-ampproject.org##AMP-SOCIAL-SHARE
 !----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 !https://buzz-gazeta-pl.cdn.ampproject.org/c/s/buzz.gazeta.pl/buzz/7,156947,26582074,adam-niedzielski-powrot-najmlodszych-uczniow-do-szkol-na-90.amp
 !https://next-gazeta-pl.cdn.ampproject.org/c/s/next.gazeta.pl/next/7,151003,26859382,szlo-wam-dobrze-wyszlo-zle-zachod-sie-dziwi-pandemii-w-polsce.amp
@@ -104,6 +103,10 @@ ampproject.org,wp.pl##H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpat
 ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
 ampproject.org,wp.pl##H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
 ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
+
+!https://sportowefakty.wp.pl/amp/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+wp.pl##AMP-AD, AMP-CONSENT, AMP-SOCIAL-SHARE
+wp.pl##^AMP-AD, AMP-CONSENT, AMP-SOCIAL-SHARE
 
 !----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 !https://www.se.pl/wiadomosci/polityka/tego-jeszcze-nie-bylo-szydlo-i-biedron-lacza-sily-aa-tLsw-1Wa2-rLAt.html?format=amp
