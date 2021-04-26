@@ -149,6 +149,16 @@ opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height:
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px):remove()
 !KONIEC - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 
+
+!https://www.wp.pl/?s=https%3A%2F%2Fsportowefakty.wp.pl%2Fkolarstwo%2F926408%2F43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o&nil&src01=f1e45
+www.wp.pl##SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
+www.wp.pl##^SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
+
+@@||sportowefakty.wp.pl^$generichide
+!https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+sportowefakty.wp.pl##^P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+sportowefakty.wp.pl##P:has(:scope > STRONG:has-text(ZOBACZ WIDEO:)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
 !https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
 !div#AdvContainer.text_ads.css-adv.ads.contentAds.top-banners
 @@||money.pl^$generichide
@@ -369,7 +379,7 @@ krytykapolityczna.pl##DIV.article-donate-bottom
 ||krytykapolityczna.pl/*/essb$css
 ||krytykapolityczna.pl/plugins/easy-social-share-buttons3/
 
-!Bnaery na stronie
+!Banery na stronie
 !https://krytykapolityczna.pl/kraj/lewicowa-empatia-pis-galopujacy-major/
 ||krytykapolityczna.pl/wp-content/uploads/2020/11/baner-strona1-1.png
 ||krytykapolityczna.pl/wp-content/uploads/2021/01/X.png

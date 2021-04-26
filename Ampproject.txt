@@ -108,6 +108,21 @@ ampproject.org,wp.pl##^H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::
 wp.pl##AMP-AD, AMP-CONSENT, AMP-SOCIAL-SHARE
 wp.pl##^AMP-AD, AMP-CONSENT, AMP-SOCIAL-SHARE
 
+
+!https://sportowefakty.wp.pl/amp/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+!https://sportowefakty-wp-pl.cdn.ampproject.org/c/s/sportowefakty.wp.pl/amp/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+sportowefakty.wp.pl,sportowefakty-wp-pl.cdn.ampproject.org##^HTML[\⚡] ARTICLE.article P:has(STRONG:has-text(ZOBACZ WIDEO:) + * + AMP-VIDEO-IFRAME)
+sportowefakty.wp.pl,sportowefakty-wp-pl.cdn.ampproject.org##^HTML[\⚡] ARTICLE.article P:has(STRONG:has-text(ZOBACZ WIDEO:) + * + AMP-VIDEO-IFRAME)
+
+
+!https://opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
+!https://opinie-wp-pl.cdn.ampproject.org/v/s/opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
+ampproject.org,wp.pl##HTML[\⚡] H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##^HTML[\⚡] H2:has-text(Zobacz też:) + DIV.ad + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##HTML[\⚡] H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##^HTML[\⚡] H2:has-text(Zobacz też:) + AMP-VIDEO-IFRAME:xpath(self::node() | self::node()/preceding-sibling::H2[1])
+ampproject.org,wp.pl##HTML[\⚡] A.wp-pl-redirect
+
 !----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 !https://www.se.pl/wiadomosci/polityka/tego-jeszcze-nie-bylo-szydlo-i-biedron-lacza-sily-aa-tLsw-1Wa2-rLAt.html?format=amp
 se.pl##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
