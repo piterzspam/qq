@@ -157,6 +157,14 @@ sportowefakty.wp.pl##DIV.advarticle
 sportowefakty.wp.pl##^NAV[data-source="sidebar-menu-left"] > DIV:xpath(//div[div[@data-class][count(*)=0]])
 !https://sportowefakty.wp.pl/pilka-nozna/935780/wiemy-kto-skomentuje-mecze-polakow-i-final-euro-2020-zaskakujacy-ruch-tvp
 sportowefakty.wp.pl##DIV.back_bar
+!Reklama między kommentarzami - preview komantary
+!https://sportowefakty.wp.pl/pilka-nozna/935780/wiemy-kto-skomentuje-mecze-polakow-i-final-euro-2020-zaskakujacy-ruch-tvp
+sportowefakty.wp.pl##^DIV.comments__list__wrapper > UL.preview > LI:not([id])
+sportowefakty.wp.pl##DIV.comments__list__wrapper > UL.preview > LI:not([id])
+!Reklama między kommentarzami - otwarte komantare
+!https://sportowefakty.wp.pl/pilka-nozna/935780/wiemy-kto-skomentuje-mecze-polakow-i-final-euro-2020-zaskakujacy-ruch-tvp
+sportowefakty.wp.pl##^UL.comments__list > LI:not([id])
+sportowefakty.wp.pl##UL.comments__list > LI:not([id])
 !KONIEC - desktop https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
 
 !https://www.wp.pl/?s=https%3A%2F%2Fsportowefakty.wp.pl%2Fkolarstwo%2F926408%2F43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o&nil&src01=f1e45
