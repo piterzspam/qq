@@ -2,9 +2,9 @@
 ! Expires: 1 day
 
 @@||money.pl^$generichide
-money.pl##+js(addEventListener-logger)
+!money.pl##+js(addEventListener-logger)
 !money.pl##+js(addEventListener-defuser, /^/)
-money.pl##+js(no-setTimeout-if)
+!money.pl##+js(no-setTimeout-if)
 !money.pl##+js(no-setTimeout-if, , 300)
 !money.pl##+js(no-setTimeout-if, , 500)
 !money.pl##+js(no-setTimeout-if, , 2000)
