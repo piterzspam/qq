@@ -1,0 +1,225 @@
+! Title: Money.pl
+! Expires: 1 day
+
+@@||money.pl^$generichide
+money.pl##+js(addEventListener-logger)
+!money.pl##+js(addEventListener-defuser, /^/)
+money.pl##+js(no-setTimeout-if)
+!money.pl##+js(no-setTimeout-if, , 300)
+!money.pl##+js(no-setTimeout-if, , 500)
+!money.pl##+js(no-setTimeout-if, , 2000)
+!money.pl##+js(no-setTimeout-if, /^/)
+!money.pl##+js(no-setInterval-if)
+!money.pl##+js(no-setInterval-if, /^/)
+!money.pl##+js(no-requestAnimationFrame-if)
+!money.pl##+js(no-requestAnimationFrame-if, /^/)
+!money.pl##+js(json-prune)
+
+
+||gemius.pl^$domain=money.pl
+||pushpushgo.com^$domain=money.pl
+||doubleclick.net^$domain=money.pl
+||criteo.com^$domain=money.pl
+||pubmatic.com^$domain=money.pl
+||connectad.io^$domain=money.pl
+||adnxs.com^$domain=money.pl
+||akamaiedge.net^$domain=money.pl
+||indexww.com^$domain=money.pl
+||smartadserver.com^$domain=money.pl
+||rubiconproject.com^$domain=money.pl
+||openx.net^$domain=money.pl
+||www.wp.pl^$domain=money.pl
+||google-analytics.com^$domain=money.pl
+||googletagmanager.com^$domain=money.pl
+||connect.facebook.net/*/sdk.js$script,domain=money.pl
+||criteo.net^$domain=money.pl
+||googletagservices.com^$domain=money.pl
+||money.pl/sw.js?
+!||money.pl/static/vendors~
+||v.wpimg.pl^$subdocument,domain=money.pl
+||direct.money.pl^$subdocument,domain=money.pl
+||adform.net^$domain=money.pl
+||creativecdn.com^$domain=money.pl
+||casalemedia.com^$domain=money.pl
+||pixel6.wp.pl^$domain=money.pl
+||businessclick.com^$domain=money.pl
+||stickyadstv.com^$domain=money.pl
+!https://www.money.pl/gospodarka/
+||hotjar.com^$domain=money.pl
+||crazyegg.com^$domain=money.pl
+||dnn506yrbagrg.cloudfront.net^$domain=money.pl
+||money.wp.pl^$image,domain=money.pl
+||money.wp.pl^$css,domain=money.pl
+||onelogin.wpcdn.pl/onelogin/olwidget.js$domain=money.pl
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+||connect.facebook.net/*/fbevents.js$script,domain=money.pl
+||teads.tv^$domain=money.pl
+
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+!https://www.money.pl/gospodarka/
+||cdnt1.wp.pl/|$xhr,domain=money.pl
+||cdnt2.wp.pl/|$xhr,domain=money.pl
+||cdnt3.wp.pl/|$xhr,domain=money.pl
+||cdnt4.wp.pl/|$xhr,domain=money.pl
+||cdnt5.wp.pl/|$xhr,domain=money.pl
+||cdnt6.wp.pl/|$xhr,domain=money.pl
+||cdnt7.wp.pl/|$xhr,domain=money.pl
+||cdnt8.wp.pl/|$xhr,domain=money.pl
+||cdnt9.wp.pl/|$xhr,domain=money.pl
+||cdnt10.wp.pl/|$xhr,domain=money.pl
+
+
+!Reklamy
+!https://www.money.pl/
+!https://www.money.pl/gospodarka/
+!https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+!https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
+!https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
+money.pl##+js(no-setTimeout-if, RequestTimeout, 3000)
+
+!Usuwanie skryptu pokazującego reklamy na stronach bez wideo
+!https://www.money.pl/
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+!https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
+!https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
+money.pl##^BODY:not(:has(ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])):not(:has(DIV[data-st-area="Player"] + DIV[data-st-area="Video-content"])) SCRIPT[crossorigin="anonymous"][type="module"]
+money.pl##BODY:not(:has(ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])):not(:has(DIV[data-st-area="Player"] + DIV[data-st-area="Video-content"])) SCRIPT[crossorigin="anonymous"][type="module"]:remove()
+
+
+!Reklamy
+!https://www.money.pl/
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+!https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
+!https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
+money.pl##^DIV.i2doh5-0 > *
+money.pl##DIV.i2doh5-0 > *:remove()
+money.pl##DIV.i2doh5-0
+
+!Pasek po reklamie na górze strony
+!https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
+!https://www.money.pl/
+!https://www.money.pl/sekcja/koronawirus/
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+money.pl##:xpath(//DIV[@class][count(*)=2][STYLE[not(@class)]/following-sibling::DIV[1][contains(@class, "i2doh5-0")]])
+
+!Reklama przed stopką strony
+!https://www.money.pl/
+!https://www.money.pl/sekcja/koronawirus/
+!https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+!https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+money.pl##^:xpath(//DIV[not(@class)]/following-sibling::FOOTER[1]/preceding-sibling::DIV[not(@class)][DIV[@class][DIV[@class][DIV[@class][count(*)=0]][count(*)=1]/following-sibling::DIV[1][not(@class)][count(*)=0]][count(*)=2]][count(*)=1])
+money.pl##:xpath(//DIV[not(@class)]/following-sibling::FOOTER[1]/preceding-sibling::DIV[not(@class)][DIV[@class][DIV[@class][DIV[@class][count(*)=0]][count(*)=1]/following-sibling::DIV[1][not(@class)][count(*)=0]][count(*)=2]][count(*)=1])
+money.pl##:xpath(//DIV[not(@class)]/following-sibling::FOOTER[1]/preceding-sibling::DIV[not(@class)][DIV[@class][DIV[@class][DIV[@class][count(*)=0]][count(*)=1]/following-sibling::DIV[1][not(@class)][count(*)=0]][count(*)=2]][count(*)=1]):remove()
+
+!Powiadomienie o ciastkach na dole strony
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+money.pl##DIV#WP-cookie-info
+
+!Fix wysokości strony
+!https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+money.pl##DIV#app > DIV > DIV:matches-css(min-height: 2000px):style(min-height: unset !important;)
+
+!Puste miejsce po reklamie na górze strony
+!https://www.money.pl/gospodarka/
+money.pl##^DIV.x03
+money.pl##DIV.x03
+money.pl##DIV.x03:remove()
+
+!Miejsce na reklamę poziomą między sekcjami
+!https://www.money.pl/gospodarka/
+money.pl##^DIV.ac
+money.pl##DIV.ac
+money.pl##DIV.ac:remove()
+
+!Napis polub na FB po lewej stronie artykułu
+!https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
+money.pl##ASIDE[role="complementary"] > DIV:has-text(Polub www.money.pl na Facebooku:)
+
+!Przycisk z ikonką FB po lewej stronie artykułu
+!https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
+money.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:last-child
+
+!Wideo powiązane w treści artykułu
+!https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
+!https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
+money.pl##^ARTICLE > DIV[class^="sc-"]:has(:scope > DIV:has-text(Zobacz także:) + DIV[id^="video-player-"]) > *
+money.pl##ARTICLE > DIV[class^="sc-"]:has(:scope > DIV:has-text(Zobacz także:) + DIV[id^="video-player-"])
+money.pl##ARTICLE > DIV[class^="sc-"]:has(:scope > DIV:has-text(Zobacz także:) + DIV[id^="video-player-"]) > *:remove()
+
+!Przeładowanie strony po zmianie karty
+!https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
+money.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+
+!Pasek na dole strony mobilnej
+!https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
+money.pl##DIV.content[name="content"] + NAV
+
+
+
+
+
+!money.pl##^:xpath(//STYLE[not(@class)]/following-sibling::DIV[1][contains(@class, "i2doh5-0")]/*)
+!money.pl##^:xpath(//STYLE[not(@class)]/following-sibling::DIV[1][contains(@class, "i2doh5-0")]):xpath(self::node()/* | self::node()/preceding-sibling::STYLE[1])
+
+!money.pl##^DIV:has(:scope >STYLE + DIV.i2doh5-0) > *
+
+
+
+!||money.wp.pl^$xhr,domain=money.pl
+!||money.wp.pl^$xhr,redirect=nooptext,domain=money.pl
+!||money.wp.pl^$script,domain=money.pl
+!DIV[@class="i2doh5-0"]
+
+
+
+
+!Reklama między główną sekcją, a sekcją Gospodarka
+!https://www.money.pl/
+!money.pl##^DIV#app:has(MAIN) DIV.g5a6ew-2
+
+!Reklama pod notowaniami po prawej stronie
+!https://www.money.pl/
+!money.pl##^MAIN[class]:first-child + DIV[class]:last-child > DIV[class^="sc-"]:first-child:last-child > DIV[class^="sc-"]:first-child > ASIDE[class]:first-child + DIV[class^="mkn"]:last-child
+
+
+!money.pl##+js(aopr, PrebidDamTimeout)
+!money.pl##+js(aopw, PrebidDamTimeout)
+!money.pl##+js(aopr, window.prebidConfig)
+!money.pl##+js(aopw, window.prebidConfig)
+!money.pl##+js(acis, window.prebidConfig)
+!money.pl##+js(aopr, loadScript)
+!money.pl##+js(aopw, loadScript)
+!money.pl##+js(aost, prebidConfig, , 1)
+
+!money.pl##+js(aost, onLoad, , 1)
+!money.pl##+js(aost, open, , 1)
+!money.pl##+js(aopr, optionsRaw)
+!money.pl##+js(aopw, optionsRaw)
+!money.pl##+js(aost, 111/t.default)
+!money.pl##+js(aost, window)
+
+
+
+!money.pl##+js(aeld, message, adUnitCode)
+!addEventListener("message", function u(e){var t,n,r,i,o,a,c,u,s,d=e.message?"message":"data",f={};try{f=JSON.parse(e[d])}catch(e){return}if(f&&f.adId){var l=h()(y.a.getBidsReceived(),function(e){return e.adId===f.adId});if(l&&"Prebid Request"===f.message&&(n=e,r=(t=l).adId,i=t.ad,o=t.adUrl,a=t.width,c=t.height,u=t.renderer,s=t.cpm,Object(m.c)(u)?Object(m.b)(u,t):r&&(function(e){var o=e.adId,a=e.adUnitCode
+
+
+!money.pl##^LINK[rel="modulepreload"][href*="money.wp.pl/"]
+!money.pl##^SCRIPT[crossorigin="anonymous"][type="module"]
+
+!money.pl##^BODY:not(:has(ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])) LINK[rel="modulepreload"][href*="money.wp.pl/"]
+
+
+!https://www.money.pl/gospodarka/
+!money.pl##^HEAD > SCRIPT#wpjslib[src*="money.wp.pl/"][crossorigin][charset="UTF-8"]
+!money.pl##^SCRIPT#wpjslib[src*="money.wp.pl/"]
+![crossorigin][charset="UTF-8"]
+!money.pl##^SCRIPT
+![id="wpjslib"]
+!money.pl##^HEAD > SCRIPT#config
+!money.pl##^SCRIPT:has-text(prebidConfig)
+
