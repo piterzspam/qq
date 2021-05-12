@@ -1,0 +1,322 @@
+@@||www.wp.pl^$generichide
+!www.wp.pl##+js(addEventListener-logger)
+!www.wp.pl##+js(addEventListener-defuser, /^/)
+!www.wp.pl##+js(no-setTimeout-if)
+!www.wp.pl##+js(no-setTimeout-if, /^/)
+!www.wp.pl##+js(no-setTimeout-if, loadScript(), 5000)
+
+
+!www.wp.pl##+js(no-setInterval-if)
+!www.wp.pl##+js(no-setInterval-if, /^/)
+!www.wp.pl##+js(no-requestAnimationFrame-if)
+!www.wp.pl##+js(no-requestAnimationFrame-if, /^/)
+!www.wp.pl##+js(json-prune)
+
+
+||v.wpimg.pl^$subdocument,domain=www.wp.pl
+||www.wp.pl^$subdocument,domain=www.wp.pl
+||gemius.pl^$domain=www.wp.pl
+||doubleclick.net^$domain=www.wp.pl
+||adocean.pl^$domain=www.wp.pl
+||hotjar.com^$domain=www.wp.pl
+||criteo.com^$domain=www.wp.pl
+||amazon-adsystem.com^$domain=www.wp.pl
+||connectad.io^$domain=www.wp.pl
+||indexww.com^$domain=www.wp.pl
+||pubmatic.com^$domain=www.wp.pl
+||rubiconproject.com^$domain=www.wp.pl
+||googletagmanager.com^$domain=www.wp.pl
+||pushpushgo.com^$domain=www.wp.pl
+||googletagservices.com^$domain=www.wp.pl
+||criteo.net^$domain=www.wp.pl
+||inistrack.net^$domain=www.wp.pl
+||adnxs.com^$domain=www.wp.pl
+||adform.net^$domain=www.wp.pl
+||creativecdn.com^$domain=www.wp.pl
+||connect.facebook.net/*/fbevents.js$domain=www.wp.pl
+||casalemedia.com^$domain=www.wp.pl
+||openx.net^$domain=www.wp.pl
+||criteo.net^$domain=www.wp.pl
+||smartadserver.com^$domain=www.wp.pl
+||teads.tv^$domain=www.wp.pl
+||businessclick.com^$domain=www.wp.pl
+||www.wp.pl/sw.js$domain=www.wp.pl
+||pixel6.wp.pl^$domain=www.wp.pl
+||cdnt1.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt2.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt3.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt4.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt5.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt6.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt7.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt8.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt9.wp.pl/|$xhr,domain=www.wp.pl
+||cdnt10.wp.pl/|$xhr,domain=www.wp.pl
+
+!www.wp.pl##+js(aopw, loadScript)
+
+!Skrypt tworzący reklamy
+www.wp.pl##^SCRIPT#wpjslib6
+www.wp.pl##SCRIPT#wpjslib6:remove()
+
+!Statyczne miejsca na reklamy w głównej części strony
+
+www.wp.pl##^DIV:has(:scope > DIV:first-child:has(:scope > IMG[src*="v.wpimg.pl/"][role="presentation"]:first-child + DIV[class]:last-child) + SCRIPT:last-child)
+!www.wp.pl##DIV:has(:scope > DIV:first-child:has(:scope > IMG[src*="v.wpimg.pl/"][role="presentation"]:first-child + DIV[class]:last-child) + SCRIPT:last-child):remove()
+!www.wp.pl##DIV:has(:scope > DIV:first-child:has(:scope > IMG[src*="v.wpimg.pl/"][role="presentation"]:first-child + DIV[class]:last-child) + SCRIPT:last-child)
+
+!www.wp.pl##^:xpath(//DIV[@class][count(*)=2][DIV[@class][count(*)=2][IMG[@class]/following-sibling::DIV[1][@class]]/following-sibling::SCRIPT[1]])
+www.wp.pl##:xpath(//DIV[@class][count(*)=2][DIV[@class][count(*)=2][IMG[@class]/following-sibling::DIV[1][@class]]/following-sibling::SCRIPT[1]])
+!www.wp.pl##:xpath(//DIV[@class][count(*)=2][DIV[@class][count(*)=2][IMG[@class]/following-sibling::DIV[1][@class]]/following-sibling::SCRIPT[1]]):remove()
+
+!www.wp.pl##DIV > DIV:has(:scope > IMG[src*="v.wpimg.pl/"][role="presentation"]:first-child + DIV[class]:last-child)
+
+!Reklama dołaowywana pod linkami tekstowymi po prawej stronie
+www.wp.pl##DIV[class]:last-child:has(:scope > DIV[class]:only-child > IMG[class][src="//i.wp.pl/a/i/stg/pkf/bg.png"][role="presentation"][alt]:first-child + DIV[class]:last-child)
+!www.wp.pl##DIV[class]:last-child:has(:scope > DIV[class]:only-child > IMG[class][src="//i.wp.pl/a/i/stg/pkf/bg.png"][role="presentation"][alt]:first-child + DIV[class]:last-child):remove()
+
+!Reklama doładowywana nad sekcją biznes
+www.wp.pl##DIV:has(:scope > DIV[class]:only-child > IMG[class][src="//i.wp.pl/a/i/stg/pkf/bg.png"][role="presentation"][alt]:first-child + DIV[class]:last-child)
+!www.wp.pl##DIV:has(:scope > DIV[class]:only-child > IMG[class][src="//i.wp.pl/a/i/stg/pkf/bg.png"][role="presentation"][alt]:first-child + DIV[class]:last-child):remove()
+
+!Reklama doładowywana nad sekcją turystyka
+www.wp.pl##DIV[class]:has(:scope > IMG[class][src="//i.wp.pl/a/i/stg/pkf/bg.png"][role="presentation"][alt]:first-child + DIV[class]:last-child)
+!www.wp.pl##DIV[class]:has(:scope > IMG[class][src="//i.wp.pl/a/i/stg/pkf/bg.png"][role="presentation"][alt]:first-child + DIV[class]:last-child):remove()
+
+!Puste poziome pole między częsciami głównej sekcji (i tak zostaje, odstęp mimo to)
+www.wp.pl##DIV#glonews > DIV:last-child > DIV[class]:has(:scope > DIV[class]:only-child > DIV[class]:first-child + SCRIPT:last-child)
+!www.wp.pl##^DIV#glonews > DIV:last-child > DIV[class]:has(:scope > DIV[class]:only-child > DIV[class]:first-child + SCRIPT:last-child)
+!www.wp.pl##DIV#glonews > DIV:last-child > DIV[class]:has(:scope > DIV[class]:only-child > DIV[class]:first-child + SCRIPT:last-child):remove()
+
+!Pasek na dole strony mobilnej
+www.wp.pl##DIV.app-container > DIV[data-st-area="Menu_bottom"]
+
+!Powiadomienie o ciastkach na dole strony
+www.wp.pl##DIV#WP-cookie-info
+
+!Przeładowanie strony po zmianie karty
+www.wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+
+
+!POCZĄTEK - UNIWERSALNE
+@@*$ghide,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+
+||v.wpimg.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||www.wp.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||gemius.pl^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||doubleclick.net^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||adocean.pl^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||hotjar.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||criteo.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||amazon-adsystem.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||connectad.io^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||indexww.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||pubmatic.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||rubiconproject.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||googletagmanager.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||pushpushgo.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||googletagservices.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||criteo.net^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||inistrack.net^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||adnxs.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||adform.net^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||creativecdn.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||stickyadstv.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||connect.facebook.net/*/fbevents.js$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||facebook.com/*/plugins/like.php?action=like$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+!Po zablokowaniu nie działa ramka
+!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
+!||connect.facebook.net/*/sdk.js$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||graph.facebook.com/?ids=http$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||casalemedia.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||openx.net^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||criteo.net^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||smartadserver.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||teads.tv^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||businessclick.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||wiadomosci.wp.pl/sw.js$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||pixel6.wp.pl^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt1.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt2.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt3.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt4.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt5.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt6.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt7.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt8.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt9.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||cdnt10.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||ssp.wp.pl^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||google-analytics.com^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+||data-api.wp.p^$domain=abczdrowie.pl|autokult.pl|money.pl|o2.pl|parenting.pl|pudelek.pl|wp.pl
+
+!Przeładowanie strony po zmianie karty
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+
+!Przeładowanie strony głównej
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
+
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-logger)
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser)
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(no-setTimeout-if)
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(no-setInterval-if)
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(no-requestAnimationFrame-if)
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(json-prune)
+
+!Powiadomienie o ciastkach na dole strony
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV#WP-cookie-info
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
+
+!Skrypt tworzący reklamy
+!https://wiadomosci.wp.pl/andrzej-duda-ostro-skrytykowany-przez-aleksandra-kwasniewskiego-6637542089303681v
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##^BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6:remove()
+
+!Reklama po zapauzowaniu wideo
+!https://wiadomosci.wp.pl/komorowski-wraca-do-polityki-kwasniewski-ocenil-ten-ruch-jednoznacznie-6637905605011585v
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV.npp-container.paused DIV.plchldr:remove()
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, scroll, [data-st-area="back-WP"])
+
+!Pasek na dole strony "Przejdź na WP"
+!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) A[data-st-area="goToSG_mob"]:upward(DIV.content > DIV)
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="goToSG"]:upward(DIV.content > DIV)
+!https://tech.wp.pl/challenger-3-nowy-czolg-dla-brytyjskich-wojsk-pancernych-6638271655512736a
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="backToSG"]:upward(DIV.content > DIV)
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##A[data-st-area*="ToSG"]:upward(DIV.content > DIV)
+
+
+!Link do dziejesie w treści artkułu
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV.article--text:has(STRONG > A[href="https://dziejesie.wp.pl/"])
+
+!Wideo powiązane w treści artykułu
+!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##^DIV.article--text:has(:scope > H2:has-text(/zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV.article--text:has(:scope > H2:has-text(/zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+!https://wiadomosci.wp.pl/malutki-bobr-uratowany-przed-utonieciem-w-klodzku-zdjecia-6637885770005440a
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##^DIV.article--text:has(:scope > P > STRONG:has-text(/zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV.article--text:has(:scope > P > STRONG:has-text(/zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+
+!https://tech.wp.pl/maseczki-powaznym-zrodlem-zanieczyszczen-uwalniaja-metale-ciezkie-do-srodowiska-6638218094942816a
+!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##^ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV:remove()
+!Chowanie po usunięciu
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:only-child:has-text(/zobacz także:|zobacz też:/i))
+
+
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, AUTOPLAY)
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, autoplay)
+abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, autoplay_blocked)
+!KONIEC - UNIWERSALNE
+
+!POCZĄTEK - BODY.theme-default
+!Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + DIV + DIV + *
+!https://wroclaw.wp.pl/wroclaw-podwijamy-rekaw-bsh-promuje-szczepienia-przeciwko-covid-19-6638286259419808a
+autokult.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV[class] > DIV[class]:only-child:has(:scope >DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child)
+autokult.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV[class] > DIV[class]:only-child:has(:scope >DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child) > DIV > DIV:remove()
+
+!Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + DIV + *
+!https://facet.wp.pl/4
+autokult.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV[class] > DIV[class]:only-child:has(:scope >DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child)
+autokult.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV[class] > DIV[class]:only-child:has(:scope >DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child) > DIV > DIV:remove()
+
+!Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + *
+!https://wroclaw.wp.pl/wroclaw-podwijamy-rekaw-bsh-promuje-szczepienia-przeciwko-covid-19-6638286259419808a
+!https://tech.wp.pl/
+autokult.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV[class] > DIV[class]:only-child:has(:scope >DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + *:last-child)
+autokult.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV[class] > DIV[class]:only-child:has(:scope >DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + *:last-child) > DIV > DIV:remove()
+
+
+!Reklama nad górnym paskiem
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(A[target="_blank"][href^="https://holding.wp.pl/"])):remove()
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(P)):remove()
+
+!Pasek z koszykiem na dole okna
+!https://wiadomosci.wp.pl/warszawa-polacy-korzystaja-z-pogody-tlumy-na-bulwarach-wislanych-6637883515714048g/5
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD[data-reactid="5"] > DIV:not([data-reactid]):has(:scope > DIV > DIV > DIV) > *:remove()
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) HEADER DIV[data-st-area="Header"] > DIV:not([data-reactid]):remove()
+
+!Reklama pod leadem nad zdjęciem głównym
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.article--lead + DIV > DIV:first-child + DIV:last-child > * > *:remove()
+
+!Reklama pod stopką strony
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD > DIV:has(:scope >DIV.menuFooterDesktop) ~ DIV:remove()
+
+!Przycisk udostępniania na górze i dole artykułu
+!https://wiadomosci.wp.pl/strzelaj-w-opony-jak-policjanci-ulegli-mitom-z-filmow-sensacyjnych-6614825281821312a
+!autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content svg > title:has-text(Share):upward(DIV + DIV:last-child)
+!Przy artykule bez ocen chowało cały artykuł
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content DIV:last-child:has(:scope >DIV > SPAN > svg > title:has-text(Share))
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) P:has-text(Podziel się) + DIV:last-child:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!Sekcja "Bądź z nami na bieżąco" pod artykułem
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(:scope >A[href="https://www.instagram.com/wirtualnapolska"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child) > * > * > * > *:remove()
+autokult.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(:scope >A[href^="https://www.instagram.com/"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child)
+
+!Reklamy w kafelkach pod artykułem
+!https://wroclaw.wp.pl/wroclaw-podwijamy-rekaw-bsh-promuje-szczepienia-przeciwko-covid-19-6638286259419808a
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content DIV[data-st-area^="list-selected4you-seenAfterContent"] LI[data-adv]:remove()
+!data-st-area="list-selected4you-seenAfterContentFallback"
+
+!Reklamy w komentarzach po rozwinięciu
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > A)
+!Na mobilnej nie ma elementu DIV.menuFooterMobile[data-st-area="Footer"
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child:not(::after))
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > A)
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > DIV:only-child > A)
+autokult.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child:has(A[target="_blank"])):remove()
+
+!Dymek z informacją o trybie ciemnym
+!abczdrowie.pl,autokult.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(A[data-st-area="st-header-darkmode"])
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="st-header-darkmode"]:upward(DIV[data-reactid]:first-child + DIV:last-child)
+autokult.pl,wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] + DIV[data-st-area="Menu"] + DIV:has(A[data-st-area="st-header-darkmode"])
+!KONIEC - BODY.theme-default
+
+
+!POCZĄTEK - BODY[itemscope=""][itemtype="http://schema.org/WebPage"]
+||herr.io^$domain=abczdrowie.pl
+||clickonometrics.pl^$domain=abczdrowie.pl
+/service-worker.js?$domain=abczdrowie.pl|parenting.pl
+||ssp.wp.pl^$domain=abczdrowie.pl
+!Reklamy w treści artykułu
+parenting.pl,abczdrowie.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV.article__textbox:remove()
+!Reklamy po prawej stronie artykułu
+parenting.pl,abczdrowie.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV.content-aside__item:remove()
+!Reklamy nad górnym paskiem i nad stopką strony
+parenting.pl,abczdrowie.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] > DIV:not([id]):not(:has(P)):remove()
+!Wideo w treści artykułu
+parenting.pl,abczdrowie.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] SECTION.article__player:has(:scope >H3.article__player__h3:has-text(Zobacz film:) + DIV.article__player__player):remove()
+parenting.pl,abczdrowie.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV#cs1 > UL.contentstream-row > LI.contentstream-element:has(:scope >SPAN.contentstream-bar)
+!KONIEC - BODY[itemscope=""][itemtype="http://schema.org/WebPage"]
+
+!POCZĄTEK - DIV[data-st-area="st-article"]
+/sw.js$first-party,domain=money.pl|o2.pl|pudelek.pl
+||ssp.wp.pl^$domain=o2.pl|pudelek.pl
+!money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-article"]
+!Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + DIV
+money.pl,pudelek.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV:last-child)
+money.pl,pudelek.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV:last-child):remove()
+!Ukrywanie i usuwanie reklma doładowywanych - IMG + DIV
+!Na dole artykułu zamiast pierwszego DIVa jest ARTICLE
+money.pl,pudelek.pl##DIV[class]:has(:scope >IMG[class][src*="v.wpimg.pl/"][alt]:first-child + DIV:last-child)
+money.pl,pudelek.pl##DIV[class]:has(:scope >IMG[class][src*="v.wpimg.pl/"][alt]:first-child + DIV:last-child):remove()
+!Niektóre obrazki na o2 są z domeny o2.pl
+o2.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="o2.pl/"][alt] + DIV:last-child)
+o2.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="o2.pl/"][alt] + DIV:last-child):remove()
+o2.pl##DIV[class]:has(:scope >IMG[class][src*="o2.pl/"][alt]:first-child + DIV:last-child)
+o2.pl##DIV[class]:has(:scope >IMG[class][src*="o2.pl/"][alt]:first-child + DIV:last-child):remove()
+!Czasem reklama ma tylko IMG, więc ukrycie
+money.pl,o2.pl,pudelek.pl##DIV.i2doh5-0
+!Reklamy w polecanych pod artykułem
+o2.pl,pudelek.pl##DIV#polecane-mainColumn > DIV > DIV:has(:scope >A[target="_blank"]):remove()
+!Przycisk "Wróć na WP"
+money.pl,o2.pl,pudelek.pl##A[data-st-area*="back"][href*="www.wp.pl"]
+!Wideo w treści artykułu
+money.pl,o2.pl,pudelek.pl##^ARTICLE > DIV[class]:has(:scope >DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child)
+money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class]:has(:scope >DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child):remove()
+!Kolumna z FB po lewej stronie komentarzy
+money.pl,pudelek.pl##ASIDE[role="complementary"]:has(DIV#fb-like-btn)
+!Przycisk Fb pod przyciskiem do komentarzy w lewej kolumnie
+money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:first-child + DIV:last-child > BUTTON
+!KONIEC - DIV[data-st-area="st-article"]

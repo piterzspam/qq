@@ -135,9 +135,13 @@ money.pl##^DIV.ac
 money.pl##DIV.ac
 money.pl##DIV.ac:remove()
 
-!Napis polub na FB po lewej stronie artykułu
+!Napis polub na FB po lewej stronie artykułu - desktop
 !https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
 money.pl##ASIDE[role="complementary"] > DIV:has-text(Polub www.money.pl na Facebooku:)
+!Napis polub na FB po lewej stronie artykułu - mobile
+!https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
+money.pl##ARTICLE + DIV > DIV > DIV:has-text(Polub www.money.pl na Facebooku:)
+
 
 !Przycisk z ikonką FB po lewej stronie artykułu
 !https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
@@ -160,66 +164,4 @@ money.pl##DIV.content[name="content"] + NAV
 
 
 
-
-
-!money.pl##^:xpath(//STYLE[not(@class)]/following-sibling::DIV[1][contains(@class, "i2doh5-0")]/*)
-!money.pl##^:xpath(//STYLE[not(@class)]/following-sibling::DIV[1][contains(@class, "i2doh5-0")]):xpath(self::node()/* | self::node()/preceding-sibling::STYLE[1])
-
-!money.pl##^DIV:has(:scope >STYLE + DIV.i2doh5-0) > *
-
-
-
-!||money.wp.pl^$xhr,domain=money.pl
-!||money.wp.pl^$xhr,redirect=nooptext,domain=money.pl
-!||money.wp.pl^$script,domain=money.pl
-!DIV[@class="i2doh5-0"]
-
-
-
-
-!Reklama między główną sekcją, a sekcją Gospodarka
-!https://www.money.pl/
-!money.pl##^DIV#app:has(MAIN) DIV.g5a6ew-2
-
-!Reklama pod notowaniami po prawej stronie
-!https://www.money.pl/
-!money.pl##^MAIN[class]:first-child + DIV[class]:last-child > DIV[class^="sc-"]:first-child:last-child > DIV[class^="sc-"]:first-child > ASIDE[class]:first-child + DIV[class^="mkn"]:last-child
-
-
-!money.pl##+js(aopr, PrebidDamTimeout)
-!money.pl##+js(aopw, PrebidDamTimeout)
-!money.pl##+js(aopr, window.prebidConfig)
-!money.pl##+js(aopw, window.prebidConfig)
-!money.pl##+js(acis, window.prebidConfig)
-!money.pl##+js(aopr, loadScript)
-!money.pl##+js(aopw, loadScript)
-!money.pl##+js(aost, prebidConfig, , 1)
-
-!money.pl##+js(aost, onLoad, , 1)
-!money.pl##+js(aost, open, , 1)
-!money.pl##+js(aopr, optionsRaw)
-!money.pl##+js(aopw, optionsRaw)
-!money.pl##+js(aost, 111/t.default)
-!money.pl##+js(aost, window)
-
-
-
-!money.pl##+js(aeld, message, adUnitCode)
-!addEventListener("message", function u(e){var t,n,r,i,o,a,c,u,s,d=e.message?"message":"data",f={};try{f=JSON.parse(e[d])}catch(e){return}if(f&&f.adId){var l=h()(y.a.getBidsReceived(),function(e){return e.adId===f.adId});if(l&&"Prebid Request"===f.message&&(n=e,r=(t=l).adId,i=t.ad,o=t.adUrl,a=t.width,c=t.height,u=t.renderer,s=t.cpm,Object(m.c)(u)?Object(m.b)(u,t):r&&(function(e){var o=e.adId,a=e.adUnitCode
-
-
-!money.pl##^LINK[rel="modulepreload"][href*="money.wp.pl/"]
-!money.pl##^SCRIPT[crossorigin="anonymous"][type="module"]
-
-!money.pl##^BODY:not(:has(ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])) LINK[rel="modulepreload"][href*="money.wp.pl/"]
-
-
-!https://www.money.pl/gospodarka/
-!money.pl##^HEAD > SCRIPT#wpjslib[src*="money.wp.pl/"][crossorigin][charset="UTF-8"]
-!money.pl##^SCRIPT#wpjslib[src*="money.wp.pl/"]
-![crossorigin][charset="UTF-8"]
-!money.pl##^SCRIPT
-![id="wpjslib"]
-!money.pl##^HEAD > SCRIPT#config
-!money.pl##^SCRIPT:has-text(prebidConfig)
 

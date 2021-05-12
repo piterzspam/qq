@@ -347,3 +347,8 @@ newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(sel
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.contentPremium:style(display: block !important;)
 
 medonet.pl##UL#medServices
+
+
+!Pasek na dole strony mobilnej
+!https://www.onet.pl/kultura/onetkultura/andrzej-piaseczny-wywiad-z-okazji-premiery-nowej-plyty/pf97tmq,681c1dfa
+onet.pl##DIV.bottomBar
