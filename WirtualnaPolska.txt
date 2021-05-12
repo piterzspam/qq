@@ -1,3 +1,7 @@
+! Title: Wirtualna Polska
+! Expires: 1 day
+
+
 @@||www.wp.pl^$generichide
 !www.wp.pl##+js(addEventListener-logger)
 !www.wp.pl##+js(addEventListener-defuser, /^/)
