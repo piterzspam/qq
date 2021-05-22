@@ -165,3 +165,52 @@ money.pl##DIV.content[name="content"] + NAV
 
 
 
+
+
+!https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
+!money.pl##^DIV.i2doh5-0:has(:scope > IMG[src^="https://v.wpimg.pl/"])
+!money.pl##ARTICLE > DIV[class]:has(:scope > SCRIPT:has-text(registerPlaceholder))
+money.pl##^DIV:has(:scope > DIV.i2doh5-0:only-child)
+money.pl##^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"])
+money.pl##^ARTICLE[class^="sc-"] DIV:has(:scope > DIV:only-child:has(DIV:has(:scope > DIV[font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV[id^="video-player-"]))
+money.pl##^script:has-text(__PRELOADED_MATERIAL__)
+money.pl##+js(acis, JSON.parse)
+
+
+
+!https://www.money.pl/gospodarka/otwarte-hotele-i-ogrodki-restauracyjne-jeszcze-w-maju-minister-gowin-podal-date-6633218866592416a.html
+!Bez tego nie działają powiazane po prawej, notowania, itp.
+www.money.pl#@#^script:has-text(__PRELOADED_MATERIAL__)
+!Z blokującymi wersjami poniższych nadal działa
+!www.money.pl#@#+js(abort-current-inline-script, JSON.parse)
+!www.money.pl#@#^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"])
+!Z usuwającą wersją money.pl##^DIV:has(:scope > DIV.i2doh5-0:only-child) na stronie głównej doładowywane są przesunięte w lewo
+!Działo się tak, że usuwany był element ffg3g0g96n
+money.pl#@#^DIV:has(:scope > DIV.i2doh5-0:only-child)
+!Z usuwającą wersją money.pl##^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"]) na stronie artykułu
+!doładowywane były przesunięte w lewo
+money.pl#@#^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"])
+!Czy money.pl##^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"]) psuje 
+!money.pl##DIV > DIV.i2doh5-0
+!money.pl##^DIV.i2doh5-0:not(.bDVBnJwC):not(.euIvob)
+!money.pl##^DIV.i2doh5-0:not(.bDVBnJwC):not(.euIvob):not(.cQgfIf)
+!money.pl##^DIV.i2doh5-0:not(.cQgfIf)
+!money.pl##^DIV > DIV > DIV > DIV.i2doh5-0:has(SCRIPT)
+!money.pl##DIV > DIV > DIV > DIV.i2doh5-0:has(SCRIPT)
+!money.pl##^DIV > DIV > DIV > DIV.i2doh5-0:not(:has(SCRIPT))
+!money.pl##DIV > DIV > DIV > DIV.i2doh5-0:not(:has(SCRIPT))
+!money.pl##^DIV.bDVBAoyf
+!money.pl##^DIV.bDVBAoyM
+!money.pl##^DIV.bDVBAozg
+!money.pl##^DIV.bDVBAoys
+money.pl##^DIV.i2doh5-0:only-child
+money.pl##^ASIDE DIV.i2doh5-0
+
+!Działa dla każdego elementu na stronie
+!money.pl##body [class]:style(filter: none !important;)
+money.pl#@#body [class]:style(filter: none !important;)
+
+
+!https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
+!div#AdvContainer.text_ads.css-adv.ads.contentAds.top-banners
+@@||money.pl^$generichide
