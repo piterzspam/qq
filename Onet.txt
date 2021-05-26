@@ -46,6 +46,7 @@ www.onet.pl##+js(abort-on-property-write, window.onetAds)
 !https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
 !||ocdn.eu/phx/_next/static/chunks/framework.
 !Psuje ładowanie obrazków i pokazywanie dobrej odpowiedzi w quizie
+!https://www.auto-swiat.pl/wiadomosci/aktualnosci/sprawdz-swoja-wiedze-o-samochodach-i-technice-jazdy-quiz/zjgw98f
 !auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(aopw, window.onetAds)
 
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
@@ -340,9 +341,13 @@ businessinsider.com.pl##ASIDE[data-run-module="local/main.intextAd"]
 newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
 newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
 
+!Fanboy's Enhanced Tracking List 
+!/paywall.min.js
 !Ładowanie zdjęć
+!https://www.auto-swiat.pl/wiadomosci/aktualnosci/sprawdz-swoja-wiedze-o-samochodach-i-technice-jazdy-quiz/zjgw98f
 !https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
 @@||ocdn.eu/paywall-cdn/paywall.min.js?$domain=komputerswiat.pl
+@@||ocdn.eu/paywall-cdn/paywall.min.js?
 
 !Pokazanie contentu premium
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.contentPremium:style(display: block !important;)
