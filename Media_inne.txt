@@ -130,7 +130,6 @@ tvn24.pl##+js(addEventListener-defuser.js, ended)
 !tvn24.pl##+js(no-setTimeout-if.js, /^/)
 !tvn24.pl##+js(no-setInterval-if.js, /^/)
 !tvn24.pl##+js(no-requestAnimationFrame-if.js, /^/)
-||public.flourish.studio^
 ||tvn24.pl/service-worker.js
 ||tvn24.pl/static/libs/react.js?
 @@||tvn24.pl/static/libs/react.js?
@@ -213,8 +212,6 @@ krytykapolityczna.pl##DIV.article-donate-bottom
 
 
 @@||newsweek.pl^$generichide
-newsweek.pl##.contentPremium:style(display: block !important;)
-||ocdn.eu/paywall-cdn/paywall.min.js?
 !POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
 newsweek.pl#@#[class*="cg-template"]
 !Scrollowanie

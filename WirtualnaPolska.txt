@@ -6,8 +6,8 @@ wp.pl##+js(nostif, executeDelayedAdv)
 wp.pl##+js(addEventListener-defuser, advRail)
 
 
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-logger)
 !abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-logger)
 !abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-setTimeout-if)
 !abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-setInterval-if)
 !abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-requestAnimationFrame-if)
@@ -49,7 +49,7 @@ wp.pl##+js(addEventListener-defuser, advRail)
 ||smartadserver.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||teads.tv^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||businessclick.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||wiadomosci.wp.pl/sw.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+/sw.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||pixel6.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||cdnt1.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||cdnt2.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
@@ -113,6 +113,15 @@ abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorko
 !Chowanie po usunięciu
 abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:only-child:has-text(/zobacz:|zobacz także:|zobacz też:/i))
 
+!Reklama
+!https://wideo.wp.pl/kontrola-ciezarowki-w-poznaniu-prawda-o-kierowcy-zaskoczyla-nawet-inspektorow-6643465643734657v
+!Usuwanie całości usuwało całą stronę po przescrollowaniu w dół
+!https://polygamia.pl/?strona=1
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
+
 
 abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, AUTOPLAY)
 abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, autoplay)
@@ -121,8 +130,6 @@ abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorko
 
 
 !POCZĄTEK - Strona główna
-||www.wp.pl/sw.js
-
 
 !https://www.wp.pl/?s=https%3A%2F%2Fsportowefakty.wp.pl%2Fkolarstwo%2F926408%2F43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o&nil&src01=f1e45
 www.wp.pl##SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
@@ -213,8 +220,9 @@ wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child:has
 
 !Dymek z informacją o trybie ciemnym
 !abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(A[data-st-area="st-header-darkmode"])
-wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="st-header-darkmode"]:upward(DIV[data-reactid]:first-child + DIV:last-child)
-wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] + DIV[data-st-area="Menu"] + DIV:has(A[data-st-area="st-header-darkmode"])
+!wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="st-header-darkmode"]:upward(DIV[data-reactid]:first-child + DIV:last-child)
+!wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] + DIV[data-st-area="Menu"] + DIV:has(A[data-st-area="st-header-darkmode"])
+wp.pl##DIV:has(:scope> DIV > INPUT[type="checkbox"]) + DIV:has(:scope> DIV > A[data-st-area="st-header-darkmode"])
 !KONIEC - BODY.theme-default
 
 
@@ -237,7 +245,6 @@ parenting.pl,abczdrowie.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPa
 !KONIEC - BODY[itemscope=""][itemtype="http://schema.org/WebPage"]
 
 !POCZĄTEK - DIV[data-st-area="st-article"]
-/sw.js$first-party,domain=money.pl|o2.pl|pudelek.pl
 ||ssp.wp.pl^$domain=o2.pl|pudelek.pl
 !money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-article"]
 !Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + DIV
@@ -310,7 +317,6 @@ money.pl##:xpath(//DIV[@class][count(*)=2][DIV[@class][count(*)=3][DIV[@class][c
 ||pixel.wp.pl^$domain=sportowefakty.wp.pl
 ||2mdn.net^$domain=sportowefakty.wp.pl
 ||adservice.google.com^$domain=sportowefakty.wp.pl
-/sw.js$domain=sportowefakty.wp.pl
 
 sportowefakty.wp.pl##LI.match--sponsor:remove()
 !sportowefakty.wp.pl##+js(set, window.WP.gaf, '')
@@ -320,8 +326,8 @@ sportowefakty.wp.pl##LI.match--sponsor:remove()
 !sportowefakty.wp.pl##+js(aost, window.prebidConfig, handler*apply, 2)
 !wpjslib-sgap.js:1:1
 
-sportowefakty.wp.pl##:xpath(//DIV[@class][count(*)=3][count(DIV[@class][count(*)=0])=2][DIV[@class][count(*)>0]]):remove()
-!sportowefakty.wp.pl##^DIV:has(:scope> DIV[class=""][data-class])
+sportowefakty.wp.pl##:xpath(//DIV[count(*)=3][count(DIV[@class][count(*)=0])=2][DIV[@class][count(*)>0]]):remove()
+sportowefakty.wp.pl##^DIV:has(:scope> DIV[class=""][data-class]:only-child)
 !sportowefakty.wp.pl##^DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
 !sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class]:first-child:not(:has(*)) + DIV[class*=" "] + DIV:last-child:not(:has(*))):remove()
 !sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class*=" "]:first-child + DIV[class]:not(:has(*)) + DIV:last-child:not(:has(*))):remove()
@@ -335,6 +341,22 @@ sportowefakty.wp.pl##^NAV[data-source="sidebar-menu-left"] > DIV:xpath(//div[div
 !https://sportowefakty.wp.pl/pilka-nozna/935780/wiemy-kto-skomentuje-mecze-polakow-i-final-euro-2020-zaskakujacy-ruch-tvp
 sportowefakty.wp.pl##DIV.back_bar
 
+!Doładowywane artykuły przy scrollowaniu
+||sportowefakty.wp.pl/scroll-article?
+sportowefakty.wp.pl##DIV#sgfirstDrawer:remove()
+sportowefakty.wp.pl##DIV#exitpopup:remove()
+
+sportowefakty.wp.pl##DIV.liketag
+sportowefakty.wp.pl##DIV.wpsocial-bottom-article
+
+sportowefakty.wp.pl##^ARTICLE > P:has(:scope> STRONG:last-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:last-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+!sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]
+!sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child) + DIV[id^="video-container"]
+!sportowefakty.wp.pl##ARTICLE > P + DIV[id^="video-container"]
+!:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+
+sportowefakty.wp.pl##DIV[class]:has(:scope> DIV:first-child:has(:scope> DIV[class]:first-child + DIV[class]:last-child) + DIV[class]:last-child:not(:has(*))):remove()
 
 
 
@@ -393,10 +415,17 @@ autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV.article > H4:has(
 !dobreprogramy.pl##+js(aost, window.WP, , 1)
 
 !dobreprogramy.pl##^SCRIPT:has-text(WP.gaf.registerPlaceholder)
-dobreprogramy.pl##^SCRIPT:has-text(handleNativeAd)
-dobreprogramy.pl##DIV:has(:scope> STYLE:first-child + DIV:last-child):remove()
-dobreprogramy.pl##:xpath(//DIV[@class][count(*)=3][count(DIV[@class][count(*)=0])=2][DIV[@class][count(*)>0]]):remove()
+!dobreprogramy.pl,polygamia.pl##^SCRIPT:has-text(handleNativeAd)
+dobreprogramy.pl,polygamia.pl##DIV[data-slot]:remove()
+!dobreprogramy.pl,polygamia.pl##DIV:has(:scope> STYLE + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt]:last-child)):remove()
+!dobreprogramy.pl,polygamia.pl##DIV:has(:scope> STYLE + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)):remove()
+!dobreprogramy.pl,polygamia.pl##:xpath(//DIV[@class][count(*)=3][count(DIV[@class][count(*)=0])=2][DIV[@class][count(*)>0]]):remove()
+!dobreprogramy.pl,polygamia.pl##STYLE + DIV[class]:has(:scope> DIV:first-child:has(:scope> SCRIPT) + IMG[class][src*="wpimg.pl"][alt] + DIV[class]:last-child > STYLE:first-child + DIV[class]:last-child > DIV[class]:first-child:has(:scope> DIV[class]:first-child:last-child) + DIV:last-child > SCRIPT):xpath(self::node() | self::node()/preceding-sibling::STyLE[1])
 
+!dobreprogramy.pl,polygamia.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child):xpath(self::node() | self::node()/preceding-sibling::STyLE[1]):remove()
+!dobreprogramy.pl,polygamia.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child):xpath(self::node() | self::node()/preceding-sibling::STyLE[1]):remove()
+!Reklamy pod artkułem
+dobreprogramy.pl,polygamia.pl##DIV[role="listitem"]:has(SPAN:has-text(Reklama))
 !KONIEC - ARTICLE[id="main-content"]
 
 !POCZĄTEK - Magazyn.wp.pl
@@ -446,4 +475,3 @@ opinie.wp.pl,wiadomosci.wp.pl##DIV:has(:scope > IFRAME[class*=" "][scrolling][da
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px)
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px):remove()
 !KONIEC - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
-

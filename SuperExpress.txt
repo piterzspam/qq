@@ -203,3 +203,6 @@ se.pl##+js(sa, data-order, 0, DIV[id^="video-player-"])
 !Wyłączenie ładowania kolejnego wideo po zakończeniu
 se.pl##+js(aeld, ended)
 
+
+se.pl##^ARTICLE DIV.gl_plugin.player:has(:scope> DIV.player__title:has-text(/(Express Biedrzyckiej|Super Raport)/i))
+se.pl##ARTICLE DIV.gl_plugin.player:has(:scope> DIV.player__title:has-text(/(Express Biedrzyckiej|Super Raport)/i)):remove()
