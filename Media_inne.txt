@@ -47,77 +47,6 @@ pap.pl##BODY:style(-ms-touch-callout: unset !important)
 pap.pl##BODY:style(user-select: unset !important)
 
 
-!https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
-!Puste miejsce pod artykułem 1:
-businessinsider.com.pl##DIV.streamNews
-businessinsider.com.pl##DIV.streamNewsLps:style(min-height: unset !important)
-!Puste miejsce pod artykułem 2:
-businessinsider.com.pl##DIV.sH_bottom_first
-!Puste miejsce w prawaej kolumnie
-businessinsider.com.pl##DIV.adSlotWidget
-!Elementy z prawej kolumny
-businessinsider.com.pl##DIV.AdSlot-lps-promo
-businessinsider.com.pl##DIV.recommendedAutomat
-businessinsider.com.pl##DIV.sponsored
-businessinsider.com.pl##DIV.adMarkiMowia
-businessinsider.com.pl##DIV.adsContainer
-
-!Przyciski socialowe nad artykułem
-!https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5
-businessinsider.com.pl##DIV.share
-
-!Na stronie mobilnej puste pole po reklamie w treści artykułu
-!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
-businessinsider.com.pl##DIV#onet-ad-right
-
-!Wideo w treści artykułu
-!https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
-
-!Wideo na początku artykułu
-!https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
-!Media inne
-!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
-!Media inne
-!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
-businessinsider.com.pl##DIV.embeddedApp:style(min-height: unset !important)
-
-!.post-container Blokowało datę dodania artykułu
-!Z filtra: businessinsider.com.pl###adSS-Detal, .post-container, .bottom-share-module, .clearfix
-!z listy: POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
-businessinsider.com.pl#@##adSS-Detal, .post-container, .bottom-share-module, .clearfix
-
-!Bo zablokowaniu na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
-!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
-!businessinsider.com.pl##DIV.streamNews
-businessinsider.com.pl#@#DIV.streamNews
-
-!Przy samym zablokowaniu sgqcvfjvr.onet.pl na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
-!może to przez to !"//sgqcvfjvr.onet.pl/YnVpbGQvezlza2x0ZTUyfWRsQXBpL2RsLmxpYntOTWFzX0EyMn0ubWluLmpz",'" onload="(window.onetAds||window.dlApi).onload()" onerror="(window.onetAds||window.dlApi).onerror()"
-!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
-!||sgqcvfjvr.onet.pl^$script,domain=dziennik.pl,redirect=noopjs,important
-
-!Reklamy na stronie mobilnej
-!businessinsider.com.pl##DIV[id^="onet-ad-"]
-!businessinsider.com.pl##ASIDE[id^="onet-ad-"]
-businessinsider.com.pl##[id^="onet-ad-"]
-businessinsider.com.pl##[id^="onet-ad-"]:remove()
-businessinsider.com.pl##^[id^="onet-ad-"]
-
-!Reklamy na stronie mobilnej
-businessinsider.com.pl##BODY.dreamlab-mobile .placeholder
-businessinsider.com.pl##BODY.dreamlab-mobile .placeholder:remove()
-businessinsider.com.pl##^BODY.dreamlab-mobile .placeholder
-
-!Przyciski socialowe pod tytułem artykułu
-businessinsider.com.pl##DIV.share.mobile
-
-!Na zapas, data dodania artykułu i ilość wyświetleń
-businessinsider.com.pl#@#DIV#share
-
-!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
-!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl
-@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
-
 !Blokada autostartu wideo na TVN
 ||nuvi2.cdntvn.pl/*/test.mp4
 !Blokowanie automatycznego odtwarzania kolejnego wideo po zakończeniu aktualnego
@@ -211,25 +140,6 @@ krytykapolityczna.pl##DIV.article-donate-bottom
 ||krytykapolityczna.pl/wp-content/uploads/2021/01/D.png
 
 
-@@||newsweek.pl^$generichide
-!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
-newsweek.pl#@#[class*="cg-template"]
-!Scrollowanie
-newsweek.pl#@#DIV#redHead:style(position: absolute !important;)
-newsweek.pl#@#.ads
-newsweek.pl#@#.adsense
-newsweek.pl#@#.header-adblock
-newsweek.pl#@#.linkSponsorowany
-newsweek.pl#@#.onnetwork-video
-newsweek.pl#@#.ppa-slot
-newsweek.pl#@#.ppa-slot
-newsweek.pl#@#.sliderads
-newsweek.pl#@#.widget-ads-content
-newsweek.pl#@#.adform-slot
-newsweek.pl#@##widget-shop
-newsweek.pl#@##pixad-box
-newsweek.pl#@##advertisments
-newsweek.pl#@##adnp
 
 rmf24.pl^$generichide
 iplsc.com^$generichide
