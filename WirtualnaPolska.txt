@@ -222,7 +222,9 @@ wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child:has
 !abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(A[data-st-area="st-header-darkmode"])
 !wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="st-header-darkmode"]:upward(DIV[data-reactid]:first-child + DIV:last-child)
 !wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] + DIV[data-st-area="Menu"] + DIV:has(A[data-st-area="st-header-darkmode"])
-wp.pl##DIV:has(:scope> DIV > INPUT[type="checkbox"]) + DIV:has(:scope> DIV > A[data-st-area="st-header-darkmode"])
+!wp.pl##DIV:has(:scope> DIV > INPUT[type="checkbox"]) + DIV:has(:scope> DIV > A[data-st-area="st-header-darkmode"])
+wp.pl##HEADER DIV:has(:scope> DIV > A[data-st-area="st-header-darkmode"])
+
 !KONIEC - BODY.theme-default
 
 
