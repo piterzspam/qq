@@ -108,10 +108,13 @@ radiozet.pl##+js(addEventListener-defuser.js, message, msgIsString)
 radiozet.pl##+js(no-setInterval-if.js, __uspapi)
 radiozet.pl##^script:has-text(makeStub)
 
+!Pasek wróć na stronę główną na dole strony
+!https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Rafal-Trzaskowski-Sama-PO-wyborow-nie-wygra.-Musimy-pozyskac-nowych-ludzi.-Moje-zadanie-to-dokladanie-kolejnych-elementow-i-budowa-poparcia-samorzadowcow
+radiozet.pl##DIV.back-to-home
 
-radiozet.pl##+js(no-setTimeout-if.js, unref)
-radiozet.pl##+js(no-setInterval-if.js, /^/)
-radiozet.pl##+js(addEventListener-defuser.js, mousemove)
-radiozet.pl##+js(addEventListener-defuser.js, mouseleave)
-radiozet.pl##+js(addEventListener-defuser.js, , getBoundingClientRect)
-radiozet.pl##+js(no-requestAnimationFrame-if.js, dispatchEvent)
+!radiozet.pl##+js(no-setTimeout-if.js, unref)
+!radiozet.pl##+js(no-setInterval-if.js, /^/)
+!radiozet.pl##+js(addEventListener-defuser.js, mousemove)
+!radiozet.pl##+js(addEventListener-defuser.js, mouseleave)
+!radiozet.pl##+js(addEventListener-defuser.js, , getBoundingClientRect)
+!radiozet.pl##+js(no-requestAnimationFrame-if.js, dispatchEvent)

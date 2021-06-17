@@ -179,6 +179,10 @@ wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default
 wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD[data-reactid="5"] > DIV:not([data-reactid]):has(:scope > DIV > DIV > DIV) > *:remove()
 wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) HEADER DIV[data-st-area="Header"] > DIV:not([data-reactid]):remove()
 
+!Reklama po bokach strony
+!https://wiadomosci.wp.pl/spor-o-turow-pis-w-ciagu-dwoch-tygodni-chce-dogadac-sie-z-czechami-6648461188873120a
+wp.pl##TD[data-reactid="5"] > DIV[style="position: relative; top: 0px; z-index: 0;"]:remove()
+
 !Reklama pod leadem nad zdjęciem głównym
 wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.article--lead + DIV > DIV:first-child + DIV:last-child > * > *:remove()
 
@@ -351,8 +355,10 @@ sportowefakty.wp.pl##DIV#exitpopup:remove()
 sportowefakty.wp.pl##DIV.liketag
 sportowefakty.wp.pl##DIV.wpsocial-bottom-article
 
+!https://sportowefakty.wp.pl/euro-2020-2021/942976/polska-islandia-bilans-historyczny-na-duzy-plus
 sportowefakty.wp.pl##^ARTICLE > P:has(:scope> STRONG:last-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
-sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:last-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+
 !sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]
 !sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child) + DIV[id^="video-container"]
 !sportowefakty.wp.pl##ARTICLE > P + DIV[id^="video-container"]
@@ -366,6 +372,12 @@ sportowefakty.wp.pl##DIV[class]:has(:scope> DIV:first-child:has(:scope> DIV[clas
 !uBO: setTimeout("function(){var a=n?".article + .teasers .teaser":".articleteaser",r=".streamshort",c=null,d=v.place;if(n&&f>1){var u=document.body.querySelectorAll(v.selector).length,h=i[o].filter(function(e){return e.rand===!0}).length,p=parseInt(u/h-1);d=v.place+p}c=document.body.querySelectorAll(v.selector)[d];var g=c.querySelectorAll("img")[0],m=c.querySelectorAll("a")[0],w=c.querySelectorAll("span")[0];g.src=e.src,r===v.selector&&(m=c.querySelectorAll(".streamshort__title a")[0],m.textContent=e.text),a===v.selector&&(w.childElementCount?w.childNodes[0].textContent=e.text:w.textContent=e.text),m.href=e.url,m.target="_blank",c.className+=" "+s,t({el:c}),l()}", 200)
 sportowefakty.wp.pl##+js(nostif, articleteaser, 200)
 !KONIEC - https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+
+!Próba naprawy przewijania strony
+sportowefakty.wp.pl##MAIN#content > SECTION.section::before
+!Przyciski społecznościowe
+sportowefakty.wp.pl##DIV.wpsocials
+sportowefakty.wp.pl##A.socialbutton
 
 !KONIEC - SPORTOWEFAKTY.PL
 
@@ -477,3 +489,4 @@ opinie.wp.pl,wiadomosci.wp.pl##DIV:has(:scope > IFRAME[class*=" "][scrolling][da
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px)
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px):remove()
 !KONIEC - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
+
