@@ -125,7 +125,7 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 ||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
 @@||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
 !Powiązane wideo, które automatycznie się odtwarzają po końcu pierwszego
-||authorisation.grupaonet.pl^
+!||authorisation.grupaonet.pl^
 !GDPR w treści
 ||ocdn.eu/aops/plansza/css/onetras.css
 ||events.onet.pl^
@@ -314,8 +314,9 @@ pulsevideo.eu##+js(addEventListener-defuser.js, ended)
 !Początek: https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
 !Początek: https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
 !auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści))
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##^P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)) + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1])
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)) + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##^P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)) + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##P:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)) + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!Wyłączam, bo się włączał też na www.onet.pl
 !Koniec: https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
 !Koniec: https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
 
@@ -453,3 +454,51 @@ businessinsider.com.pl#@#DIV#share
 @@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
 
 @@||sgqcvfjvr.onet.pl^
+
+
+!https://www.onet.pl/informacje/onetwiadomosci/zatrzymany-przez-cba-biznesmen-przemyslaw-krych-ujawnia-ze-dostal-oferte-wolnosc-za/h9lcb2d,79cfc278
+www.onet.pl##DIV[class^="AdPlaceholder_adPlaceholder_"]
+!https://www.onet.pl/
+www.onet.pl##DIV.placeholder-container
+
+!Blokada wideo w treści artykułu na onet.pl/informacje
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="EmbeddedApplication_wrapper_"]:has(DIV.pulsembed_embed[data-provider-name="pulsevideo"]):remove()
+
+@@||pulsembed.eu/providers.js?
+www.onet.pl##DIV[class^="EmbeddedApplication_embedPlaceholder_"], DIV[class^="EmbeddedApplication_container_"]:style(-webkit-transform: unset !important; transform: unset !important; position: unset !important;)
+www.onet.pl##DIV[class*="EmbeddedApplication_embedPlaceholderMobile_"]:style(padding-top: unset !important;)
+
+!Newsletter na końcu artykułu
+
+!Newsletter na końcu artykułu
+!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+!www.onet.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="EmbeddedApplication_wrapper_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"][target="_blank"]) > *:remove()
+!https://www.onet.pl/informacje/onetwiadomosci/koronawrius-druga-dawka-od-czwartku-w-dowolnym-punkcie-szczepien/ynev934,79cfc278
+!Po usunięciu całości dwa razy był podpis (sp)
+!www.onet.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="Body_subjectsContainer_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"][target="_blank"]) > *:remove()
+!www.onet.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="Body_mobileContent_"] > DIV:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"][target="_blank"]) > *:remove()
+!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0,79cfc278
+!www.onet.pl##ARTICLE#Module[class^="Article_container_"] DIV[class^="Body_mobileContent_"] > P[class^="Paragraph_mobileParagraph_"]:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)) + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1]) > *:remove()
+!Usuwanie
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)) + DIV:has(A[href*="https://htmlbox.pulsembed.eu/embed/"]) > *:remove()
+!Chowanie
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has(:scope > STRONG:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści))
+
+!Reszta tekstu pod materiałem wideo
+!Dalsza część artykułu znajduje się poniżej materiału wideo:
+!Dalszą część tekstu znajdziesz pod materiałem wideo
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo)/i)
+
+!Reklama pod głównym zdjęciem
+!https://www.onet.pl/informacje/onetwiadomosci/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0,79cfc278
+www.onet.pl##ASIDE[class*="CenterAd_containerTop_"]
+
+!Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
+
+!Pojedyncze kropki z powiązanymi artykułami w treści tekstu
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+
