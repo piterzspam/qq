@@ -217,6 +217,17 @@ filmweb.pl##SPAN.loginWithFBContainer
 filmweb.pl##script:inject(abort-current-inline-script.js, webpackJsonp, advInit)
 filmweb.pl#@#script:inject(abort-on-property-read.js, document.onreadystatechange)
 filmweb.pl#@#script:inject(setTimeout-defuser.js, notDetected)
+
+!Odśiweżanie karty po przełączeniu i upływie 5 minut
+!uBO: setTimeout("function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)}", 300000)
+!uBO: addEventListener("focus", function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)})
+!filmweb.pl##+js(nano-stb, focus, 300000, 0.02)
+filmweb.pl##+js(no-setTimeout-if, focus, 300000)
+
+!https://www.filmweb.pl/film/Memento-2000-7656
+||fwcdn.pl/prt/
+||fwcdn.pl/video/*#t=0,5|
+
 filmy.to##DIV#cookie-bar
 forum.mp3store.pl##.ipsMessage_success.ipsMessage.cAnnouncementPageTop
 forum.pcformat.pl##DIV.post.classic:if(DIV.post_author.scaleimages > IMG[src="images/link_spons.png"])
@@ -934,3 +945,44 @@ wizaz.pl##^DIV.sBox
 wizaz.pl##DIV#fi-promo
 wizaz.pl##^DIV#fi-promo
 @@||ads.edipresse.pl/detector.min.js
+
+
+
+
+
+!aloboi.com##+js(aopr, app_vars.force_disable_adblock)
+aloboi.com##+js(bab-defuser)
+
+! 2021-03-19 https://www.cozadzien.pl
+www.cozadzien.pl##UL.social-media
+
+!https://www.nytimes.com/2021/02/18/opinion/fake-news-media-attention.html
+nytimes.com##DIV.gdpr.shown
+
+! 2021-04-04 https://stackoverflow.com
+stackoverflow.com##.js-consent-banner
+
+!https://darkw.pl/ebooki-f22/bernard-newman-rowerem-przez-ii-rp.-niezwykla-podroz-po-kraju-ktorego-juz-nie-ma.-reportaz-z-1934-roku-t2231266.html
+||darkw.pl/images/filebitreklama.png
+darkw.pl##^DIV.topic__row:has(H5.topic__user__name > A[href="Reklama/"])
+darkw.pl##DIV.topic__row:has(H5.topic__user__name > A[href="Reklama/"])
+
+!https://toolbox.google.com/factcheck/explorer
+toolbox.google.com#@#.fc-root
+
+!http://strims.world/BayernMonachiumAugsburg.php?source=2
+||bit.ly^$domain=strims.world
+||mpcsrv.com^$domain=strims.world
+||d15qffpp8trso2.cloudfront.net^$domain=strims.world
+
+!https://smallbusiness.chron.com/change-numbers-microsoft-word-2010-documents-79039.html
+||chron.com/dist/js/infinite-scroll.js
+
+lifewire.com##MAIN#main:style(margin-top: unset !important;)
+lifewire.com##DIV[id^="onetrust-"]
+
+!You Can Master Word!
+!https://word.tips.net/T003524_Automatically_Adjusting_Height_for_Text_Boxes.html
+tips.net##DIV#pop1_b
+
+@@||punosy.xyz/cdn/modules/click-request/module.min.js$domain=ouo.today
