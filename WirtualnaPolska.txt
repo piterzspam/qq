@@ -303,8 +303,11 @@ pudelek.pl##[data-st-area="backtosg"][href*="www.wp.pl"]
 !https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
 o2.pl##A[data-st-area="ST-goToO2_mob"]
 !Wideo w treści artykułu - desktop i mobile
-money.pl,o2.pl,pudelek.pl##^ARTICLE DIV[class]:has(:scope >DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child)
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV[class]:has(:scope >DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child):remove()
+!https://www.money.pl/gospodarka/duzy-konflikt-o-wielka-plyte-ziobro-beszta-gowina-6656954938227232a.html
+!Chowanie
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV[class]:has(:scope >DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child)
+!Usuwanie
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV[class] > DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child > *:remove()
 !https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
 money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
 !money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
