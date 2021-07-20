@@ -123,7 +123,7 @@ abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorko
 !Trzeba usunąć wideo, potem schować element z tekstem i element po wideo
 !https://opinie.wp.pl/skladka-zdrowotna-w-gore-ale-czy-dzieki-temu-szybciej-dotrzemy-do-lekarza-opinia-6639982861732384a
 abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE DIV[data-reactid]:has(:scope > DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV > DIV[id^="video-player-"]:remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV[data-reactid]:has(:scope > DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:not(:has(*)):xpath(self::node() | self::node()/preceding-sibling::DIV[1])
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV[data-reactid]:has(:scope > DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:empty:xpath(self::node() | self::node()/preceding-sibling::DIV[1])
 
 !https://tech.wp.pl/maseczki-powaznym-zrodlem-zanieczyszczen-uwalniaja-metale-ciezkie-do-srodowiska-6638218094942816a
 !https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
@@ -157,13 +157,18 @@ abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorko
 www.wp.pl##SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
 www.wp.pl##^SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
 
+!Miejsce po reklamie po prawej stronie na stronie z zapowiedzią
+!Miejsce po reklamach na stronie głównej
+www.wp.pl##DIV[class]:has(:scope >IMG[src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:has(:scope> DIV:only-child:empty))
+
+
 !Statyczne miejsca na reklamy w głównej części strony
-www.wp.pl##DIV[class]:has(:scope >IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:not(:has(*)))
+www.wp.pl##DIV[class]:has(:scope >IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty)
 
 !Usuwanie całego elementu psuło linki po prawej stronie
-www.wp.pl##DIV[class]:only-child:has(:scope> DIV[class]:first-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:not(:has(*))) + SCRIPT:last-child)
+www.wp.pl##DIV[class]:only-child:has(:scope> DIV[class]:first-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty) + SCRIPT:last-child)
 
-www.wp.pl##DIV > DIV[class]:only-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:not(:has(*)))
+www.wp.pl##DIV > DIV[class]:only-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty)
 
 !Blokowanie ładowania reklam
 www.wp.pl##+js(set, window.WP.gaf, '')
@@ -332,13 +337,13 @@ money.pl##DIV.content + NAV
 !chyba jak się nie wyświetlają, to się nie ładują
 o2.pl##DIV[class]:has(:scope> IMG[class][src*="o2.pl/"][role="presentation"]:only-child)
 !Reklama statyczna, desktop, strona główna, sekcja "Oferty dla Ciebie"
-o2.pl##DIV[class]:has(:scope> IMG[class][src*="o2.pl/"][role="presentation"]:first-child + DIV:last-child:not(:has(*)))
+o2.pl##DIV[class]:has(:scope> IMG[class][src*="o2.pl/"][role="presentation"]:first-child + DIV:last-child:empty)
 !Małe reklamy na stronie mobilnej: nad tytułami o2 i plotek, na stronie głównej plotek
 !Małe reklamy na stronie desktopowej: na górze prawej na stronie artykułu o2 i plotek 
 !Na stronie z artykułem - mała reklama doładowywana na górze prawej kolumny - strona desktopowa
 !chyba jak się nie wyświetlają, to się nie ładują
 o2.pl,pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:has(:scope> SCRIPT:only-child):not([class]))
-o2.pl,pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:not([class]):not(:has(*)))
+o2.pl,pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:not([class]):empty)
 !Reklama doładowywana, desktop, strona główna, sekcja "Mogłeś przegapić", prawa strona
 o2.pl##SECTION[data-st-area="o2_stream"] > ASIDE:remove()
 !Reklama doładowywana, desktop, strona główna, sekcja "Oferty dla Ciebie"
@@ -365,8 +370,8 @@ sportowefakty.wp.pl##LI.match--sponsor:remove()
 sportowefakty.wp.pl##:xpath(//DIV[count(*)=3][count(DIV[@class][count(*)=0])=2][DIV[@class][count(*)>0]]):remove()
 sportowefakty.wp.pl##^DIV:has(:scope> DIV[class=""][data-class]:only-child)
 !sportowefakty.wp.pl##^DIV[class*=" "][data-class]:has(:scope > DIV:first-child:last-child)
-!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class]:first-child:not(:has(*)) + DIV[class*=" "] + DIV:last-child:not(:has(*))):remove()
-!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class*=" "]:first-child + DIV[class]:not(:has(*)) + DIV:last-child:not(:has(*))):remove()
+!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class]:first-child:empty + DIV[class*=" "] + DIV:last-child:empty):remove()
+!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class*=" "]:first-child + DIV[class]:empty + DIV:last-child:empty):remove()
 
 !Chcesz poczytać więcej o sporcie i nie tylko
 sportowefakty.wp.pl##DIV.sgwpbutton
@@ -394,7 +399,7 @@ sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:has-text(/zobacz wideo/i)) +
 !sportowefakty.wp.pl##ARTICLE > P + DIV[id^="video-container"]
 !:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
 
-sportowefakty.wp.pl##DIV[class]:has(:scope> DIV:first-child:has(:scope> DIV[class]:first-child + DIV[class]:last-child) + DIV[class]:last-child:not(:has(*))):remove()
+sportowefakty.wp.pl##DIV[class]:has(:scope> DIV:first-child:has(:scope> DIV[class]:first-child + DIV[class]:last-child) + DIV[class]:last-child:empty):remove()
 
 
 
