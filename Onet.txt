@@ -208,6 +208,8 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 
 !Wideo w treści artykułu - www.onet.pl
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(DIV.pulsembed_embed[data-provider-name="pulsevideo"]) > *:remove()
+!Ukrycie pustych elementów po usunięciu wideo i newslettera
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:empty
 !Wideo w treści artykułu - www.onet.pl - paragraf "dalszy ciąg..."
 !Reszta tekstu pod materiałem wideo
 !Dalsza część artykułu znajduje się poniżej materiału wideo:
