@@ -98,21 +98,6 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 ||csr.onet.pl^
 !Koniec: https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
 
-!Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
-!https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
-!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
-!Wideo na górze: https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
-!https://wiadomosci.onet.pl/.../3vbh4xb?utm_source=_viasg_fakt
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
-
-!https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
-!https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
-!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
-!https://www.onet.pl/informacje/onetwiadomosci/...
-!Mobile i desktop
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
 
 
 
@@ -207,6 +192,12 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 !https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"]) > *:remove()
 
+!Wideo w treści artykułu - wiadomosci.onet.pl
+wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
+wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo
+!Wideo w treści artykułu - wiadomosci.onet.pl - paragraf "dalszy ciąg..."
+wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
+
 !Wideo w treści artykułu - www.onet.pl
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(DIV.pulsembed_embed[data-provider-name="pulsevideo"]) > *:remove()
 !Ukrycie pustych elementów po usunięciu wideo i newslettera
@@ -218,15 +209,39 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 !Reszta tekstu pod materiałem wideo
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
 
-!Wideo w treści artykułu - www.onet.pl
-wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
-wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo
-!Wideo w treści artykułu - www.onet.pl - paragraf "dalszy ciąg..."
-wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
+
+!Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
+!https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
+!Wideo na górze: https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
+!https://wiadomosci.onet.pl/.../3vbh4xb?utm_source=_viasg_fakt
+wiadomosci.onet.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
+wiadomosci.onet.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
+
+!https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/...
+!Mobile i desktop
+www.onet.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+www.onet.pl/##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
+
+!Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - wiadomosci.onet.pl firstList
+wiadomosci.onet.pl##DIV#detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+
+!Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - www.onet.pl
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
+
+
+!Pojedyncze kropki z powiązanymi artykułami w treści tekstu
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
 
 
 @@||pulsembed.eu/providers.js?
-www.onet.pl##DIV[class^="EmbeddedApplication_embedPlaceholder_"], DIV[class^="EmbeddedApplication_container_"]:style(-webkit-transform: unset !important; transform: unset !important; position: unset !important;)
+!Ramka FB w treści
+!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+!www.onet.pl##DIV[class^="EmbeddedApplication_embedPlaceholder_"], DIV[class^="EmbeddedApplication_container_"]:style(-webkit-transform: unset !important; transform: unset !important; position: unset !important;)
 www.onet.pl##DIV[class*="EmbeddedApplication_embedPlaceholderMobile_"]:style(padding-top: unset !important;)
 
 
@@ -491,9 +506,4 @@ www.onet.pl##DIV.placeholder-container
 !https://www.onet.pl/informacje/onetwiadomosci/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0,79cfc278
 www.onet.pl##ASIDE[class*="CenterAd_containerTop_"]
 
-!Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
-
-!Pojedyncze kropki z powiązanymi artykułami w treści tekstu
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
 
