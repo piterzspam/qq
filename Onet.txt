@@ -193,8 +193,9 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 !https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
 !https://wiadomosci.onet.pl/poznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1
 !https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
-wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści.)
+wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
 wiadomosci.onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox > *:remove()
+wiadomosci.onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox
 
 !Newsletter - www.onet.pl - z paragrafem
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
@@ -218,6 +219,7 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 
 !Wideo w treści artykułu - www.onet.pl
 wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
+wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo
 !Wideo w treści artykułu - www.onet.pl - paragraf "dalszy ciąg..."
 wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo)/i)
 
