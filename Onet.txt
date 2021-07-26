@@ -212,16 +212,17 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 !Ukrycie pustych elementów po usunięciu wideo i newslettera
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:empty
 !Wideo w treści artykułu - www.onet.pl - paragraf "dalszy ciąg..."
-!Reszta tekstu pod materiałem wideo
-!Dalsza część artykułu znajduje się poniżej materiału wideo:
+!Dalsza część artykułu pod materiałem wideo
+!Dalsza część artykułu znajduje się poniżej materiału wideo
 !Dalszą część tekstu znajdziesz pod materiałem wideo
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo)/i)
+!Reszta tekstu pod materiałem wideo
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
 
 !Wideo w treści artykułu - www.onet.pl
 wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
 wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo
 !Wideo w treści artykułu - www.onet.pl - paragraf "dalszy ciąg..."
-wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo)/i)
+wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
 
 
 @@||pulsembed.eu/providers.js?
