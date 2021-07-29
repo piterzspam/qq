@@ -354,6 +354,7 @@ money.pl##:xpath(//DIV[@class][count(*)=2][DIV[@class][count(*)=3][DIV[@class][c
 !KONIEC - DIV[data-st-area="st-article"]
 
 !POCZĄTEK - SPORTOWEFAKTY.PL
+
 ||salesmanago.pl^$domain=sportowefakty.wp.pl
 ||pixel.wp.pl^$domain=sportowefakty.wp.pl
 ||2mdn.net^$domain=sportowefakty.wp.pl
@@ -420,7 +421,12 @@ sportowefakty.wp.pl##DIV.wpsocials
 sportowefakty.wp.pl##A.socialbutton
 
 !Rozciąganie strony w pionie przy scrollowaniu
-sportowefakty.wp.pl##DIV.section__layout.section__layout--article:style(border-image-repeat: unset !important)
+!sportowefakty.wp.pl##DIV.section__layout.section__layout--article:style(border-image-repeat: unset !important)
+sportowefakty.wp.pl##+js(nostif, initedSFPWA, 300)
+sportowefakty.wp.pl##+js(nostif, ()=>{Z(e,n)}, 300)
+sportowefakty.wp.pl##+js(nostif, location.reload())
+sportowefakty.wp.pl##MAIN#content .section::before
+sportowefakty.wp.pl##MAIN#content .section::after
 !KONIEC - SPORTOWEFAKTY.PL
 
 

@@ -178,9 +178,9 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 !https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
 !https://wiadomosci.onet.pl/poznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1
 !https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
-wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
-wiadomosci.onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox > *:remove()
-wiadomosci.onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox
+onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
+onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox > *:remove()
+onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox
 
 !Newsletter - www.onet.pl - z paragrafem
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
@@ -193,10 +193,10 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"]) > *:remove()
 
 !Wideo w treści artykułu - wiadomosci.onet.pl
-wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
-wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo
+onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
+onet.pl##ARTICLE DIV#detail DIV.pulsevideo
 !Wideo w treści artykułu - wiadomosci.onet.pl - paragraf "dalszy ciąg..."
-wiadomosci.onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
+onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
 
 !Wideo w treści artykułu - www.onet.pl
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(DIV.pulsembed_embed[data-provider-name="pulsevideo"]) > *:remove()
@@ -206,8 +206,9 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 !Dalsza część artykułu pod materiałem wideo
 !Dalsza część artykułu znajduje się poniżej materiału wideo
 !Dalszą część tekstu znajdziesz pod materiałem wideo
+!Dalsza część tekstu znajduje się pod materiałem wideo
 !Reszta tekstu pod materiałem wideo
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
 
 
 !Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
@@ -215,8 +216,8 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 !https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
 !Wideo na górze: https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
 !https://wiadomosci.onet.pl/.../3vbh4xb?utm_source=_viasg_fakt
-wiadomosci.onet.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
-wiadomosci.onet.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
+onet.pl##ARTICLE DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
+onet.pl##ARTICLE DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
 
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
@@ -224,10 +225,10 @@ wiadomosci.onet.pl##DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="v
 !https://www.onet.pl/informacje/onetwiadomosci/...
 !Mobile i desktop
 www.onet.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
-www.onet.pl/##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
+www.onet.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
 
 !Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - wiadomosci.onet.pl firstList
-wiadomosci.onet.pl##DIV#detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+onet.pl##ARTICLE DIV#detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
 
 !Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - www.onet.pl
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])

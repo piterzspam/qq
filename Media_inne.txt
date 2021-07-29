@@ -180,6 +180,13 @@ tygodnikpowszechny.pl##.pane-block-32.pane-block.panel-pane
 tygodnikpowszechny.pl##DIV.bhr-popup-container
 tygodnikpowszechny.pl##DIV#bhr-overlay
 
+!Zapobiega blokowaniu całej strony
+!EasyList Cookie 
+!Fanboy’s Annoyance 
+!https://www.tygodnikpowszechny.pl/bardzo-zla-ugoda-168460
+tygodnikpowszechny.pl#@#.eu-cookie-compliance-popup-open
+
+
 
 
 
