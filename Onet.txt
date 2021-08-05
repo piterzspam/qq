@@ -196,7 +196,7 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
 onet.pl##ARTICLE DIV#detail DIV.pulsevideo
 !Wideo w treści artykułu - wiadomosci.onet.pl - paragraf "dalszy ciąg..."
-onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
+onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Reszta tekstu pod materiałem wideo)/i)
 
 !Wideo w treści artykułu - www.onet.pl
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(DIV.pulsembed_embed[data-provider-name="pulsevideo"]) > *:remove()
@@ -207,8 +207,10 @@ www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomCo
 !Dalsza część artykułu znajduje się poniżej materiału wideo
 !Dalszą część tekstu znajdziesz pod materiałem wideo
 !Dalsza część tekstu znajduje się pod materiałem wideo
+!https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2
+!Dalsza część tekstu znajduje się pod wideo
 !Reszta tekstu pod materiałem wideo
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i)
+www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Reszta tekstu pod materiałem wideo)/i)
 
 
 !Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
@@ -228,7 +230,9 @@ www.onet.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):h
 www.onet.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
 
 !Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - wiadomosci.onet.pl firstList
+!https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2?utm_source=t.co_viasg_wiadomosci
 onet.pl##ARTICLE DIV#detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+onet.pl##ARTICLE DIV#detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
 
 !Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - www.onet.pl
 www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
@@ -508,3 +512,16 @@ www.onet.pl##DIV.placeholder-container
 www.onet.pl##ASIDE[class*="CenterAd_containerTop_"]
 
 
+!www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część artykułu pod materiałem wideo:)/i)
+!wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
+onet.pl#@#^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+
+
+
+!https://www.medonet.pl/zdrowie,lekarz-apeluje--codziennie-powinnismy-myc-tylko-trzy-czesci-ciala,artykul,99650859.html?utm_source=www.wykop.pl_viasg_medonet&utm_campaign=leo_automatic
+||static.medonet.pl/widget.js
+medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"]:has(LI.item:only-child):remove()
+medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Przeczytaj także:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Wypróbuj sprawdzone kosmetyki do mycia ciała dostępne na Medonet Market:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+medonet.pl##ARTICLE SECTION.left DIV.embeddedApp:remove()
+medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"] LI:has(A[href*="onet.pl/#utm_source="]):remove()
