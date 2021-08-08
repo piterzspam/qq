@@ -986,3 +986,83 @@ lifewire.com##DIV[id^="onetrust-"]
 tips.net##DIV#pop1_b
 
 @@||punosy.xyz/cdn/modules/click-request/module.min.js$domain=ouo.today
+
+
+
+
+!https://www.minitool.com/backup-tips/page-fault-in-nonpaged-area.html
+||minitool.com/promotions/
+minitool.com##DIV.article-top-banner
+minitool.com##DIV.promotions-banner-wrap
+minitool.com##DIV.csebox > DIV.fixed-nav-google-logo > *
+minitool.com##DIV.csebox > A.icon-awe-down
+!https://stackoverflow.com/a/7185082
+!https://www.minitool.com/backup-tips/page-fault-in-nonpaged-area.html
+minitool.com##:xpath(//ARTICLE/H2[starts-with(@id, 'useful-suggestion-')] | //ARTICLE/H2[starts-with(@id, 'useful-suggestion-')]/following-sibling::*[. = //ARTICLE/H2[starts-with(@id, 'conclusion-')]/preceding-sibling::*]):remove()
+!https://www.minitool.com/backup-tips/how-to-know-if-your-computer-has-a-virus.html
+minitool.com##:xpath(//ARTICLE/H2[starts-with(@id, 'a-powerful-tool-to-keep-your-data-safe-')] | //ARTICLE/H2[starts-with(@id, 'a-powerful-tool-to-keep-your-data-safe-')]/following-sibling::*[. = //ARTICLE/H2[starts-with(@id, 'conclusion-')]/preceding-sibling::*]):remove()
+minitool.com##ARTICLE P:has(:scope> A.article-inner-twitter-boxbtn)
+
+!https://www.auslogics.com/en/articles/how-to-fix-page-fault-in-nonpaged-area/
+auslogics.com##DIV.banner
+auslogics.com##DIV.resolve-new
+auslogics.com##SECTION#subscribed-form_section
+||auslogics.com/includes/articles/js/morescripts.js
+||auslogics.com/includes/js/firebase/firebase_subscribe.js
+||auslogics.com/en/articles/wp-content/themes/millenium/assets/js/subscribe.js
+auslogics.com##DIV.post-content P:has(:scope> A[href^="https://www.auslogics.com/go/blog_auslogics_fromarticles/"]) + P:has(:scope> IMG:only-child):xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+
+!https://www.tomshardware.com/how-to/fix-page-fault-error-windows-10
+tomshardware.com##DIV.van_vid_carousel
+
+!https://www.partitionwizard.com/disk-recovery/page-fault-in-nonpaged-area.html
+partitionwizard.com##DIV.article-top-banner
+partitionwizard.com##DIV.promotions-banner-wrap
+partitionwizard.com##DIV.csebox > DIV.fixed-nav-google-logo > *
+partitionwizard.com##DIV.csebox > A.icon-awe-down
+partitionwizard.com##SECTION.article-share-wrap
+partitionwizard.com##ARTICLE P:has(:scope> A.article-inner-twitter-boxbtn)
+
+
+!https://blog.pcrisk.com/windows/12765-page-fault-in-nonpaged-area#startOfPage
+pcrisk.com##ASIDE#atoplinks
+pcrisk.com##ASIDE[style="display:inline-block; position:relative; width:100%; background-color:#f2f2f2; text-align:justify; padding:0px;"]
+
+!https://hackernoon.com/page-fault-in-nonpaged-area-bsod-error-on-windows-10-solved-986qg2ed9
+hackernoon.com##DIV[class^="TopNavAd__Layout-"]
+
+!https://windows101tricks.com/fix-page-fault-in-nonpaged-area-bsod/
+||windows101tricks.com/ezossp/https/live.sekindo.com/
+||windows101tricks.com/*/better-adsmanager/
+||windows101tricks.com/detroitchicago/denver.js
+||windows101tricks.com/detroitchicago/cmbdv2.js
+!||windows101tricks.com/detroitchicago/cmbv2.js
+windows101tricks.com##DIV.zanui:remove()
+windows101tricks.com##DIV[id^="zanui"]
+windows101tricks.com##DIV#custom_html-2
+
+!https://www.stellarinfo.com/blog/page-fault-in-nonpaged-area-error-on-windows-10/
+stellarinfo.com##DIV.post-single-content DIV.gray-background-color:first-child
+stellarinfo.com##DIV.right_side > DIV.mt-3:remove()
+
+!https://gromota.medium.com/
+medium.com##BODY > DIV#root:first-child ~ DIV:last-child:has(A[href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9"])
+
+!https://wyleczpc.pl/pytaj/jak-naprawic-page-fault-in-nonpaged-area/
+||wyleczpc.pl^$document,badfilter
+||wyleczpc.pl^$badfilter
+!||wyleczpc.pl^$inline-script,badfilter
+||wyleczpc.pl/wp-content/plugins/wordpress-social-login/$important
+ugetfix.com,pcsecurise.fr,sichernpc.de,pcseguro.es,wyleczpc.pl##DIV.article_content DIV#download ~ *:remove()
+ugetfix.com,pcsecurise.fr,sichernpc.de,pcseguro.es,wyleczpc.pl##:xpath(//DIV[@id="content"]//DIV[@class="article_content"]/following-sibling::*[. = //DIV[@id="content"]//DIV[@class="author-about-donate"]/preceding-sibling::*]):remove()
+!wyleczpc.pl##:xpath(selector1[. = selecotr2]):remove()
+
+
+
+!https://softwarekeep.com/help-center/fix-page-fault-in-nonpaged-area-error-in-windows
+softwarekeep.com##DIV.news-helpcenter
+softwarekeep.com##DIV.banners-help-center
+||softwarekeep.com/theme/imgs/helpcenter/banners/2019hs-upsell-banner.png
+softwarekeep.com##DIV#loyaltylion:remove()
+||loyaltylion.net^$domain=softwarekeep.com
+softwarekeep.com##DIV.bg.bg-topbar
