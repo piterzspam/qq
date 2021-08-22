@@ -124,6 +124,10 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !https://weekend.gazeta.pl/weekend/1,152121,25856421,zegiestow-zdroj-kiedys-najelegantsze-uzdrowisko-w-polsce-dzis.html
 ||video.onnetwork.tv^$domain=weekend.gazeta.pl
 
+!Powiązane w treści artykułu
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P.art_embed relatedBox
+!https://www.sport.pl/moto/7,64997,27481148,potezny-wypadek-tuz-przed-autem-kubicy-swietna-strategia-po.html
+
 !Puste miejsce po reklamie
 https://wiadomosci.gazeta.pl/wiadomosci/0,114884.html#TRNavSST
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##UL.list_tiles > LI.banEntry
