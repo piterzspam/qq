@@ -125,7 +125,7 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 ||video.onnetwork.tv^$domain=weekend.gazeta.pl
 
 !Powiązane w treści artykułu
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P.art_embed relatedBox
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P.art_embed.relatedBox
 !https://www.sport.pl/moto/7,64997,27481148,potezny-wypadek-tuz-przed-autem-kubicy-swietna-strategia-po.html
 
 !Puste miejsce po reklamie
