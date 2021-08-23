@@ -1066,3 +1066,8 @@ softwarekeep.com##DIV.banners-help-center
 softwarekeep.com##DIV#loyaltylion:remove()
 ||loyaltylion.net^$domain=softwarekeep.com
 softwarekeep.com##DIV.bg.bg-topbar
+
+!https://www.techwalla.com/articles/how-to-open-a-mac-zip-file-in-windows
+techwalla.com##+js(aeld, scroll, setTimeout(w,e))
+techwalla.com##ARTICLE DIV.component-article-jwplayer-wrapper
+techwalla.com##ARTICLE DIV.component-article-jwplayer-wrapper > *:remove()
