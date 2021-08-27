@@ -1071,3 +1071,43 @@ softwarekeep.com##DIV.bg.bg-topbar
 techwalla.com##+js(aeld, scroll, setTimeout(w,e))
 techwalla.com##ARTICLE DIV.component-article-jwplayer-wrapper
 techwalla.com##ARTICLE DIV.component-article-jwplayer-wrapper > *:remove()
+
+
+||futurehybrid.tech^$domain=windowscentral.com
+!||windowscentral.com^$inline-font
+
+!https://www.cnet.com/tech/services-and-software/10-things-to-disable-in-windows-10/
+cnet.com##DIV.article-main-body > DIV.shortcode.video.v2:first-of-type:remove()
+||cnet.com/*/myFinance-widget-
+||cnet.com/*/read-more-
+||cnet.com/*/xhr/?firstArticleId=
+||firestore.googleapis.com^$domain=cnet.com
+
+!https://www.thewindowsclub.com/restore-open-command-window-here-windows-10
+thewindowsclub.com##MAIN DIV.widget
+thewindowsclub.com##ARTICLE P:has(> STRONG:first-child:has-text(Related) + A[href])
+
+!https://www.pcwdld.com/nslookup-dns-records
+||pcwdld.com/SGNg95BS08r9.js?
+||pcwdld.com/wp-content/uploads/header-new.jpg
+||pcwdld.com/wp-content/uploads/sidebr-2.jpg
+||pcwdld.com/wp-content/uploads/network-monitoring-ebook.jpg
+pcwdld.com##DIV.theiaStickySidebar ASIDE.widget_custom_html
+pcwdld.com##DIV.top-banner
+pcwdld.com##DIV.content-bottom-wrapper2
+||pcwdld.com/wp-content/uploads/bundle-new.jpg
+pcwdld.com##DIV#wbounce-modal
+
+
+!https://www.itprotoday.com/microsoft-visual-studio/how-build-folder-watcher-service-c
+||itprotoday.com/ajax/pbifa/?url=
+!itprotoday.com##HEADER NAV.informa-banner
+!itprotoday.com##HEADER DIV.js-penton-legal-comm-ajax-output-alert
+
+! 2021-08-12 https://www.filmweb.pl
+filmweb.pl###mainSkyBanner-pl_PL
+
+busradar.pl##DIV[class="ng-scope"][ng-if="search.showTopConnections() && !search.showNoConnectionBBCBanner()"]
+busradar.pl##DIV.best-connections-container
+
+busbud.com##+js(remove-attr, data-checked, FORM#id="search-form" SPAN[tabindex="0"], once)

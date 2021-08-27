@@ -582,3 +582,25 @@ opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height:
 opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height: 600px):remove()
 !KONIEC - mobilna https://wiadomosci.wp.pl/reakcja-radoslawa-fogla-na-wystapienie-zbigniewa-ziobry-6576555199682689v
 
+
+
+!https://www.o2.pl/biznes/koncern-obajtka-przejal-gazete-lubuska-odchodza-kolejni-dziennikarze-6675312889891456a
+o2.pl##ARTICLE DIV[class]:has(> DIV:only-child > P:only-child > STRONG:first-child:has-text(/Czytaj także:/) + A[href*="o2.pl"]:last-child)
+!https://www.o2.pl/informacje/slowacy-wysmiewaja-polskich-turystow-chodzi-o-to-zdjecie-6675380680071808a
+o2.pl##ARTICLE DIV[class]:has(> DIV:only-child > P:only-child:has-text(/Czytaj także:/) > A[href*="o2.pl"]:only-child)
+@@||connect.facebook.net/*/sdk.js$script,third-party,domain=o2.pl
+
+
+!Ramki w treści artykułu "Zobnacz też:" - wersja desktopowa i mobilna
+!https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
+money.pl##ARTICLE DIV:has(> DIV:only-child > DIV:only-child:has(DIV[color="gray400"]:has-text(Zobacz także:)):has(A[href][color="primary"]))
+
+!Przyciski socialowe na stronie mobilnej pod artykułem
+!https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
+money.pl##ARTICLE + DIV > DIV:only-child > DIV:first-child > DIV:first-child:has(> DIV[color="black"]:first-child:has-text(Podziel się:))
+
+!Przyciski socliaowe na stronie desktopowej nad artykułem
+!https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
+money.pl##DIV[data-st-area="st-gallery-reactions"] > DIV:first-child:last-child > DIV:first-child + DIV:last-child
+
+

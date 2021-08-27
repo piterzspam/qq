@@ -248,3 +248,7 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 ||bi.im-g.pl/static/front/ot-iab-consent/master/ot.js
 ||adtonos.com^
 ||static.fm.tuba.pl/campaigns/
+
+
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.DFPbannerPartnerWrapper
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.DFP-premiumBoardReservedPlace
