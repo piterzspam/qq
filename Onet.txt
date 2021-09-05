@@ -33,8 +33,8 @@ onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
 ||sgqcvfjvr.onet.pl^$domain=www.onet.pl,important
 !||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|plejada.pl|przegladsportowy.pl|vod.pl
 !www.onet.pl##^SCRIPT#adsinit
-www.onet.pl##+js(set-constant, onetAds.injected, true)
-www.onet.pl##+js(abort-on-property-write, window.onetAds)
+!www.onet.pl##+js(set-constant, onetAds.injected, true)
+!www.onet.pl##+js(abort-on-property-write, window.onetAds)
 !https://wiadomosci.onet.pl/kujawsko-pomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g#
 !https://www.onet.pl/informacje/onetkujawskopomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g,79cfc278
 
@@ -50,13 +50,13 @@ www.onet.pl##+js(abort-on-property-write, window.onetAds)
 !auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(aopw, window.onetAds)
 
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT[src*="sgqcvfjvr.onet.pl/"]
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 ||ty0lm9uz.onet.pl^
 !Po wykryciu usunięcia "sgqcvfjvr.onet.pl/" ładuje się skrypt, można zapobiec lub usunąć z https://ty0lm9uz.onet.pl/e1BrazhrNjd9/build/ODU1ODYwNTkvaW5pdA%3D%3D.js
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(set, onetAds.injected, true)
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(set, onetAds.injected, true)
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT:has-text(ty0lm9uz.onet.pl)
 
@@ -525,3 +525,22 @@ medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Przeczytaj także:) + OL[d
 medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Wypróbuj sprawdzone kosmetyki do mycia ciała dostępne na Medonet Market:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
 medonet.pl##ARTICLE SECTION.left DIV.embeddedApp:remove()
 medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"] LI:has(A[href*="onet.pl/#utm_source="]):remove()
+
+!komputerswiat.pl#@#+js(set-constant, onetAds.injected, true)
+komputerswiat.pl##+js(set, EventsApi._init, noopFunc)
+
+!FREE - https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
+!PREMIUM - https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
+newsweek.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
+!||ocdn.eu/ucs/static/UCS2Piano/*/build/amd/adslps.js
+||ocdn.eu/newsweekucs/static/js/advertising.js
+newsweek.pl##+js(set, EventsApi._init, noopFunc)
+
+!PREMIUM - https://www.forbes.pl/gielda/siec-supermarketow-dino-gwiazda-gpw-swieci-coraz-jasniej/dwh3ph2
+forbes.pl##.placeholder
+forbes.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
+forbes.pl##DIV.contentPremiumPlaceholder:style(min-height: unset !important;)
+forbes.pl##+js(set, EventsApi._init, noopFunc)
+
+
+onet.pl##+js(set, EventsApi._init, noopFunc)
