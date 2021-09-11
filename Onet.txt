@@ -1,21 +1,24 @@
 ! Title: Onet.pl
 ! Expires: 1 day
 
-!Na wszelki wypadek
-@@||onet.pl^$ghide
+!Przy samym zablokowaniu sgqcvfjvr.onet.pl na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
+!może to przez to !"//sgqcvfjvr.onet.pl/YnVpbGQvezlza2x0ZTUyfWRsQXBpL2RsLmxpYntOTWFzX0EyMn0ubWluLmpz",'" onload="(window.onetAds||window.dlApi).onload()" onerror="(window.onetAds||window.dlApi).onerror()"
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+!||sgqcvfjvr.onet.pl^$script,domain=dziennik.pl,redirect=noopjs,important
 
-!Na wszelki wypadek
-@@||pulsembed.eu^$ghide
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl
+!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
 
-!Na wszelki wypadek
-@@||pulsevideo.eu^$ghide
+!@@||sgqcvfjvr.onet.pl^
 
-!Komentarze do usuwania w doemenie www.onet.pl/...
+
+!Komentarze do usuwania w domenie www.onet.pl/...
 
 !Jaks się usunie, to nie usuwane są elementy strony
 !https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
 !www.onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
-onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+!onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
 !Jaks się usunie, to nie usuwane są elementy strony
 !https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
 !||ocdn.eu/phx/_next/static/chunks/framework.
@@ -29,8 +32,8 @@ onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
 !Bez tego nie ładują się miniaturki w sekcji "Zobacz Więcej" na stronie https://wiadomosci.onet.pl/
 
 !Blokowanie na subdomenach blokowało ładowanie zdjęć z treści i miniaturki z prawej kolumny
-@@||sgqcvfjvr.onet.pl^$domain=onet.pl
-||sgqcvfjvr.onet.pl^$domain=www.onet.pl,important
+!@@||sgqcvfjvr.onet.pl^$domain=onet.pl
+!||sgqcvfjvr.onet.pl^$domain=www.onet.pl,important
 !||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|plejada.pl|przegladsportowy.pl|vod.pl
 !www.onet.pl##^SCRIPT#adsinit
 !www.onet.pl##+js(set-constant, onetAds.injected, true)
@@ -52,381 +55,19 @@ onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 !auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT[src*="sgqcvfjvr.onet.pl/"]
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT[src*="sgqcvfjvr.onet.pl/"]
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-||ty0lm9uz.onet.pl^
 !Po wykryciu usunięcia "sgqcvfjvr.onet.pl/" ładuje się skrypt, można zapobiec lub usunąć z https://ty0lm9uz.onet.pl/e1BrazhrNjd9/build/ODU1ODYwNTkvaW5pdA%3D%3D.js
 !auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(set, onetAds.injected, true)
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT:has-text(ty0lm9uz.onet.pl)
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT:has-text(ty0lm9uz.onet.pl)
 
 
-!Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
-||2mdn.net^$domain=pulsembed.eu,important
-
-!Nadpisanie filtru @@/adservice.*.js?domain=$script z Fanboy’s Enhanced Tracking List
-!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
-||adservice.google.com^$domain=pulsembed.eu,important
-
-||googletagservices.com^
-||events.ocdn.eu^
-||k266d5zsl.onet.pl^
-
-!Pewnie jakiś komunikat o aplikacji na mobilnej wersji strony
-!https://play.google.com/store/apps/details?id=pl.onet.onethd
-||onet.pl/mobile/manifest.json
-
-!Zapowiedź artykułu
-!https://www.onet.pl/?utm_source=businessinsider.com.pl_viasg_businessinsider&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=535ab188-817b-4efd-a47a-e213e0566337&sid=ca05277f-7c3f-495c-9acc-986177acd173&utm_v=2
-||www.onet.pl/?utm_source=$inline-script
-!Wersja mobilna - elementy poniżej zapowiedzi
-www.onet.pl##DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mobileView ~ *
-www.onet.pl##^DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mobileView ~ *
-!Wersja mobilna - znak ładowania poniżej zapowiedzi
-www.onet.pl##DIV.phx--fixer > #observeContainer
-!Wersja desktopowa - elementy poniżej zapowiedzi
-www.onet.pl##^DIV.Phx__fixer > DIV#mainPageBody0Wrapper:has(DIV.showMore) ~ *
-www.onet.pl##DIV.Phx__fixer > DIV#mainPageBody0Wrapper:has(DIV.showMore) ~ *
-!Wersja desktopowa - usunięcie pustej przestrzeni po usunięciu elementów pod zapowiedzią
-www.onet.pl##BODY#pageMainContainer:style(min-height: unset !important;)
-
-!Początek: https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
-!Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowiedzią artykułu - User Agent Firefox Android
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.nitroShare
-!Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##NAV.bottomBarNavigations
-||csr.onet.pl^
-!Koniec: https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
-
-
-
-
-!Początek: https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
-!Początek: https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
-!Masz ciekawy temat? Napisz do nas list!
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
-||events.ocdn.eu^
-||k266d5zsl.onet.pl^
-||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
-@@||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
-!Powiązane wideo, które automatycznie się odtwarzają po końcu pierwszego
-!||authorisation.grupaonet.pl^
-!GDPR w treści
-||ocdn.eu/aops/plansza/css/onetras.css
-||events.onet.pl^
-||pmi.flowplayer.com^$domain=pulsembed.eu
-!Dużo to blokuje
-!/onet\.pl\/[^\/]+$/$script,first-party
-!/onet\.pl\/[^\/]+$/$image,first-party
-!/onet\.pl\/[^\/]+$/$xhr,first-party
-@@||onet.pl/*?ajax=*&page=*$xhr,first-party
-@@||onet.pl/favicon.ico
-
-@@||ocdn.eu/video-apps/flowplayer/*/dist/flowplayer.min.js$domain=pulsembed.eu
-||ocdn.eu/video-apps/flowplayer/*/dist/plugins/ads.min.js$domain=pulsembed.eu
-||ocdn.eu/video-apps/flowplayer/*/dist/plugins/analytics.min.js$domain=pulsembed.eu
-||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
-||ocdn.eu/video-apps/flowplayer/*/dist/plugins/message.min.js$domain=pulsembed.eu
-||ocdn.eu/video-scripts/flow-player-plugin-stats/*/bundle-$domain=pulsembed.eu
-||pulsembed.eu^$xhr,first-party
-||pulsembed.eu^$script,first-party
-||pulsembed.eu^$image,first-party
-||player-api.dreamlab.pl/?body%5Bmethod%5D=channel_related_search&$xhr,domain=pulsembed.eu
-!Koniec: https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
-!Koniec: https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
-
-
-!Początek: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
-!Puste miejsce pod artykułem
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.streamNews
-!Sekcja Masz ciekawy temat? Napisz do nas list! pod artykułem
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SECTION.OpenDiscussionBox
-!Przyciski społecznościowe po lewej stronie od wideo 
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.contentShareLeft
-!Puste miejsce po reklamie pod zobacz również pod artykułem
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#googleAdsCont
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl#@#DIV#googleAdsCont
-!Koniec: https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
-
-
-!Początek: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-!Przyciski społecznościowe pod tytułem
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.social-container
-!Puste miejsce po reklamie po prawej stronie
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##ASIDE.extraListTop.extraList
-!Szare pole "Zobacz także" z linkami w treści artykułu
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.frameWrap
-!Puste małe miejsce po reklamie przed zdaniem "Co gorsza, wygłaszane z hiobowym obliczem"
-!Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
-!Ostatnie wideo pod artykułem nie związane z tematem
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.articleBody > DIV.embeddedApp:last-child
-!Wideo powiązane odtwarzające się po doscrollowaniu do niego
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(addEventListener-defuser.js, scroll, 300)
-!Wideo powiązane odtwarzające przy zmianie rozmiaru okna
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(addEventListener-defuser.js, resize, 300)
-!Puste pole po reklamie pod artykułem, przed "Zobacz również"
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl###googleAdsCont
-!Puste pole pod artykułem, po tematach artykułu
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SECTION.streamWithRight
-!Puste miejsce między paragrafami w treści artykułu
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.onet-ad
-!Koniec: https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-
-!Newsletter - wiadomosci.onet.pl
-!https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
-!https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
-!https://wiadomosci.onet.pl/poznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1
-!https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
-onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
-onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox > *:remove()
-onet.pl##ARTICLE DIV#detail DIV.placeholder.embed.htmlbox
-
-!Newsletter - www.onet.pl - z paragrafem
-!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV:has(A[href*="https://htmlbox.pulsembed.eu/embed/"]) > *:remove()
-!Newsletter - www.onet.pl - bez paragrafu
-!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
-!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"]) > *:remove()
-
-!Wideo w treści artykułu - wiadomosci.onet.pl
-onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
-onet.pl##ARTICLE DIV#detail DIV.pulsevideo
-!Wideo w treści artykułu - wiadomosci.onet.pl - paragraf "dalszy ciąg..."
-onet.pl##ARTICLE DIV#detail P.hyphenate:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Reszta tekstu pod materiałem wideo)/i)
-
-!Wideo w treści artykułu - www.onet.pl
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(DIV.pulsembed_embed[data-provider-name="pulsevideo"]) > *:remove()
-!Ukrycie pustych elementów po usunięciu wideo i newslettera
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:empty
-!Wideo w treści artykułu - www.onet.pl - paragraf "dalszy ciąg..."
-!Dalsza część artykułu pod materiałem wideo
-!Dalsza część artykułu znajduje się poniżej materiału wideo
-!Dalszą część tekstu znajdziesz pod materiałem wideo
-!Dalsza część tekstu znajduje się pod materiałem wideo
-!https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2
-!Dalsza część tekstu znajduje się pod wideo
-!Reszta tekstu pod materiałem wideo
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Reszta tekstu pod materiałem wideo)/i)
-
-
-!Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
-!https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
-!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
-!Wideo na górze: https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
-!https://wiadomosci.onet.pl/.../3vbh4xb?utm_source=_viasg_fakt
-onet.pl##ARTICLE DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
-onet.pl##ARTICLE DIV#detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
-
-!https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
-!https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
-!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
-!https://www.onet.pl/informacje/onetwiadomosci/...
-!Mobile i desktop
-www.onet.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
-www.onet.pl##ARTICLE#Module DIV[class^="Body_content_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
-
-!Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - wiadomosci.onet.pl firstList
-!https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2?utm_source=t.co_viasg_wiadomosci
-onet.pl##ARTICLE DIV#detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
-onet.pl##ARTICLE DIV#detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
-
-!Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu - www.onet.pl
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
-
-
-!Pojedyncze kropki z powiązanymi artykułami w treści tekstu
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
-
-
-@@||pulsembed.eu/providers.js?
-!Ramka FB w treści
-!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
-!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
-!www.onet.pl##DIV[class^="EmbeddedApplication_embedPlaceholder_"], DIV[class^="EmbeddedApplication_container_"]:style(-webkit-transform: unset !important; transform: unset !important; position: unset !important;)
-www.onet.pl##DIV[class*="EmbeddedApplication_embedPlaceholderMobile_"]:style(padding-top: unset !important;)
-
-
-!Poczatek: https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf?utm_source=_viasg_fakt
-||ocdn.eu/*/floating-player
-
-!Szara ramka z Zobacz także
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.promoFrame
-
-!Puste pole w prawej kolumnie między pogodą, a sekcją "Media mówią"
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#extraAdsBlock
-!Koniec: https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf?utm_source=_viasg_fakt
-
-!Puste miejsca po reklamach na https://www.onet.pl/
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.insertedSlot
-
-!Na mobilnej stronie głównej przyciski do udostępnienia na miniaturach
-!https://www.onet.pl/#
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SPAN.shareButton
-
-!Początek: https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-!Pasek z socialami nad leadem
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV._3r88rCARRhkQKjaEl0gPLZ
-!Przyciski do facebooka i Tiwttera po lewej stronie artykułu
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV[data-gtm-social]
-!Prostokąt z newletterem pod artykułem
-!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
-!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.pulsembed_embed[data-provider-name="htmlbox"]
-!https://ocdn.eu/ucs/static/onetmainpage/021c8f6bc08678aa7d91ce71438920a6/build/js/desktop/components/boxBackToMainPage.js
-||ocdn.eu/*boxBackToMainPage
-!Część odpowiedzialna za przeniesienie na główną po przescrollowaniu na dół
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.backToMainPage
-!Szare pole z napisam zobacz także po lewej od artykułu
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.C5XFtgeC-8Px7XoX8_Vo3
-!doubleclick.net w treści - z tym filtrem nie ładują się kolejne miniaturki na stronie głównej https://www.onet.pl/
-!||ocdn.eu/*/boxBody.js$script,redirect=noopjs
-!Formularz pod artykułem Masz ciekawy temat? Napisz do nas list!
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SECTION.contentBottomContainer > DIV > DIV:has(A[href="https://wiadomosci.onet.pl/listy-do-redakcji"])
-!W narzędziach deweloperskich widać Response header "server": Dreamlab Accelerator
-||onet.pl/*manifest.json
-!Koniec: https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-
-
-!Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s.js
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/init.js
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/linkstorage.js
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/locallink.js
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s_async.js
-||ocdn.eu/*/ad_s.js$script,redirect=noopjs
-||ocdn.eu/*/ad_s/init.js
-||ocdn.eu/*/ad_s/linkstorage.js
-||ocdn.eu/*/ad_s/locallink.js
-||ocdn.eu/*/ad_s_async.js
-
-
-!Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej, domyślam się, że powiadomienia
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/common/pushapplication.js
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/push.js
-||ocdn.eu/*/pushapplication.js
-||ocdn.eu/*/push.js$script,redirect=noopjs
-
-!Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/common/components/ad_SlotUtil.js
-||ocdn.eu/*/ad_SlotUtil.js$script,redirect=noopjs
-
-!Autorefresh po jakimś czasie
-!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/autorefresh.js
-||ocdn.eu/*/autorefresh.js$script,redirect=noopjs
-
-
-!User-agent firefox android
-!https://www.onet.pl/
-!onet.pl/push-service-worker4.js?V=450
-||onet.pl/push-service-worker
-@@||onet.pl/newslivestream
-
-!Przyciski socialowe nad leadem na stronie mobilnej
-!https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV.commons
-!Emotki nad leadem na stronie mobilnej
-!https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##SPAN.emotions
-
-!Przeniesienie ze strony z błędem 404 na stronę główną
-!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(no-setTimeout-if.js, 404, 2000)
-
-!Początek: https://kobieta.onet.pl/
-!https://ocdn.eu/kobieta/pwa/workbox-google-analytics.prod.v1.0.0.js
-||ocdn.eu/*google-analytics
-!https://kobieta.onet.pl/kobieta-sw.js
-||onet.pl/*sw.js
-!https://ocdn.eu/skom/utils/stats/tracked-section.js
-||ocdn.eu/*tracked-section.js
-!Koniec: https://kobieta.onet.pl/
-
-!Początek: https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
-!https://kobieta.onet.pl/kobieta-sw.js
-||onet.pl/*-sw.js
-||batuu.pl^$domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
-||ocdn.eu/*smartlink
-||ocdn.eu/*lpsAdsLifestyle.js
-||ocdn.eu/*flowplayer*bundle.min.js
-||ocdn.eu/*flowplayer*bundle-
-||ocdn.eu/*flowplayer*flowplayer.min.js
-!Prosotkąt Obserwuj nas po prawej stronie
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.widgetFollowUs.widget
-!Progressive web app
-!https://ocdn.eu/kobieta/pwa/manifest.json
-||ocdn.eu/*/pwa/
-!Koniec: https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
-
-!Początek: https://grupa-onet.pulsevideo.eu/2173781.1231839560
-||2mdn.net^$domain=pulsevideo.eu,important
-!Bez tego przy ponownym włączeniu filmu, który się skończył treść pobierała się od nowa:
-!xhr - video-node-2-a-pl-krk-1.dreamlab.pl/usp/
-!xhr - player-api.dreamlab.pl/?body%
-pulsevideo.eu##+js(addEventListener-defuser.js, ended)
-!Bez https w linku, po zakończeniu odtwarzania wysyłane jest żądanie do qi.related.onetapi.pl
-||qi.related.onetapi.pl^
-!Koniec: https://grupa-onet.pulsevideo.eu/2173781.1231839560
-
-
-!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=fcb49db3-af14-4ba8-b54a-f301a186d5dd&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
-!https://businessinsider.com.pl/firmy/zarzadzanie/budowa-lotniska-w-radomiu-prace-na-budowie-ppl/vl6nvm4?utm_source=businessinsider.com.pl_viasg_businessinsider&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
-.pl/*?utm_source=*utm_v$document,queryprune=|utm_v,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
-.pl/*?utm_source=*srcc$document,queryprune=|srcc,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
-.pl/*?utm_source=*utm_medium$document,queryprune=|utm_medium,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
-!https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
-.pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
 
 
 !Pola na reklamy w środku tekstu
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 businessinsider.com.pl##ASIDE[data-run-module="local/main.intextAd"]
-
-!Powiązane wideo na koniec treści artykułu
-newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
-newsweek.pl##^DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
-
-!Fanboy's Enhanced Tracking List 
-!/paywall.min.js
-!Ładowanie zdjęć
-!https://www.auto-swiat.pl/wiadomosci/aktualnosci/sprawdz-swoja-wiedze-o-samochodach-i-technice-jazdy-quiz/zjgw98f
-!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
-@@||ocdn.eu/paywall-cdn/paywall.min.js?$domain=komputerswiat.pl
-@@||ocdn.eu/paywall-cdn/paywall.min.js?
-
-!Pokazanie contentu premium
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.contentPremium:style(display: block !important;)
-
-medonet.pl##UL#medServices
-
-
-!Pasek na dole strony mobilnej
-!https://www.onet.pl/kultura/onetkultura/andrzej-piaseczny-wywiad-z-okazji-premiery-nowej-plyty/pf97tmq,681c1dfa
-onet.pl##DIV.bottomBar
-
-
-@@||newsweek.pl^$generichide
-!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
-newsweek.pl#@#[class*="cg-template"]
-!Scrollowanie
-newsweek.pl#@#DIV#redHead:style(position: absolute !important;)
-newsweek.pl#@#.ads
-newsweek.pl#@#.adsense
-newsweek.pl#@#.header-adblock
-newsweek.pl#@#.linkSponsorowany
-newsweek.pl#@#.onnetwork-video
-newsweek.pl#@#.ppa-slot
-newsweek.pl#@#.ppa-slot
-newsweek.pl#@#.sliderads
-newsweek.pl#@#.widget-ads-content
-newsweek.pl#@#.adform-slot
-newsweek.pl#@##widget-shop
-newsweek.pl#@##pixad-box
-newsweek.pl#@##advertisments
-newsweek.pl#@##adnp
-
 
 !https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
 !Puste miejsce pod artykułem 1:
@@ -472,22 +113,13 @@ businessinsider.com.pl#@##adSS-Detal, .post-container, .bottom-share-module, .cl
 !businessinsider.com.pl##DIV.streamNews
 businessinsider.com.pl#@#DIV.streamNews
 
-!Przy samym zablokowaniu sgqcvfjvr.onet.pl na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
-!może to przez to !"//sgqcvfjvr.onet.pl/YnVpbGQvezlza2x0ZTUyfWRsQXBpL2RsLmxpYntOTWFzX0EyMn0ubWluLmpz",'" onload="(window.onetAds||window.dlApi).onload()" onerror="(window.onetAds||window.dlApi).onerror()"
-!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
-!||sgqcvfjvr.onet.pl^$script,domain=dziennik.pl,redirect=noopjs,important
-
 !Reklamy na stronie mobilnej
 !businessinsider.com.pl##DIV[id^="onet-ad-"]
 !businessinsider.com.pl##ASIDE[id^="onet-ad-"]
 businessinsider.com.pl##[id^="onet-ad-"]
-businessinsider.com.pl##[id^="onet-ad-"]:remove()
-businessinsider.com.pl##^[id^="onet-ad-"]
 
 !Reklamy na stronie mobilnej
 businessinsider.com.pl##BODY.dreamlab-mobile .placeholder
-businessinsider.com.pl##BODY.dreamlab-mobile .placeholder:remove()
-businessinsider.com.pl##^BODY.dreamlab-mobile .placeholder
 
 !Przyciski socialowe pod tytułem artykułu
 businessinsider.com.pl##DIV.share.mobile
@@ -495,46 +127,6 @@ businessinsider.com.pl##DIV.share.mobile
 !Na zapas, data dodania artykułu i ilość wyświetleń
 businessinsider.com.pl#@#DIV#share
 
-!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
-!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl
-@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
-
-@@||sgqcvfjvr.onet.pl^
-
-
-!https://www.onet.pl/informacje/onetwiadomosci/zatrzymany-przez-cba-biznesmen-przemyslaw-krych-ujawnia-ze-dostal-oferte-wolnosc-za/h9lcb2d,79cfc278
-www.onet.pl##DIV[class^="AdPlaceholder_adPlaceholder_"]
-!https://www.onet.pl/
-www.onet.pl##DIV.placeholder-container
-
-!Reklama pod głównym zdjęciem
-!https://www.onet.pl/informacje/onetwiadomosci/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0,79cfc278
-www.onet.pl##ASIDE[class*="CenterAd_containerTop_"]
-
-
-!www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część artykułu pod materiałem wideo:)/i)
-!wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo > *:remove()
-onet.pl#@#^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
-
-
-
-!https://www.medonet.pl/zdrowie,lekarz-apeluje--codziennie-powinnismy-myc-tylko-trzy-czesci-ciala,artykul,99650859.html?utm_source=www.wykop.pl_viasg_medonet&utm_campaign=leo_automatic
-||static.medonet.pl/widget.js
-medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"]:has(LI.item:only-child):remove()
-medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Przeczytaj także:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
-medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Wypróbuj sprawdzone kosmetyki do mycia ciała dostępne na Medonet Market:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
-medonet.pl##ARTICLE SECTION.left DIV.embeddedApp:remove()
-medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"] LI:has(A[href*="onet.pl/#utm_source="]):remove()
-
-!komputerswiat.pl#@#+js(set-constant, onetAds.injected, true)
-komputerswiat.pl##+js(set, EventsApi._init, noopFunc)
-
-!FREE - https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
-!PREMIUM - https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
-newsweek.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
-!||ocdn.eu/ucs/static/UCS2Piano/*/build/amd/adslps.js
-||ocdn.eu/newsweekucs/static/js/advertising.js
-newsweek.pl##+js(set, EventsApi._init, noopFunc)
 
 !PREMIUM - https://www.forbes.pl/gielda/siec-supermarketow-dino-gwiazda-gpw-swieci-coraz-jasniej/dwh3ph2
 forbes.pl##.placeholder
@@ -542,5 +134,858 @@ forbes.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
 forbes.pl##DIV.contentPremiumPlaceholder:style(min-height: unset !important;)
 forbes.pl##+js(set, EventsApi._init, noopFunc)
 
+@@||ocdn.eu/paywall-cdn/paywall.min.js?$domain=komputerswiat.pl
+komputerswiat.pl##+js(set-constant, onetAds.injected, true)
+komputerswiat.pl##+js(set, EventsApi._init, noopFunc)
 
+
+
+@@||newsweek.pl^$generichide
+!FREE - https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
+!PREMIUM - https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
+
+!#canonical #desktop - Nadpisanie wyjątku @@||csr.onet.pl/$domain=www.newsweek.pl z POL: Oficjalne polskie filtry przeciwko alertom o Adblocku
+!https://www.newsweek.pl/polska/spoleczenstwo/magdalena-cielecka-20-lat-temu-powietrze-pachnialo-obietnica-dzis-niepewnoscia/17f27kh
+||csr.onet.pl^$domain=newsweek.pl,important
+
+!#canonical #desktop - blokada paywalla
+!https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
+newsweek.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/spoleczenstwo/magdalena-cielecka-20-lat-temu-powietrze-pachnialo-obietnica-dzis-niepewnoscia/17f27kh
+||ocdn.eu/newsweekucs/static/js/advertising.js
+
+!#canonical #desktop - blokada żądań do events.ocdn.eo
+!https://www.newsweek.pl/polska/spoleczenstwo/magdalena-cielecka-20-lat-temu-powietrze-pachnialo-obietnica-dzis-niepewnoscia/17f27kh
+newsweek.pl##+js(set, EventsApi._init, noopFunc)
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+||pushpushgo.com^$domain=newsweek.pl
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+||sgqcvfjvr.onet.pl^$domain=newsweek.pl,important
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+||pulsembed.eu^$subdocument,3p,redirect=click2load.html,domain=newsweek.pl
+||html5-player.libsyn.com^$subdocument,3p,redirect=click2load.html,domain=pulsembed.eu
+newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]):style(min-height: unset !important; max-height: unset !important;)
+newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed[style*="height: 0px;"]:style(height: unset !important;)
+newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed IFRAME:style(position: unset !important;)
+
+!#canonical #desktop - odblokowanie podcastu nad głównym zdjęciem
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl##.contentPremium-locked:style(pointer-events: unset !important;)
+
+!#canonical #desktop - reklama aplikacji mobilnej pod artykułem
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl##DIV#bottom_promoMobileSection
+
+!#canonical #desktop - przyciski socialowe pod artykułem
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl##DIV.articleSocials
+
+!#canonical #desktop - miniaturki nie ładujące się
+!https://www.newsweek.pl/
+newsweek.pl##+js(rat, src, data-original, A[href] IMG[src^="data:image/svg+xml;"][data-original^="//ocdn.eu/"], complete)
+
+!#canonical #desktop - usunięcie pustego pola na dole artykułu
+!https://www.newsweek.pl/opinie/kryzys-w-internetowej-pornografii/pvd1zrh
+newsweek.pl##.contentPremiumPlaceholder:style(min-height: unset !important;)
+
+!#canonical #mobile - przycisk "Czytaj dalej w aplikacji"
+!https://www.newsweek.pl/opinie/kryzys-w-internetowej-pornografii/pvd1zrh
+newsweek.pl##DIV#mobilePromo__wrapper
+
+!#canonical #desktop - newsletter na stronie głównej
+||forms.freshmail.io^$subdocument,3p,redirect=click2load.html,domain=newsweek.pl
+
+!#canonical #mobile - pushpushgo w treści
+!https://www.newsweek.pl/
+||newsweek.pl/sw.js
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+!||html5-player.libsyn.com^$subdocument,3p,redirect=click2load.html,domain=newsweek.pl
+
+!Ramki w treści artykułu
+!https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
+
+!#canonical #desktop - Powiązane wideo na koniec treści artykułu
+!newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+newsweek.pl#@#[class*="cg-template"]
+!Scrollowanie
+newsweek.pl#@#DIV#redHead:style(position: absolute !important;)
+newsweek.pl#@#.ads
+newsweek.pl#@#.adsense
+newsweek.pl#@#.header-adblock
+newsweek.pl#@#.linkSponsorowany
+newsweek.pl#@#.onnetwork-video
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.sliderads
+newsweek.pl#@#.widget-ads-content
+newsweek.pl#@#.adform-slot
+newsweek.pl#@##widget-shop
+newsweek.pl#@##pixad-box
+newsweek.pl#@##advertisments
+newsweek.pl#@##adnp
+
+!#canonical #desktop-pokazywanie contentu premium
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+fakt.pl##.contentPremium:style(display: block !important;)
+
+!#canonical #desktop
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||sgqcvfjvr.onet.pl^$domain=fakt.pl,important
+
+!#canonical #desktop
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||pushpushgo.com^$domain=fakt.pl
+
+!#canonical #desktop - baner z ubskrypcją
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||tinypass.com^$domain=fakt.pl
+
+!#canonical #desktop - przyciski socialowe pod tytułem
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+fakt.pl##DIV.article-share
+
+!#canonical #desktop - sekcja "Masz ciekawy temat? Napisz do nas list!"
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+fakt.pl##SECTION.five-columns-wide:has(H3.article-contact-header:has-text(Masz ciekawy temat? Napisz do nas list!))
+
+!#canonical #desktop - Chyba ładuje kolejną stronę po doscrollowaniu do dołu
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||ocdn.eu/*/sg-loader.min.js
+
+!#canonical #desktop - ramka
+!https://www.fakt.pl/wydarzenia/polityka/wpadka-kancelarii-prezydenta-pomylila-budapesz-z-bukaresztem/hg5bx91
+||pulsembed.eu^$subdocument,3p,redirect=click2load.html,domain=fakt.pl
+fakt.pl##DIV.placeholder.embed:style(padding-top: unset !important;)
+fakt.pl##DIV.placeholder.embed DIV.embeddedapp:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
+fakt.pl##DIV.placeholder.embed DIV.embeddedapp DIV.pulsembed_embed:style(min-height: 100px !important;)
+position
+
+!#canonical #desktop - pushpushgo w treści
+!https://www.fakt.pl/wydarzenia/polityka/wpadka-kancelarii-prezydenta-pomylila-budapesz-z-bukaresztem/hg5bx91
+||fakt.pl/sw.js
+
+!#canonical #mobile - Miniaturki w artykułach powiązanych
+!https://www.fakt.pl/wydarzenia/polityka/wpadka-kancelarii-prezydenta-pomylila-budapesz-z-bukaresztem/hg5bx91
+!https://www.fakt.pl/pieniadze/finanse/forum-w-karpaczu-pracownicze-plany-kapitalowe-debata-faktu-na-temat-ppk/334kdzd
+fakt.pl##SECTION.see-also-popular DIV.teaser-image-container
+
+!!#canonical #mobile
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+!https://ocdn.eu/ucs/static/faktnext/c0a5ab9ceed260d13316882b154c9adf/build/js/shareButtons.js
+||ocdn.eu/*/shareButtons.js$domain=fakt.pl
+
+!!#canonical #mobile - Pływające wideo w prawym górnym rogu
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+||ocdn.eu/videotools/libs/floating/
+
+!#canonical #desktop - ramkka z reklamą w treści
+!https://www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm?utm_source=_viasg_fakt
+!https://www.fakt.pl/facet/technologie/najpopularniejsze-haslo-komputerowe-2020/7bqlytj?utm_source=_viasg_fakt
+fakt.pl##DIV.placeholder.embed.moneteasy
+
+!#canonical #desktop - Linki powiązane w treści
+!https://www.fakt.pl/wydarzenia/swiat/blanche-monnier-zyla-w-ukryciu-na-strychu-z-wlasnej-woli-czy-byla-wieziona/3bdddbl
+!Usuwanie, po obecnośc utrudnia chowanie powiązanego wideo
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33
+fakt.pl##ARTICLE P:has(> A[href*="fakt.pl/"]:only-child):remove()
+
+!#canonical #desktop - Linki powiązane w treści z paragrafem "Zobacz także:" przed, 
+!https://www.fakt.pl/kobieta/plotki/small-world-patryka-vegi-trafil-do-kin-czy-warto-pojsc-do-kin-recenzja/kpdzxfe
+fakt.pl##ARTICLE P:last-of-type:has-text(Zobacz także:):remove()
+
+!#canonical #desktop - Linki powiązane w treści
+!https://www.fakt.pl/pieniadze/finanse/kredyty-frankowe-i-ugody-z-pko-bp-bank-przesuwa-termin/w0n7s7l
+!https://www.fakt.pl/pieniadze/biznes/wakacje-2021-za-granica-jakie-sa-aktualne-obostrzenia-raport-0908/x7zextj
+fakt.pl##ARTICLE P:has(> STRONG:first-child:has-text(Czytaj więcej:) + A[href*="fakt.pl/"]:last-child):remove()
+fakt.pl##ARTICLE P:has(> STRONG:first-child:has-text(Czytaj więcej:) + A[href*="medonet.pl/"]:last-child):remove()
+
+!#canonical #desktop - Sekcja "Zobacz także" w treści
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+!Usuwanie, bo psuje chowanie powiązanego wideo
+!https://www.fakt.pl/pieniadze/finanse/doplaty-do-czynszow-kiedy-pomoc-dla-lokatorow/4fhcnb5?utm_source=_viasg_fakt
+!Nie trzeba usuwać, wystarczy zamienić "P:last-of-type + SCRIPT" na "P:last-of-type ~ SCRIPT"
+!Ty też się psuło przez DIV.placeholder.embed.moneteasy
+!fakt.pl##DIV.related-articles:remove()
+fakt.pl##DIV.related-articles
+
+!#canonical #desktop - wideo powiązane pod artykułem
+!https://www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/finanse/gielda-zpue-sa-tlumaczy-po-co-jej-luksusowy-jacht/8jx636n?utm_source=_viasg_fakt
+fakt.pl##ARTICLE P:last-of-type ~ SCRIPT + DIV.mainPlayer:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+
+!#canonical #desktop - wideo powiązane pod artykułem jeżeli przed tym jest paragraf z tekstem zachęcającym
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33
+fakt.pl##ARTICLE P:last-of-type:has-text(Zobacz też:) ~ SCRIPT + DIV.mainPlayer:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1] | self::node()/preceding-sibling::P[1])
+
+!Pasek powrotu na stroną główną na dole strony mobilnej 
+!fakt.pl##A#back-to-onet
+
+
+medonet.pl##UL#medServices
+!https://www.medonet.pl/zdrowie,lekarz-apeluje--codziennie-powinnismy-myc-tylko-trzy-czesci-ciala,artykul,99650859.html?utm_source=www.wykop.pl_viasg_medonet&utm_campaign=leo_automatic
+||static.medonet.pl/widget.js
+medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"]:has(LI.item:only-child)
+medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Przeczytaj także:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Wypróbuj sprawdzone kosmetyki do mycia ciała dostępne na Medonet Market:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+medonet.pl##ARTICLE SECTION.left DIV.embeddedApp
+medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"] LI:has(A[href*="onet.pl/#utm_source="])
+
+
+! Title: Onet.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||onet.pl^$ghide
+
+!Na wszelki wypadek
+@@||pulsembed.eu^$ghide
+
+!Na wszelki wypadek
+@@||pulsevideo.eu^$ghide
+
+!Pokazanie contentu premium
+auto-swiat.pl,businessinsider.com.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.contentPremium:style(display: block !important;)
+
+||csr.onet.pl^
+||events.ocdn.eu^
+||events.onet.pl^
+||googletagservices.com^
+||k266d5zsl.onet.pl^
+||ty0lm9uz.onet.pl^
+||cmp.dreamlab.pl^
 onet.pl##+js(set, EventsApi._init, noopFunc)
+||pushpushgo.com^$domain=onet.pl
+
+||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
+@@||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
+
+!Fanboy's Enhanced Tracking List 
+!/paywall.min.js
+!Ładowanie zdjęć
+@@||ocdn.eu/paywall-cdn/paywall.min.js?
+!https://www.auto-swiat.pl/wiadomosci/aktualnosci/sprawdz-swoja-wiedze-o-samochodach-i-technice-jazdy-quiz/zjgw98f
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+
+
+!Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
+||2mdn.net^$domain=pulsembed.eu,important
+
+!https://grupa-onet.pulsevideo.eu/2173781.1231839560
+||2mdn.net^$domain=pulsevideo.eu,important
+
+!Bez tego przy ponownym włączeniu filmu, który się skończył treść pobierała się od nowa:
+!xhr - video-node-2-a-pl-krk-1.dreamlab.pl/usp/
+!xhr - player-api.dreamlab.pl/?body%
+!https://grupa-onet.pulsevideo.eu/2173781.1231839560
+pulsevideo.eu##+js(addEventListener-defuser, ended)
+
+!Bez https w linku, po zakończeniu odtwarzania wysyłane jest żądanie do qi.related.onetapi.pl
+!https://grupa-onet.pulsevideo.eu/2173781.1231839560
+||qi.related.onetapi.pl^
+
+!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=fcb49db3-af14-4ba8-b54a-f301a186d5dd&sid=b177a2c9-166f-4113-9b28-185bbe554807&utm_v=2
+!https://businessinsider.com.pl/firmy/zarzadzanie/budowa-lotniska-w-radomiu-prace-na-budowie-ppl/vl6nvm4?utm_source=businessinsider.com.pl_viasg_businessinsider&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
+.pl/*?utm_source=*utm_v$document,queryprune=|utm_v,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
+.pl/*?utm_source=*srcc$document,queryprune=|srcc,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
+.pl/*?utm_source=*utm_medium$document,queryprune=|utm_medium,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
+!https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
+.pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
+
+
+!https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
+!@@||onet.pl/*?ajax=*&page=*$xhr,first-party
+!https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
+!||pulsembed.eu^$xhr,first-party
+!https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
+!||pulsembed.eu^$script,first-party
+!https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
+!||pulsembed.eu^$image,first-party
+
+
+
+
+
+
+!#www.onet.pl #desktop #mobile - Puste pole w prawej kolumnie między pogodą, a sekcją "Media mówią"
+!https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
+onet.pl##BODY.ucs-infoskin DIV#extraAdsBlock
+
+!#canonical #desktop #mobile - Puste miejsce pod artykułem - bez usuwania pobierały się obrazki
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
+!https://wiadomosci.onet.pl/opinie/bialorus-jurasz-kgb-w-karpaczu-msz-szuka-kozla-ofiarnego-po-wpadce/0k8e9pr
+onet.pl##BODY.ucs-infoskin DIV.streamNews
+onet.pl##BODY.ucs-infoskin DIV.streamNews:remove()
+
+!#canonical #desktop #mobile - Sekcja Masz ciekawy temat? Napisz do nas list! pod artykułem
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin SECTION.OpenDiscussionBox
+
+!#canonical #desktop #mobile - Przyciski społecznościowe po lewej stronie od wideo
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin DIV.contentShareLeft
+
+!#canonical #desktop #mobile - Przyciski społecznościowe pod tytułem
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin DIV.social-container
+
+!#canonical #desktop #mobile - Puste miejsce po reklamie po prawej stronie
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin ASIDE.extraListTop.extraList
+
+!#canonical #desktop #mobile - Szare pole "Zobacz także" z linkami w treści artykułu
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin DIV.frameWrap
+
+!#canonical #desktop #mobile - Puste małe miejsce po reklamie przed zdaniem "Co gorsza, wygłaszane z hiobowym obliczem"
+!Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
+
+!#canonical #desktop #mobile - Ostatnie wideo pod artykułem nie związane z tematem
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin DIV.articleBody > DIV.embeddedApp:last-child
+
+!#canonical #desktop #mobile - Wideo powiązane odtwarzające się po doscrollowaniu do niego
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##+js(addEventListener-defuser, scroll, 300)
+
+!#canonical #desktop #mobile - Wideo powiązane odtwarzające przy zmianie rozmiaru okna
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##+js(addEventListener-defuser, resize, 300)
+
+!#canonical #desktop #mobile - Puste pole po reklamie pod artykułem, przed "Zobacz również"
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin #googleAdsCont
+
+!#canonical #desktop #mobile - Puste pole pod artykułem, po tematach artykułu
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin SECTION.streamWithRight
+
+!#canonical #desktop #mobile - Puste miejsce między paragrafami w treści artykułu
+!https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
+onet.pl##BODY.ucs-infoskin DIV.onet-ad
+
+!#canonical #desktop #mobile - Newsletter z paragrafem
+!https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
+!https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
+onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV.placeholder.embed.htmlbox:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!#canonical #desktop #mobile - Newsletter bez paragrafu
+!https://wiadomosci.onet.pl/poznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1
+!https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
+onet.pl##BODY.ucs-infoskin DIV.detail DIV.placeholder.embed.htmlbox:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
+
+!#canonical #desktop #mobile - Wideo w treści artykułu - paragraf "dalszy ciąg..." 
+!P[data-scroll="paragraph"] - https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
+onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!#canonical #desktop #mobile - Wideo w treści artykułu
+onet.pl##BODY.ucs-infoskin DIV.detail DIV.pulsevideo
+
+!#canonical #desktop #mobile - Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
+!https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
+!https://wiadomosci.onet.pl/opinie/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb?utm_source=_viasg_fakt
+
+!#canonical #desktop #mobile - Wideo na górze
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
+onet.pl##BODY.ucs-infoskin DIV.detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
+onet.pl##BODY.ucs-infoskin DIV.detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
+
+!#canonical #desktop #mobile - Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu
+!https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2?utm_source=t.co_viasg_wiadomosci
+onet.pl##BODY.ucs-infoskin DIV.detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+onet.pl##BODY.ucs-infoskin DIV.detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
+
+!#canonical #desktop #mobile - ramka z reklamą w treści
+!https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr
+onet.pl##BODY.ucs-infoskin DIV.placeholder.embed.moneteasy
+
+!#canonical #desktop #mobile - ramki ładowane po kliknięciu
+onet.pl##BODY.ucs-infoskin DIV.placeholder.embed:style(padding-top: unset !important;)
+onet.pl##BODY.ucs-infoskin DIV.placeholder.embed DIV.embeddedApp:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
+onet.pl##BODY.ucs-infoskin DIV.placeholder.embed DIV.pulsembed_embed:style(min-height: 100px !important;)
+
+
+
+!#canonical #mobile - Kontynuuj czytanie od miejsca, w którym skończyłeś.
+!https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
+onet.pl##BODY.ucs-infoskin DIV.goToParagraphBar
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+||onet.pl/*-sw.js
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+||batuu.pl^$domain=onet.pl
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+||ocdn.eu/*smartlink
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+||ocdn.eu/*lpsAdsLifestyle.js
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+||ocdn.eu/*flowplayer*bundle.min.js
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+||ocdn.eu/*flowplayer*bundle-
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+||ocdn.eu/*flowplayer*flowplayer.min.js
+
+!#canonical #desktop #mobile - Progressive web app
+!https://ocdn.eu/kobieta/pwa/manifest.json
+||ocdn.eu/*/pwa/
+
+!#canonical #desktop #mobile
+https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr
+@@||onet.pl/favicon.ico
+
+!#canonical #desktop #mobile - Nadpisanie filtru @@/adservice.*.js?domain=$script z Fanboy’s Enhanced Tracking List
+!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
+||adservice.google.com^$domain=pulsembed.eu,important
+
+!#canonical !www.onet.pl #desktop #mobile - Puste miejsce po miniaturach
+!https://wiadomosci.onet.pl/
+!https://www.onet.pl/
+onet.pl##BODY DIV.insertedSlot
+
+
+
+
+
+!#canonical #desktop #mobile - Puste miejsce po reklamie pod zobacz również pod artykułem
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
+!onet.pl##BODY.ucs-infoskin DIV#googleAdsCont
+!onet.pl#@#DIV#googleAdsCont
+!#canonical #desktop #mobile
+!||videotools.ocdn.eu/libs/floating/$domain=onet.pl
+
+
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
+!Bez rredirect psuło się wideo na mobilnej stronie: https://www.onet.pl/sport/onetsport/igrzyska-1972-zloty-medal-polakow-co-dzieje-sie-z-pilkarzami-kazimierza-gorskiego/mc1svzb,d87b6cc4
+||ocdn.eu/*/social.js$redirect=noopjs
+
+!#www.onet.pl #desktop #mobile - Pewnie jakiś komunikat o aplikacji na mobilnej wersji strony
+!https://play.google.com/store/apps/details?id=pl.onet.onethd
+||onet.pl/mobile/manifest.json
+
+!#www.onet.pl #desktop #mobile - Zapowiedź artykułu
+!https://www.onet.pl/?utm_source=businessinsider.com.pl_viasg_businessinsider&utm_medium=referal&utm_campaign=leo_automatic&srcc=ucs&pid=535ab188-817b-4efd-a47a-e213e0566337&sid=ca05277f-7c3f-495c-9acc-986177acd173&utm_v=2
+||www.onet.pl/?utm_source=$inline-script
+
+!#www.onet.pl #mobile - Elementy poniżej zapowiedzi
+www.onet.pl##DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mobileView ~ *
+
+!#www.onet.pl #mobile - Znak ładowania poniżej zapowiedzi
+www.onet.pl##DIV.phx--fixer > #observeContainer
+
+!#www.onet.pl #desktop - elementy poniżej zapowiedzi
+www.onet.pl##DIV.Phx__fixer > DIV#mainPageBody0Wrapper:has(DIV.showMore) ~ *
+
+!#www.onet.pl #desktop - usunięcie pustej przestrzeni po usunięciu elementów pod zapowiedzią
+!https://www.onet.pl/?utm_source=kobieta.onet.pl_viasg_kobieta&utm_campaign=leo_automatic&pid=023e364c-859e-4511-9d66-2078c0ed8455&sid=63eeb4cc-4788-4ae3-a160-ddd0a01f6209
+www.onet.pl##BODY:style(min-height: unset !important;)
+
+!#www.onet.pl #mobile - Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowiedzią artykułu
+!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
+www.onet.pl##DIV.nitroShare
+
+!#www.onet.pl #mobile - Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
+!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
+www.onet.pl##NAV.bottomBarNavigations
+
+!#www.onet.pl #desktop #mobile - Masz ciekawy temat? Napisz do nas list!
+!Początek: https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
+!Początek: https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
+www.onet.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
+
+!#www.onet.pl #desktop #mobile - Newsletter z paragrafem
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV:has(A[href*="https://htmlbox.pulsembed.eu/embed/"]):xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!#www.onet.pl #desktop #mobile - Newsletter bez paragrafu
+!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
+
+!#www.onet.pl #desktop #mobile - Wideo w treści artykułu
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class*="EmbeddedApplication_pulsevideo_"]
+
+!#www.onet.pl #desktop #mobile - Wideo w treści artykułu - paragraf "dalszy ciąg..."
+!Ciąg dalszy artykułu pod wideo. - https://kultura.onet.pl/wiadomosci/jacek-kurski-jednak-nie-zostanie-prezesem-tvp-krzysztof-czabanski-zabral-glos/4bf8tkk?utm_source=_viasg_fakt
+!Dalszy ciąg artykułu pod wideo. - https://www.onet.pl/kultura/onetkultura/jan-pospieszalski-zablokowany-przez-patronitepl-nie-zebral-ani-zlotowki/b6eeeq9,681c1dfa
+!Dalsza część artykułu pod materiałem wideo
+!Dalsza część artykułu znajduje się pod materiałem wideo  - https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
+!Dalsza część artykułu znajduje się poniżej materiału wideo
+!Dalsza część tekstu znajduje się pod materiałem wideo
+!Dalsza część tekstu znajduje się pod wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2
+!Dalszą część tekstu znajdziesz pod materiałem wideo
+!Pozostała część tekstu pod materiałem wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/tvp-znow-nie-zaprasza-ludzi-zbigniewa-ziobry/tb5hmms?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
+!Reszta tekstu pod materiałem wideo
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + DIV[class*="EmbeddedApplication_wrapper_"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!#www.onet.pl #desktop #mobile - Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
+!https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+www.onet.pl##ARTICLE#Module DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+www.onet.pl##ARTICLE#Module DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
+
+!#www.onet.pl #desktop #mobile - Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
+
+!#www.onet.pl #desktop #mobile - Pojedyncze kropki z powiązanymi artykułami w treści tekstu
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+
+!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+!#www.onet.pl #desktop #mobile - Ramka FB w treści
+||pulsembed.eu^$subdocument,3p,redirect=click2load.html,domain=onet.pl
+www.onet.pl##DIV[class*="RelatedItems_container__"]
+www.onet.pl##DIV[class*="EmbeddedApplication_embedPlaceholder"]:style(padding-top: unset !important;)
+www.onet.pl##DIV[class*="EmbeddedApplication_wrapper_"] DIV[class*="EmbeddedApplication_container__"]:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
+www.onet.pl##DIV[class*="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:style(min-height: 100px !important;)
+
+!#www.onet.pl #desktop #mobile - Ramka z reklamą
+!https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
+www.onet.pl##DIV[class*="EmbeddedApplication_moneteasy"]
+
+!#www.onet.pl #desktop #mobile - Szara ramka z Zobacz także
+www.onet.pl##DIV.promoFrame
+
+!#www.onet.pl #desktop #mobile - Puste miejsca po reklamach na https://www.onet.pl/
+www.onet.pl##DIV.insertedSlot
+
+!#www.onet.pl #mobile - Na mobilnej stronie głównej przyciski do udostępnienia na miniaturach
+!https://www.onet.pl/#
+www.onet.pl##SPAN.shareButton
+
+!#www.onet.pl #desktop #mobile - Pasek z socialami nad leadem
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+www.onet.pl##DIV._3r88rCARRhkQKjaEl0gPLZ
+
+!#www.onet.pl #desktop #mobile - Przyciski do facebooka i Twittera po lewej stronie artykułu
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+www.onet.pl##DIV[data-gtm-social]
+
+!#www.onet.pl #desktop #mobile - Część odpowiedzialna za przeniesienie na główną po przescrollowaniu na dół
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+||ocdn.eu/*boxBackToMainPage
+www.onet.pl##BODY DIV.backToMainPage
+
+!#www.onet.pl #desktop #mobile - Szare pole z napisam zobacz także po lewej od artykułu
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+www.onet.pl##DIV.C5XFtgeC-8Px7XoX8_Vo3
+
+!#www.onet.pl #desktop #mobile - Formularz pod artykułem Masz ciekawy temat? Napisz do nas list!
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+www.onet.pl##SECTION.contentBottomContainer > DIV > DIV:has(A[href="https://wiadomosci.onet.pl/listy-do-redakcji"])
+
+!#www.onet.pl #desktop #mobile - W narzędziach deweloperskich widać Response header "server": Dreamlab Accelerator
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
+||onet.pl/*manifest.json
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s.js
+||ocdn.eu/*/ad_s.js$script,redirect=noopjs
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/init.js
+||ocdn.eu/*/ad_s/init.js
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/linkstorage.js
+||ocdn.eu/*/ad_s/linkstorage.js
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s/locallink.js
+||ocdn.eu/*/ad_s/locallink.js
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/ad_s_async.js
+||ocdn.eu/*/ad_s_async.js
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej, domyślam się, że powiadomienia
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/common/pushapplication.js
+||ocdn.eu/*/pushapplication.js
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej, domyślam się, że powiadomienia
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/push.js
+||ocdn.eu/*/push.js$script,redirect=noopjs
+
+!#www.onet.pl #desktop #mobile - Strona główna onet.pl i strony https://www.onet.pl/informacje/ z linków na niej
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/common/components/ad_SlotUtil.js
+||ocdn.eu/*/ad_SlotUtil.js$script,redirect=noopjs
+
+!#www.onet.pl #desktop #mobile - Autorefresh po jakimś czasie
+!https://ocdn.eu/ucs/static/onetmainpage/af3a5844889de4dd41a70f87090d796a/build/js/desktop/components/autorefresh.js
+||ocdn.eu/*/autorefresh.js$script,redirect=noopjs
+
+!#www.onet.pl #mobile - User-agent firefox android
+!https://www.onet.pl/
+!onet.pl/push-service-worker4.js?V=450
+||onet.pl/push-service-worker
+
+!#www.onet.pl #mobile - User-agent firefox android
+!https://www.onet.pl/
+@@||onet.pl/newslivestream
+
+!#www.onet.pl #mobile - Przyciski socialowe nad leadem na stronie mobilnej
+!https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
+www.onet.pl##DIV.commons
+
+!#www.onet.pl #mobile - Emotki nad leadem na stronie mobilnej
+!https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
+www.onet.pl##SPAN.emotions
+
+!#www.onet.pl #desktop #mobile - Przeniesienie ze strony z błędem 404 na stronę główną
+!https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
+www.onet.pl##+js(no-setTimeout-if, 404, 2000)
+
+!#www.onet.pl #desktop #mobile
+!https://kobieta.onet.pl/
+!https://ocdn.eu/kobieta/pwa/workbox-google-analytics.prod.v1.0.0.js
+||ocdn.eu/*google-analytics
+
+!#www.onet.pl #desktop #mobile
+!https://kobieta.onet.pl/
+!https://kobieta.onet.pl/kobieta-sw.js
+||onet.pl/*sw.js
+
+!#www.onet.pl #desktop #mobile
+!https://kobieta.onet.pl/
+!https://ocdn.eu/skom/utils/stats/tracked-section.js
+||ocdn.eu/*tracked-section.js
+
+!#www.onet.pl #mobile - Pasek na dole strony mobilnej
+!https://www.onet.pl/kultura/onetkultura/andrzej-piaseczny-wywiad-z-okazji-premiery-nowej-plyty/pf97tmq,681c1dfa
+www.onet.pl##DIV.bottomBar
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/informacje/onetwiadomosci/zatrzymany-przez-cba-biznesmen-przemyslaw-krych-ujawnia-ze-dostal-oferte-wolnosc-za/h9lcb2d,79cfc278
+www.onet.pl##DIV[class^="AdPlaceholder_adPlaceholder_"]
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/
+www.onet.pl##DIV.placeholder-container
+
+!#www.onet.pl #desktop #mobile - !Reklama pod głównym zdjęciem
+!https://www.onet.pl/informacje/onetwiadomosci/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0,79cfc278
+www.onet.pl##ASIDE[class*="CenterAd_containerTop_"]
+
+!##www.onet.pl #desktop #mobile - Prosotkąt Obserwuj nas po prawej stronie
+www.onet.pl##.widgetFollowUs.widget
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+@@||ocdn.eu/video-apps/flowplayer/*/dist/flowplayer.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/ads.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/analytics.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/message.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-scripts/flow-player-plugin-stats/*/bundle-$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+||player-api.dreamlab.pl/?body%5Bmethod%5D=channel_related_search&$xhr,domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile - bez tego po zakończeniu ładuje się od nowa
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+pulsembed.eu##+js(addEventListener-defuser, ended)
+
+!#www.onet.pl #desktop #mobile - GDPR w treści
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/aops/plansza/css/onetras.css
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||pmi.flowplayer.com^$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+@@||pulsembed.eu/providers.js?
+
+!#www.onet.pl #mobile - reklama na stronie głównej
+onet.pl##+js(acis, window.onetAds, adJSON)
+
+!#www.onet.pl #mobile - reklama na stronie głównej
+onet.pl##+js(acis, window.onetAds, adJSON)
+
+!ocdn.eu/ramp/1746213/Sponsoring-Mobile-Float-Universal/tpl.min.js?20
+||ocdn.eu/*/tpl.min.js
+
+!#www.onet.pl #mobile - miejsce po reklamach na stronie głównej
+www.onet.pl##DIV.onet-ad
+
+!#www.onet.pl #mobile - miniaturki na stronie głównej
+!www.onet.pl##+js(rat, src, data-original, A[href] IMG[data-run-module="local/common/hybridLazyLoading.run"][src^="data:image/png;base64,"][data-original^="//ocdn.eu/"], complete)
+
+
+
+
+!www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część artykułu pod materiałem wideo:)/i)
+!wiadomosci.onet.pl##DIV.detail DIV.pulsevideo
+!onet.pl#@#^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+
+#canonical #mobile - Pasek na dole strony Przejdź na Onet.pl
+pogoda.onet.pl##DIV.backToOnetBottomBar
+ 
+!#canonical #canonical #mobile - miejsce po reklamach
+pogoda.onet.pl##DIV.aBox
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+onet.pl##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+onet.pl##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+onet.pl##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+onet.pl##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+onet.pl##HTML[\⚡] > BODY AMP-AD
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+onet.pl##HTML[\⚡] > BODY AMP-CONSENT
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp - blokowanie tego blokowało ramkę z podcastem
+onet.pl#@#HTML[\⚡] > BODY AMP-SOCIAL-SHARE
+ampproject.org#@#HTML[\⚡] > BODY AMP-SOCIAL-SHARE
+
+!#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+!onet.pl##+js(ampproject_v0.js)
+!Wykomentowane, bo psuło filtry ##+js( na mobilnej stronie głównej
+
+!#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+onet.pl##HTML[\⚡] > BODY DIV.bottomLayerBar
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) DIV.bottomLayerBar
+
+!amp #ampproject - przyciski socialowe nad głównym zdjęciem
+onet.pl##H1.headline + DIV.social-box
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) H1.headline + DIV.social-box
+
+!#amp #ampproject - napis "REKLAMA"
+!https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
+onet.pl##DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
+
+
+!#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+!https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
+onet.pl##HTML[\⚡] > BODY ARTICLE UL:first-of-type > LI:last-child:has(A[href*="onet.pl/#utm_source"])
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:first-of-type > LI:last-child:has(A[href*="onet.pl/#utm_source"])
+
+!#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+!https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
+!https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
+onet.pl##HTML[\⚡] > BODY ARTICLE UL:has(> LI:only-child > A[href*="onet.pl/"])
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:has(> LI:only-child > A[href*="onet.pl/"])
+
+!#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+!https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
+onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
+!https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
+onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
+
+!#amp - ramka z instagrama
+!https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr.amp
+||instagram.com^$subdocument,3p,redirect=click2load.html,domain=onet.pl
+
+!#amp - ramka z youtuba
+!https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr.amp
+||youtube.com^$subdocument,3p,redirect=click2load.html,domain=onet.pl
+
+!#amp - ramka z twittera
+!https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
+||ampproject.net^$subdocument,3p,redirect=click2load.html,domain=onet.pl
+
+!#ampproject - ramka z facebooka
+!https://wiadomosci-onet-pl.cdn.ampproject.org/c/s/wiadomosci.onet.pl/trojmiasto/plaze-w-czasach-pandemii-rozmawiamy-z-fotografem-slynnego-ujecia-z-wladyslawowa/1x8tzhz.amp
+||ampproject.net^$subdocument,3p,redirect=click2load.html,domain=ampproject.org
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
+!||sgqcvfjvr.onet.pl$domain=pulsembed.eu,important
+!amp - Wykluczenie ze względu na ramkę z wideo wideo https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
+@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
+
+!#amp #ampproject - linki do powiazanych po skrócie artykułu
+!https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr.amp
+onet.pl##HTML[\⚡] > BODY ARTICLE UL:first-of-type + DIV:has(> UL:only-child)
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:first-of-type + DIV:has(> UL:only-child)
+
+!amp = żądania do events.onet.pl/
+!amp - Wykluczenie ze względu na ramkę z wideo wideo https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
+!https://pulsembed.eu/p2em/8-J4TRor_#amp=1
+pulsembed.eu##+js(set, EventsApi._init, noopFunc)
+
+
+
+
+!kobieta.onet.pl##+js(no-setTimeout-if, /^/)
+!kobieta.onet.pl##+js(set, window.onetAds.adsNoBanner, true)
+!onet.pl##+js(mylogger)
+!||kobieta.onet.pl^$inline-script
+!kobieta.onet.pl##script#adsinit:remove()
+!onet.pl##+js(addEventListener-logger)
+!onet.pl##+js(addEventListener-defuser, /^/)
+
+
+!onet.pl##+js(acis, document.getElementById, admain)
+
+
+
+
+!#www.onet.pl #desktop #mobile - Nieładujące się niektóre miniaturki na wiadomosci.onet.pl po zablokowaniu sgqcvfjvr.onet.pl
+||sgqcvfjvr.onet.pl^$script,important,domain=onet.pl
+onet.pl##+js(rat, src, data-original, A.itemBox IMG[src^="data:image/png;base64,"][data-original^="//ocdn.eu/"], complete)
+!Tu jest komunikat o adblocku https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr?utm_source=kobieta.onet.pl_viasg_kobieta
+
