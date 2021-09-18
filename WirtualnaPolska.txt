@@ -247,9 +247,9 @@ wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + I
 !abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(A[target="_blank"][href^="https://holding.wp.pl/"])):remove()
 wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(P)):remove()
 
-!Pasek z koszykiem na dole okna
+!#canonical #desktop #mobile - Pasek z koszykiem na dole okna "Twoje okazje"
 !https://wiadomosci.wp.pl/warszawa-polacy-korzystaja-z-pogody-tlumy-na-bulwarach-wislanych-6637883515714048g/5
-wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD[data-reactid="5"] > DIV:not([data-reactid]):has(:scope > DIV > DIV > DIV) > *:remove()
+wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD[data-reactid="5"] > DIV:has(DIV:matches-css-before(content:/T.*W.*O.*J.*E.*O.*K.*A.*Z.*J.*E/)) > DIV > *:remove()
 wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) HEADER DIV[data-st-area="Header"] > DIV:not([data-reactid]):remove()
 
 !Reklama po bokach strony
@@ -605,4 +605,6 @@ money.pl##ARTICLE + DIV > DIV:only-child > DIV:first-child > DIV:first-child:has
 !https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
 money.pl##DIV[data-st-area="st-gallery-reactions"] > DIV:first-child:last-child > DIV:first-child + DIV:last-child
 
-
+!#canonical #desktop - Strona desktopowa miała pasek poziomy
+!https://wiadomosci.wp.pl/
+wp.pl##.teasersListing::before, .teasersListing::after:style(width: unset !important;)
