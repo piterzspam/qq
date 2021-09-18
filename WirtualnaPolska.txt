@@ -60,7 +60,6 @@ abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorko
 @@*$ghide,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 
 ||v.wpimg.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||www.wp.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||gemius.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||doubleclick.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||adocean.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
@@ -110,6 +109,9 @@ abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorko
 ||google-analytics.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 !||data-api.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 ||clickonometrics.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+
+!Po zablokowaniu po wejściu na stronę bez pozycji ok. WPwlbcappfxfac31m11h5 o wartości ok. 1631974811281 w localStorege pokazuje się komunikat o adblocku
+!||www.wp.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 
 !Przeładowanie strony po zmianie karty
 abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
