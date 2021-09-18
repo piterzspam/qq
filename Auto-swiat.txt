@@ -1,0 +1,167 @@
+! Title: Auto-swiat.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||auto-swiat.pl^$ghide
+
+!#canonical #desktop - blokowanie zapytań events.ocdn.eu
+!https://www.auto-swiat.pl/
+auto-swiat.pl##+js(set, EventsApi._init, noopFunc)
+
+!#canonical #desktop
+!https://www.auto-swiat.pl/
+||pushpushgo.com^$domain=auto-swiat.pl
+
+!#canonical #desktop
+!https://www.auto-swiat.pl/
+||tinypass.com^$domain=auto-swiat.pl
+
+
+!#canonical #desktop
+!https://www.auto-swiat.pl/
+||opecloud.com^$domain=auto-swiat.pl
+
+!#canonical #desktop
+!https://www.auto-swiat.pl/
+||auto-swiat.pl/sw.js
+
+!#canonical #desktop
+!https://www.auto-swiat.pl/
+!||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl,important
+!||sgqcvfjvr.onet.pl/YnVpbGQvezlza2x0ZTU1fWRsQXBpL2RsLmxpYntOTWFzX0E1NX0ubWluLmpz$domain=auto-swiat.pl,important
+!Wyłączone, bo psuło wideo na: https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+@@||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl
+
+!#canonical #desktop #amp #ampproject - pokazywanie contentu premium
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##.contentPremium:style(display: block !important;)
+
+!#canonical #mobile - naprawa fix głównego wideo
+!https://ev.auto-swiat.pl/testy/honda-e-szybsza-niz-wyglada/n9rwhe3
+auto-swiat.pl##.contentPremium:style(position: unset !important;)
+
+!#canonical #desktop - ładowanie zdjęć w sekcji premium
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+!auto-swiat.pl##+js(rat, src, data-original, IMG[data-run-module="uststd/controls.layzyimage"][src^="data:image/svg+xml;"][data-original^="//ocdn.eu/"], complete)
+
+!#canonical #desktop - Zapobieganie usuwania sekcji premium
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##+js(noeval-if, document.querySelectorAll('.contentPremium'))
+
+!#canonical #desktop - Zapobieganie braku dynamicznego ładowania zdjęć i wideo w sekcji premium
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##ARTICLE DIV.offerContainer:remove()
+
+!#canonical #desktop - Pływające wideo
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+||ocdn.eu/*/floating-player$domain=auto-swiat.pl
+
+!#canonical #desktop - Puste miejsca na reklamy
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##DIV.placeholder
+
+!#canonical #desktop - Puste miejsca na reklamy po prawej stronie
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##DIV.extraAdsBlock
+
+!#canonical #desktop - Przyciski socialowe nad leadem
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##DIV.social-container
+
+!#canonical #desktop - Przyciski socialowe po prawej stronie
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##DIV.contentShareLeft
+
+!#canonical #desktop - Puste miejsce po prawej stronie
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##DIV.asideAds
+
+!#canonical #desktop - ostatnia kropka skrótu artykułu - "Wszystkie numery Auto Świata w jednym miejscu! Sprawdź naszą subskrypcję"
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##ARTICLE UL:first-of-type > LI:last-child:has(A[href*="auto-swiat.pl/subskrypcja"])
+
+!#canonical #desktop - Ramki
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
+auto-swiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+auto-swiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+
+!#canonical #mobile #amp #ampproject - sekcja "Zobacz także" w treści artykułu
+!https://www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##ARTICLE ASIDE.linkedStoriesFrame
+
+!#canonical #mobile #amp #ampproject - Ostatnia kropka w skrócie "Więcej takich tekstów znajdziesz na stronie głównej Onet.pl"
+!https://www.auto-swiat.pl/wiadomosci/aktualnosci/kilkadziesiat-policyjnych-wykroczen-na-jednym-filmie-czy-kierowca-radiowozu-moze/n3tz6zq
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##ARTICLE UL:first-of-type > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##ARTICLE UL:first-of-type > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
+
+!#canonical #desktop #amp #ampproject -  pojedyncze kropki z linkami do reklam
+!https://www.auto-swiat.pl/wiadomosci/aktualnosci/kilkadziesiat-policyjnych-wykroczen-na-jednym-filmie-czy-kierowca-radiowozu-moze/n3tz6zq
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/wiadomosci/aktualnosci/kilkadziesiat-policyjnych-wykroczen-na-jednym-filmie-czy-kierowca-radiowozu-moze/n3tz6zq.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##ARTICLE UL:has(> LI:only-child A[href*="csr.onet.pl"])
+
+!#canonical #mobile - Za dzuży odstęp pod wideo
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+auto-swiat.pl##ARTICLE DIV.pulsevideoWrapper:style(min-height: unset !important;)
+
+!#canonical #mobile - pierwsze wideo w contentpremium jest niezwiązane z treścią, usuwanie, żeby się nie pobierało
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+!https://ev.auto-swiat.pl/wiadomosci/nowy-fiat-500-zostaje-autem-wloskiej-reprezentacji-w-pilce-nozne/2j7v0cj
+!https://www.auto-swiat.pl/porady/prawo/telefon-narkotyki-czy-alkohol-co-najbardziej-rozprasza-kierowce/3qhcdjw - tu nie ma
+auto-swiat.pl##ARTICLE DIV.articleBody.dl-gallery-description > DIV.contentPremium > DIV.pulsevideoWrapper:first-child:remove()
+
+!#canonical #desktop - pierwsze wideo w contentpremium jest niezwiązane z treścią, usuwanie, żeby się nie pobierało
+!https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
+!https://ev.auto-swiat.pl/wiadomosci/nowy-fiat-500-zostaje-autem-wloskiej-reprezentacji-w-pilce-nozne/2j7v0cj
+!https://www.auto-swiat.pl/porady/prawo/telefon-narkotyki-czy-alkohol-co-najbardziej-rozprasza-kierowce/3qhcdjw - tu nie ma
+auto-swiat.pl##ARTICLE DIV.articleBody.dl-gallery-description > DIV.contentPremium > SCRIPT:first-child + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1]):remove()
+
+!#canonical #mobile - pokazywanie głównego wideo
+!https://ev.auto-swiat.pl/testy/honda-e-szybsza-niz-wyglada/n9rwhe3
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
+!auto-swiat.pl##.ad_adInfo, [class^="placeholder"]
+auto-swiat.pl#@#.ad_adInfo, [class^="placeholder"]
+
+!#amp #ampproject
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+
+!#amp #ampproject
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+
+!#amp #ampproject
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+
+!#amp #ampproject
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+!#amp #ampproject
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-AD
+
+!#amp #ampproject
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-CONSENT
+
+!#amp #ampproject - przyciski socialowe nad głównym zdjęciem
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY H1.headline + DIV.social-box
+
+!#amp #ampproject - reklamy w artykule
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV[style="margin:auto;width:300px;"]
+
+!#amp #ampprojext - pasek na dole strony amp
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY A.barLink
+
+!#amp #ampproject - Link do subskryocji
+!https://www-auto--swiat-pl.cdn.ampproject.org/c/s/www.auto-swiat.pl/testy/testy-nowych-samochodow/lexus-lc-500-convertible-sztuka-odprezenia-test/wyl77zl.amp
+auto-swiat.pl,www-auto--swiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV#piano-modal-pay-wall
+

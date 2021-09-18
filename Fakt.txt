@@ -1,5 +1,174 @@
-! Title: Fakt
+! Title: Fakt.pl
 ! Expires: 1 day
 
+!Na wszelki wypadek
+@@||fakt.pl^$ghide
 
-@@||fakt.pl^$generichide
+!#canonical #desktop #ampproject - pokazywanie contentu premium
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##.contentPremium:style(display: block !important;)
+
+!#canonical #desktop
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||sgqcvfjvr.onet.pl^$domain=fakt.pl,important
+
+!#canonical #desktop
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||pushpushgo.com^$domain=fakt.pl
+
+!#canonical #desktop - baner z ubskrypcją
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||tinypass.com^$domain=fakt.pl
+
+!#canonical #desktop - przyciski socialowe pod tytułem
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+fakt.pl##DIV.article-share
+
+!#canonical #desktop - sekcja "Masz ciekawy temat? Napisz do nas list!"
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+fakt.pl##SECTION.five-columns-wide:has(H3.article-contact-header:has-text(Masz ciekawy temat? Napisz do nas list!))
+
+!#canonical #desktop - Chyba ładuje kolejną stronę po doscrollowaniu do dołu
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+||ocdn.eu/*/sg-loader.min.js
+
+!#canonical #desktop - ramka
+!https://www.fakt.pl/wydarzenia/polityka/wpadka-kancelarii-prezydenta-pomylila-budapesz-z-bukaresztem/hg5bx91
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4
+fakt.pl##DIV.placeholder.embed:style(padding-top: unset !important;)
+fakt.pl##DIV.placeholder.embed DIV.embeddedapp:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
+fakt.pl##DIV.placeholder.embed DIV.embeddedapp DIV.pulsembed_embed:style(min-height: 100px !important;)
+fakt.pl##DIV.placeholder.embed DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+fakt.pl##DIV.placeholder.embed DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+
+
+!#canonical #desktop - pushpushgo w treści
+!https://www.fakt.pl/wydarzenia/polityka/wpadka-kancelarii-prezydenta-pomylila-budapesz-z-bukaresztem/hg5bx91
+||fakt.pl/sw.js
+
+!#canonical #mobile - Miniaturki w artykułach powiązanych
+!https://www.fakt.pl/wydarzenia/polityka/wpadka-kancelarii-prezydenta-pomylila-budapesz-z-bukaresztem/hg5bx91
+!https://www.fakt.pl/pieniadze/finanse/forum-w-karpaczu-pracownicze-plany-kapitalowe-debata-faktu-na-temat-ppk/334kdzd
+fakt.pl##SECTION.see-also-popular DIV.teaser-image-container
+
+!!#canonical #mobile
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+!https://ocdn.eu/ucs/static/faktnext/c0a5ab9ceed260d13316882b154c9adf/build/js/shareButtons.js
+||ocdn.eu/*/shareButtons.js$domain=fakt.pl
+
+!!#canonical #mobile - Pływające wideo w prawym górnym rogu
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+||ocdn.eu/videotools/libs/floating/
+
+!#canonical #mobile - Zapobieganie poszerzania górnego paska po przewinięciu w dół strony
+!https://www.fakt.pl/wydarzenia/polska/bialystok/terespol-uchodzcy-koczuja-na-granicy-dwoch-w-stanie-krytycznym/hhmzv3b
+!fakt.pl##+js(aell)
+!fakt.pl##HEADER.mobile-header DIV.header-icons:style(flex-shrink: 1 !important;)
+!!!fakt.pl##HEADER.mobile-header DIV.header-container A.header-logo:style(flex: 1 1 110px !important;)
+!!!fakt.pl##HEADER.mobile-header DIV.header-container DIV.header-icons:style(flex: 1 1 min-content !important;)
+fakt.pl##HEADER.mobile-header DIV.header-container A.header-logo:style(flex-shrink: 1 !important;)
+fakt.pl##HEADER.mobile-header DIV.header-container DIV.header-icons:style(flex-shrink: 1 !important;)
+fakt.pl##HEADER.mobile-header DIV.header-container DIV.header-icons:style(flex-basis: min-content !important;)
+
+!#canonical #mobile - pusta przestrzeń pod głównym wideo
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4?utm_source=www.fakt.pl_viasg_fakt
+fakt.pl##BODY.video.mobile ARTICLE DIV.article-header DIV.article-video-video:style(padding-bottom: unset !important;)
+fakt.pl##BODY.video.mobile ARTICLE DIV.mainPlayer :style(height: unset !important; display: block !important;)
+
+!#canonical #mobile - puste pola na reklamy
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4?utm_source=www.fakt.pl_viasg_fakt
+fakt.pl##body:not(.placeholders-off):not(.skom) .placeholder:not(.no-info)::after
+fakt.pl##body:not(.screening):not(.placeholders-off):not(.skom) .placeholder-screening::after
+
+!#canonical #desktop - pusta przestrzeń pod głównym wideo
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4?utm_source=www.fakt.pl_viasg_fakt
+fakt.pl##BODY.video.desktop ARTICLE DIV.article-header DIV.article-video-video:style(height: unset !important;)
+
+!
+
+
+!#canonical #desktop - ramkka z reklamą w treści
+!https://www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm?utm_source=_viasg_fakt
+!https://www.fakt.pl/facet/technologie/najpopularniejsze-haslo-komputerowe-2020/7bqlytj?utm_source=_viasg_fakt
+fakt.pl##DIV.placeholder.embed.moneteasy
+
+!#canonical #desktop #amp #ampprojext - Linki powiązane w treści
+!https://www.fakt.pl/wydarzenia/swiat/blanche-monnier-zyla-w-ukryciu-na-strychu-z-wlasnej-woli-czy-byla-wieziona/3bdddbl
+!Usuwanie, po obecnośc utrudnia chowanie powiązanego wideo
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp#slidehash-0
+fakt.pl,www-fakt-pl.cdn.ampproject.org##ARTICLE P:has(> A[href*="fakt.pl/"]:only-child):remove()
+
+!#canonical #desktop - Linki powiązane w treści z paragrafem "Zobacz także:" przed, 
+!https://www.fakt.pl/kobieta/plotki/small-world-patryka-vegi-trafil-do-kin-czy-warto-pojsc-do-kin-recenzja/kpdzxfe
+fakt.pl##ARTICLE P:last-of-type:has-text(Zobacz także:):remove()
+
+!#canonical #desktop #amp #ampproject - Linki powiązane w treści
+!https://www.fakt.pl/pieniadze/finanse/kredyty-frankowe-i-ugody-z-pko-bp-bank-przesuwa-termin/w0n7s7l
+!https://www.fakt.pl/pieniadze/biznes/wakacje-2021-za-granica-jakie-sa-aktualne-obostrzenia-raport-0908/x7zextj
+!https://www.fakt.pl/wydarzenia/polska/bialystok/terespol-uchodzcy-koczuja-na-granicy-dwoch-w-stanie-krytycznym/hhmzv3b
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/wydarzenia/polska/bialystok/terespol-uchodzcy-koczuja-na-granicy-dwoch-w-stanie-krytycznym/hhmzv3b.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##ARTICLE P:has(> STRONG:first-child:has-text(/(Czytaj także:|Czytaj więcej:)/) + A[href*="fakt.pl/"]:last-child):remove()
+fakt.pl,www-fakt-pl.cdn.ampproject.org##ARTICLE P:has(> STRONG:first-child:has-text(/(Czytaj także:|Czytaj więcej:)/) + A[href*="medonet.pl/"]:last-child):remove()
+
+!#canonical #desktop - Sekcja "Zobacz także" w treści
+!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
+!Usuwanie, bo psuje chowanie powiązanego wideo
+!https://www.fakt.pl/pieniadze/finanse/doplaty-do-czynszow-kiedy-pomoc-dla-lokatorow/4fhcnb5?utm_source=_viasg_fakt
+!Nie trzeba usuwać, wystarczy zamienić "P:last-of-type + SCRIPT" na "P:last-of-type ~ SCRIPT"
+!Ty też się psuło przez DIV.placeholder.embed.moneteasy
+!fakt.pl##DIV.related-articles:remove()
+fakt.pl##DIV.related-articles
+
+!#canonical #desktop - wideo powiązane pod artykułem
+!https://www.fakt.pl/pieniadze/finanse/komary-co-skutecznie-odstrasza-komary-jakiego-srodka-uzyc-na-owady/vrq9bgm?utm_source=_viasg_fakt
+!https://www.fakt.pl/pieniadze/finanse/gielda-zpue-sa-tlumaczy-po-co-jej-luksusowy-jacht/8jx636n?utm_source=_viasg_fakt
+fakt.pl##ARTICLE P:last-of-type ~ SCRIPT + DIV.mainPlayer:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+
+!#canonical #desktop - wideo powiązane pod artykułem jeżeli przed tym jest paragraf z tekstem zachęcającym
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33
+fakt.pl##ARTICLE P:last-of-type:has-text(Zobacz też:) ~ SCRIPT + DIV.mainPlayer:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1] | self::node()/preceding-sibling::P[1])
+
+
+!#amp - https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+
+!#amp - https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+
+!#amp - https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+
+!#amp - https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+!#amp - https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-AD
+
+!#amp - https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-CONSENT
+
+!#amp #ampproject - napis "REKLAMA"
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
+
+!#amp #ampproject - Link do subskryocji
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##DIV#piano-modal-pay-wall
+
+!#amp #ampprojext - pasek na dole strony amp
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV.bottomLayerBar
+
+!amp #ampproject - przyciski socialowe nad głównym zdjęciem
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY H1.headline + DIV.social-box
+
+!amp #ampproject - Link z miniaturką do artykułu powiązanego w treści
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV.streamIntext
+
+!amp #ampproject - Wideo z paragrafem "Zobacz też:"
+!https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33.amp
+fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY ARTICLE P:has(> STRONG:only-child:has-text(Zobacz też:)) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])

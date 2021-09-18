@@ -1,0 +1,149 @@
+! Title: Pulsembed.eu
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||pulsembed.eu^$ghide
+
+!Na wszelki wypadek
+@@||pulsevideo.eu^$ghide
+
+!Na wszelki wypadek
+@@||ringpublishing.com^$ghide
+
+!Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
+||2mdn.net^$domain=pulsembed.eu,important
+
+||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
+@@||lib.onet.pl/s.csr/build/dlApi/dl.boot.min.js$domain=pulsembed.eu
+
+!#canonical #desktop - Ramki
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+!https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
+!https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
+!||pulsembed.eu^$subdocument,3p,redirect=click2load.html
+!#www.onet.pl #desktop #mobile - Ramka FB w treści
+!https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+!||pulsembed.eu^$subdocument,3p,redirect=click2load.html,domain=onet.pl
+!#canonical #desktop - ramka
+!https://www.fakt.pl/wydarzenia/polityka/wpadka-kancelarii-prezydenta-pomylila-budapesz-z-bukaresztem/hg5bx91
+!https://www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4
+!||pulsembed.eu^$subdocument,3p,redirect=click2load.html
+!#canonical #desktop - Ramki
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+||pulsembed.eu^$subdocument,3p,redirect=click2load.html
+!Wykomentowane, bo ładowanie ramki w ramce nie działa
+!||html5-player.libsyn.com^$subdocument,3p,redirect=click2load.html,domain=pulsembed.eu
+
+
+!#canonical #desktop #mobile - Nadpisanie filtru @@/adservice.*.js?domain=$script z Fanboy’s Enhanced Tracking List
+!https://wiadomosci.onet.pl/swiat/kim-dzong-un-otrzyma-pomoc-medyczna-z-chin/ksedw2e?utm_source=_viasg_fakt
+||adservice.google.com^$domain=pulsembed.eu,important
+
+!amp = żądania do events.onet.pl/
+!amp - Wykluczenie ze względu na ramkę z wideo wideo https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
+!https://pulsembed.eu/p2em/8-J4TRor_#amp=1
+pulsembed.eu##+js(set, EventsApi._init, noopFunc)
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
+!||sgqcvfjvr.onet.pl$domain=pulsembed.eu,important
+!amp - Wykluczenie ze względu na ramkę z wideo wideo https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
+@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
+
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||pmi.flowplayer.com^$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+@@||pulsembed.eu/providers.js?
+
+!#www.onet.pl #desktop #mobile - bez tego po zakończeniu ładuje się od nowa
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+pulsembed.eu##+js(addEventListener-defuser, ended)
+
+!#www.onet.pl #desktop #mobile
+!https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
+||player-api.dreamlab.pl/?body%5Bmethod%5D=channel_related_search&$xhr,domain=pulsembed.eu
+
+
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+@@||ocdn.eu/video-apps/flowplayer/*/dist/flowplayer.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/ads.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/analytics.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/hls.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-apps/flowplayer/*/dist/plugins/message.min.js$domain=pulsembed.eu
+
+!#www.onet.pl #desktop #mobile 
+!https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
+||ocdn.eu/video-scripts/flow-player-plugin-stats/*/bundle-$domain=pulsembed.eu
+
+
+!Bez tego nie odtwarza się wideo
+!@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu,kobieta.onet.pl
+!Bez tego nie ładują się miniaturki w sekcji "Zobacz Więcej" na stronie https://wiadomosci.onet.pl/
+
+
+#ampproject - ramka z wideo
+!https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/kobieta/plotki/pogrzeb-wieslawa-golasa-znani-i-nieznani-wspominaja-aktora-przed-kamera-faktu/nkqffk4.amp#slidehash-0
+||pulsembed.eu^$subdocument,3p,redirect=click2load.html,domain=ampproject.org
+
+!#canonical #desktop #mobile
+!https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
+!||ocdn.eu/*flowplayer*flowplayer.min.js
+!Wykomentowane, bo nie działało wideo: http://rasp-fakt24.embed.videos.ringpublishing.com/2237358.5452734
+
+!#canonical #desktop - wideo się ładowało od nowa po zakończeniu
+!http://rasp-fakt24.embed.videos.ringpublishing.com/2237358.5452734
+embed.videos.ringpublishing.com##+js(addEventListener-defuser, ended)
+
+!#canonical #desktop - wideo się ładowało od nowa po zakończeniu
+!http://rasp-fakt24.embed.videos.ringpublishing.com/2237358.5452734
+||health.flowplayer.com/v1/health/events
+
+
+
+!https://grupa-onet.pulsevideo.eu/2173781.1231839560
+||2mdn.net^$domain=pulsevideo.eu,important
+
+!Bez tego przy ponownym włączeniu filmu, który się skończył treść pobierała się od nowa:
+!xhr - video-node-2-a-pl-krk-1.dreamlab.pl/usp/
+!xhr - player-api.dreamlab.pl/?body%
+!https://grupa-onet.pulsevideo.eu/2173781.1231839560
+pulsevideo.eu##+js(addEventListener-defuser, ended)
+
+!Bez https w linku, po zakończeniu odtwarzania wysyłane jest żądanie do qi.related.onetapi.pl
+!https://grupa-onet.pulsevideo.eu/2173781.1231839560
+||qi.related.onetapi.pl^
+
+
+
+
+
+
+
+
+
+
+
+
+
+

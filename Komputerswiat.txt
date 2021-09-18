@@ -1,0 +1,119 @@
+! Title: Komputerswiat.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||komputerswiat.pl^$ghide
+
+!#canonical #desktop - blokowanie zapytań events.ocdn.eu
+!https://www.komputerswiat.pl/
+komputerswiat.pl##+js(set, EventsApi._init, noopFunc)
+
+!#canonical #desktop
+!https://www.komputerswiat.pl/
+||pushpushgo.com^$domain=komputerswiat.pl
+
+!#canonical #desktop
+!https:/www.komputerswiat.pl/
+||tinypass.com^$domain=komputerswiat.pl
+
+!#canonical #desktop
+!https://www.komputerswiat.pl/
+||opecloud.com^$domain=komputerswiat.pl
+
+!#canonical #desktop
+!https://www.komputerswiat.pl/
+||komputerswiat.pl/sw.js
+
+!#canonical #desktop
+!https://www.komputerswiat.pl/
+!||sgqcvfjvr.onet.pl^$domain=komputerswiat.pl,important
+!Wyłączone, bo psuło doładowanie premium contentu na: 
+!https://www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h
+@@||sgqcvfjvr.onet.pl^$domain=komputerswiat.pl
+
+!#canonical #desktop - Przyciski socialowe nad leadem
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+komputerswiat.pl##DIV.social-container
+
+!#canonical #desktop - Przyciski socialowe po prawej stronie
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+komputerswiat.pl##DIV.contentShareLeft
+
+!#canonical #desktop #amp #ampproject - pokazywanie contentu premium
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##.contentPremium:style(display: block !important;)
+
+!#canonical #desktop - Zapobieganie usuwania sekcji premium
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+!auto-swiat.pl##+js(noeval-if, document.querySelectorAll('.contentPremium'))
+
+!#canonical #desktop - Zapobieganie braku dynamicznego ładowania zdjęć i wideo w sekcji premium
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+komputerswiat.pl##ARTICLE DIV.offerContainer:remove()
+
+!#canonical #desktop - Pływające wideo
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+||ocdn.eu/*/floating-player$domain=komputerswiat.pl
+
+!#canonical #desktop - Ramki
+!https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
+komputerswiat.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
+komputerswiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+komputerswiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+
+!#canonical #mobile - naprawa fix głównego wideo
+!https://www.komputerswiat.pl/wideo/testy/recenzja-jabra-elite-3-anc-nie-ma-ale-tez-jest-fajnie/vjm6hnn
+komputerswiat.pl##.contentPremium:style(position: unset !important;)
+
+
+!#canonical #mobile #amp #ampproject - Ostatnia kropka w skrócie "Więcej takich tekstów znajdziesz na stronie głównej Onet.pl"
+!https://www.komputerswiat.pl/artykuly/redakcyjne/zarabianie-na-graniu-w-gry-to-mozliwe-jak-zostac-e-sportowcem-poradnik/k38ypby
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##ARTICLE UL:first-of-type > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##ARTICLE UL:first-of-type > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
+
+!#canonical #desktop #amp #ampproject -  pojedyncze kropki z linkami do reklam
+!https://www.komputerswiat.pl/artykuly/redakcyjne/najdrozszy-iphone-w-historii-stal-sie-faktem-ale-to-jedyne-czym-iphone-13-mnie/v4z91bl
+!https://www-komputerswiat-pl.cdn.ampproject.org/c/s/www.komputerswiat.pl/artykuly/redakcyjne/najdrozszy-iphone-w-historii-stal-sie-faktem-ale-to-jedyne-czym-iphone-13-mnie/v4z91bl.amp
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##ARTICLE UL:has(> LI:only-child A[href*="www.komputerswiat.pl"])
+
+!#amp #ampproject
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+
+!#amp #ampproject
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+
+!#amp #ampproject
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+
+!#amp #ampproject
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+!#amp #ampproject
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-AD
+
+!#amp #ampproject
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-CONSENT
+
+!#amp #ampproject - przyciski socialowe nad głównym zdjęciem
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY H1.headline + DIV.social-box
+
+!#amp #ampproject - reklamy w artykule
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV[style="margin:auto;width:300px;"]
+
+!#amp #ampprojext - pasek na dole strony amp
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY A.barLink
+
+!#amp #ampproject - Link do subskryocji
+!https://www-komputerswiat-pl.cdn.ampproject.org/v/s/www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h.amp?amp_js_v=0.1
+komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV#piano-modal-pay-wall

@@ -1,0 +1,81 @@
+! Title: Forbes.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||forbes.pl^$ghide
+
+
+!#canonical #desktop - miejsce na reklamę
+!PREMIUM - https://www.forbes.pl/gielda/siec-supermarketow-dino-gwiazda-gpw-swieci-coraz-jasniej/dwh3ph2
+forbes.pl##.placeholder
+
+!#canonical #desktop - pokazywanie contentu premium
+!https://www.forbes.pl/gielda/siec-supermarketow-dino-gwiazda-gpw-swieci-coraz-jasniej/dwh3ph2
+forbes.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
+
+!#canonical #desktop - pokazywanie contentu premium
+!https://www.forbes.pl/gielda/siec-supermarketow-dino-gwiazda-gpw-swieci-coraz-jasniej/dwh3ph2
+forbes.pl##DIV.contentPremiumPlaceholder:style(min-height: unset !important;)
+
+!#canonical #desktop - blokowanie zapytań events.ocdn.eu
+!https://www.forbes.pl/gielda/siec-supermarketow-dino-gwiazda-gpw-swieci-coraz-jasniej/dwh3ph2
+forbes.pl##+js(set, EventsApi._init, noopFunc)
+
+!#canonical #desktop
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+||pushpushgo.com^$domain=forbes.pl
+
+!#canonical #desktop
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+||sgqcvfjvr.onet.pl^$domain=forbes.pl,important
+
+!#canonical #desktop
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+||tinypass.com^$domain=forbes.pl
+
+!#canonical #desktop
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+||forbes.pl/sw.js
+
+!#canonical #desktop - pokazywanie contentu premium
+!PREMIUM - https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+forbes.pl##.contentPremium:style(display: block !important;)
+
+!#canonical #desktop - przyciski socialowe
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+forbes.pl##DIV.articleSocials
+
+!#canonical #desktop - spinner przy ładowaniu ramek
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+forbes.pl###podcast_spinner::before, .contentPremiumPlaceholder::before, .videoPlaceholder::before
+
+!#canonical #desktop - ostatnie wideo w treści artykułu nie na temat, usuwanie żeby się nie ładowało
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+!forbes.pl##ARTICLE DIV.articleDetail SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1]):remove()
+!Wykomentowane, bo psuło: https://www.forbes.pl/biznes/msd-polska-wywiad-z-dimitrim-gitasem-xxx-forum-ekonomiczne/2zzx4kt
+
+!#canonical #desktop - miniaturki artykułów pod artykułem
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+forbes.pl##+js(rat, src, data-original, A[href] IMG.lazy[src^="data:image/svg+xml;"][data-original^="//ocdn.eu/"], complete)
+
+!#canonical #desktop - reklama aplikacji mobilnej pod artykułem
+!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
+forbes.pl##DIV#bottom_promoMobileSection
+
+!#canonical #desktop - reklama aplikacji mobilnej pod artykułem
+!https://www.forbes.pl/technologia-dla-potrzebujacych-przemyslaw-kusmierek-migam/nqxd8lx
+forbes.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:style(min-height: 100px !important;)
+forbes.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+forbes.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+
+!#canonical #desktop - Przyspieszenie ładowania ramek z podcastem
+!https://www.forbes.pl/technologia-dla-potrzebujacych-przemyslaw-kusmierek-migam/nqxd8lx
+forbes.pl##+js(nano-stb, libsyn-enable, 15000, 0.02)
+
+!#canonical #desktop - odblokowanie podcastu nad głównym zdjęciem
+!https://www.forbes.pl/technologia-dla-potrzebujacych-przemyslaw-kusmierek-migam/nqxd8lx
+forbes.pl##.contentPremium-locked:style(pointer-events: unset !important;)
+
+!#canonical #mobile - przycisk "Czytaj dalej w aplikacji"
+!https://www.forbes.pl/rankingi/raport-forbes-i-crido-fundusze-unijne-z-zakresu-br/10jk29h
+forbes.pl##DIV#mobilePromo__wrapper

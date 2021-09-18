@@ -1,0 +1,177 @@
+!Przy samym zablokowaniu sgqcvfjvr.onet.pl na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
+!może to przez to !"//sgqcvfjvr.onet.pl/YnVpbGQvezlza2x0ZTUyfWRsQXBpL2RsLmxpYntOTWFzX0EyMn0ubWluLmpz",'" onload="(window.onetAds||window.dlApi).onload()" onerror="(window.onetAds||window.dlApi).onerror()"
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+!||sgqcvfjvr.onet.pl^$script,domain=dziennik.pl,redirect=noopjs,important
+
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl
+!@@||sgqcvfjvr.onet.pl^$script,domain=www.komputerswiat.pl|wiadomosci.onet.pl|facet.onet.pl|kultura.onet.pl|sport.onet.pl|podroze.onet.pl|plejada.pl|pulsembed.eu|vod.pl|auto-swiat.pl,badfilter
+
+!@@||sgqcvfjvr.onet.pl^
+
+
+!Komentarze do usuwania w domenie www.onet.pl/...
+
+!Jaks się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!www.onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+!onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+!Jaks się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!||ocdn.eu/phx/_next/static/chunks/framework.
+
+!SGQCVFJVR.ONET.PL
+!Filtr ||sgqcvfjvr.onet.pl^ z EasyPrivacy
+!@@||sgqcvfjvr.onet.pl^$domain=onet.pl
+!https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
+!Bez tego nie odtwarza się wideo
+!@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu,kobieta.onet.pl
+!Bez tego nie ładują się miniaturki w sekcji "Zobacz Więcej" na stronie https://wiadomosci.onet.pl/
+
+!Blokowanie na subdomenach blokowało ładowanie zdjęć z treści i miniaturki z prawej kolumny
+!@@||sgqcvfjvr.onet.pl^$domain=onet.pl
+!||sgqcvfjvr.onet.pl^$domain=www.onet.pl,important
+!||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|plejada.pl|przegladsportowy.pl|vod.pl
+!www.onet.pl##^SCRIPT#adsinit
+!www.onet.pl##+js(set-constant, onetAds.injected, true)
+!www.onet.pl##+js(abort-on-property-write, window.onetAds)
+!https://wiadomosci.onet.pl/kujawsko-pomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g#
+!https://www.onet.pl/informacje/onetkujawskopomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g,79cfc278
+
+
+!Jak się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!www.onet.pl##^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+!Jak się usunie, to nie usuwane są elementy strony
+!https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
+!||ocdn.eu/phx/_next/static/chunks/framework.
+!Psuje ładowanie obrazków i pokazywanie dobrej odpowiedzi w quizie
+!https://www.auto-swiat.pl/wiadomosci/aktualnosci/sprawdz-swoja-wiedze-o-samochodach-i-technice-jazdy-quiz/zjgw98f
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(aopw, window.onetAds)
+
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT[src*="sgqcvfjvr.onet.pl/"]
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!Po wykryciu usunięcia "sgqcvfjvr.onet.pl/" ładuje się skrypt, można zapobiec lub usunąć z https://ty0lm9uz.onet.pl/e1BrazhrNjd9/build/ODU1ODYwNTkvaW5pdA%3D%3D.js
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(set, onetAds.injected, true)
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT:has-text(ty0lm9uz.onet.pl)
+
+
+
+
+!Pola na reklamy w środku tekstu
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+businessinsider.com.pl##ASIDE[data-run-module="local/main.intextAd"]
+
+!https://businessinsider.com.pl/wiadomosci/tak-budowano-metro-w-polsce-juz-70-lat-temu-prace-robotnikow-sledzila-cia/rhbjm6z
+!Puste miejsce pod artykułem 1:
+businessinsider.com.pl##DIV.streamNews
+businessinsider.com.pl##DIV.streamNewsLps:style(min-height: unset !important)
+!Puste miejsce pod artykułem 2:
+businessinsider.com.pl##DIV.sH_bottom_first
+!Puste miejsce w prawaej kolumnie
+businessinsider.com.pl##DIV.adSlotWidget
+!Elementy z prawej kolumny
+businessinsider.com.pl##DIV.AdSlot-lps-promo
+businessinsider.com.pl##DIV.recommendedAutomat
+businessinsider.com.pl##DIV.sponsored
+businessinsider.com.pl##DIV.adMarkiMowia
+businessinsider.com.pl##DIV.adsContainer
+
+!Przyciski socialowe nad artykułem
+!https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5
+businessinsider.com.pl##DIV.share
+
+!Na stronie mobilnej puste pole po reklamie w treści artykułu
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+businessinsider.com.pl##DIV#onet-ad-right
+
+!Wideo w treści artykułu
+!https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
+
+!Wideo na początku artykułu
+!https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
+!Media inne
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
+!Media inne
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
+businessinsider.com.pl##DIV.embeddedApp:style(min-height: unset !important)
+
+!.post-container Blokowało datę dodania artykułu
+!Z filtra: businessinsider.com.pl###adSS-Detal, .post-container, .bottom-share-module, .clearfix
+!z listy: POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
+businessinsider.com.pl#@##adSS-Detal, .post-container, .bottom-share-module, .clearfix
+
+!Bo zablokowaniu na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+!businessinsider.com.pl##DIV.streamNews
+businessinsider.com.pl#@#DIV.streamNews
+
+!Reklamy na stronie mobilnej
+!businessinsider.com.pl##DIV[id^="onet-ad-"]
+!businessinsider.com.pl##ASIDE[id^="onet-ad-"]
+businessinsider.com.pl##[id^="onet-ad-"]
+
+!Reklamy na stronie mobilnej
+businessinsider.com.pl##BODY.dreamlab-mobile .placeholder
+
+!Przyciski socialowe pod tytułem artykułu
+businessinsider.com.pl##DIV.share.mobile
+
+!Na zapas, data dodania artykułu i ilość wyświetleń
+businessinsider.com.pl#@#DIV#share
+
+
+!PREMIUM - https://www.forbes.pl/gielda/siec-supermarketow-dino-gwiazda-gpw-swieci-coraz-jasniej/dwh3ph2
+forbes.pl##.placeholder
+forbes.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
+forbes.pl##DIV.contentPremiumPlaceholder:style(min-height: unset !important;)
+forbes.pl##+js(set, EventsApi._init, noopFunc)
+
+@@||ocdn.eu/paywall-cdn/paywall.min.js?$domain=komputerswiat.pl
+komputerswiat.pl##+js(set-constant, onetAds.injected, true)
+komputerswiat.pl##+js(set, EventsApi._init, noopFunc)
+
+
+
+@@||newsweek.pl^$generichide
+!FREE - https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
+!PREMIUM - https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
+newsweek.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
+!||ocdn.eu/ucs/static/UCS2Piano/*/build/amd/adslps.js
+||ocdn.eu/newsweekucs/static/js/advertising.js
+newsweek.pl##+js(set, EventsApi._init, noopFunc)
+
+!Powiązane wideo na koniec treści artykułu
+newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+newsweek.pl#@#[class*="cg-template"]
+!Scrollowanie
+newsweek.pl#@#DIV#redHead:style(position: absolute !important;)
+newsweek.pl#@#.ads
+newsweek.pl#@#.adsense
+newsweek.pl#@#.header-adblock
+newsweek.pl#@#.linkSponsorowany
+newsweek.pl#@#.onnetwork-video
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.sliderads
+newsweek.pl#@#.widget-ads-content
+newsweek.pl#@#.adform-slot
+newsweek.pl#@##widget-shop
+newsweek.pl#@##pixad-box
+newsweek.pl#@##advertisments
+newsweek.pl#@##adnp
+
+medonet.pl##UL#medServices
+!https://www.medonet.pl/zdrowie,lekarz-apeluje--codziennie-powinnismy-myc-tylko-trzy-czesci-ciala,artykul,99650859.html?utm_source=www.wykop.pl_viasg_medonet&utm_campaign=leo_automatic
+||static.medonet.pl/widget.js
+medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"]:has(LI.item:only-child)
+medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Przeczytaj także:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+medonet.pl##ARTICLE SECTION.left P.paragraph:has-text(Wypróbuj sprawdzone kosmetyki do mycia ciała dostępne na Medonet Market:) + OL[data-section="detail-see-also"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+medonet.pl##ARTICLE SECTION.left DIV.embeddedApp
+medonet.pl##ARTICLE SECTION.left OL[data-section="detail-see-also"] LI:has(A[href*="onet.pl/#utm_source="])

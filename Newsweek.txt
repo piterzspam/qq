@@ -1,0 +1,117 @@
+! Title: Newsweek.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||newsweek.pl^$ghide
+
+!FREE - https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
+!PREMIUM - https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
+
+!#canonical #desktop - Nadpisanie wyjątku @@||csr.onet.pl/$domain=www.newsweek.pl z POL: Oficjalne polskie filtry przeciwko alertom o Adblocku
+!https://www.newsweek.pl/polska/spoleczenstwo/magdalena-cielecka-20-lat-temu-powietrze-pachnialo-obietnica-dzis-niepewnoscia/17f27kh
+||csr.onet.pl^$domain=newsweek.pl,important
+
+!#canonical #desktop - blokada paywalla
+!https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
+newsweek.pl##+js(noeval-if, document.querySelector(".contentPremium").innerHTML)
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/spoleczenstwo/magdalena-cielecka-20-lat-temu-powietrze-pachnialo-obietnica-dzis-niepewnoscia/17f27kh
+||ocdn.eu/newsweekucs/static/js/advertising.js
+
+!#canonical #desktop - blokada żądań do events.ocdn.eo
+!https://www.newsweek.pl/polska/spoleczenstwo/magdalena-cielecka-20-lat-temu-powietrze-pachnialo-obietnica-dzis-niepewnoscia/17f27kh
+newsweek.pl##+js(set, EventsApi._init, noopFunc)
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+||pushpushgo.com^$domain=newsweek.pl
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+||sgqcvfjvr.onet.pl^$domain=newsweek.pl,important
+
+!#canonical #desktop - Ramki
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+!newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]):style(min-height: unset !important; max-height: unset !important;)
+!newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed[style*="height: 0px;"]:style(height: unset !important;)
+!newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed IFRAME:style(position: unset !important;)
+!Psuło wideo na dole artykułu - https://www.newsweek.pl/opinie/abp-slawoj-leszek-glodz-na-beatyfikacji-leszek-nic-sie-nie-stalo/7vbce24
+newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:style(min-height: 100px !important;)
+newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+
+!#canonical #desktop - Spinnery przed ramkami
+!https://www.newsweek.pl/opinie/abp-slawoj-leszek-glodz-na-beatyfikacji-leszek-nic-sie-nie-stalo/7vbce24
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl###podcast_spinner::before, .contentPremiumPlaceholder::before, .videoPlaceholder::before
+
+
+!#canonical #desktop - linki do powiązanych w treści artykułu
+!https://www.newsweek.pl/opinie/abp-slawoj-leszek-glodz-na-beatyfikacji-leszek-nic-sie-nie-stalo/7vbce24
+!https://www.newsweek.pl/polska/polityka/lex-tvn-znowu-w-sejmie/q1zwz04
+newsweek.pl##ARTICLE P:has(> STRONG:first-child:has-text(/(Czytaj także:|Czytaj więcej:)/) + A[href*="newsweek.pl"]:last-child)
+
+!#canonical #desktop - Przyspieszenie ładowania ramek z podcastem
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl##+js(nano-stb, libsyn-enable, 15000, 0.02)
+
+!#canonical #desktop - odblokowanie podcastu nad głównym zdjęciem
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl##.contentPremium-locked:style(pointer-events: unset !important;)
+
+!#canonical #desktop - reklama aplikacji mobilnej pod artykułem
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl##DIV#bottom_promoMobileSection
+
+!#canonical #desktop - przyciski socialowe pod artykułem
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+newsweek.pl##DIV.articleSocials
+
+!#canonical #desktop - miniaturki nie ładujące się
+!https://www.newsweek.pl/
+newsweek.pl##+js(rat, src, data-original, A[href] IMG[src^="data:image/svg+xml;"][data-original^="//ocdn.eu/"], complete)
+
+!#canonical #desktop - usunięcie pustego pola na dole artykułu
+!https://www.newsweek.pl/opinie/kryzys-w-internetowej-pornografii/pvd1zrh
+newsweek.pl##.contentPremiumPlaceholder:style(min-height: unset !important;)
+
+!#canonical #mobile - przycisk "Czytaj dalej w aplikacji"
+!https://www.newsweek.pl/opinie/kryzys-w-internetowej-pornografii/pvd1zrh
+newsweek.pl##DIV#mobilePromo__wrapper
+
+!#canonical #desktop - newsletter na stronie głównej
+||forms.freshmail.io^$subdocument,3p,redirect=click2load.html,domain=newsweek.pl
+
+!#canonical #mobile - pushpushgo w treści
+!https://www.newsweek.pl/
+||newsweek.pl/sw.js
+
+!#canonical #desktop
+!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
+!||html5-player.libsyn.com^$subdocument,3p,redirect=click2load.html,domain=newsweek.pl
+
+!Ramki w treści artykułu
+!https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
+
+!#canonical #desktop - Powiązane wideo na koniec treści artykułu
+!newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+
+!POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
+newsweek.pl#@#[class*="cg-template"]
+!Scrollowanie
+newsweek.pl#@#DIV#redHead:style(position: absolute !important;)
+newsweek.pl#@#.ads
+newsweek.pl#@#.adsense
+newsweek.pl#@#.header-adblock
+newsweek.pl#@#.linkSponsorowany
+newsweek.pl#@#.onnetwork-video
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.ppa-slot
+newsweek.pl#@#.sliderads
+newsweek.pl#@#.widget-ads-content
+newsweek.pl#@#.adform-slot
+newsweek.pl#@##widget-shop
+newsweek.pl#@##pixad-box
+newsweek.pl#@##advertisments
+newsweek.pl#@##adnp

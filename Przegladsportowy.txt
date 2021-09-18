@@ -1,0 +1,120 @@
+! Title: Przegladsportowy.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||przegladsportowy.pl^$ghide
+
+!#canonical #desktop - blokowanie usuwania contentu premium
+!PREMIUM - https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+przegladsportowy.pl##+js(noeval-if, document.querySelectorAll('.contentPremium'))
+
+!#canonical #desktop #ampproject - pokazywanie contentu premium
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+!https://www-przegladsportowy-pl.cdn.ampproject.org/v/s/www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2.amp?amp_js_v=0.1
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##.contentPremium:style(display: block !important;)
+
+!#amp #ampproject - Link do subskryocji
+!https://www-przegladsportowy-pl.cdn.ampproject.org/v/s/www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2.amp?amp_js_v=0.1
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##DIV#piano-modal-pay-wall
+
+!#canonical #desktop - blokowanie zapytań events.ocdn.eu
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+przegladsportowy.pl##+js(set, EventsApi._init, noopFunc)
+
+!#canonical #desktop
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+||pushpushgo.com^$domain=przegladsportowy.pl
+
+!#canonical #desktop
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+||sgqcvfjvr.onet.pl^$domain=przegladsportowy.pl,important
+
+!#canonical #desktop
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+||tinypass.com^$domain=przegladsportowy.pl
+
+!#canonical #desktop - Przyciski socialowe nad leadem
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+przegladsportowy.pl##DIV.social-container
+
+!#canonical #desktop - Przyciski socialowe po lewej stronie
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+przegladsportowy.pl##DIV.contentShareLeft
+
+!#canonical #desktop - Miejsca na reklamy
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+przegladsportowy.pl##DIV.adPlaceholder
+
+!#canonical #desktop - "Masz ciekawy temat? Napisz do nas list!"
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+przegladsportowy.pl##SECTION.OpenDiscussionBox
+
+!#canonical #desktop - "Podobne artykuły" w treści artykułu
+!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
+przegladsportowy.pl##DIV#relatedItemsContainer
+
+!#canonical #desktop - Ramki
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk
+przegladsportowy.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
+przegladsportowy.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+przegladsportowy.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+
+!#canonical #desktop - Puste miejsce po prawej stronie artykułu
+!https://www.przegladsportowy.pl/wideo/euroraport-27062021-bertlolotto-blonski-i-dobosz-o-euro-2020/clcm67n
+przegladsportowy.pl##DIV#extraAdsBlock
+
+!#canonical #mobile - miniaturki na stronie głównej
+przegladsportowy.pl##+js(rat, src, data-original, A[href] IMG[data-run-module="local/lazyLoading.hybridLazyLoading"][src^="data:image/gif;base64,"][data-original^="//ocdn.eu/"], complete)
+
+!#canonical #mobile
+!https://www.przegladsportowy.pl/pilka-nozna/pko-ekstraklasa/piast-gliwice/piast-zaglebie-lubin-bashkirow-bohaterem-miedziowch-pko-ekstraklasa/b8xh14h
+||przegladsportowy.pl/sw.js
+
+!#canonical #mobile - ikonka dzwonka w prawym dolnym rogu strony
+!https://www.przegladsportowy.pl/pilka-nozna/pko-ekstraklasa/piast-gliwice/piast-zaglebie-lubin-bashkirow-bohaterem-miedziowch-pko-ekstraklasa/b8xh14h
+||ocdn.eu/*/pushmain.js
+
+!#canonical #mobile - Kontynuuj czytanie od miejsca, w którym skończyłeś.
+!https://www.przegladsportowy.pl/pilka-nozna/pko-ekstraklasa/piast-gliwice/piast-zaglebie-lubin-bashkirow-bohaterem-miedziowch-pko-ekstraklasa/b8xh14h
+przegladsportowy.pl##DIV.goToParagraphBar
+
+
+!#amp #ampproject
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+
+!#amp #ampproject
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+
+!#amp #ampproject
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+
+!#amp #ampproject
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+!#amp #ampproject
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-AD
+
+!#amp #ampproject
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-CONSENT
+
+!#amp #ampproject - napis "REKLAMA"
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV.adBox
+
+!#amp #ampproject - przyciski socialowe nad głównym zdjęciem
+!https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk.amp
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY H1.headline + DIV.social-box
+
+!#amp #ampproject - reklamy w artykule
+!https://www-przegladsportowy-pl.cdn.ampproject.org/v/s/www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2.amp?amp_js_v=0.1
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV[style="margin:auto;width:300px;"]
+
+!#amp #ampprojext - pasek na dole strony amp
+!https://www-przegladsportowy-pl.cdn.ampproject.org/v/s/www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2.amp?amp_js_v=0.1
+przegladsportowy.pl,www-przegladsportowy-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV.bottomLayerBar

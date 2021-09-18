@@ -1,0 +1,103 @@
+! Title: Medonet.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||medonet.pl^$ghide
+
+!#canonical #mobile
+!https://www.medonet.pl/lepiej-dzialac-niz-omijac-temat-rakiem/przygotuj-sie-na-wypadek-raka,czy-raka-da-sie-uniknac---wideo-,film,32917519.html
+||sgqcvfjvr.onet.pl^$domain=medonet.pl,important
+
+!#canonical #mobile - blokowanie zapytań events.ocdn.eu
+!https://www.medonet.pl/
+medonet.pl##+js(set, EventsApi._init, noopFunc)
+
+!#canonical #mobile
+!https://www.medonet.pl/
+||pushpushgo.com^$domain=medonet.pl
+
+!#canonical #mobile
+!https://www.medonet.pl/
+||medonet.pl/sw.js
+
+!#canonical #mobile - blokowanie ładowania reklamy na stronie głównej
+!https://www.medonet.pl/
+medonet.pl##+js(acis, window.onetAds, adJSON)
+
+!#canonical #mobile - reklama na stronie głównej
+!https://www.medonet.pl/
+medonet.pl##DIV#onet-ad-flat-belkagorna:remove()
+
+!#canonical #mobile - ramka covidowa pod głównym paskiem
+!https://www.medonet.pl/
+@@||csr.onet.pl/*/csr.json?site=M_MEDONET&area=GLOWNA$domain=medonet.pl
+
+!#canonical #mobile - linki do "Lekarze online", "Kup badanie", "Kup suplementy"
+!https://www.medonet.pl/
+medonet.pl##SECTION.siteHeader > DIV#medServices
+
+!#canonical #mobile - Widżet "Asystent zdrowia" po lewej stronie na dole
+!https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,jak-wladimir-putin-dba-o-zdrowie--dieta-i-treningi-prezydenta-rosji,artykul,10571692.html
+||static.medonet.pl/widget.js$domain=medonet.pl
+
+!#canonical #mobile - Ostatnia kropka w skrócie "Więcej takich tekstów znajdziesz na stronie głównej Onet.pl"
+!https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,jak-wladimir-putin-dba-o-zdrowie--dieta-i-treningi-prezydenta-rosji,artykul,10571692.html
+medonet.pl##ARTICLE OL:first-of-type > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+medonet.pl##ARTICLE OL:first-of-type > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
+
+!#canonical #mobile - Pojedyncze kropki w treści artykułu
+!https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
+medonet.pl##ARTICLE OL:has(LI:only-child A[href*="www.medonet.pl/"])
+medonet.pl##ARTICLE OL:has(LI:only-child A[href*="medonetmarket.pl/"])
+
+!#canonical #mobile - "Przeczytaj także" itp. przed "Treści z serwisu medonet.pl mają..."  na końcu artykułu
+!https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
+!https://www.medonet.pl/koronawirus/koronawirus-w-polsce,koronawirus-w-polsce---statystyki-dla-wojewodztw--aktualne-dane-,artykul,20479121.html
+!https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,przeziebienie---objawy--leczenie--ile-trwa--jakie-leki-stosowac-,artykul,1722438.html
+medonet.pl##ARTICLE P:has-text(/(Przeczytaj także:|Przeczytaj też:|To może cię zainteresować:|Zobacz także:)/) + OL:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!#canonical #mobile - baner wiadomości Google na końcu artykułu
+!!https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
+medonet.pl##DIV.google-news-banner
+
+
+!#canonical #mobile - Wideo powiązane w treści artykułu, usuwanie, żeby nie ładowały się ramki
+!https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,jak-wladimir-putin-dba-o-zdrowie--dieta-i-treningi-prezydenta-rosji,artykul,10571692.html
+!https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
+medonet.pl##ARTICLE P:has-text(/^|(Ciąg|Dalszy|Dalsza|Dalszą|Pozostała|Reszta).*?(artykułu|tekstu|wywiadu).*?(pod|poniżej).*?wideo[.: ]?$/) + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+
+!#canonical #mobile - Zdjęca w minuiaturkach powiązanych zajmowały połowę wysokości strony
+!https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
+medonet.pl##ARTICLE SECTION.similarArticles LI.item DIV.imageHolder
+
+!#canonical #mobile - Puste pole po zdjęcu w minuiaturce w powiązanych
+!https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
+medonet.pl##ARTICLE SECTION.similarArticles LI.item A:style(padding-top: unset !important;)
+
+!#canonical #mobile - Przyciski socialowe pod artykułem
+!https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
+medonet.pl##UL.shareButtons
+
+!#canonical #mobile - Widżet halodoctor "Umów e-wizytę u lekarza w 5 minut"
+!https://www.medonet.pl/narodowy-test-zdrowia-polakow/nowotwory,jakie-sa-objawy-raka-tarczycy--endokrynolog-mowi--na-co-zwrocic-uwage,artykul,03948558.html
+!https://www.medonet.pl/koronawirus/koronawirus-w-polsce,covid-19-na-lubelszczyznie--wirusolog--ponosimy-konsekwencje-slabego-zaszczepienia,artykul,30651718.html
+medonet.pl##ARTICLE DIV:has(> H2.heading:first-child + UL.haloDoctorWidget:last-child) + DIV.haloDoctorWidgetFooter:xpath(self::node() | self::node()/preceding-sibling::DIV[1])
+
+!#canonical #mobile - Link halodoctor.pl na końcu artykułu
+!https://www.medonet.pl/koronawirus/koronawirus-w-polsce,covid-19-na-lubelszczyznie--wirusolog--ponosimy-konsekwencje-slabego-zaszczepienia,artykul,30651718.html
+medonet.pl##ARTICLE P:last-of-type A[href="https://www.halodoctor.pl/"]
+
+!#canonical #mobile - Linki do sklepu w treści artykułu, ryzyko false-positive
+!Chcesz wzmocnić wydolność swojego organizmu? Wypróbuj suplement diety z L-karnityną dostępny w Medonet Market. - https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,jak-wladimir-putin-dba-o-zdrowie--dieta-i-treningi-prezydenta-rosji,artykul,10571692.html
+!Marka Hanoju oferuje wysokiej jakości suplement diety z macą - rośliną, która pozytywnie wpływa na wzmocnienie organizmu oraz zwiększenie jego wydolności. Bio Macę 500mg kupisz w okazyjnej cenie na medonetmarket.pl. - https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,jak-alkohol-wplywa-na-odpornosc-organizmu-,artykul,25208492.html
+!Jeśli chcesz wzmocnić odporność, polecamy również zimową herbatę Natjun, która działa rozgrzewająco oraz wzmacniająco na układ immunologiczny. - https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,jak-alkohol-wplywa-na-odpornosc-organizmu-,artykul,25208492.html
+!Wyżej wymienione rady warto wesprzeć suplementacją. Zamów już dzisiaj zestaw naturalnych suplementów diety na przeziębienie z imbirem, olejkiem z oregano i ekstraktem z kurkumy. - https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,przeziebienie---objawy--leczenie--ile-trwa--jakie-leki-stosowac-,artykul,1722438.html
+!medonet.pl##ARTICLE P:has-text(/(medonetmarket.pl|Medonet Market)/):has(A[href*="medonetmarket.pl/"])
+
+!#canonical #mobile - Wideo powiększającae się po przescrollowaniu
+!https://www.medonet.pl/lepiej-dzialac-niz-omijac-temat-rakiem/przygotuj-sie-na-wypadek-raka,czy-raka-da-sie-uniknac---wideo-,film,32917519.html
+medonet.pl##+js(aeld, scroll, classList.add("fixed"))
+
+!#canonical #desktop #mobile - Licznik covidowy pod belką wymaga sgqcvfjvr.onet.pl
+!https://www.medonet.pl/
+medonet.pl##DIV.slot-covid-meter

@@ -1,0 +1,169 @@
+! Title: Businessinsider.com.pl
+! Expires: 1 day
+
+!Na wszelki wypadek
+@@||businessinsider.com.pl^$ghide
+
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT[src*="sgqcvfjvr.onet.pl/"]
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!Po wykryciu usunięcia "sgqcvfjvr.onet.pl/" ładuje się skrypt, można zapobiec lub usunąć z https://ty0lm9uz.onet.pl/e1BrazhrNjd9/build/ODU1ODYwNTkvaW5pdA%3D%3D.js
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(set, onetAds.injected, true)
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT:has-text(ty0lm9uz.onet.pl)
+
+
+!#canonical #desktop
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+||businessinsider.com.pl/notification-prod-sw.js
+
+!#canonical #desktop
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+||sgqcvfjvr.onet.pl^$domain=businessinsider.com.pl,important
+
+!#canonical #desktop - przechodzenie do strony głównej po przescrollowaniu do dołu
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+||ocdn.eu/businessinsider/static/sgLoaderScript.js
+
+!#canonical #desktop - Ramki
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+!https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
+!https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
+businessinsider.com.pl##DIV.embeddedApp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+businessinsider.com.pl##DIV.embeddedApp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+!#canonical #desktop - Bez tego ramki z Twittera były niewidoczne
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+businessinsider.com.pl##DIV.embeddedApp DIV.pulsembed_embed:style(min-height: 100px !important;)
+
+!#canonical #mobile - Artykuły powiązane "Zobacz także:" pod artykułem
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##DIV.seeAlsoBottomMobile
+
+!#canonical #desktop #ampproject - Więcej takich informacji znajdziesz na stronie głównej Onet.pl
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+!https://businessinsider.com.pl/firmy/zarzadzanie/budowa-lotniska-w-radomiu-prace-na-budowie-ppl/vl6nvm4
+!https://businessinsider-com-pl.cdn.ampproject.org/c/s/businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##ARTICLE UL:first-of-type > LI:last-child:has(A[href*="www.onet.pl/"])
+
+!#canonical #desktop - Wideo powiązane pod artykułem, usuwanie żeby się nie ładowało
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##ARTICLE H3:has-text(WARTO WIEDZIEĆ:) + SCRIPT + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1] | self::node()/preceding-sibling::H3[1]):remove()
+
+!#amp #ampproject - Wideo powiązane pod artykułem, usuwanie żeby się nie ładowało
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b.amp
+!https://businessinsider-com-pl.cdn.ampproject.org/c/s/businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##ARTICLE P:has-text(WARTO WIEDZIEĆ:) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+
+!#canonical #desktop #ampproject - Linki powiązane w treści artykułu
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!https://businessinsider-com-pl.cdn.ampproject.org/c/s/businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##ARTICLE P:has(> STRONG:first-child:has-text(Zobacz też:) + A[href*="businessinsider.com.pl"]:last-child)
+
+!#canonical #desktop - Powiązane pod zdjęciem głównym
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##DIV.related-links
+
+!#canonical #desktop - Pola na reklamy w środku tekstu
+!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+businessinsider.com.pl##ASIDE[data-run-module="local/main.intextAd"]
+
+!#canonical #desktop - Puste miejsce pod artykułem 1:
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##DIV.streamNewsLps:style(min-height: unset !important)
+!#canonical #mobile - Bo zablokowaniu na stronie mobilnej nie doładowują się powiązane artykuły po przescrollowaniu na dół strony
+!businessinsider.com.pl##DIV.streamNews
+businessinsider.com.pl#@#DIV.streamNews
+
+!#canonical #desktop - Puste miejsce pod artykułem 2:
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##DIV.sH_bottom_first
+
+!#canonical #desktop - Puste miejsce w prawej kolumnie
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##DIV.adSlotWidget
+
+!#canonical #desktop - Elementy z prawej kolumny
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##DIV.sponsored
+
+!#canonical #desktop - Elementy z prawej kolumny
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
+businessinsider.com.pl##DIV.adsContainer
+
+!Elementy z prawej kolumny
+businessinsider.com.pl##DIV.AdSlot-lps-promo
+businessinsider.com.pl##DIV.recommendedAutomat
+businessinsider.com.pl##DIV.adMarkiMowia
+
+!#canonical #desktop - Przyciski socialowe nad artykułem
+!https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5
+businessinsider.com.pl##DIV.share
+
+!#canonical #mobile - Na stronie mobilnej puste pole po reklamie w treści artykułu
+!https://businessinsider.com.pl/wiadomosci/solidarna-polska-zostaje-koalicji-rzadowej/qn8lx49
+businessinsider.com.pl##DIV#onet-ad-right
+
+!Wideo w treści artykułu
+!https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
+
+!Wideo na początku artykułu
+!https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
+!Media inne
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
+!businessinsider.com.pl##DIV.embeddedApp:style(min-height: unset !important)
+
+!.post-container Blokowało datę dodania artykułu
+!Z filtra: businessinsider.com.pl###adSS-Detal, .post-container, .bottom-share-module, .clearfix
+!z listy: POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
+businessinsider.com.pl#@##adSS-Detal, .post-container, .bottom-share-module, .clearfix
+
+!Reklamy na stronie mobilnej
+!businessinsider.com.pl##DIV[id^="onet-ad-"]
+!businessinsider.com.pl##ASIDE[id^="onet-ad-"]
+businessinsider.com.pl##[id^="onet-ad-"]
+
+!Reklamy na stronie mobilnej
+businessinsider.com.pl##BODY.dreamlab-mobile .placeholder
+
+!Przyciski socialowe pod tytułem artykułu
+businessinsider.com.pl##DIV.share.mobile
+
+!Na zapas, data dodania artykułu i ilość wyświetleń
+businessinsider.com.pl#@#DIV#share
+
+
+!#amp #ampproject
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(animation: ):style(animation: unset !important;)
+
+!#amp #ampproject
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
+
+!#amp #ampproject
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
+
+!#amp #ampproject
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
+
+!#amp #ampproject
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-AD
+
+!#amp #ampproject
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY AMP-CONSENT
+
+!#amp #ampproject - napis "REKLAMA"
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV.adBox
+
+!#amp #ampproject - przyciski socialowe nad głównym zdjęciem
+!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##HTML[\⚡] > BODY H1.headline + DIV.social-box
