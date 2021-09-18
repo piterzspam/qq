@@ -462,6 +462,8 @@ sportowefakty.wp.pl##^BODY > DIV[class=""][data-class]
 
 !Próba naprawy przewijania strony
 !sportowefakty.wp.pl##MAIN#content > SECTION.section::before
+sportowefakty.wp.pl##SECTION ARTICLE *::before:style(content: none !important;)
+sportowefakty.wp.pl##SECTION ARTICLE *::after:style(content: none !important;)
 !Przyciski społecznościowe
 sportowefakty.wp.pl##DIV.wpsocials
 sportowefakty.wp.pl##A.socialbutton
