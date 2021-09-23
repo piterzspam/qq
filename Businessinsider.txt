@@ -59,9 +59,10 @@ businessinsider.com.pl##ARTICLE H3:has-text(WARTO WIEDZIEĆ:) + SCRIPT + DIV.emb
 businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##ARTICLE P:has-text(WARTO WIEDZIEĆ:) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
 
 !#canonical #desktop #ampproject - Linki powiązane w treści artykułu
-!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 !https://businessinsider-com-pl.cdn.ampproject.org/c/s/businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4.amp
-businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##ARTICLE P:has(> STRONG:first-child:has-text(Zobacz też:) + A[href*="businessinsider.com.pl"]:last-child)
+!Zobacz też: - https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
+!Zobacz także: - https://businessinsider.com.pl/wiadomosci/zakaz-handlu-nie-dla-netto-kolejna-siec-bedzie-dzialac-w-niedziele-niehandlowe-lista/9kv0pps
+businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##ARTICLE P:has(> STRONG:first-child:has-text(/(Zobacz też:|Zobacz także:)/) + A[href*="businessinsider.com.pl"]:last-child)
 
 !#canonical #desktop - Powiązane pod zdjęciem głównym
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4

@@ -50,7 +50,10 @@ newsweek.pl###podcast_spinner::before, .contentPremiumPlaceholder::before, .vide
 !#canonical #desktop - linki do powiązanych w treści artykułu
 !https://www.newsweek.pl/opinie/abp-slawoj-leszek-glodz-na-beatyfikacji-leszek-nic-sie-nie-stalo/7vbce24
 !https://www.newsweek.pl/polska/polityka/lex-tvn-znowu-w-sejmie/q1zwz04
-newsweek.pl##ARTICLE P:has(> STRONG:first-child:has-text(/(Czytaj także:|Czytaj więcej:)/) + A[href*="newsweek.pl"]:last-child)
+!https://www.newsweek.pl/opinie/antyszczepionkowcy-znow-atakuja/f82xd7v
+newsweek.pl##ARTICLE P:has(> STRONG:first-child:has-text(/(Czytaj także:|Czytaj też:|Czytaj więcej:)/) + A[href*="newsweek.pl"]:last-child)
+newsweek.pl##ARTICLE P:has(> A[href*="newsweek.pl"]:only-child):has-text(/(Czytaj także:|Czytaj też:|Czytaj więcej:)/)
+
 
 !#canonical #desktop - Przyspieszenie ładowania ramek z podcastem
 !https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
@@ -96,6 +99,28 @@ newsweek.pl##DIV#mobilePromo__wrapper
 
 !#canonical #desktop - Powiązane wideo na koniec treści artykułu
 !newsweek.pl##DIV.contentPremium > SCRIPT + DIV.embeddedApp:last-child:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1])
+
+#canonical #desktop #mobile - chyba nieużywane
+!https://www.newsweek.pl/wideo/debata-prezydencka-newsweeka-wybory-prezydenckie-2020-kto-bierze-udzial/f2q85xt
+||ocdn.eu/*/floating_player_$domain=newsweek.pl
+
+!#canonical #desktop - zapobieganie usuwaniu wideo premium
+!https://www.newsweek.pl/wideo/debata-prezydencka-newsweeka-wybory-prezydenckie-2020-kto-bierze-udzial/f2q85xt
+!#canonical #desktop - nadpisanie filtra @@||experience.tinypass.com/xbuilder/experience/load$script,domain=newsweek.pl z listy Fanboy's Enhanced Tracking List - bez tego nie ładuje się pierwszy podcast
+!#canonical #desktop - nadpisanie filtra @@||tinypass.com/api/tinypass-gtp.min.js$script,domain=newsweek.pl z listy Fanboy's Enhanced Tracking List
+!#canonical #desktop - nadpisanie filtra @@||tinypass.com/api/tinypass.min.js$script,domain=newsweek.pl z listy Fanboy's Enhanced Tracking List
+!#canonical #desktop - nadpisanie filtra @@||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=newsweek.pl z listy Fanboy's Enhanced Tracking List
+!||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=newsweek.pl,important
+!||experience.tinypass.com/xbuilder/experience/load$script,domain=newsweek.pl,important
+!||tinypass.com/api/tinypass-gtp.min.js$script,domain=newsweek.pl,important
+!||tinypass.com/api/tinypass.min.js$script,domain=newsweek.pl,important
+||tinypass.com^$domain=newsweek.pl,important
+
+!#canonical #desktop - pokazywanie contentu premium
+!https://www.newsweek.pl/wideo/debata-prezydencka-newsweeka-wybory-prezydenckie-2020-kto-bierze-udzial/f2q85xt
+newsweek.pl##.contentPremium:style(display: block !important;)
+
+
 
 !POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda 
 newsweek.pl#@#[class*="cg-template"]
