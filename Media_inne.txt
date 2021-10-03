@@ -62,7 +62,6 @@ tvn24.pl##+js(addEventListener-defuser.js, ended)
 ||tvn24.pl/service-worker.js
 ||tvn24.pl/static/libs/react.js?
 @@||tvn24.pl/static/libs/react.js?
-||tvn24.pl/_next/static/*/_ssgManifest.js
 ||nuvi2.cdntvn.pl/tvn24-stable/bundle/nuvi.min.js?
 @@||nuvi2.cdntvn.pl/tvn24-stable/bundle/nuvi.min.js?
 ||tvn24.pl/_next/static/*/_buildManifest.js
@@ -80,15 +79,37 @@ tvn24.pl##+js(addEventListener-defuser.js, ended)
 ||tools.services.tvn.pl^
 ||gemius.pl^
 
+
+!Media inne
+!https://tvn24.pl/go/audio,14/audio-fakty-po-faktach-odcinki,16214/odcinek-909,S00E909,601847
+!||tvn24.pl/_next/static/*/_ssgManifest.js
+||tvn24.pl/_next/static/*/_ssgmanifest.js$badfilter
+
+
 ||pix2.services.tvn.pl^
 
 !Przycsik X na stronie mobilnej przenoszący na stronę główną
 !https://tvn24.pl/swiat/koronawirus-w-wielkiej-brytanii-restrykcje-etapy-luzowania-boris-johnson-o-koncu-obostrzen-5026661
 tvn24.pl##BUTTON.modal-back-button
 !Nadpisanie filtru @@||cdn.cookielaw.org^$script,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|gmx.com|mail.com|reuters.com|rockpapershotgun.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net z listy EasyList Cookie
-||cookielaw.org^$important,domain=tvn24.pl
 !||nuvi2.cdntvn.pl/*/static/test.mp4
 !article-top-bar__back-button-wrapper
+!||cookielaw.org^$important,domain=tvn24.pl
+!Media inne
+!https://tvn24.pl/go/audio,14/audio-fakty-po-faktach-odcinki,16214/odcinek-909,S00E909,601847
+||cookielaw.org^$important,domain=tvn24.pl,badfilter
+
+!EasyList Cookie
+!Fanboy’s Annoyance
+!https://tvn24.pl/polska/lublin-samochod-stal-na-torach-w-srodku-nikogo-nie-bylo-musieli-wstrzymac-ruch-pociagow-na-linii-lublin-lubartow-5429588
+@@||cookies.onetrust.mgr.consensu.org^$subdocument,domain=tvn24.pl
+
+!Polskie Filtry Elementów Irytujących 
+!https://tvn24.pl/polska/lublin-samochod-stal-na-torach-w-srodku-nikogo-nie-bylo-musieli-wstrzymac-ruch-pociagow-na-linii-lublin-lubartow-5429588
+tvn24.pl#@#.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
+
+!https://tvn24.pl/polska/lublin-samochod-stal-na-torach-w-srodku-nikogo-nie-bylo-musieli-wstrzymac-ruch-pociagow-na-linii-lublin-lubartow-5429588
+tvn24.pl##.fMhCkW.floating:style(position: unset !important;)
 
 !Odblokowanie niepoprawnie ukrywanych punktów z leada
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]

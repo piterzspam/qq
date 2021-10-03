@@ -610,3 +610,6 @@ money.pl##DIV[data-st-area="st-gallery-reactions"] > DIV:first-child:last-child 
 !#canonical #desktop - Strona desktopowa miała pasek poziomy
 !https://wiadomosci.wp.pl/
 wp.pl##.teasersListing::before, .teasersListing::after:style(width: unset !important;)
+
+
+@@||wp.hit.gemius.pl/xgemius.js

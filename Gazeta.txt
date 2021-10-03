@@ -63,9 +63,9 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !gazeta.pl##+js(abort-on-property-write, window.ghmxy_sendview)
 !gazeta.pl##+js(abort-on-property-write, window.ghmxy_scroll_send)
 !Reklamy między paragrafami w tekście banerami: banC
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(abort-on-property-write, dfpParams)
+!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(abort-on-property-write, dfpParams)
 !Belka na dole z innym artykułem po rozwinięciu artykułu na stronie mobilnej
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, hpNotifications)
+!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, hpNotifications)
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##A.hp-notification-mobile
 ||hp-api.gazeta.pl/hp/v2/notifications/get/?
 ||adv.adview.pl^
@@ -112,7 +112,7 @@ onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
 ||cdn.onnetwork.tv/cnt/
 !Prznoszenie do strony głównej do przewinięciu strony na dół
 /aliasy/hp2018/hp_redirector.htm$xhr,domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
+!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
 !Z treści wnioskuję, że to coś do RODO
 !https://static.im-g.pl/static/uom/tcf-20/master/dist/vendor-list.json
 !https://static.im-g.pl/static/uom/tcf-20/master/dist/purppl.json
@@ -252,3 +252,16 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.DFPbannerPartnerWrapper
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##DIV.DFP-premiumBoardReservedPlace
+
+
+
+!https://next.gazeta.pl/next/7,172392,27422871,denializm-klimatyczny-doradcy-dudy-nie-naukowcy-nie-spieraja.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##.adviewDFPBanner
+
+!selectory z https://static.im-g.pl/style-modules/master/webpack/Green/98/pagetype7/style-mobile-min.css.cssgz
+!z strony: https://next.gazeta.pl/next/7,172392,27422871,denializm-klimatyczny-doradcy-dudy-nie-naukowcy-nie-spieraja.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl###DFP-007-CONTENTBOARD_1, #banP99_DFP, .ban001_wrap, .ban001_wrapper, div[id^="DFP-011-MIDBOARD-MOBI_"], div[id^="adsMidboardDivId_"], div[id^="banC"], div[id^="banP104_DFP_"], div[id^="adUnit-"]
+
+!https://next.gazeta.pl/next/7,172392,27422871,denializm-klimatyczny-doradcy-dudy-nie-naukowcy-nie-spieraja.html
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(acis, window.adUnitsConfiguration)
+

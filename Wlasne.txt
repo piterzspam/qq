@@ -1111,3 +1111,1021 @@ busradar.pl##DIV[class="ng-scope"][ng-if="search.showTopConnections() && !search
 busradar.pl##DIV.best-connections-container
 
 busbud.com##+js(remove-attr, data-checked, FORM#id="search-form" SPAN[tabindex="0"], once)
+
+
+!https://tvn24.pl/polska/lublin-samochod-stal-na-torach-w-srodku-nikogo-nie-bylo-musieli-wstrzymac-ruch-pociagow-na-linii-lublin-lubartow-5429588
+||khms0.googleapis.com/kh?v=$domain=google.com
+
+
+!https://www.ceneo.pl/Laptopy
+||ceneo.pl/Content/js/partner/partnerTracker.js
+ceneo.pl##DIV.js_analytics-promotedItems
+||fd.ceneo.pl/scripts/bhv.js
+
+
+!https://www.pb.pl/solidarna-polska-pomylila-sie-o-setki-miliardow-zlotych-1128305
+pb.pl##.npb-g-c-adv
+
+
+!https://laptopmarket.pl/section,Laptopy_uzywane,56,16
+laptopmarket.pl##.consents
+
+
+
+!https://www.diskgenius.com/how-to/unknown-USB-device-descriptor-request-failed.php
+diskgenius.com##DIV.btns
+
+!https://www.easeus.com/storage-media-recovery/fix-unknown-usb-device.html
+easeus.com##DIV[class^="button_box_"]
+easeus.com##DIV[class^="review_artitle_"]
+easeus.com##DIV.float_banner 
+||livechatinc.com^$domain=easeus.com
+||easeus.com/images_2019/campaign/
+||easeus.com/images_2019/float_banner/
+
+substack.com##.post-preview:style(-webkit-user-select: unset !important; -moz-user-select: unset !important; -ms-user-select: unset !important;)
+substack.com##.post-preview:style(user-select: unset !important; cursor: unset !important;)
+substack.com##BODY > DIV[style*="background"]:style(position: unset !important;)
+
+
+||notebookcheck.net/typo3conf/ext/nbc2bestprice/res/bestprice.js
+notebookcheck.net##+js(acis, document.getElementById, _0x5a65)
+
+!https://windowsreport.com/jar-file-windows/#1
+windowsreport.com##DIV.related_posts ARTICLE.article-card DIV.article-card__top
+windowsreport.com##DIV.related_posts ARTICLE.article-card A.article-card__readmore
+windowsreport.com##SECTION.wr-marketing-cta-alt
+||cdn.windowsreport.com/wp-content/uploads/2019/03/FileViewer-Plus-banner-e1602488754787-1.jpg
+!https://windowsreport.com/java-10-download-windows-7-8-10/
+windowsreport.com##ARTICLE UL:has(> LI:only-child > STRONG:only-child:has-text(/(READ ALSO:|READ MORE:)/) > A[href*="windowsreport.com"]:only-child)
+windowsreport.com##ARTICLE P:has(> STRONG:has-text(/(READ ALSO:|READ MORE:)/)) + UL:has(> LI > A[href*="windowsreport.com"]:only-child):xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+tips.net##DIV.ad-content-box
+
+synonim.net##INS#iall
+
+gsmarena.com##DIV.adv
+mgsm.pl##DIV.header__promo-wide
+mgsm.pl##ASIDE#left-con > SECTION.row
+mgsm.pl##DIV.phonedatas > DIV.row:not(.expanded)
+mgsm.pl##DIV.oa_photodata
+
+
+subscene.com##.subtitles td.a6:style(white-space: unset !important;)
+subscene.com##.subtitles td.a6 div:style(white-space: unset !important;)
+
+wizaz.pl##DIV#aad_billboard
+@@||wizaz.pl/kosmetyki/js/routing?
+
+sjp.pwn.pl##DIV.banner
+
+! 2021-08-12 https://github-wiki-see.page
+github-wiki-see.page###footer_info
+
+@@||nbyts.online^$ghide
+@@||fc-lc.com^$ghide
+@@||downphanmem.com^$ghide
+@@||expertvn.com^$image
+
+
+megaleech.us#@#DIV.ad_code2
+
+
+peachsport.xyz##+js(aeld, contextmenu)
+pressreader.com##DIV.page-tint.subscriber-content
+
+
+allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty promowane"]/following-sibling::ARTICLE | //DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty"]/preceding-sibling::ARTICLE):style(border: dashed !important;)
+!allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
+allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(:scope > H2)) > ARTICLE:style(border: dashed !important;)
+
+||acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/
+
+
+! 2020-10-29 https://www.makeuseof.com
+www.makeuseof.com##.ad-zone-container
+
+*$script,denyallow=gstatic.com|gstatic.com,domain=downfile.site
+
+fcc.lc##DIV#content > H2.text-center
+fcc.lc##DIV#content > P:last-child
+
+!Początek: https://www.opensubtitles.org/pl/search/sublanguageid-eng/idmovie-54
+!Komunikat jak z komunikatora w dollnymm lewym rogu: "Watch or Download the Movie in HD?"
+||moviesflix4k.work^
+!Koniec: https://www.opensubtitles.org/pl/search/sublanguageid-eng/idmovie-54
+
+
+! 2020-10-07 https://linkvertise.com
+||linkvertise.com/NONE$image
+
+!https://www.slant.co/topics/4703/~mind-mapping-apps-for-android
+!http://go.redirectingat.com/?id=50553X1242519&url=http%3A%2F%2Fmimind.cryptobees.com%2F&sref=https%3A%2F%2Fwww.slant.co%2Ftopics%2F4703%2F~mind-mapping-apps-for-android
+@@||go.redirectingat.com^$first-party
+
+*$script,3p,domain=filecrypt.cc,badfilter
+
+
+!https://gratka.pl/nieruchomosci/mieszkania/warszawa/bemowo/wynajem?cena-calkowita:max=2200&liczba-pokoi:min=2&cena-calkowita:min=1200
+!https://s-gr.cdngr.pl/assets/gratka/v0.36.17/dist/js/NativeAdsListener.js
+!https://s-gr.cdngr.pl/assets/gratka/v0.36.17/dist/js/ActiveAdChecker.js
+||cdngr.pl/*NativeAdsListener.js
+||cdngr.pl/*ActiveAdChecker.js
+!https://s-gr.cdngr.pl/lib/ppa/v2.39.4/js/main.js
+||cdngr.pl/*/ppa/
+!https://sso.gratka.pl/rodo.js?consents=true
+||sso.gratka.pl^
+!https://gratka.ppapi.pl/gratka/v2/offers/events/list
+||gratka.ppapi.pl/*/events/
+! 2020-10-05 https://gratka.pl
+gratka.pl###dfp-sponsoradgora
+gratka.pl###dfp-gora1
+gratka.pl###dfp-srodek1
+gratka.pl###dfp-srodek2
+gratka.pl###dfp-srodek3
+gratka.pl###dfp-sponsoraddol
+gratka.pl##body > .dfp--center.dfp
+gratka.pl##.notificationsSubscribeComponent
+gratka.pl###leftColumn > .recommendations__container
+gratka.pl###dfp-dol1
+
+! 2020-10-06 https://www.gumtree.pl
+www.gumtree.pl##.topAdsContainer
+
+
+||sta.domiporta.pl^
+!https://www.domiporta.pl/Resources/image/special/exp_banner.jpg
+!https://www.domiporta.pl/Resources/image/special/bnp_gif.gif
+||domiporta.pl/Resources/image/special/
+
+
+gumtree.pl##DIV.thumbs > DIV.wrap:style(width: -moz-max-content !important)
+
+
+
+
+gumtree.pl##+js(ra, href, DIV.reply_controls > A.button.telephone)
+
+!https://www.pepper.pl/promocje/yato-zestaw-kluczy-nasadowych-14-56elem-yt-14501-303006
+!https://clk.tradedoubler.com/click?p=288386&a=2381265&epi=0k004n9d34jr&url=https%3A%2F%2Fallegro.pl%2Foferta%2Fyato-zestaw-kluczy-nasadowych-1-4-56elem-yt-14501-6986650156
+!http://redir.tradedoubler.com/projectr/?_td_spaceport_encode=-1&utm_source=tdb&utm_medium=afiliacja&utm_content=digidip+PL&tduid=71a60553e90240d6209f33ecf9dbd17f&_td_ifelse=2982386*td_string*2381265*td_true*utm_campaign=C-smartweek-2020*_td_*KEEP_NEWEST&_td_deeplink=https://allegro.pl/oferta/yato-zestaw-kluczy-nasadowych-1-4-56elem-yt-14501-6986650156&f=0*td_false*&_td_deeplink=https://allegro.pl/oferta/yato-zestaw-kluczy-nasadowych-1-4-56elem-yt-14501-6986650156&f=0
+@@||tradedoubler.com^$first-party
+
+!https://ad.doubleclick.net/ddm/clk/403056876;202621956;h?https%3A%2F%2Fwww.morizon.pl%2Foferta%2Fwynajem-mieszkanie-warszawa-bemowo-batalionow-57m2-mzn2037292500%3F=&utm_medium=CPC
+@@||ad.doubleclick.net^$first-party
+
+
+
+! 2020-09-29 https://www.otodom.pl
+www.otodom.pl##div.css-1l60ty6
+
+
+!https://www.gumtree.pl/a-mieszkania-i-domy-do-wynajecia/bemowo/2-pokoje-48-mkw-deynygorczewska-nowe-budownictwo/1008072189340912106650109
+||classistatic.com/*adsenseClient
+
+
+
+
+!@@||connect.facebook.net^$3p,domain=~facebook.com|~fb.com
+
+
+cosmobox.org##+js(no-setInterval-if.js)
+cosmobox.org##+js(no-setTimeout-if.js)
+!cosmobox.org##+js(nano-setTimeout-booster.js)
+!cosmobox.org##+js(set-constant.js, remaining, 0)
+||cosmobox.org/*clipBoard$script
+||cosmobox.org/*rightClick$script
+||cosmobox.org/*waves$script
+||cosmobox.org/*share$script
+
+uploadship.com##UL.pageSuccess
+uploadship.com##DIV.col-xs-12.col-sm-12.col-md-8.col-lg-8.col-md-offset-2
+uploadship.com##DIV.UPFS
+uploadship.com##DIV.blocktxt
+uploadship.com##DIV#USSE
+uploadship.com##DIV.file-box
+uploadship.com##TD[style="text-align: center !important;"]
+!uploadship.com##DIV#hg-pro
+uploadship.com##DIV.hg-pro
+uploadship.com##DIV.page-box
+
+
+
+
+google.com##DIV.isv-id + DIV[onclick="google.isv&&google.isv.t();"]
+
+
+!Nie działa kliknięcie w stronę
+!EasyPrivacy - /logimpressions?
+@@/logimpressions?$xhr,domain=sites.google.com
+
+!https://www.androidauthority.com/android-launchers-comparison-908733/
+!https://js.gleam.io/oi-CaG9yla.js
+||gleam.io^
+
+! 2020-09-09 https://vcf-editor-software.software.informer.com
+informer.com##.spnsd
+
+! 2020-09-09 https://www.tenforums.com
+tenforums.com##.adunit
+
+opensubtitles.org##UL.ui-multiselect-checkboxes > LI:if(LABEL > INPUT:not([aria-selected="true"])):not(:has-text(/ALL|English|Polish/))
+
+
+
+@@||raw.githubusercontent.com/Yhonay/antipopads/master/popads.txt$xhr
+!
+
+
+
+
+!http://www.drhtv.com.pl/drhtv-1.html
+||drhtv.com.pl/cdn-cgi/apps/head/
+!http://www.drhtv.com.pl/jspopunder.min.js
+||drhtv.com.pl/jspopunder.min.js
+!Sociale w treści
+!http://www.drhtv.com.pl/sp.js
+||drhtv.com.pl/sp.js
+||lvbetpartners.com^
+!jaggedunaccustomeddime.com/13/49/2d/13492ddc618d8616510786e2f2b8d075.js
+||jaggedunaccustomeddime.com^
+||typosfera.net/system/grafika/expekt_logo.gif
+||afilo.pl^
+||longertail.pl^
+!Puste pole po reklamie
+||i.imgur.com/sldD4KX.jpg
+
+
+
+
+
+!Linki do aliexpress wersji 4/128: https://www.kimovil.com/pl/gdzie-kupic-xiaomi-redmi-note-8t-128gb
+!https://tc.tradetracker.net/?r=270d305e-e648-11ea-b224-0670141e6114&c=15716&m=12&a=219346&u=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F-%2F4000569231635.html
+!https://tc.tradetracker.net/?c=15716&m=12&a=219346&u=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F-%2F4000679370546.html
+@@||tradetracker.net^$first-party
+
+
+!Linki do aliexpress wersji 6/128: https://www.kimovil.com/pl/gdzie-kupic-xiaomi-cc9e-6gb-128gb-cn
+!https://tracking.publicidees.com/clic.php?cb=415d6fbb-e7ef-11ea-b224-0670141e6114&progid=3702&partid=52769&dpl=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F-%2F4000857602141.html
+@@||tracking.publicidees.com/clic.php?$first-party
+
+!https://www.dhgate.com/store/product/original-xiaomi-mi-9-se-6gb-ram-64gb-128gb/450109595.html
+!Chyba tracking
+!https://www.dhgate.com/public/87468c12fno220ac6a07a02944c5eb3
+||dhgate.com/public/$script
+!https://www.dhgate.com/akam/11/5c885d1f
+||dhgate.com/akam/$script
+!https://www.directmail.dhgate.com/script/ga.js?grid=uBFoHVCpY
+||dhgate.com/script/ga.js
+!https://www.dhresource.com/dhs/fob/js/common/track/dhta.js
+||dhresource.com/*/track/
+!IFRAME 1px*1px w treści
+!https://js.dhresource.com/buyer/common/thirdload/load.js?v=1586767368666
+||dhresource.com/*/load.js?
+!https://altopd.com/lod
+||altopd.com^
+!https://js.dhresource.com/buyer/tracking/google-dmp-mapping.js
+||dhresource.com/*/tracking/
+||translate.google.com^$domain=dhgate.com
+||translate.googleapis.com^$domain=dhgate.com
+
+
+!https://www.getdroidtips.com/custom-rom-moto-g8-plus/
+getdroidtips.com##INS.adsbygoogle
+
+!https://www.dx.com/p/realme-5-pro-eu-version-63-inch-fhd-4035mah-48mp-ai-quad-cameras-8gb-ram-128gb-rom-snapdragon-712-octacore-4g-smartphone-2723372.html
+!https://js.dxcdn.com/combo/global/v8.8.30/js/user-behavior-alalysis.min.js?timestamp=201909061000
+!||dxcdn.com/*user-behavior
+||translate.google.com^$domain=dx.com,important
+||translate.googleapis.com^$domain=dx.com,important
+
+||pagead2.googlesyndication.com^
+||googletagmanager.com^
+||cdn.popcash.net^
+||bilsyndication.com^
+||geniusdisplay.com^
+||sharethis.com^
+||histats.com^
+||fidelity-media.com^
+/^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/(\?[a-z]{3,5}=[0-9]{6}$|[a-zA-Z0-9]*\%3D\%3D$)/$script,third-party
+yallastreams.com##+js(abort-on-property-write, adcashMacros)
+streamhd247.live##+js(abort-on-property-write, adcashMacros)
+!||wstream.to^
+socolive.xyz##+js(abort-on-property-write, adcashMacros)
+1me.xyz##+js(abort-on-property-write, adcashMacros)
+||bodelen.com^
+||ufpcdn.com^
+
+!!!!!!!!!!!!!!!
+1me.xyz##+js(abort-current-inline-script, decodeURIComponent, zfgloadedpopup)
+1me.xyz##+js(abort-on-property-read, zfgloadedpopup)
+1me.xyz##+js(abort-current-inline-script, Math, zfgloaded)
+||theonecdn.com^
+||moneymakercdn.com^
+
+||glauptan.net/bundle.css?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+||glauptan.net/styles.css?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+||glauptan.net/jquery-ui.css?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+||glauptan.net/reset.css?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+||glauptan.net/bootstrap.css?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+
+||glauptan.net/star.png?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+||glauptan.net/logo.png?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+||glauptan.net/image.png?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+||glauptan.net/header.png?aHR0cHM6Ly93aGljZWVnYS5jb20vc2NyaXB0cy9ub3JtYWxpemUvMS42OS41Mi9ub3JtYWxpemUubWluLmpz
+
+!/https?:\/\/[a-z]{8}\.(com|net)\/((academicons|styles|scripts|libs|vue|normalize|min|js|css)?(([0-9]|\.)*)?(\/|\.)?)*$/$3p,script,stylesheet
+!/https?:\/\/[a-z]{8}\.(com|net)\/((index|static|browse|view|movie|[0-9]*)(\/|\.))*html$/$3p,subdocument
+!/https?:\/\/[a-z]{8}\.(com|net)\/(articles|ajax|article|event|config|custom|menu|web|resources)(\.json)?$/$3p,xmlhttprequest
+||ads.puffnetwork.com^
+||twitch.tv^
+||fmnetwork.nl^
+||messistream.com^$subdocument,first-party
+||8fzyhamgc9.com^
+||beserte.pro^
+||deloplen.com/fac.php
+||deloplen.com/apu.php
+
+@@||s.click.aliexpress.com/deep_link.htm?aff_short_key=*&dl_target_url=$first-party
+||videotarget.pl^
+
+
+@@||squawkr.io^$generichide
+@@||squawkr.io/assets/js/ads.js$script,1p
+||lijjt.com^
+||wykop.pl/cdn/*/advert_
+||wykop.pl/adverts/
+||wykop.pl/cdn/*/adblock_
+
+||query.yahooapis.com^$domain=tvn24.pl
+!Wiadomosci_mobilne 
+||fonts.googleapis.com^$third-party,badfilter
+||fonts.gstatic.com^$third-party,badfilter
+
+||media.geeksforgeeks.org/wp-content/cdn-uploads/20191021012537/P100-Right-Top.jpg
+||media.geeksforgeeks.org/wp-content/cdn-uploads/20191021012533/TS-Right-Bottom.jpg
+||media.geeksforgeeks.org/wp-content/cdn-uploads/20191104180739/GFG-Left-Bottom-CSTL-1.png
+
+||fas.li/p/ifr/$subdocument,domain=likn.xyz
+||koacojus.net^$domain=techsapparel.com
+||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,badfilter
+
+ckk.ai##+js(abort-on-property-write, TID)
+||cloudfront.net/?valgd=$script
+||cloudfront.net/?tid=$script
+||cloudfront.net/?svebd=$script
+
+||d3al52d8cojds7.cloudfront.net^$badfilter
+||d2glav2919q4cw.cloudfront.net^$badfilter
+techsapparel.com##+js(acis, Math, zfgloaded)
+||techsapparel.com/ksw.js$script
+##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > CENTER > DIV.box-main SPAN
+##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > CENTER > DIV.box-main OL
+##HTML > BODY > DIV.page-container > SECTION.site-content > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main + DIV
+##HTML > BODY > DIV#cookie-pop
+fc.lc##+js(window.open-defuser)
+adfoc.us##+js(acis, Math, zfgloaded)
+||thoorest.com^
+||themoneytizer.com^
+||adservice.google.pl^
+@@||dausel.co^$script,domain=al.ly
+al.ly#@#INS.adsbygoogle
+||gestyy.com/bundles/smeweb/js/xvideos.js$script
+||icutlink.com/qe2mo3feds.js$script
+||icutlink.com/img/DownloadNow.gif$image
+||downlad48speed-fast.cf/d1-255x63.png$image
+icutlink.com##BR
+@@||s.click.aliexpress.com^$first-party
+||otube.pl^$document,badfilter
+
+
+
+||teaz.site/img/blank728.png$image
+||teaz.site/img/blank336.png$image
+
+||translate.googleapis.com^$important,3p,domain=~translate.google.com,badfilter
+
+
+
+||carbonpay.app^$domain=elektroda.pl
+||elektroda.pl/OneSignalSDKWorkerPWA.js
+!/^https?:\/\/obrazki\.elektroda\.pl\/[0-9]{10}_[0-9]{10}(_org)?\.jpg$/$image,domain=elektroda.pl
+||obrazki.elektroda.pl/3329249900_1568280830.jpg
+||obrazki.elektroda.pl/5029427000_1568280831.jpg
+||obrazki.elektroda.pl/9419433800_1575035395_org.jpg
+
+!/wp-content/$image,domain=intercelestial.com|sweetlantern.com
+!@@/wp-content/uploads/2019/09/button_im-not-a-robot.png$domain=intercelestial.com|sweetlantern.com
+!@@/wp-content/uploads/2019/09/button_please-wait.png$domain=intercelestial.com|sweetlantern.com
+!@@/wp-content/uploads/2019/09/button_generate-link.png$domain=intercelestial.com|sweetlantern.com
+!@@/wp-content/uploads/2019/09/button_download.png$domain=intercelestial.com|sweetlantern.com
+!||intercelestial.com/wp-content/
+||adop.cc^
+||gstatic.com^$domain=intercelestial.com|sweetlantern.com,important
+||google.com^$domain=intercelestial.com|sweetlantern.com,important
+
+! 9.12.2019 https://www.politico.eu
+www.politico.eu##.is-stuck.sticky-content.orient-vertical.show-share-count.user-tools
+
+||ebook3000.com/templets/js/$image,script
+
+
+!Strony wysoko pozycjonowane w ynikach przy naprawianiu komputera
+||windowsbulletin.com/images/download.png
+||ezoic.net^$domain=windowsbulletin.com
+||windowsbulletin.com^$inline-script,font,script,important
+||windowsbulletin.com/wp-content/plugins/$stylesheet,important
+windowsbulletin.com##DIV.code-block
+windowsbulletin.com##STRONG:has-text(RECOMMENDED:)
+sevenforums.com##DIV.chillad
+
+||anyclip.com^$domain=thewindowsclub.com
+||thewindowsclub.com/wp-includes/js/wp-emoji-release.min.js?$script
+
+||hamrick.com^$first-party
+||megaify.com^$domain=driverscape.com
+driverscape.com##DIV.grid_4.sidebar
+driverscape.com##DIV.installer
+
+||cbsi.com^$domain=cnet.com
+||tags.tiqcdn.com^$domain=cnet.com
+||semantic.gs^
+||hardwaredata.org^
+||helpjet.net/docs.js
+||helpjet.net/p.js
+helpjet.net##DIV.row > DIV.col-md-12 > P.small.text-container
+||driveridentifier.com/images/btn_$image
+||driveridentifier.com/images/fixdriverproblems.png
+||driveridentifier.com/images/downloadnow.png
+||drivermax.com^
+||sciologness.com^
+||driverhive.com^
+||driversupdatecenters.com^
+||techgenix.com/tgwordpress/wp-content/plugins/leaky-paywall/
+||techgenix.com/tgwordpress/wp-content/plugins/tg-tracking/
+||techgenix.com/tgwordpress/wp-content/plugins/post-views-counter/
+||techgenix.com/tgwordpress/wp-content/plugins/dfp-ads/
+||techgenix.com/tgwordpress/wp-content/plugins/thirstyaffiliates/
+||techgenix.com/detroitchicago/rochester.js?
+||google.com/recaptcha/api.js?$domain=techgenix.com,important
+||soundcloud.com^$domain=techgenix.com,important
+||gstatic.com/recaptcha/$domain=techgenix.com,important
+!||techgenix.com^$inline-script
+
+||apis.google.com^$3p,badfilter
+||twitter.com/i/csp_report?$badfilter
+
+
+@@||wykop.pl/adframe.js
+
+||ocdn.eu/faktucs/static/assets/js/smartlink.js
+
+earnload.com##P[style="text-align: center;"]
+earnload.com##FORM#link-view > H3[style="text-align: center;"]
+userscloud.com##I.fa.fa-2x.fa-check.text-success
+
+||longfiles.com/728.js
+||longfiles.com/images/46860.png
+!
+ebook3000.com##A[href^="/read/dl.php?p="][rel="nofollow"]
+
+roseindia.net##DIV#contentdiv:style(width: 80% !important;)
+roseindia.net##DIV#myNav
+@@||javaworld.com/www/js/ads/ads.js
+
+||socolive.xyz/bepatient.html
+
+livestream.fun###v4dd
+||facebook.com^$3p,badfilter
+
+ebook3000.com##+js(abort-on-property-write, adcashMacros)
+
+deepbrid.com##DIV.notification.success.png_bg
+deepbrid.com##DIV.myadmin-alert
+||neodebrid.com/images/banner1.gif
+
+
+||links4earn.com/sw.js
+||wallationdistry.pro^
+
+||bc.vc/js/bcvc_go.js$script,third-party
+||branch.io^$badfilter
+||cdn.branch.io^$badfilter
+
+||grubsoan.com^$badfilter
+
+!https://pcgamez-download.com/2014/04/battle-realms-winter-of-the-wolf-gog-torrent-uploaded-pc/
+!shorte-st.online##+js(no-setTimeout-if, onclicksuper.com)
+!shorte-st.online##+js(no-setTimeout-if, exi8ef83z9.com)
+shorte-st.online##+js(aopr, _0xcf30)
+shorte-st.online##+js(remove-attr, target)
+shorte-st.online##+js(abort-current-inline-script, Math, zfgloaded)
+shorte-st.online##.jojo
+!shorte-st.online##+js(no-setTimeout-if)
+
+||shorte-st.online/show-$inline-script
+
+||otrwaram.com/apu.php$script,redirect=noopjs
+
+pcgamez-download.com##+js(remove-attr, target)
+
+sourceforge.net##UL.projects > LI.nel.standard.can-truncate
+
+
+||vider.info^$document,badfilter
+||vider.info^$badfilter
+
+!Oferta sponsoworwana na górze i na dole listy wyników
+!https://allegro.pl/kategoria/mechanizmy-korbowe-i-czesci-mechanizmy-korbowe-251529?p=2&order=d&bmatch=baseline-product-cl-eyesa2-engag-dict43-spo-1-0-0318
+allegro.pl##DIV#opbox-listing--base ARTICLE[data-analytics-view-label="showSponsoredItems"]
+
+@@||onepiece-api.de/ad_banner_4free.js?$domain=reevown.com
+
+@@||use.typekit.net^$font,script,domain=tygodnikpowszechny.pl
+
+||alltube.com.pl^$all,domain=~alltube.tv|~alltube.pl,badfilter
+
+!https://www.uploadship.com/69df799e7fa81252
+||uploadship.com/themes/pro/UploadShip/Partners/
+
+
+diffchecker.com##DIV.jsx-1865376952.hero
+diffchecker.com##DIV.keep-us-running
+diffchecker.com##DIV.banner-container
+
+! 5.05.2020 https://open.spotify.com
+open.spotify.com###leaderboard-ad-element
+
+||perlmaven.com/img/git_book_cover_306x396.png
+||perlmaven.com/img/ansible-book-cover-306x396.png
+||perlmaven.com/img/ssd-virtual-servers-250x250.jpg
+||perlmaven.com/img/perl-maven-book-cover-306x396.png
+||perlmaven.com/img/*-306x396.png
+||perlmaven.com/js/maven.js
+
+||ouo.io/images/b1.png
+||ouo.io/images/b2.png
+
+||matematyka.pl/uniwersytet-wroclawski-rekrutacja-2020.gif
+
+! 7.06.2020 https://thepiratebay.org
+||torrindex.net/images/epv/*.png$image
+
+!https://www.raymond.cc/blog/3-portable-tools-monitor-files-folders-changes/
+!raymond.cc##DIV[id^="snhb-incontent_"]
+raymond.cc##DIV[class^="adslot_"]
+raymond.cc##DIV#text-7
+raymond.cc##DIV#text-13
+raymond.cc##DIV#text-14
+raymond.cc##DIV[id^="snhb-"]
+raymond.cc##DIV[class^="et_social_"]
+
+!https://www.makeuseof.com/tag/spotify-app-alternatives-try-today/
+makeuseof.com##A.link-callout.visible
+
+!https://www.itprotoday.com/microsoft-visual-studio/how-build-folder-watcher-service-c
+||limelight.com^$domain=itprotoday.com
+
+! 8.06.2020 https://www.infoworld.com
+www.infoworld.com###editorialfakesidebardiv
+www.infoworld.com###sponsoredfakesidebardiv
+www.infoworld.com##.subscribers-position-right
+
+! 8.06.2020 https://www.baeldung.com
+||www.baeldung.com/wp-content/uploads/2016/05/baeldung-rest-post-footer-main-1.2.0.jpg$image
+www.baeldung.com###tve_editor
+www.baeldung.com##.before-post-widgets
+
+! 8.06.2020 https://blog.magrathealabs.com
+blog.magrathealabs.com##.uf.ue.ud.uc.ub.ua.tz.ty.tx.tw.tv.tu.tt.ts.tr.tq.tp.to.tn.tm.tl.tk.tj.ti.th.tg.tf.te.td.tc.tb.ai.ta.jp.t.jn
+blog.magrathealabs.com##.y.gb.ga.fz.fy.fx.fw.fv.fu.n
+
+! 8.06.2020 https://www.quora.com
+www.quora.com##.logged_out_related_questions_container
+
+! 8.06.2020 https://dzone.com
+dzone.com###adtoniq-msgr-bar
+dzone.com##.signin-prompt
+dzone.com###acontainer
+
+! 8.06.2020 https://www.codeproject.com
+codeproject.com##DIV.text-sidebar > DIV.padded-top[style="height:250px"]
+
+! 8.06.2020 https://www.codeguru.com
+www.codeguru.com##.oas_box_btns_lfr.oas_box
+www.codeguru.com###manual-webinar-asset
+
+!https://dzone.com/articles/java-programs-as-windows-services
+||servenobid.com^$domain=dzone.com
+||ithinkthereforeiam.net^
+
+
+!https://www.coretechnologies.com/products/AlwaysUp/Apps/RunJavaApplicationAsAService.html
+||translate.google.com^$domain=coretechnologies.com
+
+!https://sourceforge.net/projects/jnotify/
+||sf-syn.com^
+||google.com/recaptcha/$domain=sourceforge.net
+
+
+!https://www.howtogeek.com/224471/how-to-prevent-windows-10-from-automatically-downloading-updates/
+||howtogeek.com/public/popular/sidebar.js?
+howtogeek.com##P:if(>STRONG:has-text(RELATED:)):if(EM)
+
+!https://www.tenforums.com/windows-updates-activation/146037-stop-automatic-windows-update.html
+tenforums.com##LI.postbitlegacy.chill[style]
+
+!https://www.laptopmag.com/articles/change-icon-size-windows-10
+||future-fie.co.uk^$domain=laptopmag.com
+
+@@||static.gazetaprawna.pl/js/adverts.js
+||videotarget.pl^$badfilter
+
+
+! 9.06.2020 http://naprawrower.pl
+||naprawrower.pl/assets/img/facebook_bg.png$image
+
+! 11.06.2020 https://www.vlchelp.com
+www.vlchelp.com##.toptitlead
+www.vlchelp.com###custom_html-2
+www.vlchelp.com###text-3
+
+! 11.06.2020 https://www.pepper.pl
+!Okazja: "Najgorętsze okazje wprost na Twoją skrzynkę?"
+pepper.pl##DIV.js-newsletter-widget
+!Okazja "Chcesz otrzymywać powiadomienia o najlepszych okazjach i kuponach przez Telegram?"
+pepper.pl##DIV.js-telegram-widget
+!Okazja "Pepper.pl rekrutuje"
+pepper.pl##DIV.js-banner
+
+!https://www.androidpolice.com/2019/12/16/the-best-free-and-open-source-alternatives-to-gmail-on-android/
+||convertkit.com^$domain=androidpolice.com
+||platform.twitter.com/widgets.js$domain=androidpolice.com
+!d2r7bmv6l6bnd1.cloudfront.net/1405.html
+||d2r7bmv6l6bnd1.cloudfront.net^$domain=androidpolice.com
+||scroll.com^$domain=androidpolice.com
+
+
+! 12.06.2020 https://www.androidpolice.com
+||www.androidpolice.com/wp-content/themes/ap2/images/scroll/scroll-72890-1.png$image
+||www.androidpolice.com/wp-content/themes/ap2/images/scroll/scroll-300250-1.png$image
+www.androidpolice.com###apfollowwidget-2
+||www.androidpolice.com/wp-content/themes/ap2/images/scroll/scroll-728250-1.png$image
+www.androidpolice.com##.ains-ap2_trending_posts_wrapper.ains-11.ains
+
+! 12.06.2020 https://mkyong.com
+mkyong.com###footer-ads-container
+
+! 12.06.2020 https://www.sqlitetutorial.net
+www.sqlitetutorial.net##.text-block > .ad
+
+!https://www.programcreek.com/java-api-examples/?class=android.widget.ListView&method=setOnItemClickListener
+||programcreek.com/ezoic/
+||programcreek.com/utilcave_com/
+||programcreek.com/detroitchicago/
+||programcreek.com/porpoiseant/
+
+! 13.06.2020 https://www.includehelp.com
+!https://www.includehelp.com/android/List-view-setOnItemClickListener.aspx
+includehelp.com###vi-ad
+||includehelp.com/adsbygoogle.js
+||cse.google.com^$domain=includehelp.com
+includehelp.com##DIV.left-panel
+includehelp.com##DIV[style="min-height: 90px;margin-bottom: 20px;"]
+includehelp.com##DIV.w3-padding:if(>INS.adsbygoogle)
+includehelp.com##DIV#banner-12345
+includehelp.com##P.w3-yellow:if(>B:has-text(Ad:))
+includehelp.com##DIV.main-panel:style(width: 70% !important)
+includehelp.com##DIV.main-panel DIV.w3-padding:if(>P:has-text(TOP Interview Coding Problems/Challenges))
+includehelp.com###vi-sticky-ad
+
+! 13.06.2020 https://www.geeksforgeeks.org
+www.geeksforgeeks.org##.login-modal-div
+||media.geeksforgeeks.org/wp-content/cdn-uploads/20200611191627/GFG-DSA-SP-RT.png$image
+
+
+! 15.06.2020 https://www.thesslstore.com
+www.thesslstore.com##.open.slide-out-div
+www.thesslstore.com##.alignwide.wp-block-media-text
+
+!https://www.codeproject.com/Articles/30537/Windows-File-Monitoring-System-Using-Windows-API-H#_articleTop
+||codeproject.com/a.min.js?
+
+!https://www.thewindowsclub.com/automatically-take-screenshots-every-second-auto-screen-capture/
+||bibblio.org^$domain=thewindowsclub.com
+||thewindowsclub.com/wp-content/plugins/socialsnap-pro/
+||thewindowsclub.com/wp-content/plugins/bibblio-related-posts/
+||thewindowsclub.com/wp-content/plugins/q2w3-fixed-widget/
+
+
+
+! 15.06.2020 https://www.apriorit.com
+||www.apriorit.com/images/banners/ebooksbanner.gif$image
+
+! 17.06.2020 https://www.kimovil.com
+www.kimovil.com##.bcheck.kau.item
+
+! 18.06.2020 http://prem.link
+!prem.link###dlink-container
+
+! 21.06.2020 https://www.wirtualnemedia.pl
+www.wirtualnemedia.pl##div.other-news
+
+!https://www.ghacks.net/2017/03/07/cyberfox-proclaims-death-of-web-browser/
+||ghacks.net/*/a9bidder.js
+
+||codeproject.com/*/RetrieveContent.aspx
+
+! 22.06.2020 https://samequizy.pl
+samequizy.pl##.nopad.ad
+
+! 22.06.2020 https://www.codeproject.com
+www.codeproject.com##.bottom-promo
+
+!https://www.webopedia.com/TERM/K/kernel32_dll.html
+||evidon.com^$badfilter
+!||evidon.com/geo/country.js$domain=webopedia.com
+!||evidon.com/sitenotice/$domain=webopedia.com
+||oneall.com^$domain=webopedia.com
+||webopedia.com/*/regtracking.js
+||webopedia.com/*/globalNewsletter.js
+||webopedia.com/*_tracker.min.js
+
+!https://resources.infosecinstitute.com/category/certifications-training/malware-analysis-reverse-engineering/rootkits/rootkits-rootkits/
+infosecinstitute.com##DIV.bottom-box-right
+||infosecinstitute.com/dcjs/
+||apis.google.com/js/platform.js$domain=infosecinstitute.com
+
+!https://darkw.pl/ebooki-f22/uml-2.0-w-akcji.-przewodnik-oparty-na-projektach-p.graessle-h.baumann-p.baumann-t1626996.html
+||darkw.pl/images/banerfilebitdarkw.png
+||darkw.pl/prod/img/fb.png
+
+
+! 24.06.2020 https://reverseengineering.stackexchange.com
+reverseengineering.stackexchange.com##.js-dismissable-hero
+
+! 24.06.2020 https://www.getdroidtips.com
+www.getdroidtips.com###notfibar9024
+
+! 25.06.2020 https://dockerquestions.com
+dockerquestions.com##.mf-loaded.mf-animate.mf-notification-iframe-top-left.mf-notification-iframe
+
+! 25.06.2020 https://plusdigit.com
+plusdigit.com##.top-header-inner
+
+! 26.06.2020 https://javastart.pl
+||javastart.pl/img/YouTube_300x300.png$image
+javastart.pl##.cdk-global-overlay-wrapper
+javastart.pl##div.cdk-overlay-container
+
+! 26.06.2020 https://examples.javacodegeeks.com
+examples.javacodegeeks.com###mc4wp_form_widget-2
+
+!https://apkpure.com/pl/sms-backup-restore/com.riteshsahu.SMSBackupRestore/download?from=details&posts=1
+apkpure.com##IFRAME#iframe_download + DIV#slide-wrap
+||yaksgames.com^$domain=apkpure.com
+apkpure.com##DIV[style="margin: 0 auto 20px auto;position: relative;width:100%;overflow: hidden;height: 150px;"]
+||cdnpure.com/static/share-button/
+||static.apkpure.com/www/static/script/sweetalert
+apkpure.com##.ad-box-auto
+apkpure.com##DIV.box[style="overflow: hidden; padding-bottom: 20px"]
+||macblurayplayer.com/image/SpyHunter-apkpure.jpg
+apkpure.com##DIV[style="margin: 0 auto 20px auto;position: relative;width:100%;overflow: hidden;height: 306px;"]
+
+!https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/8.9.13/xiaomi.eu_multi_MI4c_8.9.13_v10-7.0.zip/download
+sourceforge.net##ASIDE.m-wide-widget.m-wide-projects-widget:if(>HEADER:has-text(Recommended Projects))
+
+!https://www.forumrowerowe.org/topic/217351-kaseta-kaseta-shimano-alivio-cs-hg51/
+forumrowerowe.org##INS.adsbygoogle
+
+||illallwoe.com^$domain=pahe.in
+||illallwoe.com^
+
+intercelestial.com,spacetica.com##+js(disable-newtab-links)
+
+!https://windowsreport.com/browsers-old-computer/
+||sftapi.com^$domain=windowsreport.com
+windowsreport.com##HR + P[style="text-align: center;"]
+windowsreport.com##HR
+
+!https://home.bt.com/tech-gadgets/internet/browsers/windows-xp-vista-upgrade-browser-stay-safe-internet-explorer-firefox-opera-lunascape-google-chrome-11364034422157
+!Wideo w artykule
+||players.brightcove.net^$domain=bt.com
+bt.com##DIV.bts_videojs_iframe_container
+bt.com##ARTICLE.article-page > DIV.hero-image-section:has(IFRAME[src*="brightcove.net"])
+bt.com##ARTICLE.article-page > DIV.article-body-section > DIV.bts_videojs_iframe_container:has(IFRAME[src*="brightcove.net"])
+bt.com##ARTICLE.article-page > DIV.article-body-section > P[style="text-align: center;"]:has(> STRONG > A[href*="bt.com"])
+bt.com##ARTICLE.article-page > DIV.article-body-section > P[align="center"]:has(> STRONG > A[href*="bt.com"])
+bt.com##DIV.article-body-section > P:style(margin-bottom: unset !important)
+
+!AdGuard Base
+!https://www.bleepingcomputer.com/forums/t/718456/web-brower-for-vista/
+bleepingcomputer.com###ips_Posts > .post_block:has(div.apb)
+
+!https://mazymedias.com/assets/mf2.php
+mazymedias.com##+js(noeval)
+||asacdn.com/script/compatibility.js
+||asacdn.com/script/firefox.js
+||asacdn.com^$domain=mazymedias.com
+
+!https://mazymedias.com/previews/f2/?title=Hungarian+Grand+Prix+FHD
+mazymedias.com##+js(nobab)
+||cdn.sports-streams-online.xyz/scripts/nwm-pw2.min.js
+mazymedias.com##TABLE:has(SCRIPT[src*="sports-streams-online.xyz"])
+mazymedias.com##DIV:matches-css(width: 300px):matches-css(height: 250px)
+mazymedias.com##TD:matches-css(width: 300px):matches-css(height: 250px)
+mazymedias.com##TD:matches-css(width: 1750px):matches-css(height: 250px)
+@@||mazymedias.com^$ghide
+mazymedias.com##TD:has(SCRIPT[src*="chatango.com"])
+mazymedias.com##+js(addEventListener-defuser, , _0x)
+mazymedias.com##BODY > FOOTER.navbar-fixed-bottom
+mazymedias.com##INS.adsbygoogle
+mazymedias.com##TBODY > TR:not(IFRAME[src^="/"][allowfullscreen][width][height])
+mazymedias.com##+js(ra, oncontextmenu, body)
+mazymedias.com##IFRAME[src^="/"]:style(text-align: unset !important)
+
+mazymedias.com##BODY > DIV.navbar + CENTER + CENTER:not(IFRAME[src^="/"]):remove()
+mazymedias.com##CENTER > TABLE:first-child:not(IFRAME[src^="/"]):remove()
+mazymedias.com##TBODY > TR:not(IFRAME[src^="/"]):remove()
+
+!https://cricworld.club/p/5.php
+!Przycisk x
+||blogspot.com/*close.$image,domain=cricworld.club
+!Na wszelki wypadek, chyba anty adblock
+@@||cricworld.club^$ghide
+cricworld.club##+js(addEventListener-defuser, DOMContentLoaded, color: white)
+cricworld.club##DIV#floatLayer1
+
+!https://fightpass.site/covid19/2020/ff/
+!Na wszelki wypadek
+@@||fightpass.site^$ghide
+||crutchsnobcat.com^
+
+!https://ladsnbastands.com/ladsnews-f1.html
+@@||ladsnbastands.com^$ghide
+!https://oldnayfey.com/tyXTPZ5QFxti2wtr/22844
+||oldnayfey.com^
+!https://libedgolart.com/t/9/fret/meow4/1765790/brt.js
+||libedgolart.com^
+||player.ex.co^$domain=ladsnbastands.com
+ladsnbastands.com##INS.adsbygoogle
+ladsnbastands.com##DIV[style="width:728px;height:90px;"]
+ladsnbastands.com##DIV[style="width:250px;height:250px;"]
+ladsnbastands.com##TD:if-not(DIV#player)
+ladsnbastands.com##TH
+
+!https://www.hitsports.club/f1.php
+@@||hitsports.club^$ghide
+!Z filtrem ##.adsBox jest komunikat o adblocku, z poniższym już nie ma
+hitsports.club##+js(addEventListener-defuser, DOMContentLoaded, color: white)
+
+!https://unitedbacke.xyz/formula1-hungary/
+!Na wszelki wypadek
+@@||unitedbacke.xyz^$ghide
+unitedbacke.xyz##+js(aopw, _pop)
+sportscart.xyz##+js(aopw, _pop)
+wstream.to##+js(aopw, _pop)
+wstream.to##+js(noeval-if, allow-popups)
+||cdn.vdosupreme.com/vdo.js?$domain=wstream.to
+||cedexis.com^$domain=wstream.to
+wstream.to##+js(no-setTimeout-if, javascript, 15000)
+wstream.to##+js(addEventListener-defuser, loadend, mLoader24)
+wstream.to##+js(addEventListener-defuser, timeout, mLoader24)
+wstream.to##+js(no-setTimeout-if, mLoader24, 15000)
+wstream.to##+js(no-setTimeout-if, player.play, 3000)
+
+sportscart.xyz##+js(aopw, _pop)
+wstream.to##+js(noeval-if, allow-popups)
+!wstream.to##+js(noeval)
+wstream.to##+js(aopw, _pop)
+
+
+!https://world4ufree.space/
+!https://parsruingmeld.com/fw2zomBiJASFj1yxr/23496
+||parsruingmeld.com^
+||world4ufree.space/wp-content/themes/jadugar/
+
+||pkmkkjwknvf.com^
+||cjlqwfpkwi.com^
+||cphjydduuh.com^
+||cjlqwfpkwi.com^
+||googletagmanager.com^
+||amung.us^
+
+
+!wstream.to##+js(noeval)
+sportscart.xyz##+js(aopw, _pop)
+wstream.to##+js(aopw, _pop)
+wstream.to##+js(noeval-if, allow-popups)
+||cdn.vdosupreme.com/vdo.js?$domain=wstream.to
+||cedexis.com^$domain=wstream.to
+wstream.to##+js(no-setTimeout-if, javascript, 15000)
+wstream.to##+js(addEventListener-defuser, loadend, mLoader24)
+wstream.to##+js(addEventListener-defuser, timeout, mLoader24)
+wstream.to##+js(no-setTimeout-if, mLoader24, 15000)
+wstream.to##+js(no-setTimeout-if, player.play, 3000)
+!wstream.to##+js(set, atob, trueFunc)
+
+sportscart.xyz##+js(abort-on-property-read, _pop)
+!wstream.to#@#+js(abort-on-property-read, _pop)
+
+!https://pahe.ph/
+!https://gobmodfoe.com/r4Gh2lm7G4ACB/5778
+||gobmodfoe.com^$third-party
+
+||google.com/recaptcha/$domain=kimovil.com,important
+
+! 28.07.2020 https://www.kimovil.com
+www.kimovil.com###user-sidebar
+
+! 28.07.2020 https://weeklyhow.com
+weeklyhow.com##.ugb--shadow-7.ugb-cta__item
+
+! 31.07.2020 https://community.shopify.com
+community.shopify.com##.ui-widget-overlay
+community.shopify.com##.lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+
+!https://www.streameast.live/formula-1/british-gp/
+streameast.live##DIV#nwmlay
+streameast.live##DIV#opz
+||streameast.live/ad.js
+
+
+!http://fightpass.site/covid19/2020/ufc-ff1/
+||player.fatchilli.media/body.js
+||fightpass.site/*/ad-overlay-
+||fightpass.site/*/cookie-notice
+||static.fatchilli.media/stickyBanner.js
+
+!https://ladsnbastands.com/2020/07/19/ladsnews3/
+||play.selectmedia.asia/*/ladsnbastands
+||kegsandremembrance.com^
+
+!https://liveonscore.tv/motor-sports/formula-one-world-championship/
+liveonscore.tv##+js(aopw, _pop)
+||9qovcur0guk3.com^
+
+!https://redsoccer.info/xo_event/la1/
+redsoccer.info##ASIDE.widget_eu_cookie_law_widget 
+redsoccer.info##DIV[class^="td-post-sharing-"] 
+redsoccer.info##BUTTON#dismiss-btn
+redsoccer.info##INS#ga-overlay
+
+!https://sports24.club/motor/rolex-british-grand-prix-qualifying-ss6.html
+||sports24.club/tv/ol.php?
+||sports24.club/bm/bm.js?
+sports24.club##A.btn.btn-outline-primary[target="_blank"]
+||sports24.club/images/close.jpg
+sports24.club##DIV.container > DIV.row > DIV.col
+sports24.club##DIV > DIV[style="width:300px;height:250px;overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
+
+!Chyba pasek ładowania
+||prem.link/themes/css/pace.min.js
+||prem.link/themes/css/pace_loading_bar.css
+!prem.link##+js(popads.net.js)
+prem.link##+js(aopw, _pop)
+!A to raczej niepotrzebne:
+||prem.link/themes/plyr/rangetouch.js
+||prem.link/themes/plyr/plyr.js?
+||prem.link/themes/js/jwplayer/jwplayer.new.js
+||prem.link/themes/js/flash_detect.min.js
+!@@||liveadexchanger.com/a/display.php^$domain=prem.link,badfilter
+@@||liveadexchanger.com/a/display.php$script,domain=prem.link,badfilter
+
+!https://www.cnet.com/news/inside-the-hidden-world-of-competitive-lockpicking/
+!https://cnet1.cbsistatic.com/fly/js/libs/ads/bidbarrel-2.16.3.js
+||cbsistatic.com/*/bidbarrel
+
+!Sortowanie ceną https://www.decathlon.pl/C-615735-opony-rowerowe/N-375302-wielkosc-ko%C5%82a~26%22/N-375399-rodzaj-produktu~opony/T-7093_7096
+!@@||decathlon.pl/content/js/tc_analytics.js
+
+||mobimart.it/ban.html
+
+!Banery po najechaniu na kategorie z paska nawigacyjnego na górze strony
+!https://www.decathlon.pl/opona-mtb-country-style-26x20-id_8537149.html
+||decathlon.pl/*/override.js
+||trustmate.io^
+||baqend.com^
+||searchnode.com^
+||searchnode.io^
+||convertiser.com^
+||loyaltypoint.pl^
+||leaselink.pl^
+||kappacdn.net^
+!||wtxcdn.com^
+||decathlon.pl/wrapper-sw.js
+
+!google.com##+js(remove-attr, onmousedown|data-cthref, DIV#center_col A[href])
+!google.com#@#+js(remove-attr, onmousedown|data-cthref, DIV#center_col A[href])
+www.google.*##+js(remove-attr, onmousedown|data-cthref, DIV#search A[href])
+
+!https://ouo.io/3AQW31
+||ouo.io/ga/ga.js
+||whaiweel.com^
+
+!Ramka z facebooka
+!https://wiadomosci.dziennik.pl/media/artykuly/8053584,logo-owsiak-wosp-tvp-telewizja-polska-wiadomosci-media.html
+
+||yastatic.net^$3p,domain=~yandex.ru,badfilter
+
+
