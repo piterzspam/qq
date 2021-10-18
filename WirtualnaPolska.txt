@@ -251,7 +251,7 @@ wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default
 !https://wiadomosci.wp.pl/warszawa-polacy-korzystaja-z-pogody-tlumy-na-bulwarach-wislanych-6637883515714048g/5
 wp.pl##HEAD > STYLE[data-id="wpcss"]:has-text(/T.*W.*O.*J.*E.*O.*K.*A.*Z.*J.*E/):remove()
 wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD[data-reactid="5"] > DIV:first-of-type:has(svg[viewBox="0 0 16 16"][name="close"])
-wp.pl##DIV[data-st-area="Header"] > DIV[class*=" "]:not([data-reactid])
+wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] > DIV[class*=" "]:not([data-reactid])
 
 !Reklama po bokach strony
 !https://wiadomosci.wp.pl/spor-o-turow-pis-w-ciagu-dwoch-tygodni-chce-dogadac-sie-z-czechami-6648461188873120a
