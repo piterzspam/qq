@@ -1,144 +1,146 @@
 ! Title: Wirtualna Polska
 ! Expires: 1 day
 
+!#include O2.txt
+
 wp.pl##+js(nostif, advertisementEventDispatcher)
 wp.pl##+js(nostif, executeDelayedAdv)
 wp.pl##+js(addEventListener-defuser, advRail)
 
 
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser)
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-logger)
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-setTimeout-if)
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-setInterval-if)
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-requestAnimationFrame-if)
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(json-prune)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-logger)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-setTimeout-if)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-setInterval-if)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(no-requestAnimationFrame-if)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(json-prune)
 
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > IMG[width="56"][height="45"]) > DIV >*:has(IFRAME):remove()
-
-
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > IMG[width="56"][height="45"]) > DIV >*:has(IFRAME):remove()
 
 
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(A[href]):has(IMG):remove()
+
+
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV:has(:scope > DIV > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child > DIV:only-child:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/)):has(IFRAME):remove()
 
 
 
 
 !POCZĄTEK - UNIWERSALNE
-@@*$ghide,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+@@*$ghide,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 
-||v.wpimg.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||gemius.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||doubleclick.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||adocean.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||hotjar.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||criteo.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||amazon-adsystem.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||connectad.io^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||indexww.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||pubmatic.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||rubiconproject.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||googletagmanager.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||pushpushgo.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||googletagservices.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||criteo.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||inistrack.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||adnxs.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||adform.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||creativecdn.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||stickyadstv.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||connect.facebook.net/*/fbevents.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||facebook.com/*/plugins/like.php?action=like$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||facebook.com/plugins/like.php?action=like$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||v.wpimg.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||gemius.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||doubleclick.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||adocean.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||hotjar.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||criteo.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||amazon-adsystem.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||connectad.io^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||indexww.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||pubmatic.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||rubiconproject.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||googletagmanager.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||pushpushgo.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||googletagservices.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||criteo.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||inistrack.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||adnxs.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||adform.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||creativecdn.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||stickyadstv.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||connect.facebook.net/*/fbevents.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||facebook.com/*/plugins/like.php?action=like$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||facebook.com/plugins/like.php?action=like$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 !Po zablokowaniu nie działa ramka
 !https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
-!||connect.facebook.net/*/sdk.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||graph.facebook.com/?ids=http$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||casalemedia.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||openx.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||criteo.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||smartadserver.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||teads.tv^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||businessclick.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-/sw.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||pixel6.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt1.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt2.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt3.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt4.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt5.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt6.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt7.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt8.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt9.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||cdnt10.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||ssp.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||emxdgt.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||google-analytics.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-!||data-api.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
-||clickonometrics.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+!||connect.facebook.net/*/sdk.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||graph.facebook.com/?ids=http$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||casalemedia.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||openx.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||criteo.net^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||smartadserver.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||teads.tv^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||businessclick.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+/sw.js$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||pixel6.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt1.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt2.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt3.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt4.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt5.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt6.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt7.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt8.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt9.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||cdnt10.wp.pl/|$xhr,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||ssp.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||emxdgt.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||google-analytics.com^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+!||data-api.wp.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+||clickonometrics.pl^$domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 
 !Po zablokowaniu po wejściu na stronę bez pozycji ok. WPwlbcappfxfac31m11h5 o wartości ok. 1631974811281 w localStorege pokazuje się komunikat o adblocku
-!||www.wp.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|o2.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
+!||www.wp.pl^$subdocument,domain=abczdrowie.pl|autokult.pl|dobreprogramy.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl|money.pl|parenting.pl|polygamia.pl|pudelek.pl|wp.pl
 
 !Przeładowanie strony po zmianie karty
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
 
 !Przeładowanie strony głównej
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
 
 !Powiadomienie o ciastkach na dole strony
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#WP-cookie-info
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#WP-cookie-info
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
 
 !Skrypt tworzący reklamy
 !https://wiadomosci.wp.pl/andrzej-duda-ostro-skrytykowany-przez-aleksandra-kwasniewskiego-6637542089303681v
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6:remove()
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6:remove()
 
 !Reklama po zapauzowaniu wideo
 !https://wiadomosci.wp.pl/komorowski-wraca-do-polityki-kwasniewski-ocenil-ten-ruch-jednoznacznie-6637905605011585v
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV.npp-container.paused DIV.plchldr:remove()
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, scroll, [data-st-area="back-WP"])
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV.npp-container.paused DIV.plchldr:remove()
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, scroll, [data-st-area="back-WP"])
 
 !Pasek na dole strony "Przejdź na WP"
 !https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##A[data-st-area*="ToSG"]:upward(DIV.content > DIV)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##A[data-st-area*="ToSG"]:upward(DIV.content > DIV)
 
 !Link do dziejesie w treści artkułu
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV.article--text:has(STRONG > A[href="https://dziejesie.wp.pl/"])
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV.article--text:has(STRONG > A[href="https://dziejesie.wp.pl/"])
 
 !Za duże miniaturki w tekście artykułu
 wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV[data-st-area="article-graphicTeaser"]
@@ -161,22 +163,22 @@ wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DI
 
 !Wideo powiązane w treści artykułu
 !https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE DIV.article--text:has(:scope > H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV.article--text:has(:scope > H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE DIV.article--text:has(:scope > H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV.article--text:has(:scope > H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
 !https://wiadomosci.wp.pl/malutki-bobr-uratowany-przed-utonieciem-w-klodzku-zdjecia-6637885770005440a
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE DIV.article--text:has(:scope > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV.article--text:has(:scope > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE DIV.article--text:has(:scope > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV.article--text:has(:scope > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(:scope > DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
 !Trzeba usunąć wideo, potem schować element z tekstem i element po wideo
 !https://opinie.wp.pl/skladka-zdrowotna-w-gore-ale-czy-dzieki-temu-szybciej-dotrzemy-do-lekarza-opinia-6639982861732384a
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE DIV[data-reactid]:has(:scope > DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV > DIV[id^="video-player-"]:remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV[data-reactid]:has(:scope > DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:empty:xpath(self::node() | self::node()/preceding-sibling::DIV[1])
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE DIV[data-reactid]:has(:scope > DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV > DIV[id^="video-player-"]:remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE DIV[data-reactid]:has(:scope > DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:empty:xpath(self::node() | self::node()/preceding-sibling::DIV[1])
 
 !https://tech.wp.pl/maseczki-powaznym-zrodlem-zanieczyszczen-uwalniaja-metale-ciezkie-do-srodowiska-6638218094942816a
 !https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV:remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##^ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV:remove()
 !Chowanie po usunięciu
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:only-child:has-text(/zobacz:|zobacz także:|zobacz też:/i))
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(:scope >H2:only-child:has-text(/zobacz:|zobacz także:|zobacz też:/i))
 
 !Reklama
 !https://wideo.wp.pl/kontrola-ciezarowki-w-poznaniu-prawda-o-kierowcy-zaskoczyla-nawet-inspektorow-6643465643734657v
@@ -185,15 +187,15 @@ abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorko
 wp.pl##DIV:has(:scope> A[data-st-area="goToSG_mob"])
 !Usuwanie całości usuwało całą stronę po przescrollowaniu w dół
 !https://polygamia.pl/?strona=1
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
 
 
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, AUTOPLAY)
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, autoplay)
-abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, autoplay_blocked)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, AUTOPLAY)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, visibilitychange, autoplay)
+abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##+js(addEventListener-defuser, autoplay_blocked)
 !KONIEC - UNIWERSALNE
 
 
@@ -244,7 +246,7 @@ wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + I
 wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + *:last-child) > DIV > DIV:remove()
 
 !Reklama nad górnym paskiem
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(A[target="_blank"][href^="https://holding.wp.pl/"])):remove()
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(A[target="_blank"][href^="https://holding.wp.pl/"])):remove()
 wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(P)):remove()
 
 !#canonical #desktop #mobile - Pasek z koszykiem na dole okna "Twoje okazje"
@@ -271,7 +273,7 @@ wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content DIV:la
 wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) P:has-text(Podziel się) + DIV:last-child:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !Sekcja "Bądź z nami na bieżąco" pod artykułem
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(:scope >A[href="https://www.instagram.com/wirtualnapolska"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child) > * > * > * > *:remove()
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(:scope >A[href="https://www.instagram.com/wirtualnapolska"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child) > * > * > * > *:remove()
 wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(:scope >A[href^="https://www.instagram.com/"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child)
 
 !Reklamy w kafelkach pod artykułem
@@ -289,15 +291,15 @@ wp.pl##DIV.teasersListing DIV:has(:scope> DIV[data-native-adv="true"]) > *:not(:
 !data-st-area="list-selected4you-seenAfterContentFallback"
 
 !Reklamy w komentarzach po rozwinięciu
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > A)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > A)
 !Na mobilnej nie ma elementu DIV.menuFooterMobile[data-st-area="Footer"
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child:not(::after))
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > A)
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > DIV:only-child > A)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child:not(::after))
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > A)
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child > DIV:only-child > A)
 wp.pl##DIV#comments > DIV > DIV:has(:scope >DIV:first-child + DIV:last-child:has(A)):remove()
 
 !Dymek z informacją o trybie ciemnym
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(A[data-st-area="st-header-darkmode"])
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(A[data-st-area="st-header-darkmode"])
 !wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="st-header-darkmode"]:upward(DIV[data-reactid]:first-child + DIV:last-child)
 !wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] + DIV[data-st-area="Menu"] + DIV:has(A[data-st-area="st-header-darkmode"])
 !wp.pl##DIV:has(:scope> DIV > INPUT[type="checkbox"]) + DIV:has(:scope> DIV > A[data-st-area="st-header-darkmode"])
@@ -325,8 +327,8 @@ parenting.pl,abczdrowie.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPa
 !KONIEC - BODY[itemscope=""][itemtype="http://schema.org/WebPage"]
 
 !POCZĄTEK - DIV[data-st-area="st-article"]
-||ssp.wp.pl^$domain=o2.pl|pudelek.pl
-!money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-article"]
+||ssp.wp.pl^$domain=pudelek.pl
+!money.pl,pudelek.pl##DIV[data-st-area="st-article"]
 !Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + DIV
 money.pl,pudelek.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV:last-child)
 money.pl,pudelek.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV:last-child):remove()
@@ -334,67 +336,49 @@ money.pl,pudelek.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[c
 !Na dole artykułu zamiast pierwszego DIVa jest ARTICLE
 money.pl,pudelek.pl##DIV[class]:has(:scope >IMG[class][src*="v.wpimg.pl/"][alt]:first-child + DIV:last-child)
 money.pl,pudelek.pl##DIV[class]:has(:scope >IMG[class][src*="v.wpimg.pl/"][alt]:first-child + DIV:last-child):remove()
-!Niektóre obrazki na o2 są z domeny o2.pl
-o2.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="o2.pl/"][alt] + DIV:last-child)
-o2.pl##DIV[class] > DIV[class]:has(:scope >DIV:first-child + IMG[class][src*="o2.pl/"][alt] + DIV:last-child):remove()
-o2.pl##DIV[class]:has(:scope >IMG[class][src*="o2.pl/"][alt]:first-child + DIV:last-child)
-o2.pl##DIV[class]:has(:scope >IMG[class][src*="o2.pl/"][alt]:first-child + DIV:last-child):remove()
 !Czasem reklama ma tylko IMG, więc ukrycie
-money.pl,o2.pl,pudelek.pl##DIV.i2doh5-0
+money.pl,pudelek.pl##DIV.i2doh5-0
 !Reklamy w polecanych pod artykułem - tylko desktop
-o2.pl,pudelek.pl##DIV#polecane-mainColumn > DIV > DIV:has(:scope >A[target="_blank"]):remove()
+pudelek.pl##DIV#polecane-mainColumn > DIV > DIV:has(:scope >A[target="_blank"]):remove()
 !Przycisk "Wróć na WP"
-o2.pl##A[data-st-area="ST-backToO2"][href^="/?src"]
-o2.pl##A[data-st-area="ST-backToSG"][href*="www.wp.pl"]
 money.pl##A[data-st-area="gotosg"][href*="www.wp.pl"]
 money.pl##A[data-st-area="backtosg"][href*="www.wp.pl"]
 pudelek.pl##[data-st-area="gotosg"][href*="www.wp.pl"]
 pudelek.pl##[data-st-area="backtosg"][href*="www.wp.pl"]
-!Przycisk "Wróć na WP" na stronie mobilnej
-!o2.pl##DIV:has(:scope> A[data-st-area="ST-backToSG_mob"])
-!https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
-o2.pl##A[data-st-area="ST-goToO2_mob"]
 !Wideo w treści artykułu - desktop i mobile
 !https://www.money.pl/gospodarka/duzy-konflikt-o-wielka-plyte-ziobro-beszta-gowina-6656954938227232a.html
 !Chowanie
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV[class]:has(:scope >DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child)
+money.pl,pudelek.pl##ARTICLE DIV[class]:has(:scope >DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child)
 !Usuwanie
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV[class] > DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child > *:remove()
+money.pl,pudelek.pl##ARTICLE DIV[class] > DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child > *:remove()
 !https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
-money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
-!money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
+money.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+!money.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
 !Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV:has(:scope> DIV:first-child + DIV[font-size="s"]:last-child > STRONG > A[href="https://dziejesie.wp.pl/"][target="_blank"])
+money.pl,pudelek.pl##ARTICLE DIV:has(:scope> DIV:first-child + DIV[font-size="s"]:last-child > STRONG > A[href="https://dziejesie.wp.pl/"][target="_blank"])
 !Kolumna z FB (Polub pudelek.pl na Facebooku:) po lewej stronie komentarzy - strona desktop
-money.pl,o2.pl,pudelek.pl##ASIDE[role="complementary"]:has(DIV#fb-like-btn)
+money.pl,pudelek.pl##ASIDE[role="complementary"]:has(DIV#fb-like-btn)
 !Kolumna z FB (Polub pudelek.pl na Facebooku:) po lewej stronie komentarzy - strona mobilna
-money.pl,o2.pl,pudelek.pl##DIV:has(:scope> DIV#fb-like-btn)
+money.pl,pudelek.pl##DIV:has(:scope> DIV#fb-like-btn)
 !Przycisk Fb pod przyciskiem do komentarzy w lewej kolumnie - tylko desktop
-!money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:has(BUTTON SVG[color="#4267b2"])
-money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV DIV:last-child:has(:scope >BUTTON > svg[color="#4267b2"])
-!money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV DIV:last-child:has(:scope >BUTTON)
-!money.pl,o2.pl,pudelek.pl##+js(set, window.WP.gaf, '')
+!money.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:has(BUTTON SVG[color="#4267b2"])
+money.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV DIV:last-child:has(:scope >BUTTON > svg[color="#4267b2"])
+!money.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV DIV:last-child:has(:scope >BUTTON)
+!money.pl,pudelek.pl##+js(set, window.WP.gaf, '')
 !Blokowanie ładowania reklam statycznych
-!money.pl,o2.pl,pudelek.pl##^SCRIPT:has-text(WP.gaf.registerSlot)
+!money.pl,pudelek.pl##^SCRIPT:has-text(WP.gaf.registerSlot)
 !Pasek na dole strony mobilnej
 money.pl##DIV.content + NAV
 !Na stronie mobilnej przycisk 1Login zasłania hamburgera
 ||onelogin.wpcdn.pl^$domain=money.pl
 !Na stronie głównej - puste pola po niezaładowanych reklamach statycznych
 !chyba jak się nie wyświetlają, to się nie ładują
-o2.pl##DIV[class]:has(:scope> IMG[class][src*="o2.pl/"][role="presentation"]:only-child)
-!Reklama statyczna, desktop, strona główna, sekcja "Oferty dla Ciebie"
-o2.pl##DIV[class]:has(:scope> IMG[class][src*="o2.pl/"][role="presentation"]:first-child + DIV:last-child:empty)
 !Małe reklamy na stronie mobilnej: nad tytułami o2 i plotek, na stronie głównej plotek
 !Małe reklamy na stronie desktopowej: na górze prawej na stronie artykułu o2 i plotek 
 !Na stronie z artykułem - mała reklama doładowywana na górze prawej kolumny - strona desktopowa
 !chyba jak się nie wyświetlają, to się nie ładują
-o2.pl,pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:has(:scope> SCRIPT:only-child):not([class]))
-o2.pl,pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:not([class]):empty)
-!Reklama doładowywana, desktop, strona główna, sekcja "Mogłeś przegapić", prawa strona
-o2.pl##SECTION[data-st-area="o2_stream"] > ASIDE:remove()
-!Reklama doładowywana, desktop, strona główna, sekcja "Oferty dla Ciebie"
-o2.pl##DIV[class]:has(:scope >IMG[class][src*="o2.pl/"][role="presentation"]:first-child + DIV + DIV + DIV:last-child):remove()
+pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:has(:scope> SCRIPT:only-child):not([class]))
+pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:not([class]):empty)
 
 !Na stronie głownej 2 poziome reklamy przed sekcją Firma i przed stopką
 money.pl##:xpath(//DIV[@class][count(*)=2][DIV[@class][count(*)=3][DIV[@class][count(*)=2]][count(DIV[@class][count(*)=0])=2]/following-sibling::DIV[1][not(@class)]])
@@ -589,11 +573,6 @@ opinie.wp.pl,wiadomosci.wp.pl##div:matches-css(width: 300px):matches-css(height:
 
 
 
-!https://www.o2.pl/biznes/koncern-obajtka-przejal-gazete-lubuska-odchodza-kolejni-dziennikarze-6675312889891456a
-o2.pl##ARTICLE DIV[class]:has(> DIV:only-child > P:only-child > STRONG:first-child:has-text(/Czytaj także:/) + A[href*="o2.pl"]:last-child)
-!https://www.o2.pl/informacje/slowacy-wysmiewaja-polskich-turystow-chodzi-o-to-zdjecie-6675380680071808a
-o2.pl##ARTICLE DIV[class]:has(> DIV:only-child > P:only-child:has-text(/Czytaj także:/) > A[href*="o2.pl"]:only-child)
-@@||connect.facebook.net/*/sdk.js$script,third-party,domain=o2.pl
 
 
 !Ramki w treści artykułu "Zobnacz też:" - wersja desktopowa i mobilna
