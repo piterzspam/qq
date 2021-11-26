@@ -98,7 +98,7 @@ wp.pl##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animatio
 !Wideo
 !https://opinie.wp.pl/dzialka-rower-praca-zdalna-i-frustracja-czego-nauczyl-nas-rok-pandemii-6614162219625152a?amp=1&amp_js_v=0.1
 @@||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
-ampproject.org,wp.pl##AMP-VIDEO-IFRAME[src^="https://wideo.wp.pl/ampNativeplayer.html?autoplay="][height="259"]:style(height: 270px; !important;)
+ampproject.org,wp.pl##AMP-VIDEO-IFRAME[src^="https://wideo.wp.pl/ampNativeplayer.html?autoplay="][height="259"]:style(height: 270px !important;)
 
 !Wideo powiązane w treści artykułu
 !https://opinie.wp.pl/kataryna-prezydentura-joe-bidena-nowym-otwarciem-nie-zalozylabym-sie-opinia-6599312116320385a?amp=1&amp_js_v=0.1
