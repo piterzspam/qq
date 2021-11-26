@@ -172,10 +172,6 @@ onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(Cieszymy się, że jesteś z na
 !https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
 onet.pl##BODY.ucs-infoskin DIV.detail DIV.placeholder.embed.htmlbox:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
 
-!#canonical #desktop #mobile - Wideo w treści artykułu - paragraf "dalszy ciąg..." 
-!P[data-scroll="paragraph"] - https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
-onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część artykułu znajduje się poniżej podcastu|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
-
 !#canonical #desktop #mobile - Wideo w treści artykułu
 onet.pl##BODY.ucs-infoskin DIV.detail DIV.pulsevideo
 
@@ -313,20 +309,6 @@ www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[
 
 !#www.onet.pl #desktop #mobile - Wideo w treści artykułu
 www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class*="EmbeddedApplication_pulsevideo_"]
-
-!#www.onet.pl #desktop #mobile - Wideo w treści artykułu - paragraf "dalszy ciąg..."
-!Ciąg dalszy artykułu pod wideo. - https://kultura.onet.pl/wiadomosci/jacek-kurski-jednak-nie-zostanie-prezesem-tvp-krzysztof-czabanski-zabral-glos/4bf8tkk?utm_source=_viasg_fakt
-!Dalszy ciąg artykułu pod wideo. - https://www.onet.pl/kultura/onetkultura/jan-pospieszalski-zablokowany-przez-patronitepl-nie-zebral-ani-zlotowki/b6eeeq9,681c1dfa
-!Dalsza część artykułu pod materiałem wideo
-!Dalsza część artykułu znajduje się pod materiałem wideo  - https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
-!Dalsza część artykułu znajduje się poniżej materiału wideo
-!Dalsza część artykułu znajduje się poniżej podcastu: - https://www.onet.pl/informacje/onetwiadomosci/polska-stracila-na-ue-znalezli-blad-w-raporcie-jakiego-liczony-w-miliardach/5psc47f,79cfc278
-!Dalsza część tekstu znajduje się pod materiałem wideo
-!Dalsza część tekstu znajduje się pod wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2
-!Dalszą część tekstu znajdziesz pod materiałem wideo
-!Pozostała część tekstu pod materiałem wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/tvp-znow-nie-zaprasza-ludzi-zbigniewa-ziobry/tb5hmms?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
-!Reszta tekstu pod materiałem wideo
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część artykułu znajduje się poniżej podcastu|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + DIV[class*="EmbeddedApplication_wrapper_"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#www.onet.pl #desktop #mobile - Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
@@ -503,7 +485,6 @@ www.onet.pl##DIV.onet-ad
 
 
 
-!www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część artykułu pod materiałem wideo:)/i)
 !wiadomosci.onet.pl##DIV.detail DIV.pulsevideo
 !onet.pl#@#^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
 
@@ -564,10 +545,25 @@ ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:first-of-t
 onet.pl##HTML[\⚡] > BODY ARTICLE UL:has(> LI:only-child > A[href*="onet.pl/"])
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:has(> LI:only-child > A[href*="onet.pl/"])
 
-!#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
-!https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
-onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część artykułu znajduje się poniżej podcastu|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
-ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(/(Ciąg dalszy artykułu pod wideo|Dalszy ciąg artykułu pod wideo|Dalsza część artykułu pod materiałem wideo|Dalsza część artykułu znajduje się pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo|Dalsza część artykułu znajduje się poniżej podcastu|Dalsza część tekstu znajduje się pod materiałem wideo|Dalsza część tekstu znajduje się pod wideo|Dalszą część tekstu znajdziesz pod materiałem wideo|Pozostała część tekstu pod materiałem wideo|Reszta tekstu pod materiałem wideo)/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!#www.onet.pl #desktop #mobile #related_video- Wideo w treści artykułu - paragraf "dalszy ciąg..."
+!Ciąg dalszy artykułu pod wideo. - https://kultura.onet.pl/wiadomosci/jacek-kurski-jednak-nie-zostanie-prezesem-tvp-krzysztof-czabanski-zabral-glos/4bf8tkk?utm_source=_viasg_fakt
+!Dalszy ciąg artykułu pod wideo. - https://www.onet.pl/kultura/onetkultura/jan-pospieszalski-zablokowany-przez-patronitepl-nie-zebral-ani-zlotowki/b6eeeq9,681c1dfa
+!Dalsza część artykułu pod materiałem wideo: - https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt
+!Dalsza część artykułu znajduje się pod materiałem wideo  - https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
+!Dalsza część artykułu znajduje się poniżej materiału wideo
+!Dalsza część artykułu znajduje się poniżej podcastu: - https://www.onet.pl/informacje/onetwiadomosci/polska-stracila-na-ue-znalezli-blad-w-raporcie-jakiego-liczony-w-miliardach/5psc47f,79cfc278
+!Dalsza część tekstu znajduje się pod materiałem wideo
+!Dalsza część tekstu znajduje się pod wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2
+!Dalszą część tekstu znajdziesz pod materiałem wideo
+!Pozostała część tekstu pod materiałem wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/tvp-znow-nie-zaprasza-ludzi-zbigniewa-ziobry/tb5hmms?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
+!Reszta tekstu pod materiałem wideo
+!Więcej informacji pod materiałem wideo - https://www.onet.pl/informacje/onetslask/w-cieniu-amerykanskich-czolgow-umiera-polski-zaklad-pancerny/bre4kp5,79cfc278
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV[class*="EmbeddedApplication_wrapper_"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!Wersja #canonical #desktop #mobile
+onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!Wersja #amp #ampproject
+onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
