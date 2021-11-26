@@ -64,7 +64,7 @@ medonet.pl##DIV.google-news-banner
 !#canonical #mobile - Wideo powiązane w treści artykułu, usuwanie, żeby nie ładowały się ramki
 !https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,jak-wladimir-putin-dba-o-zdrowie--dieta-i-treningi-prezydenta-rosji,artykul,10571692.html
 !https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
-medonet.pl##ARTICLE P:has-text(/^|(Ciąg|Dalszy|Dalsza|Dalszą|Pozostała|Reszta).*?(artykułu|tekstu|wywiadu).*?(pod|poniżej).*?wideo[.: ]?$/) + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+medonet.pl##ARTICLE P:has-text(/^(Ciąg|Dalszy|Dalsza|Dalszą|Pozostała|Reszta).*?(artykułu|tekstu|wywiadu).*?(pod|poniżej).*?wideo[.: ]?$/) + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
 
 !#canonical #mobile - Zdjęca w minuiaturkach powiązanych zajmowały połowę wysokości strony
 !https://www.medonet.pl/koronawirus/to-musisz-wiedziec,dramat-ozdrowiencow-sie-nie-konczy--lekarz-mowi--co-im-dolega,artykul,54899097.html
