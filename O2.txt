@@ -66,9 +66,10 @@ o2.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > P:only-child > STRONG:first-ch
 !https://www.o2.pl/informacje/rekord-wszech-czasow-w-tatrach-tylu-turystow-w-gorach-jeszcze-nie-bylo-6669744253340160a
 !https://www.o2.pl/zdrowie/pomaga-zasnac-w-15-min-fenomenalny-trik-z-tiktoka-zna-juz-3-2-mln-osob-6704714968243168a
 !https://www.o2.pl/plotki/zona-kraski-zrzucila-ciuszki-a-potem-nas-zatkalo-6704979597081536a
-o2.pl##ARTICLE > DIV:has(> P:only-child:has-text(/(Czytaj także:|Czytaj też:)/) > A[href][rel="noopener noreferrer"][target="_blank"]:only-child)
+!https://www.o2.pl/biznes/wlasciciele-roksa-pl-zatrzymani-grozi-im-do-10-lat-wiezienia-6710355369425536a
+o2.pl##ARTICLE > DIV:has(> P:only-child:has-text(/(Czytaj także:|Czytaj też:)/) A[href][rel="noopener noreferrer"][target="_blank"]:only-child)
 !Wersja #mobile
-o2.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > P:has-text(/(Czytaj także:|Czytaj też:)/) > A[href][rel="noopener noreferrer"][target="_blank"]:only-child)
+o2.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > P:has-text(/(Czytaj także:|Czytaj też:)/) A[href][rel="noopener noreferrer"][target="_blank"]:only-child)
 
 
 !#canonical #desktop #article_page #related #paragraph #static - Element "Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl" na końcu artykułu
