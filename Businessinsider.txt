@@ -28,6 +28,10 @@
 ||ocdn.eu/businessinsider/static/sgLoaderScript.js
 
 !#canonical #desktop - Ramki
+!https://businessinsider.com.pl/twoje-pieniadze/wnioski-o-podwyzki-cen-energii-juz-sa-tak-moga-wzrosnac-nasze-rachunki/f0v3z02
+businessinsider.com.pl##DIV.related_articles-container
+
+!#canonical #desktop - Ramki
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
 !https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
 !https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5

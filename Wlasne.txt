@@ -753,7 +753,7 @@ c-sharpcorner.com###bannerLargeAd
 !https://www.c-sharpcorner.com/JavaScripts/NewScripts/NewPopupPlugin.js
 ||c-sharpcorner.com/*NewPopupPlugin.js
 !https://csharpcorner-mindcrackerinc.netdna-ssl.com/js/article_details_new?v=RczjRCB501FNdEx_d3l1xjt1z9YE93BkVMcy_f_Sw8A1
-||csharpcorner-mindcrackerinc.netdna-ssl.com^
+!||csharpcorner-mindcrackerinc.netdna-ssl.com^
 
 
 !RUS: RU AdList
@@ -2128,4 +2128,144 @@ www.google.*##+js(remove-attr, onmousedown|data-cthref, DIV#search A[href])
 
 ||yastatic.net^$3p,domain=~yandex.ru,badfilter
 
+! 2021-10-19 https://www.drorto.pl
+||www.drorto.pl/assets/uploaded/loga_strona/2.png$image
+
+! 2021-10-20 https://www.pythontutorial.net
+www.pythontutorial.net##.whitelist > .ad-336.ad
+www.pythontutorial.net##.entry-content > .ad-336.ad
+
+! 2021-10-20 https://www.guru99.com
+www.guru99.com##.responsive-guru99-mobile1
+
+||pricearchive.org/js/jquery.messageoverlay-1.js
+
+!freedisc.pl##+js(set, window.avertises_unblocked, true)
+@@||webshark.pl/apcu/
+@@||ovh.webshark.pl/asrv/1/main.js
+
+
+! 2021-10-31 https://www.scientificamerican.com
+www.scientificamerican.com##.spw__banner
+
+@@||geeksforgeeks.org^$generichide
+!Wlasne: www.geeksforgeeks.org##.login-modal-div
+www.geeksforgeeks.org#@#.login-modal-div
+
+
+||util.geeksforgeeks.org/profileLink.php
+
+!https://www.geeksforgeeks.org/python-as-keyword/
+geeksforgeeks.org##.textBasedMannualAds
+
+||translate.google.com^$domain=geeksforgeeks.org
+geeksforgeeks.org##._ap_apex_ad
+
+!https://www.guru99.com/python-regular-expressions-complete-tutorial.html
+guru99.com##DIV.code-block
+
+!https://towardsdatascience.com/scraping-1000s-of-news-articles-using-10-simple-steps-d57636a49755
+!##BODY > SCRIPT[src^="https://cdn-client.medium.com/lite/static/js/manifest."] ~ DIV:not([id]):not([class]):last-child:has(DIV[role="alert"])
+towardsdatascience.com##BODY > SCRIPT[src^="https://cdn-client.medium.com/lite/static/js/manifest."] ~ DIV:not([id]):not([class]):has(DIV[role="alert"])
+
+
+
+
+
+
+realpython.com##+js(aeld, DOMContentLoaded, rprw)
+
+!Reklamy
+realpython.com##DIV.article DIV:has(> A.small.text-muted[href="/account/join/"] > I.fa.fa-info-circle)
+!Sociale
+realpython.com##DIV.sidebar-sticky > DIV.sidebar-module + DIV.sidebar-module:has(> SPAN > A.badge.text-light.mb-1)
+
+! 2021-11-23 https://time.com
+time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component
+
+!https://www.ceneo.pl/25947454;0280-0.htm
+ceneo.pl##.product-offers__list__ado-item
+||ceneo.pl/Product/RecommendationsForProductHome?
+ceneo.pl##.recommended-products
+ceneo.pl##.js_promotedItems
+ceneo.pl##DIV.js_atContainer + DIV.js_rec-container:xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
+
+! 2021-11-25 https://www.cda.pl
+www.cda.pl##.siddeAd.tradf
+
+
+!Poprawa galerii reddita
+reddit.com##BODY > DIV[id="gov-container"] DIV[data-test-id="post-content"] > DIV > DIV[tabindex="0"] > DIV[tabindex="-1"][style]:style(height: unset !important)
+reddit.com##BODY > DIV[id="gov-container"] DIV[data-test-id="post-content"] > DIV > DIV[tabindex="0"] > DIV[tabindex="-1"] UL > LI[style="left:0px"]:style(position: unset !important)
+reddit.com##BODY > DIV[id="gov-container"] DIV[data-test-id="post-content"] > DIV > DIV[tabindex="0"] > DIV[tabindex="-1"] UL > LI[style="left: 0px;"]:style(position: unset !important)
+
+
+
+!https://spidersweb.pl/2021/11/pegasus-apple-powiadomienie-nso-group.html
+spidersweb.pl###SpidersWeb_SW__SDH1_STH1_SMH1_AMP1
+
+!http://strumyk.tv/OdraOpolePodbeskidzieBB.php
+||assia2.com/css/$css,frame,script
+@@||assia2.com/css/jquery.min.js
+||cozyrepeatedlycowardly.com^
+||indisputablewheelshandcuff.com^
+||assia1.tv/css/vast-adstera.xml
+
+
+
+
+
+!desktop
+audycje.tokfm.pl##BODY.noscroll:not(:has(DIV.podcasts--title)):has(DIV.player--container.none DIV.player--div-ui:not(.mobile)):watch-attr(class)
+!mobile
+audycje.tokfm.pl##BODY.noscroll:watch-attr(class):has(DIV.player--container.none DIV.player--div-ui.mobile:not(.active))
+
+!#desktop - Reklamy w komentarzach DFP-011-
+tokfm.pl###div[id^="DFP-011-MIDBOARD-MOBI_"]
+tokfm.pl#@#SECTION.art_content > DIV.art_embed
+tokfm.pl###DFP-007-CONTENTBOARD_1, #banP99_DFP, .ban001_wrap, .ban001_wrapper, div[id^="DFP-011-MIDBOARD-MOBI_"], div[id^="adsMidboardDivId_"], div[id^="banC"], div[id^="banP104_DFP_"], div[id^="adUnit-"]
+tokfm.pl##SECTION.art_content > DIV.art_embed > DIV:first-child:has(:scope> SPAN.video-head:only-child:has-text(Zobacz wideo)) + DIV.onnOnDemand[data-src*="video.onnetwork.tv/"]:last-child
+tokfm.pl##SECTION.art_content > DIV.art_embed:has(:scope> DIV.related-box)
+!Komunikat o odtwarzaczu w innej karcie
+audycje.tokfm.pl#@##gp--popup
+
+!https://www.salon24.pl/u/fizyka-smolenska/1074794,67-nonsensy-fizyki-smolenskiej-wbijanie-drzwi-2l-w-ziemie
+||s.salon24.pl/js/gemius2.js
+@@||salon24.pl^$generichide
+salon24.pl##^SCRIPT:has-text(sas_idmnet.)
+
+aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(nosiif, __tcfapi)
+!Artykuły automatycznie doładowywane po przescrollowaniu w dół
+!/(aszdziennik|dadhero|innpoland|natemat)\.pl\/pwa-article\/[0-9]+$/$xhr,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|natemat.pl
+!Artykuły automatycznie doładowywane po przescrollowaniu w dół - puste miejsce po nich
+!aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##ARTICLE > DIV.lazyload-wrapper
+!Tytuł z ze zdjęciem z artykułu powiązanego w treści
+aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV#article-body B[class*="-RelatedArticle--Title"] + DIV[class*="-PhotoOnTop--BoxWrapper"]:xpath(self::node() | self::node()/preceding-sibling::B[1])
+!Drugi pasek przewijania poziomego
+aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV#root > DIV.body-v2:style(overflow-x: unset !important;)
+!Puste miejsca po reklamach w prawej kolumnie
+aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV.article-column__sticky-container
+!#if env_chromium
+aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(aost, window.history.replaceState, /stackDepth:3\t a.onChangeVisibility https.*?\t Object.onChange/, 1)
+!#endif
+!#if env_firefox
+aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(aost, window.history.replaceState, /stackDepth:[0-9]+\t https.*?\t onChange/, 1)
+!#endif
+
+!https://www.polskieradio24.pl/42/259/Artykul/2849386,Ile-wyniosla-pazdziernikowa-Inflacja-bez-uwzglednienia-cen-zywnosci-i-energii-Znamy-dane-NBP
+polskieradio24.pl##+js(nostif, SocialTimer, 100)
+polskieradio24.pl##+js(aopr, window.$.relatedArticles)
+
+rp.pl##DIV.paywallInfoElem > DIV.text
+rp.pl##DIV#block-id-content-video-advert
+rp.pl##DIV.addAdvertContainer
+!https://www.rp.pl/biznes/art19073181-prad-moze-zdrozec-nawet-o-20-proc-to-jednak-tylko-poczatek
+rp.pl##HEADER.main--header DIV.headerTopPanel
+rp.pl##HEADER.main--header:style(padding-top: unset !important;)
+||piano.io^$domain=rp.pl
+rp.pl##DIV.advert--outer
+rp.pl##DIV#articleBody DIV.content--excerpt
+rp.pl##DIV#articleBody DIV.marketing--comp
+
+press.pl##+js(remove-attr, oncontextmenu|onselectstart|onselect|oncopy|ondragstart|ondrag|style, DIV.article_content.reading)
 
