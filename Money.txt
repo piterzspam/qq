@@ -214,3 +214,109 @@ money.pl#@#body [class]:style(filter: none !important;)
 !https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
 !div#AdvContainer.text_ads.css-adv.ads.contentAds.top-banners
 @@||money.pl^$generichide
+
+
+
+!money.pl##HEAD > STYLE[data-id="wpcss"]:remove()
+!money.pl##BODY > DIV#WP-cookie-info
+!money.pl##BODY > div:not([id])
+!||direct.money.pl/static/placek_box/
+
+!#canonical #desktop #mobile #article_page #ad #static #dynamic - Pierwsze reklamy w treści artykułu mają bez JS pod DIV SCRIPTy z reklamami (1 szeroki pod zdjęciem głównym + 2 kolejne). W innych DIVy są doładowywane przez JS
+!money.pl##STYLE:has-text(/min-height: ([0-9]{3}px|inherit);/) + DIV:has(> IMG[src][alt]) > DIV:remove()
+
+!#canonical #desktop #mobile #article_page #ad #static #dynamic - Po usunięciu DIVów ze SCRIPTami zablokowanie tych reklam + tych, których SCRIPTów nie miały od początku
+!money.pl##STYLE:has-text(/min-height: ([0-9]{3}px|inherit);/) + DIV:has(> IMG[src][alt]:only-child)
+
+!#canonical #desktop #article_page #related #video #static #dynamic #video_typ1 - Usunięcie odtwarzacza z wideo powiązanym i ukrycie elementu z odtwarzaczem i paragrafem przed wideo powiązanym
+!https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
+money.pl##ARTICLE > DIV:has(> DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"]:only-child:has-text(Zobacz także:)) + DIV[id^="video-player-"]:last-child) > DIV[id^="video-player-"]:last-child > DIV#Player0.wp-player:remove()
+money.pl##ARTICLE > DIV:has(> DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"]:only-child:has-text(Zobacz także:)) + DIV[id^="video-player-"]:last-child:empty)
+!Wersja #mobile
+money.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > DIV:has(> DIV[color="gray200"][font-size="[object Object]"]:only-child:has-text(Zobacz także:)) + DIV[id^="video-player-"]:last-child > DIV#Player0.wp-player:only-child) > DIV:only-child > DIV[id^="video-player-"]:last-child > DIV#Player0.wp-player:only-child:remove()
+money.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > DIV:has(> DIV[color="gray200"][font-size="[object Object]"]:only-child:has-text(Zobacz także:)) + DIV[id^="video-player-"]:last-child:empty)
+
+!#canonical #desktop #mobile #article_page #ad #static #dynamic - Usuwanie i chowanie reklam
+money.pl##DIV#app STYLE:has-text(/min-height: ([0-9]{3}px|inherit);/) + DIV:has(> IMG[src][alt]) > DIV:remove()
+money.pl##DIV#app STYLE:has-text(/min-height: ([0-9]{3}px|inherit);/) + DIV:has(> IMG[src][alt]:only-child)
+
+!#canonical #desktop #main_page #static #dynamic #ad - Sekcja z reklamami po prawej stronie pod sekcją "Notowania"
+money.pl##DIV.adsize_content > DIV.adsize_content > DIV:first-child > MAIN:first-child + DIV:last-child > DIV > DIV:first-child > ASIDE:first-child + DIV:last-child
+
+!#canonical #desktop #main_page #static #dynamic #ad - Sekcja z reklamami nad sekcją "FIRMA" na stronie głównej
+money.pl##DIV.adsize_content > DIV.adsize_content > DIV:first-child + DIV > DIV:remove()
+
+!#canonical #desktop #main_page #static #dynamic #ad - Reklama nad FOOTERem - usuwa też inne elementy ze SCRIPTem
+money.pl##DIV#app > DIV:only-child > DIV:not([class]) > DIV:remove()
+
+!#canonical #desktop #main_page #static #ad - Ramki z reklamami
+||direct.money.pl/static/placek_box/$domain=money.pl
+
+!#canonical #desktop #main_page #static #dynamic - Pasek z reklamą nad paskiem nawigacyjnym
+money.pl##BODY > DIV > DIV[style="height: 60px;"]:remove()
+
+!#canonical #desktop #article_page #dynamic #antyadblock - Komunikat o adblocku
+!https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
+money.pl##HEAD > STYLE[type="text/css"][data-id="wpcss"]:remove()
+
+!#canonical #desktop #article_page #dynamic #social - Ramka z przyciskiem facebooka
+!https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
+||facebook.com/*/plugins/like.php?action=like&$frame,domain=money.pl
+money.pl##DIV[data-st-area="st-article"] ASIDE[role="complementary"]:has(DIV#fb-like-btn)
+
+!#canonical #desktop #article_page #dynamic #ad - Ramka pewnie z reklamą
+!https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
+||www.wp.pl^$domain=money.pl
+
+
+!#canonical #mobile #article_page #dynamic - Pasek nawigacyjny na dole strony mobilnej
+!https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
+money.pl##DIV#app > DIV > NAV[class]:last-child
+
+!#canonical #desktop #article_page #related #video #static #dynamic #video_typ1 - Usunięcie odtwarzacza z wideo powiązanym i ukrycie elementu z odtwarzaczem i paragrafem przed wideo powiązanym
+!https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
+!money.pl##ARTICLE > DIV:has(> DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"]) DIV#Player0:remove()
+!money.pl##ARTICLE > DIV:has(> DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"])
+!Wersja #mobile
+!money.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"]) DIV#Player0:remove()
+!money.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"])
+!Wersja uniwersalna
+money.pl##ARTICLE DIV + DIV + DIV:has(DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"]) DIV#Player0:remove()
+money.pl##ARTICLE DIV + DIV + DIV:has(DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"])
+
+
+!#canonical #desktop #article_page #related #paragraph #static #typ2 - Ukrycie elementu z niepogrubionym paragrafem powiązanym
+!https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
+!money.pl##ARTICLE > DIV:has(> P:only-child:has-text(/Czytaj także:/) > A:only-child[href*="money.pl/"][target="_blank"])
+!Wersja #mobile
+!money.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > P:only-child:has-text(/Czytaj także:/) > A[href*="money.pl/"][target="_blank"]:only-child)
+!Wersja uniwersalna
+money.pl##ARTICLE DIV + DIV + DIV:has(P:only-child:has-text(/Czytaj także:/) > A[href*="money.pl/"][target="_blank"]:only-child)
+
+
+!#canonical #desktop #article_page #related #paragraph #static - Element "Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl" na końcu artykułu
+!https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
+!money.pl##ARTICLE > DIV:has(> DIV[font-size="s"] > STRONG > A[href="https://dziejesie.wp.pl/"])
+!Wersja #mobile
+!money.pl##ARTICLE > DIV > DIV:has(> DIV > DIV[font-size="s"] > STRONG > A[href="https://dziejesie.wp.pl/"])
+!Wersja uniwersalna
+money.pl##ARTICLE DIV + DIV + DIV:has(> DIV > DIV[font-size="s"] > STRONG > A[href="https://dziejesie.wp.pl/"])
+
+
+
+
+!money.pl##+js(noeval)
+!money.pl##+js(aell)
+!money.pl##+js(nosiif)
+!money.pl##+js(nostif)
+!money.pl##+js(norafif)
+
+
+
+
+money.pl##DIV#WP-cookie-info
+
+
+||naanalle.pl^
+||pushpushgo.com^
+

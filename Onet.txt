@@ -160,7 +160,12 @@ onet.pl##BODY.ucs-infoskin SECTION.streamWithRight
 
 !#canonical #desktop #mobile - Puste miejsce między paragrafami w treści artykułu
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin DIV.onet-ad
+!onet.pl##BODY.ucs-infoskin DIV.onet-ad
+onet.pl#@#BODY.ucs-infoskin DIV.onet-ad
+
+!#canonical #desktop antyadblock - Puste miejsce między paragrafami w treści artykułu
+!Po kliknięciu na artykuł wiadomosci.onet.pl i odświeżeniu strony z filtrem onet.pl##BODY.ucs-infoskin DIV.onet-ad pojawia się komunikat o adblocku https://www.onet.pl/informacje/onetpoznan/dorota-kania-korupcja-pozyczki-od-bliskich-marka-dochnala/wv0egdr,79cfc278
+onet.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop #mobile - Newsletter z paragrafem
 !https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
