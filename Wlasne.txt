@@ -824,7 +824,7 @@ m.facebook.com##DIV.async_like:style(cursor: unset !important)
 !https://c2c.edipresse.pl/location_data?url=https%3A%2F%2Fwizaz.pl%2Fkosmetyki%2Fprodukt%2C247136%2Cwilkinson-quattro-titanium-sensitive-maszynka-systemowa-dla-mezczyzn.html
 ||edipresse.pl^$domain=wizaz.pl
 ||rcontent.services.tvn.pl/gstream.js$domain=wizaz.pl
-||zaczytaj.pl^$domain=wizaz.pl
+||zaczytaj.pl^$domain=wizaz.plg
 ||facebook.com/*/plugins/comments.php$domain=wizaz.pl,important
 wizaz.pl##DIV[id^="ecomm-placement-ssr-wrapper-"]
 wizaz.pl##main > article > DIV.folding-content > DIV.video

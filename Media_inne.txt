@@ -110,7 +110,8 @@ tvn24.pl##BUTTON.modal-back-button
 tvn24.pl#@#.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
 
 !https://tvn24.pl/polska/lublin-samochod-stal-na-torach-w-srodku-nikogo-nie-bylo-musieli-wstrzymac-ruch-pociagow-na-linii-lublin-lubartow-5429588
-tvn24.pl##.fMhCkW.floating:style(position: unset !important;)
+tvn24.pl##DIV.nuvi-player__container .floating:style(position: unset !important;)
+tvn24.pl##DIV.ado-placeholder
 
 !Odblokowanie niepoprawnie ukrywanych punktów z leada
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
