@@ -825,6 +825,10 @@ m.facebook.com##DIV.async_like:style(cursor: unset !important)
 ||edipresse.pl^$domain=wizaz.pl
 ||rcontent.services.tvn.pl/gstream.js$domain=wizaz.pl
 ||zaczytaj.pl^$domain=wizaz.pl
+||facebook.com/*/plugins/comments.php$domain=wizaz.pl,important
+wizaz.pl##DIV[id^="ecomm-placement-ssr-wrapper-"]
+wizaz.pl##main > article > DIV.folding-content > DIV.video
+
 !https://static.wizaz.pl/system/kwc/bundles/fosjsrouting/js/router.js?_=499c5e34f136b1799d71949aa9a0ce88
 !||wizaz.pl/kosmetyki/js/routing?callback=fos.Router.setData
 ||wizaz.pl/kosmetyki/js/routing?
@@ -954,7 +958,9 @@ wizaz.pl##^DIV#fi-promo
 aloboi.com##+js(bab-defuser)
 
 ! 2021-03-19 https://www.cozadzien.pl
-www.cozadzien.pl##UL.social-media
+cozadzien.pl##UL.social-media
+cozadzien.pl##BODY > A.db.w-100.relative[href="https://www.radiorekord.pl/radom"]
+
 
 !https://www.nytimes.com/2021/02/18/opinion/fake-news-media-attention.html
 nytimes.com##DIV.gdpr.shown

@@ -84,6 +84,9 @@
 !https://wiadomosci.onet.pl/tylko-w-onecie/pandemia-jak-cien-wielkiej-gory-adama-bodnara-podsumowanie-2020-roku/qvf7nxd?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_medium=null&utm_campaign=leo_automatic&srcc=null&utm_v=2
 .pl/*/*?utm_source=*utm_campaign$document,queryprune=|utm_campaign,first-party,domain=ampproject.org|auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|newsweek.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
 
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(acis, document.getElementById, admain)
+
+
 !ONET.PL
 !Na wszelki wypadek
 @@||onet.pl^$ghide
@@ -163,9 +166,8 @@ onet.pl##BODY.ucs-infoskin SECTION.streamWithRight
 !onet.pl##BODY.ucs-infoskin DIV.onet-ad
 onet.pl#@#BODY.ucs-infoskin DIV.onet-ad
 
-!#canonical #desktop antyadblock - Puste miejsce między paragrafami w treści artykułu
-!Po kliknięciu na artykuł wiadomosci.onet.pl i odświeżeniu strony z filtrem onet.pl##BODY.ucs-infoskin DIV.onet-ad pojawia się komunikat o adblocku https://www.onet.pl/informacje/onetpoznan/dorota-kania-korupcja-pozyczki-od-bliskich-marka-dochnala/wv0egdr,79cfc278
-onet.pl##+js(acis, document.getElementById, admain)
+!#canonical #desktop antyadblock - Usatawione dla wszytkich domen Po kliknięciu na artykuł wiadomosci.onet.pl i odświeżeniu strony z filtrem onet.pl##BODY.ucs-infoskin DIV.onet-ad pojawia się komunikat o adblocku https://www.onet.pl/informacje/onetpoznan/dorota-kania-korupcja-pozyczki-od-bliskich-marka-dochnala/wv0egdr,79cfc278
+!onet.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop #mobile - Newsletter z paragrafem
 !https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
