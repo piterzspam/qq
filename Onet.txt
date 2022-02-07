@@ -565,12 +565,12 @@ ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:has(> LI:o
 !Pozostała część tekstu pod materiałem wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/tvp-znow-nie-zaprasza-ludzi-zbigniewa-ziobry/tb5hmms?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
 !Reszta tekstu pod materiałem wideo
 !Więcej informacji pod materiałem wideo - https://www.onet.pl/informacje/onetslask/w-cieniu-amerykanskich-czolgow-umiera-polski-zaklad-pancerny/bre4kp5,79cfc278
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV[class*="EmbeddedApplication_wrapper_"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV[class*="EmbeddedApplication_wrapper_"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
 !Wersja #canonical #desktop #mobile
-onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
+onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
 !Wersja #amp #ampproject
-onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
-ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(/^|(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
