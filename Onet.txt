@@ -108,33 +108,33 @@ onet.pl##+js(rat, src, data-original, A.itemBox IMG[src^="data:image/png;base64,
 
 !#www.onet.pl #desktop #mobile - Puste pole w prawej kolumnie między pogodą, a sekcją "Media mówią"
 !https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
-onet.pl##BODY.ucs-infoskin DIV#extraAdsBlock
+onet.pl##BODY#newDetail DIV#extraAdsBlock
 
 !#canonical #desktop #mobile - Puste miejsce pod artykułem - bez usuwania pobierały się obrazki
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
 !https://wiadomosci.onet.pl/opinie/bialorus-jurasz-kgb-w-karpaczu-msz-szuka-kozla-ofiarnego-po-wpadce/0k8e9pr
-onet.pl##BODY.ucs-infoskin DIV.streamNews
-onet.pl##BODY.ucs-infoskin DIV.streamNews:remove()
+onet.pl##BODY#newDetail DIV.streamNews
+onet.pl##BODY#newDetail DIV.streamNews:remove()
 
 !#canonical #desktop #mobile - Sekcja Masz ciekawy temat? Napisz do nas list! pod artykułem
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin SECTION.OpenDiscussionBox
+onet.pl##BODY#newDetail SECTION.OpenDiscussionBox
 
 !#canonical #desktop #mobile - Przyciski społecznościowe po lewej stronie od wideo
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin DIV.contentShareLeft
+onet.pl##BODY#newDetail DIV.contentShareLeft
 
 !#canonical #desktop #mobile - Przyciski społecznościowe pod tytułem
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin DIV.social-container
+onet.pl##BODY#newDetail DIV.social-container
 
 !#canonical #desktop #mobile - Puste miejsce po reklamie po prawej stronie
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin ASIDE.extraListTop.extraList
+onet.pl##BODY#newDetail ASIDE.extraListTop.extraList
 
 !#canonical #desktop #mobile - Szare pole "Zobacz także" z linkami w treści artykułu
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin DIV.frameWrap
+onet.pl##BODY#newDetail DIV.frameWrap
 
 !#canonical #desktop #mobile - Puste małe miejsce po reklamie przed zdaniem "Co gorsza, wygłaszane z hiobowym obliczem"
 !Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
@@ -143,7 +143,7 @@ onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
 
 !#canonical #desktop #mobile - Ostatnie wideo pod artykułem nie związane z tematem
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin DIV.articleBody > DIV.embeddedApp:last-child
+onet.pl##BODY#newDetail DIV.articleBody > DIV.embeddedApp:last-child
 
 !#canonical #desktop #mobile - Wideo powiązane odtwarzające się po doscrollowaniu do niego
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
@@ -155,32 +155,32 @@ onet.pl##+js(addEventListener-defuser, resize, 300)
 
 !#canonical #desktop #mobile - Puste pole po reklamie pod artykułem, przed "Zobacz również"
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin #googleAdsCont
+onet.pl##BODY#newDetail #googleAdsCont
 
 !#canonical #desktop #mobile - Puste pole pod artykułem, po tematach artykułu
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##BODY.ucs-infoskin SECTION.streamWithRight
+onet.pl##BODY#newDetail SECTION.streamWithRight
 
 !#canonical #desktop #mobile - Puste miejsce między paragrafami w treści artykułu
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-!onet.pl##BODY.ucs-infoskin DIV.onet-ad
-onet.pl#@#BODY.ucs-infoskin DIV.onet-ad
+!onet.pl##BODY#newDetail DIV.onet-ad
+onet.pl#@#BODY#newDetail DIV.onet-ad
 
-!#canonical #desktop antyadblock - Usatawione dla wszytkich domen Po kliknięciu na artykuł wiadomosci.onet.pl i odświeżeniu strony z filtrem onet.pl##BODY.ucs-infoskin DIV.onet-ad pojawia się komunikat o adblocku https://www.onet.pl/informacje/onetpoznan/dorota-kania-korupcja-pozyczki-od-bliskich-marka-dochnala/wv0egdr,79cfc278
+!#canonical #desktop antyadblock - Usatawione dla wszytkich domen Po kliknięciu na artykuł wiadomosci.onet.pl i odświeżeniu strony z filtrem onet.pl##BODY#newDetail DIV.onet-ad pojawia się komunikat o adblocku https://www.onet.pl/informacje/onetpoznan/dorota-kania-korupcja-pozyczki-od-bliskich-marka-dochnala/wv0egdr,79cfc278
 !onet.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop #mobile - Newsletter z paragrafem
 !https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
 !https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
-onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV.placeholder.embed.htmlbox:xpath(self::node() | self::node()/preceding-sibling::P[1])
+onet.pl##BODY#newDetail DIV.detail P:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV.placeholder.embed.htmlbox:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#canonical #desktop #mobile - Newsletter bez paragrafu
 !https://wiadomosci.onet.pl/poznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1
 !https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
-onet.pl##BODY.ucs-infoskin DIV.detail DIV.placeholder.embed.htmlbox:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
+onet.pl##BODY#newDetail DIV.detail DIV.placeholder.embed.htmlbox:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
 
 !#canonical #desktop #mobile - Wideo w treści artykułu
-onet.pl##BODY.ucs-infoskin DIV.detail DIV.pulsevideo
+onet.pl##BODY#newDetail DIV.detail DIV.pulsevideo
 
 !#canonical #desktop #mobile - Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
 !https://wiadomosci.onet.pl/opinie/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb?utm_source=_viasg_fakt
@@ -188,17 +188,17 @@ onet.pl##BODY.ucs-infoskin DIV.detail DIV.pulsevideo
 
 !#canonical #desktop #mobile - Wideo na górze
 !https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
-onet.pl##BODY.ucs-infoskin DIV.detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
-onet.pl##BODY.ucs-infoskin DIV.detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
+onet.pl##BODY#newDetail DIV.detail > UL:not(.firstList):has(LI:only-child A[href*="onet.pl"])
+onet.pl##BODY#newDetail DIV.detail > UL:not(.firstList):has(LI:only-child A[href*="vod.pl"])
 
 !#canonical #desktop #mobile - Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu
 !https://wiadomosci.onet.pl/tylko-w-onecie/wariografy-i-kontrwywiad-reakcja-wot-w-gdansku-na-tekst-onetu/rk870p2?utm_source=t.co_viasg_wiadomosci
-onet.pl##BODY.ucs-infoskin DIV.detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
-onet.pl##BODY.ucs-infoskin DIV.detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
+onet.pl##BODY#newDetail DIV.detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/#utm_source="])
+onet.pl##BODY#newDetail DIV.detail > UL.firstList > LI:last-child:has(A[href*="www.onet.pl/?utm_source="])
 
 !#canonical #desktop #mobile - ramka z reklamą w treści
 !https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr
-onet.pl##BODY.ucs-infoskin DIV.placeholder.embed.moneteasy
+onet.pl##BODY#newDetail DIV.placeholder.embed.moneteasy
 
 !#canonical #desktop #mobile - ramki ładowane po kliknięciu
 !https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5
@@ -207,17 +207,17 @@ onet.pl##BODY.ucs-infoskin DIV.placeholder.embed.moneteasy
 !https://wiadomosci.onet.pl/trojmiasto/plaze-w-czasach-pandemii-rozmawiamy-z-fotografem-slynnego-ujecia-z-wladyslawowa/1x8tzhz
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt
 !https://podroze.onet.pl/ciekawe/prl-owski-luksus-w-hotelu-kosmos-sekrety-torunia-krzysztof-halicki/wrxvvvr - ramka google maps
-onet.pl##BODY.ucs-infoskin DIV.placeholder.embed:style(padding-top: unset !important;)
-onet.pl##BODY.ucs-infoskin DIV.placeholder.embed DIV.embeddedApp:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
-onet.pl##BODY.ucs-infoskin DIV.placeholder.embed DIV.pulsembed_embed:style(min-height: 100px !important;)
-onet.pl##BODY.ucs-infoskin DIV.placeholder.embed DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
-onet.pl##BODY.ucs-infoskin DIV.placeholder.embed DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+onet.pl##BODY#newDetail DIV.placeholder.embed:style(padding-top: unset !important;)
+onet.pl##BODY#newDetail DIV.placeholder.embed DIV.embeddedApp:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
+onet.pl##BODY#newDetail DIV.placeholder.embed DIV.pulsembed_embed:style(min-height: 100px !important;)
+onet.pl##BODY#newDetail DIV.placeholder.embed DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+onet.pl##BODY#newDetail DIV.placeholder.embed DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 
 
 
 !#canonical #mobile - Kontynuuj czytanie od miejsca, w którym skończyłeś.
 !https://wiadomosci.onet.pl/trojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj
-onet.pl##BODY.ucs-infoskin DIV.goToParagraphBar
+onet.pl##BODY#newDetail DIV.goToParagraphBar
 
 !#canonical #desktop #mobile
 !https://kobieta.onet.pl/prof-ohme-polacy-musza-isc-po-rozum-do-glowy-inaczej-obecna-sytuacja-szybko-sie-nie/737dxxx?utm_source=_viasg_fakt
@@ -254,12 +254,12 @@ https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zama
 !#canonical !www.onet.pl #desktop #mobile - Puste miejsce po miniaturach
 !https://wiadomosci.onet.pl/
 !https://www.onet.pl/
-onet.pl##BODY DIV.insertedSlot
+onet.pl##BODY#pageMainContainer DIV.insertedSlot
 
 
 !#canonical #desktop #mobile - Puste miejsce po reklamie pod zobacz również pod artykułem
 !https://wiadomosci.onet.pl/tylko-w-onecie/wybory-prezydenckie-2020-bodnar-nie-beda-spelnialy-demokratycznych-standardow/q1lr1kj?utm_source=_viasg_fakt
-!onet.pl##BODY.ucs-infoskin DIV#googleAdsCont
+!onet.pl##BODY#newDetail DIV#googleAdsCont
 !onet.pl#@#DIV#googleAdsCont
 !#canonical #desktop #mobile
 !||videotools.ocdn.eu/libs/floating/$domain=onet.pl
@@ -279,101 +279,101 @@ onet.pl##BODY DIV.insertedSlot
 ||www.onet.pl/?utm_source=$inline-script
 
 !#www.onet.pl #mobile - Elementy poniżej zapowiedzi
-www.onet.pl##DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mobileView ~ *
+www.onet.pl##BODY#pageMainContainer DIV.phx--fixer > SECTION.wide.mainSection > SECTION.nitroModule.mobileView ~ *
 
 !#www.onet.pl #mobile - Znak ładowania poniżej zapowiedzi
-www.onet.pl##DIV.phx--fixer > #observeContainer
+www.onet.pl##BODY#pageMainContainer DIV.phx--fixer > #observeContainer
 
 !#www.onet.pl #desktop - elementy poniżej zapowiedzi
-www.onet.pl##DIV.Phx__fixer > DIV#mainPageBody0Wrapper:has(DIV.showMore) ~ *
+www.onet.pl##BODY#pageMainContainer DIV.Phx__fixer > DIV#mainPageBody0Wrapper:has(DIV.showMore) ~ *
 
 !#www.onet.pl #desktop - usunięcie pustej przestrzeni po usunięciu elementów pod zapowiedzią
 !https://www.onet.pl/?utm_source=kobieta.onet.pl_viasg_kobieta&utm_campaign=leo_automatic&pid=023e364c-859e-4511-9d66-2078c0ed8455&sid=63eeb4cc-4788-4ae3-a160-ddd0a01f6209
-www.onet.pl##BODY:style(min-height: unset !important;)
+www.onet.pl##BODY#pageMainContainer BODY:style(min-height: unset !important;)
 
 !#www.onet.pl #mobile - Przyciski do komentarzy i facebooka nad zdjęciem głównym nas stronie z zapowiedzią artykułu
 !https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
-www.onet.pl##DIV.nitroShare
+www.onet.pl##BODY#pageMainContainer DIV.nitroShare
 
 !#www.onet.pl #mobile - Po przewinięciu na dół wysuwający się po przewinięciu na dół z przyciskami: Główna, Najnowsze, Pogoda
 !https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=3113fbb6-fd7a-4a4b-8012-ad1842084c68&sid=b177a2c9-166f-4113-9b28-185bbe554807
-www.onet.pl##NAV.bottomBarNavigations
+www.onet.pl##BODY#pageMainContainer NAV.bottomBarNavigations
 
 !#www.onet.pl #desktop #mobile - Masz ciekawy temat? Napisz do nas list!
 !Początek: https://www.onet.pl/informacje/onetwiadomosci/wladyslaw-teofil-bartoszewski-rzad-stoi-przed-katastrofa-finansowa/qwl4258,79cfc278
 !Początek: https://www.onet.pl/informacje/onetwiadomosci/warszawa-demonstracja-lgbt-zaatakowano-rafala-trzaskowskiego-gdzie-on-jest/wn7fdgd,79cfc278
-www.onet.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
+www.onet.pl##BODY#pageMainContainer DIV._1Yg0hYa1NZvOLkoKcVPy2m
 
 !#www.onet.pl #desktop #mobile - Newsletter z paragrafem
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
 !https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV:has(A[href*="https://htmlbox.pulsembed.eu/embed/"]):xpath(self::node() | self::node()/preceding-sibling::P[1])
+www.onet.pl##BODY#pageMainContainer ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV:has(A[href*="https://htmlbox.pulsembed.eu/embed/"]):xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#www.onet.pl #desktop #mobile - Newsletter bez paragrafu
 !https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
 !https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
+www.onet.pl##BODY#pageMainContainer ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class^="EmbeddedApplication_wrapper_"]:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
 
 !#www.onet.pl #desktop #mobile - Wideo w treści artykułu
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class*="EmbeddedApplication_pulsevideo_"]
+www.onet.pl##BODY#pageMainContainer ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > DIV[class*="EmbeddedApplication_pulsevideo_"]
 
 !#www.onet.pl #desktop #mobile - Pojedyncze żółte kropki w treści artykułu z linkami do powiązanych artykułów
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-2020-w-niedziele-wygraja-nasze-narodowe-kompleksy-opinia/vfksbpb,79cfc278
 !https://www.onet.pl/informacje/onetwiadomosci/wybory-prezydenckie-trudnowski-niech-prezydenta-wybierze-sejm-i-senat/3vbh4xb,79cfc278
 !https://www.onet.pl/informacje/onetwiadomosci/stan-po-burzy-czy-pandemia-wykonczy-zjednoczona-prawice/h4bst9w,79cfc278
-www.onet.pl##ARTICLE#Module DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
-www.onet.pl##ARTICLE#Module DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
+www.onet.pl##BODY#pageMainContainer ARTICLE#Module DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+www.onet.pl##BODY#pageMainContainer ARTICLE#Module DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
 
 !#www.onet.pl #desktop #mobile - Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
+www.onet.pl##BODY#pageMainContainer ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > UL[class^="UnorderedList_container_"] > LI[class^="UnorderedList_listElement_"]:has(A[href*="www.onet.pl/#utm_source="])
 
 !#www.onet.pl #desktop #mobile - Pojedyncze kropki z powiązanymi artykułami w treści tekstu
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+www.onet.pl##BODY#pageMainContainer ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
 
 !#www.onet.pl #desktop #mobile - Ramka FB w treści
 !https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
 !https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
-www.onet.pl##DIV[class*="RelatedItems_container__"]
-www.onet.pl##DIV[class*="EmbeddedApplication_embedPlaceholder"]:style(padding-top: unset !important;)
-www.onet.pl##DIV[class*="EmbeddedApplication_wrapper_"] DIV[class*="EmbeddedApplication_container__"]:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
-www.onet.pl##DIV[class*="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:style(min-height: 100px !important;)
-www.onet.pl##DIV[class*="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
-www.onet.pl##DIV[class*="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+www.onet.pl##BODY#pageMainContainer DIV[class*="RelatedItems_container__"]
+www.onet.pl##BODY#pageMainContainer DIV[class*="EmbeddedApplication_embedPlaceholder"]:style(padding-top: unset !important;)
+www.onet.pl##BODY#pageMainContainer DIV[class*="EmbeddedApplication_wrapper_"] DIV[class*="EmbeddedApplication_container__"]:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
+www.onet.pl##BODY#pageMainContainer DIV[class*="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:style(min-height: 100px !important;)
+www.onet.pl##BODY#pageMainContainer DIV[class*="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+www.onet.pl##BODY#pageMainContainer DIV[class*="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 
 !#www.onet.pl #desktop #mobile - Ramka z reklamą
 !https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
-www.onet.pl##DIV[class*="EmbeddedApplication_moneteasy"]
+www.onet.pl##BODY#pageMainContainer DIV[class*="EmbeddedApplication_moneteasy"]
 
 !#www.onet.pl #desktop #mobile - Szara ramka z Zobacz także
-www.onet.pl##DIV.promoFrame
+www.onet.pl##BODY#pageMainContainer DIV.promoFrame
 
 !#www.onet.pl #desktop #mobile - Puste miejsca po reklamach na https://www.onet.pl/
-www.onet.pl##DIV.insertedSlot
+www.onet.pl##BODY#pageMainContainer DIV.insertedSlot
 
 !#www.onet.pl #mobile - Na mobilnej stronie głównej przyciski do udostępnienia na miniaturach
 !https://www.onet.pl/#
-www.onet.pl##SPAN.shareButton
+www.onet.pl##BODY#pageMainContainer SPAN.shareButton
 
 !#www.onet.pl #desktop #mobile - Pasek z socialami nad leadem
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-www.onet.pl##DIV._3r88rCARRhkQKjaEl0gPLZ
+www.onet.pl##BODY#pageMainContainer DIV._3r88rCARRhkQKjaEl0gPLZ
 
 !#www.onet.pl #desktop #mobile - Przyciski do facebooka i Twittera po lewej stronie artykułu
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-www.onet.pl##DIV[data-gtm-social]
+www.onet.pl##BODY#pageMainContainer DIV[data-gtm-social]
 
 !#www.onet.pl #desktop #mobile - Część odpowiedzialna za przeniesienie na główną po przescrollowaniu na dół
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
 ||ocdn.eu/*boxBackToMainPage
-www.onet.pl##BODY DIV.backToMainPage
+www.onet.pl##BODY#pageMainContainer DIV.backToMainPage
 
 !#www.onet.pl #desktop #mobile - Szare pole z napisam zobacz także po lewej od artykułu
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-www.onet.pl##DIV.C5XFtgeC-8Px7XoX8_Vo3
+www.onet.pl##BODY#pageMainContainer DIV.C5XFtgeC-8Px7XoX8_Vo3
 
 !#www.onet.pl #desktop #mobile - Formularz pod artykułem Masz ciekawy temat? Napisz do nas list!
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-www.onet.pl##SECTION.contentBottomContainer > DIV > DIV:has(A[href="https://wiadomosci.onet.pl/listy-do-redakcji"])
+www.onet.pl##BODY#pageMainContainer SECTION.contentBottomContainer > DIV > DIV:has(A[href="https://wiadomosci.onet.pl/listy-do-redakcji"])
 
 !#www.onet.pl #desktop #mobile - W narzędziach deweloperskich widać Response header "server": Dreamlab Accelerator
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
@@ -426,11 +426,11 @@ www.onet.pl##SECTION.contentBottomContainer > DIV > DIV:has(A[href="https://wiad
 
 !#www.onet.pl #mobile - Przyciski socialowe nad leadem na stronie mobilnej
 !https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
-www.onet.pl##DIV.commons
+www.onet.pl##BODY#pageMainContainer DIV.commons
 
 !#www.onet.pl #mobile - Emotki nad leadem na stronie mobilnej
 !https://www.onet.pl/sport/onetsport/kolejni-zakazeni-lekkoatleci-po-obozie-w-cetniewie/rn54zjq,d87b6cc4
-www.onet.pl##SPAN.emotions
+www.onet.pl##BODY#pageMainContainer SPAN.emotions
 
 !#www.onet.pl #desktop #mobile - Przeniesienie ze strony z błędem 404 na stronę główną
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
@@ -453,22 +453,22 @@ www.onet.pl##+js(no-setTimeout-if, 404, 2000)
 
 !#www.onet.pl #mobile - Pasek na dole strony mobilnej
 !https://www.onet.pl/kultura/onetkultura/andrzej-piaseczny-wywiad-z-okazji-premiery-nowej-plyty/pf97tmq,681c1dfa
-www.onet.pl##DIV.bottomBar
+www.onet.pl##BODY#pageMainContainer DIV.bottomBar
 
 !#www.onet.pl #desktop #mobile
 !https://www.onet.pl/informacje/onetwiadomosci/zatrzymany-przez-cba-biznesmen-przemyslaw-krych-ujawnia-ze-dostal-oferte-wolnosc-za/h9lcb2d,79cfc278
-www.onet.pl##DIV[class^="AdPlaceholder_adPlaceholder_"]
+www.onet.pl##BODY#pageMainContainer DIV[class^="AdPlaceholder_adPlaceholder_"]
 
 !#www.onet.pl #desktop #mobile
 !https://www.onet.pl/
-www.onet.pl##DIV.placeholder-container
+www.onet.pl##BODY#pageMainContainer DIV.placeholder-container
 
 !#www.onet.pl #desktop #mobile - !Reklama pod głównym zdjęciem
 !https://www.onet.pl/informacje/onetwiadomosci/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0,79cfc278
-www.onet.pl##ASIDE[class*="CenterAd_containerTop_"]
+www.onet.pl##BODY#pageMainContainer ASIDE[class*="CenterAd_containerTop_"]
 
 !##www.onet.pl #desktop #mobile - Prosotkąt Obserwuj nas po prawej stronie
-www.onet.pl##.widgetFollowUs.widget
+www.onet.pl##BODY#pageMainContainer .widgetFollowUs.widget
 
 !#www.onet.pl #desktop #mobile - GDPR w treści
 !https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
@@ -484,7 +484,7 @@ onet.pl##+js(acis, window.onetAds, adJSON)
 ||ocdn.eu/*/tpl.min.js
 
 !#www.onet.pl #mobile - miejsce po reklamach na stronie głównej
-www.onet.pl##DIV.onet-ad
+www.onet.pl##BODY#pageMainContainer DIV.onet-ad
 
 !#www.onet.pl #mobile - miniaturki na stronie głównej
 !www.onet.pl##+js(rat, src, data-original, A[href] IMG[data-run-module="local/common/hybridLazyLoading.run"][src^="data:image/png;base64,"][data-original^="//ocdn.eu/"], complete)
@@ -514,42 +514,42 @@ onet.pl##HTML[\⚡] > BODY:matches-css(-moz-animation: ):style(-moz-animation: u
 onet.pl##HTML[\⚡] > BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
 
 !#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
-onet.pl##HTML[\⚡] > BODY AMP-AD
+onet.pl##HTML[\⚡] AMP-AD
 
 !#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
-onet.pl##HTML[\⚡] > BODY AMP-CONSENT
+onet.pl##HTML[\⚡] AMP-CONSENT
 
 !#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp - blokowanie tego blokowało ramkę z podcastem
-onet.pl#@#HTML[\⚡] > BODY AMP-SOCIAL-SHARE
-ampproject.org#@#HTML[\⚡] > BODY AMP-SOCIAL-SHARE
+onet.pl#@#HTML[\⚡] AMP-SOCIAL-SHARE
+ampproject.org#@#HTML[\⚡] AMP-SOCIAL-SHARE
 
 !#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
 !onet.pl##+js(ampproject_v0.js)
 !Wykomentowane, bo psuło filtry ##+js( na mobilnej stronie głównej
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
-onet.pl##HTML[\⚡] > BODY DIV.bottomLayerBar
+onet.pl##HTML[\⚡] DIV.bottomLayerBar
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) DIV.bottomLayerBar
 
 !amp #ampproject - przyciski socialowe nad głównym zdjęciem
-onet.pl##H1.headline + DIV.social-box
+onet.pl##HTML[\⚡] H1.headline + DIV.social-box
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) H1.headline + DIV.social-box
 
 !#amp #ampproject - napis "REKLAMA"
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
-onet.pl##DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
+onet.pl##HTML[\⚡] DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) DIV[style="margin:auto;width:300px;"] > P[style="font-size:9px;color:#696969;font-family:Verdana;text-align:left;margin:0;padding:0;line-height:normal;width:100%"]
 
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
-onet.pl##HTML[\⚡] > BODY ARTICLE UL:first-of-type > LI:last-child:has(A[href*="onet.pl/#utm_source"])
+onet.pl##HTML[\⚡] ARTICLE UL:first-of-type > LI:last-child:has(A[href*="onet.pl/#utm_source"])
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:first-of-type > LI:last-child:has(A[href*="onet.pl/#utm_source"])
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
 !https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
-onet.pl##HTML[\⚡] > BODY ARTICLE UL:has(> LI:only-child > A[href*="onet.pl/"])
+onet.pl##HTML[\⚡] ARTICLE UL:has(> LI:only-child > A[href*="onet.pl/"])
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:has(> LI:only-child > A[href*="onet.pl/"])
 
 !#www.onet.pl #desktop #mobile #related_video- Wideo w treści artykułu - paragraf "dalszy ciąg..."
@@ -565,16 +565,16 @@ ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:has(> LI:o
 !Pozostała część tekstu pod materiałem wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/tvp-znow-nie-zaprasza-ludzi-zbigniewa-ziobry/tb5hmms?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
 !Reszta tekstu pod materiałem wideo
 !Więcej informacji pod materiałem wideo - https://www.onet.pl/informacje/onetslask/w-cieniu-amerykanskich-czolgow-umiera-polski-zaklad-pancerny/bre4kp5,79cfc278
-www.onet.pl##ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV[class*="EmbeddedApplication_wrapper_"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+www.onet.pl##BODY#pageMainContainer ARTICLE SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV[class*="EmbeddedApplication_wrapper_"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
 !Wersja #canonical #desktop #mobile
-onet.pl##BODY.ucs-infoskin DIV.detail P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
+onet.pl##BODY#newDetail DIV.detail P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
 !Wersja #amp #ampproject
-onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+onet.pl##HTML[\⚡] ARTICLE P.hyphenate:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
-onet.pl##HTML[\⚡] > BODY ARTICLE P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
+onet.pl##HTML[\⚡] ARTICLE P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
 
 !#amp - ramka z instagrama
@@ -597,7 +597,7 @@ ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE P.hyphenate:h
 
 !#amp #ampproject - linki do powiazanych po skrócie artykułu
 !https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr.amp
-onet.pl##HTML[\⚡] > BODY ARTICLE UL:first-of-type + DIV:has(> UL:only-child)
+onet.pl##HTML[\⚡] ARTICLE UL:first-of-type + DIV:has(> UL:only-child)
 ampproject.org##HTML:has(> HEAD > META[content="onet.pl"]) ARTICLE UL:first-of-type + DIV:has(> UL:only-child)
 
 
