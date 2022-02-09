@@ -37,11 +37,11 @@ businessinsider.com.pl##DIV.related_articles-container
 !https://businessinsider.com.pl/swiat-bez-idea-banku-bedzie-lepszy/hw4d1m5
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
 !https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
-businessinsider.com.pl##DIV.embeddedApp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
-businessinsider.com.pl##DIV.embeddedApp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+businessinsider.com.pl##DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+businessinsider.com.pl##DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 !#canonical #desktop - Bez tego ramki z Twittera były niewidoczne
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-businessinsider.com.pl##DIV.embeddedApp DIV.pulsembed_embed:style(min-height: 100px !important;)
+businessinsider.com.pl##DIV.embeddedapp DIV.pulsembed_embed:style(min-height: 100px !important;)
 
 !#canonical #mobile - Artykuły powiązane "Zobacz także:" pod artykułem
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
@@ -55,7 +55,7 @@ businessinsider.com.pl,businessinsider-com-pl.cdn.ampproject.org##ARTICLE UL:fir
 
 !#canonical #desktop - Wideo powiązane pod artykułem, usuwanie żeby się nie ładowało
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
-businessinsider.com.pl##ARTICLE H3:has-text(WARTO WIEDZIEĆ:) + SCRIPT + DIV.embeddedApp:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1] | self::node()/preceding-sibling::H3[1]):remove()
+businessinsider.com.pl##ARTICLE H3:has-text(WARTO WIEDZIEĆ:) + SCRIPT + DIV.embeddedapp:xpath(self::node() | self::node()/preceding-sibling::SCRIPT[1] | self::node()/preceding-sibling::H3[1]):remove()
 
 !#amp #ampproject - Wideo powiązane pod artykułem, usuwanie żeby się nie ładowało
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b.amp
@@ -119,7 +119,7 @@ businessinsider.com.pl##DIV#onet-ad-right
 !https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5
 !Media inne
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4?utm_source=businessinsider.com.pl_viasg_businessinsider
-!businessinsider.com.pl##DIV.embeddedApp:style(min-height: unset !important)
+!businessinsider.com.pl##DIV.embeddedapp:style(min-height: unset !important)
 
 !.post-container Blokowało datę dodania artykułu
 !Z filtra: businessinsider.com.pl###adSS-Detal, .post-container, .bottom-share-module, .clearfix
