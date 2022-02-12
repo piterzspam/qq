@@ -182,7 +182,7 @@ se.pl##BUTTON.gallery__next.gallery__btn[onclick="recommendation_redirect(recomm
 
 !Link powiązany w treści: CZYTAJ: Wałęsa NIEPOKOJĄCO: "Ledwo nogi ciągam". Co się dzieje?!
 !https://www.se.pl/wiadomosci/polityka/ziemkiewicz-skonczyl-56-lat-ale-mial-wypasione-urodziny-zobacz-aa-uVnv-ozF1-TgNv.html
-se.pl##P:has(:scope > A[href*="se.pl/"][target="_blank"][rel="follow"]:only-child)
+se.pl##P:has(> A[href*="se.pl/"][target="_blank"][rel="follow"]:only-child)
 
 
 !Tymczasowo wykomentowane

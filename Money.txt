@@ -150,9 +150,9 @@ money.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:last-child
 !Wideo powiązane w treści artykułu
 !https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
 !https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html
-money.pl##^ARTICLE > DIV[class^="sc-"]:has(:scope > DIV:has-text(Zobacz także:) + DIV[id^="video-player-"]) > *
-money.pl##ARTICLE > DIV[class^="sc-"]:has(:scope > DIV:has-text(Zobacz także:) + DIV[id^="video-player-"])
-money.pl##ARTICLE > DIV[class^="sc-"]:has(:scope > DIV:has-text(Zobacz także:) + DIV[id^="video-player-"]) > *:remove()
+money.pl##^ARTICLE > DIV[class^="sc-"]:has(> DIV:has-text(Zobacz także:) + DIV[id^="video-player-"]) > *
+money.pl##ARTICLE > DIV[class^="sc-"]:has(> DIV:has-text(Zobacz także:) + DIV[id^="video-player-"])
+money.pl##ARTICLE > DIV[class^="sc-"]:has(> DIV:has-text(Zobacz także:) + DIV[id^="video-player-"]) > *:remove()
 
 !Przeładowanie strony po zmianie karty
 !https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
@@ -168,11 +168,11 @@ money.pl##DIV.content[name="content"] + NAV
 
 
 !https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
-!money.pl##^DIV.i2doh5-0:has(:scope > IMG[src^="https://v.wpimg.pl/"])
-!money.pl##ARTICLE > DIV[class]:has(:scope > SCRIPT:has-text(registerPlaceholder))
-money.pl##^DIV:has(:scope > DIV.i2doh5-0:only-child)
-money.pl##^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"])
-money.pl##^ARTICLE[class^="sc-"] DIV:has(:scope > DIV:only-child:has(DIV:has(:scope > DIV[font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV[id^="video-player-"]))
+!money.pl##^DIV.i2doh5-0:has(> IMG[src^="https://v.wpimg.pl/"])
+!money.pl##ARTICLE > DIV[class]:has(> SCRIPT:has-text(registerPlaceholder))
+money.pl##^DIV:has(> DIV.i2doh5-0:only-child)
+money.pl##^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"])
+money.pl##^ARTICLE[class^="sc-"] DIV:has(> DIV:only-child:has(DIV:has(> DIV[font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV[id^="video-player-"]))
 money.pl##^script:has-text(__PRELOADED_MATERIAL__)
 money.pl##+js(acis, JSON.parse)
 
@@ -183,14 +183,14 @@ money.pl##+js(acis, JSON.parse)
 www.money.pl#@#^script:has-text(__PRELOADED_MATERIAL__)
 !Z blokującymi wersjami poniższych nadal działa
 !www.money.pl#@#+js(abort-current-inline-script, JSON.parse)
-!www.money.pl#@#^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"])
-!Z usuwającą wersją money.pl##^DIV:has(:scope > DIV.i2doh5-0:only-child) na stronie głównej doładowywane są przesunięte w lewo
+!www.money.pl#@#^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"])
+!Z usuwającą wersją money.pl##^DIV:has(> DIV.i2doh5-0:only-child) na stronie głównej doładowywane są przesunięte w lewo
 !Działo się tak, że usuwany był element ffg3g0g96n
-money.pl#@#^DIV:has(:scope > DIV.i2doh5-0:only-child)
-!Z usuwającą wersją money.pl##^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"]) na stronie artykułu
+money.pl#@#^DIV:has(> DIV.i2doh5-0:only-child)
+!Z usuwającą wersją money.pl##^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"]) na stronie artykułu
 !doładowywane były przesunięte w lewo
-money.pl#@#^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"])
-!Czy money.pl##^DIV.i2doh5-0:has(:scope > IMG[src="/static/mny-placeholder.png"]) psuje 
+money.pl#@#^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"])
+!Czy money.pl##^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"]) psuje 
 !money.pl##DIV > DIV.i2doh5-0
 !money.pl##^DIV.i2doh5-0:not(.bDVBnJwC):not(.euIvob)
 !money.pl##^DIV.i2doh5-0:not(.bDVBnJwC):not(.euIvob):not(.cQgfIf)

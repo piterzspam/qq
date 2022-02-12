@@ -840,8 +840,8 @@ wizaz.pl##DIV.folding-content:style(min-height: unset !important)
 
 
 allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty promowane"]/following-sibling::ARTICLE | //DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty"]/preceding-sibling::ARTICLE):style(border: dashed !important;)
-!allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
-allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(:scope > H2)) > ARTICLE:style(border: dashed !important;)
+!allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
+allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(> H2)) > ARTICLE:style(border: dashed !important;)
 
 
 
@@ -928,8 +928,8 @@ janusnotes.com##MAIN#main > ARTICLE[id^="post-"]
 janusnotes.com##DIV#right-sidebar
 
 !https://l.shortzzy.in/pauCbv
-!shortzzy.in##TABLE > TBODY > TR:has(:scope > TD:has-text(Action:))
-shortzzy.in##TABLE > TBODY > TR:has(:scope > TD A.btnlink[target="_blank"])
+!shortzzy.in##TABLE > TBODY > TR:has(> TD:has-text(Action:))
+shortzzy.in##TABLE > TBODY > TR:has(> TD A.btnlink[target="_blank"])
 
 !https://clicknupload.co/secc3k2h8r7j
 clicknupload.co##DIV.wrapper:style(min-height: unset !important)
@@ -1202,8 +1202,8 @@ pressreader.com##DIV.page-tint.subscriber-content
 
 
 allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty promowane"]/following-sibling::ARTICLE | //DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty"]/preceding-sibling::ARTICLE):style(border: dashed !important;)
-!allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
-allegro.pl##DIV.opbox-listing > DIV:has(:scope > SECTION > H2:has-text(Oferty promowane)):not(:has(:scope > SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(:scope > H2)) > ARTICLE:style(border: dashed !important;)
+!allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
+allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(> H2)) > ARTICLE:style(border: dashed !important;)
 
 ||acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/
 

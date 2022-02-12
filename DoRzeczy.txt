@@ -73,9 +73,9 @@ dorzeczy.pl##+js(nostif, deepUtils, 100)
 
 !Linki do powiązianych pod koniec tekstu zamieniane przez Javascript na takie z obrazkami, blokowanie za dużo blokuje post z FB
 !https://dorzeczy.pl/kraj/166661/nie-zyje-mieczyslaw-moranski-aktor-zmarl-na-covid-19.html
-dorzeczy.pl##^DIV#art-text-inner > P:has(:scope > SPAN[data-type="text"] > SPAN.relation-ph)
-dorzeczy.pl##DIV#art-text-inner > P:has(:scope > SPAN[data-type="text"] > SPAN.relation-ph):remove()
-dorzeczy.pl##DIV#art-text-inner > P:has(:scope > SPAN[data-type="text"] > SPAN.relation-ph)
+dorzeczy.pl##^DIV#art-text-inner > P:has(> SPAN[data-type="text"] > SPAN.relation-ph)
+dorzeczy.pl##DIV#art-text-inner > P:has(> SPAN[data-type="text"] > SPAN.relation-ph):remove()
+dorzeczy.pl##DIV#art-text-inner > P:has(> SPAN[data-type="text"] > SPAN.relation-ph)
 
 !Blokowanie przenoszenia do powiąznych artkułów po przescrollowaniu na dół strony
 !https://dorzeczy.pl/kraj/166661/nie-zyje-mieczyslaw-moranski-aktor-zmarl-na-covid-19.html
@@ -87,8 +87,8 @@ dorzeczy.pl##DIV#articles-autoload
 !https://dorzeczy.pl/kraj/166662/polacy-wskazali-co-skloniloby-ich-do-zaszczepienia-sie-na-covid-19-interesujace-wyniki-sondazu.html#2
 ||dorzeczy.pl/_css/questioning.css?
 ||dorzeczy.pl/_js/questioning.js?
-!dorzeczy.pl##DIV#art-content > DIV.art-text-relations:has(:scope > SPAN[data-type="questionings"])
-!dorzeczy.pl##DIV.art-text-relations:has(:scope > SPAN[data-id^="questioning"]):remove()
+!dorzeczy.pl##DIV#art-content > DIV.art-text-relations:has(> SPAN[data-type="questionings"])
+!dorzeczy.pl##DIV.art-text-relations:has(> SPAN[data-id^="questioning"]):remove()
 dorzeczy.pl##^SPAN[data-id^="questioning"]
 dorzeczy.pl##SPAN[data-id^="questioning"]:remove()
 dorzeczy.pl##SPAN[data-id^="questioning"]

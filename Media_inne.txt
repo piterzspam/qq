@@ -18,7 +18,7 @@ cozadzien.pl##DIV.mnrx
 !Puste miejsce po reklamie nad głównym zdjęciem w artykule
 !cozadzien.pl##DIV.w-100.relative.tc[style="min-height: 100px;"]
 !Puste miejsce po reklamach na stronie
-cozadzien.pl##DIV:has(:scope > DIV > DIV.hype)
+cozadzien.pl##DIV:has(> DIV > DIV.hype)
 !Puste miejsce po reklamach nad tytułem
 cozadzien.pl##SECTION.top-ad
 !Reklamy

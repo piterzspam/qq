@@ -150,9 +150,9 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Strona przejściowa po kliknięciu w link z sekcji "Dla ciebie" pod artykułem 
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25947207,trzaskowski-za-kidawe-blonska-kiedys-bylo-tusku-musisz.html#s=BoxOpImg1
 !https://gazeta.pl/0,0.html?foryou=enc02qhrmp2hwrnvt3udraocblescrjdksifjficroec2jemrmkt4mgxjmudrqmcblct3ahubnst2ig2ri&a=26&c=5#pageTypeId_0
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##SECTION.recommended_article >  *:not(:has(:scope >DIV.c-article:has-text(DLA CIEBIE NA GAZETA.PL)))
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:has(:scope >SECTION.recommended_article) ~ DIV
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:has(:scope >SECTION.recommended_article) ~ SECTION
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##SECTION.recommended_article >  *:not(:has(> DIV.c-article:has-text(DLA CIEBIE NA GAZETA.PL)))
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:has(> SECTION.recommended_article) ~ DIV
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content:has(> SECTION.recommended_article) ~ SECTION
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##MAIN.l-main > SECTION.c-main-content > SECTION.recommended_article:style(height: unset !important)
 ||gazeta.pl/0,0.html?foryou=$inline-script
 !https://m.gazeta.pl/0,0.html?foryou=enc02qhrmp2hwrnvt3udraocblescrjdksifjficroec2jemrmkt4mgxjmudrqmcblct3ahubnst2ig2ri&a=26&c=5#pageTypeId_0
@@ -160,7 +160,7 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile > MAIN.l-main > DIV.c-section.recomended_article ~ SECTION
 
 !Początek: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile:has(:scope >SECTION.mtpromo-gallery) > MAIN.l-main
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##BODY.is-mobile:has(> SECTION.mtpromo-gallery) > MAIN.l-main
 !Koniec: https://m.gazeta.pl/0,0.html?mtpromo=enc02qhrmpup536udraocblesmjkfctyua5icroec2jembnqd4qgrjmudrqmcblkdzigqjnst2ig2ri
 
 !Wideo w ramce w treści artykułu

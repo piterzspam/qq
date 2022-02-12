@@ -54,7 +54,7 @@ gazeta.pl##HTML[amp] > BODY:matches-css(-webkit-animation: ):style(-webkit-anima
 !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp
 !https://wiadomosci.gazeta.pl/wiadomosci/7,114881,25959271,zagraniczne-media-o-aferze-w-trojce-media-publiczne-jako-narzedzie.amp
 !czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):if(A.art_link)
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):has(:scope >I > A.art_link)
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##P:has-text(/((^\s*(>>>|Czytaj także:|Czytaj też:|Czytaj więcej:))|((\s>>)\s*$))/):has(> I > A.art_link)
 
 !Początek: !https://next.gazeta.pl/next/7,173953,25847943,rzad-dostanie-dostep-do-danych-lokalizacyjnych-polakow-nie.amp - wersja AMP strony w domenie gazeta.pl
 !Szare pole po reklamach
@@ -72,7 +72,7 @@ ampproject.org##DIV.banner
 ampproject.org##A#footerBack
 !Wideo w ramce w treści artykułu
 ampproject.org##DIV.art_embed > [src*="onnetwork.tv"]
-ampproject.org##DIV.part > DIV.art_embed:has(:scope >AMP-IFRAME[src*="onnetwork.tv"])
+ampproject.org##DIV.part > DIV.art_embed:has(> AMP-IFRAME[src*="onnetwork.tv"])
 !Ramka z Instagrama: https://haps-pl.cdn.ampproject.org/v/s/haps.pl/Haps/7,167709,25966605,swiat-oszalal-na-punkcie-dalgona-coffee-probowaliscie-wersji.amp?amp_js_v=0.1
 !Zwykły przycisk "OTWÓRZ GALERIĘ ZDJĘĆ": https://kobieta-gazeta-pl.cdn.ampproject.org/v/s/kobieta.gazeta.pl/kobieta/7,173970,25967794,wysportowany-pielegniarz-pokazal-jak-koronawirus-zmienil-jego.amp?amp_js_v=0.1
 !Przycisk w ramce "OTWÓRZ GALERIĘ ZDJĘĆ": https://www-plotek-pl.cdn.ampproject.org/v/s/www.plotek.pl/plotek/7,154063,25969928,slub-od-pierwszego-wejrzenia.amp?amp_js_v=0.1
@@ -165,7 +165,7 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > UL:has(LI:only-child > STRONG + A[href*="onet.pl"] > STRONG)
 ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > UL:has(LI:only-child > STRONG + A[href*="vod.pl"] > STRONG)
 !3 linki z artykułami po sobie
-ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > DIV:has(:scope > P.hyphenate:first-child:has(:scope > A[id][href*="onet.pl"]:only-child) + P.hyphenate:has(:scope > A[id][href*="onet.pl"]:only-child) + P.hyphenate:last-child:has(:scope > A[id][href*="onet.pl"]:only-child))
+ampproject.org,auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##DIV#page > ARTICLE > DIV:has(> P.hyphenate:first-child:has(> A[id][href*="onet.pl"]:only-child) + P.hyphenate:has(> A[id][href*="onet.pl"]:only-child) + P.hyphenate:last-child:has(> A[id][href*="onet.pl"]:only-child))
 
 !https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
 @@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
