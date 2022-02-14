@@ -47,14 +47,14 @@ money.pl,o2.pl,pudelek.pl##ARTICLE DIV[class]:has(> DIV:first-child:has-text(/zo
 !Usuwanie
 money.pl,o2.pl,pudelek.pl##ARTICLE DIV[class] > DIV:first-child:has-text(/zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child > *:remove()
 !https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
-money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
-!money.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(:scope> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
+money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+!money.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(> DIV[class^="sc-"]:only-child > P:only-child > STRONG:only-child:has-text(/zobacz także:|zobacz też:/i)) + DIV[class^="sc-"]:has(> DIV[class^="sc-"]:only-child > DIV[id^="video-player-"]:only-child):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
 !Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV:has(:scope> DIV:first-child + DIV[font-size="s"]:last-child > STRONG > A[href="https://dziejesie.wp.pl/"][target="_blank"])
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV:has(> DIV:first-child + DIV[font-size="s"]:last-child > STRONG > A[href="https://dziejesie.wp.pl/"][target="_blank"])
 !Kolumna z FB (Polub pudelek.pl na Facebooku:) po lewej stronie komentarzy - strona desktop
 money.pl,o2.pl,pudelek.pl##ASIDE[role="complementary"]:has(DIV#fb-like-btn)
 !Kolumna z FB (Polub pudelek.pl na Facebooku:) po lewej stronie komentarzy - strona mobilna
-money.pl,o2.pl,pudelek.pl##DIV:has(:scope> DIV#fb-like-btn)
+money.pl,o2.pl,pudelek.pl##DIV:has(> DIV#fb-like-btn)
 !Przycisk Fb pod przyciskiem do komentarzy w lewej kolumnie - tylko desktop
 !money.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:has(BUTTON SVG[color="#4267b2"])
 money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV DIV:last-child:has(> BUTTON > svg[color="#4267b2"])
@@ -72,8 +72,8 @@ money.pl,o2.pl,pudelek.pl##DIV.content + NAV
 !Małe reklamy na stronie desktopowej: na górze prawej na stronie artykułu o2 i plotek 
 !Na stronie z artykułem - mała reklama doładowywana na górze prawej kolumny - strona desktopowa
 !chyba jak się nie wyświetlają, to się nie ładują
-money.pl,o2.pl,pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:has(:scope> SCRIPT:only-child):not([class]))
-money.pl,o2.pl,pudelek.pl##DIV[class]:has(:scope> DIV[class]:first-child:has(:scope> DIV[class]:only-child) + DIV:last-child:not([class]):empty)
+money.pl,o2.pl,pudelek.pl##DIV[class]:has(> DIV[class]:first-child:has(> DIV[class]:only-child) + DIV:last-child:has(> SCRIPT:only-child):not([class]))
+money.pl,o2.pl,pudelek.pl##DIV[class]:has(> DIV[class]:first-child:has(> DIV[class]:only-child) + DIV:last-child:not([class]):empty)
 
 !KONIEC - DIV[data-st-area="st-article"]
 
@@ -90,10 +90,10 @@ money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, autoplay_blocked)
 
 !Usuwanie całości usuwało całą stronę po przescrollowaniu w dół
 !https://polygamia.pl/?strona=1
-money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
-money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
-money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
-money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
+money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
+money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
+money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
+money.pl,o2.pl,pudelek.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
 
 
 
