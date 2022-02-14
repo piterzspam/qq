@@ -1,0 +1,80 @@
+! Title: wp.pl - sportowefakty.wp.pl
+! Expires: 1 day
+
+!POCZĄTEK - SPORTOWEFAKTY.PL
+
+||salesmanago.pl^$domain=sportowefakty.wp.pl
+||pixel.wp.pl^$domain=sportowefakty.wp.pl
+||2mdn.net^$domain=sportowefakty.wp.pl
+||adservice.google.com^$domain=sportowefakty.wp.pl
+
+sportowefakty.wp.pl##LI.match--sponsor:remove()
+!sportowefakty.wp.pl##+js(set, window.WP.gaf, '')
+!sportowefakty.wp.pl##+js(aost, WP.gaf.loadBunch, , 1)
+!sportowefakty.wp.pl##+js(aost, window.prebidConfig, <inline-script>, 3)
+!sportowefakty.wp.pl##+js(aost, window.prebidConfig, , 1)
+!sportowefakty.wp.pl##+js(aost, window.prebidConfig, handler*apply, 2)
+!wpjslib-sgap.js:1:1
+
+sportowefakty.wp.pl##:xpath(//DIV[count(*)=3][count(DIV[@class][count(*)=0])=2][DIV[@class][count(*)>0]]):remove()
+sportowefakty.wp.pl##^DIV:has(:scope> DIV[class=""][data-class]:only-child)
+!sportowefakty.wp.pl##^DIV[class*=" "][data-class]:has(> DIV:first-child:last-child)
+!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class]:first-child:empty + DIV[class*=" "] + DIV:last-child:empty):remove()
+!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class*=" "]:first-child + DIV[class]:empty + DIV:last-child:empty):remove()
+
+!Chcesz poczytać więcej o sporcie i nie tylko
+sportowefakty.wp.pl##DIV.sgwpbutton
+
+!https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+!Jak się to usunie (reklama pod lewą kolumną), to w ogóle nie ma reklam (może się jakiś skrypt wywala)
+sportowefakty.wp.pl##^NAV[data-source="sidebar-menu-left"] > DIV:xpath(//div[div[@data-class][count(*)=0]])
+!https://sportowefakty.wp.pl/pilka-nozna/935780/wiemy-kto-skomentuje-mecze-polakow-i-final-euro-2020-zaskakujacy-ruch-tvp
+sportowefakty.wp.pl##DIV.back_bar
+
+!Doładowywane artykuły przy scrollowaniu
+||sportowefakty.wp.pl/scroll-article?
+sportowefakty.wp.pl##DIV#sgfirstDrawer:remove()
+sportowefakty.wp.pl##DIV#exitpopup:remove()
+
+sportowefakty.wp.pl##DIV.liketag
+sportowefakty.wp.pl##DIV.wpsocial-bottom-article
+
+!https://sportowefakty.wp.pl/euro-2020-2021/942976/polska-islandia-bilans-historyczny-na-duzy-plus
+sportowefakty.wp.pl##^ARTICLE > P:has(:scope> STRONG:last-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+
+!sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]
+!sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child) + DIV[id^="video-container"]
+!sportowefakty.wp.pl##ARTICLE > P + DIV[id^="video-container"]
+!:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+
+sportowefakty.wp.pl##DIV[class]:has(:scope> DIV:first-child:has(:scope> DIV[class]:first-child + DIV[class]:last-child) + DIV[class]:last-child:empty):remove()
+
+
+
+!https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+!uBO: setTimeout("function(){var a=n?".article + .teasers .teaser":".articleteaser",r=".streamshort",c=null,d=v.place;if(n&&f>1){var u=document.body.querySelectorAll(v.selector).length,h=i[o].filter(function(e){return e.rand===!0}).length,p=parseInt(u/h-1);d=v.place+p}c=document.body.querySelectorAll(v.selector)[d];var g=c.querySelectorAll("img")[0],m=c.querySelectorAll("a")[0],w=c.querySelectorAll("span")[0];g.src=e.src,r===v.selector&&(m=c.querySelectorAll(".streamshort__title a")[0],m.textContent=e.text),a===v.selector&&(w.childElementCount?w.childNodes[0].textContent=e.text:w.textContent=e.text),m.href=e.url,m.target="_blank",c.className+=" "+s,t({el:c}),l()}", 200)
+sportowefakty.wp.pl##+js(nostif, articleteaser, 200)
+!KONIEC - https://sportowefakty.wp.pl/kolarstwo/926408/43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o
+
+!Reklama nad górnym paskiem
+!https://sportowefakty.wp.pl/euro-2020-2021/946749/sensacyjny-thriller-w-bukareszcie-mistrzowie-swiata-za-burta
+sportowefakty.wp.pl##BODY > DIV[class*=" "]:not(:has([id])):remove()
+sportowefakty.wp.pl##^BODY > DIV[class=""][data-class]
+
+!Próba naprawy przewijania strony
+!sportowefakty.wp.pl##MAIN#content > SECTION.section::before
+sportowefakty.wp.pl##SECTION ARTICLE *::before:style(content: none !important;)
+sportowefakty.wp.pl##SECTION ARTICLE *::after:style(content: none !important;)
+!Przyciski społecznościowe
+sportowefakty.wp.pl##DIV.wpsocials
+sportowefakty.wp.pl##A.socialbutton
+
+!Rozciąganie strony w pionie przy scrollowaniu
+!sportowefakty.wp.pl##DIV.section__layout.section__layout--article:style(border-image-repeat: unset !important)
+sportowefakty.wp.pl##+js(nostif, initedSFPWA, 300)
+sportowefakty.wp.pl##+js(nostif, ()=>{Z(e,n)}, 300)
+sportowefakty.wp.pl##+js(nostif, location.reload())
+sportowefakty.wp.pl##MAIN#content .section::before
+sportowefakty.wp.pl##MAIN#content .section::after
+!KONIEC - SPORTOWEFAKTY.PL

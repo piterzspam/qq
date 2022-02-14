@@ -1,0 +1,30 @@
+! Title: wp.pl - strona główna
+! Expires: 1 day
+
+
+
+!POCZĄTEK - Strona główna
+
+!https://www.wp.pl/?s=https%3A%2F%2Fsportowefakty.wp.pl%2Fkolarstwo%2F926408%2F43-lata-temu-polscy-kolarze-zgineli-w-katastrofie-lotniczej-po-otwarciu-trumny-o&nil&src01=f1e45
+www.wp.pl##SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
+www.wp.pl##^SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
+
+!Miejsce po reklamie po prawej stronie na stronie z zapowiedzią
+!Miejsce po reklamach na stronie głównej
+www.wp.pl##DIV[class]:has(> IMG[src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:has(:scope> DIV:only-child:empty))
+
+
+!Statyczne miejsca na reklamy w głównej części strony
+www.wp.pl##DIV[class]:has(> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty)
+
+!Usuwanie całego elementu psuło linki po prawej stronie
+www.wp.pl##DIV[class]:only-child:has(:scope> DIV[class]:first-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty) + SCRIPT:last-child)
+
+www.wp.pl##DIV > DIV[class]:only-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty)
+
+!Blokowanie ładowania reklam
+www.wp.pl##+js(set, window.WP.gaf, '')
+
+!Pasek na dole strony mobilnej
+www.wp.pl##DIV.app-container > DIV[data-st-area="Menu_bottom"]
+!KONIEC - Strona główna

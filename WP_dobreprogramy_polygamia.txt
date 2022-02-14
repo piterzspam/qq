@@ -1,0 +1,12 @@
+! Title: wp.pl - dobreprogramy.pl, polygamia.pl
+! Expires: 1 day
+
+
+!POCZĄTEK - ARTICLE[id="main-content"]
+||dobreprogramy.pl/api/sponsored/
+
+dobreprogramy.pl,polygamia.pl##DIV[data-slot]:remove()
+
+!Reklamy pod artkułem
+dobreprogramy.pl,polygamia.pl##DIV[role="listitem"]:has(SPAN:has-text(Reklama))
+!KONIEC - ARTICLE[id="main-content"]

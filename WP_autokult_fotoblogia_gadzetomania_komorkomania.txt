@@ -1,0 +1,44 @@
+! Title: wp.pl - autokult.pl, fotoblogia.pl, gadzetomania.pl, komorkomania.pl
+! Expires: 1 day
+
+
+
+!POCZĄTEK - UKŁAD GADŻETOMANIA
+||afilio.autodna.pl^$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+/pushpushgo_$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+/next-posts/?$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+||std.wpcdn.pl/adv/$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+||rek.www.wp.pl^$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+||wp.pl^$image,stylesheet,domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+!"Obserwuj nas na Instagramie:"
+||instagram.com/p/Bpy2x3tFY0L/$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(H3:has-text(Obserwuj nas na Instagramie:)):remove()
+!Usunięcie reklam statycznych i dynamicznych
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##^SCRIPT:has-text(WP.gaf.registerSlot)
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[class]:has(> DIV:first-child + IMG[src*="i.wpimg.pl/100x0/m.autokult.pl/"][alt]:last-child)
+!Reklamy statyczne
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[class]:has(> DIV:first-child + IMG[src*="i.wpimg.pl/100x0/m.autokult.pl/"][alt]:last-child) + SCRIPT:has-text(WP.gaf.registerSlot):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
+!Reklamy doładowywane
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[class]:has(> DIV[class]:first-child + DIV[class]:last-child) + SCRIPT:has-text(WP.gaf.registerSlot):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
+!Powiązane wideo z treści
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##^FIGURE.insert:has(> H3.section__subheader:first-child:has(SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child)
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(> H3.section__subheader:first-child:has(SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child):remove()
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(> H3.section__subheader:first-child:has(SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child)
+!Przyciski socialowe pod artykułem
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[id^="post-socials-"]
+!Puste pole na dole strony
+!https://autokult.pl/41263,test-hyundai-kona-fl-po-liftingu-wyposazenie-potrafi-zaskoczyc
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[data-rekid]:remove()
+!Pasek na dole strony mobilnej
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FOOTER.footer-back-link
+!Link fo dziejesie.wp.pl
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV.article > H4:has(> A[href="http://dziejesie.wp.pl/"])
+
+autokult.pl,fo!toblogia.pl,gadzetomania.pl,komorkomania.pl##+js(set, window.WP.gaf, '')
+
+!Odblokowanie komantarzy
+!@@||data-api.wp.pl/graphql$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+!@@||wp.pl^$script,xhr,domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
+
+!autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl
+!KONIEC - UKŁAD GADŻETOMANIA

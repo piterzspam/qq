@@ -1,0 +1,22 @@
+! Title: wp.pl - magazyn wp.pl
+! Expires: 1 day
+
+
+
+!POCZĄTEK - Magazyn.wp.pl
+!https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
+magazyn.wp.pl##SPAN.socials
+||magazyn-wp.wpcdn.pl/js/desktop/wpstat.js
+||magazyn-wp.wpcdn.pl/js/ext.js
+||magazyn-wp.wpcdn.pl/css/ext.css
+!Ładowanie nowego artykułu przy przescrollowaniu artykułu w dół
+||magazyn.wp.pl/ajax/
+!magazyn.wp.pl##DIV.article-loader-holder
+magazyn.wp.pl##DIV.article-loader-holder:remove()
+!Reklamy w treści artykułu
+!https://magazyn.wp.pl/informacje/artykul/ordo-iuris-i-przyjaciele-operacja-ban-na-aborcje
+!Filtr blokował ładowanie obrazów na stronie głównej (jednak nie)
+!||std.wpcdn.pl/wpjslib/wpjslib-sgap.js$domain=~www.wp.pl
+||std.wpcdn.pl/wpjslib/wpjslib-sgap.js
+magazyn.wp.pl##FIGURE.a--instream:remove()
+!KONIEC - Magazyn.wp.pl

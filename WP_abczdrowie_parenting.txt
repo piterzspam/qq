@@ -1,0 +1,23 @@
+! Title: wp.pl - abczdrowie.pl, parenting.pl
+! Expires: 1 day
+
+
+
+
+!POCZĄTEK - BODY[itemscope=""][itemtype="http://schema.org/WebPage"]
+||herr.io^$domain=abczdrowie.pl|parenting.pl
+||clickonometrics.pl^$domain=abczdrowie.pl|parenting.pl
+/service-worker.js?$domain=abczdrowie.pl|parenting.pl
+||ssp.wp.pl^$domain=abczdrowie.pl|parenting.pl
+!Prycisk "Przejdź na WP.pl" na stronie mobilnej
+abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] A[data-st-area="backtosg_mob"]
+!Reklamy w treści artykułu
+abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV.article__textbox:remove()
+!Reklamy po prawej stronie artykułu
+abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV.content-aside__item:remove()
+!Reklamy nad górnym paskiem i nad stopką strony
+abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] > DIV:not([id]):not(:has(P)):remove()
+!Wideo w treści artykułu
+abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] SECTION.article__player:has(> H3.article__player__h3:has-text(Zobacz film:) + DIV.article__player__player):remove()
+abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV#cs1 > UL.contentstream-row > LI.contentstream-element:has(> SPAN.contentstream-bar)
+!KONIEC - BODY[itemscope=""][itemtype="http://schema.org/WebPage"]

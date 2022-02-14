@@ -1,0 +1,9 @@
+! Title: wp.pl - wyłączone filtry
+! Expires: 1 day
+
+
+
+
+!Cofnięcie usuwania linku do strony głównej z przycisku powrotu
+!Polskie Filtry Elementów Irytujących - wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
+wp.pl,~www.wp.pl#@#+js(ra, href, a[data-st-area="Header-back"])
