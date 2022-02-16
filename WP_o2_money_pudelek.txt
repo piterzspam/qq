@@ -375,12 +375,12 @@ money.pl,o2.pl,pudelek.pl##ARTICLE DIV[width]:only-child:has(> DIV:only-child > 
 !https://www.o2.pl/informacje/ataki-na-granicy-sg-rzucaja-kamieniami-i-niszcza-zasieki-6736950356261664a
 !https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
 !https://www.o2.pl/biznes/paragon-z-punktu-ksero-w-warszawie-pan-slawomir-to-okradanie-ludzi-6701923627211424a
-money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:last-child > DIV[id^="video-player-"]:only-child) DIV#Player0:remove()
-money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:last-child > DIV[id^="video-player-"]:only-child)
+money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope DIV:last-child > DIV[id^="video-player-"]:only-child) DIV#Player0:remove()
+money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope DIV:last-child > DIV[id^="video-player-"]:only-child)
 
 
 !#canonical #desktop #mobile #article_page #related #paragraph #static - Element "Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl" na końcu artykułu
-money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:first-child + DIV[font-size="s"]:last-child > STRONG:only-child > A[href="https://dziejesie.wp.pl/"]:only-child)
+money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope DIV:first-child + DIV[font-size="s"]:last-child > STRONG:only-child > A[href="https://dziejesie.wp.pl/"]:only-child)
 
 !#canonical #desktop #article_page #static -  !Czytaj także... - desktop, mobile
 !https://www.o2.pl/informacje/slowacy-wysmiewaja-polskich-turystow-chodzi-o-to-zdjecie-6675380680071808a
@@ -392,4 +392,4 @@ money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3
 !https://www.o2.pl/informacje/aliaksandr-azarau-5-tys-euro-od-uchodzcy-to-zyla-zlota-dla-bialoruskich-sluzb-6678885906959168a
 !https://www.o2.pl/informacje/caly-swiat-pisze-o-tym-co-wydarzylo-sie-w-kaliszu-nabili-ksiege-na-pal-6704741252561856a
 !https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
-money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope P:only-child:has-text(Czytaj także:) > A[href][rel="noopener noreferrer"]:last-child)
+money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope P:only-child:has-text(Czytaj także:) > A[href][rel="noopener noreferrer"]:last-child)
