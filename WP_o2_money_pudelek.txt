@@ -83,6 +83,8 @@ money.pl,o2.pl,pudelek.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
 ||google-analytics.com^$domain=money.pl|o2.pl|pudelek.pl
 ||googletagmanager.com^$domain=money.pl|o2.pl|pudelek.pl
 ||connect.facebook.net/*/sdk.js$script,domain=money.pl|o2.pl|pudelek.pl
+@@||connect.facebook.net/*/sdk.js?hash=$domain=money.pl|o2.pl|pudelek.pl
+@@||connect.facebook.net/*/sdk.js#xfbml=*&version=*&appId=$domain=money.pl|o2.pl|pudelek.pl
 ||criteo.net^$domain=money.pl|o2.pl|pudelek.pl
 ||googletagservices.com^$domain=money.pl|o2.pl|pudelek.pl
 ||money.pl/sw.js?
@@ -392,4 +394,5 @@ money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div
 !https://www.o2.pl/informacje/aliaksandr-azarau-5-tys-euro-od-uchodzcy-to-zyla-zlota-dla-bialoruskich-sluzb-6678885906959168a
 !https://www.o2.pl/informacje/caly-swiat-pisze-o-tym-co-wydarzylo-sie-w-kaliszu-nabili-ksiege-na-pal-6704741252561856a
 !https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
-money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope P:only-child:has-text(Czytaj także:) > A[href][rel="noopener noreferrer"]:last-child)
+!https://www.o2.pl/informacje/oto-ludzie-putina-ich-nazwiska-budza-groze-6738003758103328a
+money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope P:only-child:has-text(/(Czytaj także:|Czytaj też:)/) > A[href][rel="noopener noreferrer"]:last-child)
