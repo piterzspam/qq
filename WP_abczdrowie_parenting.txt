@@ -16,7 +16,7 @@ abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPa
 !Reklamy po prawej stronie artykułu
 abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV.content-aside__item:remove()
 !Reklamy nad górnym paskiem i nad stopką strony
-abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] > DIV:not([id]):not(:has(P)):remove()
+abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] > DIV:not([id]):not(:has(:scope P)):remove()
 !Wideo w treści artykułu
 abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] SECTION.article__player:has(> H3.article__player__h3:has-text(Zobacz film:) + DIV.article__player__player):remove()
 abczdrowie.pl,parenting.pl##BODY[itemscope=""][itemtype="http://schema.org/WebPage"] DIV#cs1 > UL.contentstream-row > LI.contentstream-element:has(> SPAN.contentstream-bar)

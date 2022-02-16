@@ -10,82 +10,82 @@
 !POCZĄTEK - BODY.theme-default
 !Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + DIV + DIV + *
 !https://wroclaw.wp.pl/wroclaw-podwijamy-rekaw-bsh-promuje-szczepienia-przeciwko-covid-19-6638286259419808a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child) > DIV > DIV:remove()
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child) > DIV > DIV:remove()
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV[class] + DIV + *:last-child)
 
 !Ukrywanie i usuwanie reklma doładowywanych - DIV + IMG + DIV + *
 !https://facet.wp.pl/4
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child) > DIV > DIV:remove()
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child) > DIV > DIV:remove()
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + DIV + *:last-child)
 
 !Ukrywanie i usuwanie reklma doładowywanych i statycznych - DIV + IMG + *
 !https://wroclaw.wp.pl/wroclaw-podwijamy-rekaw-bsh-promuje-szczepienia-przeciwko-covid-19-6638286259419808a
 !https://tech.wp.pl/
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"])
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + *:last-child)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(:scope> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + *:last-child) > DIV > DIV:remove()
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV[class*="menuFooter"][data-st-area="Footer"])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + *:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[class] > DIV[class]:only-child:has(> DIV[class]:first-child + IMG[class][src*="v.wpimg.pl/"][alt] + *:last-child) > DIV > DIV:remove()
 
 !Reklama nad górnym paskiem
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(A[target="_blank"][href^="https://holding.wp.pl/"])):remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(P)):remove()
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(:scope A[target="_blank"][href^="https://holding.wp.pl/"])):remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) BODY.theme-default > DIV:not([id]):not(:has(:scope P)):remove()
 
 !#canonical #desktop #mobile - Pasek z koszykiem na dole okna "Twoje okazje"
 !https://wiadomosci.wp.pl/warszawa-polacy-korzystaja-z-pogody-tlumy-na-bulwarach-wislanych-6637883515714048g/5
 !wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HEAD > STYLE[data-id="wpcss"]:has-text(/T.*W.*O.*J.*E.*O.*K.*A.*Z.*J.*E/):remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD[data-reactid="5"] > DIV:first-of-type:has(svg[viewBox="0 0 16 16"][name="close"])
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] > DIV[class*=" "]:not([data-reactid])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) TD[data-reactid="5"] > DIV:first-of-type:has(:scope svg[viewBox="0 0 16 16"][name="close"])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] > DIV[class*=" "]:not([data-reactid])
 
 !Reklama po bokach strony
 !https://wiadomosci.wp.pl/spor-o-turow-pis-w-ciagu-dwoch-tygodni-chce-dogadac-sie-z-czechami-6648461188873120a
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##TD[data-reactid="5"] > DIV[style="position: relative; top: 0px; z-index: 0;"]:remove()
 
 !Reklama pod leadem nad zdjęciem głównym
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.article--lead + DIV > DIV:first-child + DIV:last-child > * > *:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.article--lead + DIV > DIV:first-child + DIV:last-child > * > *:remove()
 
 !Reklama pod stopką strony
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) TD > DIV:has(> DIV.menuFooterDesktop) ~ DIV:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) TD > DIV:has(> DIV.menuFooterDesktop) ~ DIV:remove()
 
 !Przycisk udostępniania na górze i dole artykułu
 !https://wiadomosci.wp.pl/strzelaj-w-opony-jak-policjanci-ulegli-mitom-z-filmow-sensacyjnych-6614825281821312a
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content svg > title:has-text(Share):upward(DIV + DIV:last-child)
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content svg > title:has-text(Share):upward(DIV + DIV:last-child)
 !Przy artykule bez ocen chowało cały artykuł
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content DIV:last-child:has(> DIV > SPAN > svg > title:has-text(Share))
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) P:has-text(Podziel się) + DIV:last-child:xpath(self::node() | self::node()/preceding-sibling::P[1])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content DIV:last-child:has(> DIV > SPAN > svg > title:has-text(Share))
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data-st-area="Footer"]) P:has-text(Podziel się) + DIV:last-child:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !Sekcja "Bądź z nami na bieżąco" pod artykułem
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(> A[href="https://www.instagram.com/wirtualnapolska"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child) > * > * > * > *:remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(> A[href^="https://www.instagram.com/"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child)
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(> A[href="https://www.instagram.com/wirtualnapolska"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child) > * > * > * > *:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(> A[href^="https://www.instagram.com/"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child)
 
 !Reklamy w kafelkach pod artykułem
 !https://wroclaw.wp.pl/wroclaw-podwijamy-rekaw-bsh-promuje-szczepienia-przeciwko-covid-19-6638286259419808a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content DIV[data-st-area^="list-selected4you-seenAfterContent"] LI[data-adv]:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) DIV.content DIV[data-st-area^="list-selected4you-seenAfterContent"] LI[data-adv]:remove()
 
 !Reklama nad głównym zdjęciem na stronie mobilnej (raz się wyświetliła)
 !https://tech.wp.pl/europejskie-mrowki-skutecznie-przeganiaja-pajaki-trzeba-na-nie-jednak-uwazac-6641401283816320a
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[data-reactid="1"] > DIV:not([data-reactid]):remove()
 
 !Reklama pod artykułrm w zakładce "Najnowsze" na stronie mobilnej
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.teasersListing DIV:has(:scope> DIV[data-native-adv="true"]) > *:not(:last-child):remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.teasersListing DIV:has(> DIV[data-native-adv="true"]) > *:not(:last-child):remove()
 
 
 !data-st-area="list-selected4you-seenAfterContentFallback"
 
 !Reklamy w komentarzach po rozwinięciu
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) DIV#comments > DIV > DIV:has(> DIV:first-child + DIV:last-child > A)
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) DIV#comments > DIV > DIV:has(> DIV:first-child + DIV:last-child > A)
 !Na mobilnej nie ma elementu DIV.menuFooterMobile[data-st-area="Footer"
 !wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV#comments > DIV > DIV:has(> DIV:first-child + DIV:last-child:not(::after))
 !wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV#comments > DIV > DIV:has(> DIV:first-child + DIV:last-child > A)
 !wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV#comments > DIV > DIV:has(> DIV:first-child + DIV:last-child > DIV:only-child > A)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV#comments > DIV > DIV:has(> DIV:first-child + DIV:last-child:has(A)):remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV#comments > DIV > DIV:has(> DIV:first-child + DIV:last-child:has(:scope A)):remove()
 
 !Dymek z informacją o trybie ciemnym
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(A[data-st-area="st-header-darkmode"])
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="st-header-darkmode"]:upward(DIV[data-reactid]:first-child + DIV:last-child)
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] + DIV[data-st-area="Menu"] + DIV:has(A[data-st-area="st-header-darkmode"])
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV:has(:scope> DIV > INPUT[type="checkbox"]) + DIV:has(:scope> DIV > A[data-st-area="st-header-darkmode"])
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HEADER DIV:has(:scope> DIV > A[data-st-area="st-header-darkmode"])
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(:scope A[data-st-area="st-header-darkmode"])
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) A[data-st-area="st-header-darkmode"]:upward(DIV[data-reactid]:first-child + DIV:last-child)
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data-st-area="Footer"]) DIV[data-st-area="Header"] + DIV[data-st-area="Menu"] + DIV:has(:scope A[data-st-area="st-header-darkmode"])
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV:has(> DIV > INPUT[type="checkbox"]) + DIV:has(> DIV > A[data-st-area="st-header-darkmode"])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HEADER DIV:has(> DIV > A[data-st-area="st-header-darkmode"])
 
 !KONIEC - BODY.theme-default
 
@@ -114,8 +114,8 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##div:matches-css(width: 300px):matches-css
 
 !Skrypt tworzący reklamy
 !https://wiadomosci.wp.pl/andrzej-duda-ostro-skrytykowany-przez-aleksandra-kwasniewskiego-6637542089303681v
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##BODY:not(:has(ARTICLE.videoView)) SCRIPT#wpjslib6:remove()
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^BODY:not(:has(:scope ARTICLE.videoView)) SCRIPT#wpjslib6
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##BODY:not(:has(:scope ARTICLE.videoView)) SCRIPT#wpjslib6:remove()
 
 !Reklama po zapauzowaniu wideo
 !https://wiadomosci.wp.pl/komorowski-wraca-do-polityki-kwasniewski-ocenil-ten-ruch-jednoznacznie-6637905605011585v
@@ -127,25 +127,25 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.npp-container.paused DIV.plchldr:remo
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##A[data-st-area*="ToSG"]:upward(DIV.content > DIV)
 
 !Link do dziejesie w treści artkułu
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.article--text:has(STRONG > A[href="https://dziejesie.wp.pl/"])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.article--text:has(:scope STRONG > A[href="https://dziejesie.wp.pl/"])
 
 !Za duże miniaturki w tekście artykułu
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV[data-st-area="article-graphicTeaser"]
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV[data-st-area="article-graphicTeaser"]
 !Wideo na końcu artykułu TODO
 !Potem zmiana na wideo w treści artkyłu
 !https://wiadomosci.wp.pl/wp-ujawnia-tak-awansowal-lukasz-piebiak-pozorny-konkurs-w-krs-6655616234732096a
 !https://wiadomosci.wp.pl/koronawirus-mutacja-indyjska-zaatakuje-polske-w-lipcu-czeka-nas-lockdown-6655561353091648a
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV:has(:scope> DIV.article--text > H2) + DIV:has(> DIV[id^="video-player-"]) + DIV:has(A[href="https://dziejesie.wp.pl/"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::DIV[2]):remove()
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV:has(> DIV.article--text > H2) + DIV:has(> DIV[id^="video-player-"]) + DIV:has(:scope A[href="https://dziejesie.wp.pl/"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1] | self::node()/preceding-sibling::DIV[2]):remove()
 !Wersja mobilna
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV:has(:scope> DIV.article--text > H2) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV:has(:scope> H2:first-child + DIV[id^="video-player-"]:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV:has(> DIV.article--text > H2) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data-st-area="Footer"]) ARTICLE > DIV > DIV:has(> H2:first-child + DIV[id^="video-player-"]:last-child)
 !Wersja desktopowa
 !Usunięcie
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV:has(> H2 + DIV[id^="video-player-"]) + DIV:has(A[href="https://dziejesie.wp.pl/"]):xpath(self::node()/preceding-sibling::DIV[1]) > DIV > *:remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV > H2:first-child + DIV[id^="video-player-"]:last-child > DIV > *:remove()
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV:has(> H2 + DIV[id^="video-player-"]) + DIV:has(:scope A[href="https://dziejesie.wp.pl/"]):xpath(self::node()/preceding-sibling::DIV[1]) > DIV > *:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV > H2:first-child + DIV[id^="video-player-"]:last-child > DIV > *:remove()
 !Ukrycie
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV:has(> H2 + DIV[id^="video-player-"]) + DIV:has(A[href="https://dziejesie.wp.pl/"]):xpath(self::node()/preceding-sibling::DIV[1])
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV:has(> H2:first-child + DIV[id^="video-player-"]:last-child)
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV:has(> H2 + DIV[id^="video-player-"]) + DIV:has(:scope A[href="https://dziejesie.wp.pl/"]):xpath(self::node()/preceding-sibling::DIV[1])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV:has(> H2:first-child + DIV[id^="video-player-"]:last-child)
 
 
 !Wideo powiązane w treści artykułu
@@ -171,13 +171,13 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE[data-st-area="article-article"] D
 !https://wideo.wp.pl/kontrola-ciezarowki-w-poznaniu-prawda-o-kierowcy-zaskoczyla-nawet-inspektorow-6643465643734657v
 !Przycisk powrotu na stronę główną na dole strony
 !https://wideo.wp.pl/niezwykle-odkrycie-z-czasow-wikingow-norweg-odkopal-to-na-swoim-polu-6655517294790273v
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV:has(:scope> A[data-st-area="goToSG_mob"])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV:has(> A[data-st-area="goToSG_mob"])
 !Usuwanie całości usuwało całą stronę po przescrollowaniu w dół
 !https://polygamia.pl/?strona=1
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(:scope> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
 
 
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(addEventListener-defuser, AUTOPLAY)

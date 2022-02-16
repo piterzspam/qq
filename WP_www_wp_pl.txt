@@ -11,16 +11,16 @@ www.wp.pl##^SECTION[data-st-area="Glonews-glowny-sgfirst"] ~ *
 
 !Miejsce po reklamie po prawej stronie na stronie z zapowiedzią
 !Miejsce po reklamach na stronie głównej
-www.wp.pl##DIV[class]:has(> IMG[src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:has(:scope> DIV:only-child:empty))
+www.wp.pl##DIV[class]:has(> IMG[src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:has(> DIV:only-child:empty))
 
 
 !Statyczne miejsca na reklamy w głównej części strony
 www.wp.pl##DIV[class]:has(> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty)
 
 !Usuwanie całego elementu psuło linki po prawej stronie
-www.wp.pl##DIV[class]:only-child:has(:scope> DIV[class]:first-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty) + SCRIPT:last-child)
+www.wp.pl##DIV[class]:only-child:has(> DIV[class]:first-child:has(> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty) + SCRIPT:last-child)
 
-www.wp.pl##DIV > DIV[class]:only-child:has(:scope> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty)
+www.wp.pl##DIV > DIV[class]:only-child:has(> IMG[class][src*="v.wpimg.pl/"][role="presentation"][alt=""]:first-child + DIV[class]:last-child:empty)
 
 !Blokowanie ładowania reklam
 www.wp.pl##+js(set, window.WP.gaf, '')

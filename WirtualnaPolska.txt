@@ -68,9 +68,9 @@
 
 
 !Sekcja koszyk na górze strony - Wersja mobilna
-!wp.pl##DIV#app > DIV[data-reactroot=""] > DIV.content > DIV[class]:not(data-reactid):has(svg[name="close"]):remove()
+!wp.pl##DIV#app > DIV[data-reactroot=""] > DIV.content > DIV[class]:not(data-reactid):has(:scope svg[name="close"]):remove()
 !Sekcja koszyk na górze strony - Wersja desktop
-!wp.pl##DIV#app > DIV[data-reactid="1"] > DIV[data-reactid="2"] > DIV[data-reactid="3"] > DIV[data-reactid="9"]:has(svg[name="close"]) > DIV:remove()
+!wp.pl##DIV#app > DIV[data-reactid="1"] > DIV[data-reactid="2"] > DIV[data-reactid="3"] > DIV[data-reactid="9"]:has(:scope svg[name="close"]) > DIV:remove()
 !Komunikat o adblocku
 !wp.pl##HEAD > STYLE[data-id="wpcss"]:remove()
 
@@ -92,7 +92,7 @@
 !wp.pl##+js(nostif, executeDelayedAdv)
 !wp.pl##+js(addEventListener-defuser, advRail)
 
-!wp.pl##DIV:has(> IMG[width="56"][height="45"]) > DIV >*:has(IFRAME):remove()
+!wp.pl##DIV:has(> IMG[width="56"][height="45"]) > DIV >*:has(:scope IFRAME):remove()
 
 
 

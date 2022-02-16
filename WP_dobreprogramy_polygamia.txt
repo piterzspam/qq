@@ -8,5 +8,5 @@
 dobreprogramy.pl,polygamia.pl##DIV[data-slot]:remove()
 
 !Reklamy pod artkułem
-dobreprogramy.pl,polygamia.pl##DIV[role="listitem"]:has(SPAN:has-text(Reklama))
+dobreprogramy.pl,polygamia.pl##DIV[role="listitem"]:has(:scope SPAN:has-text(Reklama))
 !KONIEC - ARTICLE[id="main-content"]

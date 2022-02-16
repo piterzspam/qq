@@ -12,7 +12,7 @@
 ||wp.pl^$image,stylesheet,domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
 !"Obserwuj nas na Instagramie:"
 ||instagram.com/p/Bpy2x3tFY0L/$domain=autokult.pl|fotoblogia.pl|gadzetomania.pl|komorkomania.pl
-autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(H3:has-text(Obserwuj nas na Instagramie:)):remove()
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(:scope H3:has-text(Obserwuj nas na Instagramie:)):remove()
 !Usunięcie reklam statycznych i dynamicznych
 autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##^SCRIPT:has-text(WP.gaf.registerSlot)
 autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[class]:has(> DIV:first-child + IMG[src*="i.wpimg.pl/100x0/m.autokult.pl/"][alt]:last-child)
@@ -21,9 +21,9 @@ autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[class]:has(> DIV:
 !Reklamy doładowywane
 autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[class]:has(> DIV[class]:first-child + DIV[class]:last-child) + SCRIPT:has-text(WP.gaf.registerSlot):xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
 !Powiązane wideo z treści
-autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##^FIGURE.insert:has(> H3.section__subheader:first-child:has(SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child)
-autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(> H3.section__subheader:first-child:has(SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child):remove()
-autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(> H3.section__subheader:first-child:has(SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child)
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##^FIGURE.insert:has(> H3.section__subheader:first-child:has(:scope SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child)
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(> H3.section__subheader:first-child:has(:scope SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child):remove()
+autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##FIGURE.insert:has(> H3.section__subheader:first-child:has(:scope SPAN:has-text(/zobacz również:/i)) + DIV.embed-container--wptv:last-child)
 !Przyciski socialowe pod artykułem
 autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##DIV[id^="post-socials-"]
 !Puste pole na dole strony

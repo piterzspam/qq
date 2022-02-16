@@ -17,10 +17,10 @@ sportowefakty.wp.pl##LI.match--sponsor:remove()
 !wpjslib-sgap.js:1:1
 
 sportowefakty.wp.pl##:xpath(//DIV[count(*)=3][count(DIV[@class][count(*)=0])=2][DIV[@class][count(*)>0]]):remove()
-sportowefakty.wp.pl##^DIV:has(:scope> DIV[class=""][data-class]:only-child)
+sportowefakty.wp.pl##^DIV:has(> DIV[class=""][data-class]:only-child)
 !sportowefakty.wp.pl##^DIV[class*=" "][data-class]:has(> DIV:first-child:last-child)
-!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class]:first-child:empty + DIV[class*=" "] + DIV:last-child:empty):remove()
-!sportowefakty.wp.pl##DIV[class]:has(:scope> DIV[class*=" "]:first-child + DIV[class]:empty + DIV:last-child:empty):remove()
+!sportowefakty.wp.pl##DIV[class]:has(> DIV[class]:first-child:empty + DIV[class*=" "] + DIV:last-child:empty):remove()
+!sportowefakty.wp.pl##DIV[class]:has(> DIV[class*=" "]:first-child + DIV[class]:empty + DIV:last-child:empty):remove()
 
 !Chcesz poczytać więcej o sporcie i nie tylko
 sportowefakty.wp.pl##DIV.sgwpbutton
@@ -40,15 +40,15 @@ sportowefakty.wp.pl##DIV.liketag
 sportowefakty.wp.pl##DIV.wpsocial-bottom-article
 
 !https://sportowefakty.wp.pl/euro-2020-2021/942976/polska-islandia-bilans-historyczny-na-duzy-plus
-sportowefakty.wp.pl##^ARTICLE > P:has(:scope> STRONG:last-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
-sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
+sportowefakty.wp.pl##^ARTICLE > P:has(> STRONG:last-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+sportowefakty.wp.pl##ARTICLE > P:has(> STRONG:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
 
-!sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]
-!sportowefakty.wp.pl##ARTICLE > P:has(:scope> STRONG:only-child) + DIV[id^="video-container"]
+!sportowefakty.wp.pl##ARTICLE > P:has(> STRONG:only-child:has-text(/zobacz wideo/i)) + DIV[id^="video-container"]
+!sportowefakty.wp.pl##ARTICLE > P:has(> STRONG:only-child) + DIV[id^="video-container"]
 !sportowefakty.wp.pl##ARTICLE > P + DIV[id^="video-container"]
 !:xpath(self::node() | self::node()/preceding-sibling::P[1]):remove()
 
-sportowefakty.wp.pl##DIV[class]:has(:scope> DIV:first-child:has(:scope> DIV[class]:first-child + DIV[class]:last-child) + DIV[class]:last-child:empty):remove()
+sportowefakty.wp.pl##DIV[class]:has(> DIV:first-child:has(> DIV[class]:first-child + DIV[class]:last-child) + DIV[class]:last-child:empty):remove()
 
 
 
@@ -59,7 +59,7 @@ sportowefakty.wp.pl##+js(nostif, articleteaser, 200)
 
 !Reklama nad górnym paskiem
 !https://sportowefakty.wp.pl/euro-2020-2021/946749/sensacyjny-thriller-w-bukareszcie-mistrzowie-swiata-za-burta
-sportowefakty.wp.pl##BODY > DIV[class*=" "]:not(:has([id])):remove()
+sportowefakty.wp.pl##BODY > DIV[class*=" "]:not(:has(:scope [id])):remove()
 sportowefakty.wp.pl##^BODY > DIV[class=""][data-class]
 
 !Próba naprawy przewijania strony
