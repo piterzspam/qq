@@ -5,13 +5,13 @@
 
 !Ramki w treści artykułu "Zobnacz też:" - wersja desktopowa i mobilna
 !https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV:has(> DIV:only-child > DIV:only-child:has(DIV[color="gray400"]:has-text(Zobacz także:)):has(A[href][color="primary"]))
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV:has(> DIV:only-child > DIV:only-child:has(:scope DIV[color="gray400"]:has-text(Zobacz także:)):has(:scope A[href][color="primary"]))
 
 !Przyciski socialowe na stronie mobilnej pod artykułem
 !https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
 money.pl,o2.pl,pudelek.pl##ARTICLE + DIV > DIV:only-child > DIV:first-child > DIV:first-child:has(> DIV[color="black"]:first-child:has-text(Podziel się:))
 
-!Przyciski socliaowe na stronie desktopowej nad artykułem
+!Przyciski socialowe na stronie desktopowej nad artykułem
 !https://www.money.pl/gospodarka/polski-lad-zawita-do-spolek-rzad-przyjmie-projekt-lada-moment-6672601577892384a.html
 money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV:first-child:last-child > DIV:first-child + DIV:last-child
 
@@ -31,15 +31,11 @@ money.pl,o2.pl,pudelek.pl##DIV[class] > DIV[class]:has(> DIV:first-child + IMG[c
 !Na dole artykułu zamiast pierwszego DIVa jest ARTICLE
 money.pl,o2.pl,pudelek.pl##DIV[class]:has(> IMG[class][src*="v.wpimg.pl/"][alt]:first-child + DIV:last-child)
 money.pl,o2.pl,pudelek.pl##DIV[class]:has(> IMG[class][src*="v.wpimg.pl/"][alt]:first-child + DIV:last-child):remove()
-!Czasem reklama ma tylko IMG, więc ukrycie
-money.pl,o2.pl,pudelek.pl##DIV.i2doh5-0
 !Reklamy w polecanych pod artykułem - tylko desktop
 money.pl,o2.pl,pudelek.pl##DIV#polecane-mainColumn > DIV > DIV:has(> A[target="_blank"]):remove()
 !Przycisk "Wróć na WP"
 money.pl,o2.pl,pudelek.pl##A[data-st-area="gotosg"][href*="www.wp.pl"]
 money.pl,o2.pl,pudelek.pl##A[data-st-area="backtosg"][href*="www.wp.pl"]
-money.pl,o2.pl,pudelek.pl##[data-st-area="gotosg"][href*="www.wp.pl"]
-money.pl,o2.pl,pudelek.pl##[data-st-area="backtosg"][href*="www.wp.pl"]
 !Wideo w treści artykułu - desktop i mobile
 !https://www.money.pl/gospodarka/duzy-konflikt-o-wielka-plyte-ziobro-beszta-gowina-6656954938227232a.html
 !Chowanie
@@ -52,11 +48,11 @@ money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class^="sc-"] > DIV[class^="sc-"]:has(>
 !Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl
 money.pl,o2.pl,pudelek.pl##ARTICLE DIV:has(> DIV:first-child + DIV[font-size="s"]:last-child > STRONG > A[href="https://dziejesie.wp.pl/"][target="_blank"])
 !Kolumna z FB (Polub pudelek.pl na Facebooku:) po lewej stronie komentarzy - strona desktop
-money.pl,o2.pl,pudelek.pl##ASIDE[role="complementary"]:has(DIV#fb-like-btn)
+money.pl,o2.pl,pudelek.pl##ASIDE[role="complementary"]:has(:scope DIV#fb-like-btn)
 !Kolumna z FB (Polub pudelek.pl na Facebooku:) po lewej stronie komentarzy - strona mobilna
 money.pl,o2.pl,pudelek.pl##DIV:has(> DIV#fb-like-btn)
 !Przycisk Fb pod przyciskiem do komentarzy w lewej kolumnie - tylko desktop
-!money.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:has(BUTTON SVG[color="#4267b2"])
+!money.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:has(:scope BUTTON SVG[color="#4267b2"])
 money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV DIV:last-child:has(> BUTTON > svg[color="#4267b2"])
 !money.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV DIV:last-child:has(> BUTTON)
 !money.pl,pudelek.pl##+js(set, window.WP.gaf, '')
@@ -79,11 +75,10 @@ money.pl,o2.pl,pudelek.pl##DIV[class]:has(> DIV[class]:first-child:has(> DIV[cla
 
 
 !Dymek z informacją o trybie ciemnym
-!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(A[data-st-area="st-header-darkmode"])
+!abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,parenting.pl,polygamia.pl,pudelek.pl,wp.pl##HEADER DIV[data-st-area="Header"] A[data-st-area="Header-back"]:first-child + DIV + DIV:last-child > DIV + DIV:has(:scope A[data-st-area="st-header-darkmode"])
 
 
 
-money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, AUTOPLAY)
 money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, visibilitychange, autoplay)
 money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, autoplay_blocked)
 
@@ -120,14 +115,7 @@ money.pl,o2.pl,pudelek.pl##ARTICLE[data-st-area="article-article"] DIV:has(> H2:
 
 
 
-!Przeładowanie strony po zmianie karty
-money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
 
-!Przeładowanie strony głównej
-money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, visibilitychange, refresh())
-
-!Powiadomienie o ciastkach na dole strony
-money.pl,o2.pl,pudelek.pl##DIV#WP-cookie-info
 money.pl,o2.pl,pudelek.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
 
 
@@ -208,8 +196,8 @@ money.pl,o2.pl,pudelek.pl##+js(no-setTimeout-if, RequestTimeout, 3000)
 !https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
 !https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
 !https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
-money.pl,o2.pl,pudelek.pl##^BODY:not(:has(ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])):not(:has(DIV[data-st-area="Player"] + DIV[data-st-area="Video-content"])) SCRIPT[crossorigin="anonymous"][type="module"]
-money.pl,o2.pl,pudelek.pl##BODY:not(:has(ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])):not(:has(DIV[data-st-area="Player"] + DIV[data-st-area="Video-content"])) SCRIPT[crossorigin="anonymous"][type="module"]:remove()
+money.pl,o2.pl,pudelek.pl##^BODY:not(:has(:scope ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])):not(:has(:scope DIV[data-st-area="Player"] + DIV[data-st-area="Video-content"])) SCRIPT[crossorigin="anonymous"][type="module"]
+money.pl,o2.pl,pudelek.pl##BODY:not(:has(:scope ARTICLE[data-testid="article-main"] > DIV[data-st-area="Player"])):not(:has(:scope DIV[data-st-area="Player"] + DIV[data-st-area="Video-content"])) SCRIPT[crossorigin="anonymous"][type="module"]:remove()
 
 
 !Reklamy
@@ -217,9 +205,9 @@ money.pl,o2.pl,pudelek.pl##BODY:not(:has(ARTICLE[data-testid="article-main"] > D
 !https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
 !https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
 !https://www.money.pl/gospodarka/koniec-z-poselskimi-wrzutkami-maja-zaczac-liczyc-i-sprawdzac-6634606112672288a.html
-money.pl,o2.pl,pudelek.pl##^DIV.i2doh5-0 > *
-money.pl,o2.pl,pudelek.pl##DIV.i2doh5-0 > *:remove()
 money.pl,o2.pl,pudelek.pl##DIV.i2doh5-0
+money.pl,o2.pl,pudelek.pl##DIV.i2doh5-0 > *:remove()
+money.pl,o2.pl,pudelek.pl##STYLE + DIV.i2doh5-0:xpath(self::node()/preceding-sibling::style[1]):remove()
 
 !Pasek po reklamie na górze strony
 !https://www.money.pl/archiwum/autor/patryk-slowik,6631132249507457.html
@@ -293,12 +281,6 @@ money.pl,o2.pl,pudelek.pl##DIV.content[name="content"] + NAV
 
 
 !https://www.money.pl/pieniadze/sprawa-nowaka-kim-jest-ukrainski-biznesmen-od-gigantycznej-lapowki-6628986588572576a.html
-!money.pl,o2.pl,pudelek.pl##^DIV.i2doh5-0:has(> IMG[src^="https://v.wpimg.pl/"])
-!money.pl,o2.pl,pudelek.pl##ARTICLE > DIV[class]:has(> SCRIPT:has-text(registerPlaceholder))
-money.pl,o2.pl,pudelek.pl##^DIV:has(> DIV.i2doh5-0:only-child)
-money.pl,o2.pl,pudelek.pl##^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"])
-money.pl,o2.pl,pudelek.pl##^ARTICLE[class^="sc-"] DIV:has(> DIV:only-child:has(DIV:has(> DIV[font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV[id^="video-player-"]))
-money.pl,o2.pl,pudelek.pl##^script:has-text(__PRELOADED_MATERIAL__)
 money.pl,o2.pl,pudelek.pl##+js(acis, JSON.parse)
 
 
@@ -306,18 +288,6 @@ money.pl,o2.pl,pudelek.pl##+js(acis, JSON.parse)
 !https://www.money.pl/gospodarka/otwarte-hotele-i-ogrodki-restauracyjne-jeszcze-w-maju-minister-gowin-podal-date-6633218866592416a.html
 !Bez tego nie działają powiazane po prawej, notowania, itp.
 !www.money.pl#@#^script:has-text(__PRELOADED_MATERIAL__)
-!Z blokującymi wersjami poniższych nadal działa
-!www.money.pl#@#+js(abort-current-inline-script, JSON.parse)
-!www.money.pl#@#^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"])
-!Z usuwającą wersją money.pl,o2.pl,pudelek.pl##^DIV:has(> DIV.i2doh5-0:only-child) na stronie głównej doładowywane są przesunięte w lewo
-!Działo się tak, że usuwany był element ffg3g0g96n
-money.pl,o2.pl,pudelek.pl#@#^DIV:has(> DIV.i2doh5-0:only-child)
-!Z usuwającą wersją money.pl,o2.pl,pudelek.pl##^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"]) na stronie artykułu
-!doładowywane były przesunięte w lewo
-money.pl,o2.pl,pudelek.pl#@#^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"])
-!Czy money.pl,o2.pl,pudelek.pl##^DIV.i2doh5-0:has(> IMG[src="/static/mny-placeholder.png"]) psuje
-money.pl,o2.pl,pudelek.pl##^DIV.i2doh5-0:only-child
-money.pl,o2.pl,pudelek.pl##^ASIDE DIV.i2doh5-0
 
 !Działa dla każdego elementu na stronie
 !money.pl,o2.pl,pudelek.pl##body [class]:style(filter: none !important;)
@@ -368,7 +338,7 @@ money.pl,o2.pl,pudelek.pl##HEAD > STYLE[type="text/css"][data-id="wpcss"]:remove
 !#canonical #desktop #article_page #dynamic #social - Ramka z przyciskiem facebooka
 !https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
 ||facebook.com/*/plugins/like.php?action=like&$frame,domain=money.pl|o2.pl|pudelek.pl
-money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-article"] ASIDE[role="complementary"]:has(DIV#fb-like-btn)
+money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-article"] ASIDE[role="complementary"]:has(:scope DIV#fb-like-btn)
 
 !#canonical #desktop #article_page #dynamic #ad - Ramka pewnie z reklamą
 !https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
@@ -387,8 +357,8 @@ money.pl,o2.pl,pudelek.pl##DIV#app > DIV > NAV[class]:last-child
 !money.pl,o2.pl,pudelek.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"]) DIV#Player0:remove()
 !money.pl,o2.pl,pudelek.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"])
 !Wersja uniwersalna
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"]) DIV#Player0:remove()
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"])
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(:scope DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"]) DIV#Player0:remove()
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(:scope DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:has-text(Zobacz także:)) + DIV:last-child > DIV[id^="video-player-"])
 
 
 !#canonical #desktop #article_page #related #paragraph #static #typ2 - Ukrycie elementu z niepogrubionym paragrafem powiązanym
@@ -397,7 +367,7 @@ money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(DIV:first-child:has(> DIV
 !Wersja #mobile
 !money.pl,o2.pl,pudelek.pl##ARTICLE > DIV > DIV:has(> DIV:only-child > P:only-child:has-text(/Czytaj także:/) > A[href*="money.pl/"][target="_blank"]:only-child)
 !Wersja uniwersalna
-money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(P:only-child:has-text(/Czytaj także:/) > A[href*="money.pl/"][target="_blank"]:only-child)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(:scope P:only-child:has-text(/Czytaj także:/) > A[href*="money.pl/"][target="_blank"]:only-child)
 
 
 !#canonical #desktop #article_page #related #paragraph #static - Element "Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl" na końcu artykułu
@@ -414,7 +384,6 @@ money.pl,o2.pl,pudelek.pl##ARTICLE DIV + DIV + DIV:has(> DIV > DIV[font-size="s"
 
 
 
-money.pl,o2.pl,pudelek.pl##DIV#WP-cookie-info
 
 
 ||naanalle.pl^$domain=money.pl|o2.pl|pudelek.pl
@@ -430,8 +399,6 @@ money.pl,o2.pl,pudelek.pl##DIV#WP-cookie-info
 !Ramka z facebooka: https://www.o2.pl/biznes/koncern-obajtka-przejal-gazete-lubuska-odchodza-kolejni-dziennikarze-6675312889891456a
 
 
-!Przeładowanie strony po zmianie karty
-money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
 
 !Przeładowanie strony głównej
 money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, visibilitychange, refresh())
@@ -566,3 +533,62 @@ www-money-pl.cdn.ampproject.org,www-o2-pl.cdn.ampproject.org,www-pudelek-pl.cdn.
 !https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a?amp=1
 !https://www.o2.pl/biznes/paragon-z-punktu-ksero-w-warszawie-pan-slawomir-to-okradanie-ludzi-6701923627211424a?amp=1
 www-money-pl.cdn.ampproject.org,www-o2-pl.cdn.ampproject.org,www-pudelek-pl.cdn.ampproject.org,money.pl,o2.pl,pudelek.pl##HTML[\⚡] ARTICLE > P:has(> STRONG:only-child:has-text(/(Zobacz także:|Obejrzyj także:)/)) + AMP-VIDEO-IFRAME[src^="https://wideo.wp.pl/ampNativeplayer.html?autoplay=1&site=wideo.wp.pl&"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+
+
+
+
+
+!#canonical #desktop #article_page #static #dynamic - Doładowywanie ramek z Twittera
+!https://www.o2.pl/informacje/olbrzymi-wyciek-z-bialoruskich-sluzb-ujawniono-m-in-nagrania-tortur-6670747266816512a
+!https://www.o2.pl/biznes/polski-elektryk-pokazal-paragon-z-niemiec-prosze-to-emerytom-wyjasnic-6737244078631712a
+||platform.twitter.com/embed/Tweet.html?$redirect=click2load.html,domain=money.pl|o2.pl|pudelek.pl
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.twitter-tweet IFRAME[src^="https://platform.twitter.com/embed/Tweet.html?"]:style(visibility: unset !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.twitter-tweet IFRAME[src^="https://platform.twitter.com/embed/Tweet.html?"]:style(min-height: 300px;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.twitter-tweet IFRAME[src^="https://platform.twitter.com/embed/Tweet.html?"]:style(min-width: 550px;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.twitter-tweet IFRAME[src^="https://platform.twitter.com/embed/Tweet.html?"]:style(width: 100% !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.twitter-tweet IFRAME[src^="https://platform.twitter.com/embed/Tweet.html?"]:style(position: unset !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV[width]:only-child:has(> DIV:only-child > DIV.twitter-tweet.twitter-tweet-rendered > IFRAME[src^="https://platform.twitter.com/embed/Tweet.html?"]):style(width: unset !important;)
+
+!#canonical #desktop #article_page #static #dynamic - Doładowywanie ramek z Facebooka, desktop i mobile
+!https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
+||facebook.com/*/plugins/post.php?$redirect=click2load.html,domain=money.pl|o2.pl|pudelek.pl
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.fb-post IFRAME:style(visibility: unset !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.fb-post IFRAME:style(min-height: 300px;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.fb-post IFRAME:style(min-width: 550px;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.fb-post IFRAME:style(width: 100% !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.fb-post IFRAME:style(position: unset !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.fb-post > SPAN[style]:only-child:style(width: unset !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV.fb-post > SPAN[style]:only-child:style(height: unset !important;)
+money.pl,o2.pl,pudelek.pl##ARTICLE DIV[width]:only-child:has(> DIV:only-child > DIV.fb-post:only-child > SPAN:only-child > IFRAME):style(width: unset !important;)
+
+
+!#canonical #desktop #article_page #static #dynamic - Doładowywanie ramek z Youtube, desktop i mobile
+!https://www.o2.pl/informacje/chiny-mowia-robcie-zapasy-mieszkajaca-tam-polka-ujawnia-co-sie-dzieje-6701971400166048a
+!https://www.pudelek.pl/krzysztofie-stanowski-przestan-skamlec-6735811808271040a
+||youtube.com/embed/$redirect=click2load.html,domain=money.pl|o2.pl|pudelek.pl
+
+!#canonical #desktop #article_page #static #dynamic #related #video #video_typ1 #video_typ2 - Blokada wideo powiązanych w treści artykułu
+!desktop
+!money.pl,o2.pl,pudelek.pl##ARTICLE > DIV:first-child + DIV + DIV ~ DIV:has(> DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child > DIV[id^="video-player-"]:only-child) DIV#Player0:only-child:remove()
+!money.pl,o2.pl,pudelek.pl##ARTICLE > DIV:first-child + DIV + DIV ~ DIV:has(> DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child > DIV[id^="video-player-"]:only-child)
+!mobile
+!money.pl,o2.pl,pudelek.pl##ARTICLE > DIV > DIV:first-child + DIV + DIV ~ DIV:has(> DIV:only-child > DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child:has(> DIV[id^="video-player-"]:only-child)) DIV#Player0.wp-player:only-child:remove()
+!money.pl,o2.pl,pudelek.pl##ARTICLE > DIV > DIV:first-child + DIV + DIV ~ DIV:has(> DIV:only-child > DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child:has(> DIV[id^="video-player-"]:only-child))
+!Próba połączenia
+!money.pl,o2.pl,pudelek.pl##ARTICLE DIV:first-child + DIV + DIV ~ DIV:has(:scope DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child > DIV[id^="video-player-"]:only-child) DIV#Player0:remove()
+!money.pl,o2.pl,pudelek.pl##ARTICLE DIV:first-child + DIV + DIV ~ DIV:has(:scope DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child > DIV[id^="video-player-"]:only-child)
+!połączone, wersja xpath
+!money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child > DIV[id^="video-player-"]:only-child) DIV#Player0:remove()
+!money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:first-child:has(> DIV[color="gray200"][font-size="[object Object]"][font-weight="[object Object]"]:only-child) + DIV:last-child > DIV[id^="video-player-"]:only-child)
+!Nie wszystkie wideo mają element z tytułem
+!https://www.o2.pl/informacje/ataki-na-granicy-sg-rzucaja-kamieniami-i-niszcza-zasieki-6736950356261664a
+!https://www.o2.pl/informacje/rozbite-audi-za-2-5-mln-zl-ktorym-jechala-szydlo-jak-stalo-na-parkingu-tak-stoi-6655232103361056a
+money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:last-child > DIV[id^="video-player-"]:only-child) DIV#Player0:remove()
+money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:last-child > DIV[id^="video-player-"]:only-child)
+
+!#canonical #desktop #article_page #static - Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl - desktop, mobile
+money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope DIV:first-child + DIV[font-size="s"]:last-child > STRONG:only-child > A[href="https://dziejesie.wp.pl/"]:only-child)
+
+!#canonical #desktop #article_page #static -  !Czytaj także... - desktop, mobile
+money.pl,o2.pl,pudelek.pl##:xpath(//*[1][name()="article"][count(div) = 4]/div[3] | //*[last()][name()="article"]) > DIV:has(:scope P:only-child:has-text(Czytaj także:) > A[href][rel="noopener noreferrer"]:last-child)
