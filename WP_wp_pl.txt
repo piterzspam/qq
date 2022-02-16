@@ -188,6 +188,25 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(addEventListener-defuser, autoplay_bl
 
 
 
+!Wideo powiązane w treści artykułu
+!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV.article--text:has(> H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV.article--text:has(> H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+!https://wiadomosci.wp.pl/malutki-bobr-uratowany-przed-utonieciem-w-klodzku-zdjecia-6637885770005440a
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV.article--text:has(> P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV.article--text:has(> P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+!Trzeba usunąć wideo, potem schować element z tekstem i element po wideo
+!https://opinie.wp.pl/skladka-zdrowotna-w-gore-ale-czy-dzieki-temu-szybciej-dotrzemy-do-lekarza-opinia-6639982861732384a
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV[data-reactid]:has(> DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV > DIV[id^="video-player-"]:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV[data-reactid]:has(> DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:empty:xpath(self::node() | self::node()/preceding-sibling::DIV[1])
+
+!https://tech.wp.pl/maseczki-powaznym-zrodlem-zanieczyszczen-uwalniaja-metale-ciezkie-do-srodowiska-6638218094942816a
+!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE[data-st-area="article-article"] DIV:has(> H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(> H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV:remove()
+!Chowanie po usunięciu
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(> H2:only-child:has-text(/zobacz:|zobacz także:|zobacz też:/i))
+
 
 
 !#canonical #desktop - Strona desktopowa miała pasek poziomy

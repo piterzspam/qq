@@ -10,3 +10,11 @@ dobreprogramy.pl,polygamia.pl##DIV[data-slot]:remove()
 !Reklamy pod artkułem
 dobreprogramy.pl,polygamia.pl##DIV[role="listitem"]:has(:scope SPAN:has-text(Reklama))
 !KONIEC - ARTICLE[id="main-content"]
+
+
+!Usuwanie całości usuwało całą stronę po przescrollowaniu w dół
+!https://polygamia.pl/?strona=1
+dobreprogramy.pl,polygamia.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child)
+dobreprogramy.pl,polygamia.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> DIV:first-child + IMG[class][src*="wpimg.pl/"][alt] + DIV:last-child) > DIV > *:remove()
+dobreprogramy.pl,polygamia.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child)
+dobreprogramy.pl,polygamia.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
