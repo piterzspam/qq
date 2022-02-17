@@ -100,8 +100,6 @@ money.pl,o2.pl,pudelek.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
 ||hotjar.com^$domain=money.pl|o2.pl|pudelek.pl
 ||crazyegg.com^$domain=money.pl|o2.pl|pudelek.pl
 ||dnn506yrbagrg.cloudfront.net^$domain=money.pl|o2.pl|pudelek.pl
-||money.wp.pl^$image,domain=money.pl|o2.pl|pudelek.pl
-||money.wp.pl^$css,domain=money.pl|o2.pl|pudelek.pl
 ||onelogin.wpcdn.pl/onelogin/olwidget.js$domain=money.pl|o2.pl|pudelek.pl
 !https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
 ||connect.facebook.net/*/fbevents.js$script,domain=money.pl|o2.pl|pudelek.pl
@@ -411,3 +409,7 @@ o2.pl##IMG[src="https://v.wpimg.pl/b2xkZXIuTVMZCSxrZg5ARlpReDs5HT1BHxwqemVXFxBCS
 
 !#desktop #main_page #ad #dynamic - Reklamy na stronie głównej po prawej stronie
 o2.pl##DIV[data-st-area="header_scroll"] ~ DIV ASIDE
+
+!#desktop #mobile Po załadowaniu strony, wczyszczeniu ciastek i cachu, kliknięciu linka pokazywała się pusta strona, w żądaniach było: https://www.money.pl/api/err i message "WP.spa is undefined" lub message "n is undefined"
+money.pl##+js(aeld, beforeunload, pwpClosePage())
+
