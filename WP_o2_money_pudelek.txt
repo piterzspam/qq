@@ -395,4 +395,19 @@ money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div
 !https://www.o2.pl/informacje/caly-swiat-pisze-o-tym-co-wydarzylo-sie-w-kaliszu-nabili-ksiege-na-pal-6704741252561856a
 !https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
 !https://www.o2.pl/informacje/oto-ludzie-putina-ich-nazwiska-budza-groze-6738003758103328a
-money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope P:only-child:has-text(/(Czytaj także:|Czytaj też:)/) > A[href][rel="noopener noreferrer"]:last-child)
+!https://www.o2.pl/biznes/tak-wyglada-najbogatszy-czlowiek-swiata-ile-zarabia-w-4-sekundy-bedziecie-w-szoku-6631162347539264a
+money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //article[not(following-sibling::*)]) > DIV:has(:scope P:only-child:has-text(/(Czytaj także:|Czytaj też:|Przeczytaj także:)/) > A[href][rel="noopener noreferrer"]:last-child)
+
+
+
+!#main_page
+!Po kliknięciu w link (nie otwieranie w nowej karcie) na stronie głównej o2.pl pokazuje się strona pośrednia
+!https://www.wp.pl/dla-ciebie?foryou=https%3A%2F%2Fwww.o2.pl%2Finformacje%2Foto-ludzie-putina-ich-nazwiska-budza-groze-6738003758103328a&src01=7e744&src02=sgfy#foryou
+www.wp.pl##:matches-path(/dla-ciebie?foryou=) :is(A[id^="teaser-for-you-"]):others():remove()
+||www.wp.pl/dla-ciebie?foryou=$csp=script-src 'none'; font-src 'none';
+
+!#desktop #main_page #ad #static #dynamic - element z zakupami pod sekcją "Ciekawostki"
+o2.pl##IMG[src="https://v.wpimg.pl/b2xkZXIuTVMZCSxrZg5ARlpReDs5HT1BHxwqemVXFxBCSXUrPRQWWxtEMzUoEgdBVxgqPSocA15XBDE5Mx8HbQgHOzssHQ1eHA4odjkbBRAF"]:upward(1)
+
+!#desktop #main_page #ad #dynamic - Reklamy na stronie głównej po prawej stronie
+o2.pl##DIV[data-st-area="header_scroll"] ~ DIV ASIDE
