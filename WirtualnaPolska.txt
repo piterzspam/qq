@@ -62,6 +62,9 @@
 !||data-api.wp.pl^$domain=abczdrowie.pl|autocentrum.pl|autokult.pl|dobramama.pl|dobregry.pl|dobreprogramy.pl|domodi.pl|echirurgia.pl|fotoblogia.pl|gadzetomania.pl|homebook.pl|jejswiat.pl|kafeteria.pl|kardiolo.pl|komorkomania.pl|luxlux.pl|medycyna24.pl|money.pl|nerwica.com|nocowanie.pl|o2.pl|open.fm|parenting.pl|pinger.pl|pogodnie.pl|polygamia.pl|pudelek.pl|samosia.pl|smaczneblogi.pl|smog.pl|snobka.pl|superauto24.com|testwiedzy.pl|vibez.pl|wp.pl
 ||clickonometrics.pl^$domain=abczdrowie.pl|autocentrum.pl|autokult.pl|dobramama.pl|dobregry.pl|dobreprogramy.pl|domodi.pl|echirurgia.pl|fotoblogia.pl|gadzetomania.pl|homebook.pl|jejswiat.pl|kafeteria.pl|kardiolo.pl|komorkomania.pl|luxlux.pl|medycyna24.pl|money.pl|nerwica.com|nocowanie.pl|o2.pl|open.fm|parenting.pl|pinger.pl|pogodnie.pl|polygamia.pl|pudelek.pl|samosia.pl|smaczneblogi.pl|smog.pl|snobka.pl|superauto24.com|testwiedzy.pl|vibez.pl|wp.pl
 
+
+
+
 !Po zablokowaniu po wejściu na stronę bez pozycji ok. WPwlbcappfxfac31m11h5 o wartości ok. 1631974811281 w localStorege pokazuje się komunikat o adblocku
 !||www.wp.pl^$subdocument,domain=abczdrowie.pl|autocentrum.pl|autokult.pl|dobramama.pl|dobregry.pl|dobreprogramy.pl|domodi.pl|echirurgia.pl|fotoblogia.pl|gadzetomania.pl|homebook.pl|jejswiat.pl|kafeteria.pl|kardiolo.pl|komorkomania.pl|luxlux.pl|medycyna24.pl|money.pl|nerwica.com|nocowanie.pl|o2.pl|open.fm|parenting.pl|pinger.pl|pogodnie.pl|polygamia.pl|pudelek.pl|samosia.pl|smaczneblogi.pl|smog.pl|snobka.pl|superauto24.com|testwiedzy.pl|vibez.pl|wp.pl
 
