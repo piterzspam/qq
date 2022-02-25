@@ -369,7 +369,7 @@ www.onet.pl##DIV.C5XFtgeC-8Px7XoX8_Vo3
 
 !#www.onet.pl #desktop #mobile - Formularz pod artykułem Masz ciekawy temat? Napisz do nas list!
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
-www.onet.pl##ARTICLE DIV.EditorialLetter_container__y2hHs:has(A[href="https://wiadomosci.onet.pl/listy-do-redakcji"])
+www.onet.pl##ARTICLE DIV[class^="EditorialLetter_container_"]
 
 !#www.onet.pl #desktop #mobile - W narzędziach deweloperskich widać Response header "server": Dreamlab Accelerator
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
