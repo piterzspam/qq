@@ -542,7 +542,8 @@ ampproject.org#@#HTML[\⚡] AMP-SOCIAL-SHARE
 !Pozostała część tekstu pod materiałem wideo. - https://wiadomosci.onet.pl/tylko-w-onecie/tvp-znow-nie-zaprasza-ludzi-zbigniewa-ziobry/tb5hmms?utm_source=wiadomosci.onet.pl_viasg_wiadomosci
 !Reszta tekstu pod materiałem wideo
 !Więcej informacji pod materiałem wideo - https://www.onet.pl/informacje/onetslask/w-cieniu-amerykanskich-czolgow-umiera-polski-zaklad-pancerny/bre4kp5,79cfc278
-www.onet.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV.EmbeddedApplication_wrapper__2HGlS:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!Reszta tekstu pod materiałem wideo - https://www.onet.pl/informacje/onetwiadomosci/agresja-rosji-ambasador-ukrainy-nie-mamy-odpowiedniej-ilosci-sprzetu/cpjl09n,79cfc278
+www.onet.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1])
 !Wersja #canonical #desktop #mobile
 ~www.onet.pl,onet.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + DIV.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::P[1])
 !Wersja #amp #ampproject
