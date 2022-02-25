@@ -322,10 +322,14 @@ www.onet.pl##ARTICLE UL > LI:has(A[href*="www.onet.pl/#utm_source="])
 !#www.onet.pl #desktop #mobile - Pojedyncze kropki z powiązanymi artykułami w treści tekstu
 www.onet.pl##ARTICLE UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
 
+!#www.onet.pl #mobile #social - Przyciski socialowe pod tytułem
+www.onet.pl##ARTICLE DIV[class^="EmotionsAndShare_"]
+
 !#www.onet.pl #desktop #mobile - Ramka FB w treści
 !https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
 !https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
-www.onet.pl##DIV.RelatedItems_container__3X0rI
+!https://www.onet.pl/informacje/onetwiadomosci/agresja-rosji-ambasador-ukrainy-nie-mamy-odpowiedniej-ilosci-sprzetu/cpjl09n,79cfc278
+www.onet.pl##ARTICLE DIV[class^="RelatedItems_"]
 www.onet.pl##DIV.EmbeddedApplication_embedPlaceholder__ZWF8k:style(padding-top: unset !important;)
 www.onet.pl##DIV.EmbeddedApplication_wrapper__2HGlS DIV.EmbeddedApplication_container__3mHXv:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
 www.onet.pl##DIV.EmbeddedApplication_wrapper__2HGlS DIV.pulsembed_embed:style(min-height: 100px !important;)
