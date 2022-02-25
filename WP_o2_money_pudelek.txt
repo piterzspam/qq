@@ -416,3 +416,6 @@ o2.pl##DIV[data-visible="true"]:has(> A[data-st-area][href*="www.wp.pl/?src01="]
 !#desktop #mobile Po załadowaniu strony, wczyszczeniu ciastek i cachu, kliknięciu linka pokazywała się pusta strona, w żądaniach było: https://www.money.pl/api/err i message "WP.spa is undefined" lub message "n is undefined"
 !money.pl##+js(aeld, beforeunload, pwpClosePage())
 
+
+!#mobile #dynamic Pozostałości po komunikacie z ciastkami: "Cenimy Twoją prywatność" na stronie mobilnej
+money.pl,o2.pl,pudelek.pl##BODY > DIV[id][class][style="display: none; visibility: visible;"]:first-child + DIV:has(A[href="https://holding.wp.pl/kontakt/dane-spolek-grupy"])
