@@ -164,7 +164,8 @@ www.onet.pl##+js(rat, src, data-original, A.itemBox IMG[src^="data:image/png;bas
 !#canonical #desktop #mobile - Newsletter z paragrafem
 !https://wiadomosci.onet.pl/kraj/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0
 !https://wiadomosci.onet.pl/swiat/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
-~www.onet.pl,onet.pl##ARTICLE P:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV.placeholder.embed.htmlbox:xpath(self::node() | self::node()/preceding-sibling::P[1])
+!https://www.onet.pl/informacje/onetwiadomosci/atak-rosji-na-ukraine-jak-wyglada-sytuacja-na-przejsciu-granicznym-w-hrebennem/ggj1w3p,79cfc278
+~www.onet.pl,onet.pl##ARTICLE P:has-text(Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV.placeholder.embed.htmlbox:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#canonical #desktop #mobile - Newsletter bez paragrafu
 !https://wiadomosci.onet.pl/poznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1
@@ -298,7 +299,7 @@ www.onet.pl##DIV._1Yg0hYa1NZvOLkoKcVPy2m
 !#www.onet.pl #desktop #mobile - Newsletter z paragrafem
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf,79cfc278
 !https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
-www.onet.pl##ARTICLE P:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV:has(A[href*="https://htmlbox.pulsembed.eu/embed/"]):xpath(self::node() | self::node()/preceding-sibling::P[1])
+www.onet.pl##ARTICLE P:has-text(Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV:has(A[href*="https://htmlbox.pulsembed.eu/embed/"]):xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !#www.onet.pl #desktop #mobile - Newsletter bez paragrafu
 !https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
@@ -549,7 +550,7 @@ www.onet.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
 !https://wiadomosci.onet.pl/tylko-w-onecie/zarzuty-dla-dziennikarzy-onetu-liczne-komentarze/tvl3hdt.amp
-~www.onet.pl,onet.pl,ampproject.org##HTML[\⚡] ARTICLE P:has-text(Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
+~www.onet.pl,onet.pl,ampproject.org##HTML[\⚡] ARTICLE P:has-text(Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści)
 
 !#amp - ramka z instagrama
 !https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr.amp
