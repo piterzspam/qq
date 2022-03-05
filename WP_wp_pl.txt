@@ -124,7 +124,7 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.npp-container.paused DIV.plchldr:remo
 
 !Pasek na dole strony "Przejdź na WP"
 !https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##A[data-st-area*="ToSG"]:upward(DIV.content > DIV)
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##A[data-st-area*="ToSG"]:upward(DIV.content > DIV)
 
 !Link do dziejesie w treści artkułu
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.article--text:has(:scope STRONG > A[href="https://dziejesie.wp.pl/"])
