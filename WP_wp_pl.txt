@@ -56,7 +56,7 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterMobile[data
 
 !Sekcja "Bądź z nami na bieżąco" pod artykułem
 !wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(> A[href="https://www.instagram.com/wirtualnapolska"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child) > * > * > * > *:remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(> A[href^="https://www.instagram.com/"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child)
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV[class*="menuFooter"][data-st-area="Footer"]) DIV.content DIV > DIV:has(> A[href^="https://www.instagram.com/"] + A[href^="https://www.facebook.com/"]):upward(DIV + DIV:last-child)
 
 !Reklamy w kafelkach pod artykułem
 !https://wroclaw.wp.pl/wroclaw-podwijamy-rekaw-bsh-promuje-szczepienia-przeciwko-covid-19-6638286259419808a
