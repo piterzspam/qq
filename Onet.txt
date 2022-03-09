@@ -337,7 +337,7 @@ www.onet.pl##DIV[class^="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:has(
 www.onet.pl##DIV[class^="EmbeddedApplication_wrapper_"] DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 !#mobile
 !https://www.onet.pl/informacje/onetwiadomosci/andrzej-stankiewicz-dlatego-wyprosilem-janusza-kowalskiego-z-audycji-w-radiu-zet/m2t97xt,79cfc278
-www.onet.pl##DIV[class^="EmbeddedApplication_embedPlaceholderMobile_]:style(padding-top: unset !important;)
+www.onet.pl##DIV[class*="EmbeddedApplication_embedPlaceholderMobile_"]:style(padding-top: unset !important;)
 
 !#www.onet.pl #desktop #mobile - Ramka z reklamą
 !https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
