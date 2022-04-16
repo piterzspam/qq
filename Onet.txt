@@ -584,12 +584,12 @@ www.onet.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta
 
 
 !POZOSTAŁE
-!#include Auto-swiat.txt
-!#include Businessinsider.txt
-!#include Fakt.txt
-!#include Forbes.txt
-!#include Komputerswiat.txt
-!#include Medonet.txt
-!#include Newsweek.txt
-!#include Przegladsportowy.txt
-!#include Pulsembed.txt
+!#include Onet_Auto-swiat.txt
+!#include Onet_Businessinsider.txt
+!#include Onet_Fakt.txt
+!#include Onet_Forbes.txt
+!#include Onet_Komputerswiat.txt
+!#include Onet_Medonet.txt
+!#include Onet_Newsweek.txt
+!#include Onet_Przegladsportowy.txt
+!#include Onet_Pulsembed.txt
