@@ -3,6 +3,9 @@
 
 !Na wszelki wypadek
 @@||auto-swiat.pl^$ghide
+||sgqcvfjvr.onet.pl^$important,domain=auto-swiat.pl
+auto-swiat.pl##^SCRIPT#adsinit
+auto-swiat.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop - blokowanie zapytań events.ocdn.eu
 !https://www.auto-swiat.pl/
@@ -24,13 +27,6 @@ auto-swiat.pl##+js(set, EventsApi._init, noopFunc)
 !#canonical #desktop
 !https://www.auto-swiat.pl/
 ||auto-swiat.pl/sw.js
-
-!#canonical #desktop
-!https://www.auto-swiat.pl/
-!||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl,important
-!||sgqcvfjvr.onet.pl/YnVpbGQvezlza2x0ZTU1fWRsQXBpL2RsLmxpYntOTWFzX0E1NX0ubWluLmpz$domain=auto-swiat.pl,important
-!Wyłączone, bo psuło wideo na: https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
-@@||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl
 
 !#canonical #desktop #amp #ampproject - pokazywanie contentu premium
 !https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl

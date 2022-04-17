@@ -3,6 +3,9 @@
 
 !Na wszelki wypadek
 @@||przegladsportowy.pl^$ghide
+||sgqcvfjvr.onet.pl^$important,domain=przegladsportowy.pl
+przegladsportowy.pl##^SCRIPT#adsinit
+przegladsportowy.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop - blokowanie usuwania contentu premium
 !PREMIUM - https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
@@ -24,10 +27,6 @@ przegladsportowy.pl##+js(set, EventsApi._init, noopFunc)
 !#canonical #desktop
 !https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
 ||pushpushgo.com^$domain=przegladsportowy.pl
-
-!#canonical #desktop
-!https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2
-||sgqcvfjvr.onet.pl^$domain=przegladsportowy.pl,important
 
 !#canonical #desktop
 !https://www.przegladsportowy.pl/felietony/zbigniew-boniek-lubil-przycisnac-krzysztof-wyrzykowski-wspomina/mm70fs2

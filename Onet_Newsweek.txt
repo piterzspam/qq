@@ -3,6 +3,9 @@
 
 !Na wszelki wypadek
 @@||newsweek.pl^$ghide
+||sgqcvfjvr.onet.pl^$important,domain=newsweek.pl
+newsweek.pl##^SCRIPT#adsinit
+newsweek.pl##+js(acis, document.getElementById, admain)
 
 !FREE - https://www.newsweek.pl/polska/polityka/frakcje-w-platformie-obywatelskiej/cr6hwz8
 !PREMIUM - https://www.newsweek.pl/polska/frakcje-w-sejmie-jakie-formalne-i-nieformalne-frakcje-mamy-w-polskim-sejmie/4lb2ckw
@@ -26,10 +29,6 @@ newsweek.pl##+js(set, EventsApi._init, noopFunc)
 !#canonical #desktop
 !https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
 ||pushpushgo.com^$domain=newsweek.pl
-
-!#canonical #desktop
-!https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7
-||sgqcvfjvr.onet.pl^$domain=newsweek.pl,important
 
 !#canonical #desktop - Ramki
 !https://www.newsweek.pl/polska/polityka/bunt-w-lewicy-przybiera-na-sile-sluchaj-podcastu/rrf55y7

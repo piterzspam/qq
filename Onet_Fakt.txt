@@ -3,15 +3,14 @@
 
 !Na wszelki wypadek
 @@||fakt.pl^$ghide
+||sgqcvfjvr.onet.pl^$important,domain=fakt.pl
+fakt.pl##^SCRIPT#adsinit
+fakt.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop #ampproject - pokazywanie contentu premium
 !https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
 !https://www-fakt-pl.cdn.ampproject.org/c/s/www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6.amp
 fakt.pl,www-fakt-pl.cdn.ampproject.org##.contentPremium:style(display: block !important;)
-
-!#canonical #desktop
-!https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1
-||sgqcvfjvr.onet.pl^$domain=fakt.pl,important
 
 !#canonical #desktop
 !https://www.fakt.pl/hobby/historia/dzieci-jozef-stalina-swietlana-allilujewa-jakow-dzugaszwili-i-wasilij-stalin-jakim/nhcbtb6#slide-1

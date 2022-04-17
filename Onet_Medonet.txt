@@ -3,10 +3,13 @@
 
 !Na wszelki wypadek
 @@||medonet.pl^$ghide
+||sgqcvfjvr.onet.pl^$important,domain=medonet.pl
+medonet.pl##^SCRIPT#adsinit
+medonet.pl##+js(acis, document.getElementById, admain)
 
-!#canonical #mobile
-!https://www.medonet.pl/lepiej-dzialac-niz-omijac-temat-rakiem/przygotuj-sie-na-wypadek-raka,czy-raka-da-sie-uniknac---wideo-,film,32917519.html
-||sgqcvfjvr.onet.pl^$domain=medonet.pl,important
+!#canonical #desktop #mobile - Licznik covidowy pod belką wymaga sgqcvfjvr.onet.pl
+!https://www.medonet.pl/
+medonet.pl##DIV.slot-covid-meter
 
 !#canonical #mobile - blokowanie zapytań events.ocdn.eu
 !https://www.medonet.pl/
@@ -98,6 +101,3 @@ medonet.pl##ARTICLE P:last-of-type A[href="https://www.halodoctor.pl/"]
 !https://www.medonet.pl/lepiej-dzialac-niz-omijac-temat-rakiem/przygotuj-sie-na-wypadek-raka,czy-raka-da-sie-uniknac---wideo-,film,32917519.html
 medonet.pl##+js(aeld, scroll, classList.add("fixed"))
 
-!#canonical #desktop #mobile - Licznik covidowy pod belką wymaga sgqcvfjvr.onet.pl
-!https://www.medonet.pl/
-medonet.pl##DIV.slot-covid-meter

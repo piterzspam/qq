@@ -3,6 +3,9 @@
 
 !Na wszelki wypadek
 @@||forbes.pl^$ghide
+||sgqcvfjvr.onet.pl^$important,domain=forbes.pl
+forbes.pl##^SCRIPT#adsinit
+forbes.pl##+js(acis, document.getElementById, admain)
 
 
 !#canonical #desktop - miejsce na reklamę
@@ -24,10 +27,6 @@ forbes.pl##+js(set, EventsApi._init, noopFunc)
 !#canonical #desktop
 !https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
 ||pushpushgo.com^$domain=forbes.pl
-
-!#canonical #desktop
-!https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b
-||sgqcvfjvr.onet.pl^$domain=forbes.pl,important
 
 !#canonical #desktop
 !https://www.forbes.pl/biznes/rihanna-zostala-miliarderka-dzieki-firmie-fenty-beauty-i-wspolpracy-z-lvmh/pd9513b

@@ -1,14 +1,12 @@
 ! Title: Pulsembed.eu
 ! Expires: 1 day
 
-!Na wszelki wypadek
-@@||pulsembed.eu^$ghide
 
 !Na wszelki wypadek
-@@||pulsevideo.eu^$ghide
-
-!Na wszelki wypadek
-@@||ringpublishing.com^$ghide
+@@*$ghide,domain=pulsembed.eu|pulsembed.tv|ringpublishing.com
+||sgqcvfjvr.onet.pl^$important,domain=pulsembed.eu|pulsembed.tv|ringpublishing.com
+pulsembed.eu,pulsembed.tv,ringpublishing.com##^SCRIPT#adsinit
+pulsembed.eu,pulsembed.tv,ringpublishing.com##+js(acis, document.getElementById, admain)
 
 !Nadpisanie filtru @@||2mdn.net/instream/ z AdGuard Base 
 ||2mdn.net^$domain=pulsembed.eu,important
@@ -46,13 +44,6 @@
 !amp - Wykluczenie ze względu na ramkę z wideo wideo https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
 !https://pulsembed.eu/p2em/8-J4TRor_#amp=1
 pulsembed.eu##+js(set, EventsApi._init, noopFunc)
-
-!#www.onet.pl #desktop #mobile
-!https://www.onet.pl/styl-zycia/onetkobieta/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr,2b83378a
-!||sgqcvfjvr.onet.pl$domain=pulsembed.eu,important
-!amp - Wykluczenie ze względu na ramkę z wideo wideo https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp
-@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu
-
 
 !#www.onet.pl #desktop #mobile
 !https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
@@ -95,11 +86,6 @@ pulsembed.eu##+js(addEventListener-defuser, ended)
 !#www.onet.pl #desktop #mobile 
 !https://www.onet.pl/informacje/onettrojmiasto/gazeta-polska-przegrywa-w-sadzie-musi-zaplacic-i-przeprosic-na-swojej-okladce/xj8c5xj,79cfc278
 ||ocdn.eu/video-scripts/flow-player-plugin-stats/*/bundle-$domain=pulsembed.eu
-
-
-!Bez tego nie odtwarza się wideo
-!@@||sgqcvfjvr.onet.pl^$domain=pulsembed.eu,kobieta.onet.pl
-!Bez tego nie ładują się miniaturki w sekcji "Zobacz Więcej" na stronie https://wiadomosci.onet.pl/
 
 
 #ampproject - ramka z wideo

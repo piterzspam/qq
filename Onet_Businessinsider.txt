@@ -3,25 +3,13 @@
 
 !Na wszelki wypadek
 @@||businessinsider.com.pl^$ghide
-
-!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT#adsinit
-!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT[src*="sgqcvfjvr.onet.pl/"]
-!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-!Po wykryciu usunięcia "sgqcvfjvr.onet.pl/" ładuje się skrypt, można zapobiec lub usunąć z https://ty0lm9uz.onet.pl/e1BrazhrNjd9/build/ODU1ODYwNTkvaW5pdA%3D%3D.js
-!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##+js(set, onetAds.injected, true)
-!https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-!auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,plejada.pl,przegladsportowy.pl,vod.pl##^SCRIPT:has-text(ty0lm9uz.onet.pl)
-
+||sgqcvfjvr.onet.pl^$important,domain=businessinsider.com.pl
+businessinsider.com.pl##^SCRIPT#adsinit
+businessinsider.com.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
 ||businessinsider.com.pl/notification-prod-sw.js
-
-!#canonical #desktop
-!https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
-||sgqcvfjvr.onet.pl^$domain=businessinsider.com.pl,important
 
 !#canonical #desktop - przechodzenie do strony głównej po przescrollowaniu do dołu
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4

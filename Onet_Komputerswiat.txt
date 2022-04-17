@@ -3,6 +3,9 @@
 
 !Na wszelki wypadek
 @@||komputerswiat.pl^$ghide
+||sgqcvfjvr.onet.pl^$important,domain=komputerswiat.pl
+komputerswiat.pl##^SCRIPT#adsinit
+komputerswiat.pl##+js(acis, document.getElementById, admain)
 
 !#canonical #desktop - blokowanie zapytań events.ocdn.eu
 !https://www.komputerswiat.pl/
@@ -23,13 +26,6 @@ komputerswiat.pl##+js(set, EventsApi._init, noopFunc)
 !#canonical #desktop
 !https://www.komputerswiat.pl/
 ||komputerswiat.pl/sw.js
-
-!#canonical #desktop
-!https://www.komputerswiat.pl/
-!||sgqcvfjvr.onet.pl^$domain=komputerswiat.pl,important
-!Wyłączone, bo psuło doładowanie premium contentu na: 
-!https://www.komputerswiat.pl/artykuly/redakcyjne/pachinko-jest-jak-narkotyk-uzaleznila-japonczykow-i-dala-zarobic-mafii/pk11p5h
-@@||sgqcvfjvr.onet.pl^$domain=komputerswiat.pl
 
 !#canonical #desktop - Przyciski socialowe nad leadem
 !https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
