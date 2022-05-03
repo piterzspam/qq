@@ -3,7 +3,7 @@
 
 !Na wszelki wypadek
 @@||newsweek.pl^$ghide
-||sgqcvfjvr.onet.pl^$important,domain=newsweek.pl
+||sgqcvfjvr.onet.pl^$domain=newsweek.pl,important
 newsweek.pl##^SCRIPT#adsinit
 newsweek.pl##+js(acis, document.getElementById, admain)
 
@@ -37,9 +37,12 @@ newsweek.pl##+js(set, EventsApi._init, noopFunc)
 !newsweek.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed IFRAME:style(position: unset !important;)
 !Psuło wideo na dole artykułu - https://www.newsweek.pl/opinie/abp-slawoj-leszek-glodz-na-beatyfikacji-leszek-nic-sie-nie-stalo/7vbce24
 !Nie działało na stronie: https://www.newsweek.pl/polska/polityka/cany-paliw-donald-tusk-do-pis-obnizcie-vat-na-benzyne-i-energie-do-zera/4flkyz7, bo brak klasy embeddedApp
-newsweek.pl##DIV DIV.pulsembed_embed:style(min-height: 100px !important;)
-newsweek.pl##DIV DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
-newsweek.pl##DIV DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+newsweek.pl##div#onet-ad-flat-belkagorna
+newsweek.pl##div#htmlbox_spinner
+newsweek.pl##div.pulsembed_embed:style(position: unset !important;)
+newsweek.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
+newsweek.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
+newsweek.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
 
 !#canonical #desktop - Spinnery przed ramkami
 !https://www.newsweek.pl/opinie/abp-slawoj-leszek-glodz-na-beatyfikacji-leszek-nic-sie-nie-stalo/7vbce24

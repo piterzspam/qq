@@ -3,7 +3,7 @@
 
 !Na wszelki wypadek
 @@||forbes.pl^$ghide
-||sgqcvfjvr.onet.pl^$important,domain=forbes.pl
+||sgqcvfjvr.onet.pl^$domain=forbes.pl,important
 forbes.pl##^SCRIPT#adsinit
 forbes.pl##+js(acis, document.getElementById, admain)
 

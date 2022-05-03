@@ -3,7 +3,7 @@
 
 !Na wszelki wypadek
 @@||komputerswiat.pl^$ghide
-||sgqcvfjvr.onet.pl^$important,domain=komputerswiat.pl
+||sgqcvfjvr.onet.pl^$domain=komputerswiat.pl,important
 komputerswiat.pl##^SCRIPT#adsinit
 komputerswiat.pl##+js(acis, document.getElementById, admain)
 

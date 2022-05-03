@@ -3,7 +3,7 @@
 
 !Na wszelki wypadek
 @@||businessinsider.com.pl^$ghide
-||sgqcvfjvr.onet.pl^$important,domain=businessinsider.com.pl
+||sgqcvfjvr.onet.pl^$domain=businessinsider.com.pl,important
 businessinsider.com.pl##^SCRIPT#adsinit
 businessinsider.com.pl##+js(acis, document.getElementById, admain)
 

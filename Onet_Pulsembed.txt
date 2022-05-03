@@ -4,7 +4,7 @@
 
 !Na wszelki wypadek
 @@*$ghide,domain=pulsembed.eu|pulsembed.tv|ringpublishing.com
-||sgqcvfjvr.onet.pl^$important,domain=pulsembed.eu|pulsembed.tv|ringpublishing.com
+||sgqcvfjvr.onet.pl^$domain=pulsembed.eu|pulsembed.tv|ringpublishing.com,important
 pulsembed.eu,pulsembed.tv,ringpublishing.com##^SCRIPT#adsinit
 pulsembed.eu,pulsembed.tv,ringpublishing.com##+js(acis, document.getElementById, admain)
 
@@ -121,6 +121,14 @@ pulsevideo.eu##+js(addEventListener-defuser, ended)
 ||qi.related.onetapi.pl^
 
 
+
+||platform.twitter.com/embed/Tweet.html?$subdocument,redirect=click2load.html,domain=pulsembed.eu,important
+pulsembed.eu##DIV.twitter-tweet IFRAME:style(position: unset !important;)
+pulsembed.eu##DIV.twitter-tweet IFRAME:style(visibility: unset !important;)
+pulsembed.eu##DIV.twitter-tweet IFRAME:style(min-height: 100px !important;)
+
+
+videos.ringpublishing.com##+js(remove-attr, loop, video)
 
 
 

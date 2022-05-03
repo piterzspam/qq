@@ -3,7 +3,7 @@
 
 !Na wszelki wypadek
 @@||fakt.pl^$ghide
-||sgqcvfjvr.onet.pl^$important,domain=fakt.pl
+||sgqcvfjvr.onet.pl^$domain=fakt.pl,important
 fakt.pl##^SCRIPT#adsinit
 fakt.pl##+js(acis, document.getElementById, admain)
 
@@ -172,3 +172,7 @@ fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY DIV.streamIntext
 !amp #ampproject - Wideo z paragrafem "Zobacz też:"
 !https://www.fakt.pl/wydarzenia/polityka/skandal-wokol-prezydenckiego-ulaskawienia-pytania-i-odpowiedzi/kemfp33.amp
 fakt.pl,www-fakt-pl.cdn.ampproject.org##HTML[\⚡] > BODY ARTICLE P:has(> STRONG:only-child:has-text(Zobacz też:)) + AMP-IFRAME:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+fakt.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + SCRIPT + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+fakt.pl##body.mobile .mainPlayer:style(height: unset !important;)

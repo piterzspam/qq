@@ -464,7 +464,6 @@ zippyshare.com##script:inject(abort-on-property-write.js, acPrefetch)
 ||epn.bz/en/cashback/get-notify
 ||evidon.com^
 ||exponential.com^
-||exs.pl^
 ||fancybar.net^
 ||fast-tracker.co/0-bb/yandex-70.png
 ||fdlstatic.com/460/bundles/downloadcore/js-build/fly/managers/cookie
@@ -640,9 +639,7 @@ zippyshare.com##script:inject(abort-on-property-write.js, acPrefetch)
 ||widgets.getpocket.com^$third-party,important
 ||widgets.wp.com/likes/master.html
 ||widgets.wp.com/platform.js
-||wp.pl$domain=dobreprogramy.pl,important
 ||wp.pl^$domain=nowapoczta.wp.pl
-||wpimg.pl^$domain=dobreprogramy.pl
 ||ws-gateway.com^
 ||yastatic.net/share2/share.js$domain=epn.bz
 ||yastatic.net^$domain=fast-tracker.co
@@ -2275,3 +2272,39 @@ rp.pl##DIV#articleBody DIV.marketing--comp
 
 press.pl##+js(remove-attr, oncontextmenu|onselectstart|onselect|oncopy|ondragstart|ondrag|style, DIV.article_content.reading)
 
+
+programiz.com##:is(DIV.editor-contents, DIV.left-bar > DIV.card-alt):others()
+pythonexamples.org##:is(article[id]):others()
+pythonexamples.org##DIV#p_t
+geeksforgeeks.org##:is(article[id]):others()
+guru99.com##:is(article[id]):others()
+guru99.com##DIV.yarpp-related
+tutorialspoint.com##DIV#load
+tutorialspoint.com##DIV.mui-container-fluid.button-borders
+tutorialspoint.com##:is(DIV.tutorial-content, DIV.tutorial-toc > UL.toc.chapters):others()
+towardsdatascience.com##:is(ARTICLE.meteredContent):others()
+
+!Url shorteners
+mobi2c.com,newforex.online,world-trips.net##:is(DIV#devozon-wait1, DIV#devozon-snp, DIV.alert.captcha-check[role="alert"], A#go_d):others()
+forex-gold.net##:is(DIV#ytimer, DIV#mainlink):others()
+iir.ai##:is(FORM#link-view, IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/"]):others()
+techmody.io##:is(FORM#link-view, DIV#content, DIV#yu-snp):others()
+sevenjournals.com##:is(BUTTON#yuidea-btn-before, DIV#yuidea-wait1, DIV#yuidea-snp, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"]):others()
+zegtrends.com##:is(BUTTON.bsub):others()
+bclikeqt.com##+js(aeld, load, s65c)
+bclikeqt.com##:is(DIV#s65c, DIV.alert, FORM[id], DIV#adb_detected, SPAN#countdown, DIV#overlay, IFRAME[src*="https://www.google.com/recaptcha/api2/"], A#surl, .pub_300x250, .pub_300x250m, .pub_728x90, .text-ad, .textAd, .text_ad, .text_ads, .text-ads, .text-ad-links):others()
+
+sainny.com##:is(DIV#captchaShortlink, FORM#link-view > P:first-of-type B, BUTTON#invisibleCaptchaShortlink, DIV.alert, IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/"], DIV.box-main > H4, SPAN#countdown, A.btn.get-link, #ad-banner):others()
+
+
+tenforums.com##DIV.chill
+
+google.com##+js(ra, data-jsarwt, DIV#search A[href], stay)
+!www.google.*##+js(remove-attr, onmousedown|data-cthref, DIV#search A[href])
+
+!https://dorzeczy-pl.cdn.ampproject.org/v/s/dorzeczy.pl/amp/192110/fabryka-lacznikow-w-radomiu-pierwszy-akt-oskarzenia.html?amp_js_v=a6
+dorzeczy.pl,dorzeczy-pl.cdn.ampproject.org##HTML[amp] .ad-aside.page-billboard-1
+dorzeczy.pl,dorzeczy-pl.cdn.ampproject.org##HTML[amp] ARTICLE DIV.art-text > P:last-child > AMP-LIST
+
+||nuvi.aws.cdntvn.pl/video/test.mp4
+tvn24.pl#@#div[class*="player"] .floating_placeholder ~ .floating

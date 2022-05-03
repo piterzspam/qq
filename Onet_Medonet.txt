@@ -3,7 +3,7 @@
 
 !Na wszelki wypadek
 @@||medonet.pl^$ghide
-||sgqcvfjvr.onet.pl^$important,domain=medonet.pl
+||sgqcvfjvr.onet.pl^$domain=medonet.pl,important
 medonet.pl##^SCRIPT#adsinit
 medonet.pl##+js(acis, document.getElementById, admain)
 

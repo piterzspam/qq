@@ -3,7 +3,7 @@
 
 !Na wszelki wypadek
 @@||auto-swiat.pl^$ghide
-||sgqcvfjvr.onet.pl^$important,domain=auto-swiat.pl
+||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl,important
 auto-swiat.pl##^SCRIPT#adsinit
 auto-swiat.pl##+js(acis, document.getElementById, admain)
 

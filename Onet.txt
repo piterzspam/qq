@@ -5,7 +5,7 @@
 !UNIWERSALNE
 !Na wszelki wypadek
 @@*$ghide,domain=noizz.pl|ofeminin.pl|onet.pl|plejada.pl|vod.pl
-||sgqcvfjvr.onet.pl^$important,domain=noizz.pl|ofeminin.pl|onet.pl|plejada.pl|vod.pl
+||sgqcvfjvr.onet.pl^$domain=noizz.pl|ofeminin.pl|onet.pl|plejada.pl|vod.pl,important
 noizz.pl,ofeminin.pl,onet.pl,plejada.pl,vod.pl##^SCRIPT#adsinit
 noizz.pl,ofeminin.pl,onet.pl,plejada.pl,vod.pl##+js(acis, document.getElementById, admain)
 
@@ -563,6 +563,21 @@ www.onet.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta
 !https://kobieta.onet.pl/wiadomosci/11-wrzesnia-2001-r-edna-cintron-przezyla-zamach-tajemnicze-nagranie-krazy-po-sieci/j98t5yr.amp
 ~www.onet.pl,onet.pl,ampproject.org##HTML[\⚡] ARTICLE UL:first-of-type ~ UL:has(> LI:only-child A[href*="onet.pl/"])
 
+www.onet.pl##NAV[class^="BottomBar_bottomBar_"]
+onet.pl##:matches-path(.amp) HTML[\⚡] > BODY ARTICLE UL:first-of-type + DIV:has(> UL:only-child)
+
+~www.onet.pl,onet.pl##DIV.liveblog DIV.pulsembed_embed:style(min-height: 200px;)
+
+@@*$ghide,domain=noizz.pl|ofeminin.pl
+noizz.pl,ofeminin.pl##DIV#flat-belkagorna
+noizz.pl,ofeminin.pl#@#.widget-ads-content
+noizz.pl,ofeminin.pl#@#.sliderads
+noizz.pl,ofeminin.pl#@#.onnetwork-video
+
+noizz.pl,ofeminin.pl##HEADER DIV.socialProfiles
+noizz.pl,ofeminin.pl##HEADER A[data-section="flatNatnav1Click"]
+noizz.pl,ofeminin.pl##DIV.articleShare
+noizz.pl,ofeminin.pl##HEADER:style(position: fixed !important;)
 
 !POZOSTAŁE
 !#include Onet_Auto-swiat.txt

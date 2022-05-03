@@ -112,9 +112,9 @@ radiozet.pl##^script:has-text(makeStub)
 !https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Rafal-Trzaskowski-Sama-PO-wyborow-nie-wygra.-Musimy-pozyskac-nowych-ludzi.-Moje-zadanie-to-dokladanie-kolejnych-elementow-i-budowa-poparcia-samorzadowcow
 radiozet.pl##DIV.back-to-home
 
-!radiozet.pl##+js(no-setTimeout-if.js, unref)
-!radiozet.pl##+js(no-setInterval-if.js, /^/)
-!radiozet.pl##+js(addEventListener-defuser.js, mousemove)
-!radiozet.pl##+js(addEventListener-defuser.js, mouseleave)
-!radiozet.pl##+js(addEventListener-defuser.js, , getBoundingClientRect)
-!radiozet.pl##+js(no-requestAnimationFrame-if.js, dispatchEvent)
+||platform.twitter.com/embed/Tweet.html?$subdocument,redirect=click2load.html,domain=radiozet.pl,important
+radiozet.pl##ARTICLE DIV.embed.social IFRAME[id^="twitter-widget-"]:style(visibility: unset !important;)
+radiozet.pl##ARTICLE DIV.embed.social IFRAME[id^="twitter-widget-"]:style(position: unset !important;)
+radiozet.pl##ARTICLE DIV.embed.social IFRAME[id^="twitter-widget-"]:style(min-height: 100px !important;)
+radiozet.pl##ARTICLE DIV.embed.social IFRAME[id^="twitter-widget-"]:style(width: auto !important;)
+
