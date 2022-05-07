@@ -60,20 +60,7 @@ adshort.tech##+js(set, blurred, false)
 @@||linegee.net/wp-content/uploads/*/button_download.png
 @@||linegee.net/wp-includes/js/jquery/jquery.js?
 ||linegee.net^$font,image,script,stylesheet
-linegee.net##HEADER#masthead
-linegee.net##A.skip-link
-linegee.net##DIV.col-md-12
-linegee.net##ARTICLE[id^="post-"]
-linegee.net##DIV#footer-container
-linegee.net##DIV.widget_nav_menu
-linegee.net##DIV.widget.widget_tag_cloud
-linegee.net##DIV.widget.widget_recent_comments
-linegee.net##DIV.widget.widget_categories
-linegee.net##DIV.widget.widget_archive
-linegee.net##DIV.widget.idblog-form
-linegee.net##DIV.widget.widget_search
-linegee.net##MAIN#main
-linegee.net##DIV#comments
+linegee.net##:is(p.kecil > a):others()
 
 @@||intercelestial.com/wp-includes/js/jquery/jquery.min.js?
 @@||linegee.net/style.css
@@ -91,21 +78,7 @@ $image,script,stylesheet,domain=intercelestial.com|sweetlantern.com
 ||google.com/recaptcha/$domain=intercelestial.com|sweetlantern.com,important
 ||googleapis.com^$domain=intercelestial.com|sweetlantern.com,important
 ||gravatar.com^$domain=intercelestial.com|sweetlantern.com,important
-intercelestial.com,sweetlantern.com##HEADER#masthead
-intercelestial.com,sweetlantern.com##INS.adsbyadop
-intercelestial.com,sweetlantern.com##A.skip-link
-intercelestial.com,sweetlantern.com##DIV.col-md-12
-intercelestial.com,sweetlantern.com##ARTICLE[id^="post-"]
-intercelestial.com,sweetlantern.com##DIV#footer-container
-intercelestial.com,sweetlantern.com##DIV.widget_nav_menu
-intercelestial.com,sweetlantern.com##DIV.widget.widget_tag_cloud
-intercelestial.com,sweetlantern.com##DIV.widget.widget_recent_comments
-intercelestial.com,sweetlantern.com##DIV.widget.widget_categories
-intercelestial.com,sweetlantern.com##DIV.widget.widget_archive
-intercelestial.com,sweetlantern.com##DIV.widget.idblog-form
-intercelestial.com,sweetlantern.com##DIV.widget.widget_search
-intercelestial.com,sweetlantern.com##MAIN#main
-intercelestial.com,sweetlantern.com##DIV#comments
+intercelestial.com,sweetlantern.com##:is(div#landing, div#generate, img#pleasewaits, img#showlink):others()
 
 earnload.co,gplinks.co,gplinks.in##+js(acis, Math, zfgloaded)
 earnload.co,gplinks.co,gplinks.in##+js(aopr, app_vars.force_disable_adblock)
