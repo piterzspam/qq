@@ -215,3 +215,27 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##.teasersListing::before, .teasersListing:
 
 !#canonical #dynamic #desktop #mobile - koszyk na zakupy
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.content > DIV:has(path[d="M26.722 3.529c-0.424-0.481-0.915-0.705-1.545-0.705h-19.42l-0.047-0.294c-0.187-1.148-1.228-2.047-2.37-2.047h-2.295c-0.577 0-1.046 0.479-1.046 1.067 0 0.59 0.469 1.068 1.046 1.068h2.295c0.122 0 0.285 0.14 0.305 0.263l1.917 11.738c0.187 1.148 1.227 2.049 2.368 2.049h17.246c0.578 0 1.047-0.48 1.047-1.068 0-0.59-0.469-1.068-1.047-1.068h-17.246c-0.123 0-0.285-0.14-0.304-0.263l-1.521-9.31h18.984l-0.756 4.626c-0.026 0.156-0.238 0.354-0.378 0.368l-12.16 0.696c-0.747 0.047-1.119 0.591-1.101 1.103 0.017 0.488 0.485 1.020 1.132 1.020h0.031c0.493-0.013 0.948-0.049 0.948-0.049l11.319-0.643c1.113-0.098 2.091-1.019 2.275-2.144l0.769-4.714c0.104-0.637-0.059-1.253-0.447-1.692z"])
+
+
+
+!Przeładowanie strony po zmianie karty
+wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+
+!Przeładowanie strony głównej
+wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
+
+wp.pl##+js(aell)
+
+!Skrypt tworzący reklamy
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE:not(.videoView) DIV:has(> H2 + DIV[id^="video-player-"])
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE:not(.videoView) DIV:has(> H2 + DIV[id^="video-player-"]) DIV[id^="video-player-"] > *:remove()
+
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.content > DIV:has(A[data-st-area="Menu_bottom"][title="Ukraina"])
+
+
+!Za duże miniaturki w tekście artykułu
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV[data-st-area="article-graphicTeaser"]
+
+!Mobile
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[data-st-area="list-new"]
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE ~ *
