@@ -1049,7 +1049,7 @@ stellarinfo.com##DIV.post-single-content DIV.gray-background-color:first-child
 stellarinfo.com##DIV.right_side > DIV.mt-3:remove()
 
 !https://gromota.medium.com/
-medium.com##BODY > DIV#root:first-child ~ DIV:last-child:has(A[href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9"])
+medium.com##BODY > DIV#root ~ DIV:has(A[href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9"])
 
 !https://wyleczpc.pl/pytaj/jak-naprawic-page-fault-in-nonpaged-area/
 ||wyleczpc.pl^$document,badfilter
@@ -2308,3 +2308,21 @@ dorzeczy.pl,dorzeczy-pl.cdn.ampproject.org##HTML[amp] ARTICLE DIV.art-text > P:l
 
 ||nuvi.aws.cdntvn.pl/video/test.mp4
 tvn24.pl#@#div[class*="player"] .floating_placeholder ~ .floating
+
+
+! 2022-05-16 https://www.skapiec.pl
+www.skapiec.pl##.top-banner.partial
+
+
+geeksforgeeks.org##div.textBasedMannualAds_2
+
+
+platform.twitter.com##+js(aeld, click)
+twitter.com##DIV[data-testid="cellInnerDiv"] ARTICLE SPAN[aria-hidden="true"]:first-child ~ SPAN[aria-hidden="true"]:last-child:has-text(…)
+
+
+krytykapolityczna.pl##ARTICLE ASIDE.book-item.site-commerc
+
+
+!Niepowiązane wideo na stronie z aktorem
+filmweb.pl##SECTION.latestTrailerSection:remove()

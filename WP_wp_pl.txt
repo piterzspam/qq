@@ -226,12 +226,13 @@ wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
 
 wp.pl##+js(aell)
 
-!Skrypt tworzący reklamy
+!Wszystkie wideo, które nie są wideo głównym
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE:not(.videoView) DIV:has(> H2 + DIV[id^="video-player-"])
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE:not(.videoView) DIV:has(> H2 + DIV[id^="video-player-"]) DIV[id^="video-player-"] > *:remove()
 
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.content > DIV:has(A[data-st-area="Menu_bottom"][title="Ukraina"])
 
+!Pozostałość po pasku na dole strony mobilnej
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.content > DIV:has(A[data-st-area="Menu_bottom"][title="Ukraina"])
 
 !Za duże miniaturki w tekście artykułu
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV[data-st-area="article-graphicTeaser"]
@@ -239,3 +240,4 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV[data-st-area="article-graphic
 !Mobile
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV[data-st-area="list-new"]
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE ~ *
+

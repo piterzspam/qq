@@ -71,11 +71,11 @@
 
 
 !Sekcja koszyk na górze strony - Wersja mobilna
-!wp.pl##DIV#app > DIV[data-reactroot=""] > DIV.content > DIV[class]:not(data-reactid):has(:scope svg[name="close"]):remove()
+wp.pl##DIV#app > DIV[data-reactroot=""] > DIV.content > DIV[class]:not(data-reactid):has(:scope svg[name="close"]):remove()
 !Sekcja koszyk na górze strony - Wersja desktop
-!wp.pl##DIV#app > DIV[data-reactid="1"] > DIV[data-reactid="2"] > DIV[data-reactid="3"] > DIV[data-reactid="9"]:has(:scope svg[name="close"]) > DIV:remove()
+wp.pl##DIV#app > DIV[data-reactid="1"] > DIV[data-reactid="2"] > DIV[data-reactid="3"] > DIV[data-reactid="9"]:has(:scope svg[name="close"]) > DIV:remove()
 !Komunikat o adblocku
-!wp.pl##HEAD > STYLE[data-id="wpcss"]:remove()
+wp.pl##HEAD > STYLE[data-id="wpcss"]:remove()
 
 
 !Przeładowanie strony po zmianie karty
