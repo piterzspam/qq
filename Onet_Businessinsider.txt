@@ -29,7 +29,7 @@ businessinsider.com.pl##DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child 
 businessinsider.com.pl##DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 !#canonical #desktop - Bez tego ramki z Twittera były niewidoczne
 !https://businessinsider.com.pl/piec-najciekawszych-historii-gospodarczych-teraz-raport-16-marca-2021/gh2e27b
-businessinsider.com.pl##DIV.embeddedapp DIV.pulsembed_embed:style(min-height: 100px !important;)
+businessinsider.com.pl##DIV.embeddedapp DIV.pulsembed_embed:style(min-height: 370px !important;)
 
 !#canonical #mobile - Artykuły powiązane "Zobacz także:" pod artykułem
 !https://businessinsider.com.pl/wiadomosci/polscy-kierowcy-utkneli-w-wielkiej-brytanii-jak-wyglada-sytuacja-wideo-zdjecia/214d2h4
@@ -102,6 +102,10 @@ businessinsider.com.pl##DIV#onet-ad-right
 
 !Wideo w treści artykułu
 !https://businessinsider.com.pl/finanse/fundusze/budzet-ue-na-lata-2021-2027-i-fundusz-odbudowy-negocjacje-i-spory/5s0hpvn
+
+!#canonical #desktop Wideo powiązane w treści artykułu
+!https://businessinsider.com.pl/biznes/wegiel-na-skladach-nawet-trzy-razy-drozszy-niz-u-producenta-oto-przyczyny/gyxcmlg
+businessinsider.com.pl##ARTICLE P:has-text(/^(Ciąg|Dalsza|Dalszą|Dalszy|Pozostała|Reszta|Więcej).*?(artykułu|informacji|tekstu|wywiadu).*?(pod|poniżej).*?(podcastu|wideo)[.: ]?$/i) + SCRIPT + DIV:xpath(self::node() | self::node()/preceding-sibling::P[1])
 
 !Wideo na początku artykułu
 !https://businessinsider.com.pl/wideo/mleko-wielbladow-jest-nawet-30-razy-drozsze-niz-mleko-krowie-oto-dlaczego/0pb4sb5

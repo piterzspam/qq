@@ -42,7 +42,7 @@ newsweek.pl##div#htmlbox_spinner
 newsweek.pl##div.pulsembed_embed:style(position: unset !important;)
 newsweek.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
 newsweek.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
-newsweek.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
+newsweek.pl##DIV.pulsembed_embed:style(min-height: 370px !important;)
 
 !#canonical #desktop - Spinnery przed ramkami
 !https://www.newsweek.pl/opinie/abp-slawoj-leszek-glodz-na-beatyfikacji-leszek-nic-sie-nie-stalo/7vbce24

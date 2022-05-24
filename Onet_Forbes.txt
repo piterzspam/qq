@@ -63,7 +63,7 @@ forbes.pl##DIV#bottom_promoMobileSection
 
 !#canonical #desktop - reklama aplikacji mobilnej pod artykułem
 !https://www.forbes.pl/technologia-dla-potrzebujacych-przemyslaw-kusmierek-migam/nqxd8lx
-forbes.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:style(min-height: 100px !important;)
+forbes.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:style(min-height: 370px !important;)
 forbes.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
 forbes.pl##DIV:has(> DIV[data-run-module="embeddedapp/main.app"]) DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 

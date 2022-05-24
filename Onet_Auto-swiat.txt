@@ -79,7 +79,7 @@ auto-swiat.pl##ARTICLE UL:first-of-type > LI:last-child:has(A[href*="auto-swiat.
 
 !#canonical #desktop - Ramki
 !https://www.auto-swiat.pl/porady/eksploatacja/czego-dowiesz-sie-z-systemu-obd-czy-samodzielna-diagnoza-auta-jest-mozliwa/dmrw9sl
-auto-swiat.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
+auto-swiat.pl##DIV.pulsembed_embed:style(min-height: 370px !important;)
 auto-swiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
 auto-swiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 

@@ -54,7 +54,7 @@ przegladsportowy.pl##DIV#relatedItemsContainer
 
 !#canonical #desktop - Ramki
 !https://www.przegladsportowy.pl/motosporty/formula-1/f1-gp-wloch-wyscig-na-zywo-wynik-i-relacja/vqbbyyk
-przegladsportowy.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
+przegladsportowy.pl##DIV.pulsembed_embed:style(min-height: 370px !important;)
 przegladsportowy.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
 przegladsportowy.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 

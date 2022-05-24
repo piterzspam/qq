@@ -54,7 +54,7 @@ komputerswiat.pl##ARTICLE DIV.offerContainer:remove()
 
 !#canonical #desktop - Ramki
 !https://www.komputerswiat.pl/aktualnosci/militaria/polscy-zolnierze-na-cwiczeniach-w-helmach-z-photoshopa-armia-wstydzi-sie-wyposazenia/qfj7st4
-komputerswiat.pl##DIV.pulsembed_embed:style(min-height: 100px !important;)
+komputerswiat.pl##DIV.pulsembed_embed:style(min-height: 370px !important;)
 komputerswiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
 komputerswiat.pl##DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 

@@ -125,7 +125,7 @@ pulsevideo.eu##+js(addEventListener-defuser, ended)
 ||platform.twitter.com/embed/Tweet.html?$subdocument,redirect=click2load.html,domain=pulsembed.eu,important
 pulsembed.eu##DIV.twitter-tweet IFRAME:style(position: unset !important;)
 pulsembed.eu##DIV.twitter-tweet IFRAME:style(visibility: unset !important;)
-pulsembed.eu##DIV.twitter-tweet IFRAME:style(min-height: 100px !important;)
+pulsembed.eu##DIV.twitter-tweet IFRAME:style(min-height: 370px !important;)
 
 
 videos.ringpublishing.com##+js(remove-attr, loop, video)

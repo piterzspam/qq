@@ -38,7 +38,7 @@ fakt.pl##SECTION.five-columns-wide:has(H3.article-contact-header:has-text(Masz c
 !https://www.fakt.pl/wydarzenia/polityka/maciej-lasek-punktuje-raport-antoniego-macierewicza-jest-wazny-szczegol/4hbd9l3
 fakt.pl##DIV.placeholder.embed:style(padding-top: unset !important;)
 fakt.pl##DIV.embeddedapp:style(position: unset !important;-webkit-transform: unset !important; -moz-transform: unset !important; -transform: unset !important;)
-fakt.pl##DIV.embeddedapp DIV.pulsembed_embed:style(min-height: 100px !important;)
+fakt.pl##DIV.embeddedapp DIV.pulsembed_embed:style(min-height: 370px !important;)
 fakt.pl##DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > A:style(display: block !important; background: white !important; text-decoration: underline !important; color: blue !important;)
 fakt.pl##DIV.embeddedapp DIV.pulsembed_embed:has(> A:first-child + IFRAME:last-child) > IFRAME:style(margin-top: 22px !important;)
 
