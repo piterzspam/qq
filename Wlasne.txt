@@ -2326,3 +2326,16 @@ krytykapolityczna.pl##ARTICLE ASIDE.book-item.site-commerc
 
 !Niepowiązane wideo na stronie z aktorem
 filmweb.pl##SECTION.latestTrailerSection:remove()
+
+
+
+journaldev.com##:is(H1.entry-title, DIV.breadcrumbs-top, DIV.blog-filed, DIV.entry-content):others()
+journaldev.com##DIV.code-block:has(> DIV[id][class="_ap_apex_ad"])
+
+statology.org##:is(DIV.entry-header-wrapper, DIV.entry-content):others()
+
+
+realpython.com##DIV.d-sm-flex
+realpython.com##DIV.jsCompletionStatusWidget
+realpython.com##DIV.article DIV.alert-warning
+realpython.com##:is(DIV.article > FIGURE, DIV.article > H1, DIV.article > DIV.mb-0, DIV.article > DIV.article-body, DIV.article > DIV#author, DIV#sidebar-toc):others()
