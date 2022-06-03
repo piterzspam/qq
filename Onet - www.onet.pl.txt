@@ -55,8 +55,8 @@ www.onet.pl##ARTICLE P:has-text(Zapisz się na newsletter Onetu, aby otrzymywać
 www.onet.pl##ARTICLE DIV.EmbeddedApplication_wrapper__2HGlS:has(A[href="https://htmlbox.pulsembed.eu/embed/pl1VRHx_g"])
 
 
-!#www.onet.pl #desktop #mobile - Wideo w treści artykułu
-www.onet.pl##ARTICLE DIV.EmbeddedApplication_pulsevideo__1yudT
+!#www.onet.pl #desktop #mobile - Wideo w treści artykułu nie wiem, czy blokuje za dużo
+!www.onet.pl##ARTICLE DIV.EmbeddedApplication_pulsevideo__1yudT
 
 !#www.onet.pl #desktop #mobile - Wideo w treści artykułu - paragraf "dalszy ciąg..."
 !Ciąg dalszy artykułu pod wideo. - https://kultura.onet.pl/wiadomosci/jacek-kurski-jednak-nie-zostanie-prezesem-tvp-krzysztof-czabanski-zabral-glos/4bf8tkk?utm_source=_viasg_fakt
@@ -80,14 +80,8 @@ www.onet.pl##ARTICLE UL:not(:first-child):has(LI:only-child A[href*="vod.pl"])
 !#www.onet.pl #desktop #mobile - Punkt "Więcej podobnych historii znajdziesz na Onet.pl" w skrócie artykułu
 www.onet.pl##ARTICLE UL > LI:has(A[href*="www.onet.pl/#utm_source="])
 
-!#www.onet.pl #desktop #mobile - Pojedyncze kropki z powiązanymi artykułami w treści tekstu
-www.onet.pl##ARTICLE UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
-
 !#www.onet.pl #mobile #social - Przyciski socialowe pod tytułem
 www.onet.pl##ARTICLE DIV[class^="EmotionsAndShare_"]
-
-!#www.onet.pl #desktop #mobile - Pojedyncze kropki z powiązanymi artykułami w treści tekstu
-www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
 
 !#www.onet.pl #desktop #mobile - Ramka FB w treści
 !https://www.onet.pl/informacje/onetpoznan/poznan-smiertelny-wypadek-przy-ulicy-hetmanskiej/kwc0kz1,79cfc278
@@ -232,7 +226,7 @@ www.onet.pl##DIV.placeholder-container
 
 !#www.onet.pl #desktop #mobile - !Reklama pod głównym zdjęciem
 !https://www.onet.pl/informacje/onetwiadomosci/przemyslaw-czarnek-koniec-z-praniem-mozgow-dzieci/vwr0ne0,79cfc278
-www.onet.pl##ASIDE[class*="CenterAd_containerTop_"]
+www.onet.pl##ASIDE[class*="CenterAd_container"]
 
 !#canonical #desktop #mobile - Prosotkąt Obserwuj nas po prawej stronie
 www.onet.pl##.widgetFollowUs.widget
@@ -275,3 +269,18 @@ www.onet.pl##DIV.onet-ad
 !www.onet.pl##ARTICLE#Module[class^="Article_container_"] SECTION.contentBottomContainer > DIV[class^="Body_"] > P[class^="Paragraph_"]:has-text(/(Reszta tekstu pod materiałem wideo|Dalsza część artykułu znajduje się poniżej materiału wideo:|Dalszą część tekstu znajdziesz pod materiałem wideo|Dalsza część artykułu pod materiałem wideo:)/i)
 !wiadomosci.onet.pl##ARTICLE DIV#detail DIV.pulsevideo
 !onet.pl#@#^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
+
+
+
+!mobile !desktop
+!https://www.onet.pl/informacje/onetwiadomosci/polowanie-na-odpowiedzialnych-za-zbrodnie-w-buczy-to-moze-byc-prowokacja/qdbxt0d,79cfc278
+www.onet.pl##DIV#__next [class^="BackToMainPage_"]
+www.onet.pl##DIV#__next [data-section="simulatingmainpage"]
+www.onet.pl##ARTICLE DIV[class^="RelatedItems_"]
+www.onet.pl##ARTICLE UL:not(:first-child):has(LI:only-child A[href*="onet.pl"])
+www.onet.pl##ARTICLE DIV[class^="AdPlaceholder_"]
+www.onet.pl##ARTICLE ASIDE[class^="CenterAd_container"]
+www.onet.pl##ARTICLE DIV[class^="EditorialLetter_container_"]:has-text(Masz ciekawy temat? Napisz do nas list!)
+www.onet.pl##ARTICLE DIV[class^="Body_rectangleContainer__"]
+www.onet.pl##ARTICLE P:has-text(Dziękujemy, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV[class^="EmbeddedApplication_wrapper__"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+

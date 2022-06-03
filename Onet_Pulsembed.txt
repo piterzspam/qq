@@ -125,7 +125,14 @@ pulsevideo.eu##+js(addEventListener-defuser, ended)
 ||platform.twitter.com/embed/Tweet.html?$subdocument,redirect=click2load.html,domain=pulsembed.eu,important
 pulsembed.eu##DIV.twitter-tweet IFRAME:style(position: unset !important;)
 pulsembed.eu##DIV.twitter-tweet IFRAME:style(visibility: unset !important;)
-pulsembed.eu##DIV.twitter-tweet IFRAME:style(min-height: 370px !important;)
+
+!pulsembed.eu##DIV.twitter-tweet IFRAME:style(min-height: 370px !important;)
+!pulsembed.eu#@#DIV.twitter-tweet IFRAME:style(min-height: 370px !important;)
+
+pulsembed.eu##DIV#container:style(max-width: unset !important;)
+pulsembed.eu##DIV#container DIV.twitter-tweet:style(max-width: unset !important;)
+pulsembed.eu##IFRAME[style="position: absolute; visibility: hidden; width: 0px; height: 0px; display: block; flex-grow: 1;"]:style(position: unset !important; visibility: unset !important; height: unset !important;)
+pulsembed.eu##html, body, iframe:style(overflow: unset !important;)
 
 
 videos.ringpublishing.com##+js(remove-attr, loop, video)

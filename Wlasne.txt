@@ -2339,3 +2339,10 @@ realpython.com##DIV.d-sm-flex
 realpython.com##DIV.jsCompletionStatusWidget
 realpython.com##DIV.article DIV.alert-warning
 realpython.com##:is(DIV.article > FIGURE, DIV.article > H1, DIV.article > DIV.mb-0, DIV.article > DIV.article-body, DIV.article > DIV#author, DIV#sidebar-toc):others()
+
+
+
+
+tvn24.pl##DIV.article-stories-list-container FIGURE.stories-list-content:not(.stories-list-content--premium) DIV.image-container
+tvn24.pl##DIV.article-stories-list-container FIGURE.stories-list-content:not(.stories-list-content--premium) BUTTON
+tvn24.pl##DIV.article-element--widget:has(DIV.go-widget)
