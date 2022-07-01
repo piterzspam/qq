@@ -1208,7 +1208,6 @@ allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane
 ! 2020-10-29 https://www.makeuseof.com
 www.makeuseof.com##.ad-zone-container
 
-*$script,denyallow=gstatic.com|gstatic.com,domain=downfile.site
 
 fcc.lc##DIV#content > H2.text-center
 fcc.lc##DIV#content > P:last-child
@@ -1441,7 +1440,6 @@ socolive.xyz##+js(abort-on-property-write, adcashMacros)
 !/https?:\/\/[a-z]{8}\.(com|net)\/((index|static|browse|view|movie|[0-9]*)(\/|\.))*html$/$3p,subdocument
 !/https?:\/\/[a-z]{8}\.(com|net)\/(articles|ajax|article|event|config|custom|menu|web|resources)(\.json)?$/$3p,xmlhttprequest
 ||ads.puffnetwork.com^
-||twitch.tv^
 ||fmnetwork.nl^
 ||messistream.com^$subdocument,first-party
 ||8fzyhamgc9.com^
@@ -2286,13 +2284,37 @@ towardsdatascience.com##:is(ARTICLE.meteredContent):others()
 
 !Url shorteners
 mobi2c.com,newforex.online,world-trips.net##:is(DIV#devozon-wait1, DIV#devozon-snp, DIV.alert.captcha-check[role="alert"], A#go_d):others()
-forex-gold.net##:is(DIV#ytimer, DIV#mainlink):others()
+forex-gold.net##:is(DIV#ytimer, DIV#mainlink, BUTTON#submitBtn):others()
 iir.ai##:is(FORM#link-view, IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/"]):others()
 techmody.io##:is(FORM#link-view, DIV#content, DIV#yu-snp):others()
-sevenjournals.com##:is(BUTTON#yuidea-btn-before, DIV#yuidea-wait1, DIV#yuidea-snp, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"]):others()
-zegtrends.com##:is(BUTTON.bsub):others()
+sevenjournals.com##:is(BUTTON#yuidea-btn-before, DIV#yuidea-wait1, DIV#yuidea-snp, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"]):others()zegtrends.com##:is(BUTTON.bsub, BUTTON#go, DIV#cap):others()
 bclikeqt.com##+js(aeld, load, s65c)
 bclikeqt.com##:is(DIV#s65c, DIV.alert, FORM[id], DIV#adb_detected, SPAN#countdown, DIV#overlay, IFRAME[src*="https://www.google.com/recaptcha/api2/"], A#surl, .pub_300x250, .pub_300x250m, .pub_728x90, .text-ad, .textAd, .text_ad, .text_ads, .text-ads, .text-ad-links):others()
+forexmab.com,forex-articles.com##:is(A#makingdifferenttimer, DIV#mdtimer, CENTER.oto)
+
+earnme.club,usanewstoday.club##:is(DIV#tp-generate, BUTTON#tp-snp2):others()
+
+||imasdk.googleapis.com^$domain=anhdep24.com|fidlarmusic.com|kiemlua.com|publicananker.com
+||unibots.in^$domain=anhdep24.com|fidlarmusic.com|kiemlua.com|publicananker.com
+||zencdn.net^$domain=anhdep24.com|fidlarmusic.com|kiemlua.com|publicananker.com
+
+anhdep24.com,fidlarmusic.com,kiemlua.com,publicananker.com##:is(BUTTON#link, A#link1s, DIV.alert, DIV#link1s-wait1, DIV#link1s-generate, DIV#link1s-snp):others()
+
+!https://skincarie.com/NgbfnqG?
+skincarie.com##+js(aopw, TID)
+skincarie.com##+js(noeval)
+skincarie.com##DIV[onclick="location.href='/lp.php'"]
+
+!https://downfile.site/ai-enrichment-project-at-seeburger.html#NNPT
+downfile.site##+js(aeld, contextmenu)
+downfile.site##+js(aopw, document.onkeydown)
+||unibots.in^$domain=downfile.site
+||vidcrunch.com^$domain=downfile.site
+*$script,denyallow=gstatic.com|gstatic.com,domain=downfile.site
+
+trangchu.news##+js(aell)
+trangchu.news##+js(aeld, contextmenu)
+trangchu.news##+js(ra, , oncontextmenu, stay)
 
 sainny.com##:is(DIV#captchaShortlink, FORM#link-view > P:first-of-type B, BUTTON#invisibleCaptchaShortlink, DIV.alert, IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/"], DIV.box-main > H4, SPAN#countdown, A.btn.get-link, #ad-banner):others()
 
@@ -2338,7 +2360,7 @@ statology.org##:is(DIV.entry-header-wrapper, DIV.entry-content):others()
 realpython.com##DIV.d-sm-flex
 realpython.com##DIV.jsCompletionStatusWidget
 realpython.com##DIV.article DIV.alert-warning
-realpython.com##:is(DIV.article > FIGURE, DIV.article > H1, DIV.article > DIV.mb-0, DIV.article > DIV.article-body, DIV.article > DIV#author, DIV#sidebar-toc):others()
+realpython.com##:is(DIV.article > FIGURE, DIV.article > H1, DIV.article > DIV.mb-0, DIV.article > DIV.article-body, DIV.article > DIV#author, DIV#sidebar-toc, DIV#glightbox-body):others()
 
 
 
@@ -2346,3 +2368,13 @@ realpython.com##:is(DIV.article > FIGURE, DIV.article > H1, DIV.article > DIV.mb
 tvn24.pl##DIV.article-stories-list-container FIGURE.stories-list-content:not(.stories-list-content--premium) DIV.image-container
 tvn24.pl##DIV.article-stories-list-container FIGURE.stories-list-content:not(.stories-list-content--premium) BUTTON
 tvn24.pl##DIV.article-element--widget:has(DIV.go-widget)
+
+
+||cdn.jsdelivr.net/*/console-ban.min.js$domain=dubznetwork.com
+||embed.footylight.com^$domain=dubznetwork.com
+||ai-widget.s3.amazonaws.com/fl-ai-widget-dubznetwork.js
+dubznetwork.com##.aoa_overlay
+
+
+!KAD - Przekręty
+||exe.io^$document,badfilter
