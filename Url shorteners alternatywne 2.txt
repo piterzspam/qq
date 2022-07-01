@@ -120,7 +120,7 @@ $third-party,domain=link.tl
 !LINKSHRINK.NET
 $~script,~stylesheet,first-party,domain=linkshrink.net
 $third-party,domain=linkshrink.net
-linkshrink.net##script:inject(noeval.js)
+linkshrink.net##+js(noeval.js)
 
 !OUO.IO
 $~image,~stylesheet,first-party,domain=ouo.io

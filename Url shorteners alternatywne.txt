@@ -38,7 +38,7 @@ $subdocument,domain=al.ly
 ||marketing.al.ly
 @@||google.com/recaptcha/$domain=al.ly
 @@||gstatic.com/recaptcha/$domain=al.ly
-al.ly##script:inject(fuckadblock.js-3.2.0)
+al.ly##+js(fuckadblock.js-3.2.0)
 al.ly##A[target="_blank"][style="text-decoration: none;"][href="https://al.ly/user/register?ref=1"]
 al.ly##DIV.ads.ad_100.clearfix
 al.ly##FORM#form-captcha > HR

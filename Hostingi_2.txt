@@ -350,30 +350,30 @@ wholecloud.net##DIV[id^="MGWrap"]
 zippyshare.com##DIV.center_ad
 
 !SCRIPT:INJECT
-2giga.link##script:inject(abort-on-property-write.js, _0x2cdc)
-2giga.link##script:inject(abort-on-property-write.js, _0xbcc1)
-anyfiles.pl##script:inject(abort-on-property-write.js,launchOpenWindow)
-bitvid.sx,cloudtime.to,nowvideo.sx,wholecloud.net##script:inject(abort-current-inline-script.js, parseInt)
-auroravid.to,bitvid.sx,clicknupload.org,cloudtime.to,dailyuploads.net,faststore.org,filesupload.org,flashx.tv,kingvid.tv,nowvideo.sx,owndrives.com,rapidvideo.com,rapidvideo.ws,sharevideo.pl,sharing-box.cloud,speedvid.net,ultimatedown.com,videowood.tv,vidfile.net,vidstream.xyz,vod-share.com,vodlock.co,watchers.to,wholecloud.net,xvidstage.com##script:inject(abort-on-property-write.js, _pop)
-auroravid.to,bitvid.sx,cloudtime.to,cloudyfiles.org,daclips.in,filescdn.com,filesupload.org,gorillavid.in,indishare.me,movpod.in,nowvideo.sx,solidfiles.com,speedvid.net,streamplay.to,uptobox.com,userscloud.com,vidfile.net,watchers.to,wholecloud.net,zippyshare.com##script:inject(abort-on-property-write.js, Fingerprint2)
-cloudyfiles.org,kingvid.tv,suprafiles.org,vidfile.net##script:inject(abort-on-property-write.js, TID)
-downace.com,movpod.in,openload.co,owndrives.com,rapidvideo.com,share-online.biz##script:inject(noeval.js)
-filescdn.com,flashx.tv,katfile.com,openload.co,sendspace.com,speedvid.net,uploadrocket.ne,userscloud.com,videowood.tv##script:inject(abort-on-property-write.js, open)
-flashx.tv,rapidvideo.com,vidfile.net##script:inject(abort-on-property-read.js, zfgloadedpopup)
-kingvid.tv##script:inject(impspcabe-defuser.js)
-kingvid.tv##script:inject(noeval-if.js, RTCPeerConnection)
-openload.co##script:inject(openload.co.js)
-rapidvideo.com##script:inject(abort-on-property-write.js, executed)
-rapidvideo.com##script:inject(impspcabe-defuser.js)
-sharevideo.pl,sharing-box.cloud,vidstream.xyz##script:inject(abort-on-property-write.js, sas)
-streamplay.to##script:inject(abort-on-property-write.js, puOverlay)
-thevideo.me##script:inject(abort-on-property-read.js, app.main.adblock)
-turbobit.net##script:inject(abort-on-property-read.js, BetterJsPop)
-tvad.me##script:inject(abort-on-property-read.js, app.adblockPop)
-vidlox.tv##script:inject(nowebrtc.js)
-vidup.me##script:inject(abort-on-property-read.js, popConfig)
-watchers.to##script:inject(abort-on-property-write.js, p_url)
-zippyshare.com##script:inject(abort-on-property-write.js, H7WWWW)
+2giga.link##+js(abort-on-property-write.js, _0x2cdc)
+2giga.link##+js(abort-on-property-write.js, _0xbcc1)
+anyfiles.pl##+js(abort-on-property-write.js,launchOpenWindow)
+bitvid.sx,cloudtime.to,nowvideo.sx,wholecloud.net##+js(abort-current-inline-script.js, parseInt)
+auroravid.to,bitvid.sx,clicknupload.org,cloudtime.to,dailyuploads.net,faststore.org,filesupload.org,flashx.tv,kingvid.tv,nowvideo.sx,owndrives.com,rapidvideo.com,rapidvideo.ws,sharevideo.pl,sharing-box.cloud,speedvid.net,ultimatedown.com,videowood.tv,vidfile.net,vidstream.xyz,vod-share.com,vodlock.co,watchers.to,wholecloud.net,xvidstage.com##+js(abort-on-property-write.js, _pop)
+auroravid.to,bitvid.sx,cloudtime.to,cloudyfiles.org,daclips.in,filescdn.com,filesupload.org,gorillavid.in,indishare.me,movpod.in,nowvideo.sx,solidfiles.com,speedvid.net,streamplay.to,uptobox.com,userscloud.com,vidfile.net,watchers.to,wholecloud.net,zippyshare.com##+js(abort-on-property-write.js, Fingerprint2)
+cloudyfiles.org,kingvid.tv,suprafiles.org,vidfile.net##+js(abort-on-property-write.js, TID)
+downace.com,movpod.in,openload.co,owndrives.com,rapidvideo.com,share-online.biz##+js(noeval.js)
+filescdn.com,flashx.tv,katfile.com,openload.co,sendspace.com,speedvid.net,uploadrocket.ne,userscloud.com,videowood.tv##+js(abort-on-property-write.js, open)
+flashx.tv,rapidvideo.com,vidfile.net##+js(abort-on-property-read.js, zfgloadedpopup)
+kingvid.tv##+js(impspcabe-defuser.js)
+kingvid.tv##+js(noeval-if.js, RTCPeerConnection)
+openload.co##+js(openload.co.js)
+rapidvideo.com##+js(abort-on-property-write.js, executed)
+rapidvideo.com##+js(impspcabe-defuser.js)
+sharevideo.pl,sharing-box.cloud,vidstream.xyz##+js(abort-on-property-write.js, sas)
+streamplay.to##+js(abort-on-property-write.js, puOverlay)
+thevideo.me##+js(abort-on-property-read.js, app.main.adblock)
+turbobit.net##+js(abort-on-property-read.js, BetterJsPop)
+tvad.me##+js(abort-on-property-read.js, app.adblockPop)
+vidlox.tv##+js(nowebrtc.js)
+vidup.me##+js(abort-on-property-read.js, popConfig)
+watchers.to##+js(abort-on-property-write.js, p_url)
+zippyshare.com##+js(abort-on-property-write.js, H7WWWW)
 
 !STATYCZNE
 ||178.175.132.130/script/ad.js
@@ -508,8 +508,8 @@ openload.co##^script:has-text(location.protocol)
 userscloud.com##+js(abort-on-property-write.js, decodeURIComponent)
 ||rtbvideobox.com^
 ||uptobox.com/sw.js
-uptobox.com##script:inject(abort-on-property-read.js, acPrefetch)
-uptobox.com##script:inject(abort-on-property-read.js, top.document.referrer)
+uptobox.com##+js(abort-on-property-read.js, acPrefetch)
+uptobox.com##+js(abort-on-property-read.js, top.document.referrer)
 katfile.com##A.style3[href="https://katfile.com/?op=payments"]
 ||clicknupload.org/sw.js
 ||indlzxgptf.com^
@@ -517,7 +517,7 @@ clicknupload.org##DIV[id*="ScriptRoot"]
 |https://$third-party,stylesheet,domain=zippyshare.com,badfilter
 ||zippyshare.com/sw.js
 ||d10lumateci472.cloudfront.net^
-zippyshare.com##script:inject(abort-on-property-read.js, acPrefetch)
+zippyshare.com##+js(abort-on-property-read.js, acPrefetch)
 ||3zfile.net/js/share.js
 suprafiles.me##INS.adsbygoogle
 ||suprafiles.me/js/share.js
@@ -526,29 +526,29 @@ suprafiles.me##INS.adsbygoogle
 @@||upload.ac/hg/js/advertisement.js
 upload.ac##A.btn.btn-info.btn-dl-plus
 ||boudja.com^
-bdupload.info##script:inject(abort-on-property-write.js, Fingerprint2)
-bdupload.info##script:inject(abort-on-property-write.js, TID)
+bdupload.info##+js(abort-on-property-write.js, Fingerprint2)
+bdupload.info##+js(abort-on-property-write.js, TID)
 ||bdupload.info/js/countdown.js
 ||pussl16.com^
 ||3.bp.blogspot.com/-pAmTvt48_aU/WeXtp_hIwNI/AAAAAAAAT6s/2VPOnqG2yYw4NhfSB8xqAHR5QqB_-o39wCLcBGAs/s1600/southhindidubbed.jpg
 ||2.bp.blogspot.com/-xQ5z4RbL66A/Wczkng9XhZI/AAAAAAAAToM/tdH7-zYUdEgu9HnCWIbdZ4FDxxjDi3GFACLcBGAs/s1600/downloadhere.png
 ||vodlock.co/cdn-cgi/pe/bag2?r[]=
-##script:inject(abort-on-property-read.js, zfgloadedpopup)
-vodlock.co##script:inject(abort-current-inline-script.js, miner)
-vodlock.co##script:inject(abort-on-property-write.js, adcashMacros)
+##+js(abort-on-property-read.js, zfgloadedpopup)
+vodlock.co##+js(abort-current-inline-script.js, miner)
+vodlock.co##+js(abort-on-property-write.js, adcashMacros)
 $websocket,domain=vodlock.co
 ||hashing.win^
-rapidvideo.com##script:inject(abort-on-property-write.js, decodeURIComponent)
+rapidvideo.com##+js(abort-on-property-write.js, decodeURIComponent)
 ||freegeoip.net^
 ||sbscribeme.com^
 ||defpush.com^
-filescdn.com##script:inject(window.open-defuser.js)
-filescdn.com##script:inject(abort-on-property-write.js, Fingerprint2)
-filescdn.com##script:inject(abort-on-property-read.js, m, b)
+filescdn.com##+js(window.open-defuser.js)
+filescdn.com##+js(abort-on-property-write.js, Fingerprint2)
+filescdn.com##+js(abort-on-property-read.js, m, b)
 filescdn.com##I.icon-share2
-sendit.cloud##script:inject(abort-on-property-write.js, Fingerprint2)
-sendit.cloud##script:inject(abort-on-property-write.js, HSCW)
-filerio.net##script:inject(abort-on-property-write.js, H7WWWW)
+sendit.cloud##+js(abort-on-property-write.js, Fingerprint2)
+sendit.cloud##+js(abort-on-property-write.js, HSCW)
+filerio.net##+js(abort-on-property-write.js, H7WWWW)
 
 !BIAŁA LISTA
 @@ads.js$domain=2giga.link|hitfile.net|share-online.biz|tune.pk|uploadboy.com|uploadrocket.net|vidoza.net|vidzi.tv|vod-share.com|zippyshare.com

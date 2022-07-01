@@ -41,8 +41,8 @@ adyou.me##DIV.advert.benner-new
 al.ly##A[href="https://al.ly/user/register?ref=1"]
 al.ly##DIV.ads
 al.ly##FORM#form-captcha > HR
-al.ly##script:inject(bab-defuser.js)
-al.ly##script:inject(fuckadblock.js-3.2.0)
+al.ly##+js(bab-defuser.js)
+al.ly##+js(fuckadblock.js-3.2.0)
 ||ad2up.com
 ||ad2up.com/afu.php$subdocument,important,redirect=noopframe,domain=al.ly
 ||ad4game.com
@@ -91,7 +91,7 @@ croco.site##INS.adsbygoogle
 @@||dmus.in/img/new-logo.png
 @@||FAS.LI^$generichide
 fas.li##INS.adsbygoogle
-fas.li##script:inject(popads.net.js)
+fas.li##+js(popads.net.js)
 ||cdnjs.cloudflare.com/ajax/libs/blockadblock/*/blockadblock.min.js$script,redirect=fuckadblock.js-3.2.0
 ||fas.li/d$popup
 ||fas.li/js/p
