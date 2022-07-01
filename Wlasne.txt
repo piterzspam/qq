@@ -157,11 +157,11 @@ $websocket,important,domain=opensubtitles.org
 aliexpress.com##DIV#j-related-products
 aliexpress.com##LI.list-item:if(I.sponsored-icon)
 awaqa.com##.unselectable:style(-moz-user-select: text !important; khtml-user-select: text !important; -webkit-user-select: text !important;)
-awaqa.com##+js(abort-on-property-read.js, disableSelection)
-awaqa.com##+js(abort-on-property-write.js, nocontext)
-bc.vc##+js(noeval-if.js, http:\/\/track.bcvc.mobi\/earn.php?zone=)
-bc.vc##+js(set-constant.js, clicked_count, 1)
-bc.vc#@#script:inject(window.open-defuser.js)
+awaqa.com##+js(abort-on-property-read, disableSelection)
+awaqa.com##+js(abort-on-property-write, nocontext)
+bc.vc##+js(noeval-if, http:\/\/track.bcvc.mobi\/earn.php?zone=)
+bc.vc##+js(set-constant, clicked_count, 1)
+bc.vc#@#+js(window.open-defuser)
 blog.etrapez.pl##.hustle-animate-fadeIn.hustle-animated.hustle-modal-cabriolet.hustle-modal
 blog.etrapez.pl##.wph-modal-active.module_id_1.wph-modal
 blog.etrapez.pl##.wpmudev-modal-mask.wph-modal-mask
@@ -195,7 +195,7 @@ dobreprogramy.pl##SECTION.block.no-mobile
 dobreprogramy.pl##SECTION.dl-social.grid-margin-px30-top
 dobreprogramy.pl##SECTION.forum-help-cta
 dobreprogramy.pl##SECTION.social
-dobreprogramy.pl##+js(window.open-defuser.js)
+dobreprogramy.pl##+js(window.open-defuser)
 dobreprogramy.pl#@#DIV#phContent_CommentsControl_divAdTop
 dobreprogramy.pl#@#SECTION.block.no-mobile
 docer.pl#@#[id*="ad-container"]
@@ -214,9 +214,9 @@ efizyka.net.plfilmweb.pl##script:inject^script:has-text(window.google_jobrunner)
 filmweb.pl##DIV#flashcontent3
 filmweb.pl##DIV.cookieInfo.webPage
 filmweb.pl##SPAN.loginWithFBContainer
-filmweb.pl##+js(abort-current-inline-script.js, webpackJsonp, advInit)
-filmweb.pl#@#script:inject(abort-on-property-read.js, document.onreadystatechange)
-filmweb.pl#@#script:inject(setTimeout-defuser.js, notDetected)
+filmweb.pl##+js(abort-current-inline-script, webpackJsonp, advInit)
+filmweb.pl#@#+js(abort-on-property-read, document.onreadystatechange)
+filmweb.pl#@#+js(setTimeout-defuser, notDetected)
 
 !Odśiweżanie karty po przełączeniu i upływie 5 minut
 !uBO: setTimeout("function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)}", 300000)
@@ -242,17 +242,17 @@ jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/sklep"]
 jakzdacmaturezmatematyki.pl##DIV#cookies-message-container
 jakzdacmaturezmatematyki.pl##DIV#fb_Like_Box
 jakzdacmaturezmatematyki.pl##DIV.reklama_bok_lewy
-katcr.co##+js(abort-on-property-write.js, Fingerprint2)
+katcr.co##+js(abort-on-property-write, Fingerprint2)
 klp.pl###reklama-w-artykule
 klp.pl###reklama-w-srodku-artykulu
 klp.pl#DIV##[style="height:280px; width:336px;"]
 landseven.cba.pl###dd-popup
-lnkshrnk.net##+js(abort-current-inline-script.js, decodeURI, decodeURIComponent)
-lnkshrnk.net##+js(abort-on-property-write.js, Fingerprint2)
-lnkshrnk.net##+js(nano-setInterval-booster.js, , 100)
-loadvid.online##+js(abort-on-property-read.js, BetterJsPop)
-loadvid.online##+js(set-constant.js, pop_cnt, 2)
-loadvid.online#@#script:inject(set-constant.js, pop_cnt, 3)
+lnkshrnk.net##+js(abort-current-inline-script, decodeURI, decodeURIComponent)
+lnkshrnk.net##+js(abort-on-property-write, Fingerprint2)
+lnkshrnk.net##+js(nano-setInterval-booster, , 100)
+loadvid.online##+js(abort-on-property-read, BetterJsPop)
+loadvid.online##+js(set-constant, pop_cnt, 2)
+loadvid.online#@#+js(set-constant, pop_cnt, 3)
 matemaks.pl##DIV.cookie_info
 matemaks.pl##DIV.fb-page
 matematyka.pisz.pl##DIV#calosc:style(margin-bottom: 100px !important)
@@ -265,7 +265,7 @@ matmana6.pl###popup-bottom
 matmana6.pl##DIV.widget.c
 medium.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 megamatma.pl#@#div[class*="cookie"]
-megaup.net##+js(noeval.js)
+megaup.net##+js(noeval)
 miuipolska.pl##INS.adsbygoogle
 multiup.org##.well.success.text-center
 multiup.org##.well.success.text-center
@@ -302,16 +302,16 @@ pastebin.com##DIV.banner_728
 pastebin.com##DIV.h_800.tweet
 pasted.co##DIV#captcha_overlay
 paypal.com##SECTION.cookie-notification
-pdf-archive.com##+js(nano-setInterval-booster.js)
-premiumzen.com##+js(nano-setInterval-booster.js)
+pdf-archive.com##+js(nano-setInterval-booster)
+premiumzen.com##+js(nano-setInterval-booster)
 reseton.pl###video_reklamy
 restorecosm.bid##DIV#cookie_notice
 restorecosm.bid##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
 restorecosm.bid##IFRAME#rf2:style(position: absolute !important; left: -100000px !important)
 restorecosm.bid##IFRAME#rf:style(position: absolute !important; left: -100000px !important)
-restorecosm.bid##+js(abort-on-property-write.js, NREUM)
-restorecosm.bid##+js(adf.ly.js)
-restorecosm.bid##+js(adfly-defuser.js)
+restorecosm.bid##+js(abort-on-property-write, NREUM)
+restorecosm.bid##+js(adf.ly)
+restorecosm.bid##+js(adfly-defuser)
 restorecosm.bid##+js(fuckadblock.js-3.2.0)
 sadistic.pl##DIV.portal > ARTICLE.images[style="text-align: center; padding: 30px; min-height: 300px"]
 sascdn.com$domain=filmweb.pl
@@ -357,10 +357,10 @@ topcashback.com##FORM[action="/account/dashboard/"] DIV.gecko-secondary > DIV.ge
 topcashback.com##FORM[action="/blog/b2s-treats-game/"] .gecko-primary
 topcashback.com##FORM[action="/home"] > DIV.gecko-main
 topcashback.com##[action="/account/overview/"] DIV.gecko-single-container.no-overflow:first-child + DIV.gecko-single-container.no-overflow:last-child
-tusfiles.net##+js(abort-on-property-write.js, Fingerprint2)
-tusfiles.net##+js(window.open-defuser.js)
+tusfiles.net##+js(abort-on-property-write, Fingerprint2)
+tusfiles.net##+js(window.open-defuser)
 tvso.pl##BUTTON.fb-share-button
-userscloud.com##+js(abort-on-property-write.js, decodeURIComponent)
+userscloud.com##+js(abort-on-property-write, decodeURIComponent)
 vider.info##DIV#video-ad-preroll
 vider.info##DIV.padding-10.ad-750
 wordribbon.tips.net###lightbox_backdrop
@@ -387,7 +387,7 @@ zdajmyrazem.pl##DIV.adv_info
 zdajmyrazem.pl##DIV.col-xs-12 > DIV.panel.panel-default.hidden-print
 zdajmyrazem.pl##DIV.fb-share-button
 zdajmyrazem.pl##DIV[class*="adsense"]
-zippyshare.com##+js(abort-on-property-write.js, acPrefetch)
+zippyshare.com##+js(abort-on-property-write, acPrefetch)
 ||1.bp.blogspot.com/-nGv6NlWupqM/WjTXPMCcGWI/AAAAAAAAEvE/u4Zx_HSpDAQjr_8-eoagyndIqkcxM_XWwCLcBGAs/s1600/uplod.cc%2Binstagram%2Bofficial.png
 ||1337x.to/js/aacabeabdcba.js
 ||accounts.google.com^$domain=opensubtitles.org
@@ -1291,10 +1291,10 @@ www.otodom.pl##div.css-1l60ty6
 !@@||connect.facebook.net^$3p,domain=~facebook.com|~fb.com
 
 
-cosmobox.org##+js(no-setInterval-if.js)
-cosmobox.org##+js(no-setTimeout-if.js)
-!cosmobox.org##+js(nano-setTimeout-booster.js)
-!cosmobox.org##+js(set-constant.js, remaining, 0)
+cosmobox.org##+js(no-setInterval-if)
+cosmobox.org##+js(no-setTimeout-if)
+!cosmobox.org##+js(nano-setTimeout-booster)
+!cosmobox.org##+js(set-constant, remaining, 0)
 ||cosmobox.org/*clipBoard$script
 ||cosmobox.org/*rightClick$script
 ||cosmobox.org/*waves$script
@@ -2083,7 +2083,7 @@ sports24.club##DIV > DIV[style="width:300px;height:250px;overflow:hidden;margin:
 !Chyba pasek ładowania
 ||prem.link/themes/css/pace.min.js
 ||prem.link/themes/css/pace_loading_bar.css
-!prem.link##+js(popads.net.js)
+!prem.link##+js(popads.net)
 prem.link##+js(aopw, _pop)
 !A to raczej niepotrzebne:
 ||prem.link/themes/plyr/rangetouch.js

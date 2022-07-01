@@ -30,7 +30,7 @@ interia.pl##DIV.socbar
 interia.pl##DIV[class^="ad ad_"]
 interia.pl##DIV[class^="ad-"]
 interia.pl##LI.google-shareButton
-interia.pl##+js(abort-on-property-write.js, url)
+interia.pl##+js(abort-on-property-write, url)
 interia.tv##DIV.ad
 okazjum.pl##DIV.eu-cookies
 poczta.interia.pl##DIV.sitebar-advert-fake

@@ -23,9 +23,9 @@ www.wp.pl##SECTION#section_lifestyle > DIV:first-child + DIV[class]
 /^https:\/\/v\.wpimg\.pl\/[a-z0-9A-Z-=]{100,}$/$image,domain=sportowefakty.wp.pl
 !||sportowefakty.wp.pl^$inline-script
 !||sportowefakty.wp.pl^$script,first-party
-sportowefakty.wp.pl##+js(abort-on-property-write.js, gDataConfig)
-sportowefakty.wp.pl##+js(abort-on-property-write.js, t)
-sportowefakty.wp.pl##+js(abort-on-property-write.js, abort-current-inline-script.js)
+sportowefakty.wp.pl##+js(abort-on-property-write, gDataConfig)
+sportowefakty.wp.pl##+js(abort-on-property-write, t)
+sportowefakty.wp.pl##+js(abort-on-property-write, abort-current-inline-script)
 @@||sportowefakty.wp.pl/MTc4X19fYicXVSxYWkknJ0xe
 !||sportowefakty.wp.pl/MTc4X19fJDVMVXdYFhU5M0xD$script
 @@||sportowefakty.wp.pl/MTc4X19fJDVMVXdYFhU5M0xDKFtKCiQ2TkQqV$script
@@ -74,8 +74,8 @@ sportowefakty.wp.pl##+js(abort-on-property-write.js, abort-current-inline-script
 /^https?:\/\/[a-z\.]*\.wp\.pl\/[A-Z0-9a-z=]{300,}$/$stylesheet,domain=sportowefakty.wp.pl
 ||adv.wp.pl/RM/Box/c/b/inline/inline_autokult_desktop.js
 ||dobrymechanik.pl^$domain=autokult.pl
-autokult.pl##+js(abort-on-property-write.js, __serviceAbModal)
-autokult.pl##+js(abort-on-property-write.js, __serviceExInModal)
+autokult.pl##+js(abort-on-property-write, __serviceAbModal)
+autokult.pl##+js(abort-on-property-write, __serviceExInModal)
 autokult.pl##FIGURE[class*="insert--size-"]:if-not(DIV.image):if-not(SECTION.author__basic-data:first-child:last-child)
 autokult.pl##DIV[id^="post-socials-"]
 /tools_python/stats/view/*?_=$xmlhttprequest,first-party,domain=autokult.pl

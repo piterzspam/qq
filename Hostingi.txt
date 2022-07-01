@@ -39,7 +39,7 @@
 @@||CLICKNUPLOAD.LINK^$generichide
 clicknupload.link##INS.adsbygoogle
 ||clicknupload.link/js/share.js
-clicknupload.link##+js(noeval.js)
+clicknupload.link##+js(noeval)
 @@||CLOUDTIME.TO^$generichide
 ||cloudtime.to/*remove_ads
 @@||cloudtime.to/*popup*popunder*.js
@@ -187,7 +187,7 @@ rockfile.eu##DIV[style="text-align: center;"][align="Center"]
 salefiles.com##DIV[style="padding-top:10px; padding-bottom:10px;"]
 salefiles.com##DIV[id*="ScriptRoot"]
 ||salefiles.com/images_classic/txt_slow.png
-salefiles.com##+js(noeval.js)
+salefiles.com##+js(noeval)
 ||namesakeoscilloscopemarquis.com$popup
 ||ximg.link/xxx/jquery.min.js
 ||adstract.com
@@ -251,7 +251,7 @@ about:blank$popup,domain=up07.me
 ||up07.me/open*.js
 ||upimg.me$domain=up07.me
 ||up-00.com$domain=up07.me
-up07.me##+js(noeval.js)
+up07.me##+js(noeval)
 ||up07.net/images/ban
 up07.net##script:contains(window.atob)
 up07.net##script:contains(rwmrgfdq_Popup)
@@ -322,7 +322,7 @@ vidup.me##DIV.col-md-3.text-right > DIV.btn-group
 @@||VIDZI.TV^$generichide
 $websocket,domain=vidzi.tv
 ||vidzi.tv/*300.html
-!vidzi.tv##+js(noeval.js)
+!vidzi.tv##+js(noeval)
 !vidzi.tv##script:contains(p,a,c,k,e,d)
 $popup,domain=vidzi.tv
 ||ww1.vidzi.tv

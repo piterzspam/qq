@@ -134,6 +134,6 @@ natemat.pl##SPAN[data-stat-furl] > SPAN[class]
 @@||mobile.natemat.pl/static/js/main.*.js
 ||s.natemat.pl/js/cmp/config.js?$script
 mobile.natemat.pl##DIV.css-1pp1qsr:style(position: absolute !important;)
-mobile.natemat.pl##+js(abort-on-property-read.js, gemius_pending)
-mobile.natemat.pl##+js(abort-on-property-read.js, APP_FORCE_RWD)
+mobile.natemat.pl##+js(abort-on-property-read, gemius_pending)
+mobile.natemat.pl##+js(abort-on-property-read, APP_FORCE_RWD)
 ||video.onnetwork.tv^$domain=natemat.pl,important

@@ -524,7 +524,7 @@ onet.pl#@#HTML[\⚡] > BODY AMP-SOCIAL-SHARE
 ampproject.org#@#HTML[\⚡] > BODY AMP-SOCIAL-SHARE
 
 !#amp - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp
-!onet.pl##+js(ampproject_v0.js)
+!onet.pl##+js(ampproject_v0)
 !Wykomentowane, bo psuło filtry ##+js( na mobilnej stronie głównej
 
 !#amp #ampproject - https://wiadomosci.onet.pl/warszawa/pizamki/ppbf3kt.amp

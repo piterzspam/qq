@@ -158,7 +158,7 @@ dziennik.pl##FIGURE.articleReadMore
 
 @@||dziennik.pl^$generichide
 @@||forsal.pl^$generichide
-forsal.pl##+js(set-constant.js, canRunAds, true)
+forsal.pl##+js(set-constant, canRunAds, true)
 forsal.pl##DIV#positionBoxMenu
 forsal.pl##DIV.articleBody > P:has-text(>>> Czytaj też:)
 forsal.pl##DIV.articleBody > P:last-child:if(A[href="http://forsal.pl/finanse/notowania/"])
@@ -413,7 +413,7 @@ money.pl##BODY > AMP-SIDEBAR + MAIN > ARTICLE > P:has-text(Masz newsa, zdjęcie 
 @@||acdn.adnxs.com/ast/ast.js$domain=msn.com,badfilter
 @@||cdn.taboola.com/libtrc^$domain=msn.com,badfilter
 @@||msn.com^$generichide
-msn.com##+js(abort-current-inline-script.js, define, requestPageRevealCallback)
+msn.com##+js(abort-current-inline-script, define, requestPageRevealCallback)
 msn.com##DIV#smartbanner
 msn.com##DIV.aaiyvru:style(position: static !important;)
 msn.com##DIV.head:style(position: static !important;)
@@ -431,7 +431,7 @@ msn.com##SECTION.morefromproviderrr
 ||sdad.guru^$xmlhttprequest,domain=msn.com
 @@||acdn.adnxs.com/ast/ast.js$domain=msn.com,badfilter
 
-mobile.natemat.pl##+js(abort-on-property-read.js, APP_FORCE_RWD)
+mobile.natemat.pl##+js(abort-on-property-read, APP_FORCE_RWD)
 mobile.natemat.pl##DIV#footer
 mobile.natemat.pl##DIV.css-1ovum16
 mobile.natemat.pl##DIV.css-1su3dke
@@ -1065,7 +1065,7 @@ msn.com##MAIN#main > DIV.paddle.loaded
 msn.com##DIV#smartbanner
 msn.com##SECTION.morefromcategory
 msn.com##SECTION.morefromproviderrr
-msn.com##+js(abort-current-inline-script.js, define, requestPageRevealCallback)
+msn.com##+js(abort-current-inline-script, define, requestPageRevealCallback)
 
 ||radiozet.pl^$inline-script
 ||imasdk.googleapis.com^$domain=radiozet.pl
@@ -1085,7 +1085,7 @@ msn.com##+js(abort-current-inline-script.js, define, requestPageRevealCallback)
 ||radiozet.pl/externals/xml/pogoda/data.json$xmlhttprequest,domain=radiozet.pl
 
 @@||dziennik.pl^$generichide
-forsal.pl##+js(set-constant.js, canRunAds, true)
+forsal.pl##+js(set-constant, canRunAds, true)
 ||bootstrapcdn.com^$domain=dziennik.pl
 ||bootstrapcdn.com^$domain=forsal.pl
 ||fonts.googleapis.com^$domain=forsal.pl

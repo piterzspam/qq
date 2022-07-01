@@ -72,7 +72,7 @@ rp.pl##SPAN.article__premium-player
 
 !Puste kafle na stronie głównej
 !https://www.rp.pl/
-rp.pl##+jd(abort-on-property-write.js, _gremi_adverts)
+rp.pl##+jd(abort-on-property-write, _gremi_adverts)
 rp.pl##DIV.teaser-ads
 
 !Blokwoanie biepotrzebnego logowania i baneru z prenumeratą nad paskiem nawigacyjnym
@@ -167,7 +167,7 @@ e.infogram.com##DIV#footer
 !https://www.rp.pl/Wybory-prezydenckie-2020/200509472-Wkrotce-stanowisko-Solidarnej-Polski-ws-wyborow.html
 
 !
-!rp.pl##+js(noeval.js)
+!rp.pl##+js(noeval)
 
 !Komunikat o RODO po wejściu na stronę
 !https://cdn.rp.pl//tcfapi/tcfapi.min.js

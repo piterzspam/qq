@@ -78,8 +78,8 @@ se.pl##DIV.recommended-content
 ||se.pl/media/desktop/css/quizzes_
 ||se.pl/quizzes/
 !Oba te filtry zablokują wywołanie funkcji load_quiz(repeat) wysyłającej żądania zawartej w kodzie strony
-se.pl##+js(abort-on-property-read.js, load_quiz)
-se.pl##+js(abort-on-property-write.js, load_quiz)
+se.pl##+js(abort-on-property-read, load_quiz)
+se.pl##+js(abort-on-property-write, load_quiz)
 
 !Puste szare miejsca po reklamach na dole strony
 !https://www.se.pl/radom/koronawirus-w-radomiu-pracownik-magistratu-zakazony-aa-LC71-217K-WvR2.html
@@ -87,7 +87,7 @@ se.pl##DIV.placement__lazy
 
 !Blokowanie ładowania kolejnych artykułów przy przewijaniu w dół
 !https://www.se.pl/wiadomosci/polityka/kaczynski-bez-maseczki-w-tvp-wspomina-walese-blokowal-lustracje-i-dekomunizacje-aa-jdSb-spt9-7bux.html
-se.pl##+js(addEventListener-defuser.js, scroll, triggerArticleLoad)
+se.pl##+js(addEventListener-defuser, scroll, triggerArticleLoad)
 
 !Linki w treści artykułu
 !https://www.se.pl/warszawa/trwaja-wiosenne-porzadki-na-drogach-drogowcy-poprawiaja-malowanie-ulic-aa-sCYH-m6Xm-1rkn.html
@@ -161,14 +161,14 @@ se.pl##+js(addEventListener-defuser.js, scroll, triggerArticleLoad)
 !Koniec: https://www.se.pl/bydgoszcz/epidemia-koronawirusa-sprawdzilismy-co-sie-zmieni-w-przedszkolach-wideo-zdjecia-aa-cegx-DKEf-Nfvc.html
 
 
-!se.pl##+js(addEventListener-logger.js)
-!se.pl##+js(set-constant.js, autoplay, 0)
+!se.pl##+js(addEventListener-logger)
+!se.pl##+js(set-constant, autoplay, 0)
 
 !||se.pl/static/js/front/front.min.js?
 !||unpkg.com^
 
-!se.pl##+js(abort-on-property-read.js, getNewArticle)
-!se.pl##+js(abort-on-property-write.js, getNewArticle)
+!se.pl##+js(abort-on-property-read, getNewArticle)
+!se.pl##+js(abort-on-property-write, getNewArticle)
 
 !Początek: https://www.se.pl/auto/nowosci/arkadiusz-milik-i-kamil-glik-odmienili-swoje-auta-bmw-x6-i-audi-q5-po-tuningu-u-braci-collins-aa-KpPH-LEjU-Gp4G.html
 !Przycisk do Google News pod artykułem

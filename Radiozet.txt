@@ -82,10 +82,10 @@ radiozet.pl##DIV.full__image__share
 radiozet.pl##P:if(>A[href*="radiozet.pl"][target="_blank"][rel="dofollow noopener"]:only-child)
 
 !Dodawanie "Więcej: + url" przy kopiowaniu
-radiozet.pl##+js(addEventListener-defuser.js, copy)
+radiozet.pl##+js(addEventListener-defuser, copy)
 
 !Automatyczne odtwarzanie wideo kiedy jest widoczne
-radiozet.pl##+js(addEventListener-defuser.js, scroll, unvisiblePlayer)
+radiozet.pl##+js(addEventListener-defuser, scroll, unvisiblePlayer)
 
 !Na stronie 
 !https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Czarzasty-do-Dudy-Bracie-niczego-nie-bedziesz-sklejal.-To-ty-to-rozwaliles
@@ -102,10 +102,10 @@ radiozet.pl##+js(addEventListener-defuser.js, scroll, unvisiblePlayer)
 
 !Quantcast Choice z kodu źródwłowego strony
 !https://wiadomosci.radiozet.pl/Gosc-Radia-ZET/Czarzasty-do-Dudy-Bracie-niczego-nie-bedziesz-sklejal.-To-ty-to-rozwaliles
-radiozet.pl##+js(no-setTimeout-if.js, __uspapi)
-radiozet.pl##+js(no-setTimeout-if.js, otherCMP, 5)
-radiozet.pl##+js(addEventListener-defuser.js, message, msgIsString)
-radiozet.pl##+js(no-setInterval-if.js, __uspapi)
+radiozet.pl##+js(no-setTimeout-if, __uspapi)
+radiozet.pl##+js(no-setTimeout-if, otherCMP, 5)
+radiozet.pl##+js(addEventListener-defuser, message, msgIsString)
+radiozet.pl##+js(no-setInterval-if, __uspapi)
 radiozet.pl##^script:has-text(makeStub)
 
 !Pasek wróć na stronę główną na dole strony

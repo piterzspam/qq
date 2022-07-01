@@ -36,7 +36,7 @@ $subdocument,domain=nistujwppzczgso.net|qwijurehyh.net|ouhfmgqohkm.net|dnlxwswca
 /[a-z]{10,15}\.net\/[^\/]{20}\/[^\/]{20}$/$inline-script
 ||jzrputtbut.net/scripts/jquery.js$script,redirect=noopjs
 /^[^\/]*:\/\/(?!www\.linkbucks\.com)(?!www\.jzrputtbut\.net)(.*)/$~script,~subdocument,domain=jzrputtbut.net
-/^[^\/]*:\/\/(?![^\/]*\/scripts\/intermissionLink\.v13\.js)(.*)/$script,domain=jzrputtbut.net
+/^[^\/]*:\/\/(?![^\/]*\/scripts\/intermissionLink\.v13\)(.*)/$script,domain=jzrputtbut.net
 /^[^\/]*:\/\/(?![^\/]*\/tmpl\/mint\/img\/int_)(.*)/$image,domain=jzrputtbut.net
 /^[^\/]*:\/\/(?![^\/]*\/[0-9a-z]*$)(.*)/$document,domain=jzrputtbut.net
 ||newrelic.com
@@ -46,7 +46,7 @@ $subdocument,domain=nistujwppzczgso.net|qwijurehyh.net|ouhfmgqohkm.net|dnlxwswca
 |blob:$domain=adyou.me
 ||adyou.me$~image,~script,~stylesheet,~xmlhttprequest
 $third-party,~script,domain=adyou.me
-/(?!^https?:\/\/go\.oclasrv\.com\/apu\.php\?zoneid=[0-9]*)(?!https?:\/\/ajax\.cloudflare\.com\/[^\.]*\/cloudflare\.min\.js)(?!https?:\/\/adyou\.me\/[^\.]*rocket\.js)(^https?:\/\/[^\/]*)/$script,domain=adyou.me
+/(?!^https?:\/\/go\.oclasrv\.com\/apu\.php\?zoneid=[0-9]*)(?!https?:\/\/ajax\.cloudflare\.com\/[^\.]*\/cloudflare\.min\)(?!https?:\/\/adyou\.me\/[^\.]*rocket\)(^https?:\/\/[^\/]*)/$script,domain=adyou.me
 
 
 !AL.LY
@@ -63,14 +63,14 @@ al.ly,ally.sh##DIV.text-center > A.btn.last-btn.redirect + * + HR
 $~image,~script,~stylesheet,~xmlhttprequest,first-party,domain=bc.vc
 $third-party,domain=bc.vc
 /(?!^https?:\/\/bc\.vc\/css\/style\.css)(^https?:\/\/[^\/]*\/.*)/$stylesheet,domain=bc.vc
-/(?!^https?:\/\/bc\.vc\/js\/jquery\.min\.js)(^https?:\/\/[^\/]*\/.*)/$script,domain=bc.vc
+/(?!^https?:\/\/bc\.vc\/js\/jquery\.min\)(^https?:\/\/[^\/]*\/.*)/$script,domain=bc.vc
 /(?!^https?:\/\/bc\.vc\/images\/logo\.png$)(^https?:\/\/[^\/]*\/.*)/$image,domain=bc.vc
 ||track.bcvc.mobi
 
 !COINLINK.CO
 $~font,~image,~stylesheet,first-party,domain=coinlink.co
 $~font,~script,~stylesheet,~subdocument,third-party,domain=coinlink.co
-/(?!^https?:\/\/(code\.jquery\.com|googleapis\.com|www\.google\.com|www\.gstatic\.com|linkshrink\.net\/.*jquery-.*\.js))(^https?:\/\/[^\/]*\/.*)/$script,third-party,domain=coinlink.co
+/(?!^https?:\/\/(code\.jquery\.com|googleapis\.com|www\.google\.com|www\.gstatic\.com|linkshrink\.net\/.*jquery-.*\))(^https?:\/\/[^\/]*\/.*)/$script,third-party,domain=coinlink.co
 /(?!^https?:\/\/www\.google\.com)(^https?:\/\/[^\/]*\/.*)/$subdocument,third-party,domain=coinlink.co
 coinlink.co##INS.adsbygoogle
 coinlink.co##DIV.g2
@@ -103,7 +103,7 @@ fas.li##INS.adsbygoogle
 !KEEPLINKS.EU
 $~image,~script,~stylesheet,first-party,domain=keeplinks.eu
 $~image,~script,~stylesheet,~subdocument,third-party,domain=keeplinks.eu
-/(?!^https?:\/\/((ajax\.)?googleapis\.com|www\.google\.com|www\.gstatic\.com|api-secure\.solvemedia\.com|web\.adblade\.com\/.*show\.js))(^https?:\/\/[^\/]*\/.*)/$script,third-party,domain=keeplinks.eu
+/(?!^https?:\/\/((ajax\.)?googleapis\.com|www\.google\.com|www\.gstatic\.com|api-secure\.solvemedia\.com|web\.adblade\.com\/.*show\))(^https?:\/\/[^\/]*\/.*)/$script,third-party,domain=keeplinks.eu
 /(?!^https?:\/\/(www\.google\.com|api-secure\.solvemedia\.com|web\.adblade\.com))(^https?:\/\/[^\/]*\/.*)/$subdocument,third-party,domain=keeplinks.eu
 /(?!^https?:\/\/api-secure\.solvemedia\.com)(^https?:\/\/[^\/]*\/.*)/$image,third-party,domain=keeplinks.eu
 !$first-party,third-party,domain=adblade.com
@@ -120,7 +120,7 @@ $third-party,domain=link.tl
 !LINKSHRINK.NET
 $~script,~stylesheet,first-party,domain=linkshrink.net
 $third-party,domain=linkshrink.net
-linkshrink.net##+js(noeval.js)
+linkshrink.net##+js(noeval)
 
 !OUO.IO
 $~image,~stylesheet,first-party,domain=ouo.io

@@ -17,9 +17,9 @@
 !||tools.services.tvn.pl/_ads/advert.js$important - nie wiem po co to nadpisywałem
 !Ustawienie wartości z pliku tools.services.tvn.pl/_ads/advert.js
 !ADBLOCK_DETECTED=false;window.adBlockPresent=false;var ADBL_TRAFFIC=0;
-get.x-link.pl##+js(set-constant.js, ADBLOCK_DETECTED, false)
-get.x-link.pl##+js(set-constant.js, window.adBlockPresent, false)
-get.x-link.pl##+js(set-constant.js, ADBL_TRAFFIC, 0)
+get.x-link.pl##+js(set-constant, ADBLOCK_DETECTED, false)
+get.x-link.pl##+js(set-constant, window.adBlockPresent, false)
+get.x-link.pl##+js(set-constant, ADBL_TRAFFIC, 0)
 !Stary filtr blokujący napis "Reklama": https://github.com/MajkiIT/polish-ads-filter/issues/3167
 pl#@#h2 > span
 !POL: Oficjalne polskie filtry przeciwko alertom o Adblocku 
@@ -92,7 +92,7 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !Linki w słowach napisane czcionką zwykłą i pogrubioną z parametrami #utm_medium=alz&utm_source= nie posiadający [title], który prowadzi do czegoś senswonego w nowinach24.pl
 !https://nowiny24.pl/stalowa-wola-24latek-spowodowal-kolizje-i-uciekl-wiadomo-juz-dlaczego-nowe-fakty/ar/c16-14845680
 !https://gazetawroclawska.pl/koronawirus-w-polsce-rzad-odwolal-wszystkie-imprezy-masowe-mecze-bez-kibicow-w-srode-kolejne-decyzje-czym-jest-impreza-masowa/ar/c1-14847825
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(remove-attr.js, href, DIV.md > P A[href*="#utm_medium=alz&utm_source="]:not([title]))
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(remove-attr, href, DIV.md > P A[href*="#utm_medium=alz&utm_source="]:not([title]))
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##DIV.md > P A:not([title]):style(cursor: unset !important;color: unset !important)
 
 !Quiz w treści artykułu: Czy gdzieś w swoim bliskim otoczeniu spotkałeś się z metodą oszustwa "na wnuczka"?
@@ -406,7 +406,7 @@ polskatimes.pl##ARTICLE#material > SECTION#tresc DIV.materialVideo.xlink.textC +
 
 !Link w tekście: "masa krytyczna"
 !https://polskatimes.pl/patryk-jaki-jesli-nasi-wyborcy-uznaja-ze-odpuscilismy-to-sie-odwroca-rozwiazania-o-szukaniu-glosow-mitycznego-centrum-sufluje/ar/c1-14787720
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(remove-attr.js, href, ARTICLE#material > SECTION#tresc A.alz)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(remove-attr, href, ARTICLE#material > SECTION#tresc A.alz)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##ARTICLE#material > SECTION#tresc A.alz:style(cursor: unset !important; color: unset !important)
 
 !addEventListener tworzący odwołanie do mreg.hit.gemius.pl/xgemius.js
@@ -422,10 +422,10 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 !W pliku s-pt.ppstatic.pl/o/js/osnowa.js powoduje, że skrypt nie przechodzi do jQuery.post("/_event/jserror/", obj), działało również:
 !echodnia.eu##+js(abort-on-property-read, jQuery.post)
 !https://echodnia.eu/radomskie/
-!echodnia.eu,pl##+js(set-constant.js, oG_OSA.debug, true)
+!echodnia.eu,pl##+js(set-constant, oG_OSA.debug, true)
 !https://polskatimes.pl/
 !Działa na stronę główną, na https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031 nadal xhr ze skryptu inline
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant.js, oG_OSA.debug, true)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##+js(set-constant, oG_OSA.debug, true)
 !Nie działa na skrypt inline na stronie https://pomorska.pl/rzad-zakazuje-zgromadzen-powyzej-50-osob-episkopat-nie-oglasza-zamkniecia-kosciolow/ar/c1-14857031, więc:
 /_event/jserror/$xhr,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|ekstramagazyn.pl|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 
@@ -518,12 +518,12 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 
 !echodnia.eu,pl##+js(abort-current-inline-script, window.onerror)
 !echodnia.eu,pl##+js(abort-current-inline-script, jQuery.post, jserror)
-!echodnia.eu,pl##+js(set-constant.js, window.onerror, true)
-!echodnia.eu,pl##+js(set-constant.js, window.onerror, trueFunc)
-!echodnia.eu,pl##+js(set-constant.js, window.onerror, falseFunc)
+!echodnia.eu,pl##+js(set-constant, window.onerror, true)
+!echodnia.eu,pl##+js(set-constant, window.onerror, trueFunc)
+!echodnia.eu,pl##+js(set-constant, window.onerror, falseFunc)
 !echodnia.eu##+js(abort-on-property-read, obj.url)
-!DZIAŁA - echodnia.eu,pl##+js(set-constant.js, oG_OSA.debug, true)
-!echodnia.eu,pl##+js(set-constant.js, oG_OSA.debug, true)
+!DZIAŁA - echodnia.eu,pl##+js(set-constant, oG_OSA.debug, true)
+!echodnia.eu,pl##+js(set-constant, oG_OSA.debug, true)
 !echodnia.eu,pl##+js(addEventListener-logger)
 !echodnia.eu,pl##+js(addEventListener-defuser)
 

@@ -8,7 +8,7 @@ shrinkme.io##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 
 shrinkme.io##HTML > BODY:style(font-size: 0px !important;)
 shrinkme.io##HTML > BODY.banner-page > DIV.container > DIV.row > DIV.col-md-10 > H4
 shrinkme.io##HTML > BODY.banner-page > DIV.container > DIV.row > DIV.col-md-10 > H5
-shrinkme.io##+js(abort-on-property-write.js, addDictionary)
+shrinkme.io##+js(abort-on-property-write, addDictionary)
 shrinkme.io##DIV.alert:style(font-size: 12px !important;)
 ||dc5k8fg5ioc8s.cloudfront.net^
 ||d1r90st78epsag.cloudfront.net^

@@ -28,7 +28,7 @@ ampproject.org##BODY:matches-css(animation: ):style(animation: unset !important;
 ampproject.org##BODY:matches-css(-ms-animation: ):style(-ms-animation: unset !important;)
 ampproject.org##BODY:matches-css(-moz-animation: ):style(-moz-animation: unset !important;)
 ampproject.org##BODY:matches-css(-webkit-animation: ):style(-webkit-animation: unset !important;)
-ampproject.org##+js(ampproject_v0.js)
+ampproject.org##+js(ampproject_v0)
 !Komunikat na wersji AMP strony
 !https://wiadomosci.onet.pl/kraj/jaki-rezolucja-ue-o-strefie-wolnosci-dla-osob-lgbt-zawiera-bzdury-i-klamstwa/bnh1nm5.amp?amp_js_v=0.1
 ampproject.org##AMP-CONSENT

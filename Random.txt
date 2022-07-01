@@ -12,11 +12,11 @@
 
 !ad-maven.com start
 /^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/(\?[a-z]{3,5}=[0-9]{6}$|[a-zA-Z0-9]*\%3D\%3D$)/$script,third-party
-!Poniższy filtr można zastąpić filtrem ##+js(abort-on-property-write.js, TID) 
+!Poniższy filtr można zastąpić filtrem ##+js(abort-on-property-write, TID) 
 /^https?:\/\/s3\.amazonaws\.com\/[0-9a-z]{53,56}\/(secure\.js|[0-9a-z]{9,10})$/$script,xmlhttprequest,third-party
 
 !Jeżeli skrypt z /^https?://d[0-9a-z]{12,13}.cloudfront.net/?[a-z]{3,5}=[0-9]{6}$/$script,third-party został wklejony w treść strony (http://shink.in/go/dvpEb po captchy, http://indishare.me/j1c0ep4sxpmg po kliknięciu Download Here) lub powyższy filtr został wyłączony)
-!Poniższe filtry można zastąpić filtrem ##+js(abort-on-property-write.js, Fingerprint2)
+!Poniższe filtry można zastąpić filtrem ##+js(abort-on-property-write, Fingerprint2)
 /^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/[a-zA-Z0-9%-]{88}/$script,third-party
 /^https?:\/\/[a-z]{7,10}\.[a-z]*\/popunder\.gif$/$image,xmlhttprequest,third-party
 /^https?:\/\/[a-z]{7,10}\.[a-z]*\/[a-zA-Z0-9+\/]{400}/$subdocument,third-party
@@ -25,11 +25,11 @@
 javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 !ad-maven stop
 
-!Poniższy filtr nie jest potrzebny po dodaniu ##+js(abort-on-property-write.js, _pop)
+!Poniższy filtr nie jest potrzebny po dodaniu ##+js(abort-on-property-write, _pop)
 /https?:\/\/www\.[a-z]{8,14}\.[a-z]+\/[a-z]{1,4}\.js/$script,third-party
 
 !Poniższe filtry nie są potrzebne po dodaniu ||go.onclasrv.com/apu.php$script,redirect=noopjs,important lub ||gebadu.com/apu.php$script,redirect=noopjs,important
-!Poniższe filtry nie są potrzebne po dodaniu ##+js(abort-on-property-read.js, zfgloadedpopup)
+!Poniższe filtry nie są potrzebne po dodaniu ##+js(abort-on-property-read, zfgloadedpopup)
 ##HTML > BODY > A[href$=".html"][rel="nofollow norefferer noopener"][style]:last-child
 /https?:\/\/[0-9a-z]{12,13}\.com\/[0-9]{6}\//$xmlhttprequest,third-party
 /https?:\/\/[0-9a-z]{12,42}\.com\/[0-9]{6,7}(\/|\.css)/$script,stylesheet,xmlhttprequest,third-party
@@ -55,7 +55,7 @@ javascript:window.opener=null;setTimeout(function(){window.location.href='$popup
 
 ||hilltopads.net
 ||htmonster.com
-!Gdy te filtry są w użyciu można użyć ##+js(impspcabe-defuser.js)
+!Gdy te filtry są w użyciu można użyć ##+js(impspcabe-defuser)
 /^https?:\/\/[a-z]*\.com\/(path\/ads\/ads\.js|\.adframesrc\.)$/$script,third-party
 @@/^https?:\/\/[a-z]*\.com\/(path\/ads\/ads\.js|\.adframesrc\.)$/$script,third-party
 /^https?:\/\/[a-z]*\.com\/(path\/ads\/ads\.js|\.adframesrc\.)$/$script,third-party,important,domain=kingvid.tv|rapidvideo.com

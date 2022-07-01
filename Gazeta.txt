@@ -25,8 +25,8 @@ weekend.gazeta.pl##DIV.shortSocialBar
 !Sekcja z polubieniem pod artykułem
 weekend.gazeta.pl##DIV.cmsArtykulElem > DIV.noApp:last-child
 !Blokada dodawania \n Więcej:+ link przy kopiowaniu
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, copy)
-czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, addUrlToClipboard)
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser, copy)
+czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser, DOMContentLoaded, addUrlToClipboard)
 !Koniec: https://weekend.gazeta.pl/weekend/1,152121,25835944,ikonowicz-raz-czy-dwa-uslyszalem-komunista-ale-nie-od-ludzi.html
 
 
@@ -65,7 +65,7 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Reklamy między paragrafami w tekście banerami: banC
 !czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(abort-on-property-write, dfpParams)
 !Belka na dole z innym artykułem po rozwinięciu artykułu na stronie mobilnej
-!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, hpNotifications)
+!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser, DOMContentLoaded, hpNotifications)
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##A.hp-notification-mobile
 ||hp-api.gazeta.pl/hp/v2/notifications/get/?
 ||adv.adview.pl^
@@ -73,7 +73,7 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Wideo powiązane w treści artykułu na stronie 
 !gazeta.pl##DIV.art_embed:if(SCRIPT[src*="video.onnetwork.tv/"])
 !Link w słowie (PKB) artykułu: Czyli mechaniczne straty przy zamrożeniu gospodarczym to około 1,5 proc. rocznego
-!gazeta.pl##+js(remove-attr.js, href, A.art_link[href*="?tag="])
+!gazeta.pl##+js(remove-attr, href, A.art_link[href*="?tag="])
 !Quiz pod artykułem
 czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##SECTION.related_quiz
 !Koniec: https://next.gazeta.pl/next/7,151003,25865220,musimy-zrobic-cos-co-napawalo-nas-groza-od-czasow-gierka-poteznie.html
@@ -101,9 +101,9 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 ||onnetwork.tv/js/intersection-observer.min.js
 !Prawy przycisk myszy nie działa na wideo (element), przez eventlistener w atrybutach
 !<div id="allContainer" class="allContainer noSelect mobile smartphone smta">
-onnetwork.tv##+js(remove-attr.js, oncontextmenu)
+onnetwork.tv##+js(remove-attr, oncontextmenu)
 !Prawy przycisk myszy nie działa na odtwarzanym wideo
-onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
+onnetwork.tv##+js(addEventListener-defuser, contextmenu, preventDefault)
 @@||video.onnetwork.tv/adblock_notify.js
 ||video.onnetwork.tv/vast/vdata
 !||cdn.onnetwork.tv/cnt/a_cntm.png?ts=
@@ -112,7 +112,7 @@ onnetwork.tv##+js(addEventListener-defuser.js, contextmenu, preventDefault)
 ||cdn.onnetwork.tv/cnt/
 !Prznoszenie do strony głównej do przewinięciu strony na dół
 /aliasy/hp2018/hp_redirector.htm$xhr,domain=czterykaty.pl|edziecko.pl|gazeta.pl|haps.pl|moto.pl|plotek.pl|sport.pl|wpodrozy24.pl
-!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser.js, DOMContentLoaded, HpRedirector)
+!czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy24.pl##+js(addEventListener-defuser, DOMContentLoaded, HpRedirector)
 !Z treści wnioskuję, że to coś do RODO
 !https://static.im-g.pl/static/uom/tcf-20/master/dist/vendor-list.json
 !https://static.im-g.pl/static/uom/tcf-20/master/dist/purppl.json
@@ -181,8 +181,8 @@ czterykaty.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,plotek.pl,sport.pl,wpodrozy2
 !Początek: https://wiadomosci.gazeta.pl/wiadomosci/7,114884,25925995,to-nie-koniec-a-dopiero-poczatek-klopotow-zjednoczonej-prawicy.html
 !Żądania do: hp-api.gazeta.pl/hp/v2/notifications/get/
 !https://static.im-g.pl/static/epo/style/deploy/master/webpack/production/Wiadomosci/311/pagetype7/main.js.jsgz
-gazeta.pl##+js(abort-on-property-write.js, gazeta_pl.hpNotificationsCookies)
-gazeta.pl##+js(abort-on-property-write.js, gazeta_pl.hpNotificationsCookiesModule)
+gazeta.pl##+js(abort-on-property-write, gazeta_pl.hpNotificationsCookies)
+gazeta.pl##+js(abort-on-property-write, gazeta_pl.hpNotificationsCookiesModule)
 !Filtr gazeta.pl##SECTION.art_content > P.art_paragraph:last-of-type z listy Agora_2 blokuje ostatni paragraf: "- mówi nam polityk opozycji od lat znający byłego wicepremiera."
 !gazeta.pl##SECTION.art_content > P.art_paragraph:last-of-type
 gazeta.pl#@#SECTION.art_content > P.art_paragraph:last-of-type

@@ -15,7 +15,7 @@
 @@||q.gs^$generichide
 /^[^\/]*:\/\/(?!(cdn\.)?(atominik\.com|riffhold\.com|bluenik\.com|babblecase\.com|tinyium\.com|microify\.com|pintient\.com|adf\.ly|ay\.gy|j\.gs|q\.gs))(?!adf\.ly)(.*)/$~image,~script,~stylesheet,~subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 /^[^\/]*:\/\/(?![^\/]*\/1market\.php\?i=)(.*)/$subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
-/^[^\/]*:\/\/(?!ajax\.googleapis\.com)(?![^\/]*.*(b64\.js|view84\.js))(.*)/$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
+/^[^\/]*:\/\/(?!ajax\.googleapis\.com)(?![^\/]*.*(b64\.js|view84\))(.*)/$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 $~image,~script,~stylesheet,~subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 ||s1-adfly.com/show.php?url=$subdocument,redirect=noopframe
 |blob:$domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
@@ -41,7 +41,7 @@ adyou.me##DIV.advert.benner-new
 al.ly##A[href="https://al.ly/user/register?ref=1"]
 al.ly##DIV.ads
 al.ly##FORM#form-captcha > HR
-al.ly##+js(bab-defuser.js)
+al.ly##+js(bab-defuser)
 al.ly##+js(fuckadblock.js-3.2.0)
 ||ad2up.com
 ||ad2up.com/afu.php$subdocument,important,redirect=noopframe,domain=al.ly
@@ -91,7 +91,7 @@ croco.site##INS.adsbygoogle
 @@||dmus.in/img/new-logo.png
 @@||FAS.LI^$generichide
 fas.li##INS.adsbygoogle
-fas.li##+js(popads.net.js)
+fas.li##+js(popads.net)
 ||cdnjs.cloudflare.com/ajax/libs/blockadblock/*/blockadblock.min.js$script,redirect=fuckadblock.js-3.2.0
 ||fas.li/d$popup
 ||fas.li/js/p

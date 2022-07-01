@@ -13,7 +13,7 @@
 ||dmp.videotarget.pl^
 
 !Strona stacjonarna i mobilna, linki w treści artykułu napisane tekstem zwykłym i pogrubionym
-dziennik.pl##+js(remove-attr.js, href, DIV.detail > P A[id][href*="dziennik.pl/tagi/"])
+dziennik.pl##+js(remove-attr, href, DIV.detail > P A[id][href*="dziennik.pl/tagi/"])
 dziennik.pl##DIV.detail > P A[id]:style(text-decoration: unset !important;color: unset !important;)
 !Te wideo są z domeny videotarget.pl, wideo sensowne są z ramki pulsembed.eu, tam jest ramka z videotarget
 !https://technologia.dziennik.pl/sprzet/artykuly/6438371,mio-c570-test-kamerka-samochodowa-nagrania.html
@@ -24,7 +24,7 @@ dziennik.pl##DIV.detail > P A[id]:style(text-decoration: unset !important;color:
 
 !Wyłączenie pokazywania playlisty po spauzowaniu lub przesunięciu kursora poza stronę
 !https://videotarget.pl/player/v1/stream/eyJzaXRlIjoxMDMyLCJwbGFjZW1lbnQiOjEwNDYsInRlbXBsYXRlIjo1LCJjb250ZXh0Ijo3NiwidHlwZSI6InN0cmVhbSJ9?type=stream&index=2&m=0&play=1&m=0&v=1
-videotarget.pl##+js(abort-on-property-read.js, playlist)
+videotarget.pl##+js(abort-on-property-read, playlist)
 !Wyłączenie automatycznego ładowania następnego filmu po zakończeniu aktualnego
 !https://videotarget.pl/player/v1/stream/eyJzaXRlIjoxMDMyLCJwbGFjZW1lbnQiOjEwNDYsInRlbXBsYXRlIjo1LCJjb250ZXh0Ijo3NiwidHlwZSI6InN0cmVhbSJ9?type=stream&index=2&m=0&play=1&m=0&v=1
 videotarget.pl##+js(nostif, video, timeOut * 1000 + 100)
@@ -49,7 +49,7 @@ dziennik.pl##DIV.social-container
 dziennik.pl##DIV.contentShareLeft
 
 !Unieruchomienie paska nawigacyjnego
-dziennik.pl##+js(addEventListener-defuser.js, scroll, firstStateNav)
+dziennik.pl##+js(addEventListener-defuser, scroll, firstStateNav)
 dziennik.pl##NAV.siteNavigation.pageWrapper.firstStateNav:style(position: sticky !important;)
 
 !Bez tego, po zmianie szerokości okna zmieni się szerokość paska nawigacyjnego
@@ -70,7 +70,7 @@ forsal.pl##DIV#inArticleAfter2P.articleBody > P:has-text(>>> Czytaj też:):if(A[
 forsal.pl##DIV.widget-fbLike-box
 !Linki w treści artykułu tekstem zwykłym i pogrubionym
 !https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
-forsal.pl##+js(remove-attr.js, href, DIV#inArticleAfter2P.articleBody > P A[href*="forsal.pl/tagi/"][title])
+forsal.pl##+js(remove-attr, href, DIV#inArticleAfter2P.articleBody > P A[href*="forsal.pl/tagi/"][title])
 forsal.pl##DIV#inArticleAfter2P.articleBody > P A[title]:style(text-decoration: unset !important;color: unset !important;)
 !Pole po powiązanym wideo pod artykułem
 !https://forsal.pl/gospodarka/aktualnosci/artykuly/1457096,piatkowski-mamy-ogromna-szanse-dogonic-zachod-polska-gospodarka-jest-superkonkurencyjna-wywiad.html
@@ -156,7 +156,7 @@ gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.widget-fbLike-box
 !Usunięcie słów bedących linkami w treści artykułu
 !https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html
 !https://praca.gazetaprawna.pl/artykuly/1455737,prawo-pracy-nie-ulatwia-zapobiegania-koronawirusowi.html
-gazetaprawna.pl##+js(remove-attr.js, href, DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > P A[href*="gazetaprawna.pl/"][title])
+gazetaprawna.pl##+js(remove-attr, href, DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > P A[href*="gazetaprawna.pl/"][title])
 gazetaprawna.pl##DIV.article > DIV.colsArt > DIV.colD > DIV.articleBody > P A[title]:style(text-decoration: unset !important;color: unset !important;)
 !Nagłówek po kafelkach pod "WIĘCEJ NA TEN TEMAT", wypełniane przez skrypt z: nextclick.pl/widget/core.js?key=
 !https://podatki.gazetaprawna.pl/artykuly/1448625,biala-lista-przelew-rachunek-niewidniejacy-w-wykazie.html

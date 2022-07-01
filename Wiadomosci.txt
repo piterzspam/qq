@@ -60,7 +60,7 @@ niezalezna.pl##DIV.articleToolsLeft
 niezalezna.pl##DIV#article2
 niezalezna.pl##DIV#article3
 niezalezna.pl##DIV#loader
-niezalezna.pl##+js(abort-on-property-write.js, window.onscroll)
+niezalezna.pl##+js(abort-on-property-write, window.onscroll)
 ||amazonaws.com/niezalezna/resizeOutOfPage
 ||adtech.de
 ||nativeleads.net

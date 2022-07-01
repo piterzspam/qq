@@ -32,7 +32,7 @@
 ||smartcontext.pl
 ||tro.pl
 ||ttbh08.xyz^$inline-script
-torrentz2.eu##+js(abort-on-property-write.js, element)
+torrentz2.eu##+js(abort-on-property-write, element)
 torrentz2.eu##P#resultarea.gener
 demonoid.pw###bbb
 ||shermore.info^$domain=torlock.com|torrentdownloads.me
@@ -133,14 +133,14 @@ darmowe-torrenty.com.pl##DIV.gosc
 ||adexchangetracker.com
 demonoid.click##TD.bgg
 demonoid.click###bbb
-demonoid.click##+js(noeval.js)
+demonoid.click##+js(noeval)
 
 
-1337x.unblocked.mx##+js(noeval.js)
+1337x.unblocked.mx##+js(noeval)
 ||1337x.unblocked.mx/js/afcaeffdcddcd.js
 
-igg-games.com#@#script:inject(nowebrtc.js)
-igg-games.com##+js(noeval.js)
+igg-games.com#@#+js(nowebrtc)
+igg-games.com##+js(noeval)
 
 demonoid.click##A[href="/tzr.php"]
 demonoid.click##DIV[id*="Preload"]
@@ -409,7 +409,7 @@ pobieramy24.pl##DIV.guestwarn
 @@||rarbg.to$generichide
 rarbg.to##TABLE.lista > :first-child:last-child > TR:first-child + TR
 rarbg.to##TABLE.lista > TBODY > TR:if(A[href][target="_blank"])
-rarbg.to##+js(setTimeout-defuser.js)
+rarbg.to##+js(setTimeout-defuser)
 ||dyncdn.me/static/*expla$script
 ||statsy.net
 !RLSLOG.NET
@@ -485,7 +485,7 @@ thepiratebay.org##script:contains(this.ua.initialize)
 !TORLOCK.COM
 @@||torlock.com^$generichide
 ||torlock.com/cdn-cgi/beacon/
-torlock.com##+js(noeval.js)
+torlock.com##+js(noeval)
 torlock.com##DIV.table-responsive:if(A[href][rel="nofollow"])
 torlock.com##DIV.well DIV.col-md-4.col-sm-4:if(A[href][rel="nofollow"])
 !TORRENTBIT.NET

@@ -148,10 +148,10 @@ atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,ti
 atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##DIV#cookie_notice
 atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##IFRAME#rf2:style(position: absolute !important; left: -100000px !important)
 atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##IFRAME#rf:style(position: absolute !important; left: -100000px !important)
-atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##+js(abort-on-property-write.js, NREUM)
-atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##+js(adf.ly.js)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##+js(abort-on-property-write, NREUM)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##+js(adf.ly)
 atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##+js(fuckadblock.js-3.2.0)
-atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##+js(abort-on-property-write.js, Fingerprint2)threadsphere.bid##+js(adfly-defuser.js)
+atominik.com,riffhold.com,bluenik.com,kaitect.com,babblecase.com,tinyical.com,tinyium.com,microify.com,pintient.com,adf.ly,ay.gy,j.gs,q.gs##+js(abort-on-property-write, Fingerprint2)threadsphere.bid##+js(adfly-defuser)
 ||cdn.threadsphere.bid/static/image/ad_top*.png$image,first-party,redirect=1x1-transparent.gif 
 ||cdn.pintient.com/static/image/ad_top*.png$image,first-party,redirect=1x1-transparent.gif
 /fp.rev3.php?nocache=1|$script
@@ -164,8 +164,8 @@ $subdocument,domain=redirect2719.ws,important
 ||redirect2719.ws^$inline-script
 ||s1-adfly.com^$inline-script
 !ADSURL.CO
-adsurl.co##+js(nowebrtc.js)
-adsurl.co##+js(noeval.js)
+adsurl.co##+js(nowebrtc)
+adsurl.co##+js(noeval)
 @@||adsurl.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com *.gstatic.com
 !ADYOU.ME
 @@||adyou.me/assets/js/ads.js
@@ -179,8 +179,8 @@ adyou.me##DIV.a-el
 al.ly,ally.sh##DIV.ads.ad_100.clearfix
 al.ly,ally.sh##INS.adsbygoogle
 al.ly,ally.sh##DIV.skip-container > DIV.text-center HR:last-of-type
-al.ly,ally.sh##+js(noeval.js)
-al.ly,ally.sh##+js(abort-on-property-write.js, _pop)
+al.ly,ally.sh##+js(noeval)
+al.ly,ally.sh##+js(abort-on-property-write, _pop)
 !BC.VC do zrobienia
 bc.vc##A.uc
 ||bc.vc/cdn-cgi/
@@ -192,25 +192,25 @@ bc.vc##A.uc
 ||track.bcvc.mobi^
 @@||binbox.io^$generichide
 !CLIK.PW
-clik.pw##+js(abort-on-property-write.js, _pop)
+clik.pw##+js(abort-on-property-write, _pop)
 clik.pw##INS.adsbygoogle
 ||tawk.to$domain=clik.pw
 @@||clik.pw/js/ads.js
 !COINLINK.CO
 @@||coinlink.co/js/ads.js
-coinlink.co##+js(abort-on-property-write.js, _pop)
+coinlink.co##+js(abort-on-property-write, _pop)
 coinlink.co##FORM#go-link
 coinlink.co##FORM#go-popup
-coinlink.co##+js(abort-on-property-read.js, open)
+coinlink.co##+js(abort-on-property-read, open)
 coinlink.co##DIV.panel-body.text-center > HR
 coinlink.co##INS.adsbygoogle
 !COSHURL.CO
-coshurl.co##+js(abort-on-property-write.js, _pop)
+coshurl.co##+js(abort-on-property-write, _pop)
 coshurl.co##INS.adsbygoogle
 coshurl.co##DIV.banner-inner
 @@||coshurl.co/js/ads.js
 !CPMLINK.NET
-cpmlink.net##+js(abort-on-property-write.js, _pop)
+cpmlink.net##+js(abort-on-property-write, _pop)
 cpmlink.net##IFRAME[style="width: 100%; z-index: 999999; margin: 0px; height: 48px; border: medium none; position: fixed; left: 0px; top: -8px;"]
 cpmlink.net##DIV[id*="ScriptRoot"]
 ||cpmlink.net$media
@@ -227,8 +227,8 @@ cut-urls.com##INS.adsbygoogle
 ||fas.li/js/p.js
 @@||fas.li/js/adframe.js
 !GSURL.IN
-gsurl.in##+js(noeval.js)
-gsurl.in##+js(abort-on-property-read.js, zfgloadedpopup)
+gsurl.in##+js(noeval)
+gsurl.in##+js(abort-on-property-read, zfgloadedpopup)
 gsurl.in##INS.adsbygoogle
 ||getsurl.com/*/banners
 ||gsurl.in/js/onexit.js
@@ -237,13 +237,13 @@ gsurl.in##INS.adsbygoogle
 keeplinks.eu##DIV.top_ad
 keeplinks.eu##DIV.add_box
 !L2S.IO
-l2s.io##+js(abort-on-property-write.js, TID)
-l2s.io##+js(abort-on-property-write.js, _pop)
-l2s.io##+js(noeval.js)
+l2s.io##+js(abort-on-property-write, TID)
+l2s.io##+js(abort-on-property-write, _pop)
+l2s.io##+js(noeval)
 @@||l2s.io/js/ads.js
 !LINCLIK.COM
-linclik.com##+js(abort-on-property-write.js, _pop)
-linclik.com##+js(abort-on-property-read.js, zfgloadedpopup)
+linclik.com##+js(abort-on-property-write, _pop)
+linclik.com##+js(abort-on-property-read, zfgloadedpopup)
 !LINK.TL
 link.tl##DIV.fly_head_bottom
 ||onesignal.com$domain=link.tl
@@ -267,16 +267,16 @@ jzrputtbut.net##A#advertise
 $subdocument,domain=linkbucksmedia.com
 ||linkbucks.com$subdocument,domain=jzrputtbut.net
 @@||linkbucks.com/tmpl/mint/css/ads.css
-jzrputtbut.net##+js(addEventListener-defuser.js)
+jzrputtbut.net##+js(addEventListener-defuser)
 !LINKHITS.NET
-linkhits.net##+js(abort-on-property-write.js, _pop)
+linkhits.net##+js(abort-on-property-write, _pop)
 linkhits.net##DIV[id*="ScriptRoot"]
 ||translate.googleapis.com$domain=linkhits.net
 !LINKSHRINK.NET
 linkshrink.net##DIV.ftr1 > DIV[class^="g"]
-linkshrink.net##+js(noeval.js)
-linkshrink.net##+js(abort-on-property-write.js, onpopstate)
-linkshrink.net##+js(abort-on-property-write.js, H7WWWW)
+linkshrink.net##+js(noeval)
+linkshrink.net##+js(abort-on-property-write, onpopstate)
+linkshrink.net##+js(abort-on-property-write, H7WWWW)
 ||linkshrink.net/cdn-cgi/beacon/
 !LYNK.MY
 ||lynk.my/cdn-cgi/apps/head/
@@ -290,16 +290,16 @@ sh.st,viid.me##DIV.skip-advert > DIV[class^="skip-"]
 /bundles/*tracking$image,domain=sh.st|viid.me
 !SHINK.IN
 shink.in##DIV[id*="ScriptRoot"]
-shink.in##+js(abort-on-property-write.js, _pop)
-shink.in##+js(abort-on-property-read.js, RunAds)
-shink.in##+js(abort-on-property-write.js, Fingerprint2)
+shink.in##+js(abort-on-property-write, _pop)
+shink.in##+js(abort-on-property-read, RunAds)
+shink.in##+js(abort-on-property-write, Fingerprint2)
 ||shink.in/js/p*.js
 ||shink.in/img/downloadad.png
 ||shink.in/js/creative.js
 @@||shink.in/js/show_ads.js
 !SHORT.AM
-short.am##+js(abort-on-property-write.js, _pop)
-short.am##+js(abort-on-property-read.js, RunAds)
+short.am##+js(abort-on-property-write, _pop)
+short.am##+js(abort-on-property-read, RunAds)
 short.am##INS.adsbygoogle
 @@||short.am/js/show_ads.js
 !SPASTE.COM
@@ -327,20 +327,20 @@ ur.ly,urly.mobi##SPAN.bottom_left
 /js/license$domain=ur.ly|urly.mobi
 !URLE.CO
 @@||urle.co/js/ads.js
-urle.co##+js(abort-on-property-write.js, Fingerprint2)
-urle.co##+js(abort-on-property-write.js, _pop)
-urle.co##+js(abort-on-property-write.js, TID)
+urle.co##+js(abort-on-property-write, Fingerprint2)
+urle.co##+js(abort-on-property-write, _pop)
+urle.co##+js(abort-on-property-write, TID)
 !USKIP.ME
-uskip.me##+js(abort-on-property-write.js, _pop)
+uskip.me##+js(abort-on-property-write, _pop)
 !WEEFY.ME
 ||multiup.org/weefy.html
 ||weefy.me/cdn-cgi/*stats.weefy.me
 @@||weefy.me/js/ads.js
 
-spaste.com##+js(abort-current-inline-script.js, CookieChecker)
+spaste.com##+js(abort-current-inline-script, CookieChecker)
 spaste.com##.spasteCaptcha h5
-adsrt.com##+js(window.open-defuser.js)
-bit-url.com##+js(window.open-defuser.js)
+adsrt.com##+js(window.open-defuser)
+bit-url.com##+js(window.open-defuser)
 bit-url.com##.banner-inner
 bit-url.com##DIV#cookie-pop
 ||demand.supply^
@@ -351,16 +351,16 @@ clk.press##DIV#headlineatas
 clk.press##DIV.banner-inner
 ||aj1110.online^
 $subdocument,domain=dwindly.io
-dwindly.io##+js(window.open-defuser.js)
-dwindly.io##+js(abort-on-property-write.js, Fingerprint2)
-dwindly.io##+js(abort-on-property-read.js, encD)
-dwindly.io##+js(abort-on-property-write.js, encD)
+dwindly.io##+js(window.open-defuser)
+dwindly.io##+js(abort-on-property-write, Fingerprint2)
+dwindly.io##+js(abort-on-property-read, encD)
+dwindly.io##+js(abort-on-property-write, encD)
 ||lh5lg.top^
 
-spaste.com##+js(abort-current-inline-script.js, CookieChecker)
+spaste.com##+js(abort-current-inline-script, CookieChecker)
 spaste.com##.spasteCaptcha h5
-adsrt.com##+js(window.open-defuser.js)
-bit-url.com##+js(window.open-defuser.js)
+adsrt.com##+js(window.open-defuser)
+bit-url.com##+js(window.open-defuser)
 bit-url.com##.banner-inner
 bit-url.com##DIV#cookie-pop
 ||demand.supply^
@@ -371,16 +371,16 @@ clk.press##DIV#headlineatas
 clk.press##DIV.banner-inner
 ||aj1110.online^
 $subdocument,domain=dwindly.io
-dwindly.io##+js(window.open-defuser.js)
-dwindly.io##+js(abort-on-property-write.js, Fingerprint2)
-dwindly.io##+js(abort-on-property-read.js, encD)
-dwindly.io##+js(abort-on-property-write.js, encD)
+dwindly.io##+js(window.open-defuser)
+dwindly.io##+js(abort-on-property-write, Fingerprint2)
+dwindly.io##+js(abort-on-property-read, encD)
+dwindly.io##+js(abort-on-property-write, encD)
 ||lh5lg.top^
 
-spaste.com##+js(abort-current-inline-script.js, CookieChecker)
+spaste.com##+js(abort-current-inline-script, CookieChecker)
 spaste.com##.spasteCaptcha h5
-adsrt.com##+js(window.open-defuser.js)
-bit-url.com##+js(window.open-defuser.js)
+adsrt.com##+js(window.open-defuser)
+bit-url.com##+js(window.open-defuser)
 bit-url.com##.banner-inner
 bit-url.com##DIV#cookie-pop
 ||demand.supply^
@@ -391,16 +391,16 @@ clk.press##DIV#headlineatas
 clk.press##DIV.banner-inner
 ||aj1110.online^
 $subdocument,domain=dwindly.io
-dwindly.io##+js(window.open-defuser.js)
-dwindly.io##+js(abort-on-property-write.js, Fingerprint2)
-dwindly.io##+js(abort-on-property-read.js, encD)
-dwindly.io##+js(abort-on-property-write.js, encD)
+dwindly.io##+js(window.open-defuser)
+dwindly.io##+js(abort-on-property-write, Fingerprint2)
+dwindly.io##+js(abort-on-property-read, encD)
+dwindly.io##+js(abort-on-property-write, encD)
 ||lh5lg.top^
 
-spaste.com##+js(abort-current-inline-script.js, CookieChecker)
+spaste.com##+js(abort-current-inline-script, CookieChecker)
 spaste.com##.spasteCaptcha h5
-adsrt.com##+js(window.open-defuser.js)
-bit-url.com##+js(window.open-defuser.js)
+adsrt.com##+js(window.open-defuser)
+bit-url.com##+js(window.open-defuser)
 bit-url.com##.banner-inner
 bit-url.com##DIV#cookie-pop
 ||demand.supply^
@@ -411,16 +411,16 @@ clk.press##DIV#headlineatas
 clk.press##DIV.banner-inner
 ||aj1110.online^
 $subdocument,domain=dwindly.io
-dwindly.io##+js(window.open-defuser.js)
-dwindly.io##+js(abort-on-property-write.js, Fingerprint2)
-dwindly.io##+js(abort-on-property-read.js, encD)
-dwindly.io##+js(abort-on-property-write.js, encD)
+dwindly.io##+js(window.open-defuser)
+dwindly.io##+js(abort-on-property-write, Fingerprint2)
+dwindly.io##+js(abort-on-property-read, encD)
+dwindly.io##+js(abort-on-property-write, encD)
 ||lh5lg.top^
 
-spaste.com##+js(abort-current-inline-script.js, CookieChecker)
+spaste.com##+js(abort-current-inline-script, CookieChecker)
 spaste.com##.spasteCaptcha h5
-adsrt.com##+js(window.open-defuser.js)
-bit-url.com##+js(window.open-defuser.js)
+adsrt.com##+js(window.open-defuser)
+bit-url.com##+js(window.open-defuser)
 bit-url.com##.banner-inner
 bit-url.com##DIV#cookie-pop
 ||demand.supply^
@@ -431,8 +431,8 @@ clk.press##DIV#headlineatas
 clk.press##DIV.banner-inner
 ||aj1110.online^
 $subdocument,domain=dwindly.io
-dwindly.io##+js(window.open-defuser.js)
-dwindly.io##+js(abort-on-property-write.js, Fingerprint2)
-dwindly.io##+js(abort-on-property-read.js, encD)
-dwindly.io##+js(abort-on-property-write.js, encD)
+dwindly.io##+js(window.open-defuser)
+dwindly.io##+js(abort-on-property-write, Fingerprint2)
+dwindly.io##+js(abort-on-property-read, encD)
+dwindly.io##+js(abort-on-property-write, encD)
 ||lh5lg.top^
