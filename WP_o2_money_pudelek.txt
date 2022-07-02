@@ -187,10 +187,10 @@ money.pl,o2.pl,pudelek.pl##DIV[data-st-area="st-gallery-reactions"] > DIV > DIV:
 
 !Przeładowanie strony po zmianie karty
 !https://www.money.pl/gospodarka/hotelarz-zdradza-prawde-o-majowce-na-podhalu-to-jest-agonia-6635107621508737v.html
-money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+money.pl,o2.pl,pudelek.pl##+js(aeld, visibilitychange, document.hidden)
 
 !Przeładowanie strony głównej
-money.pl,o2.pl,pudelek.pl##+js(addEventListener-defuser, visibilitychange, refresh())
+money.pl,o2.pl,pudelek.pl##+js(aeld, visibilitychange, refresh())
 
 !Pasek na dole strony mobilnej
 !https://www.money.pl/gospodarka/prezes-naczelnej-rady-lekarskiej-w-tej-chwili-pracujemy-na-granicy-6626463383390912a.html

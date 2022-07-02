@@ -32,7 +32,7 @@
 ||smartcontext.pl
 ||tro.pl
 ||ttbh08.xyz^$inline-script
-torrentz2.eu##+js(abort-on-property-write, element)
+torrentz2.eu##+js(aopw, element)
 torrentz2.eu##P#resultarea.gener
 demonoid.pw###bbb
 ||shermore.info^$domain=torlock.com|torrentdownloads.me
@@ -409,7 +409,7 @@ pobieramy24.pl##DIV.guestwarn
 @@||rarbg.to$generichide
 rarbg.to##TABLE.lista > :first-child:last-child > TR:first-child + TR
 rarbg.to##TABLE.lista > TBODY > TR:if(A[href][target="_blank"])
-rarbg.to##+js(setTimeout-defuser)
+rarbg.to##+js(no-setTimeout-if)
 ||dyncdn.me/static/*expla$script
 ||statsy.net
 !RLSLOG.NET

@@ -16,28 +16,28 @@ wprost.pl##.soc-buttons
 ||img.wprost.pl/_i/icon-20-a-soc-$image
 !Wyskakujące powiadomienie z linkiem do instalowania apliakcji "Zainstalować aplikację"
 !https://www.wprost.pl/tematy/10127397/instagram.html
-wprost.pl##+js(addEventListener-defuser, beforeinstallprompt)
+wprost.pl##+js(aeld, beforeinstallprompt)
 !Nowe linki do artykułów pojawiające się nad nagłówkiem po przewinięciu w dół i w górę
 !https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
-wprost.pl##+js(no-setTimeout-if, page-header-latests, 50)
+wprost.pl##+js(nostif, page-header-latests, 50)
 !Nowy artykuł pojawiający się po przewinięcu strony w dół i zmieniający adres strony
 !https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
-wprost.pl##+js(no-setTimeout-if, articles-autoload, 1200)
+wprost.pl##+js(nostif, articles-autoload, 1200)
 !Po wyłączeniu skryptów nie dzialało scrollowanie
 !https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
 wprost.pl##BODY:style(overflow-y: unset !important)
 !Nie wiem, ale pewnie jakiś tracker
 !https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
-wprost.pl##+js(no-setInterval-if, deepTracker, undefined)
+wprost.pl##+js(nosiif, deepTracker, undefined)
 !Nie wiem co, ale initGenesisAds jest w treści
 !https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
-wprost.pl##+js(no-setInterval-if, genesisAds, 100)
+wprost.pl##+js(nosiif, genesisAds, 100)
 !Nie wiem co, ale genesisAdsAdbd345 jest w treści
 !https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
-wprost.pl##+js(no-setTimeout-if, genesisAdsAdbd345, 1000)
+wprost.pl##+js(nostif, genesisAdsAdbd345, 1000)
 !Nie wiem co, ale gtag jest w treści
 !https://www.wprost.pl/warszawa/10338901/warszawa-wypadek-malego-samolotu.html
-wprost.pl##+js(no-setTimeout-if, gtag)
+wprost.pl##+js(nostif, gtag)
 !Nie wiem co, pewnie rodo, albo reklamy
 !https://www.wprost.pl/kraj
 ||wprost.pl/_rodo/optad360/
@@ -148,8 +148,8 @@ wprost.pl##SECTION#comments
 wprost.pl##DIV#element-header.pinned
 
 !https://www.wprost.pl/kraj/10341719/andrzej-duda-liderem-rankingu-zaufania-rafal-trzaskowski-goni-premiera.html
-wprost.pl##+js(no-setTimeout-if, alkEnabled)
-wprost.pl##+js(no-setTimeout-if, gtag)
+wprost.pl##+js(nostif, alkEnabled)
+wprost.pl##+js(nostif, gtag)
 
 !Ładowanie nowych proponowanych artykułów przy scrollowaniu
 !https://zdrowie.wprost.pl/koronawirus/fakty-o-koronawirusie/10388432/jak-dzialaja-testy-antygenowe-na-covid-19-i-jak-bardzo-sa-skuteczne.html

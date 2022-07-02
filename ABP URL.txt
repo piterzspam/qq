@@ -51,8 +51,8 @@ adyou.me##DIV.advert.benner-new
 al.ly##A[target="_blank"][style="text-decoration: none;"][href="https://al.ly/user/register?ref=1"]
 al.ly##DIV.ads.ad_100.clearfix
 al.ly##FORM#form-captcha > HR
-al.ly##+js(bab-defuser)
-al.ly##+js(fuckadblock.js-3.2.0)
+al.ly##+js(nobab)
+al.ly##+js(nofab.js)
 ||al.ly/clickadu.com$script,important,redirect=noopjs
 ||al.ly/clickadu.com/apu.php?
 ||ad2up.com

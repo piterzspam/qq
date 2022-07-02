@@ -157,11 +157,11 @@ $websocket,important,domain=opensubtitles.org
 aliexpress.com##DIV#j-related-products
 aliexpress.com##LI.list-item:if(I.sponsored-icon)
 awaqa.com##.unselectable:style(-moz-user-select: text !important; khtml-user-select: text !important; -webkit-user-select: text !important;)
-awaqa.com##+js(abort-on-property-read, disableSelection)
-awaqa.com##+js(abort-on-property-write, nocontext)
+awaqa.com##+js(aopr, disableSelection)
+awaqa.com##+js(aopw, nocontext)
 bc.vc##+js(noeval-if, http:\/\/track.bcvc.mobi\/earn.php?zone=)
-bc.vc##+js(set-constant, clicked_count, 1)
-bc.vc#@#+js(window.open-defuser)
+bc.vc##+js(set, clicked_count, 1)
+bc.vc#@#+js(nowoif)
 blog.etrapez.pl##.hustle-animate-fadeIn.hustle-animated.hustle-modal-cabriolet.hustle-modal
 blog.etrapez.pl##.wph-modal-active.module_id_1.wph-modal
 blog.etrapez.pl##.wpmudev-modal-mask.wph-modal-mask
@@ -195,7 +195,7 @@ dobreprogramy.pl##SECTION.block.no-mobile
 dobreprogramy.pl##SECTION.dl-social.grid-margin-px30-top
 dobreprogramy.pl##SECTION.forum-help-cta
 dobreprogramy.pl##SECTION.social
-dobreprogramy.pl##+js(window.open-defuser)
+dobreprogramy.pl##+js(nowoif)
 dobreprogramy.pl#@#DIV#phContent_CommentsControl_divAdTop
 dobreprogramy.pl#@#SECTION.block.no-mobile
 docer.pl#@#[id*="ad-container"]
@@ -214,15 +214,15 @@ efizyka.net.plfilmweb.pl##script:inject^script:has-text(window.google_jobrunner)
 filmweb.pl##DIV#flashcontent3
 filmweb.pl##DIV.cookieInfo.webPage
 filmweb.pl##SPAN.loginWithFBContainer
-filmweb.pl##+js(abort-current-inline-script, webpackJsonp, advInit)
-filmweb.pl#@#+js(abort-on-property-read, document.onreadystatechange)
-filmweb.pl#@#+js(setTimeout-defuser, notDetected)
+filmweb.pl##+js(acis, webpackJsonp, advInit)
+filmweb.pl#@#+js(aopr, document.onreadystatechange)
+filmweb.pl#@#+js(no-setTimeout-if, notDetected)
 
 !Odśiweżanie karty po przełączeniu i upływie 5 minut
 !uBO: setTimeout("function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)}", 300000)
 !uBO: addEventListener("focus", function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)})
 !filmweb.pl##+js(nano-stb, focus, 300000, 0.02)
-filmweb.pl##+js(no-setTimeout-if, focus, 300000)
+filmweb.pl##+js(nostif, focus, 300000)
 
 !https://www.filmweb.pl/film/Memento-2000-7656
 ||fwcdn.pl/prt/
@@ -242,17 +242,17 @@ jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/sklep"]
 jakzdacmaturezmatematyki.pl##DIV#cookies-message-container
 jakzdacmaturezmatematyki.pl##DIV#fb_Like_Box
 jakzdacmaturezmatematyki.pl##DIV.reklama_bok_lewy
-katcr.co##+js(abort-on-property-write, Fingerprint2)
+katcr.co##+js(aopw, Fingerprint2)
 klp.pl###reklama-w-artykule
 klp.pl###reklama-w-srodku-artykulu
 klp.pl#DIV##[style="height:280px; width:336px;"]
 landseven.cba.pl###dd-popup
-lnkshrnk.net##+js(abort-current-inline-script, decodeURI, decodeURIComponent)
-lnkshrnk.net##+js(abort-on-property-write, Fingerprint2)
-lnkshrnk.net##+js(nano-setInterval-booster, , 100)
-loadvid.online##+js(abort-on-property-read, BetterJsPop)
-loadvid.online##+js(set-constant, pop_cnt, 2)
-loadvid.online#@#+js(set-constant, pop_cnt, 3)
+lnkshrnk.net##+js(acis, decodeURI, decodeURIComponent)
+lnkshrnk.net##+js(aopw, Fingerprint2)
+lnkshrnk.net##+js(nano-sib, , 100)
+loadvid.online##+js(aopr, BetterJsPop)
+loadvid.online##+js(set, pop_cnt, 2)
+loadvid.online#@#+js(set, pop_cnt, 3)
 matemaks.pl##DIV.cookie_info
 matemaks.pl##DIV.fb-page
 matematyka.pisz.pl##DIV#calosc:style(margin-bottom: 100px !important)
@@ -302,17 +302,17 @@ pastebin.com##DIV.banner_728
 pastebin.com##DIV.h_800.tweet
 pasted.co##DIV#captcha_overlay
 paypal.com##SECTION.cookie-notification
-pdf-archive.com##+js(nano-setInterval-booster)
-premiumzen.com##+js(nano-setInterval-booster)
+pdf-archive.com##+js(nano-sib)
+premiumzen.com##+js(nano-sib)
 reseton.pl###video_reklamy
 restorecosm.bid##DIV#cookie_notice
 restorecosm.bid##DIV#sitebar > DIV#bottom > SPAN[class^="bottom_"]
 restorecosm.bid##IFRAME#rf2:style(position: absolute !important; left: -100000px !important)
 restorecosm.bid##IFRAME#rf:style(position: absolute !important; left: -100000px !important)
-restorecosm.bid##+js(abort-on-property-write, NREUM)
+restorecosm.bid##+js(aopw, NREUM)
 restorecosm.bid##+js(adf.ly)
 restorecosm.bid##+js(adfly-defuser)
-restorecosm.bid##+js(fuckadblock.js-3.2.0)
+restorecosm.bid##+js(nofab.js)
 sadistic.pl##DIV.portal > ARTICLE.images[style="text-align: center; padding: 30px; min-height: 300px"]
 sascdn.com$domain=filmweb.pl
 sfd.pl##BODY[ng-app="wyszukaj"] > DIV.wallpaper-holder
@@ -357,10 +357,10 @@ topcashback.com##FORM[action="/account/dashboard/"] DIV.gecko-secondary > DIV.ge
 topcashback.com##FORM[action="/blog/b2s-treats-game/"] .gecko-primary
 topcashback.com##FORM[action="/home"] > DIV.gecko-main
 topcashback.com##[action="/account/overview/"] DIV.gecko-single-container.no-overflow:first-child + DIV.gecko-single-container.no-overflow:last-child
-tusfiles.net##+js(abort-on-property-write, Fingerprint2)
-tusfiles.net##+js(window.open-defuser)
+tusfiles.net##+js(aopw, Fingerprint2)
+tusfiles.net##+js(nowoif)
 tvso.pl##BUTTON.fb-share-button
-userscloud.com##+js(abort-on-property-write, decodeURIComponent)
+userscloud.com##+js(aopw, decodeURIComponent)
 vider.info##DIV#video-ad-preroll
 vider.info##DIV.padding-10.ad-750
 wordribbon.tips.net###lightbox_backdrop
@@ -387,7 +387,7 @@ zdajmyrazem.pl##DIV.adv_info
 zdajmyrazem.pl##DIV.col-xs-12 > DIV.panel.panel-default.hidden-print
 zdajmyrazem.pl##DIV.fb-share-button
 zdajmyrazem.pl##DIV[class*="adsense"]
-zippyshare.com##+js(abort-on-property-write, acPrefetch)
+zippyshare.com##+js(aopw, acPrefetch)
 ||1.bp.blogspot.com/-nGv6NlWupqM/WjTXPMCcGWI/AAAAAAAAEvE/u4Zx_HSpDAQjr_8-eoagyndIqkcxM_XWwCLcBGAs/s1600/uplod.cc%2Binstagram%2Bofficial.png
 ||1337x.to/js/aacabeabdcba.js
 ||accounts.google.com^$domain=opensubtitles.org
@@ -952,7 +952,7 @@ wizaz.pl##^DIV#fi-promo
 
 
 !aloboi.com##+js(aopr, app_vars.force_disable_adblock)
-aloboi.com##+js(bab-defuser)
+aloboi.com##+js(nobab)
 
 ! 2021-03-19 https://www.cozadzien.pl
 cozadzien.pl##UL.social-media
@@ -1113,7 +1113,7 @@ filmweb.pl###mainSkyBanner-pl_PL
 busradar.pl##DIV[class="ng-scope"][ng-if="search.showTopConnections() && !search.showNoConnectionBBCBanner()"]
 busradar.pl##DIV.best-connections-container
 
-busbud.com##+js(remove-attr, data-checked, FORM#id="search-form" SPAN[tabindex="0"], once)
+busbud.com##+js(ra, data-checked, FORM#id="search-form" SPAN[tabindex="0"], once)
 
 
 !https://tvn24.pl/polska/lublin-samochod-stal-na-torach-w-srodku-nikogo-nie-bylo-musieli-wstrzymac-ruch-pociagow-na-linii-lublin-lubartow-5429588
@@ -1291,10 +1291,10 @@ www.otodom.pl##div.css-1l60ty6
 !@@||connect.facebook.net^$3p,domain=~facebook.com|~fb.com
 
 
-cosmobox.org##+js(no-setInterval-if)
-cosmobox.org##+js(no-setTimeout-if)
-!cosmobox.org##+js(nano-setTimeout-booster)
-!cosmobox.org##+js(set-constant, remaining, 0)
+cosmobox.org##+js(nosiif)
+cosmobox.org##+js(nostif)
+!cosmobox.org##+js(nano-stb)
+!cosmobox.org##+js(set, remaining, 0)
 ||cosmobox.org/*clipBoard$script
 ||cosmobox.org/*rightClick$script
 ||cosmobox.org/*waves$script
@@ -1410,18 +1410,18 @@ getdroidtips.com##INS.adsbygoogle
 ||histats.com^
 ||fidelity-media.com^
 /^https?:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/(\?[a-z]{3,5}=[0-9]{6}$|[a-zA-Z0-9]*\%3D\%3D$)/$script,third-party
-yallastreams.com##+js(abort-on-property-write, adcashMacros)
-streamhd247.live##+js(abort-on-property-write, adcashMacros)
+yallastreams.com##+js(aopw, adcashMacros)
+streamhd247.live##+js(aopw, adcashMacros)
 !||wstream.to^
-socolive.xyz##+js(abort-on-property-write, adcashMacros)
-1me.xyz##+js(abort-on-property-write, adcashMacros)
+socolive.xyz##+js(aopw, adcashMacros)
+1me.xyz##+js(aopw, adcashMacros)
 ||bodelen.com^
 ||ufpcdn.com^
 
 !!!!!!!!!!!!!!!
-1me.xyz##+js(abort-current-inline-script, decodeURIComponent, zfgloadedpopup)
-1me.xyz##+js(abort-on-property-read, zfgloadedpopup)
-1me.xyz##+js(abort-current-inline-script, Math, zfgloaded)
+1me.xyz##+js(acis, decodeURIComponent, zfgloadedpopup)
+1me.xyz##+js(aopr, zfgloadedpopup)
+1me.xyz##+js(acis, Math, zfgloaded)
 ||theonecdn.com^
 ||moneymakercdn.com^
 
@@ -1471,7 +1471,7 @@ socolive.xyz##+js(abort-on-property-write, adcashMacros)
 ||koacojus.net^$domain=techsapparel.com
 ||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,badfilter
 
-ckk.ai##+js(abort-on-property-write, TID)
+ckk.ai##+js(aopw, TID)
 ||cloudfront.net/?valgd=$script
 ||cloudfront.net/?tid=$script
 ||cloudfront.net/?svebd=$script
@@ -1484,7 +1484,7 @@ techsapparel.com##+js(acis, Math, zfgloaded)
 ##HTML > BODY.captcha-page > DIV.container > DIV.row > DIV.col-md-10 > CENTER > DIV.box-main OL
 ##HTML > BODY > DIV.page-container > SECTION.site-content > DIV.container > DIV.row > DIV.col-md-10 > DIV.box-main + DIV
 ##HTML > BODY > DIV#cookie-pop
-fc.lc##+js(window.open-defuser)
+fc.lc##+js(nowoif)
 adfoc.us##+js(acis, Math, zfgloaded)
 ||thoorest.com^
 ||themoneytizer.com^
@@ -1599,7 +1599,7 @@ roseindia.net##DIV#myNav
 livestream.fun###v4dd
 ||facebook.com^$3p,badfilter
 
-ebook3000.com##+js(abort-on-property-write, adcashMacros)
+ebook3000.com##+js(aopw, adcashMacros)
 
 deepbrid.com##DIV.notification.success.png_bg
 deepbrid.com##DIV.myadmin-alert
@@ -1616,19 +1616,19 @@ deepbrid.com##DIV.myadmin-alert
 ||grubsoan.com^$badfilter
 
 !https://pcgamez-download.com/2014/04/battle-realms-winter-of-the-wolf-gog-torrent-uploaded-pc/
-!shorte-st.online##+js(no-setTimeout-if, onclicksuper.com)
-!shorte-st.online##+js(no-setTimeout-if, exi8ef83z9.com)
+!shorte-st.online##+js(nostif, onclicksuper.com)
+!shorte-st.online##+js(nostif, exi8ef83z9.com)
 shorte-st.online##+js(aopr, _0xcf30)
-shorte-st.online##+js(remove-attr, target)
-shorte-st.online##+js(abort-current-inline-script, Math, zfgloaded)
+shorte-st.online##+js(ra, target)
+shorte-st.online##+js(acis, Math, zfgloaded)
 shorte-st.online##.jojo
-!shorte-st.online##+js(no-setTimeout-if)
+!shorte-st.online##+js(nostif)
 
 ||shorte-st.online/show-$inline-script
 
 ||otrwaram.com/apu.php$script,redirect=noopjs
 
-pcgamez-download.com##+js(remove-attr, target)
+pcgamez-download.com##+js(ra, target)
 
 sourceforge.net##UL.projects > LI.nel.standard.can-truncate
 
@@ -1938,7 +1938,7 @@ mazymedias.com##TD:matches-css(width: 300px):matches-css(height: 250px)
 mazymedias.com##TD:matches-css(width: 1750px):matches-css(height: 250px)
 @@||mazymedias.com^$ghide
 mazymedias.com##TD:has(SCRIPT[src*="chatango.com"])
-mazymedias.com##+js(addEventListener-defuser, , _0x)
+mazymedias.com##+js(aeld, , _0x)
 mazymedias.com##BODY > FOOTER.navbar-fixed-bottom
 mazymedias.com##INS.adsbygoogle
 mazymedias.com##TBODY > TR:not(IFRAME[src^="/"][allowfullscreen][width][height])
@@ -1954,7 +1954,7 @@ mazymedias.com##TBODY > TR:not(IFRAME[src^="/"]):remove()
 ||blogspot.com/*close.$image,domain=cricworld.club
 !Na wszelki wypadek, chyba anty adblock
 @@||cricworld.club^$ghide
-cricworld.club##+js(addEventListener-defuser, DOMContentLoaded, color: white)
+cricworld.club##+js(aeld, DOMContentLoaded, color: white)
 cricworld.club##DIV#floatLayer1
 
 !https://fightpass.site/covid19/2020/ff/
@@ -1978,7 +1978,7 @@ ladsnbastands.com##TH
 !https://www.hitsports.club/f1.php
 @@||hitsports.club^$ghide
 !Z filtrem ##.adsBox jest komunikat o adblocku, z poniższym już nie ma
-hitsports.club##+js(addEventListener-defuser, DOMContentLoaded, color: white)
+hitsports.club##+js(aeld, DOMContentLoaded, color: white)
 
 !https://unitedbacke.xyz/formula1-hungary/
 !Na wszelki wypadek
@@ -1989,11 +1989,11 @@ wstream.to##+js(aopw, _pop)
 wstream.to##+js(noeval-if, allow-popups)
 ||cdn.vdosupreme.com/vdo.js?$domain=wstream.to
 ||cedexis.com^$domain=wstream.to
-wstream.to##+js(no-setTimeout-if, javascript, 15000)
-wstream.to##+js(addEventListener-defuser, loadend, mLoader24)
-wstream.to##+js(addEventListener-defuser, timeout, mLoader24)
-wstream.to##+js(no-setTimeout-if, mLoader24, 15000)
-wstream.to##+js(no-setTimeout-if, player.play, 3000)
+wstream.to##+js(nostif, javascript, 15000)
+wstream.to##+js(aeld, loadend, mLoader24)
+wstream.to##+js(aeld, timeout, mLoader24)
+wstream.to##+js(nostif, mLoader24, 15000)
+wstream.to##+js(nostif, player.play, 3000)
 
 sportscart.xyz##+js(aopw, _pop)
 wstream.to##+js(noeval-if, allow-popups)
@@ -2020,15 +2020,15 @@ wstream.to##+js(aopw, _pop)
 wstream.to##+js(noeval-if, allow-popups)
 ||cdn.vdosupreme.com/vdo.js?$domain=wstream.to
 ||cedexis.com^$domain=wstream.to
-wstream.to##+js(no-setTimeout-if, javascript, 15000)
-wstream.to##+js(addEventListener-defuser, loadend, mLoader24)
-wstream.to##+js(addEventListener-defuser, timeout, mLoader24)
-wstream.to##+js(no-setTimeout-if, mLoader24, 15000)
-wstream.to##+js(no-setTimeout-if, player.play, 3000)
+wstream.to##+js(nostif, javascript, 15000)
+wstream.to##+js(aeld, loadend, mLoader24)
+wstream.to##+js(aeld, timeout, mLoader24)
+wstream.to##+js(nostif, mLoader24, 15000)
+wstream.to##+js(nostif, player.play, 3000)
 !wstream.to##+js(set, atob, trueFunc)
 
-sportscart.xyz##+js(abort-on-property-read, _pop)
-!wstream.to#@#+js(abort-on-property-read, _pop)
+sportscart.xyz##+js(aopr, _pop)
+!wstream.to#@#+js(aopr, _pop)
 
 !https://pahe.ph/
 !https://gobmodfoe.com/r4Gh2lm7G4ACB/5778
@@ -2116,9 +2116,9 @@ prem.link##+js(aopw, _pop)
 !||wtxcdn.com^
 ||decathlon.pl/wrapper-sw.js
 
-!google.com##+js(remove-attr, onmousedown|data-cthref, DIV#center_col A[href])
-!google.com#@#+js(remove-attr, onmousedown|data-cthref, DIV#center_col A[href])
-www.google.*##+js(remove-attr, onmousedown|data-cthref, DIV#search A[href])
+!google.com##+js(ra, onmousedown|data-cthref, DIV#center_col A[href])
+!google.com#@#+js(ra, onmousedown|data-cthref, DIV#center_col A[href])
+www.google.*##+js(ra, onmousedown|data-cthref, DIV#search A[href])
 
 !https://ouo.io/3AQW31
 ||ouo.io/ga/ga.js
@@ -2268,7 +2268,7 @@ rp.pl##DIV.advert--outer
 rp.pl##DIV#articleBody DIV.content--excerpt
 rp.pl##DIV#articleBody DIV.marketing--comp
 
-press.pl##+js(remove-attr, oncontextmenu|onselectstart|onselect|oncopy|ondragstart|ondrag|style, DIV.article_content.reading)
+press.pl##+js(ra, oncontextmenu|onselectstart|onselect|oncopy|ondragstart|ondrag|style, DIV.article_content.reading)
 
 
 programiz.com##:is(DIV.editor-contents, DIV.left-bar > DIV.card-alt):others()
@@ -2322,7 +2322,7 @@ sainny.com##:is(DIV#captchaShortlink, FORM#link-view > P:first-of-type B, BUTTON
 tenforums.com##DIV.chill
 
 google.com##+js(ra, data-jsarwt, DIV#search A[href], stay)
-!www.google.*##+js(remove-attr, onmousedown|data-cthref, DIV#search A[href])
+!www.google.*##+js(ra, onmousedown|data-cthref, DIV#search A[href])
 
 !https://dorzeczy-pl.cdn.ampproject.org/v/s/dorzeczy.pl/amp/192110/fabryka-lacznikow-w-radomiu-pierwszy-akt-oskarzenia.html?amp_js_v=a6
 dorzeczy.pl,dorzeczy-pl.cdn.ampproject.org##HTML[amp] .ad-aside.page-billboard-1

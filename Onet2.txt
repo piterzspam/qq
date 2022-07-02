@@ -35,8 +35,8 @@
 !||sgqcvfjvr.onet.pl^$domain=www.onet.pl,important
 !||sgqcvfjvr.onet.pl^$domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|forbes.pl|komputerswiat.pl|medonet.pl|noizz.pl|plejada.pl|przegladsportowy.pl|vod.pl
 !www.onet.pl##^SCRIPT#adsinit
-!www.onet.pl##+js(set-constant, onetAds.injected, true)
-!www.onet.pl##+js(abort-on-property-write, window.onetAds)
+!www.onet.pl##+js(set, onetAds.injected, true)
+!www.onet.pl##+js(aopw, window.onetAds)
 !https://wiadomosci.onet.pl/kujawsko-pomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g#
 !https://www.onet.pl/informacje/onetkujawskopomorskie/koronawirus-krol-antycovidowcow-ma-proces-o-udzial-w-gangu-narkotykowym/38wmh7g,79cfc278
 
@@ -139,7 +139,7 @@ onet.pl##BODY.ucs-infoskin DIV.frameWrap
 !#canonical #desktop #mobile - Puste małe miejsce po reklamie przed zdaniem "Co gorsza, wygłaszane z hiobowym obliczem"
 !Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
+onet.pl##+js(nostif, getAttribute("abp"), 50)
 
 !#canonical #desktop #mobile - Ostatnie wideo pod artykułem nie związane z tematem
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
@@ -147,11 +147,11 @@ onet.pl##BODY.ucs-infoskin DIV.articleBody > DIV.embeddedApp:last-child
 
 !#canonical #desktop #mobile - Wideo powiązane odtwarzające się po doscrollowaniu do niego
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##+js(addEventListener-defuser, scroll, 300)
+onet.pl##+js(aeld, scroll, 300)
 
 !#canonical #desktop #mobile - Wideo powiązane odtwarzające przy zmianie rozmiaru okna
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##+js(addEventListener-defuser, resize, 300)
+onet.pl##+js(aeld, resize, 300)
 
 !#canonical #desktop #mobile - Puste pole po reklamie pod artykułem, przed "Zobacz również"
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
@@ -434,7 +434,7 @@ www.onet.pl##SPAN.emotions
 
 !#www.onet.pl #desktop #mobile - Przeniesienie ze strony z błędem 404 na stronę główną
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
-www.onet.pl##+js(no-setTimeout-if, 404, 2000)
+www.onet.pl##+js(nostif, 404, 2000)
 
 !#www.onet.pl #desktop #mobile
 !https://kobieta.onet.pl/

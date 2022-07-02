@@ -195,7 +195,7 @@ www.onet.pl##PAN.emotions
 
 !#www.onet.pl #desktop #mobile - Przeniesienie ze strony z błędem 404 na stronę główną
 !https://www.onet.pl/informacje/onetwiadomosci/koronawirus-w-europie-w-tych-krajach-przywrocono-ograniczenia/25z4pqf
-www.onet.pl##+js(no-setTimeout-if, 404, 2000)
+www.onet.pl##+js(nostif, 404, 2000)
 
 !#www.onet.pl #desktop #mobile
 !https://kobieta.onet.pl/

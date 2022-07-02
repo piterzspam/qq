@@ -79,10 +79,10 @@ wp.pl##HEAD > STYLE[data-id="wpcss"]:remove()
 
 
 !Przeładowanie strony po zmianie karty
-!wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+!wp.pl##+js(aeld, visibilitychange, document.hidden)
 
 !Przeładowanie strony głównej
-!wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
+!wp.pl##+js(aeld, visibilitychange, refresh())
 
 !Powiadomienie o ciastkach na dole strony
 !wp.pl##DIV#WP-cookie-info
@@ -93,7 +93,7 @@ wp.pl##HEAD > STYLE[data-id="wpcss"]:remove()
 
 !wp.pl##+js(nostif, advertisementEventDispatcher)
 !wp.pl##+js(nostif, executeDelayedAdv)
-!wp.pl##+js(addEventListener-defuser, advRail)
+!wp.pl##+js(aeld, advRail)
 
 !wp.pl##DIV:has(> IMG[width="56"][height="45"]) > DIV >*:has(:scope IFRAME):remove()
 

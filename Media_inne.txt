@@ -7,7 +7,7 @@
 
 !POCZĄTEK: https://www.cozadzien.pl/radom/jaki-bedzie-park/67932
 !Nie dało się skopiować zdjęcia
-cozadzien.pl##+js(remove-attr, oncontextmenu, IMG[oncontextmenu])
+cozadzien.pl##+js(ra, oncontextmenu, IMG[oncontextmenu])
 !https://r.cozadzien.pl/server/www/delivery/asyncjs.php
 ||r.cozadzien.pl^
 !https://dami24.pl/videoima/videojs-contrib-ads/dist/videojs-contrib-ads.min.js
@@ -52,14 +52,14 @@ pap.pl##BODY:style(user-select: unset !important)
 tvn24.pl##+js(json-prune, playlist.options.auto_play)
 !Blokowanie automatycznego odtwarzania kolejnego wideo po zakończeniu aktualnego
 !https://tvn24.pl/wybory-prezydenckie-2020-w-usa/wybory-w-usa-2020-wyniki-wstepne-sondaze-amerykanie-wybieraja-prezydenta-relacja-na-zywo-4741468
-tvn24.pl##+js(addEventListener-defuser, ended)
+tvn24.pl##+js(aeld, ended)
 ||flo.uri.sh$3p,frame,redirect=click2load.html
 ||tools.services.tvn.pl^
-!tvn24.pl##+js(addEventListener-defuser, canplay)
-!tvn24.pl##+js(addEventListener-logger)
-!tvn24.pl##+js(no-setTimeout-if, /^/)
-!tvn24.pl##+js(no-setInterval-if, /^/)
-!tvn24.pl##+js(no-requestAnimationFrame-if, /^/)
+!tvn24.pl##+js(aeld, canplay)
+!tvn24.pl##+js(aell)
+!tvn24.pl##+js(nostif, /^/)
+!tvn24.pl##+js(nosiif, /^/)
+!tvn24.pl##+js(norafif, /^/)
 ||tvn24.pl/service-worker.js
 ||tvn24.pl/static/libs/react.js?
 @@||tvn24.pl/static/libs/react.js?

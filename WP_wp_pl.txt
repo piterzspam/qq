@@ -120,7 +120,7 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##div:matches-css(width: 300px):matches-css
 !Reklama po zapauzowaniu wideo
 !https://wiadomosci.wp.pl/komorowski-wraca-do-polityki-kwasniewski-ocenil-ten-ruch-jednoznacznie-6637905605011585v
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.npp-container.paused DIV.plchldr:remove()
-!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(addEventListener-defuser, scroll, [data-st-area="back-WP"])
+!wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(aeld, scroll, [data-st-area="back-WP"])
 
 !Pasek na dole strony "Przejdź na WP"
 !https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
@@ -180,9 +180,9 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DI
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##STYLE:has-text(min-height: inherit;) + DIV:has(> IMG[class][src*="wpimg.pl/"][alt]:first-child + DIV:last-child) > DIV > *:remove()
 
 
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(addEventListener-defuser, AUTOPLAY)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(addEventListener-defuser, visibilitychange, autoplay)
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(addEventListener-defuser, autoplay_blocked)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(aeld, AUTOPLAY)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(aeld, visibilitychange, autoplay)
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(aeld, autoplay_blocked)
 !KONIEC - UNIWERSALNE
 
 
@@ -219,10 +219,10 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.content > DIV:has(path[d="M26.722 3.5
 
 
 !Przeładowanie strony po zmianie karty
-wp.pl##+js(addEventListener-defuser, visibilitychange, document.hidden)
+wp.pl##+js(aeld, visibilitychange, document.hidden)
 
 !Przeładowanie strony głównej
-wp.pl##+js(addEventListener-defuser, visibilitychange, refresh())
+wp.pl##+js(aeld, visibilitychange, refresh())
 
 wp.pl##+js(aell)
 

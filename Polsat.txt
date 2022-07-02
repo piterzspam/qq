@@ -92,12 +92,12 @@ polsatnews.pl,polsatsport.pl##DIV.header__sub
 polsatnews.pl,polsatsport.pl##DIV.platform
 !Koniec - https://www.polsatnews.pl/wideo/morawiecki-wprowadzamy-dzisiaj-stan-epidemii_6767556/
 
-!polsatnews.pl,polsatsport.pl##+js(addEventListener-logger)
-!polsatnews.pl##+js(addEventListener-defuser, /^/)
-!polsatnews.pl##+js(addEventListener-defuser, scroll)
+!polsatnews.pl,polsatsport.pl##+js(aell)
+!polsatnews.pl##+js(aeld, /^/)
+!polsatnews.pl##+js(aeld, scroll)
 
 !Unieruchomienie paska nawigacyjnego
-polsatnews.pl,polsatsport.pl##+js(addEventListener-defuser, scroll)
+polsatnews.pl,polsatsport.pl##+js(aeld, scroll)
 !Strona desktopowa - https://www.polsatnews.pl/wideo/morawiecki-wprowadzamy-dzisiaj-stan-epidemii_6767556/
 !polsatnews.pl##HTML[class][lang="pl"] > BODY.js-focus-visible[data-page="target"] > HEADER#header.header > DIV.header__main:first-child:style(margin-top: 0px !important)
 !Strona desktopowa - https://www.polsatnews.pl/wyszukiwarka/?text=%22PIOTR+ZAREMBA%22&src=tag

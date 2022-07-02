@@ -1,16 +1,16 @@
 ! Title: Dla taty
 ! Expires: 1 days
 
-!demotywatory.pl##+js(addEventListener-logger)
-!demotywatory.pl##+js(no-setTimeout-if)
-!demotywatory.pl##+js(no-setInterval-if)
-!demotywatory.pl##+js(no-requestAnimationFrame-if)
+!demotywatory.pl##+js(aell)
+!demotywatory.pl##+js(nostif)
+!demotywatory.pl##+js(nosiif)
+!demotywatory.pl##+js(norafif)
 
 !Chyba zostawiłem powyższe włączone w "Moje filtry"
-demotywatory.pl#@#+js(addEventListener-logger)
-demotywatory.pl#@#+js(no-setTimeout-if)
-demotywatory.pl#@#+js(no-setInterval-if)
-demotywatory.pl#@#+js(no-requestAnimationFrame-if)
+demotywatory.pl#@#+js(aell)
+demotywatory.pl#@#+js(nostif)
+demotywatory.pl#@#+js(nosiif)
+demotywatory.pl#@#+js(norafif)
 
 
 !Strona główna
@@ -30,7 +30,7 @@ demotywatory.pl#@#+js(no-requestAnimationFrame-if)
 
 !Strona główna
 !Z 5000 wykonań w pliku https://demotywatory.pl/res/assets/libs-revision01f39d9d26d7c60f62aa8272e63dccf5.js: uBO: setTimeout("function reset(){setTimeout(reset,mutate.speed);}", 1)
-demotywatory.pl##+js(abort-on-property-read, mutate.speed)
+demotywatory.pl##+js(aopr, mutate.speed)
 
 !Działa z tym włączonym, ale nie działają komentarze
 !Wideo typ 1: https://demotywatory.pl/5010738/Zwykly-dzien-Cisza-spokoj-i-nagle
@@ -85,8 +85,8 @@ demotywatory.pl##DIV#galleryLastSlide
 
 !Wyłączenie wznawiania odtwarzania eventem scroll po ręcznym zatrzymaniu odtwarzania
 !https://demotywatory.pl/5010738/Zwykly-dzien-Cisza-spokoj-i-nagle
-demotywatory.pl##+js(addEventListener-defuser, scroll)
-!To blokowało odtwarzanie drugiego typu wideo: demotywatory.pl##+js(addEventListener-defuser, , u.elem)
+demotywatory.pl##+js(aeld, scroll)
+!To blokowało odtwarzanie drugiego typu wideo: demotywatory.pl##+js(aeld, , u.elem)
 
 !https://demotywatory.pl/page/5
 !https://advmanager.techfun.pl/cp/-49-53-52-55-/qrzbgljngbel
@@ -96,5 +96,5 @@ demotywatory.pl##+js(addEventListener-defuser, scroll)
 !||demotywatory.pl/|$inline-script
 !Skrypty: kolejne strony: demotywatory.pl/page/
 !||demotywatory.pl/page$inline-script
-!demotywatory.pl##+js(no-setTimeout-if, /^/)
-!gorhill.github.io##+js(no-setTimeout-if, /^/)
+!demotywatory.pl##+js(nostif, /^/)
+!gorhill.github.io##+js(nostif, /^/)

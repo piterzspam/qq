@@ -31,7 +31,7 @@ onet.pl##BODY#newDetail DIV.frameWrap
 !#canonical #desktop #mobile - Puste małe miejsce po reklamie przed zdaniem "Co gorsza, wygłaszane z hiobowym obliczem"
 !Komunikat "Reklamy nie są takie złe...", w źródle strony: ocdn.eu/files/mastt/ZmE7MDA_/462db16f872216014458184a85bd38e3.css
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##+js(no-setTimeout-if, getAttribute("abp"), 50)
+onet.pl##+js(nostif, getAttribute("abp"), 50)
 
 !#canonical #desktop #mobile - Ostatnie wideo pod artykułem nie związane z tematem
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
@@ -39,11 +39,11 @@ onet.pl##BODY#newDetail DIV.articleBody > DIV.embeddedApp:last-child
 
 !#canonical #desktop #mobile - Wideo powiązane odtwarzające się po doscrollowaniu do niego
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##+js(addEventListener-defuser, scroll, 300)
+onet.pl##+js(aeld, scroll, 300)
 
 !#canonical #desktop #mobile - Wideo powiązane odtwarzające przy zmianie rozmiaru okna
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt
-onet.pl##+js(addEventListener-defuser, resize, 300)
+onet.pl##+js(aeld, resize, 300)
 
 !#canonical #desktop #mobile - Puste pole po reklamie pod artykułem, przed "Zobacz również"
 !https://wiadomosci.onet.pl/opinie/lukasz-warzecha-dla-onetu-warzecha-tesknie-za-tk-dziwne-prawda-opinia/yf5s0vq?utm_source=_viasg_fakt

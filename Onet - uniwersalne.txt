@@ -43,7 +43,7 @@ onet.pl##+js(set, EventsApi._init, noopFunc)
 !xhr - video-node-2-a-pl-krk-1.dreamlab.pl/usp/
 !xhr - player-api.dreamlab.pl/?body%
 !https://grupa-onet.pulsevideo.eu/2173781.1231839560
-pulsevideo.eu##+js(addEventListener-defuser, ended)
+pulsevideo.eu##+js(aeld, ended)
 
 !Bez https w linku, po zakończeniu odtwarzania wysyłane jest żądanie do qi.related.onetapi.pl
 !https://grupa-onet.pulsevideo.eu/2173781.1231839560

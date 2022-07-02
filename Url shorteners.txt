@@ -41,8 +41,8 @@ adyou.me##DIV.advert.benner-new
 al.ly##A[href="https://al.ly/user/register?ref=1"]
 al.ly##DIV.ads
 al.ly##FORM#form-captcha > HR
-al.ly##+js(bab-defuser)
-al.ly##+js(fuckadblock.js-3.2.0)
+al.ly##+js(nobab)
+al.ly##+js(nofab.js)
 ||ad2up.com
 ||ad2up.com/afu.php$subdocument,important,redirect=noopframe,domain=al.ly
 ||ad4game.com

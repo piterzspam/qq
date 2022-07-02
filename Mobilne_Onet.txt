@@ -26,7 +26,7 @@ fakt.pl##DIV.onet-ad
 forbes.pl##DIV.onet-ad
 forbes.pl##UL.footerList1
 onet.pl##DIV.onet-ad
-onet.tv##+js(abort-on-property-write, onetAds)
+onet.tv##+js(aopw, onetAds)
 ||buy.tinypass.com^$important,domain=forbes.pl
 ||cmp.dreamlab.pl/*/vendors.json?
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js?

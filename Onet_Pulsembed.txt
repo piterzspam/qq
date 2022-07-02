@@ -55,7 +55,7 @@ pulsembed.eu##+js(set, EventsApi._init, noopFunc)
 
 !#www.onet.pl #desktop #mobile - bez tego po zakończeniu ładuje się od nowa
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
-pulsembed.eu##+js(addEventListener-defuser, ended)
+pulsembed.eu##+js(aeld, ended)
 
 !#www.onet.pl #desktop #mobile
 !https://www.fakt.pl/wydarzenia/polska/warszawa/warszawa-nagranie-z-wypadku-autobusu-na-s8-autobus-spadl-z-mostu-grota-roweckiego-na/mlzwzs9?utm_source=_viasg_fakt
@@ -99,7 +99,7 @@ pulsembed.eu##+js(addEventListener-defuser, ended)
 
 !#canonical #desktop - wideo się ładowało od nowa po zakończeniu
 !http://rasp-fakt24.embed.videos.ringpublishing.com/2237358.5452734
-embed.videos.ringpublishing.com##+js(addEventListener-defuser, ended)
+embed.videos.ringpublishing.com##+js(aeld, ended)
 
 !#canonical #desktop - wideo się ładowało od nowa po zakończeniu
 !http://rasp-fakt24.embed.videos.ringpublishing.com/2237358.5452734
@@ -114,7 +114,7 @@ embed.videos.ringpublishing.com##+js(addEventListener-defuser, ended)
 !xhr - video-node-2-a-pl-krk-1.dreamlab.pl/usp/
 !xhr - player-api.dreamlab.pl/?body%
 !https://grupa-onet.pulsevideo.eu/2173781.1231839560
-pulsevideo.eu##+js(addEventListener-defuser, ended)
+pulsevideo.eu##+js(aeld, ended)
 
 !Bez https w linku, po zakończeniu odtwarzania wysyłane jest żądanie do qi.related.onetapi.pl
 !https://grupa-onet.pulsevideo.eu/2173781.1231839560
@@ -135,7 +135,7 @@ pulsembed.eu##IFRAME[style="position: absolute; visibility: hidden; width: 0px; 
 pulsembed.eu##html, body, iframe:style(overflow: unset !important;)
 
 
-videos.ringpublishing.com##+js(remove-attr, loop, video)
+videos.ringpublishing.com##+js(ra, loop, video)
 
 
 

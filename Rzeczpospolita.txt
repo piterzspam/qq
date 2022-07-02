@@ -72,7 +72,7 @@ rp.pl##SPAN.article__premium-player
 
 !Puste kafle na stronie głównej
 !https://www.rp.pl/
-rp.pl##+jd(abort-on-property-write, _gremi_adverts)
+rp.pl##+jd(aopw, _gremi_adverts)
 rp.pl##DIV.teaser-ads
 
 !Blokwoanie biepotrzebnego logowania i baneru z prenumeratą nad paskiem nawigacyjnym

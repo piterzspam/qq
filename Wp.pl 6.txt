@@ -83,14 +83,14 @@ dobreprogramy.pl##A#phContent_avastBadge
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,domain=dobreprogramy.pl
 ||connect.facebook.net^$domain=dobreprogramy.pl
 ||wpimg.pl^$domain=dobreprogramy.pl
-dobreprogramy.pl##+js(window.open-defuser)
+dobreprogramy.pl##+js(nowoif)
 dobreprogramy.pl##SECTION#phContent_TutorialControl_divPlayer
 dobreprogramy.pl##SECTION.dl-social.grid-margin-px30-top
 ||static.dpcdn.pl/assets/img/_global/_s/20855657.jpeg
 dobreprogramy.pl#@#DIV#phContent_CommentsControl_divAdTop
 dobreprogramy.pl#@#SECTION.block.no-mobile
 dobreprogramy.pl##SECTION.forum-help-cta
-dobreprogramy.pl##+js(abort-current-inline-script, przy pomocy Asystenta pobierania)
+dobreprogramy.pl##+js(acis, przy pomocy Asystenta pobierania)
 dom.wp.pl##DIV#shopingBx
 dom.wp.pl##DIV#shopingBxEc
 dom.wp.pl##DIV.bxPartnerzy.bx
