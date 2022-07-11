@@ -5,6 +5,20 @@
 'use strict';
 
 
+/// noeval-debug.js
+/// alias noeval2.js
+(function () {
+	const log = console.log.bind(console);
+	window.eval = new Proxy(window.eval, { // jshint ignore: line
+		apply: function (target, thisArg, args) {
+			log(`Document tried to eval...$ {
+				args[0]
+			}\n`);
+			return target.apply(thisArg, args);
+		}
+	});
+})();
+
 /// my_logger.js
 /// alias log.js
 // https://github.com/uBlockOrigin/uAssets/issues/9123#issuecomment-848255120
