@@ -11,9 +11,7 @@
 	const log = console.log.bind(console);
 	window.eval = new Proxy(window.eval, { // jshint ignore: line
 		apply: function (target, thisArg, args) {
-			log(`Document tried to eval...$ {
-				args[0]
-			}\n`);
+			log('Document tried to eval2:\n' + args[0] + '\n');
 			return target.apply(thisArg, args);
 		}
 	});
