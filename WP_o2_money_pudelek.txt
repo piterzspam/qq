@@ -218,7 +218,7 @@ money.pl,o2.pl,pudelek.pl##BODY > DIV > DIV[style="height: 60px;"]:remove()
 
 !#canonical #desktop #article_page #dynamic #antyadblock - Komunikat o adblocku
 !https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
-money.pl,o2.pl,pudelek.pl##HEAD > STYLE[type="text/css"][data-id="wpcss"]:remove()
+money.pl,o2.pl,pudelek.pl##HEAD > STYLE[data-id="wpcss"]:has-text(/A(\\2060 )?d(\\2060 )?b(\\2060 )?l(\\2060 )?o(\\2060 )?c(\\2060 )?k(\\2060 )?a/):remove()
 
 !#canonical #desktop #article_page #dynamic #social - Ramka z przyciskiem facebooka
 !https://www.money.pl/podatki/krotki-poradnik-odnalezienia-sie-w-podatkowym-polskim-ladzie-opinia-6707507260660512a.html
