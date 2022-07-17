@@ -21,10 +21,26 @@ shrinkme.io##DIV.alert:style(font-size: 12px !important;)
 ||shrinkme.io/js/ads.js
 @@||shrinkme.io/js/ads.js
 
-||informaxonline.com^$script,font,stylesheet
-||informaxonline.com/wp-content/plugins/wp-safelink-v3/assets/fuckadblock.js$script,redirect=fuckadblock.js-3.2.0,important
+
+
+!https://link.adslinkfly.online/ohB2
+informaxonline.com##.adsbygoogle
+||informaxonline.com^$font
+||informaxonline.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
+informaxonline.com##:is(FORM#wpsafelink-landing, DIV#wpsafegenerate):others()
+informaxonline.com##+js(nobab)
 @@||informaxonline.com/wp-content/themes/writee/assets/css/style-ltr.css?
-informaxonline.com##SECTION.site-main
+
+
+
+||crypto-fire.website^
+||www.google.com/url?q=$domain=test.madshiba.fun
+||test.madshiba.fun/post/js/scripts.js
+||ipallinone.com^$frame
+||bestinnovative.tech^$frame
+
+
+
 
 ||onemboaran.com^
 $image,third-party,domain=adslinkfly.online
@@ -61,6 +77,9 @@ adshort.tech##+js(set, blurred, false)
 @@||linegee.net/wp-includes/js/jquery/jquery.js?
 ||linegee.net^$font,image,script,stylesheet
 linegee.net##:is(p.kecil > a):others()
+linegee.net##div#wrapper:style(width: unset !important;)
+linegee.net##.postcontent:style(width: unset !important;)
+linegee.net##p.kecil a.btn:style(border: dashed !important;)
 
 @@||intercelestial.com/wp-includes/js/jquery/jquery.min.js?
 @@||linegee.net/style.css

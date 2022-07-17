@@ -396,6 +396,9 @@ money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div
 !https://www.o2.pl/biznes/tak-wyglada-najbogatszy-czlowiek-swiata-ile-zarabia-w-4-sekundy-bedziecie-w-szoku-6631162347539264a
 money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //aside[@role="complementary"]/following-sibling::div[1]/article) > DIV:has(:scope P:only-child:has-text(/(Czytaj także:|Czytaj też:|Przeczytaj także:)/) > A[href][rel="noopener noreferrer"]:last-child)
 
+!Blokowanie automatycznego odtwarzenia wideo przy scrollowaniu
+!https://www.o2.pl/plotki/konrad-piasecki-znika-z-anteny-po-raz-ostatni-zasiade-za-tym-stolem-6790097047632640a
+money.pl,o2.pl,pudelek.pl##+js(aeld, AUTOPLAY)
 
 
 !#main_page

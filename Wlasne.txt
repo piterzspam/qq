@@ -225,7 +225,7 @@ filmweb.pl#@#+js(no-setTimeout-if, notDetected)
 filmweb.pl##+js(nostif, focus, 300000)
 
 !https://www.filmweb.pl/film/Memento-2000-7656
-||fwcdn.pl/prt/
+@@/v1/ads/*$domain=filmweb.pl
 ||fwcdn.pl/video/*#t=0,5|
 
 filmy.to##DIV#cookie-bar
@@ -540,7 +540,6 @@ zippyshare.com##+js(aopw, acPrefetch)
 ||pinimg.com^$domain=banggood.com
 ||pixel.watch^
 ||platform.twitter.com^$domain=topcashback.com,important
-||play.google.com/log?$badfilter
 ||playbuzz.com^$domain=drivetribe.com
 ||playwire.com^$domain=softonic.com
 ||pleaseletmeadvertise.com^
@@ -2181,6 +2180,12 @@ realpython.com##DIV.article DIV:has(> A.small.text-muted[href="/account/join/"] 
 !Sociale
 realpython.com##DIV.sidebar-sticky > DIV.sidebar-module + DIV.sidebar-module:has(> SPAN > A.badge.text-light.mb-1)
 
+realpython.com##DIV.d-sm-flex
+realpython.com##DIV.jsCompletionStatusWidget
+realpython.com##DIV.article DIV.alert-warning
+realpython.com##:is(DIV.article > FIGURE, DIV.article > H1, DIV.article > DIV.mb-0, DIV.article > DIV.article-body, DIV.article > DIV#author, DIV#sidebar-toc, DIV#glightbox-body):others()
+
+
 ! 2021-11-23 https://time.com
 time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component
 
@@ -2357,10 +2362,7 @@ journaldev.com##DIV.code-block:has(> DIV[id][class="_ap_apex_ad"])
 statology.org##:is(DIV.entry-header-wrapper, DIV.entry-content):others()
 
 
-realpython.com##DIV.d-sm-flex
-realpython.com##DIV.jsCompletionStatusWidget
-realpython.com##DIV.article DIV.alert-warning
-realpython.com##:is(DIV.article > FIGURE, DIV.article > H1, DIV.article > DIV.mb-0, DIV.article > DIV.article-body, DIV.article > DIV#author, DIV#sidebar-toc, DIV#glightbox-body):others()
+
 
 
 
@@ -2378,3 +2380,27 @@ dubznetwork.com##.aoa_overlay
 
 !KAD - Przekręty
 ||exe.io^$document,badfilter
+
+!https://informaxonline.com?safelink_redirect=eyJzZWNvbmRfc2FmZWxpbmtfdXJsIjoiIiwic2FmZWxpbmsiOiJodHRwczpcL1wvZ2FtaW5wbGF5LmNvbVwvdmVyaWZ5XC8/XC9vaEIyIn0=
+||gaminplay.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
+gaminplay.com##+js(set, document.onmousedown, noopFunc)
+gaminplay.com##:is(DIV#content DIV.row center, DIV#yuidea-snp):others()
+
+
+juba-get.com##+js(acis, detectAdBlock)
+
+
+||fwcdn.pl/front/assets/AutoRefreshModule.
+||fwcdn.pl/front/assets/FwSasAd.
+||fwcdn.pl/front/assets/FaSkyBottom.
+||fwcdn.pl/front/assets/AsyncAdsModule.
+
+
+!https://www.naukowiec.org/newton.html
+||player.videoexchanger.com^$third-party
+naukowiec.org###header-container, #main:style(display: block !important;)
+naukowiec.org##DIV.article-content + DIV[style="text-align: center;margin-bottom: 20px;position:relative;z-index:9999999999"]
+
+||s1.wcy.wat.edu.pl/ed1/contextmenu.js
+
+gandalf.com.pl##+js(aopw, window.document.title)

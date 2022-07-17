@@ -39,7 +39,6 @@ birdload.com##DIV#fanback
 @@||BOXOPUS.COM^$generichide
 @@||CBOX1S.COM^$generichide
 @@||CBOXERA.COM^$generichide
-||onesignal.com
 ||tawk.to$domain=cboxera.com
 cboxpremiumleech.net##DIV#mainblock
 @@||CBOXPREMIUMLEECH.NET^$generichide

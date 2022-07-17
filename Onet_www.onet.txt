@@ -271,7 +271,6 @@ www.onet.pl##DIV.onet-ad
 !onet.pl#@#^HEAD > SCRIPT[type="text/javascript"]:has-text(kropkaParams)
 
 
-
 !mobile !desktop
 !https://www.onet.pl/informacje/onetwiadomosci/polowanie-na-odpowiedzialnych-za-zbrodnie-w-buczy-to-moze-byc-prowokacja/qdbxt0d,79cfc278
 www.onet.pl##DIV#__next [class^="BackToMainPage_"]
@@ -283,4 +282,10 @@ www.onet.pl##ARTICLE ASIDE[class^="CenterAd_container"]
 www.onet.pl##ARTICLE DIV[class^="EditorialLetter_container_"]:has-text(Masz ciekawy temat? Napisz do nas list!)
 www.onet.pl##ARTICLE DIV[class^="Body_rectangleContainer__"]
 www.onet.pl##ARTICLE P:has-text(Dziękujemy, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści) + DIV[class^="EmbeddedApplication_wrapper__"]:xpath(self::node() | self::node()/preceding-sibling::P[1])
+
+!desktop
+!Strona pośrednia po kliknięciu w link na stronie głównej
+!https://www.onet.pl/?utm_source=wiadomosci.onet.pl_viasg_wiadomosci&utm_campaign=leo_automatic&pid=1c5354c4-6ddd-4e88-81c3-737c4c2014a8&sid=b177a2c9-166f-4113-9b28-185bbe554807
+www.onet.pl##:matches-path(/\/\?.*?utm_source=.*?&pid.*?&sid.*$/) DIV[class^="Nitro_widget__"]:others()
+/www\.onet\.pl\/\?.*?utm_source=.*?&pid.*?&sid.*$/$csp=font-src 'none'; script-src 'unsafe-inline' *.onet.pl;
 
