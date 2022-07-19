@@ -2292,7 +2292,10 @@ mobi2c.com,newforex.online,world-trips.net##:is(DIV#devozon-wait1, DIV#devozon-s
 forex-gold.net##:is(DIV#ytimer, DIV#mainlink, BUTTON#submitBtn):others()
 iir.ai##:is(FORM#link-view, IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/"]):others()
 techmody.io##:is(FORM#link-view, DIV#content, DIV#yu-snp):others()
-sevenjournals.com##:is(BUTTON#yuidea-btn-before, DIV#yuidea-wait1, DIV#yuidea-snp, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"]):others()zegtrends.com##:is(BUTTON.bsub, BUTTON#go, DIV#cap):others()
+!https://go.birdurls.com/24qncpk4
+sevenjournals.com##:is(BUTTON#yuidea-btn-before, DIV#yuidea-wait1, DIV#yuidea-snp, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"]):others()
+sevenjournals.com##+js(set, document.onmousedown, noopFunc)
+zegtrends.com##:is(BUTTON.bsub, BUTTON#go, DIV#cap):others()
 bclikeqt.com##+js(aeld, load, s65c)
 bclikeqt.com##:is(DIV#s65c, DIV.alert, FORM[id], DIV#adb_detected, SPAN#countdown, DIV#overlay, IFRAME[src*="https://www.google.com/recaptcha/api2/"], A#surl, .pub_300x250, .pub_300x250m, .pub_728x90, .text-ad, .textAd, .text_ad, .text_ads, .text-ads, .text-ad-links):others()
 forexmab.com,forex-articles.com##:is(A#makingdifferenttimer, DIV#mdtimer, CENTER.oto)
