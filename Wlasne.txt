@@ -2407,3 +2407,6 @@ naukowiec.org##DIV.article-content + DIV[style="text-align: center;margin-bottom
 ||s1.wcy.wat.edu.pl/ed1/contextmenu.js
 
 gandalf.com.pl##+js(aopw, window.document.title)
+
+!Przyspieszenie ładowania kolejnych obrazków w captchy
+www.google.com,recaptcha.net##+js(nano-stb, , 4000, 0.02)

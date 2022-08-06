@@ -138,3 +138,5 @@ spacetica.com##INS.adsbygoogle
 spacetica.com##HEADER > DIV.navbar > DIV.container A
 spacetica.com##DIV.col-md-7 > A
 ||spacetica.com/themes/cleanex/style.css
+
+||kiiw.icu/js/jquery.js
