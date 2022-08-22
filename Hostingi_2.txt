@@ -358,7 +358,7 @@ auroravid.to,bitvid.sx,clicknupload.org,cloudtime.to,dailyuploads.net,faststore.
 auroravid.to,bitvid.sx,cloudtime.to,cloudyfiles.org,daclips.in,filescdn.com,filesupload.org,gorillavid.in,indishare.me,movpod.in,nowvideo.sx,solidfiles.com,speedvid.net,streamplay.to,uptobox.com,userscloud.com,vidfile.net,watchers.to,wholecloud.net,zippyshare.com##+js(aopw, Fingerprint2)
 cloudyfiles.org,kingvid.tv,suprafiles.org,vidfile.net##+js(aopw, TID)
 downace.com,movpod.in,openload.co,owndrives.com,rapidvideo.com,share-online.biz##+js(noeval)
-filescdn.com,flashx.tv,katfile.com,openload.co,sendspace.com,speedvid.net,uploadrocket.ne,userscloud.com,videowood.tv##+js(aopw, open)
+filescdn.com,flashx.tv,openload.co,sendspace.com,speedvid.net,uploadrocket.ne,userscloud.com,videowood.tv##+js(aopw, open)
 flashx.tv,rapidvideo.com,vidfile.net##+js(aopr, zfgloadedpopup)
 kingvid.tv##+js(impspcabe-defuser)
 kingvid.tv##+js(noeval-if, RTCPeerConnection)

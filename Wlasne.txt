@@ -2292,12 +2292,19 @@ mobi2c.com,newforex.online,world-trips.net##:is(DIV#devozon-wait1, DIV#devozon-s
 forex-gold.net##:is(DIV#ytimer, DIV#mainlink, BUTTON#submitBtn):others()
 iir.ai##:is(FORM#link-view, IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/"]):others()
 techmody.io##:is(FORM#link-view, DIV#content, DIV#yu-snp):others()
+
+
+!https://informaxonline.com?safelink_redirect=eyJzZWNvbmRfc2FmZWxpbmtfdXJsIjoiIiwic2FmZWxpbmsiOiJodHRwczpcL1wvZ2FtaW5wbGF5LmNvbVwvdmVyaWZ5XC8/XC9vaEIyIn0=
+cookie-law-info-public.js$domain=gaminplay.com|sevenjournals.com
 !https://go.birdurls.com/24qncpk4
-sevenjournals.com##:is(BUTTON#yuidea-btn-before, A#yuidea-btn-after, DIV#yuidea-wait1, DIV#yuidea-snp, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"]):others()
-sevenjournals.com##+js(set, document.onmousedown, noopFunc)
-zegtrends.com##:is(BUTTON.bsub, BUTTON#go, DIV#cap):others()
-bclikeqt.com##+js(aeld, load, s65c)
-bclikeqt.com##:is(DIV#s65c, DIV.alert, FORM[id], DIV#adb_detected, SPAN#countdown, DIV#overlay, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], A#surl, .pub_300x250, .pub_300x250m, .pub_728x90, .text-ad, .textAd, .text_ad, .text_ads, .text-ads, .text-ad-links):others()
+gaminplay.com,sevenjournals.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], DIV#content DIV.row center, BUTTON#yuidea-btn-before, A#yuidea-btn-after, DIV#yuidea-wait1, DIV#yuidea-generate, DIV#yuidea-snp):others()
+gaminplay.com,sevenjournals.com##+js(set, document.onmousedown, noopFunc)
+zegtrends.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap):others()
+
+bclikeqt.com,webhostingpost.com##+js(aeld, load, s65c)
+bclikeqt.com,webhostingpost.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], .pub_300x250, .pub_300x250m, .pub_728x90, .text-ad, .textAd, .text_ad, .text_ads, .text-ads, .text-ad-links, A#surl, DIV#s65c, DIV.alert, FORM[id], DIV#adb_detected, SPAN#countdown, DIV#overlay):others()
+
+
 forexmab.com,forex-articles.com##:is(A#makingdifferenttimer, DIV#mdtimer, CENTER.oto)
 
 earnme.club,usanewstoday.club##:is(DIV#tp-generate, BUTTON#tp-snp2):others()
@@ -2313,16 +2320,26 @@ skincarie.com##+js(aopw, TID)
 skincarie.com##+js(noeval)
 skincarie.com##DIV[onclick="location.href='/lp.php'"]
 
+
+!https://leechall.com/ads/687474703A2F2F6D65676175726C2E696E2F4D644E63536667
+!megaurl.in
+downfile.site##+js(ra, oncontextmenu, body, stay)
+||downfile.site^$frame,first-party
+downfile.site##:is(iframe[src*="hcaptcha.com"], div.h-captcha, input#proceed, div.alert.captcha-check, div#redirect-link, div.display):others()
 !https://downfile.site/ai-enrichment-project-at-seeburger.html#NNPT
 downfile.site##+js(aeld, contextmenu)
 downfile.site##+js(aopw, document.onkeydown)
 ||unibots.in^$domain=downfile.site
 ||vidcrunch.com^$domain=downfile.site
-*$script,denyallow=gstatic.com|gstatic.com,domain=downfile.site
+
+
+!zshort.io
+antonimos.de##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], div#checkclick):others()
+antonimos.de##+js(nano-sib, #cbt, *, 0.02)
 
 trangchu.news##+js(aell)
 trangchu.news##+js(aeld, contextmenu)
-trangchu.news##+js(ra, , oncontextmenu, stay)
+trangchu.news##+js(ra, oncontextmenu, , stay)
 
 sainny.com##:is(DIV#captchaShortlink, FORM#link-view > P:first-of-type B, BUTTON#invisibleCaptchaShortlink, DIV.alert, IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/"], DIV.box-main > H4, SPAN#countdown, A.btn.get-link, #ad-banner):others()
 
@@ -2383,11 +2400,6 @@ dubznetwork.com##.aoa_overlay
 
 !KAD - Przekręty
 ||exe.io^$document,badfilter
-
-!https://informaxonline.com?safelink_redirect=eyJzZWNvbmRfc2FmZWxpbmtfdXJsIjoiIiwic2FmZWxpbmsiOiJodHRwczpcL1wvZ2FtaW5wbGF5LmNvbVwvdmVyaWZ5XC8/XC9vaEIyIn0=
-||gaminplay.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
-gaminplay.com##+js(set, document.onmousedown, noopFunc)
-gaminplay.com##:is(DIV#content DIV.row center, DIV#yuidea-snp):others()
 
 
 juba-get.com##+js(acis, detectAdBlock)
