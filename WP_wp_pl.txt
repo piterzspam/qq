@@ -148,24 +148,6 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##DIV.article--text:has(:scope STRONG > A[h
 !wp.pl,~sportowefakty.wp.pl,~www.wp.pl##HTML:has(:scope DIV.menuFooterDesktop[data-st-area="Footer"]) ARTICLE > DIV > DIV > DIV:has(> H2:first-child + DIV[id^="video-player-"]:last-child)
 
 
-!Wideo powiązane w treści artykułu
-!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV.article--text:has(> H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV.article--text:has(> H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
-!https://wiadomosci.wp.pl/malutki-bobr-uratowany-przed-utonieciem-w-klodzku-zdjecia-6637885770005440a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV.article--text:has(> P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV.article--text:has(> P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
-!Trzeba usunąć wideo, potem schować element z tekstem i element po wideo
-!https://opinie.wp.pl/skladka-zdrowotna-w-gore-ale-czy-dzieki-temu-szybciej-dotrzemy-do-lekarza-opinia-6639982861732384a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV[data-reactid]:has(> DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV > DIV[id^="video-player-"]:remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV[data-reactid]:has(> DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:empty:xpath(self::node() | self::node()/preceding-sibling::DIV[1])
-
-!https://tech.wp.pl/maseczki-powaznym-zrodlem-zanieczyszczen-uwalniaja-metale-ciezkie-do-srodowiska-6638218094942816a
-!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE[data-st-area="article-article"] DIV:has(> H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(> H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV:remove()
-!Chowanie po usunięciu
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(> H2:only-child:has-text(/zobacz:|zobacz także:|zobacz też:/i))
 
 !Reklama
 !https://wideo.wp.pl/kontrola-ciezarowki-w-poznaniu-prawda-o-kierowcy-zaskoczyla-nawet-inspektorow-6643465643734657v
@@ -188,24 +170,18 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##+js(aeld, autoplay_blocked)
 
 
 
-!Wideo powiązane w treści artykułu
-!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV.article--text:has(> H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV.article--text:has(> H2:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
+!https://wiadomosci.wp.pl/waszyngton-bije-na-alarm-putin-zamierza-wziac-wielki-odwet-6804462007249632a
 !https://wiadomosci.wp.pl/malutki-bobr-uratowany-przed-utonieciem-w-klodzku-zdjecia-6637885770005440a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV.article--text:has(> P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV.article--text:has(> P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:has(> DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1]) > *:remove()
-!Trzeba usunąć wideo, potem schować element z tekstem i element po wideo
 !https://opinie.wp.pl/skladka-zdrowotna-w-gore-ale-czy-dzieki-temu-szybciej-dotrzemy-do-lekarza-opinia-6639982861732384a
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE DIV[data-reactid]:has(> DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV > DIV[id^="video-player-"]:remove()
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE DIV[data-reactid]:has(> DIV.article--text > P > STRONG:has-text(/zobacz:|zobacz także:|zobacz też:/i)) + DIV:empty:xpath(self::node() | self::node()/preceding-sibling::DIV[1])
+!https://wiadomosci.wp.pl/anna-moskwa-od-kryzysow-klimatu-energii-i-srodowiska-6803187757927072a
+!https://wiadomosci.wp.pl/katastrofa-ekologiczna-w-odrze-ustalenie-przyczyny-moze-byc-niemozliwe-ale-jest-bardzo-prawdopodobna-hipoteza-6802420814584416a
+!https://wiadomosci.wp.pl/wiceminister-sie-skompromitowal-wywiad-zniknal-ze-strony-regionalnej-rozglosni-polskiego-radia-6802707539098176a
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-article"]/div[count(preceding-sibling::*)=0][count(following-sibling::*)=0] | //article[@data-st-area="article-article"]/div[@data-st-area="article-header"]/following-sibling::div[1]/div[count(following-sibling::*)=0]) > DIV:has-text(/(Dalsza część artykułu pod materiałem wideo|Zobacz też)/i) + DIV:has(DIV[id^="video-player-"]) DIV#Player0:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-article"]/div[count(preceding-sibling::*)=0][count(following-sibling::*)=0] | //article[@data-st-area="article-article"]/div[@data-st-area="article-header"]/following-sibling::div[1]/div[count(following-sibling::*)=0]) > DIV:has-text(/(Dalsza część artykułu pod materiałem wideo|Zobacz też)/i) + DIV:has(DIV[id^="video-player-"]):xpath(self::node() | self::node()/preceding-sibling::DIV[1])
 
-!https://tech.wp.pl/maseczki-powaznym-zrodlem-zanieczyszczen-uwalniaja-metale-ciezkie-do-srodowiska-6638218094942816a
-!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a/komentarze
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##^ARTICLE[data-st-area="article-article"] DIV:has(> H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(> H2:first-child:has-text(/zobacz:|zobacz także:|zobacz też:/i) + DIV[id^="video-player-"]:last-child) > DIV:remove()
-!Chowanie po usunięciu
-wp.pl,~sportowefakty.wp.pl,~www.wp.pl##ARTICLE[data-st-area="article-article"] DIV:has(> H2:only-child:has-text(/zobacz:|zobacz także:|zobacz też:/i))
+!https://wiadomosci.wp.pl/andrzej-duda-chcial-zalatwic-chinskie-szczepionki-mielismy-szczescie-ze-to-sie-nie-udalo-6637531826244576a
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-article"]/div[count(preceding-sibling::*)=0][count(following-sibling::*)=0] | //article[@data-st-area="article-article"]/div[@data-st-area="article-header"]/following-sibling::div[1]/div[count(following-sibling::*)=0]) > DIV H2:has-text(/(ZOBACZ TAKŻE:)/i) + DIV[id^="video-player-"] DIV#Player0:remove()
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-article"]/div[count(preceding-sibling::*)=0][count(following-sibling::*)=0] | //article[@data-st-area="article-article"]/div[@data-st-area="article-header"]/following-sibling::div[1]/div[count(following-sibling::*)=0]) > DIV:has(H2:has-text(/(ZOBACZ TAKŻE:)/i) + DIV[id^="video-player-"])
 
 
 

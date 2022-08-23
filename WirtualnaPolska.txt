@@ -75,7 +75,7 @@ wp.pl##DIV#app > DIV[data-reactroot=""] > DIV.content > DIV[class]:not(data-reac
 !Sekcja koszyk na górze strony - Wersja desktop
 wp.pl##DIV#app > DIV[data-reactid="1"] > DIV[data-reactid="2"] > DIV[data-reactid="3"] > DIV[data-reactid="9"]:has(:scope svg[name="close"]) > DIV:remove()
 !Komunikat o adblocku
-wp.pl##HEAD > STYLE[data-id="wpcss"]:has-text(/A(\\2060 )?d(\\2060 )?b(\\2060 )?l(\\2060 )?o(\\2060 )?c(\\2060 )?k(\\2060 )?a/):remove()
+wp.pl##HEAD > STYLE[data-id="wpcss"]:has-text(/A(\\2060 )?d(\\2060 )?b(\\2060 )?l(\\2060 )?o(\\2060 )?c(\\2060 )?k(\\2060 )?a/i):remove()
 
 
 !Przeładowanie strony po zmianie karty
