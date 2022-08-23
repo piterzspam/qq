@@ -183,7 +183,10 @@ wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-a
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-article"]/div[count(preceding-sibling::*)=0][count(following-sibling::*)=0] | //article[@data-st-area="article-article"]/div[@data-st-area="article-header"]/following-sibling::div[1]/div[count(following-sibling::*)=0]) > DIV H2:has-text(/(ZOBACZ TAKŻE:)/i) + DIV[id^="video-player-"] DIV#Player0:remove()
 wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-article"]/div[count(preceding-sibling::*)=0][count(following-sibling::*)=0] | //article[@data-st-area="article-article"]/div[@data-st-area="article-header"]/following-sibling::div[1]/div[count(following-sibling::*)=0]) > DIV:has(H2:has-text(/(ZOBACZ TAKŻE:)/i) + DIV[id^="video-player-"])
 
-
+!Czasem jest div (dalsza część...)+ div (zobacz także) + div (wideo), wiec pierwszy trzeba schowac oddzielnie
+!https://wiadomosci.wp.pl/zatruta-odra-sa-wyniki-badan-z-czech-6804518574385920a
+!https://wiadomosci.wp.pl/4-latka-wypadla-z-okna-matka-byla-pod-wplywem-srodkow-odurzajacych-6804518882376416a
+wp.pl,~sportowefakty.wp.pl,~www.wp.pl##:xpath(//article[@data-st-area="article-article"]/div[count(preceding-sibling::*)=0][count(following-sibling::*)=0] | //article[@data-st-area="article-article"]/div[@data-st-area="article-header"]/following-sibling::div[1]/div[count(following-sibling::*)=0]) > DIV:has-text(/(Dalsza część artykułu pod materiałem wideo|Zobacz też)/i)
 
 !#canonical #desktop - Strona desktopowa miała pasek poziomy
 !https://wiadomosci.wp.pl/
