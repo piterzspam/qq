@@ -2406,7 +2406,7 @@ juba-get.com##+js(acis, detectAdBlock)
 
 
 ||fwcdn.pl/front/assets/AutoRefreshModule.
-||fwcdn.pl/front/assets/FwSasAd.
+!Psuło wyszukiwanie na stronie mobilnej ||fwcdn.pl/front/assets/FwSasAd.
 ||fwcdn.pl/front/assets/FaSkyBottom.
 ||fwcdn.pl/front/assets/AsyncAdsModule.
 
@@ -2422,3 +2422,17 @@ gandalf.com.pl##+js(aopw, window.document.title)
 
 !Przyspieszenie ładowania kolejnych obrazków w captchy
 www.google.com,recaptcha.net##+js(nano-stb, , 4000, 0.02)
+
+
+
+
+se.pl##article div.block_list__container div.video_player
+se.pl##article div.block_list__container video
+se.pl##article div.block_list__container p:last-of-type ~ div.gl_plugin.galleries
+se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.galleries) p:last-of-type:has-text(galeri)
+se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.galleries) h3:last-of-type:has-text(galeri)
+se.pl##div.promo-wrapper 
+se.pl##div#taboola-below-article-thumbnails + script + div.gl_plugin.listing
+dorzeczy.pl,wprost.pl##+js(nostif, initDeep, 100)
+dorzeczy.pl,wprost.pl##+js(set, docVisibility, noopFunc)
+dziennik.pl,forsal.pl###redirectionMainPage
