@@ -2299,7 +2299,7 @@ cookie-law-info-public.js$domain=gaminplay.com|sevenjournals.com
 !https://go.birdurls.com/24qncpk4
 gaminplay.com,sevenjournals.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], DIV#content DIV.row center, BUTTON#yuidea-btn-before, A#yuidea-btn-after, DIV#yuidea-wait1, DIV#yuidea-generate, DIV#yuidea-snp):others()
 gaminplay.com,sevenjournals.com##+js(set, document.onmousedown, noopFunc)
-zegtrends.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap):others()
+zegtrends.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap, #fin):others()
 
 bclikeqt.com,webhostingpost.com##+js(aeld, load, s65c)
 bclikeqt.com,webhostingpost.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], .pub_300x250, .pub_300x250m, .pub_728x90, .text-ad, .textAd, .text_ad, .text_ads, .text-ads, .text-ad-links, A#surl, DIV#s65c, DIV.alert, FORM[id], DIV#adb_detected, SPAN#countdown, DIV#overlay):others()
