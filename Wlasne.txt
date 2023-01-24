@@ -395,12 +395,12 @@ zippyshare.com##+js(aopw, acPrefetch)
 ||adserver.xpanama.net^$domain=xda-developers.com,important
 ||adservice.aliexpress.com^
 ||adservice.google.com^
-||alicdn.com/*/aplus_ae.js
+!||alicdn.com/*/aplus_ae.js
 ||alicdn.com/*/beacon_async.js?
-||alicdn.com/*aplus_*.js$script
+!||alicdn.com/*aplus_*.js$script
 ||alicdn.com/*ctl.js$script
 ||alicdn.com/*ctl.js$script,badfilter
-||alicdn.com/*store-proxy$subdocument
+!||alicdn.com/*store-proxy$subdocument
 ||aliexpress.com/product/recommend.htm?productId=*&sceneId=*&categoryId=*&companyId=
 ||allegroimg.com/s400/$image
 ||alltube.tv/*jsverify.js
