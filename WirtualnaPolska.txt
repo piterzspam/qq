@@ -97,7 +97,9 @@ wp.pl##HEAD > STYLE[data-id="wpcss"]:has-text(/A(\\2060 )?d(\\2060 )?b(\\2060 )?
 
 !wp.pl##DIV:has(> IMG[width="56"][height="45"]) > DIV >*:has(:scope IFRAME):remove()
 
+wp.pl##div[data-st-area="Header"] > div[data-reactid]:first-child + div:not([data-reactid]):has(div > svg > path[d] + path[d]):remove()
 
+poczta.wp.pl##DIV[ng-if="CommonController.showBannerTopFoldersAndBinders"]
 
 !#include WP_abczdrowie_parenting.txt
 !#include WP_autokult_fotoblogia_gadzetomania_komorkomania.txt

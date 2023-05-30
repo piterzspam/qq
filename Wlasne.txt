@@ -634,7 +634,6 @@ zippyshare.com##+js(aopw, acPrefetch)
 ||vkontakte.ru$domain=banggood.com
 ||vzaar.com^$domain=filehippo.com
 ||webfrik.pl^$badfilter
-||webshark.pl^
 ||widgets.getpocket.com^$third-party,important
 ||widgets.wp.com/likes/master.html
 ||widgets.wp.com/platform.js
@@ -810,9 +809,9 @@ mbasic.facebook.com##DIV#viewport > DIV#u_0_1
 
 !Kopiowanie na stronie mobilnej
 !https://m.facebook.com/story.php?story_fbid=10158336463553802&id=638903801
-m.facebook.com##DIV.async_like:style(user-select: unset !important)
 m.facebook.com##DIV.async_like:style(-webkit-tap-highlight-color: unset !important)
-m.facebook.com##DIV.async_like:style(cursor: unset !important)
+m.facebook.com##BODY.touch:style(cursor: auto !important)
+m.facebook.com##._5rgr:style(user-select: unset !important)
 
 !https://wizaz.pl/kosmetyki/produkt,247136,wilkinson-quattro-titanium-sensitive-maszynka-systemowa-dla-mezczyzn.html
 !https://tools.wizaz.pl/files/js/ado.js
@@ -836,11 +835,15 @@ wizaz.pl##DIV.folding-content:style(min-height: unset !important)
 
 
 allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty promowane"]/following-sibling::ARTICLE | //DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty"]/preceding-sibling::ARTICLE):style(border: dashed !important;)
-!allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
 allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(> H2)) > ARTICLE:style(border: dashed !important;)
 
+!Oferta sponsoworwana na górze i na dole listy wyników
+!https://allegro.pl/kategoria/mechanizmy-korbowe-i-czesci-mechanizmy-korbowe-251529?p=2&order=d&bmatch=baseline-product-cl-eyesa2-engag-dict43-spo-1-0-0318
+allegro.pl##DIV#opbox-listing--base ARTICLE[data-analytics-view-label="showSponsoredItems"]
 
-
+allegro.pl##div.opbox-listing:has(h2:has-text(/^Oferty promowane$/)):has(h2:has-text(/^Oferty$/)) > div > section + script + section:has(h2:has-text(/^Oferty promowane$/)):has(h2:has-text(/^Oferty$/)):xpath(//DIV[H2[text()="Oferty promowane"]]/following-sibling::ARTICLE[. = //DIV[H2[text()="Oferty"]]/preceding-sibling::ARTICLE]):style(border: dashed !important;)
+allegro.pl##div.opbox-listing:has(h2:has-text(/^Oferty promowane$/)):has(h2:has-text(/^Oferty$/)) > div:has(> section:has(h2:has-text(/^Oferty promowane$/)) + script + section:has(h2:has-text(/^Oferty$/))):xpath(//DIV[H2[text()="Oferty promowane"]]/following-sibling::ARTICLE | //DIV[H2[text()="Oferty"]]/preceding-sibling::ARTICLE):style(border: dashed !important;)
+allegro.pl##div.opbox-listing:has(h2:has-text(/^Oferty promowane$/)):not(:has(h2:has-text(/^Oferty$/))) > div > section > ARTICLE:style(border: dashed !important;)
 
 
 
@@ -1197,9 +1200,6 @@ peachsport.xyz##+js(aeld, contextmenu)
 pressreader.com##DIV.page-tint.subscriber-content
 
 
-allegro.pl##:xpath(//DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty promowane"]/following-sibling::ARTICLE | //DIV[@class="opbox-listing"]//DIV//SECTION//H2[text()="Oferty"]/preceding-sibling::ARTICLE):style(border: dashed !important;)
-!allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION + SCRIPT + SECTION > ARTICLE:style(border: dashed !important;)
-allegro.pl##DIV.opbox-listing > DIV:has(> SECTION > H2:has-text(Oferty promowane)):not(:has(> SECTION > H2:has-text(/^Oferty$/))) > SECTION:not(:has(> H2)) > ARTICLE:style(border: dashed !important;)
 
 ||acs.aliexpress.com/h5/mtop.relationrecommend.aliexpressrecommend.recommend/
 
@@ -1635,9 +1635,6 @@ sourceforge.net##UL.projects > LI.nel.standard.can-truncate
 ||vider.info^$document,badfilter
 ||vider.info^$badfilter
 
-!Oferta sponsoworwana na górze i na dole listy wyników
-!https://allegro.pl/kategoria/mechanizmy-korbowe-i-czesci-mechanizmy-korbowe-251529?p=2&order=d&bmatch=baseline-product-cl-eyesa2-engag-dict43-spo-1-0-0318
-allegro.pl##DIV#opbox-listing--base ARTICLE[data-analytics-view-label="showSponsoredItems"]
 
 @@||onepiece-api.de/ad_banner_4free.js?$domain=reevown.com
 
@@ -2195,15 +2192,13 @@ ceneo.pl##.product-offers__list__ado-item
 ceneo.pl##.recommended-products
 ceneo.pl##.js_promotedItems
 ceneo.pl##DIV.js_atContainer + DIV.js_rec-container:xpath(self::node() | self::node()/preceding-sibling::DIV[1]):remove()
+ceneo.pl##+js(nano-stb, window.location.replace, 500, 0.02)
+
+||ceneo.pl/Click/Offer/$csp=script-src 'none'; font-src 'none';
 
 ! 2021-11-25 https://www.cda.pl
 www.cda.pl##.siddeAd.tradf
 
-
-!Poprawa galerii reddita
-reddit.com##BODY > DIV[id="gov-container"] DIV[data-test-id="post-content"] > DIV > DIV[tabindex="0"] > DIV[tabindex="-1"][style]:style(height: unset !important)
-reddit.com##BODY > DIV[id="gov-container"] DIV[data-test-id="post-content"] > DIV > DIV[tabindex="0"] > DIV[tabindex="-1"] UL > LI[style="left:0px"]:style(position: unset !important)
-reddit.com##BODY > DIV[id="gov-container"] DIV[data-test-id="post-content"] > DIV > DIV[tabindex="0"] > DIV[tabindex="-1"] UL > LI[style="left: 0px;"]:style(position: unset !important)
 
 
 
@@ -2346,8 +2341,22 @@ sainny.com##:is(DIV#captchaShortlink, FORM#link-view > P:first-of-type B, BUTTON
 
 tenforums.com##DIV.chill
 
+
+!
+
+! 2022-08-24 https://hevodata.com
+hevodata.com##.get-started-side
+hevodata.com##div.note.wp-block-hevo-blocks-hevo-flash-note-block
+hevodata.com##.d-block.free-trial-link.primary-cta-wrapper.nav-item
+
+! 2022-08-27 https://www.gadgetsnow.com
+gadgetsnow.com##.aff_blue.aff_content
+
 google.com##+js(ra, data-jsarwt, DIV#search A[href], stay)
 !www.google.*##+js(ra, onmousedown|data-cthref, DIV#search A[href])
+
+
+m4cut.com##:is(BUTTON, DIV#countdown3):others()
 
 !https://dorzeczy-pl.cdn.ampproject.org/v/s/dorzeczy.pl/amp/192110/fabryka-lacznikow-w-radomiu-pierwszy-akt-oskarzenia.html?amp_js_v=a6
 dorzeczy.pl,dorzeczy-pl.cdn.ampproject.org##HTML[amp] .ad-aside.page-billboard-1
@@ -2421,8 +2430,11 @@ naukowiec.org##DIV.article-content + DIV[style="text-align: center;margin-bottom
 gandalf.com.pl##+js(aopw, window.document.title)
 
 !Przyspieszenie ładowania kolejnych obrazków w captchy
+www.google.com,recaptcha.net##.rc-imageselect-tile:style(transition-duration: 0.1s !important;)
+www.google.com,recaptcha.net##.rc-imageselect-dynamic-selected:style(transition-duration: 0.1s !important;)
+www.google.com,recaptcha.net##.rc-imageselect-progress:style(transition-duration: 0.1s !important;)
+www.google.com,recaptcha.net##.rc-image-tile-overlay:style(transition-duration: 0.1s !important;)
 www.google.com,recaptcha.net##+js(nano-stb, , 4000, 0.02)
-
 
 
 
@@ -2436,3 +2448,420 @@ se.pl##div#taboola-below-article-thumbnails + script + div.gl_plugin.listing
 dorzeczy.pl,wprost.pl##+js(nostif, initDeep, 100)
 dorzeczy.pl,wprost.pl##+js(set, docVisibility, noopFunc)
 dziennik.pl,forsal.pl###redirectionMainPage
+
+!https://markipli.com/2021/05/super-creative-local-marketing-ideas-to-combine-with-social-media/
+@@||markipli.com^$generichide
+
+
+decathlon.pl##BUTTON.go-to-top.top_link
+atlai.club##+js(nano-stb, #checkclick, 20000, 0.02)
+
+
+@@||static.webshark.pl/static/js/library/local_storage_cache.js
+@@||static.webshark.pl/static/js/library/jquery220_aserver_only_min.js
+
+
+parktool.com##+js(rc, going-up, BODY.page-scrolled.going-up, stay)
+
+
+newscon.net##+js(nosiif, checkads())
+
+
+prem.link##+js(nano-stb, waiting_time, 1000, 0.02)
+
+
+
+||kiiw.icu/js/jquery.js
+
+
+
+
+@@||www.zenaps.com/rclick.php?$document,first-party
+@@||edipresse.hit.gemius.pl/hitredir?$document,first-party
+||zenaps.com^$popup,badfilter
+
+||zenaps.com^$csp=script-src 'none'; font-src 'none';
+||modago.pl/click?ContentUrl=$csp=script-src 'none'; font-src 'none';
+
+
+
+
+!https://alitems.site/g/1e8d1144945c60fb7bcd16525dc3e8/?subid=thieve&subid1=eyJhIjoiIiwiYiI6IiJ9&subid2=&subid3=&ulp=https://www.aliexpress.com/item/1005003340507873.html
+@@||alitems.site/*&ulp=$document,first-party
+@@||alitems.site^$popup,domain=thieve.co
+
+||i.gyazo.com^$csp=script-src 'none'; font-src 'none';
+
+
+
+
+streamtape.com##+js(set, console.clear, noopFunc)
+streamtape.com##+js(aeld, contextmenu)
+
+
+||tineye.com/affiliates
+
+
+
+se.pl##article div.block_list__container div.video_player
+se.pl##article div.block_list__container video
+se.pl##article div.block_list__container p:last-of-type ~ div.gl_plugin.galleries
+se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.galleries) p:last-of-type:has-text(galeri)
+se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.galleries) h3:last-of-type:has-text(galeri)
+se.pl##div.promo-wrapper 
+se.pl##div#taboola-below-article-thumbnails + script + div.gl_plugin.listing
+dorzeczy.pl,wprost.pl##+js(nostif, initDeep, 100)
+dorzeczy.pl,wprost.pl##+js(set, docVisibility, noopFunc)
+dziennik.pl,forsal.pl###redirectionMainPage
+
+
+
+namemeaningbengali.com##:is(a.butt.btn):others()
+||namemeaningbengali.com^$stylesheet,1p
+||namemeaningbengali.com/wp-content/
+||namemeaningbengali.com/wp-includes/js/masonry
+||namemeaningbengali.com/wp-includes/js/imagesloaded.
+||namemeaningbengali.com/wp-includes/js/wp-emoji-release.
+$3p,domain=namemeaningbengali.com
+
+$3p,domain=readweb.today|webz.digital
+readweb.today,webz.digital##:is(input.butt, a.myButton.btn.link):others()
+
+@@||gyanitheme.com^$generichide
+www.gyanitheme.com##:is(#verify:not(.hidden), #ad-top, .alert, .ad-banner, #popup-button, #form div.modal-body):others()
+www.gyanitheme.com##span[style="font-size: x-small;text-align: left;"], div[id^="div-gpt-ad-"]
+www.gyanitheme.com##+js(rc, hidden, , stay)
+
+!privatemoviez.lol
+privatemoviez.lol##+js(nano-stb, , , 0.02)
+privatemoviez.lol##+js(nano-sib, , , 0.02)
+
+
+||blogger.com/comment/frame/$domain=www.gyanitheme.com
+go.gyanitheme.com##:is(.go.box-main):others()
+go.gyanitheme.com##.blog-item, #PopAd
+
+
+newstechapk##+js(nano-sib)
+newstechapk##+js(nano-stb)
+
+gammingbuddy.com##+js(nano-sib)
+gammingbuddy.com##+js(nano-stb)
+
+
+filmszilla.com##+js(nano-sib)
+filmszilla.com##+js(nano-stb)
+
+olamovies.ink##+js(nano-sib)
+olamovies.ink##+js(nano-stb)
+
+
+
+||unibotscdn.com^$domain=newsharsh.com
+||newsharsh.com^$css
+||newsharsh.com/box-office/wp-content/
+
+
+!https://informaxonline.com?safelink_redirect=eyJzZWNvbmRfc2FmZWxpbmtfdXJsIjoiIiwic2FmZWxpbmsiOiJodHRwczpcL1wvZ2FtaW5wbGF5LmNvbVwvdmVyaWZ5XC8/XC9vaEIyIn0=
+cookie-law-info-public.js$domain=adybrands.in|gaminplay.com|mytop5.club|sevenjournals.com
+!https://go.birdurls.com/24qncpk4
+adybrands.in,gaminplay.com,mytop5.club,sevenjournals.com,videolyrics.in,vikashmewada.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], DIV#content DIV.row center, BUTTON#yuidea-btn-before, A#yuidea-btn-after, DIV#yuidea-wait1, DIV#yuidea-generate, DIV#yuidea-snp):others()
+adybrands.in,gaminplay.com,mytop5.club,sevenjournals.com,videolyrics.in,vikashmewada.com##+js(set, document.onmousedown, noopFunc)
+
+
+
+
+adybrands.in,gaminplay.com,mytop5.club,sevenjournals.com,videolyrics.in,vikashmewada.com##+js(nobab)
+
+
+vikashmewada.com##+js(set, document.onmousedown, noopFunc)
+
+newsharsh.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], div#content center, #yuidea-snp):others()
+newsharsh.com##+js(set, document.onmousedown, noopFunc)
+||newsharsh.com/english/wp-includes/js/wp-emoji-release.
+||newsharsh.com/english/wp-includes/js/comment-reply.
+||newsharsh.com/english/wp-content/themes/
+
+crazyblog.in##:is(.col-md-10):others()
+crazyblog.in##.banner
+
+theconomy.me##:is(#ad-banner, IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/anchor?"], IFRAME[src*="https://www.recaptcha.net/recaptcha/api2/bframe?"], center > font[size="3"], .safelink-recatpcha, a#wpsafelinkhuman, form#link-view, .btn-success, center > h4, #countdown):others()
+theconomy.me##+js(nobab)
+
+
+! 2022-10-07 https://mca.electricmura.ro
+mca.electricmura.ro###mtsnb-11274
+
+
+vod.tvp.pl##+js(aeld, scroll, showBeam())
+
+
+geeksforgeeks.org##.make_sticky:style(top: 0px !important;)
+
+! 2022-10-21 https://www.codementor.io
+www.codementor.io##.jsx-4132240951
+www.codementor.io##.bottom-bar.jsx-633013373
+
+
+techymedies.com##:is(.wpsafe-top, #wpsafegenerate, #tie-popup-adblock, #wpsafe-wait2, #wpsafe-link):others()
+techymedies.com##.tie-container, #tie-wrapper:style(min-height: unset !important;)
+||techymedies.com/wp-content/themes/jannah/
+$script,3p,domain=techymedies.com
+$image,stylesheet,domain=techymedies.com
+/wp-emoji-release.min.js$domain=techymedies.com
+/comment-reply.min.js$domain=techymedies.com
+techymedies.com#@##wpsafe-time:upward([id^="wpsafe-wait"])
+!techymedies.com##+js(nano-sib, wpsafe-link)
+techymedies.com##+js(nano-sib, timer(), 1000)
+
+
+povathemes.com##+js(aopr, app_vars.force_disable_adblock)
+povathemes.com##:is(.get-link, .h5-font, .h4-font, #countdown, #go-link):others()
+
+
+@@||techcyan.com^$generichide
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=techcyan.com
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=techcyan.com
+techcyan.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], #verifynotrobo, #second-btn):others()
+
+
+kiktu.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], #captchabox, #second-btn):others()
+
+olamovies.wtf##+js(nano-sib, counter, 1000)
+
+
+blogmado.com##+js(nano-stb, , , 0.02)
+blogmado.com##+js(nano-sib, , , 0.02)
+blogmado.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], #lview, #ad-banner, .alert, .get-link):others()
+
+!jedna z domen 1shorten.com
+!https://www.google.com/url?sa=t&source=web&rct=j&url=https://nguyenvanbao.com/&ved=2ahUKEwi5jJ2du8b5AhUIqlYBHWzICGUQFnoECAQQAQ&usg=AOvVaw1PzsBR-v8r7ZCXSzs4pNuG
+||unibotscdn.com^$domain=nguyenvanbao.com
+nguyenvanbao.com##div.text-center > h2
+nguyenvanbao.com##div.text-center > p
+
+!jedna z domen megaurl.in
+!app.trangchu.news
+app.trangchu.news##div#content h2
+app.trangchu.news##div#content p
+@@||juicyads.com/720x90.jpg$domain=app.trangchu.news
+@@||azmath.info^$generichide
+
+
+ckk.ai##div.td-main-content-wrap
+
+
+writedroid.eu.org##+js(nano-stb, , , 0.02)
+writedroid.eu.org##+js(nano-sib, , , 0.02)
+writedroid.eu.org##:is(#timerContainer, #shortGoToCont, .mdlAd):others()
+
+
+! 2022-11-14 https://www.digitalocean.com
+www.digitalocean.com##.jDJcOT.CommunityCTAStyles-sc-dyi7ix-0
+www.digitalocean.com##.guPxsA.ToastStyles__StyledWrapper-sc-ekxewm-0
+www.digitalocean.com##.NavigationStyles__StyledNavigation-sc-fgip3f-0:style(position: unset !important;)
+www.digitalocean.com##.gENnNf.CTAStyles__StyledCTA-sc-1w7gzco-0
+www.digitalocean.com##.fewret.TutorialTemplateStyles__StyledConclusionCTA-sc-1gdp4d7-39.Markdown_markdown__7Dog_
+
+
+@@||app.adjust.com/*?deep_link=$first-party,document
+
+@@||click.pstmrk.it^$first-party,document
+
+
+www.avg.com##.os-pc.os-detect > .hub-cta-post.hub-cta-desktop > .js-sidebar-sticky.main-sidebar-tool.bg-purple-1.bg-purple-gradient.sidebar-widget
+
+www.toptal.com##.is-freelance_jobs_cta.blog_post-sidebar_section > .freelance_jobs_cta
+www.toptal.com##.is-linkedin.button
+www.toptal.com##.navbar-headline
+www.toptal.com##.is-visible.is-sticky.is-subscription.blog_post-footer_section
+www.toptal.com##.article_aside_subscription
+
+wykop.pl##.pub-slot-wrapper
+foreignpolicy.com##.in-article-subscribe-expandable-container
+foreignpolicy.com##LI.header-menu-item.subscribe-link
+
+alternativeto.net##[class^="AdsenseAd_"]
+alternativeto.net##.undefined
+
+
+@@||appcdn01.xyz/vast.js
+
+! 2023-03-13 https://cinemamovies.pl
+||i.imgur.com/3C0i5vu.jpg$image
+
+! 2023-03-21 https://www.aliexpress.com
+aliexpress.com##.bottom--container--1EMPdiV
+aliexpress.com##.spin--spainContainer--1G5UPsb
+aliexpress.com##.bottom--container--1EMPdiV
+
+
+superpharm.pl##.history-price-wrap.active:style(height: 300px !important;)
+
+
+
+raymond.cc##.driverfix-download-arrow + .hide-mbl.hide-tbl
+raymond.cc##.restoro-download-arrow + .hide-mbl.hide-tbl
+
+ithardware.pl##BODY#page-top:style(overflow-x: unset !important;)
+
+ithardware.pl##DIV#art-topBaner
+ithardware.pl##DIV#article_1 div[style="min-height:250px;overflow:hidden;"]
+ithardware.pl##DIV#article_1 div[style="width:100%;margin-top:10px;margin-bottom:10px;height:100px;"]
+
+
+
+filmozercy.com##div[onclick^="MyAdvertisements."]
+
+
+rp.pl##.main--header .first--container
+rp.pl##.inner--ad--breaker, .section--ad--breaker
+rp.pl##.commercial--container.-inited
+
+mediaexpert.pl##.layout-listing.layout > .css-deferred
+mediaexpert.pl##.listing-banner-zone
+
+wp.pl##HTML[\⚡] a#goToSG
+wp.pl##HTML[\⚡] body:style(overflow-x: unset !important;)
+wp.pl##HTML[\⚡] body:style(overflow-y: unset !important;)
+
+
+
+sadistic.pl##BODY:style(overflow: unset !important;)
+sadistic.pl##.portal .spolecznoscine
+
+
+
+ pobieramy24.xyz##ARTICLE center div[style="height: 80px;width: 650px;position:relative;text-align:center;box-shadow:5px 5px 12px #4356da;border:3px solid #4686ff;background: #0a2044;margin-bottom:10px;margin-top:2px;"]:has(a[href="https://rapidb.it/pl/page/how-it-works"])
+||pobieramy24.xyz/uploads/monthly_2022_12/2132141521lp.gif.8b4d0194e945671f459e1b05861fed41.gif
+||pobieramy24.xyz/uploads/monthly_2022_12/3473y4626bipcheap.png.337206122e604475ad8345fb98137f8f.png
+||i.imgur.com/eCkkxUD.png
+||i.imgur.com/PF9eSut.png
+||i.imgur.com/sWdXqMq.png
+||i.imgur.com/MbM8lhp.png
+
+
+vorek.pl##.news center div[style="height: 80px;width: 650px;position:relative;text-align:center;box-shadow:5px 5px 12px #4356da;border:3px solid #5769da;background: #d6dcfc;margin-bottom:10px;margin-top:2px;"]:has(a[href="https://rapidb.it/pl/page/how-it-works"])
+||vorek.pl/templates/qbsoft/img/3473y4626bipcheap.png
+||vorek.pl/templates/qbsoft/img/6y6hu15165jrthe.gif
+
+
+darkmachine.pl## div[id^="post_message_"] center div[style="height: 80px;width: 708px;position:relative;text-align:center;box-shadow:5px 5px 12px #4356da;border:3px solid #4686ff;background: #0a2044;margin-bottom:10px;margin-top:-17px;"]:has(a[href="https://rapidb.it/pl/page/how-it-works"])
+||darkmachine.pl/images/2134565ybipcheap.png
+||darkmachine.pl/images/lp235t4373.gif
+
+
+exsites.pl##.maincont center div[style="height:80px;width:720px;position:relative;text-align:center;box-shadow:5px 5px 12px #4356da;border:3px solid #5769da;background: #d6dcfc;margin-bottom:10px;margin-top:2px;"]:has(a[href="https://rapidb.it/pl/page/how-it-works"])
+||exsites.pl/templates/inmay/images/548356834bipcheap.png
+||exsites.pl/templates/inmay/images/24tgehyreheh.gif
+
+!tylkohd.pl
+||i.imgur.com/ZUrSYLz.png
+
+
+
+kcsoftwares.com,kcsoftwares-alt.com##+js(refresh-defuser)
+kcsoftwares.com,kcsoftwares-alt.com##+js(remove-attr, target, #cse-search-box a.btn, complete)
+
+
+sourceforge.net##+js(nostif, downloader:redirect, 15000)
+sourceforge.net##+js(nostif, window.location.href, 15000)
+sourceforge.net###pg_dwnld #nels
+sourceforge.net##.dlp_newsletter_subscribe
+
+softpedia.com##+js(nostif, window.location.href, 60000)
+
+
+
+onet.pl##.adPlaceholder
+onet.pl##.adsContainer
+polsatnews.pl##.ad
+polsatnews.pl##.ad__holder
+polsatnews.pl##amp-ad
+||ssp.wp.pl^$domain=polsatnews.pl
+
+
+
+
+www.onet.pl##:matches-path(/^\/(?!.*\/.+)(.*&pid=.*&sid.*)$/) :is(ARTICLE.NitroCard_nitroCard__56Zj6.NitroCard_useLCPElementHeight__az1Tu):others()
+
+
+
+filmweb.pl##+js(nostif, window.location)
+
+tygodnik.neuropa.pl,jamesomalley.co.uk##body:style(overflow-x: unset !important;)
+
+
+
+tweetdeck.twitter.com##main > div > div > div > div > section > div > div > div > div > div > div > div > div > section > div > div > div:not(:has(article))
+tweetdeck.twitter.com##main > div > div > div > div > section > div > div > div > div > div > div > div > div > section > div > div > div:has(article[data-testid="tweet"][tabindex="0"] div[data-testid="socialContext"])
+
+
+ampproject.org###goToSG
+
+tygodnikregionalna.pl##.adv
+tygodnikregionalna.pl##.grid__ad
+tygodnikregionalna.pl##.list .grid__col--1:has(.adv)
+
+czytajto.rp.pl##+js(remove-attr, href, #articleContainer, complete)
+
+
+
+logrocket.com##.code-block-64
+logrocket.com##.code-block-49
+
+digitalocean.com##footer section.FooterCommunityStyles__StyledFooterSectionProduct-sc-4j0rmk-6
+digitalocean.com##footer section.FooterCommunityStyles__StyledFooterCards-sc-4j0rmk-1
+digitalocean.com##footer span.FooterCommunityStyles__StyledFooterSectionHeading-sc-4j0rmk-4:last-of-type
+digitalocean.com##footer div.FooterCommunityStyles__StyledSlimLinks-sc-4j0rmk-14:last-of-type
+digitalocean.com##div.QuestionAndTutorialRightContainerStyles__StyledContainer-sc-1ej6td1-0
+digitalocean.com##div.TutorialTemplateStyles__StyledConclusionCTA-sc-1gdp4d7-38
+digitalocean.com##div.TutorialTemplateStyles__StyledUserContentCallout-sc-1gdp4d7-35
+digitalocean.com##nav.TopHatNavigationStyles__StyledTopHatNavigation-sc-1yvs29j-0
+digitalocean.com##div.TutorialTemplateStyles__StyledCollaboratorsFooterContainer-sc-1gdp4d7-11
+digitalocean.com##div.TutorialTemplateStyles__StyledHelpfulCTA-sc-1gdp4d7-39
+||digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
+
+||api.morioh.com/story/fetch
+morioh.com##.col-span-12.space-y-4 > div:last-child
+morioh.com##.col-span-12.space-y-4 > div.rounded.bg-white.p-4.border-dashed.border-2.border-indigo-500
+
+mongodb.com##.below-site-header-outlet
+mongodb.com###ember55 .signup-cta.alert.alert-info
+
+w3schools.com##a#upperfeatureshowcaselink
+w3schools.com##a#lowerfeatureshowcaselink
+w3schools.com###pagetop .w3-right.w3-padding-16 a.topnavmain_pro
+w3schools.com###pagetop .w3-right.w3-padding-16 a#cert_navbtn
+w3schools.com###pagetop .w3-right.w3-padding-16 a[href="/spaces/index.html"]
+
+knowledgehut.com##div:has(> .blog-editor-content) > div.w-full.pt-7.pb-4
+knowledgehut.com##.grid-cols-12 .xl\:col-span-2 > *
+knowledgehut.com##.grid-cols-12 .xl\:col-span-3
+knowledgehut.com##.FooterSticky__Container-sc-13gm5jo-0
+
+knowledgehut.com##div#__next > div > div > section.faq + .xl\:bg-white
+knowledgehut.com##div#__next > div > div > section.faq + .xl\:bg-white + .bg-white.md\:pt-6.md\:pb-12.xs\:pt-3.xs\:pb-8
+
+
+knowledgehut.com##footer .SectionCountry___StyledSection-sc-9ckdes-4
+knowledgehut.com##footer .SectionServices__ServiceWrapper-sc-t4nf8k-0
+knowledgehut.com##footer .SectionServices2__ServiceWrapper-sc-19y0445-0
+knowledgehut.com##footer .SectionDisclaimer___StyledSection-sc-4dt44f-0
+
+knowledgehut.com##div.absolute:has(.ExitPopup__PopupContainer-sc-pw6c76-5)
+
+mongodb.com##header > .css-a6ihr1.e7t6giu1
+
+sadistic.pl##.spolecznoscinet
+sadistic.pl##.fb-share-button
+
+! 2023-05-25 https://www.mongodb.com
+www.mongodb.com##.pencilbanner
+
+! 2023-05-26 https://radawarszawy.um.warszawa.pl
+radawarszawy.um.warszawa.pl###rodoLayer
+
+lubimyczytac.pl###js-AdsTopCollContainer
+lubimyczytac.pl##.advertisement
+lubimyczytac.pl##body:style(--banner-top-sticky-height: unset !important; --banner-top-start-height: unset !important;)

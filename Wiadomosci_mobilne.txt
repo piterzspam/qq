@@ -50,7 +50,6 @@ wyborcza.pl##DIV.socialBar
 ||rp.pl/public/js/static/responsivevoice.js
 ||youtube.com^$domain=rp.pl
 ||traq.li^
-||login.gremimedia.pl^
 ||rp.pl/section/?template=marketing_json
 ||rp.pl/public/fonts/
 ||rp.pl/*?template=ajaxcomments&omniture=

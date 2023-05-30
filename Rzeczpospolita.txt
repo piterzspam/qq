@@ -77,7 +77,6 @@ rp.pl##DIV.teaser-ads
 
 !Blokwoanie biepotrzebnego logowania i baneru z prenumeratą nad paskiem nawigacyjnym
 !https://www.rp.pl/
-||login.gremimedia.pl^
 ||rp.pl/section/?template=marketing_json$xhr
 ||rp.pl/section/?template=ajax_getpushcontent$xhr
 

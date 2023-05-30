@@ -380,7 +380,6 @@ money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div
 !Niektóre video mają "Dalsza część artykułu pod materiałem wideo" + element z zobacz także + video
 money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //aside[@role="complementary"]/following-sibling::div[1]/article) > DIV:has-text(/Dalsza część artykułu pod materiałem wideo/i)
 
-
 !#canonical #desktop #mobile #article_page #related #paragraph #static - Element "Masz newsa, zdjęcie lub filmik? Prześlij nam przez dziejesie.wp.pl" na końcu artykułu
 money.pl,o2.pl,pudelek.pl##:xpath(//article[not(preceding-sibling::*)][count(div) = 4]/div[3] | //aside[@role="complementary"]/following-sibling::div[1]/article) > DIV:has(:scope DIV:first-child + DIV[font-size="s"]:last-child > STRONG:only-child > A[href="https://dziejesie.wp.pl/"]:only-child)
 

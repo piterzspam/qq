@@ -3,7 +3,6 @@
 
 !Na wszelki wypadek
 @@||newsweek.pl^$ghide
-||sgqcvfjvr.onet.pl^$domain=newsweek.pl,important
 newsweek.pl##^SCRIPT#adsinit
 newsweek.pl##+js(acis, document.getElementById, admain)
 
