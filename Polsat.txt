@@ -8,7 +8,7 @@
 
 !Na wszelki wypadek
 !POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda - pl##.ad
-pl#@#.ad
+!pl#@#.ad
 !AdGuard Social Media - polsatnews.pl##.news__share > ul.nav__items > .nav__item:not(.nav__item--comments)
 polsatnews.pl#@#.news__share > ul.nav__items > .nav__item:not(.nav__item--comments)
 !POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda - pl##[class$="-ads"] 
