@@ -110,10 +110,6 @@ $websocket,important,domain=opensubtitles.org
 @@||dot.wp.pl/dyn/logout.html?$first-party
 @@||electro-torrent.pl^$generichide
 @@||fileshark.pl$generichide
-@@||filmweb.hit.gemius.pl/xgemius.js
-@@||filmweb.pl^$generichide
-@@||gfx.filmweb.pl/adbetween/adx.js
-@@||gfx.filmweb.pl/gf/t.gif
 @@||gomovies.to^$generichide
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js|$script
 @@||katcr.co/torrents-assets/vers/js/adv.search.js
@@ -210,23 +206,16 @@ efizyka.net.pl###cboxOverlay
 efizyka.net.pl###colorbox
 efizyka.net.pl###shr_canvas5
 efizyka.net.pl##.entry > div:nth-of-type(1)
-efizyka.net.plfilmweb.pl##script:inject^script:has-text(window.google_jobrunner)
-filmweb.pl##DIV#flashcontent3
-filmweb.pl##DIV.cookieInfo.webPage
-filmweb.pl##SPAN.loginWithFBContainer
-filmweb.pl##+js(acis, webpackJsonp, advInit)
-filmweb.pl#@#+js(aopr, document.onreadystatechange)
-filmweb.pl#@#+js(no-setTimeout-if, notDetected)
+efizyka.net.pl##script:inject^script:has-text(window.google_jobrunner)
 
-!Odśiweżanie karty po przełączeniu i upływie 5 minut
+
+!Odświeżanie karty po przełączeniu i upływie 5 minut
 !uBO: setTimeout("function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)}", 300000)
 !uBO: addEventListener("focus", function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)})
 !filmweb.pl##+js(nano-stb, focus, 300000, 0.02)
 filmweb.pl##+js(nostif, focus, 300000)
 
-!https://www.filmweb.pl/film/Memento-2000-7656
-@@/v1/ads/*$domain=filmweb.pl
-||fwcdn.pl/video/*#t=0,5|
+
 
 filmy.to##DIV#cookie-bar
 forum.mp3store.pl##.ipsMessage_success.ipsMessage.cAnnouncementPageTop
@@ -314,7 +303,6 @@ restorecosm.bid##+js(adf.ly)
 restorecosm.bid##+js(adfly-defuser)
 restorecosm.bid##+js(nofab.js)
 sadistic.pl##DIV.portal > ARTICLE.images[style="text-align: center; padding: 30px; min-height: 300px"]
-sascdn.com$domain=filmweb.pl
 sfd.pl##BODY[ng-app="wyszukaj"] > DIV.wallpaper-holder
 sfd.pl##DIV.cookie-info
 sfd.pl##DIV.floating-toolbox:style(position: absolute !important;)
@@ -476,8 +464,6 @@ zippyshare.com##+js(aopw, acPrefetch)
 ||gemius.pl/gstream.js$domain=rp.pl|chomikuj.pl,important
 ||gemius.pl/gstream.js$domain=sport.tvp.pl,important
 ||geotrust.com$domain=zapals.com
-||gfx.filmweb.pl/adbetween/adx.js
-||gfx.filmweb.pl^
 ||gigya.com^$domain=softonic.com
 ||gigya.com^$third-party,important
 ||go4up.com/assets/img/*but*oned$image
@@ -1109,8 +1095,6 @@ pcwdld.com##DIV#wbounce-modal
 !itprotoday.com##HEADER NAV.informa-banner
 !itprotoday.com##HEADER DIV.js-penton-legal-comm-ajax-output-alert
 
-! 2021-08-12 https://www.filmweb.pl
-filmweb.pl###mainSkyBanner-pl_PL
 
 busradar.pl##DIV[class="ng-scope"][ng-if="search.showTopConnections() && !search.showNoConnectionBBCBanner()"]
 busradar.pl##DIV.best-connections-container
@@ -2380,8 +2364,6 @@ twitter.com##DIV[data-testid="cellInnerDiv"] ARTICLE SPAN[aria-hidden="true"]:fi
 krytykapolityczna.pl##ARTICLE ASIDE.book-item.site-commerc
 
 
-!Niepowiązane wideo na stronie z aktorem
-filmweb.pl##SECTION.latestTrailerSection:remove()
 
 
 
@@ -2787,8 +2769,6 @@ www.onet.pl##:matches-path(/^\/(?!.*\/.+)(.*&pid=.*&sid.*)$/) :is(ARTICLE.NitroC
 
 
 
-filmweb.pl##+js(nostif, window.location)
-
 tygodnik.neuropa.pl,jamesomalley.co.uk##body:style(overflow-x: unset !important;)
 
 
@@ -2865,3 +2845,4 @@ radawarszawy.um.warszawa.pl###rodoLayer
 lubimyczytac.pl###js-AdsTopCollContainer
 lubimyczytac.pl##.advertisement
 lubimyczytac.pl##body:style(--banner-top-sticky-height: unset !important; --banner-top-start-height: unset !important;)
+
