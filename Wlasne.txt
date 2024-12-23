@@ -2846,3 +2846,1481 @@ lubimyczytac.pl###js-AdsTopCollContainer
 lubimyczytac.pl##.advertisement
 lubimyczytac.pl##body:style(--banner-top-sticky-height: unset !important; --banner-top-start-height: unset !important;)
 
+
+
+
+
+
+
+onet.pl#@##admain
+onet.pl#@#.prebid
+onet.pl#@#.pub_300x250
+onet.pl#@#.adsbygoogle
+onet.pl#@#.pub_300x250m
+onet.pl#@#.pub_728x90
+onet.pl#@#.text-ad
+onet.pl#@#.textAd
+onet.pl#@#.text_ad
+onet.pl#@#.text_ads
+onet.pl#@#.text-ads
+onet.pl#@#.text-ad-links
+onet.pl#@#.onet-ad
+onet.pl#@#.adsense
+onet.pl#@#.autopromoapp
+onet.pl#@#.infoCloud
+onet.pl#@#.addthis_toolbox
+onet.pl#@#.miniSlot
+onet.pl#@#.lazyContent
+onet.pl#@#.header-adblock
+onet.pl#@#.onnetwork-video
+onet.pl#@#.ads
+onet.pl#@#.sliderads
+onet.pl#@#.ppa-slot
+onet.pl#@#.ad
+onet.pl#@#.linkSponsorowany
+onet.pl#@#.adform-slot
+onet.pl#@#.widget-ads-content
+onet.pl#@#.cg-template
+onet.pl#@#.reklama
+onet.pl#@#.ad-
+
+
+
+
+
+*/fuckadblock-$script,redirect=fuckadblock.js-3.2.0
+*/fuckadblock.$script,redirect=fuckadblock.js-3.2.0
+! https://github.com/gorhill/uBlock/issues/1271
+! https://forums.lanik.us/viewtopic.php?f=62&t=40409
+*/blockadblock.$script,redirect=fuckadblock.js-3.2.0
+*/blockadblock-$script,redirect=fuckadblock.js-3.2.0
+
+
+
+
+
+!206px -> 506px
+!chomikuj.pl##.foldersTree:style(width: 506px !important;)
+chomikuj.pl##.foldersTree:style(width: 800px !important;)
+
+
+!1062px -> 1362px
+chomikuj.pl###contentCointaniner, .topbarLoginContainer, .topbarLogoutCointainer, .ctsTopContainer:style(width: 1362px !important;)
+
+@@||intercelestial.com/wp-content/uploads/2022/
+
+!:has([class^="AdsenseAd_"])
+
+
+!||googletagmanager.com^$domain=aliexpress.com,important
+
+!@@||alicdn.com^$domain=aliexpress.com
+!@@||alicdn.com/*aplus_*.js
+!@@||alicdn.com/*/aplus_ae.js
+!@@||alicdn.com/*store-proxy$frame
+!||alicdn.com/*store-proxy$frame,redirect=noopframe,important
+!oko.sh#@#+js(abort-on-property-read, app_vars.force_disable_adblock)
+
+
+wp.pl##.advertisement
+
+
+
+
+
+
+
+
+
+!tweetdeck.twitter.com##h1[id^="accessible-list-"] + div > div > div:first-child ~ div:not(:has(article))
+!tweetdeck.twitter.com##h1[id^="accessible-list-"] + div > div > div:has(article[data-testid="tweet"][tabindex="0"] div[data-testid="socialContext"])
+
+
+
+
+!ww2gravestone.com##+js(set, $.showalert, noopFunc)
+!ww2gravestone.com##+js(set, $.showalert, noopFunc, DOMContentLoaded)
+!ww2gravestone.com##+js(set, $.showalert, noopFunc, load)
+ww2gravestone.com##+js(aeld, { "type": "/.^/", "log": 2 })
+
+mtb-mag.com##.samCodeUnit
+
+yandexcdn.com##+js(set, window.devtoolsDetector.addListener, noopFunc)
+yandexcdn.com##+js(set, window.devtoolsDetector.addListener, noopFunc, DOMContentLoaded)
+yandexcdn.com##+js(set, window.devtoolsDetector.addListener, noopFunc, load)
+
+@@||bitnova.info^$ghide
+
+
+se.pl##section .zpr_combo, section .zpr_box_topboard, section .m_zpr_box_topboard, section .m_zpr_box_billboard
+se.pl###side_1_noscroll
+
+weszlo.com##.ad-box
+weszlo.com##.questo-paywall
+||static.weszlo.com/wp-content/uploads/2022/06/cashback4.png
+
+kimovil.com##ul#results-list li.item.kau.bndchk
+kimovil.com##.kau
+
+!||fwcdn.pl/front/assets/WelcomeScreen-3414c16e.js
+!||fwcdn.pl/prt/a1/chanel/062023/bleudechanel/ws/2/script/welcomeMain.js
+!||fwcdn.pl/prt/a1/chanel/062023/bleudechanel/ws/2/script/welcomeMobile.js
+
+||fwcdn.pl/*/WelcomeScreen-3414c16e.js
+||fwcdn.pl/*/welcomeMain.js
+||fwcdn.pl/*/welcomeMobile.js
+
+! 2023-06-15 https://www.olx.pl
+||cdn.slots.baxter.olx.org/olxpl/_assets/video/buy-and-sell_compressed.mp4$media
+
+antyweb.pl##.banner.banner--placeholder
+
+||antyweb.pl/marketing/
+
+||onelogin.wpcdn.pl^$from=money.pl|o2.pl|pudelek.pl,badfilter
+
+pythonforthelab.com##.leftside > .article-image:first-child
+pythonforthelab.com##.sb-form
+pythonforthelab.com##.support-box
+pythonforthelab.com##.subscribe-fixed
+
+
+
+
+
+thispointer.com###comments [class^="astra-advanced-hook-"]
+thispointer.com##.entry-content .code-block:has(h4:has-text(Latest Python - Video Tutorial))
+thispointer.com##.code-block:has(strong:has-text(Advertisements))
+thispointer.com##.sidebar-main > [class^="astra-advanced-hook-"]
+
+
+datasciencelearner.com##.single-feat
+
+
+careerkarma.com###fast-track-modal-window2
+careerkarma.com###green-banner
+careerkarma.com##.sidebar_inner.fixed-me
+careerkarma.com##article .code-block:has(.ad7)
+
+
+studytonight.com##.layout_size
+studytonight.com###topNavAlertSlider
+
+
+
+
+
+
+
+
+
+filerice.com#@#+js(abort-current-script, $, window.open)
+
+
+tweetdeck.twitter.com#@#main > div > div > div > div > section > div > div > div > div > div > div > div > div > section > div > div > div:has(article[data-testid="tweet"][tabindex="0"] div[data-testid="socialContext"])
+tweetdeck.twitter.com#@#DIV[data-testid="cellInnerDiv"] ARTICLE SPAN[aria-hidden="true"]:first-child ~ SPAN[aria-hidden="true"]:last-child:has-text(…)
+!
+
+!Przypięty tweet
+tweetdeck.twitter.com##main > div > div > div > div > section > div > div > div > div > div > div > div > div > section > div > div > div > div > div[data-testid="cellInnerDiv"]:first-child:has(article[data-testid="tweet"][tabindex="0"] path[d="M7 4.5C7 3.12 8.12 2 9.5 2h5C15.88 2 17 3.12 17 4.5v5.26L20.12 16H13v5l-1 2-1-2v-5H3.88L7 9.76V4.5z"])
+
+
+!tweetdeck.twitter.com##main div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"]:has(a[href^="https://twitter.com/i/connect_people?user_id="])
+
+
+tweetdeck.twitter.com##main div[data-testid="cellInnerDiv"]:has(> div > div > div > h2 > div > span:has-text(Kogo obserwować))
+tweetdeck.twitter.com##main div[data-testid="cellInnerDiv"]:has(> div > div > div > h2 > div > span:has-text(Kogo obserwować)) + div[data-testid="cellInnerDiv"]
+tweetdeck.twitter.com##main div[data-testid="cellInnerDiv"]:has(> div > div > div > h2 > div > span:has-text(Kogo obserwować)) + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"]
+tweetdeck.twitter.com##main div[data-testid="cellInnerDiv"]:has(> div > div > div > h2 > div > span:has-text(Kogo obserwować)) + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"]
+!tweetdeck.twitter.com##main div[data-testid="cellInnerDiv"]:has(> div > div > div > h2 > div > span:has-text(Kogo obserwować)) + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"] + div[data-testid="cellInnerDiv"]
+
+
+
+
+
+
+
+
+prezone.pl##div[style="height: 80px;width: 730px;position:relative;text-align:center;box-shadow:5px 5px 12px #4356da;border:3px solid #5769da;background: #d6dcfc;margin-bottom:10px;margin-top:-17px;"]:has(a[href="https://rapidb.it/pl/page/how-it-works"])
+sdcv.pl##div[style="height: 80px;width: 688px;position:relative;text-align:center;box-shadow:5px 5px 12px #4356da;border:3px solid #4686ff;background: #0a2044;margin-bottom:10px;margin-top:-2px;margin-left:30px;"]:has(a[href="https://rapidb.it/pl/page/how-it-works"])
+||sdcv.pl/images/lp235t4373.gif
+||sdcv.pl/images/2456457356bipcheap.png
+
+
+
+
+
+
+eightforums.com##.had1
+
+!wplik.com##+js(nano-stb, , , 0.5)
+!wplik.com##+js(nano-sib, , , 0.5)
+
+
+!||gemius.pl^$badfilter
+!||hit.gemius.pl^$badfilter
+
+!@@||tvn.hit.gemius.pl/gplayer.js$domain=vod.pl
+!@@||tvn.hit.gemius.pl/xgemius.js$domain=vod.pl
+!@@||tvn.hit.gemius.pl/gemiuslib.js$domain=vod.pl
+@@||tvn.hit.gemius.pl/redot.gif$domain=vod.pl
+
+!@@||tvn.hit.gemius.pl/*/redot.js/
+!@@||tvn.hit.gemius.pl/*/redot.js?
+!@@||tvn.hit.gemius.pl/*/rexdot.js?
+
+!@@||ls.hit.gemius.pl/lsget.html
+@@||tvn.hit.gemius.pl/__/redot.gif
+!
+
+chomikuj.pl##.treeDeleteFolder:remove()
+!chomikuj.pl##.deleteFilesBtn:remove()
+
+javatpoint.com###city ~ *
+javatpoint.com##div#footer
+||pushbrothers.com^$domain=javatpoint.com
+
+
+
+
+
+
+
+
+
+
+
+
+||r.dcs.redcdn.pl/http/o2/TVN-Adserver/
+@@/adverts_$domain=vod.pl
+
+
+
+||track.aliexpress.com/*?spm=^$document,removeparam=spm
+!
+
+dx-team.org##a[href="https://dx-team.org/redirect-to/?redirect=https%3A%2F%2Ffilefox.pl%2Fpoleca%2FJaculek"][title="filefox"]
+dx-team.org##a[href="https://dx-team.org/redirect-to/?redirect=https%3A%2F%2Fwww.nazwa.pl%2Fpp%2Fmc44-5489-7454"][title="nazwa.pl"]
+
+
+
+!wrzucaj.pl##+js(nano-stb)
+!wrzucaj.pl##+js(nano-sib)
+
+
+
+
+
+!interia.pl##div:has(> [id^="ad-view-"]:first-child + div:last-child)
+!interia.pl##div:first-child:last-child:has(> div[data-iwa-viewability-name="gora_srodek"])
+
+interia.pl##.sc-egprCs.itztqR > div:has(> [id^="ad-view-"]:first-child + div:last-child)
+interia.pl##.sc-egprCs.itztqR:last-child:has(> .embed-video):remove()
+interia.pl##.sc-egprCs.itztqR:has(> .sc-fSurYz.ivodIW)
+
+interia.pl###react_component_article .sc-egprCs.itztqR:last-child:has(a[href="https://www.facebook.com/INTERIAWydarzenia"])
+interia.pl##.sc-irLwvL.sc-csKIKE.kzpLSR
+
+
+interia.pl##html[amp] .article-embed
+interia.pl##html[amp] .tout-button
+interia.pl##html[amp] .article-body .video:last-child:remove()
+interia.pl##html[amp] .article-body p:last-child:has(a[href="https://www.facebook.com/INTERIAWydarzenia"])
+
+!Peter Lowe’s Ad and tracking server list
+||adf.ly^$badfilter
+
+operatorzy.pl##div#glowCookies
+operatorzy.pl##+js(ra, onselectstart|onselect|oncopy, body)
+
+@@||dl-protect.link/ad-template.js
+!@@||superfastcdn.com/script/resource-v31.js$domain=dl-protect.link
+!@@||hommmaq.com/script/resource-v31.js$domain=dl-protect.link
+!@@||uptimecdn.com/script/resource-v31.js$domain=dl-protect.link
+dl-protect.*#@#+js(abort-current-script, String.fromCharCode, /btoa|break/)
+!dl-protect.*#@#+js(abort-on-stack-trace, Object, /(?=^(?!.*(https)))/)
+
+radiozet.pl##.advert-container
+radiozet.pl##.advert
+radiozet.pl###onnetwork--html
+radiozet.pl##article > .padding--y--60.display--desktop
+radiozet.pl##section.full-content__footer div.list-full-content__image
+
+poczta.wp.pl###topbar + div:has(iframe[src*="wpext.pl"])
+poczta.wp.pl##.css-1cfowg8
+poczta.wp.pl##.css-19rldp9
+poczta.wp.pl##.chakra-stack + div:has(a[href^="https://poczta.wp.pl"] > img[src*="v.wpimg.pl"])
+
+
+
+||wpext.pl^$domain=poczta.wp.pl
+
+
+yogablogfit.com,technocubes.in,fixno.in##+js(nano-sib, , , 0.02)
+yogablogfit.com,technocubes.in,fixno.in##+js(nano-stb, , , 0.02)
+yogablogfit.com,technocubes.in,fixno.in###wpsafe-snp, #wpsafe-generate, #wpsafe-wait1, #wpsafe-wait2, .wpsafe-bottom:style(display: block !important;)
+yogablogfit.com,technocubes.in,fixno.in###wpsafe-snp, #wpsafe-generate, #wpsafe-wait1, #wpsafe-wait2, .wpsafe-bottom:others()
+
+
+
+
+howifx.com,yogablogfit.com##+js(trusted-set-cookie, addtl_consent, 1~, 1year)
+howifx.com,yogablogfit.com##+js(trusted-set-cookie, tracking-opt-in-status, rejected, 1year)
+howifx.com,yogablogfit.com##+js(trusted-set-cookie, euconsent-v2, CPyPo8APyPo8AAKAwBENDXCgAAAAAAAAAAwIAABBQgLAA4AD8ARYAz4B0gEeAJVATOAwQBvgDggHbAO5AgoBIgCSgEowJaATHAmSBNIIKAAA.YAAAAAAAAAAA, 1year)
+howifx.com,yogablogfit.com###next, #getlink:style(display: block !important;)
+howifx.com,yogablogfit.com###timer, #timer+span, #next, #scroll, #linkmsg, #getlink:others()
+!howifx.com,yogablogfit.com##+js(rmnt, #text, /^\s*[^\{\}\(\)\n\r\t]{200,}\s*$/, log, 1)
+
+!howifx.com,yogablogfit.com##+js(rmnt, #text, /[^\n\r\t\{\}\(\)]{50}/, , log, 1)
+!howifx.com,yogablogfit.com##+js(rmnt, #text, /[^\{\}\(\)]{200}/, stay, 1, log, 1)
+!howifx.com,yogablogfit.com##+js(rmnt, #text, /^[\s\S]{200,9999}$/, , log, 1)
+||quantcast.com^$domain=howifx.com|yogablogfit.com|themezon.net
+
+||enit.in/ads/300/ad2.php
+
+autodime.com##+js(nano-sib, , , 0.02)
+autodime.com##+js(nano-stb, , , 0.02)
+autodime.com###wpsafe-snp, iframe[src*="://challenges.cloudflare.com/"], .wpsafe-top, #showw:others()
+
+
+
+wnp.pl##.box-666
+mypolitics.pl##.fgbDMr
+
+gizchina.com##.a9f5197b512e5d3d75b7ad905ed39ef5
+
+xiaomistockrom.com##+js(acs, document.oncontextmenu)
+xiaomistockrom.com##+js(acs, document.onselectstart)
+xiaomistockrom.com##+js(acs, document.ondragstart)
+
+||spolecznosci.net^$badfilter
+||webshark.pl^$badfilter
+
+
+hexupload.net#@#+js(addEventListener-defuser, , break;case $.)
+hexupload.net#@#+js(abort-on-property-write, Fingerprint2)
+hexupload.net#@#+js(abort-on-property-write, _pop)
+
+
+
+
+
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl###contentPremium.contentPremium:remove-class(contentPremium)
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl###contentPremium:remove-attr(style)
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl###contentPremium:style(display: block !important;)
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl###redHead:style(top: 0 !important;)
+
+
+newsweek.pl##.pw-article__edition:has(.pw-article__newsletter-wrapper)
+newsweek.pl##.pwAdsFloating
+newsweek.pl##.pwAds
+newsweek.pl##.ringBlockType-ad
+newsweek.pl##.pwBackToMainPage
+newsweek.pl##.pwPlistNin__placeholder
+newsweek.pl##+js(aeld, _, , log, 3)
+newsweek.pl##+js(aeld, scroll, .pwBackToMainPage__progress-bar, log, 1)
+
+!newsweek.pl##.contentPremiumPlaceholder:matches-css-before(animation: spinner .8s linear infinite)
+newsweek.pl##.contentPremiumPlaceholder::before
+
+
+newsweek.pl##.spinner::before
+
+||ocdn.eu/pulscms/MDA_/ae9ee2f410717cde6f2a5a75f4541cf0.jpg
+||ocdn.eu/pulscms/MDA_/105fa4e24f7b18157470e53ee25aced5.png
+||ocdn.eu/newsweekucs/static/images/newsletter/newsletter.webp
+
+!newsweek.pl#@#.custom-social-share
+!newsweek.pl#@#.pw-footer__top__links--newsletter
+!newsweek.pl#@#.ringBlockType-ad
+
+pl#@#.ad
+pl#@#.adform-slot
+pl#@#.ads
+pl#@#.widget-ads-content
+pl#@#.sliderads
+pl#@#.header-adblock
+pl#@#.linkSponsorowany
+pl#@#.onnetwork-video
+pl#@#.ppa-slot
+pl#@#.adsense
+
+#@#.onet-ad
+!@@||csr.onet.pl/$domain=www.newsweek.pl,badfilter
+!#@#iframe[name="googlefcPresent"]
+!#@#.addthis_toolbox
+!#@##admain
+
+
+||lib.onet.pl/static/lps/Layout-NativeInFeed-Network/tpl/tpl.js
+!||ocdn.eu/video-apps/flowplayer/v2.9.9/dist/plugins/ads.min.js
+
+!||pulsembed.eu^$subdocument,3p,redirect=click2load.html
+
+!@@||lib.onet.pl/static/lps/Analytics-Prebid/tpl.min.js
+
+
+
+
+!https://lib.onet.pl/static/lps/Layout-NativeInFeed-Network/tpl/37906c743577786f4283a5abc7836ec1.js
+
+
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(acis, Promise.then, , log, 1, debug, 1)
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(acis, document.getElementById, header-button-login, debug, 1)
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(aost, document.getElementById)
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(aost, Object, log, 1)
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(acis, Object, debug, 1)
+
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(aost, Promise.then)
+newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(nosiif)
+newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(nostif)
+newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(aeld, _, , log, 3)
+
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(set-constant, Object.prototype._forceAutoplay, undefined)
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(abort-current-inline-script, $, _forceAutoplay)
+!pulsembed.eu##+js(aeld, _, , log, 3)
+!pulsembed.eu##+js(acs, $, log, 1, debug, 1)
+!ringpublishing.com##+js(aeld, _, , log, 3)
+!ringpublishing.com##+js(acs, document)
+!ringpublishing.com##+js(acs, $, dblclick, log, 1, debug, 1)
+!pulsembed.eu##+js(acs, setTimeout, /.*/, log, 1, debug, 1)
+!pulsembed.eu##+js(acs, setTimeout, /.*/, log, 1, debug, 1)
+
+!||ocdn.eu/ucs/static/PaidWebsite/dd98132be1136f7058437d1f1cf7a1c3/build/js/swiper.umd.js
+
+!||pulsembed.eu^
+
+
+!this.playerInstance.autoplay
+
+!newsweek.pl/polska/polityka/pis-z-premedytacja-narzucilo-te-agende-to-byla-jedyna-metoda/2yhxrj5
+!pulsembed.eu/p2em/BM4CCwHaf/
+!imasdk.googleapis.com/js/core/bridge3.595.0_pl.html
+!_forceAutoplay
+
+
+newsweek.pl#@#DIV.pulsembed_embed:style(min-height: 100px !important;)
+||pulsembed.eu/amd/1.0.16/build/pulsembed.js
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.pulsembed_embed a:style(display: block !important;)
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.pulsembed_embed:style(opacity: 1 !important; visibility: visible !important;)
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.embed__video:style(min-height: unset !important;)
+
+@@||ocdn.eu/paywall-cdn/paywall.min.js
+
+newsweek.pl##.pwPlistNin
+
+! 2023-10-14 https://rentry.org
+||github.com/streambase-project/streambase/blob/main/img/sp4.jpg$image
+
+
+
+
+tylkohd.pl##.short-content:style(overflow-x: visible !important; overflow-y: visible !important;)
+tylkohd.pl##.short-link:style(overflow-x: visible !important; overflow-y: visible !important;)
+tylkohd.pl##.short-link a:style(overflow-x: visible !important; overflow-y: visible !important; height: unset !important;)
+
+||fwcdn.pl/front/assets/AutoRefreshModule-*.js
+
+megau.io##+js(set-cookie, welcome_message_1, true, dontOverwrite, 1)
+
+!Fanboy's Annoyance List
+!google.com###oFNiHe
+google.com#@##oFNiHe
+
+||trustmate.io^$badfilter
+
+
+newscon.org##+js(nano-sib, , , 0.02)
+newscon.org##+js(nano-stb, , , 0.02)
+
+!1fichier.com##+js(trusted-click-element, div.ui-dialog[aria-labelledby="ui-id-1"] button.ui-dialog-titlebar-close)
+1fichier.com##div.ui-dialog[aria-labelledby="ui-id-1"] + .ui-widget-overlay:xpath(self::node() | self::node()/preceding-sibling::*[1])
+
+sinonimos.de##+js(nano-sib, , , 0.02)
+sinonimos.de##+js(nano-stb, , , 0.02)
+
+adsy.pw##+js(nano-sib, , , 0.02)
+adsy.pw##+js(nano-stb, , , 0.02)
+
+||stackpath.bootstrapcdn.com^$stylesheet,domain=adsy.pw
+!||adsy.pw^$stylesheet,domain=adsy.pw
+
+@@||loaninsurehub.com^$generichide
+||nanesbewail.com^$badfilter
+@@||loaninsurehub.com/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/main.js
+
+
+/disable_developer.js$domain=hexload.com|hexupload.net
+hexload.com,hexupload.net##+js(aopr, DisableDevtool)
+
+@@||tools.wizaz.pl/files/js/ado.js
+
+
+noahpinion.blog,astralcodexten.com,richardhanania.com##body:style(overflow-x: unset !important;)
+
+weszlo.com##.ins-media
+
+@@||redirect.viglink.com/?u=$document,first-party
+
+
+rynek-kolejowy.pl##body:style(overflow-x: unset !important;)
+
+mambon.pl##.Toastify
+mambon.pl##.vouchers-section .voucher-item:has(.sold-out-label)
+
+!https://raw.githubusercontent.com/yourduskquibbles/webannoyances/a2e3f055a845a3d11b9d37073e38880252a4437f/filters/modal_filters.txt
+old.reddit.com##.in.spezmodal.fade.modal, .in.fade.modal-backdrop
+old.reddit.com##.DualPartInterstitialFooter, .DualPartInterstitial__common, .DualPartInterstitial__content, .TransparentOverlay, .TransparentOverlay__overlay, .XPromoListingClickModal, .XPromoPill, .XPromoPopup, .dSHRel.s8g432y-0, .esxAEQ.pqvesn-2, .mobile-web-redirect-bar, .seo-comments, .seo-comments-recommendations, .splash-design.splash_wrapper, .welcome
+old.reddit.com##body.scroll-disabled:style(position: static !important; overflow: visible !important;)
+old.reddit.com##div button:has-text(/Back to top/)
+
+!allegro.pl##.opbox-listing article[aria-label][data-variants-visible]:not(:has(img[src="https://assets.allegrostatic.com/fast-delivery-icons/gift-red.svg"]))
+
+
+
+
+@@*$removeparam=/^utm_/i,from=onet.pl
+
+onet.pl##div.videoPlayerContainer:has(> span.videoPlayerText:has-text(Dalszy ciąg materiału pod wideo)) + div.pulsevideo:xpath(self::node() | self::node()/preceding-sibling::*[1])
+
+
+rynek-lotniczy.pl##body:style(overflow-x: unset !important;)
+
+!||statics.rp.pl/img/content-background.jpg
+
+! 2024-01-20 https://studiuj.uek.krakow.pl
+studiuj.uek.krakow.pl##.cookie
+
+! 2024-01-21 https://studiuj.uek.krakow.pl
+studiuj.uek.krakow.pl###rasaWebchatPro
+
+! 2024-01-21 https://reddstats.com
+reddstats.com###newsletterPopup
+
+super-warez.eu##.news .bottom-info
+super-warez.eu##.news .bottom-info + center
+
+||adtonos.com^$badfilter
+
+s1.wcy.wat.edu.pl##table.tableFormList2 div[id^="subj_div_"]:style(display: block !important)
+
+||menrealitycalc.com^
+
+@@||awin1.com^$document,first-party
+
+
+
+wrzucaj.pl##+js(set, canSearch, true)
+
+!opensubtitles.org##ul.ui-multiselect-checkboxes li:has(input:xpath(.[not(@value="all" or @value="eng" or @value="pol")]))
+!opensubtitles.org##:xpath(//input[not(@value="all" or @value="eng" or @value="pol")])
+!opensubtitles.org##input:xpath(*)
+
+
+
+
+!/tmp/*.json?callback=update_stat&_=*$domain=hexload.com
+
+
+tutorialspoint.com##main > div.container-fluid > div.row:style(grid-template-columns: unset !important;)
+
+
+
+
+realpython.com##div > a.small.text-muted[href="/account/join/"]
+
+
+
+
+!hexload.com##+js(aeld, _, , log, 3)
+hexload.com##+js(aeld)
+!contextmenu
+hexload.com##+js(aeld, contextmenu)
+hexload.com##+js(acs, document.onkeydown)
+hexload.com##+js(acis, event, event.keyCode)
+hexload.com##+js(aopw, document.onkeydown)
+
+
+
+
+polityka.pl##.cg_ad_outer.cg_bill_top
+
+gazetaprawna.pl##.detailContent .vtsInBody.isDesktop
+!allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22showproduct.content%22%2C%22allegro.ads.tiles.browser.ads%22%5D"]
+allegro.pl##div[data-box-name="Carousel card"]
+allegro.pl##div[data-box-name="carousels.base"]
+
+
+donald.pl##.staticpubads89354
+!
+
+
+!EasyPrivacy 
+!AdGuard Tracking Protection
+||youtube.com/youtubei/v1/log_event?$badfilter
+
+!EasyPrivacy
+!||play.google.com/log$badfilter
+
+! 2024-04-03 https://chomikuj.pl
+||x4.static-chomikuj.pl/res/ca299c2453.png$image
+
+
+!filmweb.pl#@##mainSkyBanner-pl_PL
+!filmweb.pl#@##didomi-host,div[class*="didomi-consent-popup__"],#didomiBlockNavigation
+!filmweb.pl#@#DIV#flashcontent3
+
+!@@/v1/ads/*$domain=filmweb.pl
+!@@/matomo.js$domain=filmweb.pl
+!@@/matomo.php$domain=filmweb.pl
+!@@||pushpushgo.com^$domain=filmweb.pl
+!@@||gemius.pl^$domain=filmweb.pl
+!@@||fwcdn.pl/*/welcomemain.js$domain=filmweb.pl
+!@@||sascdn.com/diff/$script,domain=filmweb.pl
+!filmweb.pl#@#.ad-internal
+!filmweb.pl#@#+js(abort-on-property-read, webPushPublicKey)
+!filmweb.pl#@##didomi-host,div[class*="didomi-consent-popup__"],#didomiBlockNavigation
+!filmweb.pl#@##pushpushgo-container
+!filmweb.pl#@#[id^="div-gpt-ad"]
+!filmweb.pl#@#div[id^="div-gpt-"]
+!filmweb.pl#@#+js(set-constant, consentManagerIsOn, false)
+!filmweb.pl#@#+js(set-constant, rodo.checkIsDidomiConsent, noopFunc)
+!filmweb.pl#@#+js(set-constant, rodo.validateStoragePurpose, noopPromiseResolve)
+!filmweb.pl#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+!filmweb.pl#@#[id^="google_ads_iframe"]
+!filmweb.pl#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+!filmweb.pl#@#div[data-google-query-id]
+!filmweb.pl#@#.rec-sponsored
+!@@*$document,permissions=autoplay=()
+!filmweb.pl#@#+js(no-setTimeout-if, focus, 300000)
+
+!filmweb.pl##+js(aeld, { "log": 3 })
+!filmweb.pl##+js(aeld, { "log": 1 })
+!filmweb.pl##+js(aeld, , , log, 3)
+!filmweb.pl##^script:has-text(plusAdblock):has-text(/[\w\W]{4000,10000}/)
+!filmweb.pl#@#^script:has-text(plusAdblock):has-text(/[\w\W]{4000,10000}/)
+
+
+
+
+!||fwcdn.pl/front/assets/AdvertButton-ad9d3885.css
+
+!||fwcdn.pl/front/assets/AdvertButton-d863a176.js
+
+!||fwcdn.pl/front/assets/InitSectionsModule-41fb4353.js
+!@@||fwcdn.pl/front/assets/InitSectionsModule-41fb4353.js
+
+!||fwcdn.pl/front/assets/InfiniteContentModule-f6ccb632.js
+!@@||fwcdn.pl/front/assets/InfiniteContentModule-f6ccb632.js
+!||filmweb.pl/sw.js
+!filmweb.pl##+js(aeld, scroll)
+
+
+!setInterval("function(){clearInterval(c);null!==a.offsetParent&&0!==a.offsetHeight&&0!==a.offsetLeft&&0!==a.offsetTop&&0!==a.offsetWidth&&0!==a.clientHeight&&0!==a.clientWidth?d():e();a.parentNode.removeChild(a)}", 100)
+
+!filmweb.pl##+js(set, sats, true)
+
+
+!filmweb.pl##+js(nostif, sats)
+!100
+
+
+
+!EasyPrivacy @@||sascdn.com/tag/$script,from=filmweb.pl
+!@@||sascdn.com/tag/$script,from=filmweb.pl
+!EasyList @@||smartadserver.com/genericpost$from=filmweb.pl
+!@@||smartadserver.com/genericpost$from=filmweb.pl,badfilter
+
+ 
+
+
+!naprawa odtwarzacza trailerów
+!@@||imasdk.googleapis.com/js/core/bridge*.html$domain=filmweb.pl
+
+!AutoRefreshModule filmweb
+!||fwcdn.pl/front/assets/G79VdVmG.js
+
+!@@||filmweb.pl/api/v1/ads/targeted
+!@@||filmweb.pl/sw.js
+!@@||oo.filmweb.pl/matomo.js
+filmweb.pl##.page__section.quizSectionPlaceholder
+
+
+!anty_adblock
+!filmweb.pl##+js(nosiif, a.parentNode.removeChild(a), 100)
+!chyba autorelaod
+!setTimeout("()=>{document.hasFocus()?setTimeout(()=>{window.location=window.location.toString().split("#")[0]},200):window.addEventListener("focus",t)}", 90000)
+!filmweb.pl##+js(nostif, window.location=window.location.toString().split("#")[0], 90000)
+
+
+
+!filmweb.pl##+js(aeld, _, , log, 3)
+!filmweb.pl##+js(aeld, window, , log, 1)
+!filmweb.pl##+js(aeld, { "type": "/.^/", "log": 2 })
+!filmweb.pl##+js(aost, window, , log, 1)
+!filmweb.pl##+js(evaldata-prune)
+filmweb.pl##+js(nano-sib, , , 0.02)
+filmweb.pl##+js(nano-stb, , , 0.02)
+!filmweb.pl##+js(no-fetch-if)
+!filmweb.pl##+js(norafif)
+filmweb.pl##+js(nosiif)
+filmweb.pl##+js(nostif)
+!filmweb.pl##+js(aeld, _, , log, 3)
+!filmweb.pl##+js(aeld, { "type": "/.^/", "log": 2 })
+filmweb.pl##+js(aeld)
+filmweb.pl##+js(aeld, focus, window.location)
+
+filmweb.pl##+js(nostif, window.location=window.location.toString().split("#"))
+
+skyscrapercity.com##form.block.js-quickReply
+skyscrapercity.com##section#thread-recommended-reading
+!
+!
+azmath.info,expertvn.com###countdown, #link, #monetiza, .alert.captcha-check, #monetiza-generate, #monetiza-snp:others()
+
+! 17 kwi 2024 https://www.croxyproxy.com
+www.croxyproxy.com###zapperSquare
+
+||play.google.com/log?format=json&hasfast=true&authuser=
+||photos.google.com/u/*/_/PhotosUi/idv/
+||photos.google.com/_/PhotosUi/idv/
+
+lifewire.com##html:style(overflow-y: visible !important;)
+
+
+windowsforum.com###adsense-wrapper
+
+
+
+
+
+![pl]   KAD - Przekręty
+!https://olamovies.life/generate/?id=89101&__cf_chl_rt_tk=Ch5LI.YtjXmWk6AI4kZfcgCxVZBcvyFwsVeZ_kYdv9E-1714240479-0.0.1.1-1621
+!/^https?:\/\/([\w]{1,4}\.)?[a-z]{3,}\d{0,3}[a-z]{3,}\.li[fv]e\/(?:\d{10}|[a-z]{8})\/\?/$popup,from=life|live
+!/^https?:\/\/([\w]{1,4}\.)?[a-z]{7,}\.li[fv]e\/[a-z]{8}\/\?/$popup,from=life|live,badfilter
+@@||olamovies.life/generate/?$popup
+
+tenforums.com###breadcrumb + div[data-fuse]
+
+! 28 kwi 2024 https://darkbox.to
+||oboom.io/img/oboom_banner.png$image
+
+
+#Se5reezoo7eith4o
+min-height: 265px;
+elektroda.pl###Se5reezoo7eith4o:style(min-height: unset !important;)
+elektroda.pl##.topic-lists-wrap > ul > li.post > .topic-box + div:has(a.fancy-lnk)
+elektroda.pl##.the-discussion > .col-md-12:has(> .topic-lists-wrap > .adsbygoogle)
+elektroda.pl##.content-wrap .the-post-list ul li:has(.post-info .aJxkuN0nhq:has-text(Sponsorowany))
+elektroda.pl##.Dk7mE5nEs4yj
+
+! 2 maj 2024 https://tylkohd.pl
+||tylkohd.pl/uploads/luknij.jpg$image
+
+allegro.pl##div[data-box-name="ads.dss.listing.bottom.container"]
+
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=expertvn.com
+expertvn.com##div#content
+
+
+
+rezsx.xyz,tryzt.xyz##center.modal-sh > p, center.modal-sh > h2, center.modal-sh > h3, center.modal-sh > ol
+
+
+free4u.nurul-huda.or.id##+js(acs, document.onkeydown)
+free4u.nurul-huda.or.id##+js(aeld, contextmenu)
+
+!__Secure-1PSIDTS cookies_changes photos.google.com_Archive [24-05-06 00-28-50]
+||peoplestackwebexperiments-pa.clients6.google.com^
+!OSID cookies_changes photos.google.com_Archive [24-05-06 00-28-50]
+!||photos.google.com/_/scs/social-static/_/js/k=boq.PhotosUi.
+
+! 7 maj 2024 https://ourmatch.me
+ourmatch.me##.adv21
+
+! 8 maj 2024 https://wrzucajka.pl
+||wrzucajka.pl/uploads/monthly_2024_05/luknij.jpg.298cc2693ea1d40089b24e7cc60d7206.jpg$image
+||i.imgur.com/1kAGTt0.jpeg$image
+||i.imgur.com/BwZHJvT.png$image
+||i.imgur.com/ngftSNs.png$image
+||i.imgur.com/SNzUP7R.png$image
+||i.imgur.com/EJVhobG.png$image
+
+||bc.vc^$script,domain=multileech.net
+
+
+
+dawenet.com,erzar.xyz###myModal > .modal-content > center.modal-sh > p, #myModal > .modal-content > center.modal-sh > h2, #myModal > .modal-content > center.modal-sh > h3
+dawenet.com,erzar.xyz###comments
+
+
+
+dawenet.com,erzar.xyz##+js(nano-sib, , , 0.02)
+dawenet.com,erzar.xyz##+js(nano-stb, , , 0.02)
+
+||rsinsuranceinfo.com/linkasset/rs/300x600.png
+||rsinsuranceinfo.com/linkasset/rs/2x.png
+rsinsuranceinfo.com##center table.a
+rsinsuranceinfo.com##center table.b
+rsinsuranceinfo.com##center table.c
+rsinsuranceinfo.com##center table.d
+
+
+rsadnetworkinfo.com##+js(nano-sib, , , 0.02)
+rsadnetworkinfo.com##+js(nano-stb, , , 0.02)
+
+rp.pl##.header--top--bar--advert
+rp.pl##body > a[href="https://www.rp.pl"]
+rp.pl##.commercial--margin--article
+rp.pl##.section--ad--breaker
+
+
+!||limango.pl/*/*/$doc,removeparam=size
+!||limango.pl/*/*/$doc,removeparam=sort
+!||limango.pl/*/*/$doc,removeparam=price
+!||limango.pl^$doc,removeparam=variant
+/limango\.pl\/.+?\/.+?\/.+?\d+\?/$doc,removeparam=size,domain=limango.pl
+/limango\.pl\/.+?\/.+?\/.+?\d+\?/$doc,removeparam=sort,domain=limango.pl
+/limango\.pl\/.+?\/.+?\/.+?\d+\?/$doc,removeparam=price,domain=limango.pl
+/limango\.pl\/.+?\/.+?\/.+?\d+\?/$doc,removeparam=genderAge,domain=limango.pl
+
+
+||sklepmartes.pl^$doc,removeparam=_gl
+
+domodi.pl##.dml-last-clicked
+
+||modivo.pl/p/$doc,removeparam=c
+||streetstyle24.pl^$doc,removeparam=_domo
+
+! 12 maj 2024 https://exsite24.org
+||i.imgur.com/EPmtM4r.png$image
+||exsite24.org/pobieraj.jpg$image
+
+! 13 maj 2024 https://www.warezbook.org
+||i.ibb.co/tMrM08L/5056179b42b174f.jpg$image
+||i.ibb.co/g6kzX6y/WBBinanc.png$image
+||i.ibb.co/tMrM08L/5056179b42b174f.jpg$image
+
+a4a.pl##.d-md-flex:style(display: unset !important;)
+
+! 17 maj 2024 https://www.scnsrc.me
+||www.scnsrc.me/wp-content/lnksnap04a.jpg$image
+||www.scnsrc.me/wp-content/lnksnap04a.jpg$image
+
+! 17 maj 2024 https://torrentgalaxy.mx
+||torrentgalaxy.mx/common/images/nf-lo.png$image
+||torrentgalaxy.mx/common/images/aio-lo.png$image
+||torrentgalaxy.mx/common/images/dsnp-sc.png$image
+||torrentgalaxy.mx/common/images/nf-lo.png$image
+
+! 21 maj 2024 https://dmarket.com
+dmarket.com##.Doppler.tag-CS\:GO.csgo.email-popup
+dmarket.com##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
+dmarket.com##.mfp-ready.mfp-bg
+dmarket.com##.c-dheroesBanner
+
+! 23 maj 2024 https://fortynorthsecurity.com
+fortynorthsecurity.com##.modal-window
+
+! 23 maj 2024 https://www.avast.com
+www.avast.com###cta-hero
+www.avast.com###hero-image
+www.avast.com###cta-right
+
+
+@@/https?:\/\/edipresse\.hit\.gemius\.pl\/hitredir\?.*?\|PartnerUrl=(.*?)\|FeedSourceId=.*/$document,domain=edipresse.hit.gemius.pl
+HTTPS://www.officeshoes.pl/buty-skechers-sneakersy-go-run-fast-monogram/48312?size=40&utm_source=edipresse&utm_medium=cpc&utm_content=skechers-meskie-go-run-fast----monogram&utm_campaign=mo_11&utm_term=none
+
+||officeshoes.pl^$doc,first-party,removeparam=utm_source
+||officeshoes.pl^$doc,first-party,removeparam=utm_medium
+||officeshoes.pl^$doc,first-party,removeparam=utm_content
+||officeshoes.pl^$doc,first-party,removeparam=utm_campaign
+||officeshoes.pl^$doc,first-party,removeparam=utm_term
+
+@@/https?:\/\/[^\.]*.tradedoubler\.com\/.*&url=(.*)/$document,domain=clk.tradedoubler.com
+
+
+photos.google.com##+js(nostif)
+
+! 16 cze 2024 https://tylkohd.pl
+||i.imgur.com/xJHgnmw.gif$image
+
+@@||exe.io^$first-party,document
+
+!https://fullmatch.info/2024/06/24/croatia-vs-italy-uefa-euro-2024-championships-group-b-round-3-24-june-2024/
+||freepngimg.com/thumb/download_now_button/25482-4-download-now-button-green-thumb.png
+||fullmatch.info/wp-content/uploads/2024/06/1xEURO_2024_640%D1%85100-1.gif
+||fullmatch.info/wp-content/uploads/2024/05/dlli.png
+
+
+||allegro.pl/oferta/$doc,first-party,removeparam=bi_s
+||allegro.pl/oferta/$doc,first-party,removeparam=bi_m
+||allegro.pl/oferta/$doc,first-party,removeparam=bi_c
+||allegro.pl/oferta/$doc,first-party,removeparam=bi_t
+||allegro.pl/oferta/$doc,first-party,removeparam=emission_unit_id
+
+
+
+!https://pl.aliexpress.com/item/1005007171332586.html?utparam-url=scene%3Asearch%7Cquery_from%3A
+||aliexpress.com/item/*.html$doc,first-party,removeparam=utparam-url
+||aliexpress.com/item/*.html$doc,first-party,removeparam=curPageLogUid
+||aliexpress.com/item/*.html$doc,first-party,removeparam=pdp_npi
+||aliexpress.com/item/*.html$doc,first-party,removeparam=algo_exp_id
+||aliexpress.com/item/*.html$doc,first-party,removeparam=algo_pvid
+||aliexpress.com/item/*.html$doc,first-party,removeparam=spm
+
+down.mdiaload.com##.download-option-btn > button:has(a.create)
+down.mdiaload.com##.demand-supply
+
+tracktrace.dpd.com.pl###banner-left-bar
+tracktrace.dpd.com.pl###banner-right-bar
+tracktrace.dpd.com.pl###banner-central-footer-bar
+
+
+||i122.fastpic.org/big/2023/0918/e4/89bae4d0236d303e43161939a2ea94e4.png
+||xt7.pl/media/img/banner_350x26.png
+
+@@||linegee.net^$stylesheet
+@@||linegee.net^$script
+@@||linegee.net^$image
+
+! 12 lip 2024 https://realpython.com
+!realpython.com##.show.fade.modal:remove()
+!realpython.com##.show.fade.modal-backdrop:remove()
+
+realpython.com##div#rprw
+realpython.com##body:remove-class(modal-open)
+realpython.com##div.modal-backdrop
+
+
+
+||i.imgur.com/JAVfybV.gif
+||i.imgur.com/W7y31RY.png
+||filebit.pl/baner/fix1/p30ptdpt.png
+||filebit.pl/baner/fix1/30ptdpt.png
+||exsite24.org/tb7.png
+
+||images.ddlvalley.me/images/87928324672217730948.png
+
+ddlvalley.me###post-650547:xpath(self::node() | self::node()/preceding-sibling::h2[1])
+
+||i.imgur.com/uUxVMM9.png
+||i.imgur.com/UFf37zK.png
+
+
+
+||i.imgur.com/UbdzTef.jpg
+||i.imgur.com/raYuckY.jpg
+
+!Oglądaj na żywo
+opensubtitles.org##body#subtitles_body table#search_results tr[id^="name"] a.p.a.a_1
+!Pobierz Wyszukiwarkę Napisów
+opensubtitles.org##body#subtitles_body table#search_results tr[id^="name"] a.p.a.a_2
+
+opensubtitles.org##body#subtitles_body div#msg.msg.hint
+
+!Oglądaj The Nest na żywo
+opensubtitles.org##body#subtitles_body div[itemtype="http://schema.org/Movie"] h1+div
+
+subf2m.co###content:style(min-height: unset !important;)
+subf2m.co##.ads.beforetext
+
+!olx.pl##div[data-testid="listing-grid"] > div[id]:has(h6:has-text(/Nowe ostrza do Oneblade! ! 2 sztuki!|Ostrza do Oneblade! Nowe 2 sztuki!|Ostrza do Oneblade! Nowe ! 2 sztuki!|Ostrza do Oneblade ! Nowe ! 2 sztuki !|Ostrza do Oneblade ! Nowe ! 2 sztuki|Nowe ostrza do Oneblade! 2 sztuki!|2 sztuki! Ostrza do Oneblade! Nowe !/))
+!olx.pl##div[data-testid="listing-grid"] > div[id]:has(h6:has-text(/^(?=.*\bNowe\b)(?=.*\bOstrza do Oneblade\b)(?=.*\b2 sztuki\b).+/i))
+olx.pl##div[data-testid="listing-grid"] > div[id]:has(h6:has-text(/Ostrza do Oneblade/i):has-text(/Nowe/i):has-text(/\d{1} sztuk/i))
+olx.pl##div[data-testid="listing-grid"] > div[id]:has(h6:has-text(/Ostrza Oneblade/i):has-text(/Nowe/i):has-text(/\d{1} sztuk/i))
+olx.pl##div[data-testid="listing-grid"] > div[id]:has(h6:has-text(/\d{1} Ostrza do Oneblade/i):has-text(/Nowe/i))
+olx.pl##div[data-testid="listing-grid"] > div[id]:has(h6:has-text(/Ostrza do Oneblade/i):has-text(/Nowe/i))
+olx.pl##div[data-testid="listing-grid"] > div[id]:has(div[data-testid="adCard-featured"])
+
+ceneo.pl##div#body.main-content > section.store-zones
+
+ceneo.pl##div.js_promotedItems
+ceneo.pl##div.highlighted-offers
+ceneo.pl###REK_Produkt_OPIS
+ceneo.pl###REK_Produkt_OPINIE
+ceneo.pl###REK_Produkt_LISTING_OFERT_SKLEP
+
+
+
+
+allegro.pl##div[data-box-name="seoLazyBelowFilters"]
+
+||obrazki.elektroda.pl/6737127900_1718872393.jpg
+
+
+
+=http%3A//rustorka.com
+$third-party,script,xmlhttprequest,domain=rustorka.com
+rustorka.com###as_script
+rustorka.com##.post_body > center > a[target="_blank"]
+
+
+android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+@@/(clickunder|footerad|layerad|lazyad|leaderad|leftad|linkad|pop_ad|prerollad|printad|pubads|pushdownad|report_ad|right_ad|sidebar_ad|under)/$script,~third-party,domain=rustorka.com
+rustorka.com##div#body_container:style(margin-top: 0 !important; margin-bottom: 0 !important)
+rustorka.com##+js(href-sanitizer, a[href*="/go.php"], ?url)
+rustorka.com##+js(remove-node-text, script, /s_script|tick/)
+
+@@||cinedesi.in^$generichide
+
+
+cinedesi.in##.pro_ad_top_sticky_container, #top-container-2, #top-container-timer, #pro_main_container:others()
+
+exego.app##section.earning-steps + article
+
+
+!https://www.geeksforgeeks.org/string-split-method-in-c-sharp-with-examples/
+!https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201210132002/GFG-RT-CRC.png
+||media.geeksforgeeks.org/wp-content/cdn-uploads/20201210132002/GFG-RT-CRC.png
+geeksforgeeks.org##DIV[id^="AP_G4GR_"]
+geeksforgeeks.org##^DIV[id^="AP_G4GR_"]
+
+
+! 13.06.2020 https://www.geeksforgeeks.org
+www.geeksforgeeks.org##.login-modal-div
+||media.geeksforgeeks.org/wp-content/cdn-uploads/20200611191627/GFG-DSA-SP-RT.png$image
+
+
+@@||geeksforgeeks.org^$generichide
+!Wlasne: www.geeksforgeeks.org##.login-modal-div
+www.geeksforgeeks.org#@#.login-modal-div
+
+
+||util.geeksforgeeks.org/profileLink.php
+
+!https://www.geeksforgeeks.org/python-as-keyword/
+geeksforgeeks.org##.textBasedMannualAds
+
+||translate.google.com^$domain=geeksforgeeks.org
+geeksforgeeks.org##._ap_apex_ad
+
+geeksforgeeks.org##:is(article[id]):others()
+
+
+geeksforgeeks.org##.leftBar:style(flex-basis: unset !important; max-width: unset !important; min-width: unset !important;)
+geeksforgeeks.org##div.textBasedMannualAds_2
+geeksforgeeks.org##.make_sticky:style(top: 0px !important;)
+
+!revanced.app#@#+js(set-local-storage-item, analytics, false)
+revanced.app#@#.svelte-fnvau2
+
+||imgur.com/BrnRyf6
+
+||wrzucaj.pl/cache/themes/spirit/logo.png$domain=tylkohd.pl
+
+||exsite24.org/uploads/sat.png
+
+scnsrc.me##a[href^="https://rapidgator.net/file/"]
+scnsrc.me##a[href^="https://nitroflare.com/view/"]
+scnsrc.me##a[href^="https://fikper.com/"]
+scnsrc.me##a[href^="https://katfile.com/"]
+scnsrc.me##a[href^="http://turbobit.net/"]
+scnsrc.me##a[href^="http://www.filefactory.com/file/"]
+
+
+
+rlsbb.ru##a[href^="https://rapidgator.net/file/"]
+rlsbb.ru##a[href^="https://nitroflare.com/view/"]
+rlsbb.ru##a[href^="https://fikper.com/"]
+rlsbb.ru##a[href^="https://katfile.com/"]
+rlsbb.ru##a[href^="http://turbobit.net/"]
+rlsbb.ru##a[href^="http://www.filefactory.com/file/"]
+
+
+||linegee.net^$stylesheet,badfilter
+||linegee.net^$script,badfilter
+||linegee.net^$font,badfilter
+||linegee.net^$image,badfilter
+
+
+
+linegee.net##:is(#landing, .soractrl):others()
+linegee.net##+js(aeld, , focus)
+
+teknoasian.com##:is(#landing, .soractrl):others()
+teknoasian.com##+js(aeld, , focus)
+
+
+!Podobne oferty
+allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22allegro.ads.tiles.showoffer.carousel.top%22%5D"]:has(h2:has-text(Podobne oferty))
+
+!Propozycje dla Ciebie
+allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22showproduct.content%22%2C%22allegro.ads.tiles.showoffer.carousel.department%22%5D"]:has(h2:has-text(Propozycje dla Ciebie))
+
+!Inni klienci oglądali również
+allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22allegro.oferta.reco.bottom%20experiment%22%5D"]:has(h2:has-text(Inni klienci oglądali również))
+
+
+!Inne przedmioty sprzedającego
+allegro.pl##div[data-box-name="Container carousel_reco_same_seller"]
+!
+
+!Kup razem https://allegro.pl/oferta/przenosny-glosnik-bluetooth-tronsmart-t7-30w-ipx7-niebieski-12h-14916946295
+allegro.pl##div[data-box-name="Container Bundle"]:has(h2:has-text(Kup razem))
+
+!Kup razem https://allegro.pl/oferta/przenosny-glosnik-bluetooth-tronsmart-t7-30w-ipx7-niebieski-12h-14916946295
+allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22Cobalt%20Container%20Special%22%5D"]:has(div[data-analytics-category="allegro.ads.dss.banner"])
+
+
+!Nasze serie produktów
+allegro.pl##div[data-box-name="Container Bottom"]:has(h3:has-text(Nasze serie produktów))
+
+
+!@@||cmp.inmobi.com/choice/*/financewrapper.net/choice.js?
+@@||netpub.media^$domain=financewrapper.net
+@@||bewilderedblade.com^$xhr,domain=financewrapper.net
+financewrapper.net##+js(nano-sib, , , 0.02)
+
+
+
+
+!https://prebid.revbid.net/960/revbid.js
+!https://prebid.revbid.net/?id=960
+
+@@||netpub.media^$domain=audioinspects.com|plumptofit.com|fishingbreeze.com|financeclick.net|elishea.com|celebperson.com
+@@||bewilderedblade.com^$xhr,domain=audioinspects.com|plumptofit.com|fishingbreeze.com|financeclick.net|elishea.com|celebperson.com
+@@||prebid.media.net^$domain=audioinspects.com|plumptofit.com|fishingbreeze.com|financeclick.net|elishea.com|celebperson.com
+@@||prebid.revbid.net^$domain=audioinspects.com|plumptofit.com|fishingbreeze.com|financeclick.net|elishea.com|celebperson.com
+audioinspects.com,plumptofit.com,fishingbreeze.com,financeclick.net,elishea.com,celebperson.com##+js(nano-sib, , , 0.02)
+audioinspects.com,plumptofit.com,fishingbreeze.com,financeclick.net,elishea.com,celebperson.com##+js(nano-stb, , , 0.02)
+
+
+!@@||netpub.media^$domain=audioinspects.com
+!@@||bewilderedblade.com^$xhr,domain=audioinspects.com
+!@@||prebid.media.net^$domain=audioinspects.com
+!@@||prebid.revbid.net^$domain=audioinspects.com
+!audioinspects.com##+js(nano-sib, , , 0.02)
+!audioinspects.com##+js(nano-stb, , , 0.02)
+
+gamesplay.live##+js(nano-sib, , , 0.02)
+gamesplay.live##+js(nano-stb, , , 0.02)
+
+listofthis.com##+js(nano-sib, , , 0.02)
+listofthis.com##+js(nano-stb, , , 0.02)
+
+egeyoresel.xyz##+js(nano-sib, , , 0.02)
+egeyoresel.xyz##+js(nano-stb, , , 0.02)
+
+!americanstylo.com##+js(nano-sib, , , 0.02)
+!americanstylo.com##+js(nano-stb, , , 0.02)
+
+
+beautifulfashionnailart.com##+js(aeld)
+
+!https://down.mdiaload.com/download2547526
+down.mdiaload.com##div#download1 input[name="method_premium"]
+
+down.mdiaload.com##br + br
+
+audiofanatyk.pl##div#swifty-img-widget-2
+
+
+gsmmaniak.pl##div#topMenu-wrapper
+gsmmaniak.pl##div#intertext1 div.cst-cena2
+
+||gsmmaniak.pl/*/embed/$subdocument,first-party
+
+
+!euro.com.pl##ems-header-banner.product-list__header-banner
+
+
+
+||chip.pl/api/redis-get?key=cross_posts_json_chip
+
+
+
+
+||fileland.pl/images/hernadezweb-reklama.jpg
+
+
+
+
+
+sweet.tv##div.epg-preview__program-day + div.epg-preview__program-options:style(max-height: calc(100vh) !important;)
+
+sweet.tv##div.tv__main-grid div.epg-preview__grid + div[ng-include="'/tv/devices.html' | baseUrl"]
+!sweet.tv##div.tv__main > div.video.d-flex.epg-is-closed.epg-is-opened div.to_programm_live.ng-binding.ng-scope
+sweet.tv##div.to_programm_live.ng-binding.ng-scope
+!
+
+
+
+||domtoraj.pl/images/logo.png$domain=devil-torrents.pl
+
+!https://helltorrents.com/index.php
+||dekoracjowo.pl/wp-content/uploads/2024/02/dekoracjowo.logo_-2.webp$domain=helltorrents.com
+||helltorrents.com/os_fb1.png$domain=helltorrents.com
+||helltorrents.com/os_allegro1.png$domain=helltorrents.com
+helltorrents.com##div.raised div.boxcontent:has(a[href="https://dekoracjowo.pl/sklep/"])
+
+polskie-torrenty.eu##div.popup
+
+actualpost.com,americanstylo.com,glowandglamcorner.com##+js(set-constant, document.hasFocus, trueFunc)
+actualpost.com,americanstylo.com,glowandglamcorner.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
+!flyinc olamovies
+!Open Any Article & Read It For 15 Seconds To Continue
+!If Any Article Redirecting The Page Then Right Click On Mouse To Open It In New Tab (Desktop)
+!If Any Article Redirecting The Page Then Click And Hold The Article To Open It In New Tab (Mobile)
+!You Must Stay On The Article Page To Continue!
+!Simple Steps to Start with Rinku.ME
+6harfli.com,askerlikforum.com.tr,dadinthemaking.com,gamerking.shop##+js(set-constant, document.hasFocus, trueFunc)
+6harfli.com,askerlikforum.com.tr,dadinthemaking.com,gamerking.shop##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
+!6harfli.com,askerlikforum.com.tr,dadinthemaking.com##+js(nano-sib, , , 0.02)
+!6harfli.com,askerlikforum.com.tr,dadinthemaking.com##+js(nano-stb, , , 0.02)
+
+www.google.com,recaptcha.net#@#.rc-imageselect-tile:style(transition-duration: 0.1s !important;)
+www.google.com,recaptcha.net#@#.rc-imageselect-dynamic-selected:style(transition-duration: 0.1s !important;)
+www.google.com,recaptcha.net#@#.rc-imageselect-progress:style(transition-duration: 0.1s !important;)
+www.google.com,recaptcha.net#@#.rc-image-tile-overlay:style(transition-duration: 0.1s !important;)
+www.google.com,recaptcha.net#@#+js(nano-stb, , 4000, 0.02)
+
+
+!retrotechreborn.com##+js(nano-sib, , , 0.02)
+!retrotechreborn.com##+js(nano-stb, , , 0.02)
+!retrotechreborn.com##+js(aeld, , focus)
+!retrotechreborn.com##+js(set-constant, document.hasFocus, trueFunc)
+
+!https://exsite.su/30662-bullet-train-2022-multi1080pblurayremuxavctruehd71dd20-k83-lektor-i-napisy-pl.html
+||tb7.pl/media/img/pobierzztb7.svg
+||i124.fastpic.org/big/2024/0922/8d/4133fa01daed06ebffc58ed3d203ca8d.png
+
+!https://exsite24.org/seriale/lektor/84113-poirot-agatha-christies-poirot-1989-2013-sezon-1-13-lektor-pl.html
+||tb7.pl/media/img/tb7-baner3.svg
+
+
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(set, captcha_valid, true)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net#@#+js(no-fetch-if, //)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(rmnt, script, /bypass.php)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in###btn-:style(display: block !important;)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##form > div[id]:style(display: block !important;)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div > div:has-text(Click):style(display: block !important;)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[id]:style(display: block !important;)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(nano-sib)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in#@#+js(no-fetch-if, bmcdn6)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(rmnt, script, documnet.write)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(rmnt, script, bait.offsetWidth, nop)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(rmnt, script, window.location.assign(", Trash(")
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##^script:has-text(adblock.html)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(nostif, /adblock|isRequestPresent/)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##+js(nostif, /\.innerHtml|offsetWidth/)
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[style="min-width: 300px; min-height: 50px;"]
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[style="min-width: 728px; min-height: 90px;"]
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[style="width:305px;height:105px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[style="width:305px;height:205px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[style="width:305px;height:305px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[style="width:305px;height:125px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+recipes4all.net,celebperson.com,audioinspects.com,dreamhomelabs.com,financewrapper.net,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##div[style="width:728px;height:125px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+recipes4all.net,celebperson.com,audioinspects.com,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##.hidden.title-item, .fa-xmark.svg-inline--fa, .text-center > center, .text-right, .text-center > div, .container
+recipes4all.net,celebperson.com,audioinspects.com,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in###w2g-slot1-cnt, #w2g-slot2-cnt, #w2g-slot3-cnt, #w2g-slot4-cnt, #w2g-slot5-cnt, #w2g-slot6-cnt, #w2g-slot7-cnt, #w2g-slot8-cnt, #w2g-slot9-cnt, #content > div, div.demand-supply, div.form-group, [src="https://i.ibb.co/GVVCmgC/728x90.gif"], #click
+recipes4all.net,celebperson.com,audioinspects.com,financeclick.net,fishingbreeze.com,plumptofit.com,cookingpumpkin.com,mommylovesme.xyz,goodmoneytimes.xyz,bestfitnessgear4u.com,elishea.com,danidmonkey.com,cashadvancefvt.com,allnewspoint.in,ionclub777.com,businessuniqueidea.com,techymatic.com,chefslink.org,ourpy.com,giftpros.net,gamedouc.com,werbum.eu,auntmanny.com,bitsusdt.com,ineedskin.com,fadedfeet.com,homeculina.com,alightmotionlatest.com,awgrow.com,rsstore.in,kenzo-flowertag.com,lawyex.co,worldtanr.xyz,mdn.lol,yexolo.net,businessesknowledgeinhindi.com,aayurvedshastra.in##ins.adsbygoogle:nth-of-type(1), ins.adsbygoogle:nth-of-type(2), ins.adsbygoogle:nth-of-type(3), ins.adsbygoogle:nth-of-type(4)
+@@||googletagmanager.com^$domain=recipes4all.net|celebperson.com|audioinspects.com|dreamhomelabs.com|financewrapper.net|financeclick.net|fishingbreeze.com|plumptofit.com|cookingpumpkin.com|mommylovesme.xyz|goodmoneytimes.xyz|bestfitnessgear4u.com|businessuniqueidea.com|werbum.eu|auntmanny.com|bitsusdt.com|ineedskin.com|fadedfeet.com|homeculina.com|alightmotionlatest.com|awgrow.com|rsstore.in|kenzo-flowertag.com|lawyex.co|worldtanr.xyz|mdn.lol|yexolo.net|gamedouc.com|giftpros.net|ourpy.com|techymatic.com|chefslink.org|businessesknowledgeinhindi.com|aayurvedshastra.in|danidmonkey.com|elishea.com
+@@||cdn.bmcdn6.com^$script,domain=recipes4all.net|celebperson.com|audioinspects.com|dreamhomelabs.com|financewrapper.net|financeclick.net|fishingbreeze.com|plumptofit.com|cookingpumpkin.com|mommylovesme.xyz|goodmoneytimes.xyz|bestfitnessgear4u.com|businessuniqueidea.com|werbum.eu|auntmanny.com|bitsusdt.com|ineedskin.com|fadedfeet.com|homeculina.com|alightmotionlatest.com|awgrow.com|rsstore.in|kenzo-flowertag.com|lawyex.co|worldtanr.xyz|mdn.lol|yexolo.net|gamedouc.com|giftpros.net|ourpy.com|techymatic.com|chefslink.org|businessesknowledgeinhindi.com|aayurvedshastra.in|danidmonkey.com|elishea.com
+@@||www.google-analytics.com^$domain=recipes4all.net|celebperson.com|audioinspects.com|dreamhomelabs.com|financewrapper.net|financeclick.net|fishingbreeze.com|plumptofit.com|cookingpumpkin.com|mommylovesme.xyz|goodmoneytimes.xyz|bestfitnessgear4u.com|businessuniqueidea.com|werbum.eu|auntmanny.com|bitsusdt.com|ineedskin.com|fadedfeet.com|homeculina.com|alightmotionlatest.com|awgrow.com|rsstore.in|kenzo-flowertag.com|lawyex.co|worldtanr.xyz|mdn.lol|yexolo.net|gamedouc.com|giftpros.net|ourpy.com|techymatic.com|chefslink.org|businessesknowledgeinhindi.com|aayurvedshastra.in|danidmonkey.com|elishea.com
+@@||bewilderedblade.com^$xhr,domain=recipes4all.net|celebperson.com|audioinspects.com|dreamhomelabs.com|financewrapper.net|financeclick.net|fishingbreeze.com|plumptofit.com|cookingpumpkin.com|mommylovesme.xyz|goodmoneytimes.xyz|bestfitnessgear4u.com|businessuniqueidea.com|werbum.eu|auntmanny.com|bitsusdt.com|ineedskin.com|fadedfeet.com|homeculina.com|alightmotionlatest.com|awgrow.com|rsstore.in|kenzo-flowertag.com|lawyex.co|worldtanr.xyz|mdn.lol|yexolo.net|gamedouc.com|giftpros.net|ourpy.com|chefslink.org|techymatic.com|cashadvancefvt.com|danidmonkey.com|elishea.com
+||netpub.media^$third-party^$from=recipes4all.net|celebperson.com|audioinspects.com|dreamhomelabs.com|financewrapper.net|financeclick.net|fishingbreeze.com|plumptofit.com|cookingpumpkin.com|mommylovesme.xyz|goodmoneytimes.xyz|bestfitnessgear4u.com|businessuniqueidea.com|werbum.eu|auntmanny.com|bitsusdt.com|ineedskin.com|fadedfeet.com|homeculina.com|alightmotionlatest.com|awgrow.com|rsstore.in|kenzo-flowertag.com|lawyex.co|worldtanr.xyz|mdn.lol|yexolo.net|gamedouc.com|giftpros.net|ourpy.com|techymatic.com|chefslink.org|businessesknowledgeinhindi.com|aayurvedshastra.in|danidmonkey.com|elishea.com
+plumptofit.com##p, h2, #container > .form-group
+danidmonkey.com##div.form-group > div, h1, h3
+danidmonkey.com##div:nth-of-type(9), div:nth-of-type(10), div:nth-of-type(11), div:nth-of-type(12), div:nth-of-type(14), div:nth-of-type(15), #content > div:nth-of-type(1), #content > div:nth-of-type(2), #content > div:nth-of-type(3), #content > div:nth-of-type(4), #content > div:nth-of-type(5), #content > div:nth-of-type(6)
+cashadvancefvt.com##h3, span, #click p, #click, #content > div:nth-of-type(3), #content > div > h1, #content > div:nth-of-type(1), div.page_content:nth-of-type(4), div:nth-of-type(5), div.form-group > div
+cashadvancefvt.com,elishea.com###div_netpub_fullcover
+cashadvancefvt.com##div:nth-of-type(2)
+financewrapper.net,dreamhomelabs.com##.inside-header,.inside-article, .inside-right-sidebar, .site-footer, #click
+dreamhomelabs.com##.entry-content, div.et_post_meta_wrapper, #main-header, #main-footer, #sidebar, .code-block-14.code-block
+celebperson.com,recipes4all.net##center > div:nth-of-type(3), center > div:nth-of-type(2)
+! Ucut Script
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com##+js(nostif, isRequestPresent)
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com##+js(set, detectAdBlock, noopFunc)
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com##+js(noeval-if, /chp_?ad/)
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com##.g-recaptcha:upward(form > div):style(display: block !important;)
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com###form > [id], [id^="wpsafe-link"], [id^="plan"], .wpsafelink-button, #wpsafelinkhuman, [id][style="display: none;"]:style(display: block !important;)
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com#@##form > [id], #wpsafe-link3, .wpsafelink-button, #wpsafelinkhuman, #wpsafe-link4, [src*="google.com/recaptcha/"]:others()
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com#@##form > [id], #wpsafe-link3, .wpsafelink-button, #wpsafelinkhuman, #wpsafe-link4, [src*="google.com/recaptcha/"]:style(display: block !important;)
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com##tr,th, .a, .b, .c, .d, .e, div.adb-top > center, #ad-popup, table.aa, #click, .aax, #plan1, #plan2 > center > h3 > font, #plan3 > center > h3 > font
+dailytechz.info,newscrypto.info,worldwallpaper.top,trendzilla.club,yourfitness.us,videoclip.info,healthytip.eu,docadvice.eu,globalrecipes.us,eblog.pro,cryptoad.org,reintroducing.us,bitzite.com,article24.online,gameblog.in,techanalyzer.eu,impact24.us,trendzilla.it,horoscop.info,infonerd.org,infotrends.co,writeprofit.org,networkhint.com,hostratgeber.de,miner-sim.com###notification_popup
+@@||pagead2.googlesyndication.com^$domain=reintroducing.us|bitzite.com|article24.online|gameblog.in|techanalyzer.eu|impact24.us|trendzilla.it|horoscop.info|infonerd.org|infotrends.co|writeprofit.org|networkhint.com|hostratgeber.de|miner-sim.com|eblog.pro|anastasiainfo.xyz|globalrecipes.us|docadvice.eu|healthytip.eu|videoclip.info|yourfitness.us|trendzilla.club|rfaucet.com|worldwallpaper.top|newscrypto.info|dailytechz.info
+||adskeeper.com^$script,domain=bitcosite.com|bitzite.com|dailytechz.info,redirect=noopjs
+||bitzite.com,dailytechz.info,dailytime.store/dtban.jpg
+dailytechz.info,bitzite.com###floating-adku, #click, #wpsafelink-landing1 > .\36 138f239e323928fdfa52e74, #block_messages
+dailytechz.info,bitzite.com##.aa, .text-center.container > a
+bitcosite.com,bitzite.com#@#+js(no-fetch-if, googlesyndication)
+bitcosite.com#@#+js(set, adScriptLoaded, true)
+bitcosite.com,bitzite.com#@#+js(rmnt, script, alert, condition, adblock)
+bitcosite.com##.text-white.bg-primary, .animated.zoomIn.wow.text-center.py-5, #cookie-pop
+@@||googletagmanager.com/gtm.js$domain=go.bitcosite.com
+@@||bitcosite.com^$ghide
+bitcosite.com##^script:has-text(htmls)
+bitcosite.com##+js(aeld, load, htmls)
+dailytechz.info,bitzite.com##+js(aeld, load, htmls)
+dailytechz.info,bitzite.com##+js(ra, href, .MyAd > a[target="_blank"])
+dailytechz.info,bitzite.com##.buttonnya:style(display: block !important;)
+dailytechz.info,bitzite.com##.buttondownload:style(display: block !important;)
+dailytechz.info,bitzite.com##div[id^="countdownText"]
+dailytechz.info###google_esf
+||bitzite.com/dtban.jpg
+dailytechz.info,bitzite.com##+js(aeld, DOMContentLoaded, antiAdBlockerHandler)
+dailytechz.info,bitzite.com##.modal-overlay
+dailytechz.info,bitzite.com##+js(aeld, DOMContentLoaded, location.href)
+dailytechz.info,bitzite.com##+js(acs, document.createElement, onerror)
+*$image,redirect-rule=1x1.gif,domain=bitzite.com|dailytechz.info
+dailytechz.info,bitzite.com#@#.banner-ad
+dailytechz.info,bitzite.com##+js(nostif, _0x, 500)
+dailytechz.info,bitzite.com##+js(aopw, onScriptError)
+dailytechz.info,bitzite.com##+js(aopr, localStorage)
+dailytechz.info,bitzite.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
+coingraph.us,magazine.cryptoad.org###rewardModal, .ad-728x90, .ad-300x250, .ad-300x600, .ad-970x300
+coingraph.us,magazine.cryptoad.org##tr:nth-of-type(4), tr:nth-of-type(3), tr:nth-of-type(2) > td, tr:nth-of-type(5) > td
+coingraph.us,magazine.cryptoad.org###redirectButton:style(display: block !important;)
+
+
+wawacity.cfd##a[href^="https://dl-protect.link/rqst-direct-url?fn="]
+wawacity.cfd##div#vpnvpn
+wawacity.cfd##td[class^="secure12-dl-"]
+||wawacity.cfd/assets/images/brn_telecharger2.png
+
+
+zone-telechargement.fyi##center div.alert.info
+zone-telechargement.fyi##div#vpnvpn
+zone-telechargement.fyi##a[href^="https://dl-protect.link/rqst-direct-url?fn="]
+||zone-telechargement.fyi/templates/zone/images/dl/telechargement-direct.png
+
+dl-protect.link##+js(aost, atob, .onload@http)
+dl-protect.link##+js(aost, atob, /\b[a-z]\.onload(?:@http| injectedScript)/)
+dl-protect.link##+js(aopr, aclib)
+dl-protect.link##div#vpnvpn
+dl-protect.link##center p:has(a[href*="onlyvpn.site/r.php?"])
+
+
+||spacetica.com^$font,badfilter
+||spacetica.com^$image,badfilter
+||cloudflare.com^$from=spacetica.com,badfilter
+||spacetica.com^$inline-script,badfilter
+spacetica.com##div.banner.custom-splash
+
+||torrenting.com/CSS/du/DU9.gif
+
+!https://www.leroymerlin.pl/produkty/drzwi-i-okna/okna-swietliki-i-wylazy-dachowe/okna-plastikowe-pcv/okna-plastikowe-pcv-fasadowe/okno-pcv-3-szybowe-fasadowe-o32a-biale-1165x1435-mm-otwierane-do-wewnatrz-prawe-trocal-76md-witraz-90170764.html?_gl=1*1mnr6hg*_up*MQ..*_ga*MTE5NDg4NzQ4MC4xNzI5Mjc1ODE5*_ga_FB9PF3YLV4*MTcyOTI3NTgxOC4xLjEuMTcyOTI3NTkyMC4wLjAuMA..*_ga_FTYSQVSEG3*MTcyOTI3NTgxOC4xLjEuMTcyOTI3NTkyMC4wLjAuMA..*_ga_EK3DWWEXKT*MTcyOTI3NTgxOC4xLjEuMTcyOTI3NTkyMC4wLjAuMA..*_ga_NLBX6SVKPT*MTcyOTI3NTgxOC4xLjEuMTcyOTI3NTkyMC4wLjAuMTU1NzMwOTc2OA..
+||leroymerlin.pl^$doc,removeparam=_gl
+
+
+!https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-9939400
+quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(set, document.hasFocus, trueFunc)
+quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
+quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com###interstitial
+
+||subdl.com/images/vidhub_970_120.webp
+subdl.com##a.flex.justify-center.items-center.mt-4[href="https://apps.apple.com/app/apple-store/id1659622164?pt=118612019&ct=subdl&mt=8"]
+
+!https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-10926918
+@@||securepubads.g.doubleclick.net/*/gpt.js$domain=historyofyesterday.com|updatebackup.com
+@@||securepubads.g.doubleclick.net/*/pubads_impl.js$domain=historyofyesterday.com|updatebackup.com
+@@||googleads.g.doubleclick.net/pagead/interaction/$domain=historyofyesterday.com|updatebackup.com
+historyofyesterday.com,updatebackup.com##p, .wp-block-heading, ul, li, .rev-container, #videoGuide, [id^="revbid"]
+historyofyesterday.com,updatebackup.com###admania-commentbox, .admania-entryheader, .admania-sitefooter
+historyofyesterday.com,updatebackup.com##+js(nostif, documentElement.innerHTML)
+historyofyesterday.com,updatebackup.com##+js(set, assDidCkeDone, true)
+historyofyesterday.com,updatebackup.com##+js(rpnt, script, /= 19;|= 15;|= 14;/gm, = 7;)
+historyofyesterday.com,updatebackup.com##+js(set, document.hasFocus, trueFunc)
+
+!pahe.ink##+js(aopw, _pop)
+!pahe.ink##+js(acis, String.fromCharCode, 'shift')
+!pahe.ink##+js(aopr, open)
+!pahe.ink##+js(aopr, PopAds)
+!pahe.ink#%#//scriptlet("abort-on-property-write", "zfgproxyhttp")
+!pahe.ink##+js(acs, document.documentElement, break;case $.)
+
+!https://github.com/AdguardTeam/AdguardFilters/commit/3a4a4920126b262edfff9ecb082f0d467d2fdf64#diff-e6890e6792f3d0fb8a4879d325e849958a261e5b2f0fec7ad682107180bb5764R158
+!##body > div#dontfoid
+!##html > div[class][style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width:"]
+!##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+!/^https:\/\/[a-z-]{5,12}\.[a-z]{2,6}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,22}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
+! #%#//scriptlet('abort-on-property-read', 'Adcash')
+!pahe.ink#%#//scriptlet('abort-on-property-read', 'Adcash')
+!pahe.ink#%#//scriptlet('abort-current-inline-script', 'globalThis', 'adserverDomain')
+!pahe.ink#%#//scriptlet('abort-on-stack-trace', 'Element.prototype.hasAttribute', 'isActionAllowedOnElement')
+
+
+!pahe.plus#%#//scriptlet('abort-on-property-read', 'Adcash')
+!pahe.plus#%#//scriptlet('abort-on-property-read', 'Adcash')
+!pahe.plus#%#//scriptlet('abort-current-inline-script', 'globalThis', 'adserverDomain')
+!pahe.plus#%#//scriptlet('abort-on-stack-trace', 'Element.prototype.hasAttribute', 'isActionAllowedOnElement')
+pahe.*##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+
+
+pahe.*##+js(acs, document.documentElement, break;case $.)
+pahe.*##+js(acs, EventTarget.prototype.addEventListener, delete window)
+
+subdl.com##ul:has(svg.lucide-ear-off) > li:not(:has(svg.lucide-ear-off)):style(border: dashed !important;)
+
+||vider.$document,to=~uwaga-natretne-reklamy.*|vider.*,badfilter
+
+||static.fabrykasily.pl/fs-hp/fora/$domain=fora.pl
+
+fora.pl##tbody[id^="optS-"]
+
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li:has(input:xpath([@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]))
+!opensubtitles.org##input:xpath(input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")])
+!opensubtitles.org##p[itemprop]
+!opensubtitles.org##p[itemprop]:xpath('.')
+!:xpath('.[@itemprop]')
+!opensubtitles.org##input:xpath(.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")])
+!opensubtitles.org##input:xpath(.[@name="multiselect_SubLanguageID"])
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li:has(input:xpath('.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]'))
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li > input:xpath('.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('./input')
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li:has(input:xpath('.'))
+!opensubtitles.org##:xpath('//div/ul/li[.//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]]')
+!opensubtitles.org##:xpath('//div/ul/li[.//label]')
+
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]'):upward(li)
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!!:upward(li)
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]//input[@name="multiselect_SubLanguageID"]')
+!opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]')
+!opensubtitles.org##:xpath('//div/ul//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##:xpath('//div/ul//input[@name="multiselect_SubLanguageID"]')
+!opensubtitles.org##:xpath('//div//ul//input')
+!opensubtitles.org##:xpath('//div//ul')
+!opensubtitles.org##:xpath('//div')
+![not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+
+opensubtitles.org##div.msg[itemtype] div[style="margin-bottom:5px;margin-left:8px;"] a[title="Watch online "]
+opensubtitles.org##div#checkbox1 + div > p:has(a.bt-dwl) + a#bt-dwl-bt
+
+astralcodexten.com##+js(aeld)
+linegee.net##+js(aeld)
+
+@@||taboola.com^$first-party
+
+youtube.com##ytd-rich-item-renderer:has(a#video-title-link[aria-label*="Twojej playlisty Do obejrzenia"]):style(border: dashed !important;)
+
+jeja.pl###top
+
+
+||fitdynamos.com/images/dwn-1.png
+||fitdynamos.com/images/dwn-3.png
+
+blix.pl##div.topbar--campaign
+blix.pl##div.navbar__outer > div.navbar.with-margin:style(margin-top: unset !important;)
+
+!https://blix.pl/szukaj/?szukaj=mas%C5%82o
+blix.pl##div.footer__outer > section.section-n
+blix.pl##body.search-page > section.section-n:has(h2:has-text(Artykuły z bloga))
+blix.pl##body.search-page section.section-n div.top-wrapper__viewer
+
+!https://blix.pl/sklep/biedronka/gazetka/401840/?pageNumber=7
+blix.pl##div.left-sidebar__description.leaflet-description
+blix.pl##div.right-sidebar div.suggestions
+
+!https://blix.pl/produkt/maslo-klarowane-sobik-maslo-klarowane,6b654db12
+blix.pl##body.product-page div.top-wrapper__details p.product-description.text-gray
+blix.pl##body.product-page section.section-n:has(h2:has-text(Wybrane produkty))
+blix.pl##section#comments
+blix.pl##section#faq
+
+
+
