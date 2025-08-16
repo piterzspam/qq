@@ -3808,12 +3808,12 @@ scnsrc.me##a[href^="http://www.filefactory.com/file/"]
 
 
 
-rlsbb.ru##a[href^="https://rapidgator.net/file/"]
-rlsbb.ru##a[href^="https://nitroflare.com/view/"]
-rlsbb.ru##a[href^="https://fikper.com/"]
-rlsbb.ru##a[href^="https://katfile.com/"]
-rlsbb.ru##a[href^="http://turbobit.net/"]
-rlsbb.ru##a[href^="http://www.filefactory.com/file/"]
+rlsbb.ru,rlsbb.to##a[href^="https://rapidgator.net/file/"]
+rlsbb.ru,rlsbb.to##a[href^="https://nitroflare.com/view/"]
+rlsbb.ru,rlsbb.to##a[href^="https://fikper.com/"]
+rlsbb.ru,rlsbb.to##a[href^="https://katfile.com/"]
+rlsbb.ru,rlsbb.to##a[href^="http://turbobit.net/"]
+rlsbb.ru,rlsbb.to##a[href^="http://www.filefactory.com/file/"]
 
 
 ||linegee.net^$stylesheet,badfilter
@@ -4092,9 +4092,9 @@ spacetica.com##div.banner.custom-splash
 
 
 !https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-9939400
-quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(set, document.hasFocus, trueFunc)
-quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
-quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com###interstitial
+6harfli.com,quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(set, document.hasFocus, trueFunc)
+6harfli.com,quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
+6harfli.com,quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com###interstitial
 
 ||subdl.com/images/vidhub_970_120.webp
 subdl.com##a.flex.justify-center.items-center.mt-4[href="https://apps.apple.com/app/apple-store/id1659622164?pt=118612019&ct=subdl&mt=8"]
@@ -4210,6 +4210,959 @@ blix.pl##body.product-page section.section-n:has(h2:has-text(Wybrane produkty))
 blix.pl##section#comments
 blix.pl##section#faq
 
+!https://blix.pl/produkty/artykuly-spozywcze/nabial/maslo
+blix.pl##body.offers-page section.section-n.popular-products
+blix.pl##body.offers-page section.section-n.description
+blix.pl##body.offers-page section.section-n.phrase-in-brands
+blix.pl##body.offers-page section.category-brands
+
+
+
+
+blix.pl##div.offer span.offer__name.shimmer:style(display: unset !important;)
+
+@@||doubleclick.net^$popup,domain=blix.pl
+
+
+annas-archive.org##+js(nano-sib, , , 0.02)
+annas-archive.org##+js(nano-stb, , , 0.02)
+
+multiup.io##.text-truncate, .truncate:style(white-space: unset !important;)
+multiup.io##.page-header h2:style(height: unset !important;)
+multiup.io##.page-header:style(height: unset !important;)
+
+!Exe.io zmienione na nową domenę exe-urls.com
+!https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/filters.min.txt
+/ad-m.js$script,1p
+/sw.js$script,1p,domain=exe-urls.com
+@@||exe-urls.com^$ghide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=exe-urls.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exe-urls.com
+!exe-urls.com##+js(acs, disableItToContinue)
+!exe-urls.com##+js(acs, encodeURIComponent, XMLHttpRequest)
+!exe-urls.com##+js(aopr, adBlockDetected)
+!exe-urls.com##+js(aopr, app_vars.force_disable_adblock)
+!exe-urls.com##+js(aopr, parcelRequire)
+!exe-urls.com##+js(aopr, performance)
+!exe-urls.com##+js(no-fetch-if, google)
+!exe-urls.com##+js(nostif, mdpDeBlocker)
+!exe-urls.com##+js(nowoif)
+!exe-urls.com##+js(set, blurred, false)
+exe-urls.com##.banner-page > .short
+exe-urls.com##ins.adsbygoogle
+exe-urls.com##wpsafe-generate, #wpsafe-link:others()
+exe-urls.com##wpsafe-generate, #wpsafe-link:style(display: block !important;)
+||lengejoberdak.pro^
+||measur-d.com^$3p
+
+
+/nt.js$domain=labgame.io
+labgame.io##+js(aeld, , /_blank/i)
+labgame.io##+js(aopw, detectAdblock)
+labgame.io##+js(set, document.hidden, false)
+labgame.io##+js(set, document.hasFocus, trueFunc)
+labgame.io##+js(aeld, blur, stopCountdown)
+labgame.io##iframe[src="about:blank"]
+labgame.io##.d-md-block:has(> div[style] > [data-placement-id])
+labgame.io##.col-auto:has(> div[style] > [data-placement-id])
+labgame.io###overlay
+
+chomikuj.pl###listView div.filerow h3 a span.bold span.e:remove()
+chomikuj.pl###TreeContainer td > a[id^="Ta_"] span.e:remove()
+
+
+
+!frdl.to##+js(nano-sib, , , 0.02)
+!frdl.to##+js(nano-stb, , , 0.02)
+
+!clickndownload.*#@#^script:has-text('{delete window[')
+!clickndownload.*#@#^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
+
+!AdGuard – Ads
+*$script,3p,from=clickndownload.*,badfilter
+
+
+annas-archive.org##+js(nano-sib, , , 0.02)
+annas-archive.org##+js(nano-stb, , , 0.02)
+
+||static.gamezop.com^$image,domain=labgame.io
+||gamearter.com^$image,domain=labgame.io
+||games.assets.gamepix.com^$image,domain=labgame.io
+||labgame.io/images/dwn-1.png
+||labgame.io/images/dwn-2.jpg
+||labgame.io/images/dwn-3.png
+||labgame.io/images/dwn-4.png
+||i.gyazo.com/7054573b8e1afc3fb4c35c3b55df037c.png
+||link-94.apkallworld.com/728x250-1.webp
+
+google.com##+js(aeld)
+!google.com##+js(acs, document.oncontextmenu)
+google.com##+js(aeld, contextmenu)
+
+pahe.plus##div.c-message div.banner.custom-splash
+
+chomikuj.pl##div#listView div.filerow a.expanderHeader + img.downloadArrow[alt="pobierz"]
+
+koncertomania.pl###top-banner
+koncertomania.pl##.affbanner
+
+biletyna.pl##div.B-promo-app-banner
+
+apkmirror.com##div.thank-you ~ div.listWidget:has(.widgetHeader:has-text(Popular In Last 7 Days))
+apkmirror.com##div.thank-you:upward(#main) #sidebar
+
+
+opensubtitles.org#@#div#checkbox1 + div > p:has(a.bt-dwl) + a#bt-dwl-bt
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body div#container + fieldset
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body div#container fieldset#discussion legend + p
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body div#container fieldset#discussion:not(:has(div.comment_reply))
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body div#container + fieldset + fieldset tr + tr ~ tr
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body form[action*="/admin/a-auto_translate/"] select[name="sublanguageid"]
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body a.bt-dwl[href*="/subtitles/legacy/"]
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body a#thank_you
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body a#comment_btn
+opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body span.nobr:has(a.none[href="#subvote"]) + *
+opensubtitles.org##iframe[id*="ihif"]:style(height: 550px !important;)
+
+fast-down.com##div[style="width:336px; height:296px"]:has(div[id^="div-gpt-ad-"])
+fast-down.com##div[id^="div-gpt-ad-"]
+fast-down.com##div.container div.blocktxt
+fast-down.com##br + br
+
+mdiaload.com##div.container div.blocktxt
+mdiaload.com##div.download_page center div[style="width:336px; height:280px"]
+
+||tutorials.olamdrive.com/stream?filename=[OlaMovies]%20How%20To%20Go%20Through%20Shortener%20Ads%20[Anylinks.in].mp4
+
+mastkhabre.com,ukrupdate.com##body a.skip-link ~ center:has(button#tp98[onclick="verify()"]) ~ div#page
+mastkhabre.com,ukrupdate.com##body a.skip-link ~ div#custom-banner-ad-container
+
+
+!mastkhabre.com,ukrupdate.com##+js(nano-sib, , , 0.02)
+!mastkhabre.com,ukrupdate.com##+js(nano-stb, , , 0.02)
+
+
+olamovies.download##button[onclick*='window.open('] ~ div video#player
+
+
+
+||cdn.playsaurus.com/embed/$image,domain=labgame.io
+
+labgame.io##div.bottom-container:has(> div#section-similar-games)
+labgame.io###home-game-container
+
+!profitsfly, btcut.io
+!http://cutlinks.xyz/efafc2b007
+!https://cutto.io/ac7O/?token=UuADcXwqVL37dKzvMW091abxZtjhSmnYsky6HfNeopTOilJ4FCIB58PRrEQgG2
+!https://u1089-btio.insurelean.com/how-to-find-the-best-hotels-in-canada-a-comprehensive-guide/
+!Our website is made possible by displaying online advertisements to our visitors.
+!Please consider supporting us by disabling your ad blocker and tracker protector (e.g: Firefox enhanced tracking protection). If you don't have an adblock please reload the page and keep it focused. 
+!Subscribe to the channel below, watch & like the video to learn how to continue, wait and click the button to continue
+!Waiting for subscription...
+!https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-12254528
+!helloSweetie()
+!Go down to continue!
+!Step: 1/3: Please wait...
+!Please complete the security check when it appears
+insurelean.com##div#youtubeFollowStepModal
+||youtube.com^$frame,domain=insurelean.com
+!This Website is Hosted by MegaHosting.us - Fast, Reliable Hosting with Instant Support
+insurelean.com##div#mgStickyBanner
+insurelean.com##+js(nostif, documentElement.innerHTML)
+insurelean.com##+js(no-fetch-if, doubleclick, , {"type": "opaque"})
+insurelean.com##+js(trusted-replace-node-text, script, /^([^{])/, "document.addEventListener('DOMContentLoaded',()=>{const i=document.createElement('iframe');i.style='height:0;width:0;border:0';i.id='aswift_0';document.body.appendChild(i);i.focus();const f=document.createElement('div');f.id='9JJFp';document.body.appendChild(f);});$1", sedCount, 2)
+insurelean.com##+js(set, document.hasFocus, trueFunc)
+
+!quins.us,finance240.com,retrotechreborn.com##+js(nostif, documentElement.innerHTML)
+!quins.us,finance240.com,retrotechreborn.com##+js(no-fetch-if, doubleclick, , {"type": "opaque"})
+!quins.us,finance240.com,retrotechreborn.com##+js(trusted-replace-node-text, script, /^([^{])/, "document.addEventListener('DOMContentLoaded',()=>{const i=document.createElement('iframe');i.style='height:0;width:0;border:0';i.id='aswift_0';document.body.appendChild(i);i.focus();const f=document.createElement('div');f.id='9JJFp';document.body.appendChild(f);});$1", sedCount, 2)
+!quins.us,finance240.com,retrotechreborn.com##+js(set, document.hasFocus, trueFunc)
+
+mbantul.my.id,lajangspot.web.id,bewbin.com##div#wpsafe-wait1, div#wpsafe-generate, div#wpsafegenerate, form#wpsafelink-landing:others()
+!https://go.bicolink.net/eeRj
+
+!Complete The Captcha
+!Please Scroll Down
+!Select the icon that matches the one above
+!Click any ad and open in new tab, and wait 10 seconds before you can return and continue.
+@@||dailytech-news.eu^$generichide
+
+
+
+
+dailytech-news.eu##div#captcha-container:style(background-color: white !important;)
+!dailytech-news.eu##div.placed-ad.ads-box
+!dailytech-news.eu##div.placed-ad.ads-box2
+
+
+
+!EasyList
+||netpub.media^$3p,badfilter
+!uBlock filters – Link shorteners
+||revbid.net^$badfilter
+
+!EasyList
+/prebid_$script,3p,badfilter
+
+!Disable bypass or adblocker on our site
+! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-8002410
+!dailytech-news.eu##+js(rmnt, script, /\/detected\.html|Adblock/)
+!dailytech-news.eu##+js(set, isRequestPresent, true)
+!dailytech-news.eu##+js(rpnt, script, = false;, = true;, condition, innerHTML)
+
+
+! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-8733294
+! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-10121209 (earnow .online/09UGVRo)
+!||rollercoin.com^$image,3p,redirect-rule=32x32.png,domain=dailytech-news.eu
+!||czilladx.com^$xhr,3p,redirect-rule=nooptext,domain=dailytech-news.eu
+!@@||cdn.bmcdn6.com/js/*d0.js^$domain=dailytech-news.eu
+!dailytech-news.eu##+js(nostif, alert)
+!dailytech-news.eu##+js(rpnt, script, "'IFRAME'", "'BODY'")
+!dailytech-news.eu##+js(noeval-if, /chp_?ad/)
+
+!airevue.net##article div[id$="_area"]:has(form[id][action$="/api-endpoint/verify"]):others()
+
+
+clickndownload.cc##div.download div.premiumbutt:has(div.superfast)
+clickndownload.cc##div.download div.premiumbutt:has(div.superfast) ~ br + div.h2
+
+napisy24.pl##div#finding input#search_btn_down:style(bottom: 0px; !important)
+
+tpi.li##+js(rmnt, script, ;}}};break;case $.)
+tpi.li##[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+
+wordcounter.icu##form#link-view div[style="height:50px; text-align:center;"]:has(> input#downloadButton)
+
+fast-down.com##div.download_page div[style="width:336px; height:280px"]
+
+fc-lc.xyz##form#link-view > iframe#iframe_id
+
+kowala.pl##article div.strona-tresc-data:style(display: unset !important;)
+
+fc-lc.xyz###iframe_id, .text-left
+labgame.io###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="www.recaptcha.net/recaptcha"]:others()
+labgame.io##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
+labgame.io##+js(nano-sib, tid, *, 0.02)
+labgame.io##+js(trusted-set-cookie, ad_expire=true;, $now$)
+labgame.io##+js(rmnt, script, window.adblockDetector)
+labgame.io##+js(rmnt, script, DName)
+
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(span > span:has-text(Sponsorowane) + button)
+!allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(span > span:has-text(Sponsorowane) + button):style(border: dashed !important;)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(span > span:has-text(Promowane) + button):style(border: dotted !important;)
+!Top 10: Roboty kuchenne
+!https://allegro.pl/kategoria/do-kuchni-roboty-kuchenne-67452?marka=Adler&marka=Ariete&marka=Berlinger&marka=Camry&marka=Eldom&marka=Klarstein&marka=Mesko&marka=MPM&marka=Riwall&marka=Royalty%20Line&marka=Ruhhy&marka=Zeegma&marka=Riwall%20Pro&delivery_time=two_days&miejsce-wysylki=polska&stan=nowe&offerTypeBuyNow=1&price_to=650&ocena-produktu=od-4.6&moc-od=2000&rodzaj-regulacji-obrotow=p%C5%82ynna&rodzaj-regulacji-obrotow=skokowa&pojemnosc-misy-roboczej-od=5&pojemnosc-misy-roboczej-do=7&order=p
+allegro.pl##div[data-box-name="Ranking Wrapper"]
+
+!-50% na piąty przedmiot, Rabat jest obliczany w koszyku od ceny najtańszego z przedmiotów objętych promocją.
+!https://allegro.pl/oferta/opiekacz-sandwich-gofrownica-grill-panini-amica-smk4011-3w1-700w-czarny-15138862274
+allegro.pl##div[data-box-name="Container carousel crossmultipack"]
+
+
+!SCREEN SPOTS - drobne kropki na ekranie
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-zbook-g3-15-intel-core-i7-16-gb-512-gb-screen-spots-17086788867"])
+
+!LAPTOP DELL VOSTRO 17,3" INTEL CORE I7 6GB RAM 512 SSD
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-vostro-3750-17-3-gt-525-i7-2630qm-6-512gb-14445575383"])
+
+!router
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/avm-fritz-box-7530-ax-router-bezprzewodowy-gigabit-ethernet-dual-band-2-4-17235730768"])
+
+!NORDIC
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7510-i7-6820hq-16gb-256gb-ssd-firepro-w5170m-full-hd-16888611103"])
+!QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7520-i7hq-16gb-512ssd-nvidia-m1200m-w11-nowa-bat-17157479403"])
+!QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7520-i7hq-8gb-256ssd-nvidia-m1200m-w11-nowa-bat-17157477902"])
+!QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7520-i7hq-8gb-512ssd-nvidia-m1200m-w11-nowa-bat-17157478025"])
+!Klawiatura: Układ PL (naklejki)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-7520-1920x1080-nvidia-xeon-8gb-256gb-ssd-16697169110"])
+!QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7520-i7hq-16gb-256ssd-nvidia-m1200m-w11-nowa-bat-17157479200"])
+!Układ klawiatury: NORDIC (qwerty)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-7510-i7-6820hq-16gb-256gb-ssd-firepro-w5170m-full-hd-16918790299"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-3530-i7-8850h-fullhd-ips-w11-pro-16gb-512gb-ssd-16082923213"])
+!QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7520-i7hq-8gb-500nvme-nvidia-m1200m-w11-nowa-bat-17157478406"])
+!QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7520-i7hq-32gb-256ssd-nvidia-m1200m-w11-nowa-bat-17157480514"])
+!Klawiatura: Układ PL (naklejki)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-7520-1920x1080-nvidia-xeon-16gb-256gb-ssd-16698839800"])
+!QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7520-i7hq-8gb-960ssd-nvidia-m1200m-w11-nowa-bat-17157478188"])
+!Klawiatura QWERTY spolszczona stickerami.
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/mocarz-dell-precision-3510-i5-16gb-r9-256ssd-fhd-13565419495"])
+!Klawiatura: Układ PL (naklejki)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-7520-1920x1080-nvidia-xeon-8gb-512gb-ssd-16698819710"])
+!Naklejki na klawiaturę - dostosowane do Twojego języka ojczystego dla wygodnego pisania od pierwszej chwili.
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7510-i7-6820hq-32-512gb-ssd-quadro-m1000m-fhd-win10p-17173661083"])
+!✅Klawiatura: PL - naklejki
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-t590-i5-8365u-16gb-512gb-fhd-a-14014801303"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-home-16gb-512gb-ssd-17178849181"])
+!niemiecka klawiatura
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-lenovo-thinkpad-p51-i7-24gb-500gb-ssd-2x-karta-graficzna-zasilacz-17024405607"])
+!✅ Klawiatura: Układ PL - spolszczony naklejkami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/biznesowy-laptop-lenovo-thinkpad-t580-i7-4x-4ghz-16gb-512gb-fhd-ultrabook-16948212883"])
+!KLAWIATURA QWERTY US / PL spolszczona naklejkami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-lenovo-thinkpad-e15-fhd-i5-10210u-8-256gb-ssd-nvme-windows-11-16780204051"])
+!Klawiatura: Polskojęzyczna (Naklejki spolszczające); Panel numeryczny
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-e590-i5-8265u-szybki-fullhd-ips-win11-pro-16gb-512gb-ssd-17115256896"])
+!Klawiatura: QWERTY PL, spolszczona stickerami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-t590-i5-8350u-8gb-256gb-ssd-nvme-fhd-win11-17170866361"])
+!KLAWIATURA QWERTY US / PL spolszczona naklejkami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-lenovo-thinkpad-e15-fhd-i5-10210u-16-1024gb-ssd-nvme-windows-11-16780255751"])
+!Klawiatura: QWERTY PL (naklejki spolszczające)
+!allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p52s-15-6-i7-8650u-16gb-512gb-ssd-nvidia-windows-11-16767791784"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16767791784"])
+!Klawiatura: QWERTY (wykonany został profesjonalny przedruk klawiatury)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-lenovo-thinkpad-l580-15-6-intel-core-i5-16-gb-512-gb-czarny-17043228177"])
+!Klawiatura spolszczona - część klawiszy została oklejona profesjonalnymi naklejkami spolszczającymi, niewyczuwalnymi podczas pisania.
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-5591-15-cali-i5-8gen-quad-16gb-512gb-ssd-nvme-mx130-biznesowa-moc-16980285582"])
+!Stickery spolszczające na klawiaturze,skin ochronny na klapie
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-latitude-e5590-4x-3-6ghz-geforce-now-fhd-ips-16gb-512gb-w11-16482653568"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-3530-i7-8850h-fullhd-ips-w11-pro-16gb-512gb-ssd-16082830142"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-3541-i7-9850h-quadro-p620-4gb-fhd-ips-w11-pro-16gb-512gb-ssd-15713549345"])
+!Układ klawiatury: Polskojęzyczna (spolszczona naklejkami)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/dell-precision-3541-i7-9850h-16gb-512gb-ssd-quadro-p620-fhd-ips-w11-gw24-16102437266"])
+!Klawiatura standaryzowana na QWERTY US przy użyciu profesjonalnych stickerów
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/laptop-dell-precision-7530-xeon-e-2176m-6x4-4ghz-8-256ssd-ips-w11-office-17088636668"])
+!Klawiatura: Polskojęzyczna(naklejki); Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-t580-i5-8250u-quad-15-6-fhd-ips-w11-pro-lte-8gb-256gb-ssd-16610071230"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-pro-16gb-512gb-ssd-16201106970"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-pro-16gb-512gb-ssd-16301556297"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-pro-16gb-512gb-ssd-16198854953"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-16gb-512gb-ssd-gw24-16326307180"])
+!Klawiatura: QWERTY PL, spolszczona stickerami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-t590-i5-8350u-8gb-256gb-ssd-nvme-fhd-win10-17170448460"])
+!Klawiatura: QWERTY PL, spolszczona stickerami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-t590-i5-8350u-16gb-256gb-ssd-nvme-fhd-win11-17170902624"])
+!Klawiatura: QWERTY PL, spolszczona stickerami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-t590-i5-8350u-16gb-256gb-ssd-nvme-fhd-win10-17170705441"])
+!slash koło shifta
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p53s-i7-8665u-16gb-512gb-nvidia-quadro-p520-c-17213926246"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href^="https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-pro-16gb-512gb-ssd-16301213809"])
+!✅ Klawiatura: Układ PL (spolszczony naklejkami), Podświetlana
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16722853755"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), podświetlana, panel numeryczny
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16804008157"])
+!KLAWIATURA QWERTY US / PL spolszczona naklejkami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16780246062"])
+!KLAWIATURA QWERTY US / PL spolszczona naklejkami
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16779910705"])
+!AVM FRITZ!Box 7530 AX router bezprzewodowy Gigabit Ethernet Dual-band (2.4
+!https://allegro.pl/oferta/avm-fritz-box-7530-ax-router-bezprzewodowy-gigabit-ethernet-dual-band-2-4-17249126977
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17249126977"])
+!7510
+!https://allegro.pl/oferta/dell-precision-7510-i7-6820hq-quadro-m1000m-2gb-fhd-ips-w11p-16gb-512gb-ssd-17112642592
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17112642592"])
+!7520
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-32gb-512gb-fhd-ips-17146000030
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-8gb-256gb-fhd-ips-17159406129
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-8gb-512gb-fhd-ips-17159427613
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-16gb-256gb-fhd-ips-17159416830
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-16gb-512gb-fhd-ips-17159434015
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-8gb-1000gb-fhd-ips-17159446818
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-16gb-1000gb-fhd-ips-17159455044
+!https://allegro.pl/oferta/dell-precision-7520-i7-quad-4x-3-9ghz-quadro-4gb-32gb-256gb-fhd-ips-17159419616
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17146000030"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17159406129"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17159427613"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17159416830"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17159434015"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17159446818"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17159455044"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17159419616"])
+!https://allegro.pl/oferta/mocny-hp-zbook-15-g3-xeon-15-6-32gb-ram-ssd-nvidia-quadro-m2200m-13628517330
+!Klawiatura QWERTY - na niektórych klawiszach znajdują się naklejki zmieniające układ na polski
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-13628517330"])
+!https://allegro.pl/oferta/dotykowy-dell-5500-intel-core-i7-8665u-8gb-256gb-ssd-nvme-fullhd-w11-pl-17186315294
+!dotykowy ekran
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17186315294"])
+!V15 - klawiatura tylko z obudową https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-v-series-laptops/v15-g2-ijl/82qy/parts/display/compatible
+!IdeaPad - klawiatura tylko z obudową: https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/gaming-series/ideapad-gaming-3-15ach6/82k2/parts/display/compatible
+!Legion - klawiatura tylko z obudową: https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/legion-series/legion-5-15aph9/83eg/parts/display/compatible
+!Precision 7510 brak wsparcie Windows 11
+!Laptop Dell Latitude 5510 15,6 " Intel Core i5 16 GB / 512 GB srebrny
+!Trudna wymiana klawiatury
+
+
+!Wsparcie Windows 11 - Trudna wymiana klawiatury
+!Chyba brak Windows 11
+!https://h30434.www3.hp.com/t5/Notebook-Operating-System-and-Recovery/Does-HP-Zbook-15-G3-support-Windows11/td-p/8894271
+!Zbook 15 G3
+!HP - brak oficjalnego wsparca Windows 11
+!https://www.perplexity.ai/search/is-hp-zbook-15-g4-compatible-w-yHw7Wb5ERymbkmfieFiwvg
+!HP - trudna wymiana klawiatury
+!Procesory nie obsługujące Windows 11
+!Precision P50
+!https://allegro.pl/oferta/asus-rog-strix-gl503v-i7-7700hq-15-6-full-hd-8gb-256gb-gtx1050-4gb-win10-17239286621
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17239286621"])
+!https://allegro.pl/oferta/laptop-asus-gl503v-15-6-intel-core-i5-8gb-ram-1tb-win10-17138989631
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17138989631"])
+!https://allegro.pl/oferta/dell-inspiron-7577-i7-7gen-gtx-1050ti-4gb-ssd-256gb-ram-8gb-15-win10-17125404852
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17125404852"])
+!https://allegro.pl/oferta/laptop-15-6-msi-gl62-i7-6700hq-gtx960m-16gb-ram-256gb-1tb-win10-gaming-15935201663
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-15935201663"])
+!https://allegro.pl/oferta/hp-15-dc0016nw-i7-8750h-15-6-fhd-16gb-512ssd-1tb-gtx1050ti-4gb-hdmi-cam-w11-17239608852
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17239608852"])
+!https://allegro.pl/oferta/lenovo-p50-i7-32gb-512gb-ssd-500gb-hdd-nvidia-4gb-17090068236
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17090068236"])
+!Inspiron
+!https://allegro.pl/oferta/laptop-dell-inspiron-g3-3500-i7-8gb-512gb-torba-16035640187
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16035640187"])
+!https://allegrolokalnie.pl/oferta/laptop-hp-omen-15-ce016nw?rep=1080890984
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-ce016nw"])
+!gamingowy
+!https://allegro.pl/oferta/laptop-msi-ge63-raider-15-6-intel-core-i7-8750h-gtx1060-32-1128-gb-czarny-17206196447
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17206196447"])
+!- Większość naszych laptopów posiada skandynawską klawiaturę. Otrzymujecie jednak Państwo klawiaturę w 100 % spolszczoną dzięki bardzo trwałym i popularnym naklejkom.
+!https://allegro.pl/oferta/laptop-hp-zbook-15-g5-i7-8-gen-8gb-512-ssd-95648-14924475498
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-14924475498"])
+!Klawiatura: US - posiada naklejki spolszczające
+!https://allegro.pl/oferta/laptop-hp-zbook-15-g5-15-6-intel-core-i7-32-gb-512-gb-hz41-17048181613
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17048181613"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+!https://allegro.pl/oferta/hp-zbook-15u-g5-i7-8650u-radeon-wx3100-fhd-ips-w11-pro-16gb-512gb-ssd-nvme-16077486008
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16077486008"])
+!Klawiatura: Polskojęzyczna(naklejki); Podświetlana z blokiem numerycznym.
+!https://allegro.pl/oferta/dell-latitude-5590-i7-8650u-4-4-2ghz-15-6-fhd-ips-w11-pro-16gb-512gb-ssd-17037062249
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17037062249"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+!https://allegro.pl/oferta/hp-zbook-15u-g6-i7-8665u-radeon-wx3200-fhd-ips-w11-pro-16gb-512gb-ssd-nvme-16653433799
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16653433799"])
+!Lewy shift dziwny
+!https://allegro.pl/oferta/laptop-hp-zbook-15-g5-i7-8750h-16-gb-ram-512-gb-ssd-quadro-p1000-a-17257173317
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17257173317"])
+!Klawiatura (Podświetlana): Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+!https://allegro.pl/oferta/hp-zbook-15u-g5-i7-8550u-radeon-wx3100-fhd-ips-w11-pro-32gb-1tb-ssd-nvme-16077693757
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16077693757"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+!https://allegro.pl/oferta/hp-zbook-15u-g6-i7-8565u-radeon-wx3200-fhd-ips-w11-16gb-512gb-ssd-nvme-16960817135
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16960817135"])
+!Są już w Excelu
+!https://allegro.pl/oferta/lenovo-thinkpad-e590-i7-8565u-8gb-ram-128gb-ssd-fhd-ips-gw12-kl-a-w11-17218817056
+!https://allegro.pl/oferta/lenovo-thinkpad-e590-i7-8565u-8gb-ram-256gb-ssd-fhd-ips-gw12-kl-a-w11-2-17218813420
+!https://allegro.pl/oferta/lenovo-thinkpad-e590-i7-8565u-16gb-ram-128gb-ssd-fhd-ips-gw12-kl-a-w11-2-17218814621
+!https://allegro.pl/oferta/lenovo-thinkpad-e590-i7-8565u-8gb-ram-512gb-ssd-fhd-ips-gw12-kl-a-w11-17218811693
+!https://allegro.pl/oferta/lenovo-thinkpad-e590-i7-8565u-16gb-ram-256gb-ssd-fhd-ips-gw12-kl-a-w11-2-17218814312
+!https://allegro.pl/oferta/lenovo-thinkpad-e590-i7-8565u-8gb-ram-128gb-ssd-fhd-ips-gw12-kl-a-w11-2-17218820591
+!https://allegro.pl/oferta/laptop-hp-zbook-15u-g6-i7-8665u-16gb-512gb-ssd-windows-11-16591744792
+!https://allegro.pl/oferta/laptop-acer-aspire-3-a315-44p-16gb-512-win-11-komplet-16842512028
+!https://allegro.pl/oferta/laptop-hp-255-g8-ryzen-5-5500u-8gb-256gb-ssd-win11-17163600810
+!https://allegro.pl/oferta/laptop-hp-255-g9-ryzen5-5625u-ram-16gb-ssd-512gb-17124678570
+!https://allegro.pl/oferta/laptop-hp-15-15-6-amd-ryzen-5-3500u-8-gb-512-nvme-vega-bluetooth-kamera-16546957665
+!https://allegro.pl/oferta/laptop-dell-precision-3551-15-6-i7-16-gb-512-gb-szary-nvidia-p620-17111524037
+!https://allegro.pl/oferta/laptop-do-pracy-dell-latitude-3500-15-6-full-hd-i5-4-10ghz-8gb-ram-512-ssd-17247111855
+!https://allegro.pl/oferta/mobilny-dell-latitude-3500-i5-8gen-4x4-10ghz-16-gb-256-ssd-15-6-ips-win11-17247246168
+!https://allegro.pl/oferta/laptop-dell-latitude-5511-15-6-fhd-ips-i5-10400h-16gb-512ssd-nvme-w11-us-17244801548
+!https://allegro.pl/oferta/dell-latitude-15-4x-3-6ghz-geforce-mx130-16gb-512gb-quad-fhd-ips-w11-16821086266
+!https://allegro.pl/oferta/biznesowy-dell-latitude-5590-i5-8250u-8-gb-512-ssd-m-2-15-6-ips-win11pro-17234888410
+!https://allegro.pl/oferta/biurowy-latitude-5520-i5-11gen-8gb-128gb-win-11-home-17239555489
+!https://allegro.pl/oferta/laptop-dell-latitude-5591-fhd-i5-8400h-8gb-256gb-ssd-m-2-windows-11-15181863674
+!https://allegro.pl/oferta/laptop-dell-precision-7530-15-6-intel-core-i5-8-gb-256-gb-nvidia-p2000-16809164207
+!https://allegrolokalnie.pl/oferta/laptop-lenovo-thinkpad-t590-ram-16gb-ssd-nvme-256gb?rep=1077654494
+!https://allegro.pl/oferta/hp-probook-650-g8-i5-16gb-ram-512gb-ssd-17239742712
+!https://allegro.pl/oferta/laptop-hp-probook-450-g7-intel-i5-10210u-4x-1-6ghz-16gb-ssd-256gb-windows11-17096258222
+!https://allegro.pl/oferta/hp-probook-450-g5-i5-8250u-8gb-256gb-ssd-fullhd-win11-14804254050
+!https://allegro.pl/oferta/hp-250-g8-i5-1135g7-16gb-512gb-w11-gw12-14519439773
+!https://allegro.pl/oferta/dell-latitude-5520-15-6-fhd-ips-i7-1165g7-4gb-256ssd-nvme-w11-17244727399
+!https://allegro.pl/oferta/hp-zbook-firefly-15-g7-core-i7-10810u-16gb-512gb-ssd-nvme-nvidia-p520-lte-14255273450
+!https://allegro.pl/oferta/lenovo-t590-i7-8665u-16gb-512gb-nvme-pl-klawiatura-led-fhd-17186178858
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17218817056"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17218813420"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17218814621"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17218811693"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17218811693"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17218814312"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17218820591"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16591744792"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="https://allegrolokalnie.pl/oferta/dell-latitude-5590-i7-16gb-512gb"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16842512028"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17163600810"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17124678570"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16546957665"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17111524037"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17247111855"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17247246168"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17244801548"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16821086266"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17234888410"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17239555489"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="15181863674"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16809164207"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="https://allegrolokalnie.pl/oferta/laptop-lenovo-thinkpad-t590-ram-16gb-ssd-nvme-256gb"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17096258222"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17239742712"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="14804254050"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="14519439773"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17244727399"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="14255273450"])
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17186178858"])
+
+
+
+
+
+
+
+!https://allegro.pl/oferta/laptop-dell-7510-15-6-intel-core-i7-16-gb-512-gb-czarny-16821638305
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16821638305"])
+!14 cali
+!https://allegro.pl/oferta/lenovo-thinkpad-l14-amd-ryzen-7-4750u-fhd-ips-16gb-512gb-ssd-nvme-w10-w11-17185269220
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17185269220"])
+!Chyba niepolska klawiatura
+!https://allegro.pl/oferta/laptop-dell-precision-7530-15-6-i7-8750h-32-512-hdd-quadro-p2000-gw2025-17095535499
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17095535499"])
+!Gamingowy, lekko luźny klawisz
+!https://allegro.pl/oferta/laptop-dell-inspiron-g15-5510-i5-10500h-16gb-512gb-gtx1650-16799976947
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16799976947"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny; Podświetlana
+!https://allegro.pl/oferta/hp-zbook-15u-g6-i7-8565u-radeon-wx3200-fhd-ips-w11-pro-16gb-512gb-ssd-nvme-16659894300
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16659894300"])
+!https://allegro.pl/oferta/lenovo-thinkpad-p50-32gb-512gb-m1000m-15-6-fhd-czarny-kl-a-17147105360
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17147105360"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+!https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-pro-16gb-512gb-ssd-16326307523
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-16326307523"])
+!https://allegro.pl/oferta/hp-probook-650-g2-i7-8gb-1tb-fhd-mat-w10p-15053567127
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-15053567127"])
+!https://allegro.pl/oferta/hp-probook-650-g2-i7-8gb-256ssd-fhd-mat-w10p-15053566437
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-15053566437"])
+!Ekran: Duże rysy oraz przejaśnienia
+!https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-home-16gb-512gb-ssd-17179524890
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-17179524890"])
+!i7-6700HQ
+!https://allegro.pl/oferta/lenovo-thinkpad-p50-core-i7hq-1920x1080-32gb-512gb-ssd-15025837782
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="15025837782"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+!https://allegro.pl/oferta/lenovo-thinkpad-p52s-i7-8650u-quadro-p500-fhd-ips-win11-home-16gb-512gb-ssd-17178808597
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17178808597"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), podświetlana, panel numeryczny
+!https://allegro.pl/oferta/dell-latitude-5501-i7-9850h-geforce-mx150-fhd-ips-w11-pro-16gb-512gb-ssd-16690883292
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16690883292"])
+!https://allegro.pl/oferta/dell-latitude-e5570-i7-8gb-256ssd-r7-lte-fpr-w10p-13565427279
+!laptopy przecenione z wyprzedaży producenta. Klawiatura QWERTY spolszczona stickerami.
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="13565427279"])
+!Klawiatura: QWERTY PL (naklejki spolszczające)
+!https://allegro.pl/oferta/lenovo-thinkpad-p52s-15-6-i7-8650u-32gb-512gb-ssd-nvidia-windows-11-16767826164
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16767826164"])
+!Klawiatura: QWERTY PL (naklejki spolszczające)
+!https://allegro.pl/oferta/lenovo-thinkpad-p52s-15-6-i7-8650u-16gb-1tb-ssd-nvidia-windows-11-16767829387
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16767829387"])
+!6820HQ
+!https://allegro.pl/oferta/dell-latitude-e5570-i7-6820hq-8gb-512ssd-r7-fhd-13565395362
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="13565395362"])
+!6820HQ
+!https://allegro.pl/oferta/hp-probook-650-g2-i7-8gb-512ssd-fhd-mat-w10p-14034452424
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="14034452424"])
+!i7-6820HQ
+!https://allegro.pl/oferta/hp-probook-650-g2-i7-6820hq-12gb-1tb-fhd-mat-w10p-14034654583
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="14034654583"])
+!i7-6820HQ
+!https://allegro.pl/oferta/hp-probook-650-g2-i7-6820hq-12gb-1tb-fhd-mat-w10p-14034654583
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="14034654583"])
+!7440HQ
+!https://allegro.pl/oferta/dell-latitude-15-4x-3-8ghz-geforce-mx130-16gb-1000gb-quad-fhd-ips-w11-17159566126
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17159566126"])
+!i5- 7440HQ
+!https://allegro.pl/oferta/dell-latitude-15-4x-3-8ghz-geforce-mx130-32gb-256gb-quad-fhd-ips-w11-17159530801
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17159530801"])
+!Klawiatura: Polskojęzyczna(naklejki); Podświetlana z blokiem numerycznym.
+!https://allegro.pl/oferta/dell-latitude-5590-i7-8650u-4-4-2ghz-15-6-fhd-ips-w11-16gb-512gb-ssd-gw24-17037066779
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17037066779"])
+!5580
+!https://allegro.pl/oferta/wyprzedaz-dell-latitude-5580-fhd-15-6-cali-i7-8-256gb-ssd-do-szkoly-studia-16354238842
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16354238842"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), podświetlana, panel numeryczny
+!https://allegro.pl/oferta/dell-latitude-5501-i5-9400h-quad-15-6-fullhd-ips-win11-16gb-512gb-ssd-16804018617
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16804018617"])
+!Język klawiatury: PL, spolszczona naklejkami, podświetlana
+!https://allegro.pl/oferta/lenovo-l15-i5-10310u-16gb-ram-512gb-ssd-bat-3h-win10-17245007312
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17245007312"])
+!LAPTOP POSIADA HASŁO BIOS. JEDNAKŻE NORMALNIE BOOTUJE Z PENDRIVE.
+!https://allegro.pl/oferta/laptop-komputer-hp-probook-650-g8-i5-1135g7-16gb-ram-512-gb-ssd-17235857938
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17235857938"])
+!Klawiatura: Polskojęzyczna (naklejki spolszczające), Panel Numeryczny;
+!https://allegro.pl/oferta/hp-zbook-15u-g6-i7-8665u-radeon-wx3200-fhd-ips-w11-pro-16gb-512gb-ssd-nvme-16077786199
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16077786199"])
+!KLAWIATURA QWERTY US / PL spolszczona
+!https://allegro.pl/oferta/aluminiowy-laptop-dell-latitude-9510-15-fhd-i7-10gen-16-512ssd-windows-11-17211311386
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17211311386"])
+!Klawiatura podświetlana w układzie QWERTY US . Dodatkowo jest cyrylica.
+!https://allegro.pl/oferta/laptop-hp-elitebook-850-g8-15-6-intel-core-i7-16-gb-256-gb-srebrny-17180084645
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17180084645"])
+!Klawiatura: QWERTZ, podświetlana – wygodne pisanie nawet w słabo oświetlonych miejscach
+!https://allegro.pl/oferta/dell-latitude-5511-i7-10850h-32gb-512gb-qwertz-win11-15-6-17099417426
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17099417426"])
+!❗Ofertą sprzedaży jest samo urządzenie! Bez ładowarki / zasilacza, kabla oraz innych akcesoriów.❗
+!https://allegro.pl/oferta/laptop-hp-zbook-firefly-15-g7-15-6-intel-core-i7-64-gb-512-gb-it72-17173671637
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17173671637"])
+!https://allegro.pl/oferta/stacja-robocza-dell-precision-7540-i7-9750h-32-512ssd-15-6-fhd-mat-w10p-17164269193
+!Układ klawiatury: QWERTY PL (spolszczona na klawiszach numerycznych naklejkami korekcyjnymi)
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17164269193"])
+!❗Ofertą sprzedaży jest samo urządzenie! Bez ładowarki / zasilacza, kabla oraz innych akcesoriów.❗
+!https://allegro.pl/oferta/laptop-hp-zbook-firefly-15-g7-15-6-intel-core-i7-64-gb-512-gb-16919602854
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="16919602854"])
+!Klawiatura: Qwerty US- po zastosowaniu nalepek korekcyjnych.
+!https://allegro.pl/oferta/laptop-dell-latitude-5511-i7-10850h-16gb-512ssd-geforce-mx150-15-6-fhd-17247826760
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17247826760"])
+!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+!bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"])
+!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+!bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"])
+!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+!bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"])
+
+
+
+
+olx.pl##div.listing-grid-container div[id][data-cy="l-card"]:has(h4:has-text(/Precision/i):has-text(/(3510|5510|5520|7510|7520|aaaaaaaaaa)/i))
+olx.pl##div.listing-grid-container div[id][data-cy="l-card"]:has(h4:has-text(/(HP|HO)/i):has-text(/Zbook/i):has-text(/(G1|G2|G3|G4|aaaaaaaaaa)/i))
+olx.pl##div.listing-grid-container div[id][data-cy="l-card"]:has(h4:has-text(/(HP|HO)/i):has-text(/Probook/i):has-text(/(G2|G3|aaaaaaaaaa)/i))
+
+
+||i.imgur.com/JqgVon6.png$domain=strimsy.top
+strimsy.top##a[href*="://redirspinner.com/"]
+||i.imgur.com/3ZBLAk4.jpeg$domain=strimsy.top
+strimsy.top##a[href*="lemon.partners/Redirect.aspx?"]
+||i.imgur.com/E6l7Icy.jpeg$domain=strimsy.top
+strimsy.top##a[href*="bison.partners/Redirect.aspx?"]
+
+visionexpress.pl##+js(aopw, document.title)
+
+||gazeta.tv^
+
+@@||forum.release-apk.com/assets/cookieconsent/cookieconsent
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/200093
+@@||home.9sblog.com^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=home.9sblog.com
+9sblog.com##+js(no-fetch-if, googlesyndication.com)
+9sblog.com##+js(no-xhr-if, googlesyndication.com)
+
+![pl]   Polskie Filtry Elementów Irytujących
+!pl##.newsletter_box
+wyborcza.pl#@#.newsletter_box
+
+
+
+||linegee.net^$stylesheet,badfilter
+||linegee.net^$script,badfilter
+||linegee.net^$font,badfilter
+||linegee.net^$image,badfilter
+
+
+
+linegee.net##:is(#landing, .soractrl):others()
+linegee.net##+js(aeld, , focus)
+
+@@||teknoasian.com^$generichide
+!teknoasian.com##center.humanVerify, center.Skipper, button.myButton.postnext, button.myButton.verify:others()
+teknoasian.com##center.humanVerify, center.Skipper, button.myButton, form#xxc:others()
+teknoasian.com#@#:is(#landing, .soractrl):others()
+||pahe.plus/download.png
+
+teknoasian.com##:is(#landing, .soractrl):others()
+teknoasian.com##+js(aeld, , focus)
+
+
+teknoasian.com##+js(nowoif)
+!https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/issues/246
+
+!AdGuard – Cookie Notices
+!##.cookie-content
+maxburgers.com#@#.cookie-content
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,crewbase.net,batmanfactor.com#%#//scriptlet('remove-attr', 'disabled', 'button')
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,crewbase.net,batmanfactor.com#$#.text-center > div[id][style^="display:"] { display: block !important; }
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,crewbase.net,batmanfactor.com#$#form[id][style^="display:"] { display: block !important; }
+
+dizok.com,9sblog.com,ubnem.com,tirumalatirupatiyatra.in,shineads.org,azoranov.com,jenismac.com,nsw2u.*,unofficialtwrp.com,downloadlyir.com,pinsystem.co.uk,173.249.8.3,rttar.com,torrentmac.net$$script[wildcard="*split*eval(function(h,u,n,t,e,r)*"][min-length="20000"][max-length="210000"]
+
+
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ubnem.com|dizok.com
+
+
+@@||dizok.com^$generichide
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "/== ?'IFRAME'/", "== 'BODY'")
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "!document.hasFocus()", "document.hasFocus()")
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "/document\.hasFocus\(\)===?false/", "document.hasFocus()")
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet('set-constant', 'document.hasFocus', 'trueFunc')
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "getRandomSite", "window.location.href = randomSite;", "")
+
+!dizok.com,adxcel.io#%#(()=>{window.detectIncognito=()=>new Promise((e=>e({isPrivate:!0})));})();
+
+dizok.com,adxcel.io#%#//scriptlet('prevent-element-src-loading', 'script', '/detectIncognito.min.js')
+dizok.com,adxcel.io#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{document.currentScript.remove();window.detectIncognito=()=>new Promise((e=>e({isPrivate:!0})));})();')
+
+multiup.io##tr.file.ui-selectee div.truncate:style(overflow-x: unset !important;)
+
+||pobierz.biz^$document,badfilter
+||pobierz.biz^$badfilter
+
+wp.pl##div.wp-content-text-raw:has(em) + div.wp-content-text-raw:has(h2.wp-content-title) + div.wp-content-part-video:xpath(self::node() | self::node()/preceding-sibling::*[1] | self::node()/preceding-sibling::*[2])
+wp.pl##div.wp-content-part-teaser
+
+blix.pl#@#div.navbar__outer > div.navbar.with-margin:style(margin-top: unset !important;)
+
+
+
+hiatcy.com##+js(acs, onload, handleFailure)
+hiatcy.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
+hiatcy.com##+js(rpnt, script, !document.hasFocus(), true)
+hiatcy.com##+js(rpnt, script, document.hasFocus() == false, true)
+hiatcy.com##+js(set, document.hasFocus, trueFunc)
+hiatcy.com##+js(rmnt, script, getStoredTabSwitchTime)
+hiatcy.com###click, #redirect-link, [class^="btn-"], #captcha-container, #switchCaptcha, [src*="/recaptcha/"]:others()
+
+rlsbb.to##article#post-10082
+polsatsport.pl##.ad__holder
+polsatsport.pl##div.header__main + DIV.header__sub:xpath(self::node()/preceding-sibling::div[1]):style(margin-top: unset !important;)
+
+
+ddlbase.com##+js(addEventListener-defuser, click, handleLinkClick)
+
+strimsy.top##+js(addEventListener-defuser)
+strimsy.top##+js(ra, oncontextmenu, body, stay)
+
+!strumyczek.top##+js(aopr, console.log)
+!strumyczek.top##^script:has-text(/ConsoleBan|alert|AdBlocker/)
+!strumyczek.top##+js(acs, ConsoleBan)
+!strumyczek.top##+js(aopw, ConsoleBan)
+!strumyczek.top##+js(set, ConsoleBan.init, noopFunc)
+!strumyczek.top##+js(set, ConsoleBan.init, noopFunc)
+strumyczek.top##^script:has-text(/ConsoleBan|alert|AdBlocker/)
+strumyczek.top##+js(acs, ConsoleBan)
+
+gowork.pl##.g-subscribe-to-job-offers
+
+chomikuj.pl##+js(remove-attr, style, .fileActionsButtons, stay)
+chomikuj.pl##.fileActionsButtons:style(visibility: visible !important;)
+
+||api.sweet.tv/TvService/SetWatchInfo.json
+
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/HP/i):has-text(/ProBook/i):has-text(/(465|aaaaaaaaaaa)/i):has-text(/(G11|aaaaaaaaaaa)/i))
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/HP/i):has-text(/ProBook/i):has-text(/(460|aaaaaaaaaaa)/i):has-text(/(G11|aaaaaaaaaaa)/i))
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/ThinkBook/i):has-text(/16/i):has-text(/(G7|aaaaaaaaaaa)/i))
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/ThinkBook/i):has-text(/16/i):has-text(/(Gen 8|aaaaaaaaaaa)/i))
+
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/Tbook 16/i))
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/Asus/i):has-text(/ExpertBook/i):has-text(/(B15|i5-1335U)/i))
+
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/Asus/i):has-text(/ExpertBook/i):has-text(/(BM1|aaaaaaaaaaa)/i))
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/Asus/i):has-text(/(BM1503CDA|aaaaaaaaaaa)/i))
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/Lenovo/i):has-text(/(IdeaPad Slim 3|15AIAH8)/i))
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2:has-text(/HP/i):has-text(/(Pavilion)/i):has-text(/(ag0019nw)/i))
+
+
+
+!https://allegro.pl/oferta/laptop-dla-nauczyciela-lenovo-thinkbook-16-g7-16-ryzen-5-16gb-ssd512gb-w11-17350113012
+!allegro.pl##div[data-box-name="caro"]
+
+!Co powiesz na...? 
+!https://allegro.pl/oferta/laptop-dla-nauczyciela-lenovo-thinkbook-16-g7-16-ryzen-5-16gb-ssd512gb-w11-17350113012
+allegro.pl##div[data-box-name="infinite-feed.wrapper"]
+
+!Podobne oferty
+!https://allegro.pl/oferta/laptop-dla-nauczyciela-lenovo-thinkbook-16-g7-16-ryzen-5-16gb-ssd512gb-w11-17350113012
+allegro.pl##div[data-box-name="caro"]
+
+!kUP RAZEM
+!https://allegro.pl/oferta/asus-expertbook-b1503cva-s71619x-i5-1335u-15-6-16gb-512gb-win11pro-17500036770
+!allegro.pl##div[data-box-name="Product container card"] ~ div[data-box-name="layout.container"]:has(h2:has-text(Kup razem))
+!allegro.pl##div[data-box-name="Product container card"] ~ div[data-box-name="layout.container"]:has(div[data-box-name="Container Bundle - variant"])
+allegro.pl##div[data-box-name="Container Bundle - variant"]
+
+
+!Podobne oferty
+allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22allegro.ads.tiles.showoffer.carousel.top%22%5D"]:has(h2:has-text(Podobne oferty))
+
+!Propozycje dla Ciebie
+allegro.pl##div[data-box-name="Container Parameters"] ~ div div.opbox-sheet-wrapper:has(h2:has-text(Propozycje dla Ciebie))
+
+
+!Inni klienci oglądali również
+allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22allegro.oferta.reco.bottom%20experiment%22%5D"]:has(h2:has-text(Inni klienci oglądali również))
+
+
+!bosejk.in##+js(nano-sib, , , 0.02)
+!bosejk.in##+js(nano-stb, , , 0.02)
+bosejk.in##div#txt2, div#rtg-generate, h4#txt3, div#robot, button#robot, div#rtg-btn, div#rtg-snp2, #div-gpt-ad-3061307416813-0, .textads, .adsbygoogle:others()
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12496867
+bosejk.in##+js(acs, detectDevTools)
+bosejk.in##+js(aeld, contextmenu)
+bosejk.in##+js(aeld, keydown, keyCode)
+!contextmenu
+!keydown
+
+
+bosejk.in##+js(nosiif)
+bosejk.in##+js(nostif)
+bosejk.in##+js(aeld)
+
+!@@||mrfreemium.blogspot.com^$ghide
+vahanjagat.in##h5[style="color:red;"], center > p[style], form[name="tp"], h4#tp-text, div.captcha-check, a#btn6:others()
+
+bestsimilar.com##div.block-ins-gad
+bestsimilar.com##.column-content > .row > .col-lg-7.col-md-7.col-sm-7.col-xs-12
+
+zegtrends.com#@#:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap, #fin):others()
+
+vahanjagat.in##h5[style="color:red;"], center > p[style], form[name="tp"], h4#tp-text, div.captcha-check, a#btn6:others()
+
+
+biharkhabar.co,marketrook.com##div#stick, div#ce-wait1, h4#ce-text, button#btn6, a#btn7, div#loading-container:others()
+marketrook.com##div#tp-wait1, button#tp-snp2:others()
+
+
+insurancemyst.com##a#startButton, div#newtimer, div#message, button#getnewlink:others()
+
+!▼ Click ad & keep it open for 10 seconds to continue ▼
+!Scroll down & Click on Get Link button for your Next step
+!Your link is almost ready.
+!Click on the Timer if it Stops
+||jobzhub.store/dwn-1.png
+||jobzhub.store/dwn-2.jpg
+||jobzhub.store/dwn-3.png
+||jobzhub.store/dwn-4.png
+||i.gyazo.com/c63a3a1bcf6d3c6101f33ea2294afff6.png
+
+
+!jobzhub.store###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="www.recaptcha.net/recaptcha"]:others()
+!jobzhub.store##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
+!jobzhub.store##+js(nano-sib, tid, *, 0.02)
+!jobzhub.store##+js(trusted-set-cookie, ad_expire=true;, $now$)
+!jobzhub.store##+js(rmnt, script, window.adblockDetector)
+!jobzhub.store##+js(rmnt, script, DName)
+
+/nt.js$domain=fc-lc.*
+fc-lc.*###iframe_id, .text-left:style(clip-path: circle(0) !important;)
+jobzhub.store###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
+jobzhub.store##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
+jobzhub.store##+js(nano-sib, tid, *, 0.02)
+jobzhub.store##+js(trusted-set-cookie, ad_expire=true;, $now$)
+jobzhub.store##+js(rmnt, script, window.adblockDetector)
+jobzhub.store##+js(rmnt, script, DName)
+jobzhub.store##+js(aeld, blur, stopCountdown)
+
+
+
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(span > span:has-text(Promowane) + button):style(border: dotted !important;)
+
+
+!https://github.com/AdguardTeam/AdguardFilters/commit/1fc01b859d623b07b5ffadf0560963326fea9d58
+!https://github.com/AdguardTeam/AdguardFilters/issues/208169
+biharoff.in,naukariads.com,catcare.store,sumsungpro.online,odiafm.com,codefyers.in,hypicmodapk.co.in##div#myTimerDiv, button#VerifyBtn, div#myNextInst, div#GoNewxtDiv, a#NextBtn, p#NextInfo, div#myWaitingDiv, img#SmileyBanner:others()
+biharoff.in,naukariads.com,catcare.store,sumsungpro.online,odiafm.com,codefyers.in,hypicmodapk.co.in##div#myTimerDiv, button#VerifyBtn, div#myNextInst, div#GoNewxtDiv, a#NextBtn, p#NextInfo, div#myWaitingDiv, img#SmileyBanner:style(display: block !important;)
+#mhfragristack.in#$##myNextInst { display: block !important; }
+#mhfragristack.in#$?##VerifyBtn { display: block !important; }
+biharoff.in,naukariads.com,catcare.store,sumsungpro.online,odiafm.com,codefyers.in,hypicmodapk.co.in#%#//scriptlet('set-constant', 'document.hidden', 'false')
+
+
+profitwalla.com#@#.adblock-message
+!@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect-rule=googlesyndication.com/adsbygoogle.js,domain=profitwalla.com
+!@@||pagead2.googlesyndication.com^$xhr,redirect-rule=noop.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=profitwalla.com
+
+psref.lenovo.com##html:style(overflow-x: unset !important;)
+
+!allegro.pl##div[data-box-name="allegro.ads.dss.flexibleBanner"]
+
+alternativeto.net##.min-h-ad-50
+
+!quiz.subhadralist.org.in
+!Przekierowuje do https://linkcents.com/z8kf0nbg?verify=Nq8XsSrxroHpvSunCtPIbQIMj7lLKpzqIADf2murNQvPSAaCPor21LdFEYhJZ3x5JxMl3JkFJYz&iv=ubhsCsOPor21LdfwJNECiemJqXfwMl32Ml32&salt=96e2828e30ef8249cef81610b339af02&iterations=1000
+!https://github.com/uBlockOrigin/uAssets/issues/28531
+!https://github.com/SUNDONEcindy/uAssets/commit/17980cd849930932bd38901adb08066a6063c7cb
+!Ad Blocker Detected
+!We noticed you're using an ad blocker. To support our content and continue using this site, please disable your ad blocker.
+![ru]  ru  [ua]  ua  [uz]  uz  [kz]  kz: RU AdList
+!##.adblock-message
+!updateroj24.com
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12926872
+
+!@@||quiz.subhadralist.org.in^$ghide
+quiz.subhadralist.org.in#@#.adblock-message
+!quiz.subhadralist.org.in##+js(no-fetch-if, adsbygoogle)
+!quiz.subhadralist.org.in##+js(no-xhr-if, adsbygoogle.js)
+!@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=quiz.subhadralist.org.in
+!@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,xhr,domain=quiz.subhadralist.org.in
+!quiz.subhadralist.org.in##.ad-container
+!@@||justbaat.org^$3p
+!quiz.subhadralist.org.in##header, .age-options, .quiz-feedback, .header, #question, #options, #results, #next-page-btn:others()
+
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12926872
+quiz.subhadralist.org.in##+js(no-fetch-if, googlesyndication)
+quiz.subhadralist.org.in##+js(nano-stb, /.?/, *)
+quiz.subhadralist.org.in##.progress-button:remove-attr(disabled)
+quiz.subhadralist.org.in##.intro-box:not(:has(.reward-link))
+quiz.subhadralist.org.in##footer
+quiz.subhadralist.org.in##.ad-container
+quiz.subhadralist.org.in##.age-container > h2
+
+
+!quiz.subhadralist.org.in##+js(nano-sib, , , 0.02)
+!quiz.subhadralist.org.in##+js(nano-stb, , , 0.02)
+
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12604516
+vipvce.xyz###checkclick, [src*="newassets.hcaptcha.com/captcha/"]:others()
+vipvce.xyz##.h-captcha:remove-class(is-hidden)
+vipvce.xyz##+js(set, document.hasFocus, trueFunc)
+vipvce.xyz##+js(set, assDidCkeDone, true)
+vipvce.xyz##+js(set, verifiedCheckDone, true)
+vipvce.xyz##+js(rpnt, script, = 35, = 21)
+vipvce.xyz##+js(rpnt, script, /= 15|= 20|= 18|= 16/, = 8)
+vipvce.xyz##+js(rmnt, script, alreadyLoaded88j)
+@@||googleads.g.doubleclick.net/pagead/interaction/$xhr,domain=vipvce.xyz
+
+
+!https://www.lidl.pl/p/crivit-sportowe-szorty-meskie-szybkoschnace-i-odprowadzajace-wilgoc/p100389198004
+!https://www.lidl.pl/p/crivit-szorty-funkcyjne-meskie-ze-spodenkami-wewnetrznymi/p100387903004
+!https://www.lidl.pl/p/crivit-szorty-funkcyjne-meskie/p100386118004
+lidl.pl##div[id^="product_"]:has(a.odsc-tile__link[href*="/p100389198004"])
+lidl.pl##div[id^="product_"]:has(a.odsc-tile__link[href*="/p100387903004"])
+lidl.pl##div[id^="product_"]:has(a.odsc-tile__link[href*="/p100386118004"])
+
+
+!https://api.gplinks.com/track/js/main.js?v=222
+!adsbox ad-unit banner_ads ad-banner text-ads ad-space
+@@||procinehub.com^$ghide
 
 
 
