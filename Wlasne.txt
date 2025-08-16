@@ -209,12 +209,6 @@ efizyka.net.pl##.entry > div:nth-of-type(1)
 efizyka.net.pl##script:inject^script:has-text(window.google_jobrunner)
 
 
-!Odświeżanie karty po przełączeniu i upływie 5 minut
-!uBO: setTimeout("function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)}", 300000)
-!uBO: addEventListener("focus", function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)})
-!filmweb.pl##+js(nano-stb, focus, 300000, 0.02)
-filmweb.pl##+js(nostif, focus, 300000)
-
 
 
 filmy.to##DIV#cookie-bar
@@ -3452,7 +3446,7 @@ allegro.pl##div[data-box-name="carousels.base"]
 
 
 donald.pl##.staticpubads89354
-!
+
 
 
 !EasyPrivacy 
@@ -3465,112 +3459,6 @@ donald.pl##.staticpubads89354
 ! 2024-04-03 https://chomikuj.pl
 ||x4.static-chomikuj.pl/res/ca299c2453.png$image
 
-
-!filmweb.pl#@##mainSkyBanner-pl_PL
-!filmweb.pl#@##didomi-host,div[class*="didomi-consent-popup__"],#didomiBlockNavigation
-!filmweb.pl#@#DIV#flashcontent3
-
-!@@/v1/ads/*$domain=filmweb.pl
-!@@/matomo.js$domain=filmweb.pl
-!@@/matomo.php$domain=filmweb.pl
-!@@||pushpushgo.com^$domain=filmweb.pl
-!@@||gemius.pl^$domain=filmweb.pl
-!@@||fwcdn.pl/*/welcomemain.js$domain=filmweb.pl
-!@@||sascdn.com/diff/$script,domain=filmweb.pl
-!filmweb.pl#@#.ad-internal
-!filmweb.pl#@#+js(abort-on-property-read, webPushPublicKey)
-!filmweb.pl#@##didomi-host,div[class*="didomi-consent-popup__"],#didomiBlockNavigation
-!filmweb.pl#@##pushpushgo-container
-!filmweb.pl#@#[id^="div-gpt-ad"]
-!filmweb.pl#@#div[id^="div-gpt-"]
-!filmweb.pl#@#+js(set-constant, consentManagerIsOn, false)
-!filmweb.pl#@#+js(set-constant, rodo.checkIsDidomiConsent, noopFunc)
-!filmweb.pl#@#+js(set-constant, rodo.validateStoragePurpose, noopPromiseResolve)
-!filmweb.pl#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-!filmweb.pl#@#[id^="google_ads_iframe"]
-!filmweb.pl#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-!filmweb.pl#@#div[data-google-query-id]
-!filmweb.pl#@#.rec-sponsored
-!@@*$document,permissions=autoplay=()
-!filmweb.pl#@#+js(no-setTimeout-if, focus, 300000)
-
-!filmweb.pl##+js(aeld, { "log": 3 })
-!filmweb.pl##+js(aeld, { "log": 1 })
-!filmweb.pl##+js(aeld, , , log, 3)
-!filmweb.pl##^script:has-text(plusAdblock):has-text(/[\w\W]{4000,10000}/)
-!filmweb.pl#@#^script:has-text(plusAdblock):has-text(/[\w\W]{4000,10000}/)
-
-
-
-
-!||fwcdn.pl/front/assets/AdvertButton-ad9d3885.css
-
-!||fwcdn.pl/front/assets/AdvertButton-d863a176.js
-
-!||fwcdn.pl/front/assets/InitSectionsModule-41fb4353.js
-!@@||fwcdn.pl/front/assets/InitSectionsModule-41fb4353.js
-
-!||fwcdn.pl/front/assets/InfiniteContentModule-f6ccb632.js
-!@@||fwcdn.pl/front/assets/InfiniteContentModule-f6ccb632.js
-!||filmweb.pl/sw.js
-!filmweb.pl##+js(aeld, scroll)
-
-
-!setInterval("function(){clearInterval(c);null!==a.offsetParent&&0!==a.offsetHeight&&0!==a.offsetLeft&&0!==a.offsetTop&&0!==a.offsetWidth&&0!==a.clientHeight&&0!==a.clientWidth?d():e();a.parentNode.removeChild(a)}", 100)
-
-!filmweb.pl##+js(set, sats, true)
-
-
-!filmweb.pl##+js(nostif, sats)
-!100
-
-
-
-!EasyPrivacy @@||sascdn.com/tag/$script,from=filmweb.pl
-!@@||sascdn.com/tag/$script,from=filmweb.pl
-!EasyList @@||smartadserver.com/genericpost$from=filmweb.pl
-!@@||smartadserver.com/genericpost$from=filmweb.pl,badfilter
-
- 
-
-
-!naprawa odtwarzacza trailerów
-!@@||imasdk.googleapis.com/js/core/bridge*.html$domain=filmweb.pl
-
-!AutoRefreshModule filmweb
-!||fwcdn.pl/front/assets/G79VdVmG.js
-
-!@@||filmweb.pl/api/v1/ads/targeted
-!@@||filmweb.pl/sw.js
-!@@||oo.filmweb.pl/matomo.js
-filmweb.pl##.page__section.quizSectionPlaceholder
-
-
-!anty_adblock
-!filmweb.pl##+js(nosiif, a.parentNode.removeChild(a), 100)
-!chyba autorelaod
-!setTimeout("()=>{document.hasFocus()?setTimeout(()=>{window.location=window.location.toString().split("#")[0]},200):window.addEventListener("focus",t)}", 90000)
-!filmweb.pl##+js(nostif, window.location=window.location.toString().split("#")[0], 90000)
-
-
-
-!filmweb.pl##+js(aeld, _, , log, 3)
-!filmweb.pl##+js(aeld, window, , log, 1)
-!filmweb.pl##+js(aeld, { "type": "/.^/", "log": 2 })
-!filmweb.pl##+js(aost, window, , log, 1)
-!filmweb.pl##+js(evaldata-prune)
-filmweb.pl##+js(nano-sib, , , 0.02)
-filmweb.pl##+js(nano-stb, , , 0.02)
-!filmweb.pl##+js(no-fetch-if)
-!filmweb.pl##+js(norafif)
-filmweb.pl##+js(nosiif)
-filmweb.pl##+js(nostif)
-!filmweb.pl##+js(aeld, _, , log, 3)
-!filmweb.pl##+js(aeld, { "type": "/.^/", "log": 2 })
-filmweb.pl##+js(aeld)
-filmweb.pl##+js(aeld, focus, window.location)
-
-filmweb.pl##+js(nostif, window.location=window.location.toString().split("#"))
 
 skyscrapercity.com##form.block.js-quickReply
 skyscrapercity.com##section#thread-recommended-reading
@@ -4324,3 +4212,24 @@ blix.pl##section#faq
 
 
 
+
+
+
+
+!Odświeżanie karty po przełączeniu i upływie 5 minut
+!uBO: setTimeout("function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)}", 300000)
+!uBO: addEventListener("focus", function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)})
+filmweb.pl##+js(nostif, focus, 300000)
+filmweb.pl##+js(aeld, focus, window.location)
+
+filmweb.pl##+js(nostif, window.location=window.location.toString().split("#"))
+filmweb.pl##footer div.appDownload__wrapper
+filmweb.pl##.page__section.quizSectionPlaceholder
+
+!EasyList
+!/ads/targeted|
+@@/ads/targeted|$domain=filmweb.pl
+
+!pl: Oficjalne Polskie Filtry do uBlocka Origin 
+!.pl/*/ads/$from=~m.olx.pl|~niezalezna.pl|~tubagliwic.pl
+@@.pl/*/ads/$from=filmweb.pl
