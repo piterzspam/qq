@@ -4176,6 +4176,114 @@ fora.pl##tbody[id^="optS-"]
 !opensubtitles.org##:xpath('//div')
 ![not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
 
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="abk"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="afr"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="alb"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="amh"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ara"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="arg"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="arm"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="asm"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ast"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="azb"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="aze"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="baq"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="bel"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ben"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="bos"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="bre"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="bul"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="bur"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="cat"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="chi"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="chv"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="cze"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="dan"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="dut"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ell"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="epo"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="est"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ext"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="fin"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="fre"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="geo"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ger"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="gla"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="gle"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="glg"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="heb"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="hin"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="hrv"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="hun"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ibo"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ice"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ina"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ind"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ita"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="jpn"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="kan"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="kaz"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="khm"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="kir"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="kor"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="kur"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="lav"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="lit"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ltz"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="mac"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="mal"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="mar"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="may"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="mne"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="mni"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="mon"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="nav"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="nep"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="nor"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="oci"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ori"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="per"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="pob"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="pom"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="por"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="prs"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="pus"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="rum"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="rus"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="sat"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="scc"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="sin"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="slo"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="slv"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="sme"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="snd"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="som"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="spa"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="spl"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="spn"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="swa"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="swe"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="syr"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tam"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tat"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tel"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tet"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tgl"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tha"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tok"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tuk"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="tur"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="ukr"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="urd"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="uzb"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="vie"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="wel"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="wen"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="zhc"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="zhe"]:not([aria-selected="true"]):upward(li)
+opensubtitles.org##ul.ui-multiselect-checkboxes input[value="zht"]:not([aria-selected="true"]):upward(li)
+
+
 opensubtitles.org##div.msg[itemtype] div[style="margin-bottom:5px;margin-left:8px;"] a[title="Watch online "]
 opensubtitles.org##div#checkbox1 + div > p:has(a.bt-dwl) + a#bt-dwl-bt
 
@@ -4966,6 +5074,8 @@ gowork.pl##.g-subscribe-to-job-offers
 
 chomikuj.pl##+js(remove-attr, style, .fileActionsButtons, stay)
 chomikuj.pl##.fileActionsButtons:style(visibility: visible !important;)
+chomikuj.pl##input[name="selectFileItem"]:style(width: 200px; height: 200px !important)
+
 
 ||api.sweet.tv/TvService/SetWatchInfo.json
 
@@ -5073,15 +5183,25 @@ insurancemyst.com##a#startButton, div#newtimer, div#message, button#getnewlink:o
 
 /nt.js$domain=fc-lc.*
 fc-lc.*###iframe_id, .text-left:style(clip-path: circle(0) !important;)
-jobzhub.store###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
+!jobzhub.store###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
 jobzhub.store##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
 jobzhub.store##+js(nano-sib, tid, *, 0.02)
 jobzhub.store##+js(trusted-set-cookie, ad_expire=true;, $now$)
 jobzhub.store##+js(rmnt, script, window.adblockDetector)
-jobzhub.store##+js(rmnt, script, DName)
 jobzhub.store##+js(aeld, blur, stopCountdown)
+!Ten filtr powoduje pustą stronę
+!jobzhub.store##+js(rmnt, script, DName)
+jobzhub.store###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"], p#linkrdy, p#ctext1, p#ctext, div[style="margin: 10px 0 10px 0;position: relative;"]:has(div#captcha-container):others()
 
 
+!uBlock filters – Link shorteners
+!uBlock filters – Ads
+jobzhub.store#@##step, #next, #scroll, #glink, #countdown, #surl, #ctext, .btn-danger.btn:others()
+
+
+||i.imgur.com/ay1Z3x2.png
+
+fc.lc##iframe#iframe_id
 
 allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(span > span:has-text(Promowane) + button):style(border: dotted !important;)
 
@@ -5105,6 +5225,8 @@ psref.lenovo.com##html:style(overflow-x: unset !important;)
 !allegro.pl##div[data-box-name="allegro.ads.dss.flexibleBanner"]
 
 alternativeto.net##.min-h-ad-50
+alternativeto.net##section#alternative-list h2#alternatives-heading ~ ol > li[id] + li:has(div[class*="AdsenseAd_"])
+
 
 !quiz.subhadralist.org.in
 !Przekierowuje do https://linkcents.com/z8kf0nbg?verify=Nq8XsSrxroHpvSunCtPIbQIMj7lLKpzqIADf2murNQvPSAaCPor21LdFEYhJZ3x5JxMl3JkFJYz&iv=ubhsCsOPor21LdfwJNECiemJqXfwMl32Ml32&salt=96e2828e30ef8249cef81610b339af02&iterations=1000
@@ -5179,6 +5301,10 @@ filmweb.pl##+js(nostif, window.location=window.location.toString().split("#"))
 filmweb.pl##footer div.appDownload__wrapper
 filmweb.pl##.page__section.quizSectionPlaceholder
 
+
+||fwcdn.pl/prt/a1/ferrero/092025/bueno/desktop/video/video.mp4
+||fwcdn.pl/prt/*/index.html?$frame
+
 !EasyList
 !/ads/targeted|
 @@/ads/targeted|$domain=filmweb.pl
@@ -5186,3 +5312,183 @@ filmweb.pl##.page__section.quizSectionPlaceholder
 !pl: Oficjalne Polskie Filtry do uBlocka Origin 
 !.pl/*/ads/$from=~m.olx.pl|~niezalezna.pl|~tubagliwic.pl
 @@.pl/*/ads/$from=filmweb.pl
+
+!AdGuard – Ads
+!https://github.com/AdguardTeam/AdguardFilters/issues/157455
+!https://github.com/AdguardTeam/AdguardFilters/issues/155134
+filmweb.pl#@#+js(set-constant, rodo.canProfileVisitor, noopPromiseReject)
+
+!AdGuard/uBO – Cookie Notices
+filmweb.pl#@#+js(set-constant, rodo.waitForConsent, noopPromiseResolve)
+||fwcdn.pl/front/assets/1boWjYRy_004.js
+filmweb.pl##.faInterstitialDesktop
+
+unblockedgames.world##span[style="color: #ff0000;"], div#timer, form#landing, span#verify_button, span#verify_button2, p#verify_text, a#two_steps_btn:others()
+
+
+digiztechno.com,shrtslug.biz,yrtourguide.com,technons.com,tournguide.com,stfly.biz,techetta.net,achivas.net,napmap.net,srtslug.biz##header, article div.gap-2.my-3, article div[id$="_area"], article div[id$="_final"], iframe[src^="https://www.google.com/recaptcha/api2/bframe?"]:others()
+
+cheaplann.com###startButton, #newtimer, #message, #getmylink, #getlink, #nextpage:others()
+
+
+rlsbb.ru,rlsbb.to##a[href^="http://protected.to/"]
+
+!https://www.scarbir.com/tws/baseus-bass-bp1-pro-review
+||static1.squarespace.com/static/5beb251ab40b9dd2724c2f46/t/6814a87d649ab73b16e6365d/1746184317428/300x250v12.gif
+
+
+shairs.co##+js(nano-sib)
+shairs.co##+js(nano-stb)
+shairs.co##div#ttrup:others()
+
+
+||v2links.org/v2links_theme/img/Download-here.webp
+v2links.org##a.link-details
+
+
+
+
+||blocky-app.com/get_script/
+
+gyqf.xyz,jobtkz.com###wpsafe-wait2, #wpsafe-link, #wpsafe-generate:style(display: block !important;)
+
+viralkhabarbull.com##+js(nano-sib)
+viralkhabarbull.com##+js(nano-stb)
+
+matopat.pl#@#span[class*="Cookie"]:not(.closeCookie, [class*="CookiebotDialog"])
+
+polskiobserwator.de##div.code-block:has(> ins.adsbygoogle + script)
+polskiobserwator.de###adv-Piede-sticky
+
+
+chomikuj.pl##div#ui-tooltip-editFolderWindow:style(width: unset !important; max-width: unset !important;)
+chomikuj.pl##div#ui-tooltip-editFolderWindow input#FolderName:style(width: 700px !important;)
+
+
+!https://strumyk.net/
+||fd-core-fd-prod-02-westeurope-erf4ejfugxdfczfh.z01.azurefd.net/22betpartners/202508111413_22bet.png
+strumyk.net##.zone
+
+
+newswrap.xyz,jankariweb.online,oreoauto.com###wpsafe-snp, #wpsafe-generate, #wpsafe-wait1, #wpsafe-wait2, .wpsafe-bottom, div#wpsafegenerate, form#wpsafelink-landing:style(display: block !important;)
+newswrap.xyz,jankariweb.online,oreoauto.com###wpsafe-snp, #wpsafe-generate, #wpsafe-wait1, #wpsafe-wait2, .wpsafe-bottom, div#wpsafegenerate, form#wpsafelink-landing:others()
+
+
+
+@@||jobernnews.com^$generichide
+@@*$ghide,domain=uvsjobz.in|oreopix.com|jobernnews.com|iqmastered.com|sankarmusic.in|qrixpe.com
+qrixpe.com,uvsjobz.in,oreopix.com,jobernnews.com,iqmastered.com,sankarmusic.in##div#myTimerDiv, button#VerifyBtn, div#myNextInst, div#GoNewxtDiv, a#NextBtn, p#NextInfo, div#myWaitingDiv, img#SmileyBanner:others()
+qrixpe.com,uvsjobz.in,oreopix.com,jobernnews.com,iqmastered.com,sankarmusic.in##div#myTimerDiv, button#VerifyBtn, div#myNextInst, div#GoNewxtDiv, a#NextBtn, p#NextInfo, div#myWaitingDiv, img#SmileyBanner:style(display: block !important;)
+qrixpe.com,uvsjobz.in,oreopix.com,jobernnews.com,iqmastered.com,sankarmusic.in#%#//scriptlet('set-constant', 'document.hidden', 'false')
+
+qrixpe.com,uvsjobz.in,oreopix.com,jobernnews.com,iqmastered.com,sankarmusic.in##div#primary:style(width: 100% !important;)
+
+bitwidgets.net##span#loadingDiv, span#scrollMessage, span#captchaMessage, span#clickMessage, span#rewardMessage:style(display: block !important;)
+
+
+!Fanboy's Annoyance List
+iqmastered.com#@##ast-scroll-top
+!AdGuard – Ads
+iqmastered.com#@#.ad-unit:not(.textads)
+!uBlock filters – Ads
+olamovies.*#@#*:style(filter: none !important; pointer-events: auto !important)
+
+
+
+
+olamovies.*##+js(aeld, contextmenu)
+olamovies.*##+js(aeld, keydown)
+
+!https://soft.cr3zyblog.com/?p=32
+cr3zyblog.com##+js(aeld)
+cr3zyblog.com##body:remove-attr(oncontextmenu)
+cr3zyblog.com##button#continue-button:remove-attr(disabled)
+
+cr3zyblog.com##center, div#loading-screen:others()
+cr3zyblog.com##button#continue-button:style(opacity: 1 !important;)
+
+
+!https://af.mobileflashtools.com/streamline-your-business-with-workflow-automation/
+mobileflashtools.com##+js(abort-current-script, chp_ads_blocker_detector)
+
+
+lalaloot.com,ravellawfirm.com##div.skip-mode-tutorial, div[style="margin:1.5rem 0;text-align:center;color:#555;font-size:1.1rem"], div#verify-button-container, div.inline-timer-server-positioned, section.related-articles, nav.post-navigation, div#positioned-timer, div[id^="timer-pos-"]:others()
+!ravellawfirm.com##.inline-timer-manager, div[id^="timer-pos-"]:style(display: block !important)
+lalaloot.com,ravellawfirm.com##div[id^="timer-pos-"], button#verify-button:style(display: block !important)
+lalaloot.com,ravellawfirm.com##+js(nano-sib)
+lalaloot.com,ravellawfirm.com##+js(nano-stb)
+lalaloot.com,ravellawfirm.com##+js(set, document.hidden,  true)
+@@||doubleclick.net^$domain=lalaloot.com|ravellawfirm.com
+@@||googlesyndication.com^$domain=lalaloot.com|ravellawfirm.com
+@@*$removeparam=correlator$domain=lalaloot.com|ravellawfirm.com
+@@*$removeparam=iu_parts$domain=lalaloot.com|ravellawfirm.com
+@@*$removeparam=biw$domain=lalaloot.com|ravellawfirm.com
+@@*$removeparam=bih$domain=lalaloot.com|ravellawfirm.com
+@@*$removeparam=prev_scp$domain=lalaloot.com|ravellawfirm.com
+@@*$ghdie,$domain=lalaloot.com|ravellawfirm.com
+@@||clarity.ms^$domain=lalaloot.com|ravellawfirm.com
+@@||googlesyndication.com^$removeparam
+@@||doubleclick.net^$popup,domain=lalaloot.com|ravellawfirm.com
+
+
+
+philips.pl##+js(aeld, click)
+philips.pl##.p-pc05v2__card--layout:style(cursor: unset !important;)
+
+
+filmweb.pl##ul > li[type="advert"]
+
+
+
+aliexpress.com##.j7_ae:style(display: block !important; overflow: unset !important)
+
+
+
+filmweb.pl##div.faDesktopSponsoring
+
+alternativeto.net##div[style="min-height:280px"]:empty
+
+teknoasian.com##div#main:style(width: unset !important; padding-right: unset !important; float: unset !important;)
+
+||zajefajna.com/pics/90fb419778d7c2053c9ec58f6183133e.png
+||zapodaj.net/images/9735197c88555.png
+
+||i125.fastpic.org/big/2025/0630/45/2dc2dd329373b520ff3c89ac2bdf5d45.png
+
+
+||robinbob.in/images/promo_blue.png
+||advg.agency^$from=rutracker.org
+
+||i125.fastpic.org/big/2025/0630/73/ff0f07d410e293bcd75740f22b143673.png
+||picimg.net/db08edfbad83f31fea95ce7ce97f52b8.gif
+
+||exsite24.org/stream4.png
+
+yjiur.xyz,gold-24.net,to-travel.net##+js(set, document.onkeydown, noopFunc)
+yjiur.xyz,gold-24.net,to-travel.net##+js(aeld, contextmenu, preventDefault)
+
+yjiur.xyz,gold-24.net,to-travel.net##+js(aopr, document.onkeydown)
+yjiur.xyz,gold-24.net,to-travel.net##+js(aopr, document.oncontextmenu)
+
+yjiur.xyz,gold-24.net,to-travel.net###primary:style(float: none !important; width: 100% !important;)
+yjiur.xyz,gold-24.net,to-travel.net##div#linkjust-timer:style(text-align: unset !important;)
+yjiur.xyz,gold-24.net,to-travel.net##+js(aeld)
+
+cuttlinks.com##div.option-card.premium-option
+
+||exsite24.org/streambase.png
+
+
+!
+www.reddit.com##:matches-path(/media?url=) shreddit-title + faceplate-tracker, post-bottom-bar:others()
+www.reddit.com/media?url=$csp=script-src 'none'; style-src 'unsafe-inline'; img-src i.redd.it;
+
+
+
+giphy.com/gifs/$csp=script-src 'none';
+giphy.com/gifs/$csp=font-src 'none';
+giphy.com/gifs/$csp=style-src 'unsafe-inline' https://giphy.com/_next/static/css/46cb03e1e2637085.css;
+giphy.com##div.mb-3.flex div[data-giphy-id] + div[style="width:500px"]:empty
+giphy.com##:matches-path(/gifs/) div.z-aboveHeader, div.mb-5 a[href*="/explore/"], div.giphy-gif:others()
+giphy.com##:matches-path(/gifs/) picture:has(source[type="image/webp"] + img.giphy-gif-img) source[type="image/webp"]:remove()
+giphy.com##^head link[rel="canonical"][href*="https://giphy.com/gifs/"]:upward(html) picture:has(source[type="image/webp"] + img.giphy-gif-img) source[type="image/webp"]
