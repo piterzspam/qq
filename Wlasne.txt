@@ -102,7 +102,7 @@ $websocket,important,domain=opensubtitles.org
 @@||deezer.com^$generichide
 @@||deezer.com^$generichide
 @@||digitalmaza.org/*AdblockDetector
-@@||dobreprogramy^$generichide
+@@||dobreprogramy.pl^$generichide
 @@||docer.pl^$generichide
 @@||doci.pl^$generichide
 @@||docplayer.pl^$generichide
@@ -799,7 +799,7 @@ m.facebook.com##._5rgr:style(user-select: unset !important)
 !https://c2c.edipresse.pl/location_data?url=https%3A%2F%2Fwizaz.pl%2Fkosmetyki%2Fprodukt%2C247136%2Cwilkinson-quattro-titanium-sensitive-maszynka-systemowa-dla-mezczyzn.html
 ||edipresse.pl^$domain=wizaz.pl
 ||rcontent.services.tvn.pl/gstream.js$domain=wizaz.pl
-||zaczytaj.pl^$domain=wizaz.plg
+||zaczytaj.pl^$domain=wizaz.pl
 ||facebook.com/*/plugins/comments.php$domain=wizaz.pl,important
 wizaz.pl##DIV[id^="ecomm-placement-ssr-wrapper-"]
 wizaz.pl##main > article > DIV.folding-content > DIV.video
@@ -2518,8 +2518,6 @@ go.gyanitheme.com##:is(.go.box-main):others()
 go.gyanitheme.com##.blog-item, #PopAd
 
 
-newstechapk##+js(nano-sib)
-newstechapk##+js(nano-stb)
 
 gammingbuddy.com##+js(nano-sib)
 gammingbuddy.com##+js(nano-stb)
@@ -3494,8 +3492,8 @@ tenforums.com###breadcrumb + div[data-fuse]
 ||oboom.io/img/oboom_banner.png$image
 
 
-#Se5reezoo7eith4o
-min-height: 265px;
+!#Se5reezoo7eith4o
+!min-height: 265px;
 elektroda.pl###Se5reezoo7eith4o:style(min-height: unset !important;)
 elektroda.pl##.topic-lists-wrap > ul > li.post > .topic-box + div:has(a.fancy-lnk)
 elektroda.pl##.the-discussion > .col-md-12:has(> .topic-lists-wrap > .adsbygoogle)
@@ -3617,7 +3615,7 @@ www.avast.com###cta-right
 
 
 @@/https?:\/\/edipresse\.hit\.gemius\.pl\/hitredir\?.*?\|PartnerUrl=(.*?)\|FeedSourceId=.*/$document,domain=edipresse.hit.gemius.pl
-HTTPS://www.officeshoes.pl/buty-skechers-sneakersy-go-run-fast-monogram/48312?size=40&utm_source=edipresse&utm_medium=cpc&utm_content=skechers-meskie-go-run-fast----monogram&utm_campaign=mo_11&utm_term=none
+!HTTPS://www.officeshoes.pl/buty-skechers-sneakersy-go-run-fast-monogram/48312?size=40&utm_source=edipresse&utm_medium=cpc&utm_content=skechers-meskie-go-run-fast----monogram&utm_campaign=mo_11&utm_term=none
 
 ||officeshoes.pl^$doc,first-party,removeparam=utm_source
 ||officeshoes.pl^$doc,first-party,removeparam=utm_medium
@@ -5481,13 +5479,13 @@ cuttlinks.com##div.option-card.premium-option
 
 !
 www.reddit.com##:matches-path(/media?url=) shreddit-title + faceplate-tracker, post-bottom-bar:others()
-www.reddit.com/media?url=$csp=script-src 'none'; style-src 'unsafe-inline'; img-src i.redd.it;
+||www.reddit.com/media?url=$csp=script-src 'none'; style-src 'unsafe-inline'; img-src i.redd.it;
 
 
 
-giphy.com/gifs/$csp=script-src 'none';
-giphy.com/gifs/$csp=font-src 'none';
-giphy.com/gifs/$csp=style-src 'unsafe-inline' https://giphy.com/_next/static/css/46cb03e1e2637085.css;
+||giphy.com/gifs/$csp=script-src 'none';
+||giphy.com/gifs/$csp=font-src 'none';
+||giphy.com/gifs/$csp=style-src 'unsafe-inline' https://giphy.com/_next/static/css/46cb03e1e2637085.css;
 giphy.com##div.mb-3.flex div[data-giphy-id] + div[style="width:500px"]:empty
 giphy.com##:matches-path(/gifs/) div.z-aboveHeader, div.mb-5 a[href*="/explore/"], div.giphy-gif:others()
 giphy.com##:matches-path(/gifs/) picture:has(source[type="image/webp"] + img.giphy-gif-img) source[type="image/webp"]:remove()

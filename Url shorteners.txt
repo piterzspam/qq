@@ -37,7 +37,7 @@ adyou.me##DIV.advert.benner-new
 ||tradeadexchange.com
 @@||AL.LY^$generichide
 @@/liveadexchanger\.com\/a\/display\.php\?r=[0-9]{7}$/$script,domain=al.ly
-@@http://al.ly/clickadu.com/apu.php?
+@@||al.ly/clickadu.com/apu.php?
 al.ly##A[href="https://al.ly/user/register?ref=1"]
 al.ly##DIV.ads
 al.ly##FORM#form-captcha > HR
