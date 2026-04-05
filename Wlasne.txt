@@ -73,7 +73,7 @@ listofthis.com##+js(nano-sib, , , 0.02)
 listofthis.com##+js(nano-stb, , , 0.02)
 !americanstylo.com##+js(nano-sib, , , 0.02)
 !americanstylo.com##+js(nano-stb, , , 0.02)
-beautifulfashionnailart.com##+js(aeld)
+!beautifulfashionnailart.com##+js(aeld)
 actualpost.com,americanstylo.com,glowandglamcorner.com##+js(set-constant, document.hasFocus, trueFunc)
 actualpost.com,americanstylo.com,glowandglamcorner.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
 !flyinc olamovies
@@ -115,7 +115,7 @@ dizok.com,adxcel.io#%#//scriptlet('trusted-create-element', 'head', 'script', ''
 1fichier.com##div.ui-dialog[aria-labelledby="ui-id-1"] + .ui-widget-overlay:xpath(self::node() | self::node()/preceding-sibling::*[1])
 
 1me.xyz##+js(aopw, adcashMacros)
-!!!!!!!!!!!!!!!
+!
 1me.xyz##+js(acis, decodeURIComponent, zfgloadedpopup)
 1me.xyz##+js(aopr, zfgloadedpopup)
 1me.xyz##+js(acis, Math, zfgloaded)
@@ -1021,7 +1021,7 @@ apkpure.com##DIV[style="margin: 0 auto 20px auto;position: relative;width:100%;o
 @@||assia2.com/css/jquery.min.js
 
 noahpinion.blog,astralcodexten.com,richardhanania.com##body:style(overflow-x: unset !important;)
-astralcodexten.com##+js(aeld)
+!astralcodexten.com##+js(aeld)
 
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(nosiif, __tcfapi)
 !Artykuły automatycznie doładowywane po przescrollowaniu w dół
@@ -1134,8 +1134,8 @@ newsweek.pl##.spinner::before
 !newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(aost, Object, log, 1)
 !newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(acis, Object, debug, 1)
 !newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(aost, Promise.then)
-newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(nosiif)
-newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(nostif)
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(nosiif)
+!newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(nostif)
 newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(aeld, _, , log, 3)
 !newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(set-constant, Object.prototype._forceAutoplay, undefined)
 !newsweek.pl,pulsembed.eu,imasdk.googleapis.com##+js(abort-current-inline-script, $, _forceAutoplay)
@@ -1321,9 +1321,9 @@ bosejk.in##+js(aeld, contextmenu)
 bosejk.in##+js(aeld, keydown, keyCode)
 !contextmenu
 !keydown
-bosejk.in##+js(nosiif)
-bosejk.in##+js(nostif)
-bosejk.in##+js(aeld)
+!bosejk.in##+js(nosiif)
+!bosejk.in##+js(nostif)
+!bosejk.in##+js(aeld)
 
 ||bpasyspro.com
 
@@ -1355,7 +1355,7 @@ busradar.pl##DIV.best-connections-container
 
 ||buzzadexchange.com
 
-!!!!!!!!!!!!!!!!!
+!
 !https://www.c-sharpcorner.com/UploadFile/mahesh/how-to-read-a-text-file-in-C-Sharp/
 c-sharpcorner.com###NewsArticleAdBox
 c-sharpcorner.com###bannerLargeAd
@@ -1604,8 +1604,8 @@ www.codeproject.com##.bottom-promo
 ||translate.google.com^$domain=coretechnologies.com
 
 !@@||connect.facebook.net^$3p,domain=~facebook.com|~fb.com
-cosmobox.org##+js(nosiif)
-cosmobox.org##+js(nostif)
+!cosmobox.org##+js(nosiif)
+!cosmobox.org##+js(nostif)
 !cosmobox.org##+js(nano-stb)
 !cosmobox.org##+js(set, remaining, 0)
 ||cosmobox.org/*clipBoard$script
@@ -1622,7 +1622,7 @@ cozadzien.pl##BODY > A.db.w-100.relative[href="https://www.radiorekord.pl/radom"
 ||cphjydduuh.com^
 
 !https://soft.cr3zyblog.com/?p=32
-cr3zyblog.com##+js(aeld)
+!cr3zyblog.com##+js(aeld)
 cr3zyblog.com##body:remove-attr(oncontextmenu)
 cr3zyblog.com##button#continue-button:remove-attr(disabled)
 cr3zyblog.com##center, div#loading-screen:others()
@@ -2429,7 +2429,7 @@ yjiur.xyz,gold-24.net,to-travel.net##+js(aopr, document.onkeydown)
 yjiur.xyz,gold-24.net,to-travel.net##+js(aopr, document.oncontextmenu)
 yjiur.xyz,gold-24.net,to-travel.net###primary:style(float: none !important; width: 100% !important;)
 yjiur.xyz,gold-24.net,to-travel.net##div#linkjust-timer:style(text-align: unset !important;)
-yjiur.xyz,gold-24.net,to-travel.net##+js(aeld)
+!yjiur.xyz,gold-24.net,to-travel.net##+js(aeld)
 
 @@||gomovies.to^$generichide
 gomovies.to##DIV.content-kuss
@@ -2470,7 +2470,7 @@ google.com#@##oFNiHe
 ||photos.google.com/_/PhotosUi/idv/
 !__Secure-1PSIDTS cookies_changes photos.google.com_Archive [24-05-06 00-28-50]
 ||peoplestackwebexperiments-pa.clients6.google.com^
-photos.google.com##+js(nostif)
+!photos.google.com##+js(nostif)
 !6harfli.com,askerlikforum.com.tr,dadinthemaking.com##+js(nano-sib, , , 0.02)
 !6harfli.com,askerlikforum.com.tr,dadinthemaking.com##+js(nano-stb, , , 0.02)
 www.google.com,recaptcha.net#@#.rc-imageselect-tile:style(transition-duration: 0.1s !important;)
@@ -2478,7 +2478,7 @@ www.google.com,recaptcha.net#@#.rc-imageselect-dynamic-selected:style(transition
 www.google.com,recaptcha.net#@#.rc-imageselect-progress:style(transition-duration: 0.1s !important;)
 www.google.com,recaptcha.net#@#.rc-image-tile-overlay:style(transition-duration: 0.1s !important;)
 www.google.com,recaptcha.net#@#+js(nano-stb, , 4000, 0.02)
-google.com##+js(aeld)
+!google.com##+js(aeld)
 !google.com##+js(acs, document.oncontextmenu)
 google.com##+js(aeld, contextmenu)
 
@@ -2524,7 +2524,7 @@ www.gumtree.pl##.topAdsContainer
 gumtree.pl##DIV.thumbs > DIV.wrap:style(width: -moz-max-content !important)
 gumtree.pl##+js(ra, href, DIV.reply_controls > A.button.telephone)
 
-!!!!!!!!
+!
 !https://www.guru99.com/c-sharp-file-operations.html
 !https://www.guru99.com/Customization/sticky/sticky_ads.js
 ||guru99.com/*sticky_ads.js
@@ -2587,7 +2587,7 @@ hexupload.net#@#+js(abort-on-property-write, _pop)
 /disable_developer.js$domain=hexload.com|hexupload.net
 hexload.com,hexupload.net##+js(aopr, DisableDevtool)
 !hexload.com##+js(aeld, _, , log, 3)
-hexload.com##+js(aeld)
+!hexload.com##+js(aeld)
 !contextmenu
 hexload.com##+js(aeld, contextmenu)
 hexload.com##+js(acs, document.onkeydown)
@@ -3024,7 +3024,7 @@ lifewire.com##html:style(overflow-y: visible !important;)
 ||linegee.net^$image,badfilter
 linegee.net##:is(#landing, .soractrl):others()
 linegee.net##+js(aeld, , focus)
-linegee.net##+js(aeld)
+!linegee.net##+js(aeld)
 ||linegee.net^$stylesheet,badfilter
 ||linegee.net^$script,badfilter
 ||linegee.net^$font,badfilter
@@ -3479,7 +3479,7 @@ opensubtitles.org##body#subtitles_body div[itemtype="http://schema.org/Movie"] h
 !opensubtitles.org##:xpath('//div/ul/li[.//label]')
 !opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]'):upward(li)
 !opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
-!!:upward(li)
+!:upward(li)
 !opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
 !opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
 !opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]//input[@name="multiselect_SubLanguageID"]')
