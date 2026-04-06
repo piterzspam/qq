@@ -1010,6 +1010,7 @@ noahpinion.blog,astralcodexten.com,richardhanania.com##body:style(overflow-x: un
 !astralcodexten.com##+js(aeld)
 
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(nosiif, __tcfapi)
+!aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(aost, window.history.replaceState, /stackDepth:3\t a.onChangeVisibility https.*?\t Object.onChange/, 1)
 !Artykuły automatycznie doładowywane po przescrollowaniu w dół
 !/(aszdziennik|dadhero|innpoland|natemat)\.pl\/pwa-article\/[0-9]+$/$xhr,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|natemat.pl
 !Artykuły automatycznie doładowywane po przescrollowaniu w dół - puste miejsce po nich
@@ -1020,10 +1021,7 @@ aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV#article-body B[class*="-R
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV#root > DIV.body-v2:style(overflow-x: unset !important;)
 !Puste miejsca po reklamach w prawej kolumnie
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV.article-column__sticky-container
-!#if env_chromium
-aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(aost, window.history.replaceState, /stackDepth:3\t a.onChangeVisibility https.*?\t Object.onChange/, 1)
-!#endif
-!#if env_firefox
+
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(aost, window.history.replaceState, /stackDepth:[0-9]+\t https.*?\t onChange/, 1)
 
 atlai.club##+js(nano-stb, #checkclick, 20000, 0.02)
@@ -1870,7 +1868,6 @@ driverscape.com##DIV.installer
 
 ||driversupdatecenters.com^
 
-!#endif
 !Nie sortować
 !https://drivetribe.com/p/reviewed-being-nice-FOQY7K70Tl64BNtLtuNFHw?iid=Z0jN-9bARgyD5omLkZrDhg
 drivetribe.com##ARTICLE > DIV > DIV > DIV > DIV[class^="sc"]:has-text(More from Drivetribe)
@@ -2394,8 +2391,6 @@ gomovies.to##DIV.content-kuss
 
 ||goneviral.com/*jsParseLinks.aspx
 
-!#if env_firefox
-!#if env_mobile
 google.*#@##main > div[data-hveid]
 !google.com##+js(ra, onmousedown|data-cthref, DIV#center_col A[href])
 !google.com#@#+js(ra, onmousedown|data-cthref, DIV#center_col A[href])
@@ -2414,12 +2409,6 @@ google.com##DIV.isv-id + DIV[onclick="google.isv&&google.isv.t();"]
 !||techgenix.com^$inline-script
 ||apis.google.com^$3p,badfilter
 google.com##+js(ra, data-jsarwt, DIV#search A[href], stay)
-!Przyspieszenie ładowania kolejnych obrazków w captchy
-www.google.com,recaptcha.net##.rc-imageselect-tile:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net##.rc-imageselect-dynamic-selected:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net##.rc-imageselect-progress:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net##.rc-image-tile-overlay:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net##+js(nano-stb, , 4000, 0.02)
 !Fanboy's Annoyance List
 !google.com###oFNiHe
 google.com#@##oFNiHe
@@ -2431,11 +2420,6 @@ google.com#@##oFNiHe
 !photos.google.com##+js(nostif)
 !6harfli.com,askerlikforum.com.tr,dadinthemaking.com##+js(nano-sib, , , 0.02)
 !6harfli.com,askerlikforum.com.tr,dadinthemaking.com##+js(nano-stb, , , 0.02)
-www.google.com,recaptcha.net#@#.rc-imageselect-tile:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net#@#.rc-imageselect-dynamic-selected:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net#@#.rc-imageselect-progress:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net#@#.rc-image-tile-overlay:style(transition-duration: 0.1s !important;)
-www.google.com,recaptcha.net#@#+js(nano-stb, , 4000, 0.02)
 !google.com##+js(aeld)
 !google.com##+js(acs, document.oncontextmenu)
 google.com##+js(aeld, contextmenu)
@@ -3549,8 +3533,8 @@ opensubtitles.org##ul.ui-multiselect-checkboxes input[value="zhc"]:not([aria-sel
 opensubtitles.org##ul.ui-multiselect-checkboxes input[value="zhe"]:not([aria-selected="true"]):upward(li)
 opensubtitles.org##ul.ui-multiselect-checkboxes input[value="zht"]:not([aria-selected="true"]):upward(li)
 opensubtitles.org##div.msg[itemtype] div[style="margin-bottom:5px;margin-left:8px;"] a[title="Watch online "]
-opensubtitles.org##div#checkbox1 + div > p:has(a.bt-dwl) + a#bt-dwl-bt
-opensubtitles.org#@#div#checkbox1 + div > p:has(a.bt-dwl) + a#bt-dwl-bt
+!opensubtitles.org##div#checkbox1 + div > p:has(a.bt-dwl) + a#bt-dwl-bt
+!opensubtitles.org#@#div#checkbox1 + div > p:has(a.bt-dwl) + a#bt-dwl-bt
 opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body div#container + fieldset
 opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body div#container fieldset#discussion legend + p
 opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body div#container fieldset#discussion:not(:has(div.comment_reply))
@@ -3731,7 +3715,6 @@ polsatsport.pl##div.header__main + DIV.header__sub:xpath(self::node()/preceding-
 
 polskie-torrenty.eu##div.popup
 
-!#endif
 !https://www.polskieradio24.pl/42/259/Artykul/2849386,Ile-wyniosla-pazdziernikowa-Inflacja-bez-uwzglednienia-cen-zywnosci-i-energii-Znamy-dane-NBP
 polskieradio24.pl##+js(nostif, SocialTimer, 100)
 polskieradio24.pl##+js(aopr, window.$.relatedArticles)
@@ -4394,8 +4377,8 @@ teknoasian.com##+js(aeld, , focus)
 @@||teknoasian.com^$generichide
 !teknoasian.com##center.humanVerify, center.Skipper, button.myButton.postnext, button.myButton.verify:others()
 teknoasian.com##center.humanVerify, center.Skipper, button.myButton, form#xxc:others()
-teknoasian.com#@#:is(#landing, .soractrl):others()
-teknoasian.com##:is(#landing, .soractrl):others()
+!teknoasian.com#@#:is(#landing, .soractrl):others()
+!teknoasian.com##:is(#landing, .soractrl):others()
 teknoasian.com##+js(aeld, , focus)
 teknoasian.com##+js(nowoif)
 teknoasian.com##div#main:style(width: unset !important; padding-right: unset !important; float: unset !important;)
