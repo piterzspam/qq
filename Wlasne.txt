@@ -389,11 +389,7 @@ vikashmewada.com##+js(set, document.onmousedown, noopFunc)
 
 ||dmtracking2.alibaba.com
 
-!||alicdn.com/*/aplus_ae.js
 ||alicdn.com/*/beacon_async.js?
-!||alicdn.com/*aplus_*.js$script
-||alicdn.com/*ctl.js$script
-||alicdn.com/*ctl.js$script,badfilter
 
 @@/cookie.js$script,domain=joybuy.com
 @@||aliexpress.com^$generichide
@@ -424,7 +420,6 @@ aliexpress.com##LI.list-item:if(I.sponsored-icon)
 ! 2023-03-21 https://www.aliexpress.com
 aliexpress.com##.bottom--container--1EMPdiV
 aliexpress.com##.spin--spainContainer--1G5UPsb
-aliexpress.com##.bottom--container--1EMPdiV
 ||track.aliexpress.com/*?spm=^$document,removeparam=spm
 !https://pl.aliexpress.com/item/1005007171332586.html?utparam-url=scene%3Asearch%7Cquery_from%3A
 ||aliexpress.com/item/*.html$doc,first-party,removeparam=utparam-url
@@ -856,13 +851,8 @@ allegro.pl##div[data-box-name="caro"]
 !allegro.pl##div[data-box-name="Product container card"] ~ div[data-box-name="layout.container"]:has(h2:has-text(Kup razem))
 !allegro.pl##div[data-box-name="Product container card"] ~ div[data-box-name="layout.container"]:has(div[data-box-name="Container Bundle - variant"])
 allegro.pl##div[data-box-name="Container Bundle - variant"]
-!Podobne oferty
-allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22allegro.ads.tiles.showoffer.carousel.top%22%5D"]:has(h2:has-text(Podobne oferty))
 !Propozycje dla Ciebie
 allegro.pl##div[data-box-name="Container Parameters"] ~ div div.opbox-sheet-wrapper:has(h2:has-text(Propozycje dla Ciebie))
-!Inni klienci oglądali również
-allegro.pl##div[data-analytics-groups="%5B%22allegro.oferta.base%22%2C%22allegro.oferta.reco.bottom%20experiment%22%5D"]:has(h2:has-text(Inni klienci oglądali również))
-allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(span > span:has-text(Promowane) + button):style(border: dotted !important;)
 
 ||allegroimg.com/s400/$image
 
@@ -901,8 +891,6 @@ alternativeto.net##div[style="min-height:280px"]:empty
 !https://dorzeczy-pl.cdn.ampproject.org/v/s/dorzeczy.pl/amp/192110/fabryka-lacznikow-w-radomiu-pierwszy-akt-oskarzenia.html?amp_js_v=a6
 dorzeczy.pl,dorzeczy-pl.cdn.ampproject.org##HTML[amp] .ad-aside.page-billboard-1
 dorzeczy.pl,dorzeczy-pl.cdn.ampproject.org##HTML[amp] ARTICLE DIV.art-text > P:last-child > AMP-LIST
-dorzeczy.pl,wprost.pl##+js(nostif, initDeep, 100)
-dorzeczy.pl,wprost.pl##+js(set, docVisibility, noopFunc)
 dorzeczy.pl,wprost.pl##+js(nostif, initDeep, 100)
 dorzeczy.pl,wprost.pl##+js(set, docVisibility, noopFunc)
 ampproject.org###goToSG
@@ -980,8 +968,6 @@ www.androidpolice.com##.ains-ap2_trending_posts_wrapper.ains-11.ains
 ||zencdn.net^$domain=anhdep24.com|fidlarmusic.com|kiemlua.com|publicananker.com
 anhdep24.com,fidlarmusic.com,kiemlua.com,publicananker.com##:is(BUTTON#link, A#link1s, DIV.alert, DIV#link1s-wait1, DIV#link1s-generate, DIV#link1s-snp):others()
 
-annas-archive.org##+js(nano-sib, , , 0.02)
-annas-archive.org##+js(nano-stb, , , 0.02)
 annas-archive.org##+js(nano-sib, , , 0.02)
 annas-archive.org##+js(nano-stb, , , 0.02)
 
@@ -1900,17 +1886,9 @@ drivetribe.com##NAV[class^="sc-"]:first-child:last-child:style(position: absolut
 !Cookies
 !drivetribe.com##DIV#root > DIV[style="opacity: 1; transform: translateY(0%) translateZ(0px);"]:last-child
 drivetribe.com##DIV#root > DIV:first-child > HEADER > NAV#header + DIV[style="transform: scaleY(0) translateZ(0px);"] + DIV[class]:last-child:style(position: absolute !important;)
-!https://drivetribe.com/p/reviewed-being-nice-FOQY7K70Tl64BNtLtuNFHw?iid=Z0jN-9bARgyD5omLkZrDhg
-drivetribe.com##ARTICLE > DIV > DIV > DIV > DIV[class^="sc"]:has-text(More from Drivetribe)
 !Główny pasek "Chat Trines Drivetribe"
 drivetribe.com##HEADER > NAV#header[class^="sc-"]:first-child:style(position: absolute !important;)
-!Drugi pasek na stronie artykułu "Ikona kanału comments reposts bumps"
-drivetribe.com##DIV[class^="_"]:first-child:last-child > DIV[class]:first-child > DIV[class^="sc-"]:first-child:last-child > DIV[class^="sc-"]:first-child:last-child:style(position: absolute !important;)
 drivetribe.com##DIV > H1 + DIV > DIV[class^="sc-"]:first-child:last-child:style(position: absolute !important;)
-!https://drivetribe.com/p/reviewed-being-nice-FOQY7K70Tl64BNtLtuNFHw?iid=Z0jN-9bARgyD5omLkZrDhg
-drivetribe.com##ARTICLE:first-child > DIV[class^="j-"]:first-child:last-child > DIV[class^="_"]:first-child > DIV[class^="_1-"]:first-child:last-child > H1[class^="_"]:first-child + DIV[class^="sc-"]:last-child > DIV[class^="sc-"]:first-child:last-child:first-child:last-child:style(position: absolute !important;)
-!Drugi pasek na stronie kanału "Ikona, nazwa, stories, chat"
-drivetribe.com##NAV[class^="sc-"]:first-child:last-child:style(position: absolute !important;)
 drivetribe.com##DIV.sc-ciodno > DIV[class^="sc-"]:has-text(Tribes you might like)
 drivetribe.com##DIV > H1 + DIV > DIV[class]:first-child:last-child:style(position: absolute !important;)
 drivetribe.com##DIV#root > DIV[style="opacity: 1; transform: none;"]:last-child
@@ -2032,7 +2010,6 @@ writedroid.eu.org##+js(nano-stb, , , 0.02)
 writedroid.eu.org##+js(nano-sib, , , 0.02)
 writedroid.eu.org##:is(#timerContainer, #shortGoToCont, .mdlAd):others()
 
-||evidon.com^
 !https://csharpcorner-mindcrackerinc.netdna-ssl.com/js/article_details_new?v=RczjRCB501FNdEx_d3l1xjt1z9YE93BkVMcy_f_Sw8A1
 !||csharpcorner-mindcrackerinc.netdna-ssl.com^
 !RUS: RU AdList
@@ -2337,26 +2314,7 @@ geeksforgeeks.org##._ap_apex_ad
 geeksforgeeks.org##:is(article[id]):others()
 geeksforgeeks.org##div.textBasedMannualAds_2
 geeksforgeeks.org##.make_sticky:style(top: 0px !important;)
-!https://www.geeksforgeeks.org/string-split-method-in-c-sharp-with-examples/
-!https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201210132002/GFG-RT-CRC.png
-||media.geeksforgeeks.org/wp-content/cdn-uploads/20201210132002/GFG-RT-CRC.png
-geeksforgeeks.org##DIV[id^="AP_G4GR_"]
-geeksforgeeks.org##^DIV[id^="AP_G4GR_"]
-! 13.06.2020 https://www.geeksforgeeks.org
-www.geeksforgeeks.org##.login-modal-div
-||media.geeksforgeeks.org/wp-content/cdn-uploads/20200611191627/GFG-DSA-SP-RT.png$image
-@@||geeksforgeeks.org^$generichide
-!Wlasne: www.geeksforgeeks.org##.login-modal-div
-www.geeksforgeeks.org#@#.login-modal-div
-||util.geeksforgeeks.org/profileLink.php
-!https://www.geeksforgeeks.org/python-as-keyword/
-geeksforgeeks.org##.textBasedMannualAds
-||translate.google.com^$domain=geeksforgeeks.org
-geeksforgeeks.org##._ap_apex_ad
-geeksforgeeks.org##:is(article[id]):others()
-geeksforgeeks.org##.leftBar:style(flex-basis: unset !important; max-width: unset !important; min-width: unset !important;)
-geeksforgeeks.org##div.textBasedMannualAds_2
-geeksforgeeks.org##.make_sticky:style(top: 0px !important;)
+
 
 @@||edipresse.hit.gemius.pl/hitredir?$document,first-party
 !@@||tvn.hit.gemius.pl/*/redot.js/
@@ -2631,7 +2589,6 @@ howtogeek.com##P:if(>STRONG:has-text(RELATED:)):if(EM)
 ! 13 maj 2024 https://www.warezbook.org
 ||i.ibb.co/tMrM08L/5056179b42b174f.jpg$image
 ||i.ibb.co/g6kzX6y/WBBinanc.png$image
-||i.ibb.co/tMrM08L/5056179b42b174f.jpg$image
 
 ||icutlink.com/qe2mo3feds.js$script
 ||icutlink.com/img/DownloadNow.gif$image
@@ -3025,12 +2982,7 @@ lifewire.com##html:style(overflow-y: visible !important;)
 linegee.net##:is(#landing, .soractrl):others()
 linegee.net##+js(aeld, , focus)
 !linegee.net##+js(aeld)
-||linegee.net^$stylesheet,badfilter
-||linegee.net^$script,badfilter
-||linegee.net^$font,badfilter
-||linegee.net^$image,badfilter
-linegee.net##:is(#landing, .soractrl):others()
-linegee.net##+js(aeld, , focus)
+
 
 ||linkbucks.com/*WebResource.axd
 ||linkbucks.com/*advertise_website.gif
@@ -4089,13 +4041,6 @@ se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.gall
 se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.galleries) h3:last-of-type:has-text(galeri)
 se.pl##div.promo-wrapper
 se.pl##div#taboola-below-article-thumbnails + script + div.gl_plugin.listing
-se.pl##article div.block_list__container div.video_player
-se.pl##article div.block_list__container video
-se.pl##article div.block_list__container p:last-of-type ~ div.gl_plugin.galleries
-se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.galleries) p:last-of-type:has-text(galeri)
-se.pl##article div.block_list__container:has(p:last-of-type ~ div.gl_plugin.galleries) h3:last-of-type:has-text(galeri)
-se.pl##div.promo-wrapper
-se.pl##div#taboola-below-article-thumbnails + script + div.gl_plugin.listing
 se.pl##section .zpr_combo, section .zpr_box_topboard, section .m_zpr_box_topboard, section .m_zpr_box_billboard
 se.pl###side_1_noscroll
 
@@ -4251,7 +4196,6 @@ sports24.club##A.btn.btn-outline-primary[target="_blank"]
 sports24.club##DIV.container > DIV.row > DIV.col
 sports24.club##DIV > DIV[style="width:300px;height:250px;overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
 
-sportscart.xyz##+js(aopw, _pop)
 !wstream.to##+js(noeval)
 sportscart.xyz##+js(aopw, _pop)
 !wstream.to##+js(set, atob, trueFunc)
@@ -4446,7 +4390,6 @@ techymedies.com#@##wpsafe-time:upward([id^="wpsafe-wait"])
 !techymedies.com##+js(nano-sib, wpsafe-link)
 techymedies.com##+js(nano-sib, timer(), 1000)
 
-teknoasian.com##:is(#landing, .soractrl):others()
 teknoasian.com##+js(aeld, , focus)
 @@||teknoasian.com^$generichide
 !teknoasian.com##center.humanVerify, center.Skipper, button.myButton.postnext, button.myButton.verify:others()
@@ -4505,42 +4448,17 @@ thephonograph.net##^script:has-text(oncontextmenu)
 ||thephonograph.net/wp-content/uploads/2018/09/Header-Promo-Meizu-EP52-Lite-GIVEAWAY.jpg
 ||thephonograph.net/wp-content/uploads/2018/10/Meizu-EP52-Lite-GIVEAWAY-Add-to-all.jpg
 ||thephonograph.net/wp-includes/js/wp-emoji-release.min.js
-thephonograph.net###myFootnav
-thephonograph.net###myTopnav:style(position: absolute !important;)
-thephonograph.net##^script:has-text(oncontextmenu)
 thephonograph.net##^script:has-text(onselectstart)
 thephonograph.net##^script:has-text(ondragstart)
 thephonograph.net##ARTICLE[id^="post-"] P:has-text(/Enjoyed this Article?|Follow us:|BUY IT AT:|Buy us a coffee|SEE PRICE:|Get the latest reviews on your favorite social network|Follow us:|Enjoyed this Article?/)
 thephonograph.net##ARTICLE[id^="post-"] SPAN:has-text(/RECOMMENDED/)
-thephonograph.net##DIV.container > DIV.svg-container.single-post-svg.single-svg-bottom.svg-block
-thephonograph.net##DIV.container.content-wrapper > HR
-thephonograph.net##DIV.entry-content > BLOCKQUOTE.wp-embedded-content
 thephonograph.net##ARTICLE[id^="post-"] H1:has-text(/Buy it at:|Buy it from:/)
 thephonograph.net##ARTICLE[id^="post-"] H5:has-text(/SEE ALSO:/)
 !thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style="font-family: impact, sans-serif; font-size: 14pt;"] > A[href^="http://www.thephonograph.net/"])
 thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style] > A[href^="http://www.thephonograph.net"])
 !thephonograph.net##ARTICLE[id^="post-"] P > SPAN[style] > A[href^="http://www.thephonograph.net/"]
 !thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style] > A[href="http://www.thephonograph.net"])
-thephonograph.net##DIV.svg-container.footer-svg.svg-block
-thephonograph.net##HR
-thephonograph.net##NAV.navigation.post-navigation
-||thephonograph.net/*/embed/#?secret=$subdocument
-||thephonograph.net/wp-content/plugins/coupon-popup/
-||thephonograph.net/wp-content/plugins/eu-cookie-law/
-||thephonograph.net/wp-content/uploads/201*/*buy*.gif|$image
-||thephonograph.net/wp-content/uploads/2016/11/Get-it-at_.png|
-||thephonograph.net/wp-content/uploads/2016/12/Aliexpress-300x97.png|$image
-||thephonograph.net/wp-content/uploads/2016/12/Aliexpress.png|$image
-||thephonograph.net/wp-content/uploads/2016/12/bg-quote1.png|
-||thephonograph.net/wp-content/uploads/2016/12/cart1.png|
-||thephonograph.net/wp-content/uploads/2016/12/Gearbest.png|$image
-||thephonograph.net/wp-content/uploads/2017/09/*-48circle.png
-||thephonograph.net/wp-content/uploads/2017/10/btn_donate_LG.png|$image
 ||thephonograph.net/wp-content/uploads/2017/*buy*.gif|$image
-||thephonograph.net/wp-content/uploads/2018/09/Header-Promo-Meizu-EP52-Lite-GIVEAWAY.jpg
-||thephonograph.net/wp-content/uploads/2018/10/Meizu-EP52-Lite-GIVEAWAY-Add-to-all.jpg
-||thephonograph.net/wp-content/uploads/*/*COUPONS*.jpg
-||thephonograph.net/wp-includes/js/wp-emoji-release.min.js
 !test
 ||thephonograph.net^$inline-script
 ||thephonograph.net/wp-content/uploads/2018/10/Header-Promo-Meizu-EP52-Lite-GIVEAWAY-Last-Days.jpg
@@ -4641,7 +4559,6 @@ www.toptal.com##.article_aside_subscription
 ||torrentgalaxy.mx/common/images/nf-lo.png$image
 ||torrentgalaxy.mx/common/images/aio-lo.png$image
 ||torrentgalaxy.mx/common/images/dsnp-sc.png$image
-||torrentgalaxy.mx/common/images/nf-lo.png$image
 
 ||torrenting.com/CSS/du/DU9.gif
 
@@ -4736,8 +4653,6 @@ $xhr,domain=tribuntekno.com
 
 ||trumbo.site
 
-||trustmate.io^
-||trustmate.io^$badfilter
 
 tusfiles.net##+js(aopw, Fingerprint2)
 tusfiles.net##+js(nowoif)
@@ -4856,8 +4771,6 @@ vahanjagat.in##h5[style="color:red;"], center > p[style], form[name="tp"], h4#tp
 !https://www.naukowiec.org/newton.html
 ||player.videoexchanger.com^$third-party
 
-||videotarget.pl^
-||videotarget.pl^$badfilter
 
 ||vider.$document,to=~uwaga-natretne-reklamy.*|vider.*,badfilter
 
@@ -5075,17 +4988,6 @@ wstream.to##+js(aeld, loadend, mLoader24)
 wstream.to##+js(aeld, timeout, mLoader24)
 wstream.to##+js(nostif, mLoader24, 15000)
 wstream.to##+js(nostif, player.play, 3000)
-wstream.to##+js(noeval-if, allow-popups)
-!wstream.to##+js(noeval)
-wstream.to##+js(aopw, _pop)
-wstream.to##+js(noeval-if, allow-popups)
-||cdn.vdosupreme.com/vdo.js?$domain=wstream.to
-||cedexis.com^$domain=wstream.to
-wstream.to##+js(nostif, javascript, 15000)
-wstream.to##+js(aeld, loadend, mLoader24)
-wstream.to##+js(aeld, timeout, mLoader24)
-wstream.to##+js(nostif, mLoader24, 15000)
-wstream.to##+js(nostif, player.play, 3000)
 
 !tweetdeck.twitter.com##h1[id^="accessible-list-"] + div > div > div:first-child ~ div:not(:has(article))
 !tweetdeck.twitter.com##h1[id^="accessible-list-"] + div > div > div:has(article[data-testid="tweet"][tabindex="0"] div[data-testid="socialContext"])
@@ -5119,7 +5021,6 @@ wykop.pl##^li.link:has(a[href*='wykop.pl/market'])
 ||wykop.pl/cdn/*/advert_
 ||wykop.pl/adverts/
 ||wykop.pl/cdn/*/adblock_
-@@||wykop.pl/adframe.js
 wykop.pl##.pub-slot-wrapper
 
 ||adserver.xpanama.net^$domain=xda-developers.com,important
