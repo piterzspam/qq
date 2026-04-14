@@ -1,6 +1,14 @@
 ! Title: Wlasne
 ! Expires: 1 day
 
+
+
+*$3p,script,denyallow=fastly.net,domain=imgur.com
+
+
+obrazkowo.pl##+js(ra, href|class, div.bg-media a.stretched-link, stay)
+
+
 /opensubtitles\.org\/[a-z]{2}\/[^.]{52}/$script
 
 /social_2.$badfilter
@@ -2423,6 +2431,8 @@ google.com#@##oFNiHe
 !google.com##+js(aeld)
 !google.com##+js(acs, document.oncontextmenu)
 google.com##+js(aeld, contextmenu)
+www.google.com##+js(href-sanitizer, a[href*="&imgurl="], ?imgurl)
+www.google.com##+js(href-sanitizer, a[href*="/url"], ?url)
 
 ||adservice.google.pl^
 
