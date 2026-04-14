@@ -1,13 +1,6 @@
 ! Title: Wlasne
+
 ! Expires: 1 day
-
-
-
-*$3p,script,denyallow=fastly.net,domain=imgur.com
-
-
-obrazkowo.pl##+js(ra, href|class, div.bg-media a.stretched-link, stay)
-
 
 /opensubtitles\.org\/[a-z]{2}\/[^.]{52}/$script
 
@@ -74,6 +67,11 @@ pl#@#.adsense
 #mhfragristack.in#$?##VerifyBtn { display: block !important; }
 
 /[a-z]{8,14}\.net\/[0-9a-z]{20}\/[0-9a-z]{20}$/$inline-script,first-party
+
+!opensubtitles.org##:xpath('//div/ul//li[.//input[@name="ln_filter"]]')
+!//ul//li[.//input[@name="ln_filter"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]]
+!opensubtitles.org##input:xpath(.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")])
+*$removeparam=ceneo_cid
 
 ||1337x.to/js/aacabeabdcba.js
 
@@ -394,6 +392,15 @@ vikashmewada.com##+js(set, document.onmousedown, noopFunc)
 ||afilo.pl^
 
 ||aidata.io
+
+!https://www.airbnb.pl/rooms/1238987735935306695?viralityEntryPoint=1&s=76&source_impression_id=p3_1771706820_P3KXIcAIPpDqjC0h&check_in=2026-08-25&guests=5&adults=5&check_out=2026-09-03
+||airbnb.pl^$document,removeparam=source_impression_id
+||airbnb.pl^$document,removeparam=viralityEntryPoint
+||airbnb.pl^$document,removeparam=set_everest_cookie_on_new_domain
+||airbnb.pl^$document,removeparam=s
+||airbnb.pl^$document,removeparam=slcid
+||airbnb.pl^$document,removeparam=slug
+||airbnb.pl^$document,removeparam=set_everest_cookie_on_new_domain
 
 ||dmtracking2.alibaba.com
 
@@ -861,6 +868,7 @@ allegro.pl##div[data-box-name="caro"]
 allegro.pl##div[data-box-name="Container Bundle - variant"]
 !Propozycje dla Ciebie
 allegro.pl##div[data-box-name="Container Parameters"] ~ div div.opbox-sheet-wrapper:has(h2:has-text(Propozycje dla Ciebie))
+allegro.pl##div[data-box-name="product listing items"] div.opbox-listing article:has(h2 > a[href*="17367229518"])
 
 ||allegroimg.com/s400/$image
 
@@ -1015,8 +1023,8 @@ apkpure.com##DIV[style="margin: 0 auto 20px auto;position: relative;width:100%;o
 @@||assia2.com/css/jquery.min.js
 
 noahpinion.blog,astralcodexten.com,richardhanania.com##body:style(overflow-x: unset !important;)
-!astralcodexten.com##+js(aeld)
 
+!astralcodexten.com##+js(aeld)
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(nosiif, __tcfapi)
 !aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(aost, window.history.replaceState, /stackDepth:3\t a.onChangeVisibility https.*?\t Object.onChange/, 1)
 !Artykuły automatycznie doładowywane po przescrollowaniu w dół
@@ -1029,7 +1037,6 @@ aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV#article-body B[class*="-R
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV#root > DIV.body-v2:style(overflow-x: unset !important;)
 !Puste miejsca po reklamach w prawej kolumnie
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##DIV.article-column__sticky-container
-
 aszdziennik.pl,dadhero.pl,innpoland.pl,natemat.pl##+js(aost, window.history.replaceState, /stackDepth:[0-9]+\t https.*?\t onChange/, 1)
 
 atlai.club##+js(nano-stb, #checkclick, 20000, 0.02)
@@ -1304,6 +1311,25 @@ blogmado.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], 
 
 $subdocument,domain=zypdvbupo.net|bohjrmvzefy.net|qdifkhrghxhbyw.net|sipmnteinohts.net|jjrslwvhp.net|vfbsjcwl.net
 
+!||booking.com/hotel/es/elegance-penthouse.pl.html?app_hotel_id=8929679&checkin=2026-08-25&checkout=2026-09-03&from_sn=android&group_adults=5&group_children=0&label=hotel_details-KzHWEII%401771705391&no_rooms=3&req_adults=5&req_children=0&room1=A%2CA%2CA%2CA%2CA&chal_t=1771879722380&force_referer=#map_opened-map_trigger_header
+||booking.com/hotel/$document,removeparam=force_referer
+||booking.com/hotel/$document,removeparam=from_sn
+||booking.com/hotel/$document,removeparam=chal_t
+||booking.com/hotel/$document,removeparam=room1
+||booking.com/hotel/$document,removeparam=label
+||booking.com/hotel/$document,removeparam=age
+||booking.com/hotel/$document,removeparam=dest_id
+||booking.com/hotel/$document,removeparam=dest_type
+||booking.com/hotel/$document,removeparam=group_adults
+||booking.com/hotel/$document,removeparam=group_children
+||booking.com/hotel/$document,removeparam=no_rooms
+||booking.com/hotel/$document,removeparam=req_age
+||booking.com/hotel/$document,removeparam=req_children
+||booking.com/hotel/$document,removeparam=dest_type
+||booking.com/hotel/$document,removeparam=app_hotel_id
+||booking.com/hotel/$document,removeparam=activeTab
+||booking.com/hotel/$document,removeparam=dest_type
+
 !bosejk.in##+js(nano-sib, , , 0.02)
 !bosejk.in##+js(nano-stb, , , 0.02)
 bosejk.in##div#txt2, div#rtg-generate, h4#txt3, div#robot, button#robot, div#rtg-btn, div#rtg-snp2, #div-gpt-ad-3061307416813-0, .textads, .adsbygoogle:others()
@@ -1311,12 +1337,12 @@ bosejk.in##div#txt2, div#rtg-generate, h4#txt3, div#robot, button#robot, div#rtg
 bosejk.in##+js(acs, detectDevTools)
 bosejk.in##+js(aeld, contextmenu)
 bosejk.in##+js(aeld, keydown, keyCode)
+
 !contextmenu
 !keydown
 !bosejk.in##+js(nosiif)
 !bosejk.in##+js(nostif)
 !bosejk.in##+js(aeld)
-
 ||bpasyspro.com
 
 ||branch.io^$badfilter
@@ -1412,6 +1438,698 @@ ceneo.pl##div.highlighted-offers
 ceneo.pl###REK_Produkt_OPIS
 ceneo.pl###REK_Produkt_OPINIE
 ceneo.pl###REK_Produkt_LISTING_OFERT_SKLEP
+!Głębokość: 4x cm
+ceneo.pl##.js_category-list-item[data-pid="187408589"]
+ceneo.pl##.js_category-list-item[data-pid="165099685"]
+ceneo.pl##.js_category-list-item[data-pid="163406385"]
+ceneo.pl##.js_category-list-item[data-pid="158597312"]
+ceneo.pl##.js_category-list-item[data-pid="147633993"]
+ceneo.pl##.js_category-list-item[data-pid="163406508"]
+ceneo.pl##.js_category-list-item[data-pid="105691435"]
+ceneo.pl##.js_category-list-item[data-pid="156851586"]
+ceneo.pl##.js_category-list-item[data-pid="170338496"]
+ceneo.pl##.js_category-list-item[data-pid="98794316"]
+ceneo.pl##.js_category-list-item[data-pid="143306879"]
+ceneo.pl##.js_category-list-item[data-pid="143306877"]
+ceneo.pl##.js_category-list-item[data-pid="143306880"]
+ceneo.pl##.js_category-list-item[data-pid="143306878"]
+ceneo.pl##.js_category-list-item[data-pid="74256146"]
+ceneo.pl##.js_category-list-item[data-pid="96073177"]
+ceneo.pl##.js_category-list-item[data-pid="131307052"]
+ceneo.pl##.js_category-list-item[data-pid="105691813"]
+ceneo.pl##.js_category-list-item[data-pid="103350328"]
+ceneo.pl##.js_category-list-item[data-pid="84434092"]
+!Głębokość: 5x cm
+ceneo.pl##.js_category-list-item[data-pid="182447493"]
+ceneo.pl##.js_category-list-item[data-pid="180085382"]
+ceneo.pl##.js_category-list-item[data-pid="182447213"]
+ceneo.pl##.js_category-list-item[data-pid="180085381"]
+ceneo.pl##.js_category-list-item[data-pid="90336866"]
+ceneo.pl##.js_category-list-item[data-pid="93243291"]
+ceneo.pl##.js_category-list-item[data-pid="90336865"]
+ceneo.pl##.js_category-list-item[data-pid="118310161"]
+ceneo.pl##.js_category-list-item[data-pid="182542264"]
+ceneo.pl##.js_category-list-item[data-pid="182542276"]
+ceneo.pl##.js_category-list-item[data-pid="182542277"]
+ceneo.pl##.js_category-list-item[data-pid="182486904"]
+ceneo.pl##.js_category-list-item[data-pid="188791952"]
+ceneo.pl##.js_category-list-item[data-pid="105696982"]
+ceneo.pl##.js_category-list-item[data-pid="91756549"]
+ceneo.pl##.js_category-list-item[data-pid="164216061"]
+ceneo.pl##.js_category-list-item[data-pid="187408574"]
+ceneo.pl##.js_category-list-item[data-pid="90336867"]
+ceneo.pl##.js_category-list-item[data-pid="112057331"]
+ceneo.pl##.js_category-list-item[data-pid="187408573"]
+ceneo.pl##.js_category-list-item[data-pid="64960053"]
+ceneo.pl##.js_category-list-item[data-pid="76293484"]
+ceneo.pl##.js_category-list-item[data-pid="64960042"]
+ceneo.pl##.js_category-list-item[data-pid="125117874"]
+ceneo.pl##.js_category-list-item[data-pid="168069810"]
+ceneo.pl##.js_category-list-item[data-pid="91756756"]
+ceneo.pl##.js_category-list-item[data-pid="152790818"]
+ceneo.pl##.js_category-list-item[data-pid="168070612"]
+ceneo.pl##.js_category-list-item[data-pid="112176932"]
+ceneo.pl##.js_category-list-item[data-pid="133911574"]
+ceneo.pl##.js_category-list-item[data-pid="115424329"]
+ceneo.pl##.js_category-list-item[data-pid="152790819"]
+ceneo.pl##.js_category-list-item[data-pid="152790821"]
+ceneo.pl##.js_category-list-item[data-pid="168402313"]
+ceneo.pl##.js_category-list-item[data-pid="168402236"]
+ceneo.pl##.js_category-list-item[data-pid="153852227"]
+ceneo.pl##.js_category-list-item[data-pid="153852225"]
+ceneo.pl##.js_category-list-item[data-pid="153852226"]
+ceneo.pl##.js_category-list-item[data-pid="125398637"]
+ceneo.pl##.js_category-list-item[data-pid="151426453"]
+ceneo.pl##.js_category-list-item[data-pid="168402177"]
+ceneo.pl##.js_category-list-item[data-pid="152790948"]
+ceneo.pl##.js_category-list-item[data-pid="168402372"]
+ceneo.pl##.js_category-list-item[data-pid="141831785"]
+ceneo.pl##.js_category-list-item[data-pid="158872356"]
+ceneo.pl##.js_category-list-item[data-pid="90336863"]
+ceneo.pl##.js_category-list-item[data-pid="149580302"]
+ceneo.pl##.js_category-list-item[data-pid="168402340"]
+ceneo.pl##.js_category-list-item[data-pid="112989383"]
+ceneo.pl##.js_category-list-item[data-pid="168402378"]
+ceneo.pl##.js_category-list-item[data-pid="149580304"]
+ceneo.pl##.js_category-list-item[data-pid="53835623"]
+ceneo.pl##.js_category-list-item[data-pid="150622696"]
+ceneo.pl##.js_category-list-item[data-pid="90336862"]
+ceneo.pl##.js_category-list-item[data-pid="163406520"]
+ceneo.pl##.js_category-list-item[data-pid="125116395"]
+ceneo.pl##.js_category-list-item[data-pid="177405068"]
+ceneo.pl##.js_category-list-item[data-pid="112945659"]
+ceneo.pl##.js_category-list-item[data-pid="177184448"]
+ceneo.pl##.js_category-list-item[data-pid="139775455"]
+ceneo.pl##.js_category-list-item[data-pid="139775456"]
+ceneo.pl##.js_category-list-item[data-pid="139775510"]
+ceneo.pl##.js_category-list-item[data-pid="164216059"]
+ceneo.pl##.js_category-list-item[data-pid="170973385"]
+ceneo.pl##.js_category-list-item[data-pid="149580310"]
+ceneo.pl##.js_category-list-item[data-pid="150622681"]
+ceneo.pl##.js_category-list-item[data-pid="164216058"]
+ceneo.pl##.js_category-list-item[data-pid="156350167"]
+ceneo.pl##.js_category-list-item[data-pid="156350169"]
+ceneo.pl##.js_category-list-item[data-pid="156350164"]
+ceneo.pl##.js_category-list-item[data-pid="156350162"]
+ceneo.pl##.js_category-list-item[data-pid="95091133"]
+ceneo.pl##.js_category-list-item[data-pid="90336877"]
+ceneo.pl##.js_category-list-item[data-pid="147633976"]
+ceneo.pl##.js_category-list-item[data-pid="168402266"]
+ceneo.pl##.js_category-list-item[data-pid="105695849"]
+ceneo.pl##.js_category-list-item[data-pid="153150980"]
+ceneo.pl##.js_category-list-item[data-pid="149580306"]
+ceneo.pl##.js_category-list-item[data-pid="170975491"]
+ceneo.pl##.js_category-list-item[data-pid="79680869"]
+ceneo.pl##.js_category-list-item[data-pid="105692146"]
+ceneo.pl##.js_category-list-item[data-pid="163406920"]
+ceneo.pl##.js_category-list-item[data-pid="112676995"]
+ceneo.pl##.js_category-list-item[data-pid="168069959"]
+ceneo.pl##.js_category-list-item[data-pid="143306978"]
+ceneo.pl##.js_category-list-item[data-pid="74825667"]
+ceneo.pl##.js_category-list-item[data-pid="171549900"]
+ceneo.pl##.js_category-list-item[data-pid="63454677"]
+ceneo.pl##.js_category-list-item[data-pid="146718908"]
+ceneo.pl##.js_category-list-item[data-pid="171550205"]
+ceneo.pl##.js_category-list-item[data-pid="143306979"]
+ceneo.pl##.js_category-list-item[data-pid="50216781"]
+ceneo.pl##.js_category-list-item[data-pid="187725912"]
+ceneo.pl##.js_category-list-item[data-pid="188791956"]
+ceneo.pl##.js_category-list-item[data-pid="50216783"]
+ceneo.pl##.js_category-list-item[data-pid="95091163"]
+ceneo.pl##.js_category-list-item[data-pid="92223323"]
+ceneo.pl##.js_category-list-item[data-pid="94702350"]
+ceneo.pl##.js_category-list-item[data-pid="81876496"]
+ceneo.pl##.js_category-list-item[data-pid="92191286"]
+ceneo.pl##.js_category-list-item[data-pid="103506142"]
+ceneo.pl##.js_category-list-item[data-pid="135399725"]
+ceneo.pl##.js_category-list-item[data-pid="103504160"]
+ceneo.pl##.js_category-list-item[data-pid="105695627"]
+ceneo.pl##.js_category-list-item[data-pid="64960000"]
+ceneo.pl##.js_category-list-item[data-pid="154975189"]
+ceneo.pl##.js_category-list-item[data-pid="95091027"]
+ceneo.pl##.js_category-list-item[data-pid="95091127"]
+ceneo.pl##.js_category-list-item[data-pid="135399740"]
+ceneo.pl##.js_category-list-item[data-pid="170975313"]
+ceneo.pl##.js_category-list-item[data-pid="90784011"]
+ceneo.pl##.js_category-list-item[data-pid="94702601"]
+ceneo.pl##.js_category-list-item[data-pid="149580326"]
+ceneo.pl##.js_category-list-item[data-pid="53835819"]
+ceneo.pl##.js_category-list-item[data-pid="94702348"]
+ceneo.pl##.js_category-list-item[data-pid="94702599"]
+ceneo.pl##.js_category-list-item[data-pid="165916829"]
+ceneo.pl##.js_category-list-item[data-pid="165099621"]
+ceneo.pl##.js_category-list-item[data-pid="67730054"]
+ceneo.pl##.js_category-list-item[data-pid="92382157"]
+ceneo.pl##.js_category-list-item[data-pid="126314212"]
+ceneo.pl##.js_category-list-item[data-pid="149580323"]
+ceneo.pl##.js_category-list-item[data-pid="168121788"]
+ceneo.pl##.js_category-list-item[data-pid="76293523"]
+ceneo.pl##.js_category-list-item[data-pid="165099624"]
+ceneo.pl##.js_category-list-item[data-pid="167912760"]
+ceneo.pl##.js_category-list-item[data-pid="177084492"]
+ceneo.pl##.js_category-list-item[data-pid="97520910"]
+ceneo.pl##.js_category-list-item[data-pid="163406049"]
+ceneo.pl##.js_category-list-item[data-pid="167953837"]
+ceneo.pl##.js_category-list-item[data-pid="162071489"]
+ceneo.pl##.js_category-list-item[data-pid="92787002"]
+!Głębokość: 6xcm
+ceneo.pl##.js_category-list-item[data-pid="187408571"]
+ceneo.pl##.js_category-list-item[data-pid="187408572"]
+ceneo.pl##.js_category-list-item[data-pid="174821579"]
+ceneo.pl##.js_category-list-item[data-pid="174821581"]
+ceneo.pl##.js_category-list-item[data-pid="174821580"]
+ceneo.pl##.js_category-list-item[data-pid="107408371"]
+ceneo.pl##.js_category-list-item[data-pid="152047975"]
+ceneo.pl##.js_category-list-item[data-pid="84514885"]
+ceneo.pl##.js_category-list-item[data-pid="166447255"]
+ceneo.pl##.js_category-list-item[data-pid="174771248"]
+ceneo.pl##.js_category-list-item[data-pid="134811866"]
+ceneo.pl##.js_category-list-item[data-pid="169667949"]
+ceneo.pl##.js_category-list-item[data-pid="158425338"]
+ceneo.pl##.js_category-list-item[data-pid="118437529"]
+ceneo.pl##.js_category-list-item[data-pid="160447758"]
+ceneo.pl##.js_category-list-item[data-pid="152998721"]
+ceneo.pl##.js_category-list-item[data-pid="152998722"]
+ceneo.pl##.js_category-list-item[data-pid="157059732"]
+ceneo.pl##.js_category-list-item[data-pid="160248296"]
+ceneo.pl##.js_category-list-item[data-pid="172656945"]
+ceneo.pl##.js_category-list-item[data-pid="166315534"]
+ceneo.pl##.js_category-list-item[data-pid="172656833"]
+ceneo.pl##.js_category-list-item[data-pid="156851541"]
+ceneo.pl##.js_category-list-item[data-pid="166315533"]
+ceneo.pl##.js_category-list-item[data-pid="180343490"]
+ceneo.pl##.js_category-list-item[data-pid="166343984"]
+ceneo.pl##.js_category-list-item[data-pid="154975539"]
+ceneo.pl##.js_category-list-item[data-pid="153151357"]
+ceneo.pl##.js_category-list-item[data-pid="180790734"]
+ceneo.pl##.js_category-list-item[data-pid="157044971"]
+ceneo.pl##.js_category-list-item[data-pid="178511260"]
+ceneo.pl##.js_category-list-item[data-pid="169898223"]
+ceneo.pl##.js_category-list-item[data-pid="165012231"]
+ceneo.pl##.js_category-list-item[data-pid="171123173"]
+ceneo.pl##.js_category-list-item[data-pid="180343373"]
+ceneo.pl##.js_category-list-item[data-pid="166447249"]
+ceneo.pl##.js_category-list-item[data-pid="151499605"]
+ceneo.pl##.js_category-list-item[data-pid="58303956"]
+ceneo.pl##.js_category-list-item[data-pid="186389704"]
+ceneo.pl##.js_category-list-item[data-pid="186389728"]
+ceneo.pl##.js_category-list-item[data-pid="152096871"]
+ceneo.pl##.js_category-list-item[data-pid="171123255"]
+ceneo.pl##.js_category-list-item[data-pid="106166163"]
+ceneo.pl##.js_category-list-item[data-pid="147781215"]
+ceneo.pl##.js_category-list-item[data-pid="149579378"]
+ceneo.pl##.js_category-list-item[data-pid="186389698"]
+ceneo.pl##.js_category-list-item[data-pid="186389852"]
+ceneo.pl##.js_category-list-item[data-pid="116828985"]
+ceneo.pl##.js_category-list-item[data-pid="111034475"]
+ceneo.pl##.js_category-list-item[data-pid="111496419"]
+ceneo.pl##.js_category-list-item[data-pid="120153140"]
+ceneo.pl##.js_category-list-item[data-pid="103506572"]
+ceneo.pl##.js_category-list-item[data-pid="117043627"]
+ceneo.pl##.js_category-list-item[data-pid="117043623"]
+ceneo.pl##.js_category-list-item[data-pid="134874767"]
+ceneo.pl##.js_category-list-item[data-pid="174056964"]
+ceneo.pl##.js_category-list-item[data-pid="114351796"]
+ceneo.pl##.js_category-list-item[data-pid="112057223"]
+ceneo.pl##.js_category-list-item[data-pid="112175312"]
+ceneo.pl##.js_category-list-item[data-pid="117043625"]
+ceneo.pl##.js_category-list-item[data-pid="164391452"]
+ceneo.pl##.js_category-list-item[data-pid="138444190"]
+ceneo.pl##.js_category-list-item[data-pid="152047974"]
+ceneo.pl##.js_category-list-item[data-pid="128346848"]
+ceneo.pl##.js_category-list-item[data-pid="128346845"]
+ceneo.pl##.js_category-list-item[data-pid="128346847"]
+ceneo.pl##.js_category-list-item[data-pid="118437525"]
+ceneo.pl##.js_category-list-item[data-pid="165416963"]
+ceneo.pl##.js_category-list-item[data-pid="148950670"]
+ceneo.pl##.js_category-list-item[data-pid="168121772"]
+ceneo.pl##.js_category-list-item[data-pid="165416590"]
+ceneo.pl##.js_category-list-item[data-pid="164216076"]
+ceneo.pl##.js_category-list-item[data-pid="163406784"]
+ceneo.pl##.js_category-list-item[data-pid="122231515"]
+ceneo.pl##.js_category-list-item[data-pid="112892981"]
+ceneo.pl##.js_category-list-item[data-pid="124637208"]
+ceneo.pl##.js_category-list-item[data-pid="177184707"]
+ceneo.pl##.js_category-list-item[data-pid="165913563"]
+ceneo.pl##.js_category-list-item[data-pid="180790759"]
+ceneo.pl##.js_category-list-item[data-pid="166899895"]
+ceneo.pl##.js_category-list-item[data-pid="166447326"]
+ceneo.pl##.js_category-list-item[data-pid="179699198"]
+ceneo.pl##.js_category-list-item[data-pid="156512447"]
+ceneo.pl##.js_category-list-item[data-pid="128346846"]
+ceneo.pl##.js_category-list-item[data-pid="92191256"]
+ceneo.pl##.js_category-list-item[data-pid="128346841"]
+ceneo.pl##.js_category-list-item[data-pid="166899841"]
+ceneo.pl##.js_category-list-item[data-pid="171187767"]
+ceneo.pl##.js_category-list-item[data-pid="143530486"]
+ceneo.pl##.js_category-list-item[data-pid="179502088"]
+ceneo.pl##.js_category-list-item[data-pid="160440385"]
+ceneo.pl##.js_category-list-item[data-pid="180344681"]
+ceneo.pl##.js_category-list-item[data-pid="128346838"]
+ceneo.pl##.js_category-list-item[data-pid="128346840"]
+ceneo.pl##.js_category-list-item[data-pid="94702390"]
+ceneo.pl##.js_category-list-item[data-pid="105691419"]
+ceneo.pl##.js_category-list-item[data-pid="156512441"]
+ceneo.pl##.js_category-list-item[data-pid="156512443"]
+ceneo.pl##.js_category-list-item[data-pid="128498070"]
+ceneo.pl##.js_category-list-item[data-pid="171456624"]
+ceneo.pl##.js_category-list-item[data-pid="174821576"]
+ceneo.pl##.js_category-list-item[data-pid="128346837"]
+ceneo.pl##.js_category-list-item[data-pid="180790857"]
+ceneo.pl##.js_category-list-item[data-pid="128346836"]
+ceneo.pl##.js_category-list-item[data-pid="167186811"]
+ceneo.pl##.js_category-list-item[data-pid="167186791"]
+ceneo.pl##.js_category-list-item[data-pid="168121762"]
+ceneo.pl##.js_category-list-item[data-pid="152048045"]
+ceneo.pl##.js_category-list-item[data-pid="171122977"]
+ceneo.pl##.js_category-list-item[data-pid="26806905"]
+ceneo.pl##.js_category-list-item[data-pid="171122923"]
+ceneo.pl##.js_category-list-item[data-pid="182961878"]
+ceneo.pl##.js_category-list-item[data-pid="124090800"]
+ceneo.pl##.js_category-list-item[data-pid="97049329"]
+ceneo.pl##.js_category-list-item[data-pid="182961880"]
+ceneo.pl##.js_category-list-item[data-pid="182961870"]
+ceneo.pl##.js_category-list-item[data-pid="172656896"]
+ceneo.pl##.js_category-list-item[data-pid="95091123"]
+ceneo.pl##.js_category-list-item[data-pid="182961890"]
+ceneo.pl##.js_category-list-item[data-pid="182961867"]
+ceneo.pl##.js_category-list-item[data-pid="182961872"]
+ceneo.pl##.js_category-list-item[data-pid="188791955"]
+ceneo.pl##.js_category-list-item[data-pid="177184068"]
+ceneo.pl##.js_category-list-item[data-pid="188791957"]
+ceneo.pl##.js_category-list-item[data-pid="171122904"]
+ceneo.pl##.js_category-list-item[data-pid="67285999"]
+ceneo.pl##.js_category-list-item[data-pid="135398630"]
+ceneo.pl##.js_category-list-item[data-pid="159125629"]
+ceneo.pl##.js_category-list-item[data-pid="175007518"]
+ceneo.pl##.js_category-list-item[data-pid="135398647"]
+ceneo.pl##.js_category-list-item[data-pid="109315847"]
+ceneo.pl##.js_category-list-item[data-pid="171122900"]
+ceneo.pl##.js_category-list-item[data-pid="167186798"]
+ceneo.pl##.js_category-list-item[data-pid="177065424"]
+ceneo.pl##.js_category-list-item[data-pid="109315853"]
+ceneo.pl##.js_category-list-item[data-pid="167186817"]
+ceneo.pl##.js_category-list-item[data-pid="160447869"]
+ceneo.pl##.js_category-list-item[data-pid="171187633"]
+ceneo.pl##.js_category-list-item[data-pid="171187652"]
+ceneo.pl##.js_category-list-item[data-pid="129585240"]
+ceneo.pl##.js_category-list-item[data-pid="88809244"]
+ceneo.pl##.js_category-list-item[data-pid="93731238"]
+ceneo.pl##.js_category-list-item[data-pid="160447868"]
+ceneo.pl##.js_category-list-item[data-pid="187942844"]
+ceneo.pl##.js_category-list-item[data-pid="180343550"]
+ceneo.pl##.js_category-list-item[data-pid="180790836"]
+ceneo.pl##.js_category-list-item[data-pid="131307497"]
+ceneo.pl##.js_category-list-item[data-pid="103504812"]
+ceneo.pl##.js_category-list-item[data-pid="153150311"]
+ceneo.pl##.js_category-list-item[data-pid="50216788"]
+ceneo.pl##.js_category-list-item[data-pid="50216790"]
+ceneo.pl##.js_category-list-item[data-pid="166664031"]
+ceneo.pl##.js_category-list-item[data-pid="51739458"]
+ceneo.pl##.js_category-list-item[data-pid="117824996"]
+ceneo.pl##.js_category-list-item[data-pid="117780882"]
+ceneo.pl##.js_category-list-item[data-pid="135398936"]
+ceneo.pl##.js_category-list-item[data-pid="50216793"]
+ceneo.pl##.js_category-list-item[data-pid="105691450"]
+ceneo.pl##.js_category-list-item[data-pid="157044972"]
+ceneo.pl##.js_category-list-item[data-pid="167029797"]
+ceneo.pl##.js_category-list-item[data-pid="74825693"]
+ceneo.pl##.js_category-list-item[data-pid="140854018"]
+ceneo.pl##.js_category-list-item[data-pid="69787146"]
+ceneo.pl##.js_category-list-item[data-pid="112677674"]
+ceneo.pl##.js_category-list-item[data-pid="165916852"]
+ceneo.pl##.js_category-list-item[data-pid="26149664"]
+ceneo.pl##.js_category-list-item[data-pid="41106618"]
+ceneo.pl##.js_category-list-item[data-pid="103505295"]
+ceneo.pl##.js_category-list-item[data-pid="156453077"]
+ceneo.pl##.js_category-list-item[data-pid="166664033"]
+ceneo.pl##.js_category-list-item[data-pid="137020034"]
+ceneo.pl##.js_category-list-item[data-pid="129585435"]
+ceneo.pl##.js_category-list-item[data-pid="166900050"]
+ceneo.pl##.js_category-list-item[data-pid="137680292"]
+ceneo.pl##.js_category-list-item[data-pid="151276406"]
+ceneo.pl##.js_category-list-item[data-pid="151276408"]
+ceneo.pl##.js_category-list-item[data-pid="151276410"]
+ceneo.pl##.js_category-list-item[data-pid="151276403"]
+ceneo.pl##.js_category-list-item[data-pid="151276401"]
+ceneo.pl##.js_category-list-item[data-pid="151276405"]
+ceneo.pl##.js_category-list-item[data-pid="151276412"]
+ceneo.pl##.js_category-list-item[data-pid="165916854"]
+ceneo.pl##.js_category-list-item[data-pid="157044970"]
+ceneo.pl##.js_category-list-item[data-pid="153151424"]
+ceneo.pl##.js_category-list-item[data-pid="174653150"]
+ceneo.pl##.js_category-list-item[data-pid="149580390"]
+ceneo.pl##.js_category-list-item[data-pid="165304299"]
+ceneo.pl##.js_category-list-item[data-pid="174653035"]
+ceneo.pl##.js_category-list-item[data-pid="167186789"]
+ceneo.pl##.js_category-list-item[data-pid="167186864"]
+ceneo.pl##.js_category-list-item[data-pid="174653193"]
+ceneo.pl##.js_category-list-item[data-pid="176493381"]
+ceneo.pl##.js_category-list-item[data-pid="98485902"]
+ceneo.pl##.js_category-list-item[data-pid="157044969"]
+ceneo.pl##.js_category-list-item[data-pid="67285987"]
+ceneo.pl##.js_category-list-item[data-pid="167029800"]
+ceneo.pl##.js_category-list-item[data-pid="81856845"]
+ceneo.pl##.js_category-list-item[data-pid="155887990"]
+ceneo.pl##.js_category-list-item[data-pid="129585429"]
+ceneo.pl##.js_category-list-item[data-pid="82642454"]
+ceneo.pl##.js_category-list-item[data-pid="67285988"]
+ceneo.pl##.js_category-list-item[data-pid="153148529"]
+ceneo.pl##.js_category-list-item[data-pid="166029506"]
+ceneo.pl##.js_category-list-item[data-pid="67285986"]
+ceneo.pl##.js_category-list-item[data-pid="166029505"]
+ceneo.pl##.js_category-list-item[data-pid="112432223"]
+ceneo.pl##.js_category-list-item[data-pid="180790816"]
+ceneo.pl##.js_category-list-item[data-pid="174821578"]
+ceneo.pl##.js_category-list-item[data-pid="160754337"]
+ceneo.pl##.js_category-list-item[data-pid="168121782"]
+ceneo.pl##.js_category-list-item[data-pid="105691439"]
+ceneo.pl##.js_category-list-item[data-pid="174821577"]
+ceneo.pl##.js_category-list-item[data-pid="106167020"]
+ceneo.pl##.js_category-list-item[data-pid="41106617"]
+ceneo.pl##.js_category-list-item[data-pid="152097007"]
+ceneo.pl##.js_category-list-item[data-pid="105691557"]
+ceneo.pl##.js_category-list-item[data-pid="158870010"]
+ceneo.pl##.js_category-list-item[data-pid="167186842"]
+ceneo.pl##.js_category-list-item[data-pid="185282620"]
+!Nieregulowane
+ceneo.pl##.js_category-list-item[data-pid="97019305"]
+ceneo.pl##.js_category-list-item[data-pid="105692267"]
+ceneo.pl##.js_category-list-item[data-pid="105696837"]
+ceneo.pl##.js_category-list-item[data-pid="105691540"]
+ceneo.pl##.js_category-list-item[data-pid="151733302"]
+ceneo.pl##.js_category-list-item[data-pid="98223126"]
+ceneo.pl##.js_category-list-item[data-pid="180343910"]
+ceneo.pl##.js_category-list-item[data-pid="53835621"]
+ceneo.pl##.js_category-list-item[data-pid="153852229"]
+ceneo.pl##.js_category-list-item[data-pid="124356861"]
+ceneo.pl##.js_category-list-item[data-pid="168332196"]
+ceneo.pl##.js_category-list-item[data-pid="151733305"]
+ceneo.pl##.js_category-list-item[data-pid="171543074"]
+ceneo.pl##.js_category-list-item[data-pid="171187678"]
+ceneo.pl##.js_category-list-item[data-pid="139775458"]
+ceneo.pl##.js_category-list-item[data-pid="139775508"]
+ceneo.pl##.js_category-list-item[data-pid="139775498"]
+ceneo.pl##.js_category-list-item[data-pid="108331261"]
+ceneo.pl##.js_category-list-item[data-pid="157966996"]
+ceneo.pl##.js_category-list-item[data-pid="156593859"]
+ceneo.pl##.js_category-list-item[data-pid="117949074"]
+ceneo.pl##.js_category-list-item[data-pid="114005978"]
+ceneo.pl##.js_category-list-item[data-pid="113597087"]
+ceneo.pl##.js_category-list-item[data-pid="92191302"]
+ceneo.pl##.js_category-list-item[data-pid="177084522"]
+ceneo.pl##.js_category-list-item[data-pid="171187697"]
+ceneo.pl##.js_category-list-item[data-pid="135399722"]
+ceneo.pl##.js_category-list-item[data-pid="112059262"]
+ceneo.pl##.js_category-list-item[data-pid="152048027"]
+ceneo.pl##.js_category-list-item[data-pid="72826756"]
+ceneo.pl##.js_category-list-item[data-pid="183881938"]
+ceneo.pl##.js_category-list-item[data-pid="82556992"]
+ceneo.pl##.js_category-list-item[data-pid="139167563"]
+ceneo.pl##.js_category-list-item[data-pid="96366981"]
+ceneo.pl##.js_category-list-item[data-pid="118000172"]
+ceneo.pl##.js_category-list-item[data-pid="118000254"]
+ceneo.pl##.js_category-list-item[data-pid="50216802"]
+ceneo.pl##.js_category-list-item[data-pid="119742108"]
+ceneo.pl##.js_category-list-item[data-pid="173056375"]
+ceneo.pl##.js_category-list-item[data-pid="154216647"]
+ceneo.pl##.js_category-list-item[data-pid="135398973"]
+ceneo.pl##.js_category-list-item[data-pid="135398968"]
+ceneo.pl##.js_category-list-item[data-pid="154216643"]
+ceneo.pl##.js_category-list-item[data-pid="67285998"]
+ceneo.pl##.js_category-list-item[data-pid="169577004"]
+ceneo.pl##.js_category-list-item[data-pid="155011185"]
+ceneo.pl##.js_category-list-item[data-pid="103505359"]
+ceneo.pl##.js_category-list-item[data-pid="155052735"]
+ceneo.pl##.js_category-list-item[data-pid="97520934"]
+ceneo.pl##.js_category-list-item[data-pid="102717923"]
+ceneo.pl##.js_category-list-item[data-pid="92316348"]
+ceneo.pl##.js_category-list-item[data-pid="102717924"]
+ceneo.pl##.js_category-list-item[data-pid="157044908"]
+ceneo.pl##.js_category-list-item[data-pid="186932816"]
+ceneo.pl##.js_category-list-item[data-pid="187390086"]
+ceneo.pl##.js_category-list-item[data-pid="163407327"]
+ceneo.pl##.js_category-list-item[data-pid="136394187"]
+ceneo.pl##.js_category-list-item[data-pid="151733300"]
+ceneo.pl##.js_category-list-item[data-pid="122232662"]
+ceneo.pl##.js_category-list-item[data-pid="143306974"]
+ceneo.pl##.js_category-list-item[data-pid="152790885"]
+ceneo.pl##.js_category-list-item[data-pid="29985588"]
+ceneo.pl##.js_category-list-item[data-pid="141326830"]
+ceneo.pl##.js_category-list-item[data-pid="52325096"]
+ceneo.pl##.js_category-list-item[data-pid="143306975"]
+ceneo.pl##.js_category-list-item[data-pid="176905513"]
+ceneo.pl##.js_category-list-item[data-pid="179301434"]
+ceneo.pl##.js_category-list-item[data-pid="168070788"]
+ceneo.pl##.js_category-list-item[data-pid="102644421"]
+ceneo.pl##.js_category-list-item[data-pid="154859973"]
+ceneo.pl##.js_category-list-item[data-pid="183702994"]
+ceneo.pl##.js_category-list-item[data-pid="183454844"]
+ceneo.pl##.js_category-list-item[data-pid="101503315"]
+ceneo.pl##.js_category-list-item[data-pid="160440403"]
+ceneo.pl##.js_category-list-item[data-pid="171122868"]
+ceneo.pl##.js_category-list-item[data-pid="106166269"]
+ceneo.pl##.js_category-list-item[data-pid="175007415"]
+ceneo.pl##.js_category-list-item[data-pid="187391340"]
+ceneo.pl##.js_category-list-item[data-pid="160447761"]
+ceneo.pl##.js_category-list-item[data-pid="145381653"]
+ceneo.pl##.js_category-list-item[data-pid="106166401"]
+ceneo.pl##.js_category-list-item[data-pid="183798122"]
+ceneo.pl##.js_category-list-item[data-pid="95091131"]
+ceneo.pl##.js_category-list-item[data-pid="94702458"]
+ceneo.pl##.js_category-list-item[data-pid="139932431"]
+ceneo.pl##.js_category-list-item[data-pid="183877301"]
+ceneo.pl##.js_category-list-item[data-pid="183800671"]
+ceneo.pl##.js_category-list-item[data-pid="167957629"]
+ceneo.pl##.js_category-list-item[data-pid="136884541"]
+ceneo.pl##.js_category-list-item[data-pid="97520933"]
+ceneo.pl##.js_category-list-item[data-pid="102169967"]
+ceneo.pl##.js_category-list-item[data-pid="167953480"]
+ceneo.pl##.js_category-list-item[data-pid="100574926"]
+ceneo.pl##.js_category-list-item[data-pid="136390627"]
+ceneo.pl##.js_category-list-item[data-pid="133911125"]
+ceneo.pl##.js_category-list-item[data-pid="179321517"]
+ceneo.pl##.js_category-list-item[data-pid="175007479"]
+ceneo.pl##.js_category-list-item[data-pid="167029896"]
+ceneo.pl##.js_category-list-item[data-pid="169217348"]
+ceneo.pl##.js_category-list-item[data-pid="134812464"]
+ceneo.pl##.js_category-list-item[data-pid="153924835"]
+ceneo.pl##.js_category-list-item[data-pid="165647775"]
+ceneo.pl##.js_category-list-item[data-pid="165647794"]
+ceneo.pl##.js_category-list-item[data-pid="165647806"]
+ceneo.pl##.js_category-list-item[data-pid="165647808"]
+ceneo.pl##.js_category-list-item[data-pid="165647820"]
+ceneo.pl##.js_category-list-item[data-pid="165647815"]
+ceneo.pl##.js_category-list-item[data-pid="165647827"]
+ceneo.pl##.js_category-list-item[data-pid="165647829"]
+ceneo.pl##.js_category-list-item[data-pid="165647817"]
+ceneo.pl##.js_category-list-item[data-pid="165647807"]
+ceneo.pl##.js_category-list-item[data-pid="165647781"]
+ceneo.pl##.js_category-list-item[data-pid="165647788"]
+ceneo.pl##.js_category-list-item[data-pid="165647821"]
+ceneo.pl##.js_category-list-item[data-pid="165647795"]
+ceneo.pl##.js_category-list-item[data-pid="165647778"]
+ceneo.pl##.js_category-list-item[data-pid="165647830"]
+ceneo.pl##.js_category-list-item[data-pid="165647789"]
+ceneo.pl##.js_category-list-item[data-pid="165647810"]
+ceneo.pl##.js_category-list-item[data-pid="165647819"]
+ceneo.pl##.js_category-list-item[data-pid="165647812"]
+ceneo.pl##.js_category-list-item[data-pid="165647823"]
+ceneo.pl##.js_category-list-item[data-pid="165647785"]
+ceneo.pl##.js_category-list-item[data-pid="165647797"]
+ceneo.pl##.js_category-list-item[data-pid="165647824"]
+ceneo.pl##.js_category-list-item[data-pid="165647811"]
+ceneo.pl##.js_category-list-item[data-pid="165647792"]
+ceneo.pl##.js_category-list-item[data-pid="165647813"]
+ceneo.pl##.js_category-list-item[data-pid="165647770"]
+ceneo.pl##.js_category-list-item[data-pid="165647822"]
+ceneo.pl##.js_category-list-item[data-pid="165647779"]
+ceneo.pl##.js_category-list-item[data-pid="165647793"]
+ceneo.pl##.js_category-list-item[data-pid="165647816"]
+ceneo.pl##.js_category-list-item[data-pid="165647828"]
+ceneo.pl##.js_category-list-item[data-pid="165647790"]
+ceneo.pl##.js_category-list-item[data-pid="165647809"]
+ceneo.pl##.js_category-list-item[data-pid="165647773"]
+ceneo.pl##.js_category-list-item[data-pid="165647818"]
+ceneo.pl##.js_category-list-item[data-pid="165647777"]
+ceneo.pl##.js_category-list-item[data-pid="165647825"]
+ceneo.pl##.js_category-list-item[data-pid="165647787"]
+ceneo.pl##.js_category-list-item[data-pid="165647832"]
+ceneo.pl##.js_category-list-item[data-pid="165647796"]
+ceneo.pl##.js_category-list-item[data-pid="165647791"]
+ceneo.pl##.js_category-list-item[data-pid="165647831"]
+ceneo.pl##.js_category-list-item[data-pid="165647826"]
+ceneo.pl##.js_category-list-item[data-pid="165647814"]
+ceneo.pl##.js_category-list-item[data-pid="165647833"]
+ceneo.pl##.js_category-list-item[data-pid="165647783"]
+ceneo.pl##.js_category-list-item[data-pid="92786989"]
+ceneo.pl##.js_category-list-item[data-pid="94702196"]
+ceneo.pl##.js_category-list-item[data-pid="152048001"]
+ceneo.pl##.js_category-list-item[data-pid="152048004"]
+ceneo.pl##.js_category-list-item[data-pid="152048000"]
+ceneo.pl##.js_category-list-item[data-pid="152048005"]
+ceneo.pl##.js_category-list-item[data-pid="152047994"]
+ceneo.pl##.js_category-list-item[data-pid="152048003"]
+ceneo.pl##.js_category-list-item[data-pid="152048002"]
+ceneo.pl##.js_category-list-item[data-pid="152047999"]
+ceneo.pl##.js_category-list-item[data-pid="133911105"]
+ceneo.pl##.js_category-list-item[data-pid="128603048"]
+ceneo.pl##.js_category-list-item[data-pid="165916853"]
+ceneo.pl##.js_category-list-item[data-pid="50216791"]
+ceneo.pl##.js_category-list-item[data-pid="51456509"]
+ceneo.pl##.js_category-list-item[data-pid="55696980"]
+ceneo.pl##.js_category-list-item[data-pid="174771258"]
+ceneo.pl##.js_category-list-item[data-pid="87360104"]
+ceneo.pl##.js_category-list-item[data-pid="143750168"]
+ceneo.pl##.js_category-list-item[data-pid="143750164"]
+ceneo.pl##.js_category-list-item[data-pid="117871755"]
+ceneo.pl##.js_category-list-item[data-pid="170698242"]
+ceneo.pl##.js_category-list-item[data-pid="186389946"]
+ceneo.pl##.js_category-list-item[data-pid="100804846"]
+ceneo.pl##.js_category-list-item[data-pid="177246101"]
+ceneo.pl##.js_category-list-item[data-pid="177272051"]
+ceneo.pl##.js_category-list-item[data-pid="175965971"]
+ceneo.pl##.js_category-list-item[data-pid="105695512"]
+ceneo.pl##.js_category-list-item[data-pid="92223390"]
+ceneo.pl##.js_category-list-item[data-pid="92223391"]
+ceneo.pl##.js_category-list-item[data-pid="92223378"]
+ceneo.pl##.js_category-list-item[data-pid="113496866"]
+ceneo.pl##.js_category-list-item[data-pid="64959982"]
+ceneo.pl##.js_category-list-item[data-pid="74866788"]
+ceneo.pl##.js_category-list-item[data-pid="180342884"]
+ceneo.pl##.js_category-list-item[data-pid="100790040"]
+!Brak blatu
+ceneo.pl##.js_category-list-item[data-pid="149580540"]
+!Reklama - oferty sklepów
+ceneo.pl##aside.prom-products
+!Zerknij tutaj
+!Zobacz także
+!Warto zobaczyć
+ceneo.pl##div.js_rec-container
+ceneo.pl##.js_category-list-item[data-pid="194982146"]
+ceneo.pl##.js_category-list-item[data-pid="123692254"]
+ceneo.pl##.js_category-list-item[data-pid="129588291"]
+ceneo.pl##.js_category-list-item[data-pid="131906693"]
+ceneo.pl##.js_category-list-item[data-pid="129588298"]
+ceneo.pl##.js_category-list-item[data-pid="174599983"]
+ceneo.pl##.js_category-list-item[data-pid="147430803"]
+ceneo.pl##.js_category-list-item[data-pid="129588294"]
+ceneo.pl##.js_category-list-item[data-pid="114006051"]
+ceneo.pl##.js_category-list-item[data-pid="95159753"]
+ceneo.pl##.js_category-list-item[data-pid="114006050"]
+ceneo.pl##.js_category-list-item[data-pid="160820865"]
+ceneo.pl##.js_category-list-item[data-pid="184641898"]
+ceneo.pl##.js_category-list-item[data-pid="123693795"]
+ceneo.pl##.js_category-list-item[data-pid="124985582"]
+ceneo.pl##.js_category-list-item[data-pid="97897092"]
+ceneo.pl##.js_category-list-item[data-pid="165115331"]
+ceneo.pl##.js_category-list-item[data-pid="125398571"]
+ceneo.pl##.js_category-list-item[data-pid="83627794"]
+ceneo.pl##.js_category-list-item[data-pid="114006052"]
+ceneo.pl##.js_category-list-item[data-pid="114006054"]
+ceneo.pl##.js_category-list-item[data-pid="125398573"]
+ceneo.pl##.js_category-list-item[data-pid="174599979"]
+ceneo.pl##.js_category-list-item[data-pid="158032512"]
+ceneo.pl##.js_category-list-item[data-pid="157444601"]
+ceneo.pl##.js_category-list-item[data-pid="157444603"]
+ceneo.pl##.js_category-list-item[data-pid="179064474"]
+ceneo.pl##.js_category-list-item[data-pid="192954180"]
+ceneo.pl##.js_category-list-item[data-pid="122219681"]
+ceneo.pl##.js_category-list-item[data-pid="179874652"]
+ceneo.pl##.js_category-list-item[data-pid="122219987"]
+ceneo.pl##.js_category-list-item[data-pid="173662094"]
+ceneo.pl##.js_category-list-item[data-pid="112671913"]
+ceneo.pl##.js_category-list-item[data-pid="108481489"]
+ceneo.pl##.js_category-list-item[data-pid="129588195"]
+ceneo.pl##.js_category-list-item[data-pid="154671963"]
+ceneo.pl##.js_category-list-item[data-pid="157444612"]
+ceneo.pl##.js_category-list-item[data-pid="129588187"]
+ceneo.pl##.js_category-list-item[data-pid="165817470"]
+ceneo.pl##.js_category-list-item[data-pid="157444606"]
+ceneo.pl##.js_category-list-item[data-pid="193640126"]
+ceneo.pl##.js_category-list-item[data-pid="185414746"]
+ceneo.pl##.js_category-list-item[data-pid="194301487"]
+ceneo.pl##.js_category-list-item[data-pid="123604204"]
+ceneo.pl##.js_category-list-item[data-pid="154672081"]
+ceneo.pl##.js_category-list-item[data-pid="170975250"]
+ceneo.pl##.js_category-list-item[data-pid="157044934"]
+ceneo.pl##.js_category-list-item[data-pid="117666213"]
+ceneo.pl##.js_category-list-item[data-pid="165756685"]
+ceneo.pl##.js_category-list-item[data-pid="193590151"]
+ceneo.pl##.js_category-list-item[data-pid="193986508"]
+ceneo.pl##.js_category-list-item[data-pid="193762817"]
+ceneo.pl##.js_category-list-item[data-pid="131906900"]
+ceneo.pl##.js_category-list-item[data-pid="76071814"]
+ceneo.pl##.js_category-list-item[data-pid="38945666"]
+ceneo.pl##.js_category-list-item[data-pid="193583328"]
+ceneo.pl##.js_category-list-item[data-pid="193253556"]
+ceneo.pl##.js_category-list-item[data-pid="51736974"]
+ceneo.pl##.js_category-list-item[data-pid="123693802"]
+ceneo.pl##.js_category-list-item[data-pid="173070214"]
+ceneo.pl##.js_category-list-item[data-pid="156595107"]
+ceneo.pl##.js_category-list-item[data-pid="68381140"]
+ceneo.pl##.js_category-list-item[data-pid="192942405"]
+ceneo.pl##.js_category-list-item[data-pid="179803453"]
+ceneo.pl##.js_category-list-item[data-pid="153148526"]
+ceneo.pl##.js_category-list-item[data-pid="191213702"]
+ceneo.pl##.js_category-list-item[data-pid="106744146"]
+ceneo.pl##.js_category-list-item[data-pid="107311340"]
+ceneo.pl##.js_category-list-item[data-pid="154216691"]
+ceneo.pl##.js_category-list-item[data-pid="156595109"]
+ceneo.pl##.js_category-list-item[data-pid="154260617"]
+ceneo.pl##.js_category-list-item[data-pid="194300712"]
+ceneo.pl##.js_category-list-item[data-pid="57178705"]
+ceneo.pl##.js_category-list-item[data-pid="165417014"]
+ceneo.pl##.js_category-list-item[data-pid="155009084"]
+ceneo.pl##.js_category-list-item[data-pid="140828024"]
+ceneo.pl##.js_category-list-item[data-pid="115456129"]
+ceneo.pl##.js_category-list-item[data-pid="193585027"]
+ceneo.pl##.js_category-list-item[data-pid="180811926"]
+ceneo.pl##.js_category-list-item[data-pid="108253212"]
+ceneo.pl##.js_category-list-item[data-pid="187943010"]
+ceneo.pl##.js_category-list-item[data-pid="100545418"]
+ceneo.pl##.js_category-list-item[data-pid="100545505"]
+ceneo.pl##.js_category-list-item[data-pid="178510861"]
+ceneo.pl##.js_category-list-item[data-pid="98794083"]
+ceneo.pl##.js_category-list-item[data-pid="180344268"]
+ceneo.pl##.js_category-list-item[data-pid="96330342"]
+ceneo.pl##.js_category-list-item[data-pid="163406046"]
+ceneo.pl##.js_category-list-item[data-pid="163602457"]
+ceneo.pl##.js_category-list-item[data-pid="100545555"]
+ceneo.pl##.js_category-list-item[data-pid="131907481"]
+ceneo.pl##.js_category-list-item[data-pid="92173080"]
+ceneo.pl##.js_category-list-item[data-pid="176867151"]
+ceneo.pl##.js_category-list-item[data-pid="163406002"]
+ceneo.pl##.js_category-list-item[data-pid="170023957"]
+ceneo.pl##.js_category-list-item[data-pid="95155163"]
+ceneo.pl##.js_category-list-item[data-pid="91758586"]
+ceneo.pl##.js_category-list-item[data-pid="173664329"]
+ceneo.pl##.js_category-list-item[data-pid="173660888"]
+ceneo.pl##.js_category-list-item[data-pid="56998466"]
+ceneo.pl##.js_category-list-item[data-pid="173664161"]
+ceneo.pl##.js_category-list-item[data-pid="173663801"]
+ceneo.pl##.js_category-list-item[data-pid="76725556"]
+ceneo.pl##.js_category-list-item[data-pid="58303947"]
+ceneo.pl##.js_category-list-item[data-pid="173665016"]
+ceneo.pl##.js_category-list-item[data-pid="173665018"]
+ceneo.pl##.js_category-list-item[data-pid="163406879"]
+ceneo.pl##.js_category-list-item[data-pid="98419865"]
+ceneo.pl##.js_category-list-item[data-pid="113493783"]
+ceneo.pl##.js_category-list-item[data-pid="136747519"]
+ceneo.pl##.js_category-list-item[data-pid="88336390"]
+ceneo.pl##.js_category-list-item[data-pid="aaaaaaaaaaa"]
+
+!Priorytet próby odtworzenia: 2
+!||stream.kick.com/*/ivs/v1/*/*/2026/*/*/media/hls/master.m3u8
+!-->
+!||stream.kick.com/*/ivs/v1/*/*/2026/*/*/media/hls/*/playlist.m3u8
+!Potem nie działa odtwarzanie
+!||stream.kick.com/*/media/hls/master.m3u8
+!||kick.com/api/v1/video/
+||centrumpoduszek.pl/cdn/shop/videos/
+||centrumpoduszek.pl/products.json?
+centrumpoduszek.pl##+js(aeld)
+centrumpoduszek.pl##+js(aeld, contextmenu, preventDefault)
 
 cheaplann.com###startButton, #newtimer, #message, #getmylink, #getlink, #nextpage:others()
 
@@ -2320,7 +3038,6 @@ geeksforgeeks.org##:is(article[id]):others()
 geeksforgeeks.org##div.textBasedMannualAds_2
 geeksforgeeks.org##.make_sticky:style(top: 0px !important;)
 
-
 @@||edipresse.hit.gemius.pl/hitredir?$document,first-party
 !@@||tvn.hit.gemius.pl/*/redot.js/
 !@@||tvn.hit.gemius.pl/*/redot.js?
@@ -2392,8 +3109,8 @@ yjiur.xyz,gold-24.net,to-travel.net##+js(aopr, document.onkeydown)
 yjiur.xyz,gold-24.net,to-travel.net##+js(aopr, document.oncontextmenu)
 yjiur.xyz,gold-24.net,to-travel.net###primary:style(float: none !important; width: 100% !important;)
 yjiur.xyz,gold-24.net,to-travel.net##div#linkjust-timer:style(text-align: unset !important;)
-!yjiur.xyz,gold-24.net,to-travel.net##+js(aeld)
 
+!yjiur.xyz,gold-24.net,to-travel.net##+js(aeld)
 @@||gomovies.to^$generichide
 gomovies.to##DIV.content-kuss
 
@@ -2431,6 +3148,17 @@ google.com#@##oFNiHe
 !google.com##+js(aeld)
 !google.com##+js(acs, document.oncontextmenu)
 google.com##+js(aeld, contextmenu)
+www.google.com##+js(href-sanitizer, a[href*="&imgurl="], ?imgurl)
+www.google.com##+js(href-sanitizer, a[href*="/url"], ?url)
+||accounts.google.com/ServiceLogin?authuser=0&passive=true&continue=https://photos.fife.usercontent.google.com/generate_204
+||photos.fife.usercontent.google.com/accounts/SetOSID?authuser=0&continue=https://photos.fife.usercontent.google.com/generate_204?
+||accounts.google.com/RotateCookies
+||accounts.google.com/RotateCookiesPage?
+!google.com##+js(href-sanitizer, div[data-attrid="images universal"] h3 > a[href], imgurl)
+!google.com##+js(href-sanitizer, div[data-attrid="images universal"] h3 > a, +https)
+!google.com##+js(href-sanitizer, div[data-attrid="images universal"] a[href*="&imgurl="], &imgurl)
+!www.google.com##+js(href-sanitizer, a[href*="&imgurl="], ?imgurl)
+!www.google.com##+js(href-sanitizer, a[href*="/url"], ?url)
 www.google.com##+js(href-sanitizer, a[href*="&imgurl="], ?imgurl)
 www.google.com##+js(href-sanitizer, a[href*="/url"], ?url)
 
@@ -2596,6 +3324,7 @@ iir.ai##:is(FORM#link-view, IFRAME[src*="https://www.recaptcha.net/recaptcha/api
 
 ||illallwoe.com^
 
+*$3p,script,denyallow=fastly.net,domain=imgur.com
 !Puste pole po reklamie
 ||i.imgur.com/sldD4KX.jpg
 ! 2023-03-13 https://cinemamovies.pl
@@ -2623,6 +3352,27 @@ iir.ai##:is(FORM#link-view, IFRAME[src*="https://www.recaptcha.net/recaptcha/api
 ||i.imgur.com/raYuckY.jpg
 ||imgur.com/BrnRyf6
 ||i.imgur.com/ay1Z3x2.png
+||firebaseinstallations.googleapis.com^$domain=imgur.com
+||firebase.googleapis.com^$domain=imgur.com
+||api.imgur.com/post/v1/posts?
+||api.imgur.com/comment/v1/comments?
+||api.imgur.com/post/v1/posts/
+||api.imgur.com/3/configuration/desktop?
+||api.imgur.com/account/v1/battle/user?
+!||s.imgur.com/desktop-assets/js/$script
+!$3p,script,denyallow=fastly.net,domain=imgur.com
+!||s.imgur.com/desktop-assets/js/2047.81c1cfa24d8ce9db621b.bundle.js
+||s.imgur.com/desktop-assets/js/main.6373ac0a46b25cf1b021.js
+@@||s.imgur.com/desktop-assets/js/main.6373ac0a46b25cf1b021.js
+||s.imgur.com/desktop-assets/js/3032.27dd6b66ffd52cd00103.bundle.js
+@@||s.imgur.com/desktop-assets/js/3032.27dd6b66ffd52cd00103.bundle.js
+||s.imgur.com/desktop-assets/js/4445.d67c43f0fb5cc9c95a31.bundle.js
+@@||s.imgur.com/desktop-assets/js/4445.d67c43f0fb5cc9c95a31.bundle.js
+||s.imgur.com/desktop-assets/js/2568.5e4d5edcbc3f8488a9e6.bundle.js
+@@||s.imgur.com/desktop-assets/js/2568.5e4d5edcbc3f8488a9e6.bundle.js
+||s.imgur.com/desktop-assets/js/1678.695198b83e5870c862b9.bundle.js
+@@||s.imgur.com/desktop-assets/js/1678.695198b83e5870c862b9.bundle.js
+imgur.com##:matches-path(/[^\/]+$/) div.Gallery-Content:others()
 
 ! 13.06.2020 https://www.includehelp.com
 !https://www.includehelp.com/android/List-view-setOnItemClickListener.aspx
@@ -2670,6 +3420,12 @@ infosecinstitute.com##DIV.bottom-box-right
 www.infoworld.com###editorialfakesidebardiv
 www.infoworld.com###sponsoredfakesidebardiv
 www.infoworld.com##.subscribers-position-right
+
+!https://www.instagram.com/p/DD9lIGluY56/
+instagram.com##div[style="padding-bottom:125%"]:has(> img[src*="cdninstagram.com/v/"]):first-child + div:last-child:empty
+!https://www.instagram.com/reel/DW0tsg3DMGu/
+instagram.com##video[src] + div[data-instancekey]:has(div[aria-label="Video player"])
+instagram.com##+js(set-attr, video[src], controls, true)
 
 insurancemyst.com##a#startButton, div#newtimer, div#message, button#getnewlink:others()
 
@@ -2785,6 +3541,8 @@ javatpoint.com##div#footer
 @@||st-en.jd.com/newapp/ept/static/*/utils/cookie.js$script
 
 jeja.pl###top
+!https://memy.jeja.pl/873580,spece-od-technologii.html#google_vignette
+jeja.pl##a.images-arrow-left, a.images-arrow-right
 
 !▼ Click ad & keep it open for 10 seconds to continue ▼
 !Scroll down & Click on Get Link button for your Next step
@@ -2821,6 +3579,11 @@ kcsoftwares.com,kcsoftwares-alt.com##+js(refresh-defuser)
 kcsoftwares.com,kcsoftwares-alt.com##+js(remove-attr, target, #cse-search-box a.btn, complete)
 
 ||kegsandremembrance.com^
+
+!Priorytet próby odtworzenia: 1
+||web.kick.com/api/v1/stream/*/playback
+!-->
+||web.kick.com/api/v1/stream/manifest.m3u8?init=
 
 ||kiiw.icu/js/jquery.js
 
@@ -2973,11 +3736,10 @@ lifewire.com##html:style(overflow-y: visible !important;)
 ||linegee.net^$script,badfilter
 ||linegee.net^$font,badfilter
 ||linegee.net^$image,badfilter
-linegee.net##:is(#landing, .soractrl):others()
 linegee.net##+js(aeld, , focus)
+linegee.net###landing, .soractrl, a.btn-primary:others()
+
 !linegee.net##+js(aeld)
-
-
 ||linkbucks.com/*WebResource.axd
 ||linkbucks.com/*advertise_website.gif
 ||linkbucks.com/*pop.swf
@@ -3195,6 +3957,13 @@ mongodb.com##header > .css-a6ihr1.e7t6giu1
 ! 2023-05-25 https://www.mongodb.com
 www.mongodb.com##.pencilbanner
 
+!||imgur.com^$csp=connect-src 'none';
+!||imgur.com^$csp=style-src 'none';
+!imgur.com##+js(set-attr, video, controls, true)
+!imgur.com##+js(ra, style, body[style="overflow: hidden;"])
+!AdGuard – Cookie Notices
+morele.net#@#body:style(overflow: auto !important;)
+
 ||api.morioh.com/story/fetch
 morioh.com##.col-span-12.space-y-4 > div:last-child
 morioh.com##.col-span-12.space-y-4 > div.rounded.bg-white.p-4.border-dashed.border-2.border-indigo-500
@@ -3202,6 +3971,9 @@ morioh.com##.col-span-12.space-y-4 > div.rounded.bg-white.p-4.border-dashed.bord
 !Początek: https://www.opensubtitles.org/pl/search/sublanguageid-eng/idmovie-54
 !Komunikat jak z komunikatora w dollnymm lewym rogu: "Watch or Download the Movie in HD?"
 ||moviesflix4k.work^
+
+!https://prod.outgoing.prod.webservices.mozgcp.net/v1/a8357942df2d787ae56bf292d98371d7799b0ed4bf72cd667d0c1b04098dcddb/https%3A//github.com/garywill/autoreferer
+||prod.outgoing.prod.webservices.mozgcp.net/v1/*/$urlskip=&1
 
 forum.mp3store.pl##.ipsMessage_success.ipsMessage.cAnnouncementPageTop
 
@@ -3307,6 +4079,33 @@ nytimes.com##DIV.gdpr.shown
 ! 28 kwi 2024 https://darkbox.to
 ||oboom.io/img/oboom_banner.png$image
 
+obrazkowo.pl##+js(ra, href|class, div.bg-media a.stretched-link, stay)
+!google.com##div[data-attrid="images universal"] h3 > a
+!, ?redirect
+!*$script,3p,from=imgur.com
+!@@||ajax.googleapis.com^$domain=imgur.com
+!@@||gstatic.com/firebasejs/*/firebase-app.js$domain=imgur.com
+!@@||fastly.net^$domain=imgur.com
+!||obrazkowo.pl/*/*$csp=script-src 'unsafe-inline';
+!||obrazkowo.pl/*/*$csp=script-src 'obrazkowo.pl';
+!||obrazkowo.pl/*/*$csp=script-src 'unsafe-inline';
+!||obrazkowo.pl/*/*$csp=font-src 'none';
+!||obrazkowo.pl/*/*$csp=style-src 'unsafe-inline' https://giphy.com/_next/static/css/46cb03e1e2637085.css;
+!https://obrazkowo.pl/main-D4IPFBAW.js
+!https://obrazkowo.pl/scripts-KPVY4S2J.js
+!https://obrazkowo.pl/polyfills-MH2GNY63.js
+!https://obrazkowo.pl/chunk-VMJ7OH6O.js
+!https://obrazkowo.pl/chunk-Z4OGJVLJ.js
+!||obrazkowo.pl/*/*$csp=script-src 'self';
+!||obrazkowo.pl/*/*$csp=connect-src 'none';
+!||obrazkowo.pl/*/*$csp=style-src 'none';
+!obrazkowo.pl##nav a.navbar-brand, div.bg-media:others()
+obrazkowo.pl##+js(ra, href|class, div.bg-media a.stretched-link, stay)
+!obrazkowo.pl##:matches-path(\/[a-z0-9]{32}\/) nav a.navbar-brand, div.bg-media:others()
+obrazkowo.pl##:matches-path(/\/[a-z0-9]{32}\//) nav a.navbar-brand, div.bg-media:others()
+!||obrazkowo.pl/*/*$csp=script-src 'self'; connect-src 'none'; style-src 'none';,domain=obrazkowo.pl,first-party
+/^https?:\/\/obrazkowo\.pl\/[a-z0-9]{32}\//$csp=script-src 'self'; connect-src 'none'; style-src 'none';,domain=obrazkowo.pl,first-party
+
 ||ocdn.eu/faktucs/static/assets/js/smartlink.js
 ||ocdn.eu/pulscms/MDA_/ae9ee2f410717cde6f2a5a75f4541cf0.jpg
 ||ocdn.eu/pulscms/MDA_/105fa4e24f7b18157470e53ee25aced5.png
@@ -3360,6 +4159,33 @@ olx.pl##div[data-testid="listing-grid"] > div[id]:has(div[data-testid="adCard-fe
 olx.pl##div.listing-grid-container div[id][data-cy="l-card"]:has(h4:has-text(/Precision/i):has-text(/(3510|5510|5520|7510|7520|aaaaaaaaaa)/i))
 olx.pl##div.listing-grid-container div[id][data-cy="l-card"]:has(h4:has-text(/(HP|HO)/i):has-text(/Zbook/i):has-text(/(G1|G2|G3|G4|aaaaaaaaaa)/i))
 olx.pl##div.listing-grid-container div[id][data-cy="l-card"]:has(h4:has-text(/(HP|HO)/i):has-text(/Probook/i):has-text(/(G2|G3|aaaaaaaaaa)/i))
+!olx.pl##head > link[rel="alternate"][href="https://m.olx.pl/elektronika/komputery/akcesoria-komputerowe/klawiatury/q-Logitech-k860/?search%5Border%5D=filter_float_price%3Aasc&search%5Bfilter_float_price%3Afrom%5D=50&search%5Bfilter_float_price%3Ato%5D=200"]
+!olx.pl##head > link[rel="alternate"][href="https://m.olx.pl/elektronika/komputery/akcesoria-komputerowe/klawiatury/q-Logitech-k860/?search%5Bfilter_float_price%3Afrom%5D=50&search%5Bfilter_float_price%3Ato%5D=200&search%5Border%5D=filter_float_price%3Aasc"]:upward(html) div[id][data-cy="l-card"] h4:not(:has-text(K860))
+!olx.pl##head > link[rel="alternate"][href^="https://m.olx.pl/elektronika/komputery/akcesoria-komputerowe/klawiatury/q-Logitech-k860/"][href$="search%5Bfilter_float_price%3Afrom%5D=50&search%5Bfilter_float_price%3Ato%5D=200&search%5Border%5D=filter_float_price%3Aasc"]:upward(html) div[id][data-cy="l-card"]:has(h4:not(:has-text(K860)))
+!olx.pl##head > link[rel="alternate"][href^="https://m.olx.pl/elektronika/komputery/akcesoria-komputerowe/klawiatury/q-Logitech-k860/"][href*="search%5Bfilter_float_price%3Afrom%5D="][href*="search%5Bfilter_float_price%3Ato%5D="][href$="&search%5Border%5D=filter_float_price%3Aasc"]:upward(html) div[id][data-cy="l-card"]:has(h4:not(:has-text(K860)))
+olx.pl##:matches-path(/\/q-.*Logitech.*K?860.*\//i) div[id][data-cy="l-card"]:has(h4:not(:has-text(K860)))
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(h4:has-text(/(Perixx|Periboard|Periduo)/i):has-text(/(niemieck|italian|azerty|qwertz| de|hyperx|german|azert|422|606|317|426|713|409|331|712|326|aaaaaaaaaa|aaaaaaaaaa|aaaaaaaaaa|aaaaaaaaaa|aaaaaaaaaa)/i))
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) body h1[data-testid="heading"]:has-text(/(Perixx|Periboard|Periduo)/i):upward(body) div[id][data-cy="l-card"]:has(h4:has-text(/(hyperx|zap|emprex|motospeed|steelseries|logitech|aaaaaaaaa|aaaaaaaaa|aaaaaaaaa)/i))
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-ergonomiczna-CID99-ID14iVUa.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/biurowa-klawiatura-membranowa-myszka-CID99-IDVqnEi.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/przewodowa-kompaktowa-klawiatura-usb-z-cichymi-klawiszami-CID99-ID181Faf.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-membranowa-periboard-326-CID99-ID18Chlg.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-perixx-mini-nowa-CID99-ID16KZ3O.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/perixx-periduo-605ergonomiczne-polaczenie-bezprzew-klawiatury-i-myszki-CID99-ID18sKeH.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-myszka-bezprzewodowa-perixx-periduo-606-CID99-IDY97nf.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/perixx-periboard-512-ergonomiczna-klawiatura-CID99-ID18OgaP.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-perixx-periduo605-mysz-niekompletna-CID99-ID17cExV.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/perixx-periduo-605-ergonomiczne-polaczenie-bezprzew-e-klawiat-i-myszki-CID99-ID16uk0E.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/perixx-periduo-605-ergo-ppolaczenie-bezprzewodowe-klawiatury-i-myszy-CID99-ID13hosd.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/zestaw-klawiatura-mysz-perixx-periduo-605-czarny-CID99-ID16AhCo.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-mini-perixx-usb-CID99-ID19xhEz.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-z-blokiem-numerycznym-i-myszka-perix-CID99-ID18cLvq.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/klawiatura-numeryczna-nowa-CID99-ID14iW2i.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/bezprzewodowa-pelnoklatkowa-klawiatura-z-blokiem-numerycznym-i-myszka-CID99-IDTMUk9.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/zestaw-klawiatura-i-mysz-perixx-czarny-CID99-IDXVJE4.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/perixx-periduo-505-ergonomiczna-klawiatura-i-mysz-pionowa-CID99-ID1a5zCo.html"])
+olx.pl##:matches-path(/\/q-.*(Perixx|Periboard).*\//i) div[id][data-cy="l-card"]:has(a[href*="/oferta/przewodowa-klawiatura-ze-zlaczem-usb-c-CID99-ID10yE6C.html"])
+olx.pl##div[id][data-cy="l-card"]:has(a[href*="bbbbbbbbbbbbbbbbbbbbbbbbbbb"])
 
 ||onclasrv.com
 
@@ -3555,6 +4381,43 @@ opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body a#t
 opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body a#comment_btn
 opensubtitles.org##head:has(link[rel="alternate"][href$="/short-on"]) + body span.nobr:has(a.none[href="#subvote"]) + *
 opensubtitles.org##iframe[id*="ihif"]:style(height: 550px !important;)
+!opensubtitles.org##p[itemprop]
+!opensubtitles.org##p[itemprop]:xpath('.')
+!:xpath('.[@itemprop]')
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('./input')
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li:has(input:xpath('.'))
+!opensubtitles.org##:xpath('//div/ul/li[.//label]')
+!opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]')
+!opensubtitles.org##:xpath('//div//ul//input')
+!opensubtitles.org##:xpath('//div//ul')
+!opensubtitles.org##:xpath('//div')
+![not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!Filtr po prawej stronie pola wyszukiwania
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li:has(input:xpath([@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]))
+!opensubtitles.org##input:xpath(input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")])
+!opensubtitles.org##:xpath('//div/ul/li[.//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]]')
+!opensubtitles.org##input:xpath(.[@name="multiselect_SubLanguageID"])
+!pensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li:has(input:xpath('.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]'))
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li > input:xpath('.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('.[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]'):upward(li)
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!!:upward(li)
+!opensubtitles.org##div.ui-multiselect-menu > ul.ui-multiselect-checkboxes > li input:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##:xpath('//div[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-menu ")]/ul[contains(concat(" ",normalize-space(@class)," ")," ui-multiselect-checkboxes ")]//input[@name="multiselect_SubLanguageID"]')
+!opensubtitles.org##:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]')
+!opensubtitles.org##:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or @value="eng")]')
+!opensubtitles.org##:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all")][not(@value="eng")]')
+!opensubtitles.org##:xpath('//div/ul//li[.//input[@name="multiselect_SubLanguageID"]]')
+!opensubtitles.org##:xpath('//div/ul//li[.//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]]')
+!opensubtitles.org##div.ui-multiselect-menu:has(input[value="all"][name="multiselect_SubLanguageID"]):xpath('//ul//li[.//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]]')
+!opensubtitles.org##button.ui-multiselect:watch-attr(class):upward(body) div.ui-multiselect-menu:has(input[value="all"][name="multiselect_SubLanguageID"]):xpath('//ul//li[.//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]]')
+!opensubtitles.org##:xpath('//input[@name="multiselect_SubLanguageID"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]'):upward(li)
+opensubtitles.org##input[name="multiselect_SubLanguageID"]:not([value="all"]):not([value="eng"]):not([value="pol"]):not([aria-selected="true"]):upward(li)
+!Filtr nad wierszami z wynikami wyszukiwania
+opensubtitles.org##:xpath('//div/ul//li[.//input[@name="ln_filter"][not(@value="all" or  @value="eng" or  @value="pol" or @aria-selected="true")]]')
 
 operatorzy.pl##div#glowCookies
 operatorzy.pl##+js(ra, onselectstart|onselect|oncopy, body)
@@ -3948,6 +4811,81 @@ rlsbb.ru,rlsbb.to##a[href^="http://turbobit.net/"]
 rlsbb.ru,rlsbb.to##a[href^="http://www.filefactory.com/file/"]
 rlsbb.to##article#post-10082
 rlsbb.ru,rlsbb.to##a[href^="http://protected.to/"]
+!##div.embeddedPlayer > a.videoLink:remove-attr(/href|target/)
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/279/real-time-with-bill-maher"])
+rlsbb.to##article:has(a[href="https://www.thetvdb.com/?id=252800&tab=series"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/38104/the-masked-singer"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/the-daily-show"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/74708/the-trades"])
+rlsbb.to##article:has(a[href="https://www.hbomax.com/bg/en/shows/mira-life-after-divorce/038c6251-f67c-471a-aba2-efbcec10bce2"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/43/outlander"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/56862/love-story"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/82759/9-1-1-nashville"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/28152/9-1-1"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/67/greys-anatomy"])
+rlsbb.to##article:has(a[href="https://www.thetvdb.com/series/sentenced-to-brave-punishment"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/shark-tank"])
+rlsbb.to##article:has(a[href="https://www.imdb.com/title/tt23735438/"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/80511/wild-rose"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/76569/hollywood-squares"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/84630/fear-factor-house-of-fear"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/americas-culinary-cup"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/survivor"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/55350/abbott-elementary"])
+rlsbb.to##article:has(a[href="https://www.thetvdb.com/series/highway-thru-hell"])
+rlsbb.to##article:has(a[href="https://www.imdb.com/title/tt23050736/"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/invincible-2021"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/70/the-voice"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/288/american-idol"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/73811/ncis-origins"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/68752/high-potential"])
+rlsbb.to##article:has(a[href="https://www.thetvdb.com/series/best-medicine"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/60/ncis"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/72511/allegiance"])
+rlsbb.to##article:has(a[href="http://thetvdb.com/?tab=series&id=440865"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/58323/shrinking"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/75637/imperfect-women"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/67884/doc"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/ncis-sydney"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/32158/fbi"])
+rlsbb.to##article:has(a[href="https://www.thetvdb.com/series/the-fall-and-rise-of-reggie-dinkins"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/63498/st-denis-medical"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/78789/dmv"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/35839/the-neighborhood"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/32938/the-rookie"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/593/murdoch-mysteries"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/572/american-pickers"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/263/last-week-tonight-with-john-oliver"])
+rlsbb.to##article:has(a[href="http://www.tvguide.com/tvshows/naked-and-afraid/551678/"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/67268/sullivans-crossing"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/78874/have-i-got-news-for-you"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/56/chicago-pd"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/59/chicago-fire"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/2246/chicago-med"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/1596/ufc-fight-night"])
+rlsbb.to##article:has(a[href="http://thetvdb.com/?tab=series&id=286434"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/63268/dtf-st-louis"])
+rlsbb.to##article:has(a[href="https://www.thetvdb.com/series/grace-2021"])
+rlsbb.to##article:has(a[href="http://www.tv.com/shows/wwe-nxt/"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/?tab=series&id=76177"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/saturday-night-live-uk"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/dark-winds"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/60339/fire-country"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/76487/happys-place"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/62816/beyond-paradise"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/562/law-order"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/103/law-order-special-victims-unit"])
+rlsbb.to##article:has(a[href="https://www.imdb.com/title/tt30421302/"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/55426/next-level-chef"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/90105/jury-duty-presents-company-retreat"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/74095/going-dutch"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/63266/animal-control"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/69139/law-order-toronto-criminal-intent"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/66869/elsbeth"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/46573/ghosts"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/76566/georgie-mandys-first-marriage"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/73723/lol-den-der-ler-sidst"])
+rlsbb.to##article:has(a[href="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"])
 
 ||rnuhavi.ru^
 
@@ -4314,6 +5252,9 @@ super-warez.eu##.news .bottom-info + center
 
 superpharm.pl##.history-price-wrap.active:style(height: 300px !important;)
 
+!supertech.pl##^.navigation--list
+supertech.pl##.navigation--list:remove()
+
 sweet.tv##div.epg-preview__program-day + div.epg-preview__program-options:style(max-height: calc(100vh) !important;)
 sweet.tv##div.tv__main-grid div.epg-preview__grid + div[ng-include="'/tv/devices.html' | baseUrl"]
 !sweet.tv##div.tv__main > div.video.d-flex.epg-is-closed.epg-is-opened div.to_programm_live.ng-binding.ng-scope
@@ -4646,7 +5587,6 @@ $xhr,domain=tribuntekno.com
 
 ||trumbo.site
 
-
 tusfiles.net##+js(aopw, Fingerprint2)
 tusfiles.net##+js(nowoif)
 
@@ -4763,7 +5703,6 @@ vahanjagat.in##h5[style="color:red;"], center > p[style], form[name="tp"], h4#tp
 
 !https://www.naukowiec.org/newton.html
 ||player.videoexchanger.com^$third-party
-
 
 ||vider.$document,to=~uwaga-natretne-reklamy.*|vider.*,badfilter
 
