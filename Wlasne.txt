@@ -999,6 +999,30 @@ antyweb.pl##.banner.banner--placeholder
 apkmirror.com##div.thank-you ~ div.listWidget:has(.widgetHeader:has-text(Popular In Last 7 Days))
 apkmirror.com##div.thank-you:upward(#main) #sidebar
 
+!https://www.apkmirror.com/apk/google-inc/youtube/youtube-20-40-45-release/youtube-20-40-45-2-android-apk-download/
+!https://www.apkmirror.com/apk/google-inc/youtube/youtube-20-40-45-release/youtube-20-40-45-2-android-apk-download/download/?key=ff98881b6f5337dda2b9377dbbfe72e75e351878&forcebaseapk=true
+apkmirror.com##div.listWidget > div.widgetHeader:has-text(/^Previous APKs for .+? variant/) ~ div:has(>div.appRow)
+apkmirror.com##div.listWidget > div.widgetHeader:has-text(All versions) ~ div:has(>div.appRow)
+apkmirror.com##div.listWidget:has(>h5.widgetHeader:has-text(Popular In Last 30 Days))
+apkmirror.com##div.listWidget:has(>h5.widgetHeader:has-text(Popular In Last 7 Days))
+apkmirror.com##div.listWidget:has(>h5.widgetHeader:has-text(Popular In Last 24 Hours))
+apkmirror.com##div.listWidget:has(>h5.widgetHeader:has-text(Latest Uploads))
+
+
+
+!https://www.apkmirror.com/apk/google-inc/youtube/youtube-20-40-45-release/youtube-20-40-45-2-android-apk-download/
+!EasyList
+!@@||disqus.com/embed/comments/$subdocument
+!@@||disqus.com/embed/comments/$subdocument,badfilter
+apkmirror.com##div.listWidget a[name="previous_apks"] + div.widgetHeader ~ div:has(>div.appRow)
+apkmirror.com##div.tab-pane:has(> a[name="description"])
+apkmirror.com##div.tab-pane:has(> div.row > h3.tabs-header:has-text(/trailer$/)):remove()
+apkmirror.com##div.listWidget a[name="all_releases"] + div.widgetHeader ~ div:has(>div.appRow)
+apkmirror.com##iframe[src*="disqus.com/embed/comments/"][style*="height: 0px !important;"]:style(height: unset !important;)
+||disqus.com/embed/comments/$3p,frame,redirect=click2load.html,domain=apkmirror.com,important
+||disqus.com/recommendations/$domain=apkmirror.com
+apkmirror.com##div#disqus_recommendations
+
 !https://apkpure.com/pl/sms-backup-restore/com.riteshsahu.SMSBackupRestore/download?from=details&posts=1
 apkpure.com##IFRAME#iframe_download + DIV#slide-wrap
 ||yaksgames.com^$domain=apkpure.com
