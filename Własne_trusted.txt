@@ -2,7 +2,20 @@
 ! Expires: 1 day
 
 
+!x8udx3kr.sbs,45d4f5xxx.win,videocdn-4726.website#
+!https://ssl.p.jwpcdn.com/player/v/8.37.0/jwplayer.js
+!else e.el.oncontextmenu=n=>(y(e,t,n),!1
+!||jwpcdn.com/*/jwplayer.js$replace=/else.+?e.el.oncontextmenu = n => \(.+?\(.+?\).+?\)/
+!||jwpcdn.com/*/jwplayer.js$replace=/else.+?e.el.oncontextmenu = n => \(.+?\(.+?\).+?\)//
+!||jwpcdn.com/*/jwplayer.js$replace=/else\W+e.el.oncontextmenu.+?\(.+?\(.+?\).+?\)//s
+||jwpcdn.com/*/jwplayer.js$replace=/else\W+e.el.oncontextmenu=n=>\(.+?\(.+?\).+?\)//s
 
+!Wyłączenie autostartu wideo po wejściu na stronę
+!https://www.instagram.com/reel/DZ9dZXONbm9/
+||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/\{return I.evaluateAutoplay\(k,T\)\}/{return "DENY"}/s
+||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/function e\(\)\{return"ALLOW"\}e.displayName="evaluateVideoAutoplayDefaultRule"/function e(){return"DENY"}e.displayName="evaluateVideoAutoplayDefaultRule"/s
+||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/"host_call_set_muted":a\.setMuted\(n\.payload\.muted\);break/"host_call_set_muted":break/s
+||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/case"host_call_set_muted":r\(e\.type\);/case"host_call_set_muted":/s
 
 
 actualpost.com,americanstylo.com,glowandglamcorner.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")

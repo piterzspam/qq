@@ -136,7 +136,9 @@ x8udx3kr.sbs,45d4f5xxx.win,videocdn-4726.website##+js(nosiif, wmIP)
 !||jwpcdn.com/*/jwplayer.js$replace=/.+//
 !||jwpcdn.com/*/jwplayer.js$replace=/.+//s
 !||emturbovid.com^$replace=/openNewTab\(".*?"\)/null/g
+!https://ssl.p.jwpcdn.com/player/v/8.37.0/jwplayer.js
 ||ffauqxfz.x8udx3kr.sbs/dd.js
+
 
 ||8fzyhamgc9.com^
 
@@ -1532,12 +1534,6 @@ www.cda.pl##.siddeAd.tradf
 !||jwpcdn.com/*/jwplayer.js$replace=/else\W+e.el.oncontextmenu=n=>\(.+?\(.+?\).+?\)//s
 !||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/setMuted:function\(n\)\{t.muted=n\},//s
 !||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/setMuted:function\(t,n\)\{j\.isFrozen\(\)\|\|D\(t,n\)\},//s
-!Wyłączenie autostartu wideo po wejściu na stronę
-!https://www.instagram.com/reel/DZ9dZXONbm9/
-||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/\{return I.evaluateAutoplay\(k,T\)\}/{return "DENY"}/s
-||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/function e\(\)\{return"ALLOW"\}e.displayName="evaluateVideoAutoplayDefaultRule"/function e(){return"DENY"}e.displayName="evaluateVideoAutoplayDefaultRule"/s
-||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/"host_call_set_muted":a\.setMuted\(n\.payload\.muted\);break/"host_call_set_muted":break/s
-||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/case"host_call_set_muted":r\(e\.type\);/case"host_call_set_muted":/s
 
 ||cdnpure.com/static/share-button/
 
@@ -3785,12 +3781,6 @@ journaldev.com##DIV.code-block:has(> DIV[id][class="_ap_apex_ad"])
 
 juba-get.com##+js(acis, detectAdBlock)
 
-!https://ssl.p.jwpcdn.com/player/v/8.37.0/jwplayer.js
-!else e.el.oncontextmenu=n=>(y(e,t,n),!1
-!||jwpcdn.com/*/jwplayer.js$replace=/else.+?e.el.oncontextmenu = n => \(.+?\(.+?\).+?\)/
-!||jwpcdn.com/*/jwplayer.js$replace=/else.+?e.el.oncontextmenu = n => \(.+?\(.+?\).+?\)//
-!||jwpcdn.com/*/jwplayer.js$replace=/else\W+e.el.oncontextmenu.+?\(.+?\(.+?\).+?\)//s
-||jwpcdn.com/*/jwplayer.js$replace=/else\W+e.el.oncontextmenu=n=>\(.+?\(.+?\).+?\)//s
 
 ||kappacdn.net^
 
