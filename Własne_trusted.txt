@@ -1,0 +1,49 @@
+! Title: Własne_trusted
+! Expires: 1 day
+
+
+
+
+
+actualpost.com,americanstylo.com,glowandglamcorner.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
+
+6harfli.com,askerlikforum.com.tr,dadinthemaking.com,gamerking.shop##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
+6harfli.com,quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
+
+
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "/== ?'IFRAME'/", "== 'BODY'")
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "!document.hasFocus()", "document.hasFocus()")
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "/document\.hasFocus\(\)===?false/", "document.hasFocus()")
+dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "getRandomSite", "window.location.href = randomSite;", "")
+dizok.com,adxcel.io#%#//scriptlet('prevent-element-src-loading', 'script', '/detectIncognito.min.js')
+dizok.com,adxcel.io#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{document.currentScript.remove();window.detectIncognito=()=>new Promise((e=>e({isPrivate:!0})));})();')
+
+dailytechz.info,bitzite.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
+
+
+howifx.com,yogablogfit.com##+js(trusted-set-cookie, addtl_consent, 1~, 1year)
+howifx.com,yogablogfit.com##+js(trusted-set-cookie, tracking-opt-in-status, rejected, 1year)
+howifx.com,yogablogfit.com##+js(trusted-set-cookie, euconsent-v2, CPyPo8APyPo8AAKAwBENDXCgAAAAAAAAAAwIAABBQgLAA4AD8ARYAz4B0gEeAJVATOAwQBvgDggHbAO5AgoBIgCSgEowJaATHAmSBNIIKAAA.YAAAAAAAAAAA, 1year)
+
+hiatcy.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
+hiatcy.com##+js(rpnt, script, !document.hasFocus(), true)
+hiatcy.com##+js(rpnt, script, document.hasFocus() == false, true)
+
+historyofyesterday.com,updatebackup.com##+js(rpnt, script, /= 19;|= 15;|= 14;/gm, = 7;)
+
+insurelean.com##+js(trusted-replace-node-text, script, /^([^{])/, "document.addEventListener('DOMContentLoaded',()=>{const i=document.createElement('iframe');i.style='height:0;width:0;border:0';i.id='aswift_0';document.body.appendChild(i);i.focus();const f=document.createElement('div');f.id='9JJFp';document.body.appendChild(f);});$1", sedCount, 2)
+
+jobzhub.store##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
+jobzhub.store##+js(trusted-set-cookie, ad_expire=true;, $now$)
+
+labgame.io##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
+labgame.io##+js(trusted-set-cookie, ad_expire=true;, $now$)
+
+!https://prod.outgoing.prod.webservices.mozgcp.net/v1/a8357942df2d787ae56bf292d98371d7799b0ed4bf72cd667d0c1b04098dcddb/https%3A//github.com/garywill/autoreferer
+||prod.outgoing.prod.webservices.mozgcp.net/v1/*/$urlskip=&1
+
+!quiz.subhadralist.org.in##+js(nano-sib, , , 0.02)
+!quiz.subhadralist.org.in##+js(nano-stb, , , 0.02)
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12604516
+vipvce.xyz##+js(rpnt, script, = 35, = 21)
+vipvce.xyz##+js(rpnt, script, /= 15|= 20|= 18|= 16/, = 8)

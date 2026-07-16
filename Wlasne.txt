@@ -62,9 +62,8 @@ pl#@#.adsense
 !EasyList
 /prebid_$script,3p,badfilter
 
-#mhfragristack.in#$##myNextInst { display: block !important; }
-
-#mhfragristack.in#$?##VerifyBtn { display: block !important; }
+!mhfragristack.in#$##myNextInst { display: block !important; }
+!mhfragristack.in#$?##VerifyBtn { display: block !important; }
 
 /[a-z]{8,14}\.net\/[0-9a-z]{20}\/[0-9a-z]{20}$/$inline-script,first-party
 
@@ -81,7 +80,6 @@ listofthis.com##+js(nano-stb, , , 0.02)
 !americanstylo.com##+js(nano-stb, , , 0.02)
 !beautifulfashionnailart.com##+js(aeld)
 actualpost.com,americanstylo.com,glowandglamcorner.com##+js(set-constant, document.hasFocus, trueFunc)
-actualpost.com,americanstylo.com,glowandglamcorner.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
 !flyinc olamovies
 !Open Any Article & Read It For 15 Seconds To Continue
 !If Any Article Redirecting The Page Then Right Click On Mouse To Open It In New Tab (Desktop)
@@ -89,10 +87,8 @@ actualpost.com,americanstylo.com,glowandglamcorner.com##+js(trusted-replace-node
 !You Must Stay On The Article Page To Continue!
 !Simple Steps to Start with Rinku.ME
 6harfli.com,askerlikforum.com.tr,dadinthemaking.com,gamerking.shop##+js(set-constant, document.hasFocus, trueFunc)
-6harfli.com,askerlikforum.com.tr,dadinthemaking.com,gamerking.shop##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
 !https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-9939400
 6harfli.com,quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(set, document.hasFocus, trueFunc)
-6harfli.com,quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
 6harfli.com,quins.us,mainitbd.com,newselab.com,tophistoryview.com,9sblog.com,americanstylo.com,chronoat.com,dizok.com,ecoinfotec.com,sakazi.net,ubnem.com###interstitial
 ! https://github.com/AdguardTeam/AdguardFilters/issues/200093
 @@||home.9sblog.com^$generichide
@@ -105,14 +101,9 @@ dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listo
 dizok.com,9sblog.com,ubnem.com,tirumalatirupatiyatra.in,shineads.org,azoranov.com,jenismac.com,nsw2u.*,unofficialtwrp.com,downloadlyir.com,pinsystem.co.uk,173.249.8.3,rttar.com,torrentmac.net$$script[wildcard="*split*eval(function(h,u,n,t,e,r)*"][min-length="20000"][max-length="210000"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ubnem.com|dizok.com
 @@||dizok.com^$generichide
-dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "/== ?'IFRAME'/", "== 'BODY'")
-dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "!document.hasFocus()", "document.hasFocus()")
-dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "innerHTML", "/document\.hasFocus\(\)===?false/", "document.hasFocus()")
 dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet('set-constant', 'document.hasFocus', 'trueFunc')
-dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet("trusted-replace-node-text", "script", "getRandomSite", "window.location.href = randomSite;", "")
 !dizok.com,adxcel.io#%#(()=>{window.detectIncognito=()=>new Promise((e=>e({isPrivate:!0})));})();
-dizok.com,adxcel.io#%#//scriptlet('prevent-element-src-loading', 'script', '/detectIncognito.min.js')
-dizok.com,adxcel.io#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{document.currentScript.remove();window.detectIncognito=()=>new Promise((e=>e({isPrivate:!0})));})();')
+
 
 17track.net##DIV.yq-panel-gad
 17track.net##SECTION[class^="gad-right"]
@@ -444,7 +435,7 @@ tpi.li##[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events
 @@||aliexpress.com^$generichide
 @@||zapals.com^$generichide
 aliexpress.com##DIV#j-related-products
-aliexpress.com##LI.list-item:if(I.sponsored-icon)
+aliexpress.com##LI.list-item:has(I.sponsored-icon)
 ||adservice.aliexpress.com^
 !||alicdn.com/*store-proxy$subdocument
 ||aliexpress.com/product/recommend.htm?productId=*&sceneId=*&categoryId=*&companyId=
@@ -1012,7 +1003,6 @@ dailytechz.info,bitzite.com#@#.banner-ad
 dailytechz.info,bitzite.com##+js(nostif, _0x, 500)
 dailytechz.info,bitzite.com##+js(aopw, onScriptError)
 dailytechz.info,bitzite.com##+js(aopr, localStorage)
-dailytechz.info,bitzite.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
 coingraph.us,magazine.cryptoad.org###rewardModal, .ad-728x90, .ad-300x250, .ad-300x600, .ad-970x300
 coingraph.us,magazine.cryptoad.org##tr:nth-of-type(4), tr:nth-of-type(3), tr:nth-of-type(2) > td, tr:nth-of-type(5) > td
 coingraph.us,magazine.cryptoad.org###redirectButton:style(display: block !important;)
@@ -2734,7 +2724,7 @@ driverscape.com##DIV.installer
 !Nie sortować
 !https://drivetribe.com/p/reviewed-being-nice-FOQY7K70Tl64BNtLtuNFHw?iid=Z0jN-9bARgyD5omLkZrDhg
 drivetribe.com##ARTICLE > DIV > DIV > DIV > DIV[class^="sc"]:has-text(More from Drivetribe)
-drivetribe.com##P[class^="sc-"] + DIV[class^="_"]:if(A[class^="_"][target="_blank"][href]:first-child:last-child)
+drivetribe.com##P[class^="sc-"] + DIV[class^="_"]:has(A[class^="_"][target="_blank"][href]:first-child:last-child)
 !Główny pasek "Chat Trines Drivetribe"
 drivetribe.com##HEADER > NAV#header[class^="sc-"]:first-child:style(position: absolute !important;)
 !Drugi pasek na stronie artykułu "Ikona kanału comments reposts bumps"
@@ -3087,9 +3077,6 @@ yogablogfit.com,technocubes.in,fixno.in##+js(nano-sib, , , 0.02)
 yogablogfit.com,technocubes.in,fixno.in##+js(nano-stb, , , 0.02)
 yogablogfit.com,technocubes.in,fixno.in###wpsafe-snp, #wpsafe-generate, #wpsafe-wait1, #wpsafe-wait2, .wpsafe-bottom:style(display: block !important;)
 yogablogfit.com,technocubes.in,fixno.in###wpsafe-snp, #wpsafe-generate, #wpsafe-wait1, #wpsafe-wait2, .wpsafe-bottom:others()
-howifx.com,yogablogfit.com##+js(trusted-set-cookie, addtl_consent, 1~, 1year)
-howifx.com,yogablogfit.com##+js(trusted-set-cookie, tracking-opt-in-status, rejected, 1year)
-howifx.com,yogablogfit.com##+js(trusted-set-cookie, euconsent-v2, CPyPo8APyPo8AAKAwBENDXCgAAAAAAAAAAwIAABBQgLAA4AD8ARYAz4B0gEeAJVATOAwQBvgDggHbAO5AgoBIgCSgEowJaATHAmSBNIIKAAA.YAAAAAAAAAAA, 1year)
 howifx.com,yogablogfit.com###next, #getlink:style(display: block !important;)
 howifx.com,yogablogfit.com###timer, #timer+span, #next, #scroll, #linkmsg, #getlink:others()
 !howifx.com,yogablogfit.com##+js(rmnt, #text, /^\s*[^\{\}\(\)\n\r\t]{200,}\s*$/, log, 1)
@@ -3468,9 +3455,6 @@ hexload.com##+js(acis, event, event.keyCode)
 hexload.com##+js(aopw, document.onkeydown)
 
 hiatcy.com##+js(acs, onload, handleFailure)
-hiatcy.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
-hiatcy.com##+js(rpnt, script, !document.hasFocus(), true)
-hiatcy.com##+js(rpnt, script, document.hasFocus() == false, true)
 hiatcy.com##+js(set, document.hasFocus, trueFunc)
 hiatcy.com##+js(rmnt, script, getStoredTabSwitchTime)
 hiatcy.com###click, #redirect-link, [class^="btn-"], #captcha-container, #switchCaptcha, [src*="/recaptcha/"]:others()
@@ -3487,7 +3471,6 @@ historyofyesterday.com,updatebackup.com##p, .wp-block-heading, ul, li, .rev-cont
 historyofyesterday.com,updatebackup.com###admania-commentbox, .admania-entryheader, .admania-sitefooter
 historyofyesterday.com,updatebackup.com##+js(nostif, documentElement.innerHTML)
 historyofyesterday.com,updatebackup.com##+js(set, assDidCkeDone, true)
-historyofyesterday.com,updatebackup.com##+js(rpnt, script, /= 19;|= 15;|= 14;/gm, = 7;)
 historyofyesterday.com,updatebackup.com##+js(set, document.hasFocus, trueFunc)
 
 !https://www.hitsports.club/f1.php
@@ -3501,7 +3484,7 @@ howtogeek.com##.email-overlay
 howtogeek.com##.overlay-wrapper
 !https://www.howtogeek.com/224471/how-to-prevent-windows-10-from-automatically-downloading-updates/
 ||howtogeek.com/public/popular/sidebar.js?
-howtogeek.com##P:if(>STRONG:has-text(RELATED:)):if(EM)
+howtogeek.com##P:has(>STRONG:has-text(RELATED:)):has(EM)
 
 ! 13 maj 2024 https://www.warezbook.org
 ||i.ibb.co/tMrM08L/5056179b42b174f.jpg$image
@@ -3577,11 +3560,11 @@ includehelp.com###vi-ad
 ||cse.google.com^$domain=includehelp.com
 includehelp.com##DIV.left-panel
 includehelp.com##DIV[style="min-height: 90px;margin-bottom: 20px;"]
-includehelp.com##DIV.w3-padding:if(>INS.adsbygoogle)
+includehelp.com##DIV.w3-padding:has(>INS.adsbygoogle)
 includehelp.com##DIV#banner-12345
-includehelp.com##P.w3-yellow:if(>B:has-text(Ad:))
+includehelp.com##P.w3-yellow:has(>B:has-text(Ad:))
 includehelp.com##DIV.main-panel:style(width: 70% !important)
-includehelp.com##DIV.main-panel DIV.w3-padding:if(>P:has-text(TOP Interview Coding Problems/Challenges))
+includehelp.com##DIV.main-panel DIV.w3-padding:has(>P:has-text(TOP Interview Coding Problems/Challenges))
 includehelp.com###vi-sticky-ad
 
 ||indisputablewheelshandcuff.com^
@@ -3681,7 +3664,6 @@ insurelean.com##div#youtubeFollowStepModal
 insurelean.com##div#mgStickyBanner
 insurelean.com##+js(nostif, documentElement.innerHTML)
 insurelean.com##+js(no-fetch-if, doubleclick, , {"type": "opaque"})
-insurelean.com##+js(trusted-replace-node-text, script, /^([^{])/, "document.addEventListener('DOMContentLoaded',()=>{const i=document.createElement('iframe');i.style='height:0;width:0;border:0';i.id='aswift_0';document.body.appendChild(i);i.focus();const f=document.createElement('div');f.id='9JJFp';document.body.appendChild(f);});$1", sedCount, 2)
 insurelean.com##+js(set, document.hasFocus, trueFunc)
 
 ||gstatic.com^$domain=intercelestial.com|sweetlantern.com,important
@@ -3740,8 +3722,8 @@ ithardware.pl##DIV#article_1 div[style="width:100%;margin-top:10px;margin-bottom
 !jaggedunaccustomeddime.com/13/49/2d/13492ddc618d8616510786e2f2b8d075.js
 ||jaggedunaccustomeddime.com^
 
-jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/premium"]:if(IMG[id^="reklama"])
-jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/sklep"]:if(IMG[id^="reklama"])
+jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/premium"]:has(IMG[id^="reklama"])
+jakzdacmaturezmatematyki.pl##A[href^="http://jakzdacmaturezmatematyki.pl/sklep"]:has(IMG[id^="reklama"])
 jakzdacmaturezmatematyki.pl##DIV#cookies-message-container
 jakzdacmaturezmatematyki.pl##DIV#fb_Like_Box
 jakzdacmaturezmatematyki.pl##DIV.reklama_bok_lewy
@@ -3788,9 +3770,7 @@ jeja.pl##a.images-arrow-left, a.images-arrow-right
 ||jobzhub.store/dwn-3.png
 ||jobzhub.store/dwn-4.png
 !jobzhub.store###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
-jobzhub.store##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
 jobzhub.store##+js(nano-sib, tid, *, 0.02)
-jobzhub.store##+js(trusted-set-cookie, ad_expire=true;, $now$)
 jobzhub.store##+js(rmnt, script, window.adblockDetector)
 jobzhub.store##+js(aeld, blur, stopCountdown)
 !Ten filtr powoduje pustą stronę
@@ -3844,7 +3824,7 @@ kimovil.com##.kau
 @@||klp.pl^$generichide
 klp.pl###reklama-w-artykule
 klp.pl###reklama-w-srodku-artykulu
-klp.pl#DIV##[style="height:280px; width:336px;"]
+klp.pl##DIV#[style="height:280px; width:336px;"]
 
 knowledgehut.com##div:has(> .blog-editor-content) > div.w-full.pt-7.pb-4
 knowledgehut.com##.grid-cols-12 .xl\:col-span-2 > *
@@ -3898,9 +3878,7 @@ labgame.io###overlay
 labgame.io##div.bottom-container:has(> div#section-similar-games)
 labgame.io###home-game-container
 labgame.io###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="www.recaptcha.net/recaptcha"]:others()
-labgame.io##+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
 labgame.io##+js(nano-sib, tid, *, 0.02)
-labgame.io##+js(trusted-set-cookie, ad_expire=true;, $now$)
 labgame.io##+js(rmnt, script, window.adblockDetector)
 labgame.io##+js(rmnt, script, DName)
 
@@ -4220,9 +4198,6 @@ morioh.com##.col-span-12.space-y-4 > div.rounded.bg-white.p-4.border-dashed.bord
 !Komunikat jak z komunikatora w dollnymm lewym rogu: "Watch or Download the Movie in HD?"
 ||moviesflix4k.work^
 
-!https://prod.outgoing.prod.webservices.mozgcp.net/v1/a8357942df2d787ae56bf292d98371d7799b0ed4bf72cd667d0c1b04098dcddb/https%3A//github.com/garywill/autoreferer
-||prod.outgoing.prod.webservices.mozgcp.net/v1/*/$urlskip=&1
-
 forum.mp3store.pl##.ipsMessage_success.ipsMessage.cAnnouncementPageTop
 
 mtb-mag.com##.samCodeUnit
@@ -4239,8 +4214,8 @@ multiup.org##DIV.ui-pnotify
 multiup.org##DIV[aria-label="cookieconsent"]
 multiup.org##DIV[id*="ScriptRoot"]
 multiup.org##OL.breadcrumbs
-multiup.org##SECTION[class*="panel-featured"]:if(I.fa.fa-share-alt)
-multiup.org##SECTION[class*="panel-featured"]:if([href*="valemedia.net"])
+multiup.org##SECTION[class*="panel-featured"]:has(I.fa.fa-share-alt)
+multiup.org##SECTION[class*="panel-featured"]:has([href*="valemedia.net"])
 
 mypolitics.pl##.fgbDMr
 
@@ -4479,7 +4454,7 @@ opensubtitles.org#@#DIV.msg > DIV[style="text-align:center;"]:has(A[target="_bla
 ||static.opensubtitles.org/libs/js/ad_slideout.js?$important,domain=opensubtitles.org
 ||static.opensubtitles.org/libs/js/urlshortener.js?$important,domain=opensubtitles.org
 ||toplist.cz^$domain=opensubtitles.org
-opensubtitles.org##UL.ui-multiselect-checkboxes > LI:if(LABEL > INPUT:not([aria-selected="true"])):not(:has-text(/ALL|English|Polish/))
+opensubtitles.org##UL.ui-multiselect-checkboxes > LI:has(LABEL > INPUT:not([aria-selected="true"])):not(:has-text(/ALL|English|Polish/))
 !Oglądaj na żywo
 opensubtitles.org##body#subtitles_body table#search_results tr[id^="name"] a.p.a.a_1
 !Pobierz Wyszukiwarkę Napisów
@@ -4750,7 +4725,7 @@ paypal.com##SECTION.cookie-notification
 !https://www.pb.pl/solidarna-polska-pomylila-sie-o-setki-miliardow-zlotych-1128305
 pb.pl##.npb-g-c-adv
 
-forum.pcformat.pl##DIV.post.classic:if(DIV.post_author.scaleimages > IMG[src="images/link_spons.png"])
+forum.pcformat.pl##DIV.post.classic:has(DIV.post_author.scaleimages > IMG[src="images/link_spons.png"])
 
 pcgamez-download.com##+js(ra, target)
 
@@ -5482,7 +5457,7 @@ softwarekeep.com##DIV.bg.bg-topbar
 sourceforge.net##UL.projects > LI.nel.standard.can-truncate
 ||google.com/recaptcha/$domain=sourceforge.net
 !https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/8.9.13/xiaomi.eu_multi_MI4c_8.9.13_v10-7.0.zip/download
-sourceforge.net##ASIDE.m-wide-widget.m-wide-projects-widget:if(>HEADER:has-text(Recommended Projects))
+sourceforge.net##ASIDE.m-wide-widget.m-wide-projects-widget:has(>HEADER:has-text(Recommended Projects))
 sourceforge.net##+js(nostif, downloader:redirect, 15000)
 sourceforge.net##+js(nostif, window.location.href, 15000)
 sourceforge.net###pg_dwnld #nels
@@ -5747,7 +5722,7 @@ thephonograph.net##DIV.entry-content > BLOCKQUOTE.wp-embedded-content
 thephonograph.net##DIV.entry-content > H1:has-text(/Buy it from:/)
 thephonograph.net##DIV.entry-content > H5:has-text(/SEE ALSO:/)
 thephonograph.net##DIV.entry-content > P:has-text(/SEE PRICE:|Get the latest reviews on your favorite social network|Follow us:|Enjoyed this Article?/)
-thephonograph.net##DIV.entry-content > P:if(SPAN[style="font-family: impact, sans-serif; font-size: 14pt;"]:first-child:last-child > A[href^="http://www.thephonograph.net/"])
+thephonograph.net##DIV.entry-content > P:has(SPAN[style="font-family: impact, sans-serif; font-size: 14pt;"]:first-child:last-child > A[href^="http://www.thephonograph.net/"])
 thephonograph.net##DIV.svg-container.footer-svg.svg-block
 thephonograph.net##HR
 thephonograph.net##NAV.navigation.post-navigation
@@ -5774,10 +5749,10 @@ thephonograph.net##ARTICLE[id^="post-"] P:has-text(/Enjoyed this Article?|Follow
 thephonograph.net##ARTICLE[id^="post-"] SPAN:has-text(/RECOMMENDED/)
 thephonograph.net##ARTICLE[id^="post-"] H1:has-text(/Buy it at:|Buy it from:/)
 thephonograph.net##ARTICLE[id^="post-"] H5:has-text(/SEE ALSO:/)
-!thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style="font-family: impact, sans-serif; font-size: 14pt;"] > A[href^="http://www.thephonograph.net/"])
-thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style] > A[href^="http://www.thephonograph.net"])
+!thephonograph.net##ARTICLE[id^="post-"] P:has(SPAN[style="font-family: impact, sans-serif; font-size: 14pt;"] > A[href^="http://www.thephonograph.net/"])
+thephonograph.net##ARTICLE[id^="post-"] P:has(SPAN[style] > A[href^="http://www.thephonograph.net"])
 !thephonograph.net##ARTICLE[id^="post-"] P > SPAN[style] > A[href^="http://www.thephonograph.net/"]
-!thephonograph.net##ARTICLE[id^="post-"] P:if(SPAN[style] > A[href="http://www.thephonograph.net"])
+!thephonograph.net##ARTICLE[id^="post-"] P:has(SPAN[style] > A[href="http://www.thephonograph.net"])
 ||thephonograph.net/wp-content/uploads/2017/*buy*.gif|$image
 !test
 ||thephonograph.net^$inline-script
@@ -6122,8 +6097,6 @@ vipvce.xyz##.h-captcha:remove-class(is-hidden)
 vipvce.xyz##+js(set, document.hasFocus, trueFunc)
 vipvce.xyz##+js(set, assDidCkeDone, true)
 vipvce.xyz##+js(set, verifiedCheckDone, true)
-vipvce.xyz##+js(rpnt, script, = 35, = 21)
-vipvce.xyz##+js(rpnt, script, /= 15|= 20|= 18|= 16/, = 8)
 vipvce.xyz##+js(rmnt, script, alreadyLoaded88j)
 @@||googleads.g.doubleclick.net/pagead/interaction/$xhr,domain=vipvce.xyz
 
@@ -6396,7 +6369,7 @@ wykop.pl###itemsStream .link:has(a[href$="/reklama/"])
 wykop.pl##.cookie
 wykop.pl##.type-permanent+#nav+div:style(padding-top: 49px !important;)
 wykop.pl##.type-permanent+#nav:style(top: 0px !important;)
-wykop.pl##DIV.r-block:if(DIV.fb-page[data-href="https://www.facebook.com/wykoppl"])
+wykop.pl##DIV.r-block:has(DIV.fb-page[data-href="https://www.facebook.com/wykoppl"])
 wykop.pl##LI.link.dying-links.mark-bg.iC.dnone
 wykop.pl##SPAN#wpladbottom
 wykop.pl##UL#dyingLinksBox
@@ -6451,7 +6424,7 @@ youtube.com##ytd-rich-item-renderer:has(a#video-title-link[aria-label*="Twojej p
 
 @@||zadane.pl^$generichide
 zadane.pl##DIV.brn-katie
-zadane.pl##DIV.sg-layout__box:if(DIV[class*="promo"])
+zadane.pl##DIV.sg-layout__box:has(DIV[class*="promo"])
 zadane.pl##DIV.sg-overlay.js-toplayer-close.js-toplayer-remove-on-close
 zadane.pl##DIV[class*="ads"]
 
