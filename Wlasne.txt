@@ -1485,55 +1485,27 @@ www.cda.pl##.siddeAd.tradf
 !https://s-gr.cdngr.pl/lib/ppa/v2.39.4/js/main.js
 ||cdngr.pl/*/ppa/
 
-!instagram.com##+js(aeld, /(abort|canplay|canplaythrough|durationchange|durationchange|emptied|encrypted|ended|enterpictureinpicture|error|leavepictureinpicture|loadeddata|loadedmetadata|loadstart|pause|play|emptied|loadedmetadata|progress|ratechange|resize|seeked|seeking|stalled|suspend|timeupdate|volumechange|waiting)/, , elements, video)
-!instagram.com##+js(aeld, /^/, , elements, video)
-!instagram.com##+js(aeld, /(pause|play)/)
-!instagram.com##+js(ra, muted, video[muted], asap stay)
-!instagram.com##+js(set-attr, video, muted, false)
-!Maksymalne wyłączanie, aby działało wideo, początek
-!https://static.cdninstagram.com/rsrc.php/v4/yt/r/MOZsV44WqNm.js
-!https://static.cdninstagram.com/rsrc.php/v4/yY/r/1CXTCZMe0EE.js
-!https://static.cdninstagram.com/rsrc.php/v4/y3/r/lUhMJ_Hy7pR.js
-!https://static.cdninstagram.com/rsrc.php/v4/yb/r/Oov5UqftKTk.js
-!https://static.cdninstagram.com/rsrc.php/v4/yw/r/2f8SjbtZNtE.js
-!https://static.cdninstagram.com/rsrc.php/v4/yy/r/reYyb-SSn4k.js
-!https://static.cdninstagram.com/rsrc.php/v4/yA/r/cPlfAVsTAuu.js
-!https://static.cdninstagram.com/rsrc.php/v4/yz/r/SspBHLH3lcG.js
-!https://static.cdninstagram.com/rsrc.php/v4iZhD4/yl/l/pl_PL/iDPk4HdnrZw.js
-!https://static.cdninstagram.com/rsrc.php/v4/yg/r/AjTA-Cm7dSA.js
-!https://static.cdninstagram.com/rsrc.php/v4i99f4/yX/l/pl_PL/ZK21uDnuwTc.js
-!https://static.cdninstagram.com/rsrc.php/v4iGhv4/yM/l/pl_PL/kk-O8PuNb7o.js
-!https://static.cdninstagram.com/rsrc.php/v4ifL24/y_/l/pl_PL/uthoapXJsYg.js
-!https://static.cdninstagram.com/rsrc.php/v4iFsh4/yf/l/pl_PL/1WeKwDQe1KIjF3SDSnWIsGO_YWOid0pHdkQf2AXugvHyLL59zYofmcBiLX4PZxqJ0eJCvFYCauOMyrrCxjEFdRGjiFGHh9ozlMILPEVV1XOPMp5JNQefsDMjhy9Cv35c7Xl7AGK-rvBHU1eLB3_VNT82X2phhshD5-sc16UPO1IkSu_lQqP2W9xWp-2pKzMGU-W7GsTMMsiJC02ez.js
-!https://static.cdninstagram.com/rsrc.php/v4/yU/r/CKKoD8n6EQB.js
-!@@https://static.cdninstagram.com/rsrc.php/v4/yU/r/CKKoD8n6EQB.js
-!https://static.cdninstagram.com/rsrc.php/v4i0sZ4/yC/l/pl_PL/EOMLU1PZtNsuStJm9t9CTf5BZX0_-l5RefO5jYz45T_3pejXfTwVs8xyZb59iT7RRfi3e6dYemrCB.js
-!@@https://static.cdninstagram.com/rsrc.php/v4i0sZ4/yC/l/pl_PL/EOMLU1PZtNsuStJm9t9CTf5BZX0_-l5RefO5jYz45T_3pejXfTwVs8xyZb59iT7RRfi3e6dYemrCB.js
-!https://static.cdninstagram.com/rsrc.php/v4iDRG4/yh/l/pl_PL/TdpDKp7_U4q.js
-!@@https://static.cdninstagram.com/rsrc.php/v4iDRG4/yh/l/pl_PL/TdpDKp7_U4q.js
-!https://static.cdninstagram.com/rsrc.php/v4inny4/yG/l/pl_PL/p6bSTq_fejn.js
-!@@https://static.cdninstagram.com/rsrc.php/v4inny4/yG/l/pl_PL/p6bSTq_fejn.js
-!https://static.cdninstagram.com/rsrc.php/v4/yN/r/w249gnZanBV.js
-!https://static.cdninstagram.com/rsrc.php/v4igyE4/yt/l/pl_PL/1o27ovzqPws.js
-!@@https://static.cdninstagram.com/rsrc.php/v4igyE4/yt/l/pl_PL/1o27ovzqPws.js
-!https://static.cdninstagram.com/rsrc.php/v4ikA24/yX/l/pl_PL/g53rX-X0ph0uAGm55fmCWjnzmiXNFjsiRusTkbu6mSJ9pwgg761ziGnbp2yz5ZstH7bn1e5XCvO2ATcf-0O6cLbI4UxXUqLZCVPWvtsRcW7I8PYQgcg-3wSLoq-pgfzYiXFdGqp0Dg0cbH-bxD65bLNcpZ.js
-!@@https://static.cdninstagram.com/rsrc.php/v4ikA24/yX/l/pl_PL/g53rX-X0ph0uAGm55fmCWjnzmiXNFjsiRusTkbu6mSJ9pwgg761ziGnbp2yz5ZstH7bn1e5XCvO2ATcf-0O6cLbI4UxXUqLZCVPWvtsRcW7I8PYQgcg-3wSLoq-pgfzYiXFdGqp0Dg0cbH-bxD65bLNcpZ.js
-!https://static.cdninstagram.com/rsrc.php/v4iw0l4/yB/l/pl_PL/OlbXc5UOTSS.js
-!@@https://static.cdninstagram.com/rsrc.php/v4iw0l4/yB/l/pl_PL/OlbXc5UOTSS.js
-!https://static.cdninstagram.com/rsrc.php/v4i5tk4/yc/l/pl_PL/5fNGHjb-5GhkXFD3G_Dyz1FZy-cjjvPdW.js
-!@@https://static.cdninstagram.com/rsrc.php/v4i5tk4/yc/l/pl_PL/5fNGHjb-5GhkXFD3G_Dyz1FZy-cjjvPdW.js
-!https://static.cdninstagram.com/rsrc.php/v4i1zQ4/yM/l/pl_PL/GoQOws4ugrt0InRCMyuTInGKu-tEKKNOrdLMtScRJxD3ZhZ8Qlq7kqt8DX2lkg0mTfIyAizvuYOLNvlek1bjb7xaMm3F-oH2zh-JvBW_JJiBq2hzZfZ9OE2Hkx9dbDeJuQyAhBx4GecwlVDhuMYAzU6-O57KVgaZETPosgXdYivvCwsHRWp-K5NMv2JGSBvj8_FEnWe0qnL2dG90HRtKQGwG0ihE-Qx8lcabVTDOwgx-s7CoHnJZCcc2ZP1Mqim_u89BurP8onn-JtdZ7PJAdmh5DEndjkKeHWrECl3_n2Jc9FVqcd252S-KrBJoNkaP1HIUYBqZ4h.js
-!@@https://static.cdninstagram.com/rsrc.php/v4i1zQ4/yM/l/pl_PL/GoQOws4ugrt0InRCMyuTInGKu-tEKKNOrdLMtScRJxD3ZhZ8Qlq7kqt8DX2lkg0mTfIyAizvuYOLNvlek1bjb7xaMm3F-oH2zh-JvBW_JJiBq2hzZfZ9OE2Hkx9dbDeJuQyAhBx4GecwlVDhuMYAzU6-O57KVgaZETPosgXdYivvCwsHRWp-K5NMv2JGSBvj8_FEnWe0qnL2dG90HRtKQGwG0ihE-Qx8lcabVTDOwgx-s7CoHnJZCcc2ZP1Mqim_u89BurP8onn-JtdZ7PJAdmh5DEndjkKeHWrECl3_n2Jc9FVqcd252S-KrBJoNkaP1HIUYBqZ4h.js
-!https://static.cdninstagram.com/rsrc.php/v4/ym/r/itHd9K2IZ9i.js
-!@@https://static.cdninstagram.com/rsrc.php/v4/ym/r/itHd9K2IZ9i.js
-!https://static.cdninstagram.com/rsrc.php/v4/yx/r/LO_oNLcYogn.js
-!Maksymalne wyłączanie, aby działało wideo, koniec
-!instagram.com##+js(nostif)
-!https://static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js
-!@@https://static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js
-!||jwpcdn.com/*/jwplayer.js$replace=/else\W+e.el.oncontextmenu=n=>\(.+?\(.+?\).+?\)//s
-!||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/setMuted:function\(n\)\{t.muted=n\},//s
-!||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/setMuted:function\(t,n\)\{j\.isFrozen\(\)\|\|D\(t,n\)\},//s
+
+instagram.com##+js(set-attr, video, controls, true)
+!Przycisk zarejestruj się na instagramie na dole wideo przesłaniający pasek postępu wideo
+instagram.com##div[data-instancekey^="id-vpuid-"] a[href^="/accounts/signup/phone?next="]
+!Po zakończeniu filmu baner na całą stronę: Zarejestruj się, aby kontynuować oglądanie
+!Ukrywanie elementu
+!instagram,com##div[data-instancekey^="id-vpuid-"] div[id^="video-iv-overlay-"] + div[style="--x-backgroundColor: rgba(var(--web-always-black), 0.7);"]
+!Zapobieganie pojawiania się elementu
+instagram.com##+js(aeld, ended, , elements, video)
+!Wyłączenie rozciąganie wideo, żeby wypełniało całą stronę mniejszym wymiarem
+instagram.com##video[style="object-fit: cover; display: block;"]:remove-attr(style)
+!https://adguard.com/kb/general/ad-filtering/create-own-filters/#inline-script-modifier
+!||instagram.com^$csp=script-src 'self' 'unsafe-eval' http: https: data: blob: mediastream: filesystem:
+/^https?:\/\/www\.instagram\.com\/reel\/[0-9a-zA-Z]+\/\?l=1$/$inline-script,domain=instagram.com,first-party
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:others():remove()
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:remove-attr(class)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([class]):watch-attr(class):remove-attr(class)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([id]):watch-attr(id):remove-attr(id)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([style]):watch-attr(style):remove-attr(style)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:style(position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; display: block !important; object-fit: contain !important;)
+
 
 ||cdnpure.com/static/share-button/
 
@@ -4997,7 +4969,8 @@ old.reddit.com##.in.spezmodal.fade.modal, .in.fade.modal-backdrop
 old.reddit.com##.DualPartInterstitialFooter, .DualPartInterstitial__common, .DualPartInterstitial__content, .TransparentOverlay, .TransparentOverlay__overlay, .XPromoListingClickModal, .XPromoPill, .XPromoPopup, .dSHRel.s8g432y-0, .esxAEQ.pqvesn-2, .mobile-web-redirect-bar, .seo-comments, .seo-comments-recommendations, .splash-design.splash_wrapper, .welcome
 old.reddit.com##body.scroll-disabled:style(position: static !important; overflow: visible !important;)
 old.reddit.com##div button:has-text(/Back to top/)
-!
+!https://www.reddit.com/media?solution=e9d32d5070a1e339e9d32d5070a1e339&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9ec28f9ce661e6f4ba1e6151f29b1e0f9f5&jsc_orig_r=&url=https%3A%2F%2Fi.redd.it%2Fe4lh9jl7nr7h1.gif
+||www.reddit.com/media?$doc,removeparam=/^(solution|js_challenge|token|jsc_orig_r)/
 www.reddit.com##:matches-path(/media?url=) shreddit-title + faceplate-tracker, post-bottom-bar:others()
 ||www.reddit.com/media?url=$csp=script-src 'none'; style-src 'unsafe-inline'; img-src i.redd.it;
 
@@ -5778,6 +5751,17 @@ thispointer.com##.sidebar-main > [class^="astra-advanced-hook-"]
 tii.ai##DIV.col-md-10 > DIV.text-left
 tii.ai##DIV.col-md-10 > P
 tii.ai##DIV.col-md-10 > H3
+
+
+tiktok.com##+js(set-attr, video, controls, true)
+tiktok.com##.css-1ct4sy3-65fdda1d--DivCamera
+tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:style(position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; display: block !important; object-fit: contain !important;)
+tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:remove-attr(style)
+tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:others()
+tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:others():remove-attr(class)
+tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:upward([style]):remove-attr(style)
+tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:upward([class]):remove-attr(class)
+
 
 ! 2021-11-23 https://time.com
 time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component

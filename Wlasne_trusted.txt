@@ -16,7 +16,8 @@
 ||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/function e\(\)\{return"ALLOW"\}e.displayName="evaluateVideoAutoplayDefaultRule"/function e(){return"DENY"}e.displayName="evaluateVideoAutoplayDefaultRule"/s
 ||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/"host_call_set_muted":a\.setMuted\(n\.payload\.muted\);break/"host_call_set_muted":break/s
 ||static.cdninstagram.com/rsrc.php/v4i4xT4/yT/l/pl_PL/LyljSHsm9Ie.js$replace=/case"host_call_set_muted":r\(e\.type\);/case"host_call_set_muted":/s
-
+instagram.com##+js(trusted-click-element, header div._ab18._ab1b > a[href^="/reel/"][href$="/?l=1"], '', 1000)
+||static.cdninstagram.com/rsrc.php/v4iRzV4/$script,replace=/(window\.location\.href===l\.toString\(\)\?window\.location\.reload\(\):i\?window\.location\.replace\(l\.toString\(\)\):window\.location\.href=l\.toString\(\)|window\.location\.href=l\.toString\(\)|T\(l\.toString\(\),"_blank"\);|window\.open\(l\.toString\(\)\);)//s
 
 actualpost.com,americanstylo.com,glowandglamcorner.com##+js(trusted-replace-node-text, script, "'IFRAME'", "'BODY'")
 
@@ -60,3 +61,6 @@ labgame.io##+js(trusted-set-cookie, ad_expire=true;, $now$)
 !https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12604516
 vipvce.xyz##+js(rpnt, script, = 35, = 21)
 vipvce.xyz##+js(rpnt, script, /= 15|= 20|= 18|= 16/, = 8)
+
+
+/obj/tiktok_web_login_static_eu/tiktok/webapp/main/experimental/webapp-sharing/static/js/async/*.js$script,domain=tiktok.com,replace=/window\.oncontextmenu=function\(\)\{return\!1\}/function(){return!1}/s
