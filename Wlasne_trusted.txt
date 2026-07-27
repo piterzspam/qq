@@ -64,3 +64,5 @@ vipvce.xyz##+js(rpnt, script, /= 15|= 20|= 18|= 16/, = 8)
 
 
 /obj/tiktok_web_login_static_eu/tiktok/webapp/main/experimental/webapp-sharing/static/js/async/*.js$script,domain=tiktok.com,replace=/window\.oncontextmenu=function\(\)\{return\!1\}/function(){return!1}/s
+
+||path.pepper.pl/pepper-pl/redirect?url=$urlskip=?url

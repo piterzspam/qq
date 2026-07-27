@@ -64,7 +64,6 @@ pl#@#.adsense
 
 !mhfragristack.in#$##myNextInst { display: block !important; }
 !mhfragristack.in#$?##VerifyBtn { display: block !important; }
-
 /[a-z]{8,14}\.net\/[0-9a-z]{20}\/[0-9a-z]{20}$/$inline-script,first-party
 
 !opensubtitles.org##:xpath('//div/ul//li[.//input[@name="ln_filter"]]')
@@ -98,13 +97,12 @@ actualpost.com,americanstylo.com,glowandglamcorner.com##+js(set-constant, docume
 dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,crewbase.net,batmanfactor.com#%#//scriptlet('remove-attr', 'disabled', 'button')
 dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,crewbase.net,batmanfactor.com#$#.text-center > div[id][style^="display:"] { display: block !important; }
 dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,beautifulfashionnailart.com,crewbase.net,batmanfactor.com#$#form[id][style^="display:"] { display: block !important; }
-dizok.com,9sblog.com,ubnem.com,tirumalatirupatiyatra.in,shineads.org,azoranov.com,jenismac.com,nsw2u.*,unofficialtwrp.com,downloadlyir.com,pinsystem.co.uk,173.249.8.3,rttar.com,torrentmac.net$$script[wildcard="*split*eval(function(h,u,n,t,e,r)*"][min-length="20000"][max-length="210000"]
+!dizok.com,9sblog.com,ubnem.com,tirumalatirupatiyatra.in,shineads.org,azoranov.com,jenismac.com,nsw2u.*,unofficialtwrp.com,downloadlyir.com,pinsystem.co.uk,173.249.8.3,rttar.com,torrentmac.net$$script[wildcard="*split*eval(function(h,u,n,t,e,r)*"][min-length="20000"][max-length="210000"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ubnem.com|dizok.com
 @@||dizok.com^$generichide
 dizok.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,actualpost.com,beautifulfashionnailart.com,americanstylo.com#%#//scriptlet('set-constant', 'document.hasFocus', 'trueFunc')
+
 !dizok.com,adxcel.io#%#(()=>{window.detectIncognito=()=>new Promise((e=>e({isPrivate:!0})));})();
-
-
 17track.net##DIV.yq-panel-gad
 17track.net##SECTION[class^="gad-right"]
 
@@ -138,7 +136,6 @@ x8udx3kr.sbs,45d4f5xxx.win,videocdn-4726.website##+js(nosiif, wmIP)
 !||emturbovid.com^$replace=/openNewTab\(".*?"\)/null/g
 !https://ssl.p.jwpcdn.com/player/v/8.37.0/jwplayer.js
 ||ffauqxfz.x8udx3kr.sbs/dd.js
-
 
 ||8fzyhamgc9.com^
 
@@ -245,7 +242,7 @@ al.ly#@#INS.adsbygoogle
 @@||q.gs^$generichide
 /^[^\/]*:\/\/(?!(cdn\.)?(atominik\.com|riffhold\.com|bluenik\.com|babblecase\.com|tinyium\.com|microify\.com|pintient\.com|adf\.ly|ay\.gy|j\.gs|q\.gs))(?!adf\.ly)(.*)/$~image,~script,~stylesheet,~subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 /^[^\/]*:\/\/(?![^\/]*\/1market\.php\?i=)(.*)/$subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
-/^[^\/]*:\/\/(?!ajax\.googleapis\.com)(?![^\/]*.*(b64\.js|view84\))(.*)/$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
+!/^[^\/]*:\/\/(?!ajax\.googleapis\.com)(?![^\/]*.*(b64\.js|view84\))(.*)/$script,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 $~image,~script,~stylesheet,~subdocument,domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 |blob:$domain=atominik.com|riffhold.com|bluenik.com|babblecase.com|tinyium.com|microify.com|pintient.com|adf.ly|ay.gy|j.gs|q.gs
 @@||ADYOU.ME^$generichide
@@ -1484,28 +1481,6 @@ www.cda.pl##.siddeAd.tradf
 ||cdngr.pl/*ActiveAdChecker.js
 !https://s-gr.cdngr.pl/lib/ppa/v2.39.4/js/main.js
 ||cdngr.pl/*/ppa/
-
-
-instagram.com##+js(set-attr, video, controls, true)
-!Przycisk zarejestruj się na instagramie na dole wideo przesłaniający pasek postępu wideo
-instagram.com##div[data-instancekey^="id-vpuid-"] a[href^="/accounts/signup/phone?next="]
-!Po zakończeniu filmu baner na całą stronę: Zarejestruj się, aby kontynuować oglądanie
-!Ukrywanie elementu
-!instagram,com##div[data-instancekey^="id-vpuid-"] div[id^="video-iv-overlay-"] + div[style="--x-backgroundColor: rgba(var(--web-always-black), 0.7);"]
-!Zapobieganie pojawiania się elementu
-instagram.com##+js(aeld, ended, , elements, video)
-!Wyłączenie rozciąganie wideo, żeby wypełniało całą stronę mniejszym wymiarem
-instagram.com##video[style="object-fit: cover; display: block;"]:remove-attr(style)
-!https://adguard.com/kb/general/ad-filtering/create-own-filters/#inline-script-modifier
-!||instagram.com^$csp=script-src 'self' 'unsafe-eval' http: https: data: blob: mediastream: filesystem:
-/^https?:\/\/www\.instagram\.com\/reel\/[0-9a-zA-Z]+\/\?l=1$/$inline-script,domain=instagram.com,first-party
-instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:others():remove()
-instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:remove-attr(class)
-instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([class]):watch-attr(class):remove-attr(class)
-instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([id]):watch-attr(id):remove-attr(id)
-instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([style]):watch-attr(style):remove-attr(style)
-instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:style(position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; display: block !important; object-fit: contain !important;)
-
 
 ||cdnpure.com/static/share-button/
 
@@ -2775,7 +2750,7 @@ efizyka.net.pl###cboxOverlay
 efizyka.net.pl###colorbox
 efizyka.net.pl###shr_canvas5
 efizyka.net.pl##.entry > div:nth-of-type(1)
-efizyka.net.pl##script:inject^script:has-text(window.google_jobrunner)
+efizyka.net.pl##^script:has-text(window.google_jobrunner)
 ||efizyka.net.pl/*/popbox$script
 ||efizyka.net.pl/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$important
 ||efizyka.net.pl/wp-content/plugins/dc-facebook-like-
@@ -3007,6 +2982,10 @@ filmozercy.com##div[onclick^="MyAdvertisements."]
 filmszilla.com##+js(nano-sib)
 filmszilla.com##+js(nano-stb)
 
+!AdGuard Cookie Notices filter
+!bonjour-ratp.fr,yahoo.com,expressen.se,elespanol.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz###didomi-host:style(display: none !important;)
+filmweb.pl##body.preventScroll:style(overflow: auto !important; position: unset !important;)
+filmweb.pl##body.preventScroll:remove-class(preventScroll)
 !Odświeżanie karty po przełączeniu i upływie 5 minut
 !uBO: setTimeout("function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)}", 300000)
 !uBO: addEventListener("focus", function e(){document.hasFocus()?setTimeout((function(){window.location=window.location.toString().split("#")[0]}),200):window.addEventListener("focus",e)})
@@ -3250,6 +3229,16 @@ google.*#@##main > div[data-hveid]
 !google.com#@#+js(ra, onmousedown|data-cthref, DIV#center_col A[href])
 www.google.*##+js(ra, onmousedown|data-cthref, DIV#search A[href])
 
+!https://www.google.com/search?lns_surface=26&udm=48&vsrid=CIyA7YfXwdaH2AEQAhgBIiQ2OWMyYWFlNC1hYjNlLTQxZjktOWUzNy1kYjRiZTc4YzIyOWEygQEiAmVoKCVCcwoubGZlLWR1bW15OmY1OWZjNjA1LWI1ZmMtNDc1YS05NmY1LTExOTY4NmNhOThmNhJBCj8vYm5zL2VoL2JvcmcvZWgvYm5zL2xlbnMtZnJvbnRlbmQtYXBpL3Byb2QubGVucy1mcm9udGVuZC1hcGkvNTdaBAoCZWg4yp_M_MnslQM&vsint=CAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABENsFGIAIJQAAgD8&lns_mode=un&vsdim=731,1024&gsessionid=UbMlRjrP8Hq9_OwMpN4CCNNV08TUdFtDGnpzuv_1PEFPoB8hh32UxQ&lsessionid=klpc7at_bRo3rfjiE_KI0OQ2jzqfExSllCN6Dizu-718EHWu0xZPDQ&vsrid=CIyA7YfXwdaH2AEQAhgBIiQ0NjIyOWMxNC01YWJiLTRkMjAtOWVmZS1iYjBkNzc1Y2ZkNGUygQEiAmVoKCVCcwoubGZlLWR1bW15OmY1OWZjNjA1LWI1ZmMtNDc1YS05NmY1LTExOTY4NmNhOThmNhJBCj8vYm5zL2VoL2JvcmcvZWgvYm5zL2xlbnMtZnJvbnRlbmQtYXBpL3Byb2QubGVucy1mcm9udGVuZC1hcGkvNTdaBAoCZWg4yp_M_MnslQNQAA&q
+www.google.com##:matches-path(/\/search(?=[^#]*[?&]udm=48(&|#|$))/)  div#search div#rso[data-async-context="query:"] > div:has(a[href^="https://wykop.pl/tag/"], a[href^="https://wykop.pl/ludzie/"])
+!Zdjęcie w oryginalnej jakości przy podglądzie wybranego zdjęcia w Google grafika na komputerze i telefonie
+!https://www.google.com/search?q=nedobre+novinky#sv=CAMSaBowKg5Fc05nQVRvcThRUzQ3TTIORXNOZ0FUb3E4UVM0N006Dk9vUEtlRFlBUGhmNTdNIAQqMAocX2xxQm1hcW5sSmZHcXhjOFB2cWJObUFvXzEwNhIORXNOZ0FUb3E4UVM0N00YADABGAcg0ZqxlQZKCBABGAEgASgB
+!https://www.google.com/search?udm=2&q=nedobre+novinky#sv=CAMSVhoyKhBlLVlkOTBLYmJIYzduUmlNMg5ZZDkwS2JiSGM3blJpTToOT29QS2VEWUFQaGY1N00gBCocCgZtb3NhaWMSEGUtWWQ5MEtiYkhjN25SaU0YADABGAcg_MmMkwpKCBABGAEgASgB
+!www.google.com##:matches-path(/\/search(?=[^#]*[?&]udm=2(&|#|$))/) g-snackbar + div[jsname="figiqf"]  img.sFlh5c.FyHeAf.iPVvYb[src^="http"] + img.sFlh5c.FyHeAf[src^="https://encrypted-"][src*=".gstatic.com/images?q="][style$="position: absolute; visibility: hidden;"]
+www.google.com##:matches-path(/\/search\?/) g-snackbar + div[jsname="figiqf"]  img.sFlh5c.FyHeAf.iPVvYb[src^="http"] + img.sFlh5c.FyHeAf[src^="https://encrypted-"][src*=".gstatic.com/images?q="][style$="position: absolute; visibility: hidden;"]
+!Zdjęcie w oryginalnej jakości przy podglądzie wybranego zdjęcia w Google grafika mobile na komputerze
+!www.google.com##:matches-path(/\/search(?=[^#]*[?&]udm=2(&|#|$))/) div.isv-id:has(> img.isv-it[src^="https://encrypted-"][src*=".gstatic.com/images?q="]:first-child + img.isv-i[src^="http"]) > *:first-child
+www.google.com##:matches-path(/\/search\?/) div.isv-id:has(> img.isv-it[src^="https://encrypted-"][src*=".gstatic.com/images?q="]:first-child + img.isv-i[src^="http"]) > *:first-child
 ||photos.google.com/u/*/_/PhotosUi/data/batchexecute?rpcids=xPf9xf&
 ||photos.google.com/u/*/_/PhotosUi/data/batchexecute?rpcids=CuHOKd&
 ||photos.google.com/u/*/_/PhotosUi/data/batchexecute?rpcids=SXol3b&
@@ -3568,6 +3557,44 @@ www.infoworld.com###editorialfakesidebardiv
 www.infoworld.com###sponsoredfakesidebardiv
 www.infoworld.com##.subscribers-position-right
 
+instagram.com##+js(set-attr, video, controls, true)
+!Przycisk zarejestruj się na instagramie na dole wideo przesłaniający pasek postępu wideo
+instagram.com##div[data-instancekey^="id-vpuid-"] a[href^="/accounts/signup/phone?next="]
+!Po zakończeniu filmu baner na całą stronę: Zarejestruj się, aby kontynuować oglądanie
+!Ukrywanie elementu
+!instagram,com##div[data-instancekey^="id-vpuid-"] div[id^="video-iv-overlay-"] + div[style="--x-backgroundColor: rgba(var(--web-always-black), 0.7);"]
+!Zapobieganie pojawiania się elementu
+instagram.com##+js(aeld, ended, , elements, video)
+!Wyłączenie rozciąganie wideo, żeby wypełniało całą stronę mniejszym wymiarem
+instagram.com##video[style="object-fit: cover; display: block;"]:remove-attr(style)
+!https://adguard.com/kb/general/ad-filtering/create-own-filters/#inline-script-modifier
+!||instagram.com^$csp=script-src 'self' 'unsafe-eval' http: https: data: blob: mediastream: filesystem:
+/^https?:\/\/www\.instagram\.com\/reel\/[0-9a-zA-Z]+\/\?l=1$/$inline-script,domain=instagram.com,first-party
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:others():remove()
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:remove-attr(class)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([class]):watch-attr(class):remove-attr(class)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([id]):watch-attr(id):remove-attr(id)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([style]):watch-attr(style):remove-attr(style)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:style(position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; display: block !important; object-fit: contain !important;)
+instagram.com##+js(set-attr, video, controls, true)
+!Przycisk zarejestruj się na instagramie na dole wideo przesłaniający pasek postępu wideo
+instagram.com##div[data-instancekey^="id-vpuid-"] a[href^="/accounts/signup/phone?next="]
+!Po zakończeniu filmu baner na całą stronę: Zarejestruj się, aby kontynuować oglądanie
+!Ukrywanie elementu
+!instagram,com##div[data-instancekey^="id-vpuid-"] div[id^="video-iv-overlay-"] + div[style="--x-backgroundColor: rgba(var(--web-always-black), 0.7);"]
+!Zapobieganie pojawiania się elementu
+instagram.com##+js(aeld, ended, , elements, video)
+!Wyłączenie rozciąganie wideo, żeby wypełniało całą stronę mniejszym wymiarem
+instagram.com##video[style="object-fit: cover; display: block;"]:remove-attr(style)
+!https://adguard.com/kb/general/ad-filtering/create-own-filters/#inline-script-modifier
+!||instagram.com^$csp=script-src 'self' 'unsafe-eval' http: https: data: blob: mediastream: filesystem:
+/^https?:\/\/www\.instagram\.com\/reel\/[0-9a-zA-Z]+\/\?l=1$/$inline-script,domain=instagram.com,first-party
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:others():remove()
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:remove-attr(class)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([class]):watch-attr(class):remove-attr(class)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([id]):watch-attr(id):remove-attr(id)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:upward([style]):watch-attr(style):remove-attr(style)
+instagram.com##:matches-path(/\/reel\/[0-9a-zA-Z]+\/\?l=1$/) video:style(position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; display: block !important; object-fit: contain !important;)
 !instagram.com##+js(aeld, /^(?!.*(load|DOMContentLoaded|submit|blur|focus|visibilitychange|scroll|keydown|mousedown|pointerdown|touchstart|pageshow|click|message|blue|blue|blue))/)
 !instagram.com##+js(aeld, /^(pause|play|blue|blue|blue|blue|blue|blue|blue)$/, /^(?!.*(state_changed|OzPlayheadManager|OzBufferingDetector|getOperationLogger|#mount_0_0.+|.+system-fonts--body.+))/)
 !Wycizanie przy przełączaniu karty
@@ -3753,6 +3780,8 @@ journaldev.com##DIV.code-block:has(> DIV[id][class="_ap_apex_ad"])
 
 juba-get.com##+js(acis, detectAdBlock)
 
+!https://imgproxy.justjoinit.tech/9q2w3dZXjr-tn4DoyjcaMgWSjQoJoDFHgYeLjhZLjAM/h:200/w:200/plain/https://public.justjoin.it/companies/logos/original/d8e92451001a44390871cabfa4d634eb8a4fd658.png
+||imgproxy.justjoinit.tech/*/h:200/w:200/plain/https://public.justjoin.it/companies/logos/original/
 
 ||kappacdn.net^
 
@@ -3786,7 +3815,7 @@ kimovil.com##.kau
 @@||klp.pl^$generichide
 klp.pl###reklama-w-artykule
 klp.pl###reklama-w-srodku-artykulu
-klp.pl##DIV#[style="height:280px; width:336px;"]
+klp.pl##DIV[style="height:280px; width:336px;"]
 
 knowledgehut.com##div:has(> .blog-editor-content) > div.w-full.pt-7.pb-4
 knowledgehut.com##.grid-cols-12 .xl\:col-span-2 > *
@@ -4632,6 +4661,24 @@ ourmatch.me##.adv21
 
 ||padstm.com
 
+!facebook.com##+js(aeld)
+!facebook.com##+js(nostif)
+!facebook.com##+js(nano-sib, , ,0.02)
+!facebook.com##+js(nano-stb, , ,0.02)
+!||facebook.com/api/graphql/$replace=/^\{"label":"CometNewsFeed_viewerConnection\$stream\$CometNewsFeed_viewer_news_feed",.+sr_payload.+$//
+!||facebook.com/api/graphql/$replace=/.+//
+!||facebook.com/api/graphql/$replace=/^\{"label":"CometNewsFeed_viewerConnection\$stream\$CometNewsFeed_viewer_news_feed",.+sr_payload.+$//gm
+!||facebook.com/api/graphql/$replace=/\{\"label\":\"CometNewsFeed_viewerConnection\$stream\$CometNewsFeed_viewer_news_feed\",//gm
+!||facebook.com/api/graphql/$replace=/\"CometNewsFeed_viewerConnection\$stream\$CometNewsFeed_viewer_news_feed\",//gm
+!||facebook.com/api/graphql/$replace=/CometNewsFeed_viewerConnection\$stream\$CometNewsFeed_viewer_news_feed//gm
+!||facebook.com/api/graphql/$replace=/CometNewsFeed_viewerConnection.stream//
+!||facebook.com/api/graphql/$replace=/^\{"label":"CometNewsFeed_viewerConnection.stream.CometNewsFeed_viewer_news_feed",.+sr_payload.+$/testtest1/gm
+!||facebook.com/api/graphql/$replace=/{"label":"CometNewsFeed_viewerConnection.stream.CometNewsFeed_viewer_news_feed",.+sr_payload.+/testtest2/gm
+!facebook.com##div[data-ad-rendering-role="profile_name"] span > div[role="button"] > span:has-text(/Obserwuj/):upward(span:only-child>div:only-child>div:only-child>div:only-child>div:only-child>div:only-child>div:only-child)
+!AdGuard – Ads
+!pahe.*##+js(abort-current-script, navigator, FingerprintJS)
+!Blokowało pokazywanie się captchy
+pahe.*#@#+js(abort-current-script, navigator, FingerprintJS)
 !pahe.ink##+js(aopw, _pop)
 !pahe.ink##+js(acis, String.fromCharCode, 'shift')
 !pahe.ink##+js(aopr, open)
@@ -4725,7 +4772,6 @@ pepper.pl##div.slot
 !https://path.pepper.pl/pepper-pl/redirect?url=https://www.amazon.pl/dp/B0DP1VG1DZ?smid=A2R2221NX79QZP&product=ppr-pl-835933822&tag=eugc
 !https://path.pepper.pl/pepper-pl/redirect?url=https%3A%2F%2Fwww.neonet.pl%2Fp%2F1458294-wentylator-viccio-ffa4058.html&product=ppr-pl-835933350
 ||path.pepper.pl/pepper-pl/redirect?url=$doc,removeparam=product
-||path.pepper.pl/pepper-pl/redirect?url=$urlskip=?url
 ! 11.06.2020 https://www.pepper.pl
 !Okazja: "Najgorętsze okazje wprost na Twoją skrzynkę?"
 pepper.pl##DIV.js-newsletter-widget
@@ -4812,13 +4858,22 @@ povathemes.com##:is(.get-link, .h5-font, .h4-font, #countdown, #go-link):others(
 
 ||ppstatic.pl/*/promoButton.css
 
+!https://www.pracuj.pl/praca/informatyk-sledczy-radom,oferta,1004915932?s=8e06dcbf&searchId=MTc4NDU3NjAxMDMyNC45Mjc3
+||pracuj.pl^$doc,removeparam=s
+||pracuj.pl^$doc,removeparam=searchId
+!Jeżeli  nie jest zaznaczona opcja pracy zdalnej to maką się nie pokazywać na liście ofert
+!pracuj.pl#@#div.listing_c1kp0v2c[data-test="whole-poland-switch-box-section"]
+!pracuj.pl##div.listing_c1kp0v2c[data-test="whole-poland-switch-box-section"]
+pracuj.pl##:xpath(//div[@class="listing_lag1snl"][not(.//div[@class="listing_f10raq9d"][text()="tryb pracy: praca zdalna" or text()="tryb pracy: praca hybrydowa"])]) div#offers-list > div[data-test="section-offers"] > div:has(strong:has-text(Cała Polska (praca zdalna)))
+!Pod listą z ofert. "Oferty z innych lokalizacji, które mogą Cię zainteresować"
+pracuj.pl##.listing_wd4s1t0
 !
 !Oferty z innych lokalizacji, które mogą Cię zainteresować
 pracuj.pl##div[data-test="section-rangebox"]
 !pracuj.pl##div[data-test="section-rangebox"]
 !pracuj.pl##div.listing_wd4s1t0[data-test="range-box-section"]
 pracuj.pl##div.listing_b1i2dnp8[data-test="section-positioned-offers"]
-pracuj.pl##div.listing_c1kp0v2c[data-test="whole-poland-switch-box-section"]
+
 pracuj.pl##div.listing_b1iu67y9[data-test="section-headline"]
 !Zdjęcia w ofertach
 pracuj.pl##div.offer-tile_i1halfd2[data-test="desktop-banner-container"]
@@ -5018,6 +5073,25 @@ rezsx.xyz,tryzt.xyz##center.modal-sh > p, center.modal-sh > h2, center.modal-sh 
 
 ||rlcdn.com
 
+rlsbb.to##article:has(a[href^="https://www.wwe.com/"])
+rlsbb.to##article:has(a[href^="http://www.wwe.com/"])
+rlsbb.to##article:has(a[href*="://www.wwe.com/"])
+rlsbb.to##article:has(a[href="https://www.imdb.com/title/tt36614693/"])
+rlsbb.to##article:has(a[href="https://thetvdb.com/series/blue-ridge"])
+rlsbb.to##article:has(a[href="http://www.cwtv.com/shows/all-american/"])
+rlsbb.to##article:has(a[href^="https://www.dazn.com/"])
+rlsbb.to##article:has(a[href^="https://wwr-stardom.com/"])
+rlsbb.to##article:has(a[href^="https://g1climax.njpw.co.jp/"])
+rlsbb.to##article:has(a[href="https://www.imdb.com/title/tt35668156/"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/805/kitchen-nightmares"])
+rlsbb.to##article:has(a[href="https://www.imdb.com/title/tt18396952/"])
+rlsbb.to##article:has(a[href^="https://www.hbomax.com/shows/life-larry-and-the-pursuit-of-unhappiness/"])
+rlsbb.to##article:has(a[href^="https://www.hbomax.com/shows/stuart-fails-to-save-the-universe/"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/92113/the-man-will-burn"])
+rlsbb.to##article:has(a[href="https://www.tvmaze.com/shows/48090/star-trek-strange-new-worlds"])
+rlsbb.to##article:has(a[href^="https://www.trillertv.com/"])
+rlsbb.to##article:has(div.entry-summary > p:first-child > strong > span[style="color: #ff0000;"]:has-text(/Hindi|Japanese/))
+rlsbb.to##article:has(a[href="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"])
 rlsbb.to##article:has(a[href="http://www.tv.com/shows/wwe-wrestlemania/"])
 rlsbb.to##article:has(a[href="https://www.dazn.com/en-GB/competition/Competition:2w5dbpbxsaqyhodde8bzc8cgc"])
 rlsbb.to##article:has(a[href="https://www.bkbbareknuckle.com/"])
@@ -5752,7 +5826,6 @@ tii.ai##DIV.col-md-10 > DIV.text-left
 tii.ai##DIV.col-md-10 > P
 tii.ai##DIV.col-md-10 > H3
 
-
 tiktok.com##+js(set-attr, video, controls, true)
 tiktok.com##.css-1ct4sy3-65fdda1d--DivCamera
 tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:style(position: fixed !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; display: block !important; object-fit: contain !important;)
@@ -5761,7 +5834,6 @@ tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el
 tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:others():remove-attr(class)
 tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:upward([style]):remove-attr(style)
 tiktok.com##:matches-path(/\/@[^\/]+?\/video\/\d+$/) video#sharing-main-video-el:upward([class]):remove-attr(class)
-
 
 ! 2021-11-23 https://time.com
 time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component
@@ -6416,8 +6488,8 @@ zdajmyrazem.pl##DIV.col-xs-12 > DIV.panel.panel-default.hidden-print
 zdajmyrazem.pl##DIV.fb-share-button
 zdajmyrazem.pl##DIV[class*="adsense"]
 
-zegtrends.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap, #fin):others()
-zegtrends.com#@#:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap, #fin):others()
+!zegtrends.com##:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap, #fin):others()
+!zegtrends.com#@#:is(IFRAME[src*="https://www.google.com/recaptcha/api2/anchor?"], IFRAME[src*="https://www.google.com/recaptcha/api2/bframe?"], BUTTON.bsub, BUTTON#go, DIV#cap, #fin):others()
 
 @@||www.zenaps.com/rclick.php?$document,first-party
 ||zenaps.com^$popup,badfilter
@@ -6435,3 +6507,4 @@ zone-telechargement.fyi##a[href^="https://dl-protect.link/rqst-direct-url?fn="]
 ||zone-telechargement.fyi/templates/zone/images/dl/telechargement-direct.png
 
 ||zopim.com^
+
