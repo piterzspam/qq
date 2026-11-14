@@ -2453,6 +2453,9 @@ instagram.com##div[style="padding-bottom:125%"]:has(> img[src*="cdninstagram.com
 !https://www.instagram.com/reel/DW0tsg3DMGu/
 instagram.com##video[src] + div[data-instancekey]:has(div[aria-label="Video player"])
 instagram.com##+js(set-attr, video[src], controls, true)
+!Nie wiem czemu po usunięciu tego skryptu zawsze działa set-attr controls true
+!https://www.instagram.com/reel/DIQ59wvo223/?l=1
+instagram.com##^script:has-text(__REACT_DEVTOOLS_GLOBAL_HOOK__)
 
 insurancemyst.com##a#startButton, div#newtimer, div#message, button#getnewlink:others()
 
