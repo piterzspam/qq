@@ -2123,7 +2123,7 @@ www.google.com##:matches-path(/\/search\?/) div.isv-id:has(> img.isv-it[src^="ht
 !||photos.google.com/u/*/_/PhotosUi/data/batchexecute?rpcids=CuHOKd&
 ||photos.google.com/u/*/_/PhotosUi/data/batchexecute?rpcids=aaaaaa&
 !Obrazy z google grafika: href="/imgres?q=test&imgurl=https%3A%2F%2Ftrenerangielskiego.com%2Fwp-content%2Fuploads%2F2015%2F10%2F5843577306_06fd6132f7_b.jpg&imgrefurl=https%3A%2F%2Ftrenerangielskiego.com%2Fekspresowa-diagnoza-czyli-jak-szybko-ocenic-poziom-sluchacza%2F&docid=8KUX_irZYeytbM&tbnid=mjFLkGJMpd4XMM&vet=12ahUKEwj31tLFr4-VAxVjHhAIHbNQLjAQnPAOegUIuAEQAA..i&w=1024&h=684&hcb=2&ved=2ahUKEwj31tLFr4-VAxVjHhAIHbNQLjAQnPAOegUIuAEQAA"
-www.google.com##+js(href-sanitizer, a[href*="&imgurl="], ?imgurl)
+www.google.com##+js(href-sanitizer, a[href*="imgurl="], ?imgurl)
 www.google.com##+js(href-sanitizer, a[href*="/url"], ?url)
 !Wyniki wyszukiwania mobilnego href="/url?q=https://www.speedtest.pl/&sa=U&ved=2ahUKEwjppcKJsY-VAxWQHXcKHVEGGrcQFnoECAgQAg&usg=AOvVaw2fbA8uAWSsEsBFIivlULHz"
 www.google.com##+js(href-sanitizer, a[href^="/url?q="], ?q)
